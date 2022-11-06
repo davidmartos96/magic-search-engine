@@ -22,7 +22,7 @@ end
 
 desc "Generate index"
 task "index" do
-  sh "rescue ./indexer/bin/indexer"
+  sh "./indexer/bin/indexer"
 end
 
 desc "Update mtgjson database"
@@ -149,11 +149,11 @@ end
 desc "Update decklists only"
 task "update:decks" do
   Pathname("tmp").mkpath
-  sh "~/github/magic-preconstructed-decks/bin/build_jsons ./tmp/decks.json"
+  sh "~/Dev/magic-preconstructed-decks/bin/build_jsons ./tmp/decks.json"
   sh "./deck_indexer/bin/deck_indexer"
-  sh "./bin/export_decks_data_old ~/github/magic-preconstructed-decks-data/decks.json"
-  sh "./bin/export_decks_data ~/github/magic-preconstructed-decks-data/decks_v2.json"
-  sh "./bin/export_xmage_best_card_list ~/github/mtg/data/xmage_cards.txt"
+  sh "./bin/export_decks_data_old ~/Dev/magic-preconstructed-decks-data/decks.json"
+  sh "./bin/export_decks_data ~/Dev/magic-preconstructed-decks-data/decks_v2.json"
+  sh "./bin/export_xmage_best_card_list ~/Dev/mtg/data/xmage_cards.txt"
 end
 
 desc "Export decklists as text"
