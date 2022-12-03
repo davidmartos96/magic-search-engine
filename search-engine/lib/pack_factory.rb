@@ -639,6 +639,14 @@ class PackFactory
       build_pack_with_random_foil(set_code, 1/3r, :foil, :neo_sfc_common, {neo_land: 1, neo_dfc_common_uncommon: 1, neo_sfc_common: 9, sfc_uncommon: 3, rare_mythic: 1})
     when "neo-arena"
       build_pack(set_code, {neo_land: 1, neo_dfc_common_uncommon: 1, sfc_common: 9, sfc_uncommon: 3, rare_mythic: 1})
+    when "bro"
+      WeightedPack.new(
+        build_pack(set_code, {bro_foil: 1, common: 9, uncommon: 3, rare_mythic: 1, brr_retro_artifact: 1}) => 4,
+        build_pack(set_code, {common: 10, uncommon: 3, rare_mythic: 1, brr_retro_artifact: 1}) => 5,
+        build_pack(set_code, {bro_mech_basic: 1, common: 9, uncommon: 3, rare_mythic: 1, brr_retro_artifact: 1}) => 3,
+      )
+    when "bro-arena"
+      build_pack(set_code, {common: 10, uncommon: 3, rare_mythic: 1, brr_retro_artifact: 1})
     else
       # No packs for this set, let caller figure it out
       # Specs make sure right specs hit this

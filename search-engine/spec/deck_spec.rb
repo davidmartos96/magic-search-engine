@@ -20,6 +20,7 @@ describe Deck do
       ["board game deck", "Theme Deck"],
       ["box", "Game Night Deck"],
       ["pioneer", "Pioneer Challenger Deck"],
+      ["standard", "Pioneer Challenger Deck"], # q08 listed under bro?
       # Standard sets
       ["core", "Clash Pack"],
       ["core", "Event Deck"],
@@ -165,6 +166,7 @@ describe Deck do
       next if set.code == "nec"
       next if set.code == "ncc"
       next if set.code == "clb"
+      next if set.code == "brc"
       # Extra card Fabricate as promo
       next if set.code == "40k"
 
