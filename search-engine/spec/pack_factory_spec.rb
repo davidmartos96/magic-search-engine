@@ -9,6 +9,8 @@ describe PackFactory do
   def card(query, **args)
     query_set_code = args[:set_code] || set_code
     query_foil = args[:foil] || foil
+    query += " is:foil" if query_foil
+    query += " is:nonfoil" unless query_foil
     physical_card("e:#{query_set_code} is:booster #{query}", query_foil)
   end
 
@@ -40,10 +42,10 @@ describe PackFactory do
       s.types.include?("core") or s.types.include?("expansion")
     }.to_set }
     let(:expected_official) {
-      regular_sets.select{|set| set.release_date >= start_date}.map(&:code).to_set - %W[emn soi] + %W[m15 mh1 2xm cmr klr akr tsr mh2 dbl clb 2x2 unf]
+      regular_sets.select{|set| set.release_date >= start_date}.map(&:code).to_set - %W[emn soi] + %W[m15 mh1 2xm cmr klr akr tsr mh2 dbl clb 2x2 unf dmr]
     }
     let(:expected_mtgjson_variant) {
-      ["mir", "ody", "por", "5ed", "soi", "atq", "drk", "inv", "pcy", "4ed", "7ed", "8ed", "9ed", "mb1", "ons", "gpt"]
+      ["mir", "ody", "por", "5ed", "soi", "atq", "drk", "inv", "pcy", "4ed", "7ed", "8ed", "9ed", "mb1", "ons", "gpt", "ala"]
     }
     let(:expected_basics_not_in_boosters) {
       ["ice", "mir", "tmp", "usg", "4ed", "5ed", "6ed", "zen"]
@@ -155,7 +157,7 @@ describe PackFactory do
         ev[common].should eq Rational(391,40) * Rational(1,55)
         ev[uncommon].should eq Rational(3,40)
         ev[rare].should eq Rational(1,40)
-        ev[super_secret_tech].should eq 0
+        proc{ super_secret_tech }.should raise_error(/No card matching/)
       end
     end
 
@@ -1696,6 +1698,33 @@ describe PackFactory do
         ev[dfc_rare].should eq Rational(2, 119+35) * (77/60r)
         ev[dfc_mythic].should eq Rational(1, 119+35) * (77/60r)
       end
+    end
+  end
+
+  context "30A" do
+    let(:set_code) { "30a" }
+    let(:basic) { card("r:basic number<=297") }
+    let(:common) { card("r:common number<=297") }
+    let(:uncommon) { card("r:uncommon number<=297") }
+    let(:rare) { card("r:rare number<=297 -is:dual") }
+    let(:dual) { card("r:rare number<=297 is:dual") }
+    let(:retro_basic) { card("r:basic number>297") }
+    let(:retro_common) { card("r:common number>297") }
+    let(:retro_uncommon) { card("r:uncommon number>297") }
+    let(:retro_rare) { card("r:rare number>297 -is:dual") }
+    let(:retro_dual) { card("r:rare number>297 is:dual") }
+
+    it do
+      ev[basic].should eq Rational(2, 15)
+      ev[common].should eq Rational(7, 74)
+      ev[uncommon].should eq Rational(3, 95)
+      ev[rare].should eq Rational(1, 123)
+      ev[dual].should eq Rational(2, 123)
+      ev[retro_basic].should eq Rational(1, 15)
+      ev[retro_common].should eq Rational(4, 3*95 + 4*74) * Rational(7, 10) * Rational(830, 827)
+      ev[retro_uncommon].should eq Rational(3, 3*95 + 4*74) * Rational(7, 10) * Rational(830, 827)
+      ev[retro_rare].should eq Rational(1, 123) * Rational(3, 10) * Rational(820, 827)
+      ev[retro_dual].should eq Rational(2, 123) * Rational(3, 10) * Rational(820, 827)
     end
   end
 end

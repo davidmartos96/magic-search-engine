@@ -50,7 +50,7 @@ describe "Regexp" do
   end
 
   it "regexp flavor text" do
-    assert_search_results 'ft:/\d{4,}/ -e:olgc,ovnt',
+    assert_search_results 'ft:/\d{4,}/ -e:olgc,ovnt,pewk',
       "Aardwolf's Advantage",
       "Automatic Librarian",
       "Collector Ouphe",
@@ -58,11 +58,9 @@ describe "Regexp" do
       "Gilded Lotus",
       "Goblin Secret Agent",
       "Gore Vassal",
-      "Gush",
       "Invoke the Divine",
       "Mise",
       "Nalathni Dragon",
-      "Ponder",
       "Remodel",
       "Spinnerette, Arachnobat"
 
@@ -86,6 +84,7 @@ describe "Regexp" do
       "Asmoranomardicadaistinaculdacar",
       "Circle of Protection: Artifacts",
       "Coax from the Blind Eternities",
+      "Elesh Norn, Mother of Machines",
       "Hanweir, the Writhing Township",
       "Ib Halfheart, Goblin Tactician",
       "Jadar, Ghoulcaller of Nephalia",
@@ -101,6 +100,7 @@ describe "Regexp" do
 
   it "regexp rulings text" do
     assert_search_results "rulings:fly",
+      "Devil K. Nevil",
       "Wings of Hubris",
       "Sarah's Wings"
     assert_search_equal "rulings:flying", 'rulings:/\bflying\b/'

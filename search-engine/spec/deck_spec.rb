@@ -37,6 +37,7 @@ describe Deck do
       ["expansion", "Planeswalker Deck"],
       ["expansion", "Theme Deck"],
       ["expansion", "Brawl Deck"],
+      ["standard", "Starter Deck"],
       ["starter", "Intro Pack"],
       ["box", "Guild Kit"],
       ["starter", "Starter Deck"],
@@ -51,6 +52,7 @@ describe Deck do
       ["funny", "Halfdeck"],
       ["draft innovation", "Jumpstart"], # JMP only
       ["memorabilia", "World Championship Decks"], # WCxx
+      ["expansion", "Jumpstart"],
     ]
 
     db.sets.each do |set_code, set|
@@ -128,6 +130,10 @@ describe Deck do
         sets_found.should match_array ["ncc", "snc"]
       when "dmc"
         sets_found.should match_array ["dmu", "dmc"]
+      when "phed"
+        sets_found.should match_array ["phed", "sld"]
+      when "onc"
+        sets_found.should match_array ["onc", "one"]
       else
         sets_found.should eq [set.code]
       end
@@ -139,6 +145,7 @@ describe Deck do
   # * we don't have any foil information, on either side
   #
   # This test fails for most new sets
+  # I just need to do a date cutoff for it instead of ever growing explicit exception lists
   it "cards in precon sets are all in their precon decks" do
     precon_sets.each do |set|
       # Plane cards are technically not part of any precon in it
@@ -169,6 +176,9 @@ describe Deck do
       next if set.code == "brc"
       # Extra card Fabricate as promo
       next if set.code == "40k"
+      # Contains some SLD cards
+      next if set.code == "phed"
+      next if set.code == "onc"
 
       # All names match both ways
       set_card_names = set.physical_card_names
@@ -278,6 +288,8 @@ describe Deck do
         foils_rarity.should match_array(["rare"] * 3 + ["mythic"] * 10)
         next
       end
+      # PHED is 50:50 foil nonfoil, I'll just need to trust mtgjson here
+      next if set_code == "phed"
 
       # Some crazy foiling in them
       # Deck indexer doesn't even try, it's just marked on decklist manually
@@ -293,6 +305,9 @@ describe Deck do
           foils.should match_array(clash_pack_cards)
           next
         end
+
+        # Some have foil basics
+        next if deck.type == "Jumpstart"
 
         foils = deck.physical_cards.select(&:foil)
         # Skip if no foils

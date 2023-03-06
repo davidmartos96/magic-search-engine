@@ -10,6 +10,9 @@ class PatchBaseSize < Patch
       "dmu" => 281,
       "brr" => 126, # nothing printed due to old frame
       "bro" => 287,
+      "dmr" => 261,
+      "one" => 271,
+      "onc" => 28,
     }
 
     sizes.each do |code, size|

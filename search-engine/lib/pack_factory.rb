@@ -254,6 +254,11 @@ class PackFactory
       "thb",
       "afr"
       build_pack_with_random_foil(set_code, 1/3r, :foil, :common, {basic: 1, common: 10, uncommon: 3, rare_mythic: 1})
+    when "one"
+      WeightedPack.new(
+        build_pack_with_random_foil(set_code, 1/3r, :foil, :common, {basic: 1, common: 10, uncommon: 3, rare_mythic: 1}) => 59,
+        build_pack_with_random_foil(set_code, 1/3r, :foil, :common, {basic: 1, common: 10, uncommon: 3, one_praetor: 1}) => 1,
+      )
     when "snc"
       build_pack_with_random_foil(set_code, 1/3r, :foil, :common, {snc_basic: 1, common: 10, uncommon: 3, rare_mythic: 1})
     when "unf"
@@ -329,7 +334,7 @@ class PackFactory
       # U and R sheets have showcases, but not on Arena
       build_pack_with_random_foil(set_code, 1/3r, :iko_foil, :explicit_common, {iko_basic_or_gainland: 1, explicit_common: 10, explicit_uncommon: 3, explicit_rare: 1})
     when "iko-arena"
-      build_pack(set_code, {iko_basic_or_gainland: 1, nongainland_common: 10, uncommon: 3, rare_mythic: 1})
+      build_pack(set_code, {iko_basic_or_gainland: 1, nongainland_common_baseset: 10, uncommon_baseset: 3, rare_mythic_baseset: 1})
     when "m21"
       # gainlands x6, basics x3
       build_pack_with_random_foil(set_code, 1/3r, :foil, :nongainland_common, {m21_basic_or_gainland: 1, nongainland_common: 10, uncommon: 3, rare_mythic: 1})
@@ -591,6 +596,11 @@ class PackFactory
     when "klr-arena", "akr-arena", "eld-arena", "thb-arena", "rix-arena", "xln-arena", "afr-arena", "snc-arena"
       # Arena-only boosters, 14 card booster (no basic at all)
       build_pack(set_code, {common: 10, uncommon: 3, rare_mythic: 1})
+    when "one-arena"
+      WeightedPack.new(
+        build_pack(set_code, {common: 10, uncommon: 3, rare_mythic: 1}) => 59,
+        build_pack(set_code, {common: 10, uncommon: 3, one_praetor: 1}) => 1,
+      )
     when "m19-arena"
       # Arena-only boosters, 15 card booster (basic or common land in last slot)
       # every set does it slightly differently so listed separately
@@ -647,6 +657,15 @@ class PackFactory
       )
     when "bro-arena"
       build_pack(set_code, {common: 10, uncommon: 3, rare_mythic: 1, brr_retro_artifact: 1})
+    when "dmr"
+      # "Each Draft Booster contains 1 retro frame card of any rarity and 1 retro frame land"
+      # This doesn't handle retro frames for nonland cards
+      # For retro basics, there are no other basics anyway, so it works without explicit checks
+      build_pack_with_random_foil(set_code, 1/3r, :foil, :common, {basic: 1, common: 10, uncommon: 3, rare_mythic: 1})
+    when "30a"
+      # Each pack of 30th Anniversary Edition contains 15 cards, 13 cards in the modern frame—1 rare, 3 uncommons,
+      # 7 commons, and 2 basic lands—plus one basic land in the retro frame, one additional retro frame card, and a token.
+      build_pack(set_code, {a30_common: 7, a30_uncommon: 3, a30_rare: 1, a30_basic: 2, a30_retro_basic: 1, a30_retro: 1})
     else
       # No packs for this set, let caller figure it out
       # Specs make sure right specs hit this

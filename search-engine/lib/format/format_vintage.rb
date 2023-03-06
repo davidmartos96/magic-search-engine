@@ -59,7 +59,6 @@ class FormatVintage < Format
       ptg
       punh
       pust
-      sunf
       tafr
       tbth
       tclb
@@ -83,10 +82,12 @@ class FormatVintage < Format
       wc99
       wc99
       xana
+      ybro
       ydmu
       ymid
       yneo
       ysnc
+      yone
     ]]
 
     # Portal / Starter sets used to not be tournament legal

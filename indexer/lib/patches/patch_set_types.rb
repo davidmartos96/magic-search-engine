@@ -53,13 +53,13 @@ class PatchSetTypes < Patch
         set_types << "pioneer"
       when "phed", "scd"
         # OK, technically this is Commander deck, but I really don't want to deal with it
-        set_types = ["box", "promo"]
+        set_types = ["box", "promo", "commander"]
       when "sld", "plist", "pz2", /\Ap...\z/
         set_types << "promo"
       end
 
       # Some of these are not actually funny sets, just promo sets mixing funny and regular cards (like plist)
-      funny_sets = %W[unh ugl pcel hho parl prel ust pust ppc1 htr htr16 htr17 htr18 htr19 htr20 pal04 h17 j17 tbth tdag tfth thp1 thp2 thp3 ptg cmb1 cmb2 htr18 und punh plist o90p olep p30a sunf uplist phtr ph17 ph18 ph19 ph20 ph21]
+      funny_sets = %W[unh ugl pcel hho parl prel ust pust ppc1 htr htr16 htr17 htr18 htr19 htr20 pal04 h17 j17 tbth tdag tfth thp1 thp2 thp3 ptg cmb1 cmb2 htr18 und punh plist o90p olep p30a uplist phtr ph17 ph18 ph19 ph20 ph21]
       if funny_sets.include?(set_code)
         set_types << "funny"
         set["funny"] = true

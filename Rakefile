@@ -49,6 +49,7 @@ end
 desc "Update XMage card lists"
 task "xmage:update" do
   sh "rescue bin/extract_xmage_card_list ~/src/mage"
+  sh "./bin/export_xmage_best_card_list ~/github/mtg/data/xmage_cards.txt"
 end
 
 desc "Fetch Gatherer pics"
@@ -57,7 +58,7 @@ task "pics:gatherer" do
 end
 
 desc "Connect links to HQ pics"
-task "link:pics" do
+task "link:pics:hq" do
   Pathname("frontend/public/cards_hq").mkpath
   if ENV["RAILS_ENV"] == "production"
     sources = Dir["/home/rails/magic-card-pics-hq-*/*/"]
@@ -73,6 +74,27 @@ task "link:pics" do
     target_path.make_symlink(source)
   end
 end
+
+desc "Connect links to LQ pics"
+task "link:pics:lq" do
+  Pathname("frontend/public/cards").mkpath
+  if ENV["RAILS_ENV"] == "production"
+    sources = Dir["/home/rails/magic-card-pics-[0-9]/*/"]
+  else
+    sources = Dir["#{ENV['HOME']}/github/magic-card-pics-[0-9]/*/"]
+  end
+  sources.each do |source|
+    source = Pathname(source)
+    set_name = source.basename.to_s
+    target_path = Pathname("frontend/public/cards/#{set_name}")
+    next if target_path.exist?
+    # p [target_path, source]
+    target_path.make_symlink(source)
+  end
+end
+
+desc "Connect links to pics"
+task "link:pics" => ["link:pics:lq", "link:pics:hq"]
 
 desc "Fetch HQ pics"
 task "pics:hq" do
@@ -131,30 +153,27 @@ task "update" do
   Rake::Task["rules:update"].invoke
   Rake::Task["pennydreadful:update"].invoke
   Rake::Task["mtgjson:fetch"].invoke
+  Rake::Task["import:decks"].invoke
   Rake::Task["index"].invoke
   Rake::Task["xmage:update"].invoke
-  sh "~/github/magic-preconstructed-decks/bin/build_jsons ./tmp/decks.json"
-  sh "./deck_indexer/bin/deck_indexer"
-  sh "./bin/export_sealed_data ~/github/magic-sealed-data"
-  sh "./bin/export_decks_data_old ~/github/magic-preconstructed-decks-data/decks.json"
-  sh "./bin/export_decks_data ~/github/magic-preconstructed-decks-data/decks_v2.json"
-  # sh "trash ./tmp/decks.json"
-  # sh "trash ./tmp/AllSets.json"
+  Rake::Task["update:sealed"].invoke
+  Rake::Task["export:decks"].invoke
+end
+
+desc "Import deck data"
+task "import:decks" do
+  sh "~/Dev/magic-preconstructed-decks/bin/build_jsons ./tmp/decks.json"
+end
+
+desc "Export deck data"
+task "export:decks" do
+  sh "./bin/export_decks_data_old ~/Dev/magic-preconstructed-decks-data/decks.json"
+  sh "./bin/export_decks_data ~/Dev/magic-preconstructed-decks-data/decks_v2.json"
 end
 
 desc "Update sealed only"
 task "update:sealed" do
   sh "./bin/export_sealed_data ~/github/magic-sealed-data"
-end
-
-desc "Update decklists only"
-task "update:decks" do
-  Pathname("tmp").mkpath
-  sh "~/Dev/magic-preconstructed-decks/bin/build_jsons ./tmp/decks.json"
-  sh "./deck_indexer/bin/deck_indexer"
-  sh "./bin/export_decks_data_old ~/Dev/magic-preconstructed-decks-data/decks.json"
-  sh "./bin/export_decks_data ~/Dev/magic-preconstructed-decks-data/decks_v2.json"
-  sh "./bin/export_xmage_best_card_list ~/Dev/mtg/data/xmage_cards.txt"
 end
 
 desc "Export decklists as text"
