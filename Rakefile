@@ -160,9 +160,17 @@ task "update" do
   Rake::Task["export:decks"].invoke
 end
 
+desc "Update only decks"
+task "update:decks" do
+  #Rake::Task["mtgjson:fetch"].invoke
+  Rake::Task["import:decks"].invoke
+  Rake::Task["index"].invoke
+  Rake::Task["export:decks"].invoke
+end
+
 desc "Import deck data"
 task "import:decks" do
-  sh "~/Dev/magic-preconstructed-decks/bin/build_jsons ./tmp/decks.json"
+  sh "~/Dev/magic-preconstructed-decks/bin/build_jsons ./data/decks.json"
 end
 
 desc "Export deck data"
