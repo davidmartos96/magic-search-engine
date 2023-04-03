@@ -22,7 +22,8 @@ end
 
 desc "Generate index"
 task "index" do
-  sh "./indexer/bin/indexer"
+  sh "rescue ./indexer/bin/indexer"
+  sh "rescue ./booster_indexer/bin/booster_indexer"
 end
 
 desc "Update mtgjson database"
@@ -114,6 +115,11 @@ end
 desc "List cards without pictures"
 task "pics:missing" do
   sh "./bin/cards_without_pics"
+end
+
+desc "List cards with pictures in incorrect orientation"
+task "pics:missing" do
+  sh "./bin/cards_with_wrong_orientation"
 end
 
 desc "List cards with duplicated pictures (except where valid)"
