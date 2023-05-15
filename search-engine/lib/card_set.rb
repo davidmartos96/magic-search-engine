@@ -1,16 +1,16 @@
 class CardSet
-  attr_reader :name, :code, :alternative_code, :gatherer_code
+  attr_reader :name, :code, :alternative_code
   attr_reader :block_name, :block_code, :alternative_block_code
   attr_reader :border, :release_date, :printings, :types
   attr_reader :decks, :base_set_size
   attr_reader :products, :subsets
+  attr_reader :normalized_name, :normalized_name_alt
 
   def initialize(db, data)
     @db = db
     @name          = data["name"]
     @code          = data["code"]
     @alternative_code = data["alternative_code"]
-    @gatherer_code = data["gatherer_code"]
     @block_name    = data["block_name"]
     @block_code    = data["block_code"]&.downcase
     @alternative_block_code = data["alternative_block_code"]&.downcase
@@ -27,6 +27,10 @@ class CardSet
     @base_set_size = data["base_set_size"]
     @products = (data["products"] || []).map{|x| Product.new(self, x)}
     @subsets = data["subsets"]
+
+    # cache for better performance of e:
+    @normalized_name = normalize_set_name(@name)
+    @normalized_name_alt = normalize_set_name_alt(@name)
   end
 
   def has_individual_card_release_dates?
@@ -104,5 +108,23 @@ class CardSet
 
   def inspect
     "CardSet[#{@code}, #{@name}]"
+  end
+
+  private
+  # copied from CardDatabase
+  def normalize_text(text)
+    text.downcase.normalize_accents.strip
+  end
+
+  def normalize_name(name)
+    normalize_text(name).split.join(" ")
+  end
+
+  def normalize_set_name(name)
+    normalize_text(name).downcase.gsub("'s", "s").split(/[^a-z0-9]+/).join(" ")
+  end
+
+  def normalize_set_name_alt(name)
+    normalize_text(name).downcase.gsub("'s", "").split(/[^a-z0-9]+/).join(" ")
   end
 end

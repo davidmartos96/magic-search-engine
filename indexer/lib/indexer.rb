@@ -152,10 +152,8 @@ class Indexer
         "tokens",
         "type",
       ).merge(
-        "gatherer_code" => set_data["gathererCode"],
         "official_code" => set_data["code"],
         "online_only" => (set_data["onlineOnly"] || set_data["isOnlineOnly"]) ? true : nil,
-        "has_boosters" => !!(set_data["booster"] || set_data["boosterV3"]),
         "base_set_size" => set_data["baseSetSize"],
       ).compact
       @sets << set

@@ -146,7 +146,7 @@ describe "CLI Frontend" do
       verbose: true,
       output: <<-EOF,
         Nicol Bolas, the Arisen
-        [m19 pm19 pj21]
+        [m19 pm19 pj21 sld sld]
         Legendary Planeswalker - Bolas
         (Color indicator: Nicol Bolas, the Arisen is blue, black, and red)
         [+2]: Draw two cards.
@@ -201,6 +201,7 @@ describe "CLI Frontend" do
         Kolaghan Monument
         Kolaghan Skirmisher
         Kolaghan Stormsinger
+        Kolaghan Warmonger
         Kolaghan's Command
         Kolaghan, the Storm's Fury
         EOF

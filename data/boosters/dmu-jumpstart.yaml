@@ -1,0 +1,118 @@
+name: "Dominaria United Jumpstart Booster"
+packs:
+- arcane_mischief: 17
+  arcane_mischief_foils: 2
+  rare_mythic_blue: 1
+- beast_territory: 17
+  beast_territory_foils: 2
+  rare_mythic_green: 1
+- coalition_corps: 17
+  coalition_corps_foils: 2
+  rare_mythic_white: 1
+- coalition_legion: 17
+  coalition_legion_foils: 2
+  rare_mythic_white: 1
+- monster_territory: 17
+  monster_territory_foils: 2
+  rare_mythic_green: 1
+- mystic_mischief: 17
+  mystic_mischief_foils: 2
+  rare_mythic_blue: 1
+- ready_to_attack: 17
+  ready_to_attack_foils: 2
+  rare_mythic_red: 1
+- ready_to_charge: 17
+  ready_to_charge_foils: 2
+  rare_mythic_red: 1
+- totally_merciless: 17
+  totally_merciless_foils: 2
+  rare_mythic_black: 1
+- totally_ruthless: 17
+  totally_ruthless_foils: 2
+  rare_mythic_black: 1
+sheets:
+  arcane_mischief:
+    deck: "dmu/Arcane Mischief"
+    count: 17
+  arcane_mischief_foils:
+    deck: "dmu/Arcane Mischief"
+    count: 2
+    foil: true
+  beast_territory:
+    deck: "dmu/Beast Territory"
+    count: 17
+  beast_territory_foils:
+    deck: "dmu/Beast Territory"
+    count: 2
+    foil: true
+  coalition_corps:
+    deck: "dmu/Coalition Corps"
+    count: 17
+  coalition_corps_foils:
+    deck: "dmu/Coalition Corps"
+    count: 2
+    foil: true
+  coalition_legion:
+    deck: "dmu/Coalition Legion"
+    count: 17
+  coalition_legion_foils:
+    deck: "dmu/Coalition Legion"
+    count: 2
+    foil: true
+  monster_territory:
+    deck: "dmu/Monster Territory"
+    count: 17
+  monster_territory_foils:
+    deck: "dmu/Monster Territory"
+    count: 2
+    foil: true
+  mystic_mischief:
+    deck: "dmu/Mystic Mischief"
+    count: 17
+  mystic_mischief_foils:
+    deck: "dmu/Mystic Mischief"
+    count: 2
+    foil: true
+  ready_to_attack:
+    deck: "dmu/Ready to Attack"
+    count: 17
+  ready_to_attack_foils:
+    deck: "dmu/Ready to Attack"
+    count: 2
+    foil: true
+  ready_to_charge:
+    deck: "dmu/Ready to Charge"
+    count: 17
+  ready_to_charge_foils:
+    deck: "dmu/Ready to Charge"
+    count: 2
+    foil: true
+  totally_merciless:
+    deck: "dmu/Totally Merciless"
+    count: 17
+  totally_merciless_foils:
+    deck: "dmu/Totally Merciless"
+    count: 2
+    foil: true
+  totally_ruthless:
+    deck: "dmu/Totally Ruthless"
+    count: 17
+  totally_ruthless_foils:
+    deck: "dmu/Totally Ruthless"
+    count: 2
+    foil: true
+  rare_mythic_white:
+    filter: "e:{set} number<=set id=w"
+    use: rare_mythic
+  rare_mythic_blue:
+    filter: "e:{set} number<=set id=u"
+    use: rare_mythic
+  rare_mythic_black:
+    filter: "e:{set} number<=set id=b"
+    use: rare_mythic
+  rare_mythic_red:
+    filter: "e:{set} number<=set id=r"
+    use: rare_mythic
+  rare_mythic_green:
+    filter: "e:{set} number<=set id=g"
+    use: rare_mythic

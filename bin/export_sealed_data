@@ -35,6 +35,11 @@ class ExportFormatter
     }.to_h
   end
 
+  # No LCM as => 1 and => 2 mean different things for fixed sheets
+  def integerize_fixed_evs(sheet)
+    sheet.elements.zip(sheet.weights).to_h
+  end
+
   def serialize_sheets(sheets)
     sheets.map{|sheet|
       [sheet.name, serialize_sheet(sheet)]
@@ -71,7 +76,11 @@ end
 
 class ExportFormatterBasic < ExportFormatter
   def serialize_sheet(sheet)
-    ev = integerize_evs sheet.probabilities
+    if sheet.is_a?(FixedCardSheet)
+      ev = integerize_fixed_evs sheet
+    else
+      ev = integerize_evs sheet.probabilities
+    end
 
     cards = ev.map do |e,w|
       name = "#{e.set_code}:#{e.number}"
@@ -80,7 +89,9 @@ class ExportFormatterBasic < ExportFormatter
     end.sort.to_h
 
     {
+      allow_duplicates: sheet.is_a?(CardSheetWithDuplicates) ? true : nil,
       balance_colors: sheet.is_a?(ColorBalancedCardSheet) ? true : nil,
+      fixed: sheet.is_a?(FixedCardSheet) ? true : nil,
       total_weight: cards.values.sum,
       cards: cards,
     }.compact
@@ -108,7 +119,11 @@ end
 
 class ExportFormatterExtended < ExportFormatter
   def serialize_sheet(sheet)
-    ev = integerize_evs sheet.probabilities
+    if sheet.is_a?(FixedCardSheet)
+      ev = integerize_fixed_evs sheet
+    else
+      ev = integerize_evs sheet.probabilities
+    end
 
     cards = ev.map do |e,w|
       {
@@ -121,7 +136,9 @@ class ExportFormatterExtended < ExportFormatter
     end.sort_by{|x| [x[:set], x[:number].to_i, x[:number], x[:foil] ? 0 : 1] }
 
     {
+      allow_duplicates: sheet.is_a?(CardSheetWithDuplicates) ? true : nil,
       balance_colors: sheet.is_a?(ColorBalancedCardSheet) ? true : nil,
+      fixed: sheet.is_a?(FixedCardSheet) ? true : nil,
       total_weight: cards.map{|x| x[:weight]}.sum,
       cards: cards,
     }.compact
@@ -151,7 +168,11 @@ class ExportFormatterExperimental < ExportFormatter
   def serialize_sheet(sheet)
     raise "Sheet is empty" if sheet.empty?
 
-    ev = integerize_evs sheet.probabilities
+    if sheet.is_a?(FixedCardSheet)
+      ev = integerize_fixed_evs sheet
+    else
+      ev = integerize_evs sheet.probabilities
+    end
 
     foil_status = ev.keys.map(&:foil).uniq
     raise "Sheet must be all-foil or all-nonfoil" unless foil_status == [true] or foil_status == [false]
@@ -170,7 +191,9 @@ class ExportFormatterExperimental < ExportFormatter
     cards = cards.to_h
 
     {
+      allowDuplicates: sheet.is_a?(CardSheetWithDuplicates) ? true : nil,
       balanceColors: sheet.is_a?(ColorBalancedCardSheet) ? true : nil,
+      fixed: sheet.is_a?(FixedCardSheet) ? true : nil,
       cards: cards,
       foil: foil_status[0],
       totalWeight: cards.values.sum,

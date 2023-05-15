@@ -35,6 +35,9 @@ class Query
     if @cond
       @cond.metadata! :logger, logger
       @cond.metadata! :fuzzy, nil
+      # We need to timeout to prevent DOS attacks, but unfortunately this could trigger
+      # in a lot of cases we don't want it to, like lazy loading booster data
+      # So there should be timeout in the frontend instead
       results = @cond.search(db)
       if results.empty?
         @cond.metadata! :fuzzy, db

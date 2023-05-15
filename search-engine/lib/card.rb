@@ -360,6 +360,7 @@ class Card
   attr_reader :mana_hash, :typeline, :funny, :color_indicator, :color_indicator_set, :related
   attr_reader :reminder_text, :augment, :display_power, :display_toughness, :display_mana_cost, :keywords
   attr_reader :commander, :brawler, :fulltext, :fulltext_normalized, :defense
+  attr_reader :colors_set, :color_identity_set
 
   def initialize(data)
     @printings = []
@@ -368,7 +369,9 @@ class Card
     @names = data["names"]
     @layout = data["layout"]
     @colors = data["colors"] || ""
+    @colors_set = @colors.chars.to_set
     @color_identity = data["ci"]
+    @color_identity_set = @color_identity.chars.to_set
     @funny = data["funny"]
     @fulltext = -(data["text"] || "")
     @fulltext_normalized = -@fulltext.normalize_accents
@@ -403,6 +406,7 @@ class Card
     @brawler = data["brawler"]
     if data["foreign_names"]
       @foreign_names = data["foreign_names"].map{|k,v| [k.to_sym,v]}.to_h
+      raise "Foreign data with empty value for #{name}" if @foreign_names.any?{|k,v| v.empty?}
     else
       @foreign_names = {}
     end
@@ -423,6 +427,7 @@ class Card
     calculate_mana_hash
     calculate_color_indicator
     calculate_reminder_text
+    @front = (!@secondary or @layout == "aftermath" or @layout == "flip" or @layout == "adventure")
   end
 
   def partner?
@@ -430,7 +435,7 @@ class Card
   end
 
   def front?
-    !@secondary or @layout == "aftermath" or @layout == "flip" or @layout == "adventure"
+    @front
   end
 
   def back?

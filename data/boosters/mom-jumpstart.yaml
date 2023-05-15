@@ -1,0 +1,118 @@
+name: "March of the Machine Jumpstart Booster"
+packs:
+- brood_1: 17
+  brood_1_foils: 2
+  rare_mythic_white: 1
+- brood_2: 17
+  brood_2_foils: 2
+  rare_mythic_white: 1
+- buff_1: 17
+  buff_1_foils: 2
+  rare_mythic_green: 1
+- buff_2: 17
+  buff_2_foils: 2
+  rare_mythic_green: 1
+- expendable_1: 17
+  expendable_1_foils: 2
+  rare_mythic_black: 1
+- expendable_2: 17
+  expendable_2_foils: 2
+  rare_mythic_black: 1
+- overachiever_1: 17
+  overachiever_1_foils: 2
+  rare_mythic_blue: 1
+- overachiever_2: 17
+  overachiever_2_foils: 2
+  rare_mythic_blue: 1
+- reinforcement_1: 17
+  reinforcement_1_foils: 2
+  rare_mythic_red: 1
+- reinforcement_2: 17
+  reinforcement_2_foils: 2
+  rare_mythic_red: 1
+sheets:
+  brood_1:
+    deck: "mom/Brood 1"
+    count: 17
+  brood_1_foils:
+    deck: "mom/Brood 1"
+    count: 2
+    foil: true
+  brood_2:
+    deck: "mom/Brood 2"
+    count: 17
+  brood_2_foils:
+    deck: "mom/Brood 2"
+    count: 2
+    foil: true
+  buff_1:
+    deck: "mom/Buff 1"
+    count: 17
+  buff_1_foils:
+    deck: "mom/Buff 1"
+    count: 2
+    foil: true
+  buff_2:
+    deck: "mom/Buff 2"
+    count: 17
+  buff_2_foils:
+    deck: "mom/Buff 2"
+    count: 2
+    foil: true
+  expendable_1:
+    deck: "mom/Expendable 1"
+    count: 17
+  expendable_1_foils:
+    deck: "mom/Expendable 1"
+    count: 2
+    foil: true
+  expendable_2:
+    deck: "mom/Expendable 2"
+    count: 17
+  expendable_2_foils:
+    deck: "mom/Expendable 2"
+    count: 2
+    foil: true
+  overachiever_1:
+    deck: "mom/Overachiever 1"
+    count: 17
+  overachiever_1_foils:
+    deck: "mom/Overachiever 1"
+    count: 2
+    foil: true
+  overachiever_2:
+    deck: "mom/Overachiever 2"
+    count: 17
+  overachiever_2_foils:
+    deck: "mom/Overachiever 2"
+    count: 2
+    foil: true
+  reinforcement_1:
+    deck: "mom/Reinforcement 1"
+    count: 17
+  reinforcement_1_foils:
+    deck: "mom/Reinforcement 1"
+    count: 2
+    foil: true
+  reinforcement_2:
+    deck: "mom/Reinforcement 2"
+    count: 17
+  reinforcement_2_foils:
+    deck: "mom/Reinforcement 2"
+    count: 2
+    foil: true
+  rare_mythic_white:
+    filter: "e:{set} number<=set id=w"
+    use: rare_mythic
+  rare_mythic_blue:
+    filter: "e:{set} number<=set id=u"
+    use: rare_mythic
+  rare_mythic_black:
+    filter: "e:{set} number<=set id=b"
+    use: rare_mythic
+  rare_mythic_red:
+    filter: "e:{set} number<=set id=r"
+    use: rare_mythic
+  rare_mythic_green:
+    filter: "e:{set} number<=set id=g"
+    use: rare_mythic

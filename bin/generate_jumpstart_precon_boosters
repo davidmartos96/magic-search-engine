@@ -1,0 +1,88 @@
+#!/usr/bin/env ruby
+
+require_relative "../search-engine/lib/card_database"
+
+class GenerateBoosterForSet
+  attr_reader :set, :decks
+
+  def initialize(set, decks)
+    @set = set
+    @decks = decks
+  end
+
+  def name
+    "#{set.name} Jumpstart Booster"
+  end
+
+  def code
+    "#{set.code}-jumpstart"
+  end
+
+  def path
+    Pathname(__dir__).parent + "data/boosters/#{code}.yaml"
+  end
+
+  def pack_data
+    pack = [
+      "name: #{name.inspect}",
+      "packs:",
+    ]
+    sheets = [
+      "sheets:",
+    ]
+    decks.each_with_index do |deck, i|
+      deck_code = "#{set.code}/#{deck.name}"
+
+      nonfoil_cards = deck.all_cards.select{|k,v| !v.foil}
+      nonfoil_count = nonfoil_cards.map(&:first).sum
+      nonfoil_sheet_name = deck.slug.chomp("-").tr("-", "_")
+
+      foil_cards = deck.all_cards.select{|k,v| v.foil}
+      foil_count = foil_cards.map(&:first).sum
+      foil_sheet_name = nonfoil_sheet_name + "_foils"
+
+      pack << "- #{nonfoil_sheet_name}: #{nonfoil_count}"
+      sheets << "  #{nonfoil_sheet_name}:"
+      sheets << "    deck: #{deck_code.inspect}"
+      sheets << "    count: #{nonfoil_count}"
+
+      if foil_count > 0
+        pack << "  #{foil_sheet_name}: #{foil_count}"
+        sheets << "  #{foil_sheet_name}:"
+        sheets << "    deck: #{deck_code.inspect}"
+        sheets << "    count: #{foil_count}"
+        sheets << "    foil: true"
+      end
+    end
+
+    (pack + sheets).join("\n") + "\n"
+  end
+
+  def call
+    path.write pack_data
+  end
+end
+
+class GenerateJumpstartPreconBoosters
+  attr_reader :db
+
+  def initialize
+    @db = CardDatabase.load
+  end
+
+  def sets
+    db.sets.values
+  end
+
+  def sets_with_jumpstart
+    sets.to_h{|s| [s, s.decks.select{|d| d.type == "Jumpstart"}]}.select{|k,v| !v.empty?}
+  end
+
+  def call
+    sets_with_jumpstart.each do |set, decks|
+      GenerateBoosterForSet.new(set, decks).call
+    end
+  end
+end
+
+GenerateJumpstartPreconBoosters.new.call

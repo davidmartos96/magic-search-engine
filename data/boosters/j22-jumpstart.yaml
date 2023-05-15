@@ -1,0 +1,487 @@
+name: "Jumpstart 2022 Jumpstart Booster"
+packs:
+- blink_1: 20
+- blink_2: 20
+- blink_3: 20
+- blink_4: 20
+- boneyard_1: 20
+- boneyard_2: 20
+- cats_1: 20
+- cats_2: 20
+- cats_3: 20
+- cats_4: 20
+- constellation_1: 20
+- constellation_2: 20
+- cruel_1: 20
+- cruel_2: 20
+- cruel_3: 20
+- cruel_4: 20
+- cycling_1: 20
+- cycling_2: 20
+- demons_1: 20
+- demons_2: 20
+- detective_1: 20
+- detective_2: 20
+- detective_3: 20
+- detective_4: 20
+- dragons_1: 20
+- dragons_2: 20
+- eldrazi: 20
+- elves_1: 20
+- elves_2: 20
+- elves_3: 20
+- elves_4: 20
+- experimental_1: 20
+- experimental_2: 20
+- faeries_1: 20
+- faeries_2: 20
+- fangs_1: 20
+- fangs_2: 20
+- fangs_3: 20
+- fangs_4: 20
+- ferocious_1: 20
+- ferocious_2: 20
+- ferocious_3: 20
+- ferocious_4: 20
+- fiery_1: 20
+- fiery_2: 20
+- fiery_3: 20
+- fiery_4: 20
+- gigantic_1: 20
+- gigantic_2: 20
+- go_to_school_1: 20
+- go_to_school_2: 20
+- goblins_1: 20
+- goblins_2: 20
+- goblins_3: 20
+- goblins_4: 20
+- gross_1: 20
+- gross_2: 20
+- gross_3: 20
+- gross_4: 20
+- holy_1: 20
+- holy_2: 20
+- holy_3: 20
+- holy_4: 20
+- insects_1: 20
+- insects_2: 20
+- insects_3: 20
+- insects_4: 20
+- inventive_1: 20
+- inventive_2: 20
+- inventive_3: 20
+- inventive_4: 20
+- knights: 20
+- landfall_1: 20
+- landfall_2: 20
+- law_1: 20
+- law_2: 20
+- law_3: 20
+- law_4: 20
+- merfolk_1: 20
+- merfolk_2: 20
+- merfolk_3: 20
+- merfolk_4: 20
+- morbid_1: 20
+- morbid_2: 20
+- multi_headed_1: 20
+- multi_headed_2: 20
+- primates: 20
+- raid_1: 20
+- raid_2: 20
+- raid_3: 20
+- raid_4: 20
+- rats: 20
+- scrying_1: 20
+- scrying_2: 20
+- shapeshifters: 20
+- snow: 20
+- speedy: 20
+- spicy: 20
+- spirits_1: 20
+- spirits_2: 20
+- teamwork_1: 20
+- teamwork_2: 20
+- think_again_1: 20
+- think_again_2: 20
+- think_again_3: 20
+- think_again_4: 20
+- treasure_1: 20
+- treasure_2: 20
+- treasure_3: 20
+- treasure_4: 20
+- unlucky_thirteen: 20
+- urzas: 20
+- vehicles: 20
+- wolves_1: 20
+- wolves_2: 20
+- wolves_3: 20
+- wolves_4: 20
+- zombies_1: 20
+- zombies_2: 20
+- zombies_3: 20
+- zombies_4: 20
+sheets:
+  blink_1:
+    deck: "j22/Blink 1"
+    count: 20
+  blink_2:
+    deck: "j22/Blink 2"
+    count: 20
+  blink_3:
+    deck: "j22/Blink 3"
+    count: 20
+  blink_4:
+    deck: "j22/Blink 4"
+    count: 20
+  boneyard_1:
+    deck: "j22/Boneyard 1"
+    count: 20
+  boneyard_2:
+    deck: "j22/Boneyard 2"
+    count: 20
+  cats_1:
+    deck: "j22/Cats 1"
+    count: 20
+  cats_2:
+    deck: "j22/Cats 2"
+    count: 20
+  cats_3:
+    deck: "j22/Cats 3"
+    count: 20
+  cats_4:
+    deck: "j22/Cats 4"
+    count: 20
+  constellation_1:
+    deck: "j22/Constellation 1"
+    count: 20
+  constellation_2:
+    deck: "j22/Constellation 2"
+    count: 20
+  cruel_1:
+    deck: "j22/Cruel 1"
+    count: 20
+  cruel_2:
+    deck: "j22/Cruel 2"
+    count: 20
+  cruel_3:
+    deck: "j22/Cruel 3"
+    count: 20
+  cruel_4:
+    deck: "j22/Cruel 4"
+    count: 20
+  cycling_1:
+    deck: "j22/Cycling 1"
+    count: 20
+  cycling_2:
+    deck: "j22/Cycling 2"
+    count: 20
+  demons_1:
+    deck: "j22/Demons 1"
+    count: 20
+  demons_2:
+    deck: "j22/Demons 2"
+    count: 20
+  detective_1:
+    deck: "j22/Detective 1"
+    count: 20
+  detective_2:
+    deck: "j22/Detective 2"
+    count: 20
+  detective_3:
+    deck: "j22/Detective 3"
+    count: 20
+  detective_4:
+    deck: "j22/Detective 4"
+    count: 20
+  dragons_1:
+    deck: "j22/Dragons 1"
+    count: 20
+  dragons_2:
+    deck: "j22/Dragons 2"
+    count: 20
+  eldrazi:
+    deck: "j22/Eldrazi"
+    count: 20
+  elves_1:
+    deck: "j22/Elves 1"
+    count: 20
+  elves_2:
+    deck: "j22/Elves 2"
+    count: 20
+  elves_3:
+    deck: "j22/Elves 3"
+    count: 20
+  elves_4:
+    deck: "j22/Elves 4"
+    count: 20
+  experimental_1:
+    deck: "j22/Experimental 1"
+    count: 20
+  experimental_2:
+    deck: "j22/Experimental 2"
+    count: 20
+  faeries_1:
+    deck: "j22/Faeries 1"
+    count: 20
+  faeries_2:
+    deck: "j22/Faeries 2"
+    count: 20
+  fangs_1:
+    deck: "j22/Fangs 1"
+    count: 20
+  fangs_2:
+    deck: "j22/Fangs 2"
+    count: 20
+  fangs_3:
+    deck: "j22/Fangs 3"
+    count: 20
+  fangs_4:
+    deck: "j22/Fangs 4"
+    count: 20
+  ferocious_1:
+    deck: "j22/Ferocious 1"
+    count: 20
+  ferocious_2:
+    deck: "j22/Ferocious 2"
+    count: 20
+  ferocious_3:
+    deck: "j22/Ferocious 3"
+    count: 20
+  ferocious_4:
+    deck: "j22/Ferocious 4"
+    count: 20
+  fiery_1:
+    deck: "j22/Fiery 1"
+    count: 20
+  fiery_2:
+    deck: "j22/Fiery 2"
+    count: 20
+  fiery_3:
+    deck: "j22/Fiery 3"
+    count: 20
+  fiery_4:
+    deck: "j22/Fiery 4"
+    count: 20
+  gigantic_1:
+    deck: "j22/Gigantic 1"
+    count: 20
+  gigantic_2:
+    deck: "j22/Gigantic 2"
+    count: 20
+  go_to_school_1:
+    deck: "j22/Go to School 1"
+    count: 20
+  go_to_school_2:
+    deck: "j22/Go to School 2"
+    count: 20
+  goblins_1:
+    deck: "j22/Goblins 1"
+    count: 20
+  goblins_2:
+    deck: "j22/Goblins 2"
+    count: 20
+  goblins_3:
+    deck: "j22/Goblins 3"
+    count: 20
+  goblins_4:
+    deck: "j22/Goblins 4"
+    count: 20
+  gross_1:
+    deck: "j22/Gross 1"
+    count: 20
+  gross_2:
+    deck: "j22/Gross 2"
+    count: 20
+  gross_3:
+    deck: "j22/Gross 3"
+    count: 20
+  gross_4:
+    deck: "j22/Gross 4"
+    count: 20
+  holy_1:
+    deck: "j22/Holy 1"
+    count: 20
+  holy_2:
+    deck: "j22/Holy 2"
+    count: 20
+  holy_3:
+    deck: "j22/Holy 3"
+    count: 20
+  holy_4:
+    deck: "j22/Holy 4"
+    count: 20
+  insects_1:
+    deck: "j22/Insects 1"
+    count: 20
+  insects_2:
+    deck: "j22/Insects 2"
+    count: 20
+  insects_3:
+    deck: "j22/Insects 3"
+    count: 20
+  insects_4:
+    deck: "j22/Insects 4"
+    count: 20
+  inventive_1:
+    deck: "j22/Inventive 1"
+    count: 20
+  inventive_2:
+    deck: "j22/Inventive 2"
+    count: 20
+  inventive_3:
+    deck: "j22/Inventive 3"
+    count: 20
+  inventive_4:
+    deck: "j22/Inventive 4"
+    count: 20
+  knights:
+    deck: "j22/Knights"
+    count: 20
+  landfall_1:
+    deck: "j22/Landfall 1"
+    count: 20
+  landfall_2:
+    deck: "j22/Landfall 2"
+    count: 20
+  law_1:
+    deck: "j22/Law 1"
+    count: 20
+  law_2:
+    deck: "j22/Law 2"
+    count: 20
+  law_3:
+    deck: "j22/Law 3"
+    count: 20
+  law_4:
+    deck: "j22/Law 4"
+    count: 20
+  merfolk_1:
+    deck: "j22/Merfolk 1"
+    count: 20
+  merfolk_2:
+    deck: "j22/Merfolk 2"
+    count: 20
+  merfolk_3:
+    deck: "j22/Merfolk 3"
+    count: 20
+  merfolk_4:
+    deck: "j22/Merfolk 4"
+    count: 20
+  morbid_1:
+    deck: "j22/Morbid 1"
+    count: 20
+  morbid_2:
+    deck: "j22/Morbid 2"
+    count: 20
+  multi_headed_1:
+    deck: "j22/Multi-Headed 1"
+    count: 20
+  multi_headed_2:
+    deck: "j22/Multi-Headed 2"
+    count: 20
+  primates:
+    deck: "j22/Primates"
+    count: 20
+  raid_1:
+    deck: "j22/Raid 1"
+    count: 20
+  raid_2:
+    deck: "j22/Raid 2"
+    count: 20
+  raid_3:
+    deck: "j22/Raid 3"
+    count: 20
+  raid_4:
+    deck: "j22/Raid 4"
+    count: 20
+  rats:
+    deck: "j22/Rats"
+    count: 20
+  scrying_1:
+    deck: "j22/Scrying 1"
+    count: 20
+  scrying_2:
+    deck: "j22/Scrying 2"
+    count: 20
+  shapeshifters:
+    deck: "j22/Shapeshifters"
+    count: 20
+  snow:
+    deck: "j22/Snow"
+    count: 20
+  speedy:
+    deck: "j22/Speedy"
+    count: 20
+  spicy:
+    deck: "j22/Spicy"
+    count: 20
+  spirits_1:
+    deck: "j22/Spirits 1"
+    count: 20
+  spirits_2:
+    deck: "j22/Spirits 2"
+    count: 20
+  teamwork_1:
+    deck: "j22/Teamwork 1"
+    count: 20
+  teamwork_2:
+    deck: "j22/Teamwork 2"
+    count: 20
+  think_again_1:
+    deck: "j22/Think Again 1"
+    count: 20
+  think_again_2:
+    deck: "j22/Think Again 2"
+    count: 20
+  think_again_3:
+    deck: "j22/Think Again 3"
+    count: 20
+  think_again_4:
+    deck: "j22/Think Again 4"
+    count: 20
+  treasure_1:
+    deck: "j22/Treasure 1"
+    count: 20
+  treasure_2:
+    deck: "j22/Treasure 2"
+    count: 20
+  treasure_3:
+    deck: "j22/Treasure 3"
+    count: 20
+  treasure_4:
+    deck: "j22/Treasure 4"
+    count: 20
+  unlucky_thirteen:
+    deck: "j22/Unlucky Thirteen"
+    count: 20
+  urzas:
+    deck: "j22/Urza's"
+    count: 20
+  vehicles:
+    deck: "j22/Vehicles"
+    count: 20
+  wolves_1:
+    deck: "j22/Wolves 1"
+    count: 20
+  wolves_2:
+    deck: "j22/Wolves 2"
+    count: 20
+  wolves_3:
+    deck: "j22/Wolves 3"
+    count: 20
+  wolves_4:
+    deck: "j22/Wolves 4"
+    count: 20
+  zombies_1:
+    deck: "j22/Zombies 1"
+    count: 20
+  zombies_2:
+    deck: "j22/Zombies 2"
+    count: 20
+  zombies_3:
+    deck: "j22/Zombies 3"
+    count: 20
+  zombies_4:
+    deck: "j22/Zombies 4"
+    count: 20

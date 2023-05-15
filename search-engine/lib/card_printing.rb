@@ -4,11 +4,11 @@ class CardPrinting
   attr_reader :rarity_code, :print_sheet, :oversized, :frame_effects, :foiling, :spotlight
   attr_reader :textless, :fullart, :buyabox, :flavor_name, :nontournament, :acorn
   attr_reader :attraction_lights, :promo_types, :variant_misprint, :variant_foreign, :signature, :subsets, :timeshifted
-  attr_reader :stamp, :digital, :language
+  attr_reader :stamp, :digital, :language, :etched
 
   # Performance cache of derived information
   attr_reader :stemmed_name, :set_code
-  attr_reader :release_date_i
+  attr_reader :release_date_i, :number_i
 
   # Set by CardDatabase initialization
   attr_accessor :others, :artist, :default_sort_index, :partner
@@ -21,6 +21,7 @@ class CardPrinting
     @release_date_i = @release_date.to_i_sort
     @watermark = data["watermark"]
     @number = data["number"]
+    @number_i = @number.to_i
     @multiverseid = data["multiverseid"]
     if data["artist"]
       @artist_name = data["artist"].normalize_accents # TODO: move to indexer
@@ -42,6 +43,7 @@ class CardPrinting
     @attraction_lights = data["attraction_lights"]
     @buyabox = data["buyabox"]
     @digital = data["digital"]
+    @etched = data["etched"]
     @exclude_from_boosters = data["exclude_from_boosters"]
     @fullart = data["fullart"]
     @language = data["language"]
@@ -131,7 +133,7 @@ class CardPrinting
     primary? secondary? front? back? partner? allowed_in_any_number?
     commander? brawler? custom? keywords
     count_sets count_prints count_papersets count_paperprints name_slug
-    fulltext fulltext_normalized defense
+    fulltext fulltext_normalized defense colors_set color_identity_set
   ].each do |m|
     eval("def #{m}; @card.#{m}; end")
   end
@@ -148,11 +150,11 @@ class CardPrinting
   include Comparable
 
   def <=>(other)
-    [name, set, number.to_i, number] <=> [other.name, other.set, other.number.to_i, other.number]
+    [name, set, number_i, number] <=> [other.name, other.set, other.number_i, other.number]
   end
 
   def age
-    [0, (release_date - first_regular_release_date).to_i].max
+    @age ||= [0, (release_date - first_regular_release_date).to_i].max
   end
 
   def inspect

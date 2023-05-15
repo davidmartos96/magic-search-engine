@@ -1,0 +1,487 @@
+name: "Jumpstart Jumpstart Booster"
+packs:
+- above_the_clouds_1: 20
+- above_the_clouds_2: 20
+- above_the_clouds_3: 20
+- above_the_clouds_4: 20
+- angels_1: 20
+- angels_2: 20
+- archaeology_1: 20
+- archaeology_2: 20
+- archaeology_3: 20
+- archaeology_4: 20
+- basri: 20
+- cats_1: 20
+- cats_2: 20
+- chandra: 20
+- devilish_1: 20
+- devilish_2: 20
+- devilish_3: 20
+- devilish_4: 20
+- dinosaurs_1: 20
+- dinosaurs_2: 20
+- dinosaurs_3: 20
+- dinosaurs_4: 20
+- discarding_1: 20
+- discarding_2: 20
+- doctor_1: 20
+- doctor_2: 20
+- doctor_3: 20
+- doctor_4: 20
+- dogs_1: 20
+- dogs_2: 20
+- dragons_1: 20
+- dragons_2: 20
+- elves_1: 20
+- elves_2: 20
+- enchanted_1: 20
+- enchanted_2: 20
+- feathered_friends_1: 20
+- feathered_friends_2: 20
+- feathered_friends_3: 20
+- feathered_friends_4: 20
+- garruk: 20
+- goblins_1: 20
+- goblins_2: 20
+- goblins_3: 20
+- goblins_4: 20
+- heavily_armored_1: 20
+- heavily_armored_2: 20
+- heavily_armored_3: 20
+- heavily_armored_4: 20
+- lands_1: 20
+- lands_2: 20
+- legion_1: 20
+- legion_2: 20
+- legion_3: 20
+- legion_4: 20
+- lightning_1: 20
+- lightning_2: 20
+- liliana: 20
+- milling: 20
+- minions_1: 20
+- minions_2: 20
+- minions_3: 20
+- minions_4: 20
+- minotaurs_1: 20
+- minotaurs_2: 20
+- phyrexian: 20
+- pirates_1: 20
+- pirates_2: 20
+- plus_one_1: 20
+- plus_one_2: 20
+- plus_one_3: 20
+- plus_one_4: 20
+- predatory_1: 20
+- predatory_2: 20
+- predatory_3: 20
+- predatory_4: 20
+- rainbow: 20
+- reanimated_1: 20
+- reanimated_2: 20
+- reanimated_3: 20
+- reanimated_4: 20
+- rogue_2: 20
+- rogues_1: 20
+- seismic: 20
+- smashing_1: 20
+- smashing_2: 20
+- smashing_3: 20
+- smashing_4: 20
+- spellcasting_1: 20
+- spellcasting_2: 20
+- spellcasting_3: 20
+- spellcasting_4: 20
+- spirits_1: 20
+- spirits_2: 20
+- spooky_1: 20
+- spooky_2: 20
+- spooky_3: 20
+- spooky_4: 20
+- teferi: 20
+- tree_hugging_1: 20
+- tree_hugging_2: 20
+- tree_hugging_3: 20
+- tree_hugging_4: 20
+- under_the_sea_1: 20
+- under_the_sea_2: 20
+- unicorns: 20
+- vampires_1: 20
+- vampires_2: 20
+- vampires_3: 20
+- vampires_4: 20
+- walls: 20
+- well_read_1: 20
+- well_read_2: 20
+- well_read_3: 20
+- well_read_4: 20
+- witchcraft_1: 20
+- witchcraft_2: 20
+- wizards_1: 20
+- wizards_2: 20
+- wizards_3: 20
+- wizards_4: 20
+sheets:
+  above_the_clouds_1:
+    deck: "jmp/Above the Clouds (1)"
+    count: 20
+  above_the_clouds_2:
+    deck: "jmp/Above the Clouds (2)"
+    count: 20
+  above_the_clouds_3:
+    deck: "jmp/Above the Clouds (3)"
+    count: 20
+  above_the_clouds_4:
+    deck: "jmp/Above the Clouds (4)"
+    count: 20
+  angels_1:
+    deck: "jmp/Angels (1)"
+    count: 20
+  angels_2:
+    deck: "jmp/Angels (2)"
+    count: 20
+  archaeology_1:
+    deck: "jmp/Archaeology (1)"
+    count: 20
+  archaeology_2:
+    deck: "jmp/Archaeology (2)"
+    count: 20
+  archaeology_3:
+    deck: "jmp/Archaeology (3)"
+    count: 20
+  archaeology_4:
+    deck: "jmp/Archaeology (4)"
+    count: 20
+  basri:
+    deck: "jmp/Basri"
+    count: 20
+  cats_1:
+    deck: "jmp/Cats (1)"
+    count: 20
+  cats_2:
+    deck: "jmp/Cats (2)"
+    count: 20
+  chandra:
+    deck: "jmp/Chandra"
+    count: 20
+  devilish_1:
+    deck: "jmp/Devilish (1)"
+    count: 20
+  devilish_2:
+    deck: "jmp/Devilish (2)"
+    count: 20
+  devilish_3:
+    deck: "jmp/Devilish (3)"
+    count: 20
+  devilish_4:
+    deck: "jmp/Devilish (4)"
+    count: 20
+  dinosaurs_1:
+    deck: "jmp/Dinosaurs (1)"
+    count: 20
+  dinosaurs_2:
+    deck: "jmp/Dinosaurs (2)"
+    count: 20
+  dinosaurs_3:
+    deck: "jmp/Dinosaurs (3)"
+    count: 20
+  dinosaurs_4:
+    deck: "jmp/Dinosaurs (4)"
+    count: 20
+  discarding_1:
+    deck: "jmp/Discarding 1"
+    count: 20
+  discarding_2:
+    deck: "jmp/Discarding 2"
+    count: 20
+  doctor_1:
+    deck: "jmp/Doctor (1)"
+    count: 20
+  doctor_2:
+    deck: "jmp/Doctor (2)"
+    count: 20
+  doctor_3:
+    deck: "jmp/Doctor (3)"
+    count: 20
+  doctor_4:
+    deck: "jmp/Doctor (4)"
+    count: 20
+  dogs_1:
+    deck: "jmp/Dogs (1)"
+    count: 20
+  dogs_2:
+    deck: "jmp/Dogs (2)"
+    count: 20
+  dragons_1:
+    deck: "jmp/Dragons (1)"
+    count: 20
+  dragons_2:
+    deck: "jmp/Dragons (2)"
+    count: 20
+  elves_1:
+    deck: "jmp/Elves (1)"
+    count: 20
+  elves_2:
+    deck: "jmp/Elves (2)"
+    count: 20
+  enchanted_1:
+    deck: "jmp/Enchanted (1)"
+    count: 20
+  enchanted_2:
+    deck: "jmp/Enchanted (2)"
+    count: 20
+  feathered_friends_1:
+    deck: "jmp/Feathered Friends (1)"
+    count: 20
+  feathered_friends_2:
+    deck: "jmp/Feathered Friends (2)"
+    count: 20
+  feathered_friends_3:
+    deck: "jmp/Feathered Friends (3)"
+    count: 20
+  feathered_friends_4:
+    deck: "jmp/Feathered Friends (4)"
+    count: 20
+  garruk:
+    deck: "jmp/Garruk"
+    count: 20
+  goblins_1:
+    deck: "jmp/Goblins (1)"
+    count: 20
+  goblins_2:
+    deck: "jmp/Goblins (2)"
+    count: 20
+  goblins_3:
+    deck: "jmp/Goblins (3)"
+    count: 20
+  goblins_4:
+    deck: "jmp/Goblins (4)"
+    count: 20
+  heavily_armored_1:
+    deck: "jmp/Heavily Armored (1)"
+    count: 20
+  heavily_armored_2:
+    deck: "jmp/Heavily Armored (2)"
+    count: 20
+  heavily_armored_3:
+    deck: "jmp/Heavily Armored (3)"
+    count: 20
+  heavily_armored_4:
+    deck: "jmp/Heavily Armored (4)"
+    count: 20
+  lands_1:
+    deck: "jmp/Lands (1)"
+    count: 20
+  lands_2:
+    deck: "jmp/Lands (2)"
+    count: 20
+  legion_1:
+    deck: "jmp/Legion (1)"
+    count: 20
+  legion_2:
+    deck: "jmp/Legion (2)"
+    count: 20
+  legion_3:
+    deck: "jmp/Legion (3)"
+    count: 20
+  legion_4:
+    deck: "jmp/Legion (4)"
+    count: 20
+  lightning_1:
+    deck: "jmp/Lightning (1)"
+    count: 20
+  lightning_2:
+    deck: "jmp/Lightning (2)"
+    count: 20
+  liliana:
+    deck: "jmp/Liliana"
+    count: 20
+  milling:
+    deck: "jmp/Milling"
+    count: 20
+  minions_1:
+    deck: "jmp/Minions (1)"
+    count: 20
+  minions_2:
+    deck: "jmp/Minions (2)"
+    count: 20
+  minions_3:
+    deck: "jmp/Minions (3)"
+    count: 20
+  minions_4:
+    deck: "jmp/Minions (4)"
+    count: 20
+  minotaurs_1:
+    deck: "jmp/Minotaurs (1)"
+    count: 20
+  minotaurs_2:
+    deck: "jmp/Minotaurs (2)"
+    count: 20
+  phyrexian:
+    deck: "jmp/Phyrexian"
+    count: 20
+  pirates_1:
+    deck: "jmp/Pirates (1)"
+    count: 20
+  pirates_2:
+    deck: "jmp/Pirates (2)"
+    count: 20
+  plus_one_1:
+    deck: "jmp/Plus One (1)"
+    count: 20
+  plus_one_2:
+    deck: "jmp/Plus One (2)"
+    count: 20
+  plus_one_3:
+    deck: "jmp/Plus One (3)"
+    count: 20
+  plus_one_4:
+    deck: "jmp/Plus One (4)"
+    count: 20
+  predatory_1:
+    deck: "jmp/Predatory (1)"
+    count: 20
+  predatory_2:
+    deck: "jmp/Predatory (2)"
+    count: 20
+  predatory_3:
+    deck: "jmp/Predatory (3)"
+    count: 20
+  predatory_4:
+    deck: "jmp/Predatory (4)"
+    count: 20
+  rainbow:
+    deck: "jmp/Rainbow"
+    count: 20
+  reanimated_1:
+    deck: "jmp/Reanimated (1)"
+    count: 20
+  reanimated_2:
+    deck: "jmp/Reanimated (2)"
+    count: 20
+  reanimated_3:
+    deck: "jmp/Reanimated (3)"
+    count: 20
+  reanimated_4:
+    deck: "jmp/Reanimated (4)"
+    count: 20
+  rogue_2:
+    deck: "jmp/Rogue (2)"
+    count: 20
+  rogues_1:
+    deck: "jmp/Rogues (1)"
+    count: 20
+  seismic:
+    deck: "jmp/Seismic"
+    count: 20
+  smashing_1:
+    deck: "jmp/Smashing (1)"
+    count: 20
+  smashing_2:
+    deck: "jmp/Smashing (2)"
+    count: 20
+  smashing_3:
+    deck: "jmp/Smashing (3)"
+    count: 20
+  smashing_4:
+    deck: "jmp/Smashing (4)"
+    count: 20
+  spellcasting_1:
+    deck: "jmp/Spellcasting (1)"
+    count: 20
+  spellcasting_2:
+    deck: "jmp/Spellcasting (2)"
+    count: 20
+  spellcasting_3:
+    deck: "jmp/Spellcasting (3)"
+    count: 20
+  spellcasting_4:
+    deck: "jmp/Spellcasting (4)"
+    count: 20
+  spirits_1:
+    deck: "jmp/Spirits (1)"
+    count: 20
+  spirits_2:
+    deck: "jmp/Spirits (2)"
+    count: 20
+  spooky_1:
+    deck: "jmp/Spooky (1)"
+    count: 20
+  spooky_2:
+    deck: "jmp/Spooky (2)"
+    count: 20
+  spooky_3:
+    deck: "jmp/Spooky (3)"
+    count: 20
+  spooky_4:
+    deck: "jmp/Spooky (4)"
+    count: 20
+  teferi:
+    deck: "jmp/Teferi"
+    count: 20
+  tree_hugging_1:
+    deck: "jmp/Tree-Hugging (1)"
+    count: 20
+  tree_hugging_2:
+    deck: "jmp/Tree-Hugging (2)"
+    count: 20
+  tree_hugging_3:
+    deck: "jmp/Tree-Hugging (3)"
+    count: 20
+  tree_hugging_4:
+    deck: "jmp/Tree-Hugging (4)"
+    count: 20
+  under_the_sea_1:
+    deck: "jmp/Under the Sea (1)"
+    count: 20
+  under_the_sea_2:
+    deck: "jmp/Under the Sea (2)"
+    count: 20
+  unicorns:
+    deck: "jmp/Unicorns"
+    count: 20
+  vampires_1:
+    deck: "jmp/Vampires (1)"
+    count: 20
+  vampires_2:
+    deck: "jmp/Vampires (2)"
+    count: 20
+  vampires_3:
+    deck: "jmp/Vampires (3)"
+    count: 20
+  vampires_4:
+    deck: "jmp/Vampires (4)"
+    count: 20
+  walls:
+    deck: "jmp/Walls"
+    count: 20
+  well_read_1:
+    deck: "jmp/Well-Read (1)"
+    count: 20
+  well_read_2:
+    deck: "jmp/Well-Read (2)"
+    count: 20
+  well_read_3:
+    deck: "jmp/Well-Read (3)"
+    count: 20
+  well_read_4:
+    deck: "jmp/Well-Read (4)"
+    count: 20
+  witchcraft_1:
+    deck: "jmp/Witchcraft (1)"
+    count: 20
+  witchcraft_2:
+    deck: "jmp/Witchcraft (2)"
+    count: 20
+  wizards_1:
+    deck: "jmp/Wizards (1)"
+    count: 20
+  wizards_2:
+    deck: "jmp/Wizards (2)"
+    count: 20
+  wizards_3:
+    deck: "jmp/Wizards (3)"
+    count: 20
+  wizards_4:
+    deck: "jmp/Wizards (4)"
+    count: 20

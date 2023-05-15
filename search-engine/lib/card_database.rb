@@ -10,6 +10,8 @@ require_relative "card_sheet_factory"
 require_relative "card_sheet"
 require_relative "card"
 require_relative "color_balanced_card_sheet"
+require_relative "card_sheet_with_duplicates"
+require_relative "fixed_card_sheet"
 require_relative "color"
 require_relative "deck_database"
 require_relative "deck_parser"
@@ -119,8 +121,8 @@ class CardDatabase
         booster = pack_factory.for(set_code, variant)
         @supported_booster_types[booster.code] = booster if booster
       end
+      @supported_booster_types = @supported_booster_types.sort_by{|c,b| [-b.set.release_date.jd, c]}.to_h
     end
-    @supported_booster_types = @supported_booster_types.sort_by{|c,b| [-b.set.release_date.jd, c]}.to_h
     @supported_booster_types
   end
 
@@ -153,14 +155,17 @@ class CardDatabase
   # Priority:
   # * exact code (official)
   # * exact alternative code (mci)
-  # * exact gatherer code
   # * name exact match
   # * name substring match
   def resolve_editions(edition)
     edition = edition.downcase
-    matching_primary_code = Set[]
+
+    # Just don't bother with anything fancy if "e:foo" exists as a code
+    if @sets[edition]
+      return Set[@sets[edition]]
+    end
+
     matching_alternative_code = Set[]
-    matching_gatherer_code = Set[]
     matching_name = Set[]
     matching_name_part = Set[]
 
@@ -168,19 +173,16 @@ class CardDatabase
     normalized_edition_alt = normalize_set_name_alt(edition)
 
     @sets.each do |set_code, set|
-      normalized_set_name     = normalize_set_name(set.name)
-      normalized_set_name_alt = normalize_set_name_alt(set.name)
+      normalized_set_name     = set.normalized_name
+      normalized_set_name_alt = set.normalized_name_alt
       matching_primary_code     << set if set_code == edition
       matching_alternative_code << set if set.alternative_code&.downcase == edition
-      matching_gatherer_code << set if set.gatherer_code&.downcase == edition
       matching_name          << set if normalized_set_name == normalized_edition or normalized_set_name_alt == normalized_edition_alt
       matching_name_part     << set if normalized_set_name.include?(normalized_edition) or normalized_set_name_alt.include?(normalized_edition_alt)
     end
 
     [
-      matching_primary_code,
       matching_alternative_code,
-      matching_gatherer_code,
       matching_name,
       matching_name_part,
     ].find{|s| s.size > 0} || Set[]
@@ -401,7 +403,7 @@ class CardDatabase
         c.set.regular? ? 0 : 1,
         -c.release_date_i,
         c.set.name,
-        c.number.to_i,
+        c.number_i,
         c.number,
       ]
     }.each_with_index do |c, i|

@@ -1,0 +1,118 @@
+name: "Phyrexia: All Will Be One Jumpstart Booster"
+packs:
+- corruption_1: 17
+  corruption_1_foils: 2
+  rare_mythic_black: 1
+- corruption_2: 17
+  corruption_2_foils: 2
+  rare_mythic_black: 1
+- mite_y_1: 17
+  mite_y_1_foils: 2
+  rare_mythic_white: 1
+- mite_y_2: 17
+  mite_y_2_foils: 2
+  rare_mythic_white: 1
+- progress_1: 17
+  progress_1_foils: 2
+  rare_mythic_blue: 1
+- progress_2: 17
+  progress_2_foils: 2
+  rare_mythic_blue: 1
+- rebellious_1: 17
+  rebellious_1_foils: 2
+  rare_mythic_red: 1
+- rebellious_2: 17
+  rebellious_2_foils: 2
+  rare_mythic_red: 1
+- toxic_1: 17
+  toxic_1_foils: 2
+  rare_mythic_green: 1
+- toxic_2: 17
+  toxic_2_foils: 2
+  rare_mythic_green: 1
+sheets:
+  corruption_1:
+    deck: "one/Corruption 1"
+    count: 17
+  corruption_1_foils:
+    deck: "one/Corruption 1"
+    count: 2
+    foil: true
+  corruption_2:
+    deck: "one/Corruption 2"
+    count: 17
+  corruption_2_foils:
+    deck: "one/Corruption 2"
+    count: 2
+    foil: true
+  mite_y_1:
+    deck: "one/Mite-y 1"
+    count: 17
+  mite_y_1_foils:
+    deck: "one/Mite-y 1"
+    count: 2
+    foil: true
+  mite_y_2:
+    deck: "one/Mite-y 2"
+    count: 17
+  mite_y_2_foils:
+    deck: "one/Mite-y 2"
+    count: 2
+    foil: true
+  progress_1:
+    deck: "one/Progress 1"
+    count: 17
+  progress_1_foils:
+    deck: "one/Progress 1"
+    count: 2
+    foil: true
+  progress_2:
+    deck: "one/Progress 2"
+    count: 17
+  progress_2_foils:
+    deck: "one/Progress 2"
+    count: 2
+    foil: true
+  rebellious_1:
+    deck: "one/Rebellious 1"
+    count: 17
+  rebellious_1_foils:
+    deck: "one/Rebellious 1"
+    count: 2
+    foil: true
+  rebellious_2:
+    deck: "one/Rebellious 2"
+    count: 17
+  rebellious_2_foils:
+    deck: "one/Rebellious 2"
+    count: 2
+    foil: true
+  toxic_1:
+    deck: "one/Toxic 1"
+    count: 17
+  toxic_1_foils:
+    deck: "one/Toxic 1"
+    count: 2
+    foil: true
+  toxic_2:
+    deck: "one/Toxic 2"
+    count: 17
+  toxic_2_foils:
+    deck: "one/Toxic 2"
+    count: 2
+    foil: true
+  rare_mythic_white:
+    filter: "e:{set} number<=set id=w"
+    use: rare_mythic
+  rare_mythic_blue:
+    filter: "e:{set} number<=set id=u"
+    use: rare_mythic
+  rare_mythic_black:
+    filter: "e:{set} number<=set id=b"
+    use: rare_mythic
+  rare_mythic_red:
+    filter: "e:{set} number<=set id=r"
+    use: rare_mythic
+  rare_mythic_green:
+    filter: "e:{set} number<=set id=g"
+    use: rare_mythic
