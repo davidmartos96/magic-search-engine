@@ -51,7 +51,6 @@ class IndexSerializer
       "base_set_size",
       "block_code",
       "block_name",
-      "booster_variants",
       "border",
       "code",
       "custom",
@@ -63,6 +62,7 @@ class IndexSerializer
       "name",
       "online_only",
       "release_date",
+      "subsets",
       "types",
     ).merge(
       "products" => (@products[set["code"]] || []).map{|x| index_product(x)}
@@ -79,10 +79,10 @@ class IndexSerializer
         "cmc",
         "colors",
         "commander",
+        "defense",
         "display_power",
         "display_toughness",
         "foreign_names",
-        "frameVersion",
         "funny",
         "hand", # vanguard
         "hide_mana_cost",
@@ -109,11 +109,11 @@ class IndexSerializer
       printing_data << [
         printing["set_code"],
         printing.slice(
-          "acorn",
           "arena",
           "artist",
+          "attraction_lights",
           "border",
-          "buyabox",
+          "digital",
           "exclude_from_boosters",
           "flavor_name",
           "flavor",
@@ -121,6 +121,7 @@ class IndexSerializer
           "frame_effects",
           "frame",
           "fullart",
+          "language",
           "mtgo",
           "multiverseid",
           "nontournament",
@@ -130,11 +131,18 @@ class IndexSerializer
           "paper",
           "partner",
           "print_sheet",
+          "promo_types",
           "rarity",
           "release_date",
           "shandalar",
+          "signature",
           "spotlight",
+          "stamp",
+          "subsets",
           "textless",
+          "timeshifted",
+          "variant_foreign",
+          "variant_misprint",
           "watermark",
           "xmage",
         ).compact,
@@ -149,7 +157,7 @@ class IndexSerializer
 
     # Output in canonical form, to minimize diffs between mtgjson updates
     result["printings"] = printing_data.sort_by{|sc,d|
-      [set_order.fetch(sc), d["number"], d["multiverseid"]]
+      [set_order.fetch(sc), d["number"], d["multiverseid"] || 0]
     }
     result
   end

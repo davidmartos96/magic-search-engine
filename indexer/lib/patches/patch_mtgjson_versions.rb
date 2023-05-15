@@ -101,10 +101,6 @@ class PatchMtgjsonVersions < Patch
       card.delete("manaCost") if card["manaCost"] == ""
       card.delete("names") if card["names"] == []
 
-      if card["frameVersion"] == "future"
-        card["timeshifted"] = true
-      end
-
       if card["flavorText"]
         card["flavor"] = card.delete("flavorText")
       end
@@ -124,10 +120,17 @@ class PatchMtgjsonVersions < Patch
         card["frame_effects"].delete("textless")
       end
 
-      card["oversized"] = card.delete("isOversized")
-      card["spotlight"] = card.delete("isStorySpotlight")
+      # This is not quite set-based as there are Arena-specific fixed art cards
+      # We used to have set-based logic, but it has no way of finding cards like znr/288†b
+      card["digital"] = card.delete("isOnlineOnly")
       card["fullart"] = card.delete("isFullArt")
+      card["oversized"] = card.delete("isOversized")
+      # not sure what to do with it, isPromo flag, promoTypes, and our is:promo logic are all very different
+      # so for now this is not used
+      card["promo"] = card.delete("isPromo")
+      card["spotlight"] = card.delete("isStorySpotlight")
       card["textless"] = card.delete("isTextless")
+      card["timeshifted"] = card.delete("isTimeshifted")
 
       # OC21/OAFC are technically "display cards" not oversized
       # https://github.com/mtgjson/mtgjson/issues/815
@@ -136,10 +139,17 @@ class PatchMtgjsonVersions < Patch
         card["oversized"] = true
       end
 
+      # mtgjson bug
+      if card["set"]["official_code"] == "MOC" and (card["types"].include?("Plane") or card["types"].include?("Phenomenon"))
+        card["oversized"] = true
+      end
+
       # Moved in v5
       card["arena"] = true if card.delete("isArena") or card["availability"]&.delete("arena")
       card["paper"] = true if card.delete("isPaper") or card["availability"]&.delete("paper")
       card["mtgo"] = true if card.delete("isMtgo") or card["availability"]&.delete("mtgo")
+      # shandalar data is incorrect in mtgjson, so we do not want it, we do our own calculations
+      # dreamcast data is incorrect in mtgjson, there's no replacement on our side
 
       # This logic changed at some point, I like old logic better
       if card["oversized"] or %W[CEI CED 30A].include?(card["set"]["official_code"]) or card["border"] == "gold"
@@ -169,19 +179,14 @@ class PatchMtgjsonVersions < Patch
         end
       end
 
-      if card.has_key?("isBuyABox")
-        if card.delete("isBuyABox")
-          card["buyabox"] = true
-        end
+      if card["promoTypes"]
+        card["promo_types"] = card["promoTypes"]
       end
 
-      if card["promoTypes"]&.include?("buyabox")
-        card["promoTypes"].delete("buyabox")
-        card["buyabox"] = true
-      end
+      card["stamp"] = card.delete("securityStamp")
 
-      if card["securityStamp"] == "acorn"
-        card["acorn"] = true
+      if card["attractionLights"]
+        card["attraction_lights"] = card["attractionLights"]
       end
 
       # Unicode vs ASCII
@@ -232,6 +237,8 @@ class PatchMtgjsonVersions < Patch
       if card["text"] =~ /^Escape—/
         card["text"] = card["text"].gsub(/^Escape—/, "Escape — ")
       end
+
+      card.delete("language") if card["language"] == "English"
     end
   end
 

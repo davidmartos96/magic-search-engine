@@ -34,7 +34,7 @@ describe "Card layouts" do
     assert_search_equal "layout:aftermath", "// o:aftermath"
     assert_search_equal "layout:leveler", 'o:/level up \{/'
     assert_search_equal "layout:meld", "// (// o:meld)"
-    assert_search_equal "layout:saga -e:prm", "t:saga -e:neo,pneo,prm" # DFC sagas?
+    assert_search_equal "layout:saga -e:prm,mom", "t:saga -e:neo,pneo,prm,mom" # DFC sagas?
     assert_search_equal "layout:adventure", "t:adventure or (// t:adventure)"
     assert_search_equal "layout:modaldfc -e:pmei,slu,j21,prm", "// e:znr,pznr,khm,pkhm,stx,pstx"
 
@@ -46,5 +46,13 @@ describe "Card layouts" do
     # we keep aliases but they're not exact
     assert_search_equal "layout:plane", "layout:planar"
     assert_search_equal "layout:phenomenon", "layout:planar"
+  end
+
+  it "is:vertical" do
+    assert_search_equal "is:vertical", "not:horizontal"
+  end
+
+  it "is:horizontal" do
+    assert_search_equal "is:horizontal", "t:battle or t:plane or t:phenomenon"
   end
 end

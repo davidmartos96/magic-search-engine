@@ -1,0 +1,57 @@
+# data from https://magic.wizards.com/en/news/making-magic/project-booster-fun-2019-07-20
+# and https://www.lethe.xyz/mtg/collation/eld.html
+# Assumptions:
+# No data for distribution of commons/uncommons
+# - assumed to follow distribution of Set boosters in https://mtg.fandom.com/wiki/Set_Booster
+# - with one extra guaranteed common and one guaranteed uncommon
+# No data for relative showcase rarity for showcase slot
+# - Showcase treatments tend to use 8/4/2/1 rarity
+# No data for relative rarity of ancillary cards
+# - Cards are not nicely distributed, so used bonus sheet 8/4/2/1 rates
+pack:
+  common_or_uncommon:
+  - foil_common: 7
+    foil_uncommon: 2
+    chance: 350
+  - foil_common: 6
+    foil_uncommon: 3
+    chance: 400
+  - foil_common: 5
+    foil_uncommon: 4
+    chance: 125
+  - foil_common: 4
+    foil_uncommon: 5
+    chance: 70
+  - foil_common: 3
+    foil_uncommon: 6
+    chance: 35
+  - foil_common: 2
+    foil_uncommon: 7
+    chance: 20
+  any_showcase: 3
+  ancillary: 1
+  rm_extended: 1
+  foil_rare_mythic: 1
+sheets:
+  ancillary:
+    # C/U/R/M rates guessed to be at 8x/4x/2x/1x multiples
+    filter: "e:eld -promo:boosterfun number>=304 -frame:inverted"
+    use: base_1248_by_rarity
+  rm_extended:
+    filter: "e:eld frame:extendedart"
+    use: rare_mythic
+  foil_rare_mythic:
+    foil: true
+    any:
+    - query: "r:r"
+      rate: 4
+    - rawquery: "e:eld r:r promo:boosterfun"
+      rate: 2
+    - query: "r:m"
+      rate: 2
+    - rawquery: "e:eld r:m promo:boosterfun"
+      rate: 1
+    - rawquery: "e:eld r:r -promo:boosterfun number>=304 -frame:inverted"
+      rate: 4
+    - rawquery: "e:eld r:m -promo:boosterfun number>=304 -frame:inverted"
+      rate: 2

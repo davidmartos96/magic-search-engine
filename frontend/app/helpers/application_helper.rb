@@ -51,6 +51,15 @@ module ApplicationHelper
     link_to(controller: "card", action: "index", q: search, &blk)
   end
 
+  def link_to_subset(set_code, subset, &blk)
+    query = %Q[e:#{set_code} subset:"#{subset}"]
+    link_to(
+      controller: "card",
+      action: "index",
+      q: query,
+      &blk)
+  end
+
   def format_mana_symbols_in_text(text)
     text
       .gsub(/(?:\{.*?\})+/) do
@@ -87,6 +96,7 @@ module ApplicationHelper
 
   def replace_planeswalker_symbol(symbol)
     symbol = symbol.upcase
+    csymbol = symbol.downcase.sub(/[-\+\u2212]/, "")
     usymbol = symbol.sub("-", "\u2013").sub("\u2212", "\u2013")
     if usymbol[0] == "+"
       dir = "up"
@@ -95,7 +105,7 @@ module ApplicationHelper
     else
       dir = "zero"
     end
-    %[<i class="mana mana-loyalty mana-loyalty-#{dir}" data-loyalty="#{usymbol}"></i>] +
+    %[<i class="mana mana-loyalty mana-loyalty-#{dir} mana-loyalty-#{csymbol}"></i>] +
     %[<span class="sr-only">[#{usymbol}]</span>]
   end
 
@@ -211,6 +221,8 @@ module ApplicationHelper
       "½", "1000000", "100", "∞",
       "chaos", "pw",
       "hw", "hr",
+      "wup", "wbp", "rwp", "gwp", "ubp", "urp", "gup", "brp", "bgp", "rgp",
+      "tk",
     ]
   end
 

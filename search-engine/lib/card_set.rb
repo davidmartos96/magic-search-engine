@@ -2,8 +2,8 @@ class CardSet
   attr_reader :name, :code, :alternative_code, :gatherer_code
   attr_reader :block_name, :block_code, :alternative_block_code
   attr_reader :border, :release_date, :printings, :types
-  attr_reader :decks, :booster_variants, :base_set_size
-  attr_reader :products
+  attr_reader :decks, :base_set_size
+  attr_reader :products, :subsets
 
   def initialize(db, data)
     @db = db
@@ -21,12 +21,12 @@ class CardSet
     @online_only   = !!data["online_only"]
     @has_boosters  = !!data["has_boosters"]
     @in_other_boosters = !!data["in_other_boosters"]
-    @booster_variants = data["booster_variants"] || {}
     @custom        = !!data["custom"]
     @funny         = !!data["funny"]
     @decks         = []
     @base_set_size = data["base_set_size"]
     @products = (data["products"] || []).map{|x| Product.new(self, x)}
+    @subsets = data["subsets"]
   end
 
   def has_individual_card_release_dates?

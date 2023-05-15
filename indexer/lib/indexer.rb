@@ -76,6 +76,8 @@ class Indexer
       PatchBlocks,
       PatchHasBoosters,
       PatchSecondary,
+      PatchVariantMisprint,
+      PatchVariantForeign,
       PatchExcludeFromBoosters,
       PatchFoiling,
       PatchSetTypes,
@@ -84,7 +86,6 @@ class Indexer
       PatchColorshifted,
       PatchPrintSheets,
       PatchMB1,
-      PatchShowcase,
       PatchABUR,
       PatchNewPrintSheets,
       PatchFrame,
@@ -96,6 +97,7 @@ class Indexer
       PatchXmage,
       PatchCommander,
       PatchMultipart,
+      PatchSubsets,
 
       # Patch more mtg.wtf bugs
       PatchAeLigature, # is this even needed anymore?

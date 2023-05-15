@@ -1,6 +1,12 @@
-describe LegacyPackFactory do
+# These are old tests for the code-based pack system ported to use the new system
+#
+# Removing boosterfun boosters, as old data wasn't that great anyway
+# It should only have old sets and general checks (like which set should or should not have a booster)
+#
+# I might delete this whole spec at some point
+describe PackFactory do
   include_context "db"
-  let(:factory) { LegacyPackFactory.new(db) }
+  let(:factory) { PackFactory.new(db) }
   let(:variant) { nil }
   let(:foil) { false }
   let(:pack) { factory.for(set_code, variant) }
@@ -11,6 +17,7 @@ describe LegacyPackFactory do
     query_foil = args[:foil] || foil
     query += " is:foil" if query_foil
     query += " is:nonfoil" unless query_foil
+    # it uses is:booster, but it shouldn't
     physical_card("e:#{query_set_code} is:booster #{query}", query_foil)
   end
 
@@ -21,6 +28,9 @@ describe LegacyPackFactory do
       if %W[akr klr].include?(set_code)
         factory.for(set_code).should eq(nil), "#{set_pp} should not have regular packs"
         factory.for(set_code, "arena").should_not eq(nil), "#{set_pp} should have Arena packs"
+      elsif set_code == "sir"
+        factory.for(set_code).should eq(nil), "#{set_pp} should not have regular packs"
+        factory.for(set_code, "arena-1").should_not eq(nil), "#{set_pp} should have Arena packs"
       elsif set.has_boosters?
         pack = factory.for(set_code)
         if pack
@@ -62,6 +72,7 @@ describe LegacyPackFactory do
     end
   end
 
+  # These rely on in_booster? flag which is no longer accurate
   let(:only_foil_basics_in_boosters) { ["mmq", "inv", "ody", "ons", "mrd", "chk", "rav", "lrw", "shm"] }
   it "Every card can appear in a pack" do
     db.sets.each do |set_code, set|
@@ -87,14 +98,14 @@ describe LegacyPackFactory do
     db.sets.each do |set_code, set|
       # Some sets don't follow these rules
       # They should have own tests
-      next if %W[tsp cn2 bbd war mb1 bro].include?(set_code)
+      next if %W[tsp cn2 bbd war mb1 bro unf].include?(set_code)
       set_pp = "#{set.name} [#{set.code}]"
       pack = factory.for(set_code)
       next unless pack
       next unless pack.has_foils?
       actual_cards = pack.foil_cards.select{|c| !c.set.types.include?("masterpiece") }
       expected_cards = set.physical_cards_in_boosters(true)
-      actual_cards.should include(*expected_cards),
+      actual_cards.sort.should include(*expected_cards.sort),
         "All cards in #{set_pp} should be possible in its packs as foil"
     end
   end
@@ -897,67 +908,6 @@ describe LegacyPackFactory do
     end
   end
 
-  context "IKO" do
-    let(:set_code) { "iko" }
-    let(:nonland_common) { card("r:common -t:land Adaptive Shimmerer") }
-    let(:boring_common) { card("r:common Cloudpiercer number=112") }
-    let(:fancy_common) { card("r:common Cloudpiercer number=291") }
-    let(:gainland_common) { card("r:common is:gainland") }
-    let(:evolving_wilds) { card("Evolving Wilds") }
-    let(:basic) { card("r:basic") }
-    let(:normal_uncommon) { card("r:uncommon Dire Tactics") }
-    let(:boring_uncommon) { card("r:uncommon Archipelagore number=41") }
-    let(:fancy_uncommon) { card("r:uncommon Archipelagore number=283") }
-    let(:normal_rare) { card("r:rare Drannith Magistrate number=11") }
-    let(:boring_rare) { card("r:rare Cubwarden number=7") }
-    let(:fancy_rare) { card("r:rare Cubwarden number=279 ") }
-    let(:normal_mythic) { card("r:mythic Luminous Broodmoth number=21") }
-    let(:boring_mythic) { card("r:mythic Lukka number=125") }
-    let(:fancy_mythic) { card("r:mythic Lukka number=276") }
-
-    context "normal" do
-      it do
-        ev[nonland_common].should eq Rational(1, 101) * Rational(29, 3)
-        ev[boring_common].should eq Rational(1, 101) * Rational(29, 3) * Rational(2, 3)
-        ev[fancy_common].should eq Rational(1, 101) * Rational(29, 3) * Rational(1, 3)
-        ev[evolving_wilds].should eq Rational(1, 101) * Rational(29, 3)
-        ev[normal_uncommon].should eq Rational(3, 80)
-        ev[boring_uncommon].should eq Rational(3, 80) * Rational(2, 3)
-        ev[fancy_uncommon].should eq Rational(3, 80) * Rational(1, 3)
-        ev[normal_rare].should eq Rational(2, 121)
-        ev[boring_rare].should eq Rational(2, 121) * Rational(2, 3)
-        ev[fancy_rare].should eq Rational(2, 121) * Rational(1, 3)
-        ev[normal_mythic].should eq Rational(1, 121)
-        ev[boring_mythic].should eq Rational(1, 121) * Rational(2, 3)
-        ev[fancy_mythic].should eq Rational(1, 121) * Rational(1, 3)
-        ev[gainland_common].should eq Rational(6, 120)
-        ev[basic].should eq Rational(4, 120)
-      end
-    end
-
-    context "foil" do
-      let(:foil) { true }
-
-      it do
-        ev[nonland_common].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+25)
-        ev[boring_common].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+25) * Rational(2,3)
-        ev[fancy_common].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+25) * Rational(1,3)
-        ev[evolving_wilds].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+25)
-        ev[gainland_common].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+25)
-        ev[basic].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+25)
-        ev[normal_uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1,80)
-        ev[boring_uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1,80) * Rational(2, 3)
-        ev[fancy_uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1,80) * Rational(1, 3)
-        ev[normal_rare].should eq Rational(1,3) * Rational(3,20) * Rational(2,121)
-        ev[boring_rare].should eq Rational(1,3) * Rational(3,20) * Rational(2,121) * Rational(2, 3)
-        ev[fancy_rare].should eq Rational(1,3) * Rational(3,20) * Rational(2,121) * Rational(1, 3)
-        ev[normal_mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1,121)
-        ev[boring_mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1,121) * Rational(2, 3)
-        ev[fancy_mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1,121) * Rational(1, 3)
-      end
-    end
-  end
-
   context "M21" do
     let(:set_code) { "m21" }
     let(:nonland_common) { card("r:common -t:land") }
@@ -1078,52 +1028,6 @@ describe LegacyPackFactory do
 
     it do
       ev.should eq(expected_ev)
-    end
-  end
-
-  # https://www.lethe.xyz/mtg/collation/znr.html
-  # "Every pack contains exactly one non-foil double-faced card, appearing in a normal slot according to its rarity."
-  context "Zendikar Rising" do
-    let(:set_code) { "znr" }
-
-    let(:basic) { card("r:basic") }
-    let(:common) { card("r:common") }
-    let(:uncommon) { card("r:uncommon -layout:modaldfc") }
-    let(:rare) { card("r:rare -layout:modaldfc") }
-    let(:mythic) { card("r:mythic -layout:modaldfc") }
-    let(:mdfc_uncommon) { card("r:uncommon layout:modaldfc") }
-    let(:mdfc_rare) { card("r:rare layout:modaldfc") }
-    let(:mdfc_mythic) { card("r:mythic layout:modaldfc") }
-
-    context "normal" do
-      # either rare or uncommon mdfc rate will be off
-      # Proper uncommon rate results in nice 3:1 booster type ratio, but rare ratio is then 50% off
-      # Proper rare rate results in really weird booster type ratio, but uncommon ratio is then 12% off (this is what we use)
-      it do
-        ev[basic].should eq Rational(1, 15)
-        ev[common].should eq Rational(1, 101) * Rational(29, 3)
-        ev[uncommon].should eq Rational(323, 8880) # about 3/80
-        ev[rare].should eq Rational(2, 148)
-        ev[mythic].should eq Rational(1, 148)
-        ev[mdfc_uncommon].should eq Rational(121, 2960) # about 3/80
-        ev[mdfc_rare].should eq Rational(2, 148)
-        ev[mdfc_mythic].should eq Rational(1, 148)
-      end
-    end
-
-    context "foil" do
-      let(:foil) { true }
-
-      it do
-        ev[basic].should eq Rational(1,3) * Rational(12,20) * Rational(1, 101+15)
-        ev[common].should eq Rational(1,3) * Rational(12,20) * Rational(1, 101+15)
-        ev[uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1, 80)
-        ev[rare].should eq Rational(1,3) * Rational(3,20) * Rational(2, 2*(53+11)+(15+5))
-        ev[mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1, 2*(53+11)+(15+5))
-        ev[mdfc_uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1, 80)
-        ev[mdfc_rare].should eq Rational(1,3) * Rational(3,20) * Rational(2, 2*(53+11)+(15+5))
-        ev[mdfc_mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1, 2*(53+11)+(15+5))
-      end
     end
   end
 
@@ -1291,43 +1195,6 @@ describe LegacyPackFactory do
     end
   end
 
-  context "KHM" do
-    let(:set_code) { "khm"}
-    let(:nonland_common) { card("r:common -t:land") }
-    let(:snow_dual_common) { card("r:common t:land -(Shimmerdrift Vale)") }
-    let(:shimmerdrift_vale) { card("Shimmerdrift Vale") }
-    let(:basic) { card("r:basic") }
-    let(:uncommon) { card("r:uncommon") }
-    let(:rare) { card("r:rare") }
-    let(:mythic) { card("r:mythic") }
-
-    context "normal" do
-      it do
-        ev[nonland_common].should eq Rational(1, 101) * Rational(29, 3)
-        ev[shimmerdrift_vale].should eq Rational(1, 101) * Rational(29, 3)
-        ev[snow_dual_common].should eq Rational(5, 120)
-        ev[basic].should eq Rational(7, 120)
-        ev[uncommon].should eq Rational(3, 80)
-        ev[rare].should eq Rational(2, 20+64*2)
-        ev[mythic].should eq Rational(1, 20+64*2)
-      end
-    end
-
-    context "foil" do
-      let(:foil) { true }
-
-      it do
-        ev[nonland_common].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+10+10)
-        ev[shimmerdrift_vale].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+10+10)
-        ev[snow_dual_common].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+10+10)
-        ev[basic].should eq Rational(1,3) * Rational(12,20) * Rational(1,101+10+10)
-        ev[uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1,80)
-        ev[rare].should eq Rational(1,3) * Rational(3,20) * Rational(2,20+64*2)
-        ev[mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1,20+64*2)
-      end
-    end
-  end
-
   # Pretty much 128.88 == 129
   # but 144.88 is somewhat far from 144, and that formula is uglier
   context "Masterpieces" do
@@ -1457,204 +1324,6 @@ describe LegacyPackFactory do
           ev[rare].should eq Rational(4, 121*2+40) * Rational(2, 13)
           ev[mythic].should eq Rational(2, 121*2+40) * Rational(2, 13)
         end
-      end
-    end
-
-    # Now these numbers are really questionable, as CMR
-    # has a lot of rarities (C, U, R, M, LU, LR, LM)
-    # and we're kinda ignoring the details
-    #
-    # This more documents the choices than asserts they're right
-    context "CMR" do
-      let(:set_code) { "cmr" }
-      let(:common) { card("r:common") }
-      let(:uncommon) { card("r:uncommon -t:legendary") }
-      let(:rare) { card("r:rare -t:legendary") }
-      let(:mythic) { card("r:mythic -t:legendary") }
-      let(:piper) { card("The Prismatic Piper") }
-
-      context "non-foil" do
-        it do
-          ev[piper].should eq Rational(1, 6)
-          ev[common].should eq Rational(1, 141) * Rational(12*6+5, 6)
-          ev[uncommon].should eq Rational(3, 80)
-          ev[rare].should eq Rational(2, 2*52+17)
-          ev[mythic].should eq Rational(1, 2*52+17)
-        end
-      end
-
-      # Totally guessing the Piper here
-      context "foil" do
-        let(:foil) { true }
-        it do
-          ev[piper].should eq Rational(13, 141+1) * Rational(1, 17)
-          ev[common].should eq Rational(13, 141+1) * Rational(1, 17)
-          ev[uncommon].should eq Rational(3, 120) * Rational(1, 17)
-          ev[rare].should eq Rational(2, 2*77+22) * Rational(1, 17)
-          ev[mythic].should eq Rational(1, 2*77+22) * Rational(1, 17)
-        end
-      end
-    end
-  end
-
-  context "STX / STA" do
-    let(:set_code) { "stx" }
-    let(:common) { card("r:common -t:lesson") }
-    let(:uncommon) { card("r:uncommon -t:lesson") }
-    let(:rare) { card("r:rare -t:lesson") }
-    let(:mythic) { card("r:mythic -t:lesson") }
-    let(:lesson_common) { card("r:common t:lesson") }
-    let(:lesson_uncommon) { card("r:uncommon t:lesson") }
-    let(:lesson_rare) { card("r:rare t:lesson") }
-    let(:lesson_mythic) { card("r:mythic t:lesson") }
-    let(:sta_uncommon) { card("r:uncommon", set_code: "sta") }
-    let(:sta_rare) { card("r:rare", set_code: "sta") }
-    let(:sta_mythic) { card("r:mythic", set_code: "sta") }
-
-    context "normal" do
-      it do
-        # Presumed to match regular set, but not guaranteed correct due to MDFCs
-        ev[common].should eq Rational(26,27) * Rational(9,96)
-        ev[uncommon].should eq Rational(3, 80)
-        ev[rare].should eq Rational(2, 64*2+20)
-        ev[mythic].should eq Rational(1, 64*2+20)
-
-        # Uncommon lessons just in regular uncommon slot
-        # Other rates guessed
-        ev[lesson_common].should eq Rational(11, 110)
-        ev[lesson_uncommon].should eq Rational(3, 80)
-        ev[lesson_rare].should eq Rational(2, 110)
-        ev[lesson_mythic].should eq Rational(1, 110)
-
-        # Official rates
-        ev[sta_uncommon].should eq Rational(2, 3) * Rational(1, 18)
-        ev[sta_rare].should eq Rational(1, 3) * Rational(2, 75)
-        ev[sta_mythic].should eq Rational(1, 3) * Rational(1, 75)
-      end
-    end
-
-    context "foil" do
-      let(:foil) { true }
-
-      it do
-        # just put everything into same slot due to no better information
-        ev[common].should eq Rational(1,105) * Rational(1,3) * Rational(12,20)
-        ev[uncommon].should eq Rational(1, 80) * Rational(1,3) * Rational(5,20)
-        ev[rare].should eq Rational(2, 69*2+21) * Rational(1,3) * Rational(3,20)
-        ev[mythic].should eq Rational(1, 69*2+21) * Rational(1,3) * Rational(3,20)
-
-        ev[lesson_common].should eq Rational(1,105) * Rational(1,3) * Rational(12,20)
-        ev[lesson_uncommon].should eq Rational(1, 80) * Rational(1,3) * Rational(5,20)
-        ev[lesson_rare].should eq Rational(2, 69*2+21) * Rational(1,3) * Rational(3,20)
-        ev[lesson_mythic].should eq Rational(1, 69*2+21) * Rational(1,3) * Rational(3,20)
-
-        # This is likely incorrect?
-        ev[sta_uncommon].should eq 0
-        ev[sta_rare].should eq 0
-        ev[sta_mythic].should eq 0
-      end
-    end
-  end
-
-  context "MH2" do
-    let(:set_code) { "mh2" }
-    let(:common) { card("r:common number<262") }
-    let(:uncommon) { card("r:uncommon number<262") }
-    let(:rare) { card("r:rare number<262") }
-    let(:mythic) { card("r:mythic number<262") }
-    let(:uncommon_ntm) { card("r:uncommon number>=262") }
-    let(:rare_ntm) { card("r:rare number>=262") }
-    let(:mythic_ntm) { card("r:mythic number>=262") }
-
-    context "normal" do
-      it do
-        ev[common].should eq Rational(29,3) * Rational(1,101)
-        ev[uncommon].should eq Rational(3, 80)
-        ev[rare].should eq Rational(2, 140)
-        ev[mythic].should eq Rational(1, 140)
-
-        ev[uncommon_ntm].should eq Rational(5, 140)
-        ev[rare_ntm].should eq Rational(2, 140)
-        ev[mythic_ntm].should eq Rational(1, 140)
-      end
-    end
-
-    context "foil" do
-      let(:foil) { true }
-
-      it do
-        ev[common].should eq Rational(1,3) * Rational(12,20) * Rational(1,101)
-        ev[uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1, 80+20)
-        ev[rare].should eq Rational(1,3) * Rational(3,20) * Rational(2, 140+40)
-        ev[mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1, 140+40)
-
-        ev[uncommon_ntm].should eq Rational(1,3) * Rational(5,20) * Rational(1, 80+20)
-        ev[rare_ntm].should eq Rational(1,3) * Rational(3,20) * Rational(2, 140+40)
-        ev[mythic_ntm].should eq Rational(1,3) *  Rational(3,20) * Rational(1, 140+40)
-      end
-    end
-  end
-
-  # For basics, commons, distribution is known
-  # For foils, totals are known, we can just assume DFCness doesn't matter and usual rates apply (12/20 c/b, 5/20 u, 3/20 r/m)
-  #
-  # Exact rules:
-  # * 1 R/M per pack
-  # * 3 U per pack
-  # * 1 DFC U/R/M per pack
-
-  # Approximate rules:
-  # * DFC mythics == DFC mythics
-  # * DFC rares == DFC rares
-  # * DFC uncommons == DFC uncommons
-  #
-  # To make uncommon rate equal (3/83), ratio needs to be 14:69
-  # To make rare/mythic rare equal , ratio needs to be 27:121
-  # They differ by 8%
-  # Both are close enough to 1:5 that we can assume it's 1:5 and we likely won't be too wrong.
-  #
-  # All the ~1 fudge factors in the normal test represent this
-  context "MID" do
-    let(:set_code) { "mid" }
-    let(:basic) { card("r:basic") }
-    let(:common) { card("r:common number<=277 -layout:dfc") }
-    let(:uncommon) { card("r:uncommon number<=277 -layout:dfc") }
-    let(:rare) { card("r:rare number<=277 -layout:dfc") }
-    let(:mythic) { card("r:mythic number<=277 -layout:dfc") }
-    let(:dfc_common) { card("r:common number<=277 layout:dfc") }
-    let(:dfc_uncommon) { card("r:uncommon number<=277 layout:dfc") }
-    let(:dfc_rare) { card("r:rare number<=277 layout:dfc") }
-    let(:dfc_mythic) { card("r:mythic number<=277 layout:dfc") }
-
-    context "normal" do
-      it do
-        ev[basic].should eq Rational(1,10)
-        ev[common].should eq Rational(1,90) * Rational(26, 3)
-        ev[uncommon].should eq Rational(3, 83) * (1079/1080r) # 0.1% deviation
-        ev[rare].should eq Rational(2, 15 + 53*2 + 5 + 11*2) * (370/363r) # 2% deviation
-        ev[mythic].should eq Rational(1, 15 + 53*2 + 5 + 11*2) * (370/363r) # 2% deviation
-
-        ev[dfc_common].should eq Rational(1,10)
-        ev[dfc_uncommon].should eq Rational(3, 83) * (415/414r) # 0.2% deviation
-        ev[dfc_rare].should eq Rational(2, 15 + 53*2 + 5 + 11*2) * (74/81r) # 9% deviation
-        ev[dfc_mythic].should eq Rational(1, 15 + 53*2 + 5 + 11*2) * (74/81r) # 9% deviation
-      end
-    end
-
-    context "foil" do
-      let(:foil) { true }
-
-      it do
-        ev[basic].should eq Rational(1,3) * Rational(12,20) * Rational(1,10+90+10)
-        ev[common].should eq Rational(1,3) * Rational(12,20) * Rational(1,10+90+10)
-        ev[uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1,60+23)
-        ev[rare].should eq Rational(1,3) * Rational(3,20) * Rational(2, 15 + 53*2 + 5 + 11*2)
-        ev[mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1, 15 + 53*2 + 5 + 11*2)
-
-        ev[dfc_common].should eq Rational(1,3) * Rational(12,20) * Rational(1,10+90+10)
-        ev[dfc_uncommon].should eq Rational(1,3) * Rational(5,20) * Rational(1,60+23)
-        ev[dfc_rare].should eq Rational(1,3) * Rational(3,20) * Rational(2, 15 + 53*2 + 5 + 11*2)
-        ev[dfc_mythic].should eq Rational(1,3) * Rational(3,20) * Rational(1, 15 + 53*2 + 5 + 11*2)
       end
     end
   end

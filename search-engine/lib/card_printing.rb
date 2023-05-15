@@ -3,6 +3,8 @@ class CardPrinting
   attr_reader :watermark, :artist_name, :multiverseid, :number, :frame, :flavor, :flavor_normalized, :border
   attr_reader :rarity_code, :print_sheet, :oversized, :frame_effects, :foiling, :spotlight
   attr_reader :textless, :fullart, :buyabox, :flavor_name, :nontournament, :acorn
+  attr_reader :attraction_lights, :promo_types, :variant_misprint, :variant_foreign, :signature, :subsets, :timeshifted
+  attr_reader :stamp, :digital, :language
 
   # Performance cache of derived information
   attr_reader :stemmed_name, :set_code
@@ -35,22 +37,31 @@ class CardPrinting
     @frame_effects = data["frame_effects"] || []
     rarity = data["rarity"]
     @rarity_code = %W[basic common uncommon rare mythic special].index(rarity) or raise "Unknown rarity #{rarity}"
+    @acorn = data["acorn"]
+    @arena = data["arena"]
+    @attraction_lights = data["attraction_lights"]
+    @buyabox = data["buyabox"]
+    @digital = data["digital"]
     @exclude_from_boosters = data["exclude_from_boosters"]
-    @print_sheet = data["print_sheet"]
-    @partner = data["partner"] # overriden by CardDatabase
+    @fullart = data["fullart"]
+    @language = data["language"]
+    @mtgo = data["mtgo"]
+    @nontournament = data["nontournament"]
     @others = data["others"] # overriden by CardDatabase
     @oversized = data["oversized"]
-    @nontournament = data["nontournament"]
-    @spotlight = data["spotlight"]
-    @fullart = data["fullart"]
-    @textless = data["textless"]
-    @buyabox = data["buyabox"]
-    @acorn = data["acorn"]
-
     @paper = data["paper"]
-    @arena = data["arena"]
-    @mtgo = data["mtgo"]
+    @partner = data["partner"] # overriden by CardDatabase
+    @print_sheet = data["print_sheet"]
+    @promo_types = data["promo_types"]
     @shandalar = data["shandalar"]
+    @signature = data["signature"]
+    @spotlight = data["spotlight"]
+    @stamp = data["stamp"]
+    @subsets = data["subsets"]
+    @textless = data["textless"]
+    @timeshifted = data["timeshifted"]
+    @variant_foreign = data["variant_foreign"]
+    @variant_misprint = data["variant_misprint"]
     @xmage = data["xmage"]
 
     # Performance cache
@@ -120,7 +131,7 @@ class CardPrinting
     primary? secondary? front? back? partner? allowed_in_any_number?
     commander? brawler? custom? keywords
     count_sets count_prints count_papersets count_paperprints name_slug
-    fulltext fulltext_normalized
+    fulltext fulltext_normalized defense
   ].each do |m|
     eval("def #{m}; @card.#{m}; end")
   end
@@ -173,5 +184,13 @@ class CardPrinting
 
   def physical_card
     PhysicalCard.for(self)
+  end
+
+  def foilonly?
+    foiling == "foilonly"
+  end
+
+  def nonfoilonly?
+    foiling == "nonfoil"
   end
 end

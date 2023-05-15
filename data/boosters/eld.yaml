@@ -1,12 +1,41 @@
+# data from https://magic.wizards.com/en/news/making-magic/project-booster-fun-2019-07-20
+# and https://www.lethe.xyz/mtg/collation/eld.html
 pack:
-- basic: 1
-  common: 10
+  basic: 1
+  common_or_foil:
+  - common: 10
+    chance: 2
+  - common: 9
+    foil: 1
+    chance: 1
   uncommon: 3
-  rare_mythic: 1
-  chance: 2
-- basic: 1
-  common: 9
-  uncommon: 3
-  rare_mythic: 1
-  foil: 1
-  chance: 1
+  rm_showcase_slot:
+  # Showcase rare and mythic are a separate sheet run, included at ~1/27 rate
+  - rare_mythic: 1
+    chance: 26
+  - rare_mythic_showcase: 1
+    chance: 1
+sheets:
+  common:
+    use: common_with_showcase
+    count: 14 + 14 + 87
+  uncommon:
+    use: uncommon_with_showcase
+    count: 71 + 9 + 9
+  foil:
+    foil: true
+    any:
+    - any:
+      - use: common
+        chance: 101
+      - use: basic
+        chance: 20
+      chance: 12
+    - use: uncommon
+      chance: 5
+    - any:
+      - use: rare_mythic
+        chance: 26
+      - use: rare_mythic_showcase
+        chance: 1
+      chance: 3
