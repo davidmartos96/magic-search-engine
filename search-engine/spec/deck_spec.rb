@@ -57,6 +57,7 @@ describe Deck do
       ["standard", "Arena Starter Kit"],
       # Non-decks, this needs to be sorted out at some point
       ["box", "Box"],
+      ["box", "Secret Lair Drop"],
     ]
 
     db.sets.each do |set_code, set|
@@ -140,6 +141,8 @@ describe Deck do
         sets_found.should match_array ["onc", "one"]
       when "moc"
         sets_found.should match_array ["moc", "mom"]
+      when "pctb"
+        sets_found.should match_array ["pctb", "sld"]
       else
         sets_found.should eq [set.code]
       end
@@ -271,6 +274,8 @@ describe Deck do
       end
       # PHED is 50:50 foil nonfoil, I'll just need to trust mtgjson here
       next if set_code == "phed"
+      # PCTB is weird as well
+      next if set_code == "pctb"
 
       # Some crazy foiling in them
       # Deck indexer doesn't even try, it's just marked on decklist manually
@@ -282,7 +287,7 @@ describe Deck do
       set.decks.each do |deck|
         if deck.type == "Clash Pack"
           foils = deck.physical_cards.select(&:foil)
-          clash_pack_cards = deck.physical_cards.select{|c| c.set_code =~ /\Acp/ }
+          clash_pack_cards = deck.physical_cards.select{|c| c.set_code.start_with?('cp') }
           foils.should match_array(clash_pack_cards)
           next
         end
