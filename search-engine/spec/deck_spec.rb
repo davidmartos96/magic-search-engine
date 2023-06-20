@@ -1,6 +1,7 @@
 describe Deck do
   include_context "db"
 
+  # This is getting out of hand, and nseeds some cleanup
   it "each set has correct decks" do
     allowed_combinations = [
       # Completely unique types
@@ -29,6 +30,7 @@ describe Deck do
       ["core", "Planeswalker Deck"],
       ["core", "Welcome Deck"],
       ["expansion", "Advanced Deck"],
+      ["core", "Advanced Pack"],
       ["expansion", "Basic Deck"],
       ["expansion", "Clash Pack"],
       ["expansion", "Event Deck"],
@@ -50,14 +52,24 @@ describe Deck do
       ["box", "Commander Deck"], # MTGO
       ["core", "Spellslinger Starter Kit"],
       ["funny", "Halfdeck"],
+      ["standard", "Halfdeck"],
       ["draft innovation", "Jumpstart"], # JMP only
       ["memorabilia", "World Championship Deck"], # WCxx
       ["memorabilia", "Pro Tour Deck"], # PTC
       ["expansion", "Jumpstart"],
       ["standard", "Arena Starter Kit"],
+      ["standard", "Arena Starter Deck"],
+      ["modern", "Arena Starter Kit"], # LTR
+      ["standard", "Arena Promotional Deck"],
+      ["starter", "Arena Starter Deck"],
       # Non-decks, this needs to be sorted out at some point
       ["box", "Box"],
-      ["box", "Secret Lair Drop"],
+      ["sld", "Secret Lair Drop"],
+      ["core", "Welcome Booster"],
+      ["expansion", "Welcome Booster"],
+      ["commander", "Box Set"],
+      ["standard", "Box Set"],
+      ["fixed", "Box Set"],
     ]
 
     db.sets.each do |set_code, set|
@@ -143,6 +155,8 @@ describe Deck do
         sets_found.should match_array ["moc", "mom"]
       when "pctb"
         sets_found.should match_array ["pctb", "sld"]
+      when "ltc"
+        sets_found.should match_array ["ltc", "ltr"]
       else
         sets_found.should eq [set.code]
       end
@@ -276,6 +290,8 @@ describe Deck do
       next if set_code == "phed"
       # PCTB is weird as well
       next if set_code == "pctb"
+      # Not decks, just boxed products
+      next if set_code == "sld"
 
       # Some crazy foiling in them
       # Deck indexer doesn't even try, it's just marked on decklist manually
@@ -294,6 +310,8 @@ describe Deck do
 
         # Some have foil basics
         next if deck.type == "Jumpstart"
+        # Box not deck
+        next if deck.type == "Welcome Booster"
 
         foils = deck.physical_cards.select(&:foil)
         # Skip if no foils
