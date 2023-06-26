@@ -34,7 +34,7 @@ describe "Card layouts" do
     assert_search_equal "layout:aftermath", "// o:aftermath"
     assert_search_equal "layout:leveler", 'o:/level up \{/'
     assert_search_equal "layout:meld", "// (// o:meld)"
-    assert_search_equal "layout:saga -e:prm,mom", "t:saga -e:neo,pneo,prm,mom,pmom" # DFC sagas?
+    assert_search_equal "layout:saga", "t:saga is:sfc" # DFC sagas have different layout
     assert_search_equal "layout:adventure", "t:adventure or (// t:adventure)"
     assert_search_equal "layout:modaldfc -e:pmei,slu,j21,prm,sld,pctb", "// e:znr,pznr,khm,pkhm,stx,pstx"
 
@@ -42,8 +42,8 @@ describe "Card layouts" do
     assert_search_equal "layout:mdfc", "layout:modaldfc"
     assert_search_equal "layout:mdfc", "layout:modal-dfc"
 
-    # No longer true since they got merged in v4,
-    # we keep aliases but they're not exact
+    # mtgjson used to have separate layouts, but merged them
+    # just an alias check
     assert_search_equal "layout:plane", "layout:planar"
     assert_search_equal "layout:phenomenon", "layout:planar"
   end
