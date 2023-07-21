@@ -63,12 +63,16 @@ class PatchMtgjsonVersions < Patch
   end
 
   def call
-    # Delete all Alchemy cards
-    delete_printing_if do |card|
-      card["isRebalanced"]
+    # Fix Alchemy cards names into something search engine can work with
+    # mtgjson "A-Akki Ronin" turns into "Akki Ronin (Alchemy)"
+    each_printing do |card|
+      next unless card.delete("isRebalanced")
+      card["alchemy"] = true
+      card["name"] = alchemy_name_fix(card["name"])
+      card["faceName"] = alchemy_name_fix(card["faceName"])
     end
 
-     each_printing do |card|
+    each_printing do |card|
       if card["faceName"] and card["name"].include?("//")
         card["names"] = card["name"].split(" // ")
         card["name"] = card.delete("faceName")
@@ -243,10 +247,32 @@ class PatchMtgjsonVersions < Patch
       if card["finishes"].include?("etched")
         card["etched"] = true
       end
+
+      # https://github.com/mtgjson/mtgjson/issues/1094
+      if card["subtypes"]&.include?("Saga") and card["layout"] == "normal"
+        card["layout"] = "saga"
+      end
+
+      # https://github.com/mtgjson/mtgjson/issues/1094
+      if card["frame_effects"]&.include?("borderless")
+        card["border"] = "borderless"
+        card["frame_effects"].delete("borderless")
+      end
     end
   end
 
   def cleanup_unicode_punctuation(text)
     text.tr(%[‘’“”], %[''""])
+  end
+
+  def alchemy_name_fix(name)
+    return unless name
+    name.split(" // ").map{|s|
+      if s =~ /\AA-(.*)/
+        "#{$1} (Alchemy)"
+      else
+        s
+      end
+    }.join(" // ")
   end
 end

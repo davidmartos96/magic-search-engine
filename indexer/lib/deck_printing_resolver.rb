@@ -19,7 +19,7 @@ class DeckPrintingResolver
     "Rakdos Guildgate",
     "Selesnya Guildgate",
     "Simic Guildgate",
-  ]
+  ].to_set
 
   SetSearchList = {
     # otherwise it returns GRN and that's bad
@@ -33,6 +33,8 @@ class DeckPrintingResolver
     "s00" => ["6ed"],
     # It seems that Masters Edition 2 precons contained Masters Edition cards too
     "me2" => ["me1"],
+    # Shandalar doesn't really have meaningful printings
+    "past" => ["drk", "leg", "atq", "arn", "3ed", "2ed", "leb", "lea"],
   }
 
   def initialize(cards, sets, deck, card)
@@ -229,7 +231,15 @@ class DeckPrintingResolver
 
   def call
     printing_card = resolve_card
-    foil_res = (@card["foil"] || printing_card["foiling"] == "foilonly") ? ["foil"] : []
+    if @card["foil"]
+      foil_res = ["foil"]
+    elsif printing_card["foiling"] == "foilonly"
+      # These should be fixed in decklists
+      warn "#{@deck["set_code"]} #{@deck["name"]}: Card #{printing_card["name"]} [#{printing_card["set"]["code"]}:#{printing_card["number"]}]) automatically corrected to foil, as it is available as foil only"
+      foil_res = ["foil"]
+    else
+      foil_res = []
+    end
     [@card["count"], printing_card["set_code"], printing_card["number"]] + foil_res
   end
 

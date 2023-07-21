@@ -28,7 +28,7 @@ describe Deck do
       ["core", "Intro Pack"],
       ["core", "Theme Deck"],
       ["core", "Planeswalker Deck"],
-      ["core", "Welcome Deck"],
+      ["standard", "Welcome Deck"],
       ["expansion", "Advanced Deck"],
       ["core", "Advanced Pack"],
       ["expansion", "Basic Deck"],
@@ -66,6 +66,8 @@ describe Deck do
       ["starter", "Arena Starter Deck"],
       ["modern", "Arena Starter Deck"], # LTR
       ["standard", "Deck Builder's Toolkit"],
+      ["box", "Challenger Deck"], # Q07
+      ["shandalar", "Shandalar Enemy Deck"], # assigned to PAST, as there's no Shandalar set
       # Non-decks, this needs to be sorted out at some point
       ["box", "Box"],
       ["sld", "Secret Lair Drop"],
@@ -74,6 +76,7 @@ describe Deck do
       ["commander", "Box Set"],
       ["standard", "Box Set"],
       ["fixed", "Box Set"],
+      ["planechase", "Box Set"],
     ]
 
     db.sets.each do |set_code, set|
@@ -161,6 +164,8 @@ describe Deck do
         sets_found.should match_array ["pctb", "sld"]
       when "ltc"
         sets_found.should match_array ["ltc", "ltr"]
+      when "pca"
+        sets_found.should match_array ["pca", "opca"]
       else
         sets_found.should eq [set.code]
       end
@@ -357,7 +362,7 @@ describe Deck do
   end
 
   describe "#cards_in_all_zones adds up mainboard and sideboard" do
-    let(:deck) { db.sets["grn"].deck_named("United Assault") }
+    let(:deck) { db.sets["q02"].deck_named("United Assault") }
     let(:main) { deck.cards }
     let(:side) { deck.sideboard }
     let(:commander) { deck.commander }
@@ -398,7 +403,7 @@ describe Deck do
 
   # Including physical card full name here might be questionable API
   describe "#card_counts" do
-    let(:united_assault) { db.sets["grn"].deck_named("United Assault") }
+    let(:united_assault) { db.sets["q02"].deck_named("United Assault") }
     let(:spiritbane) { db.sets["chk"].deck_named("Spiritbane") }
     let(:spiritcraft) { db.sets["bok"].deck_named("Spiritcraft") }
     let(:open_hostility) { db.sets["c16"].deck_named("Open Hostility") }

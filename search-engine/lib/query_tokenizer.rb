@@ -136,7 +136,7 @@ class QueryTokenizer
         tokens << [:test, ConditionSignature.new(s[1] || s[2])]
       elsif s.scan(/(?:lore)\s*[:=]\s*(?:"(.*?)"|([\p{L}\p{Digit}_]+|\*))/i)
         tokens << [:test, ConditionLore.new(s[1] || s[2])]
-      elsif s.scan(/deck\s*[:=]\s*(?:"(.*?)"|([\p{L}\p{Digit}_\-]+))/i)
+      elsif s.scan(/deck\s*[:=]\s*(?:"(.*?)"|([\p{L}\p{Digit}_\-]+|\*))/i)
         tokens << [:test, ConditionDeck.new(s[1] || s[2])]
       elsif s.scan(/(?:b|block)\s*[:=]\s*(?:"(.*?)"|([\p{L}\p{Digit}_]+))/i)
         blocks = [s[1] || s[2]]
@@ -197,7 +197,7 @@ class QueryTokenizer
         rescue
           @warnings << "unknown rarity: #{rarity}"
         end
-      elsif s.scan(/(pow|power|loy|loyalty|tou|toughness|cmc|mv|year|sets|papersets|prints|paperprints|defen[cs]e|hand|life)\s*(>=|>|<=|<|=|:)\s*(pow\b|power\b|tou\b|toughness\b|cmc\b|mv\b|loy\b|loyalty\b|year\b|defen[cs]e\b|hand\b|life\b|[²\d\.\-\*\+½x∞\?]+|"[²\d\.\-\*\+½x∞\?]+")/i)
+      elsif s.scan(/(pow|power|loy|loyalty|tou|toughness|cmc|mv|year|sets|papersets|prints|paperprints|defen[cs]e|hand|life|decklimit)\s*(>=|>|<=|<|=|:)\s*(pow\b|power\b|tou\b|toughness\b|cmc\b|mv\b|loy\b|loyalty\b|year\b|defen[cs]e\b|hand\b|life\b|decklimit\b|any\b|[²\d\.\-\*\+½x∞\?]+|"[²\d\.\-\*\+½x∞\?]+")/i)
         aliases = {"power" => "pow", "loyalty" => "loy", "toughness" => "tou"}
         a = s[1].downcase
         a = aliases[a] || a
@@ -214,7 +214,7 @@ class QueryTokenizer
         tokens << [:test, ConditionMana.new(op, mana)]
       elsif s.scan(/(?:cast)\s*(?:=|:)\s*((?:[\dwubrgxyzchmnos]|\{.*?\})*)/i)
         tokens << [:test, ConditionCast.new(s[1])]
-      elsif s.scan(/(is|not)\s*[:=]\s*(vanilla|spell|permanent|funny|timeshifted|colorshifted|reserved|multipart|promo|primary|secondary|front|back|commander|digital|reprint|fetchland|shockland|dual|fastland|bounceland|gainland|filterland|checkland|manland|creatureland|scryland|battleland|guildgate|karoo|painland|triland|canopyland|shadowland|storageland|tangoland|canland|phyrexian|hybrid|augment|unique|booster|draft|historic|holofoil|foilonly|nonfoilonly|foil|nonfoil|foilboth|brawler|keywordsoup|partner|oversized|tournament|spotlight|story|modal|textless|fullart|full|ante|custom|mainfront|tricycleland|triome|racist|masterpiece|cycleland|bikeland|bicycleland|horizontal|vertical|baseset|basictype|foreign|etched|hero|maindeck)\b/i)
+      elsif s.scan(/(is|not)\s*[:=]\s*(vanilla|spell|permanent|funny|timeshifted|colorshifted|reserved|multipart|promo|primary|secondary|front|back|commander|digital|reprint|fetchland|shockland|dual|fastland|bounceland|gainland|filterland|checkland|manland|creatureland|scryland|battleland|guildgate|karoo|painland|triland|canopyland|shadowland|storageland|tangoland|canland|phyrexian|hybrid|augment|unique|booster|draft|historic|holofoil|foilonly|nonfoilonly|foil|nonfoil|foilboth|brawler|keywordsoup|partner|oversized|tournament|spotlight|story|modal|textless|fullart|full|ante|custom|mainfront|tricycleland|triome|racist|masterpiece|cycleland|bikeland|bicycleland|horizontal|vertical|baseset|basictype|foreign|etched|hero|maindeck|alchemy|rebalanced)\b/i)
         tokens << [:not] if s[1].downcase == "not"
         cond = s[2].capitalize
         cond = "Bounceland" if cond == "Karoo"
@@ -226,13 +226,15 @@ class QueryTokenizer
         cond = "Cycleland" if cond == "Bicycleland"
         cond = "Cycleland" if cond == "Bikeland"
         cond = "Spotlight" if cond == "Story"
+        cond = "Alchemy" if cond == "Rebalanced"
         klass = Kernel.const_get("ConditionIs#{cond}")
         tokens << [:test, klass.new]
-      elsif s.scan(/has:(partner|watermark|indicator|showcase|signature|flavor)\b/)
+      elsif s.scan(/has:(partner|watermark|indicator|showcase|signature|flavor|alchemy|rebalanced)\b/)
         cond = s[1].capitalize
+        cond = "Alchemy" if cond == "Rebalanced"
         klass = Kernel.const_get("ConditionHas#{cond}")
         tokens << [:test, klass.new]
-      elsif s.scan(/(is|not|layout)\s*[:=]\s*(normal|leveler|vanguard|modal-dfc|modaldfc|mdfc|transform|split|flip|plane|scheme|phenomenon|meld|aftermath|adventure|saga|planar|augment|host|class|dungeon|prototype)\b/i)
+      elsif s.scan(/(is|not|layout)\s*[:=]\s*(normal|leveler|vanguard|modal-dfc|modaldfc|mdfc|transform|split|flip|plane|scheme|phenomenon|meld|aftermath|adventure|saga|planar|augment|host|class|dungeon|prototype|mutate)\b/i)
         tokens << [:not] if s[1].downcase == "not"
         kind = s[2].downcase
         kind = "transform" if kind == "double-faced"
@@ -252,7 +254,7 @@ class QueryTokenizer
         tokens << [:test, klass.new]
       elsif s.scan(/layout\s*[:=]\s*(?:"(.*?)"|([\.\p{L}\p{Digit}_]+))/i)
         layout = (s[1]||s[2]).downcase
-        layouts = %W[normal leveler vanguard dfc double-faced mdfc modal-dfc modaldfc transform split flip plane scheme phenomenon meld aftermath adventure saga planar augment host class dungeon prototype]
+        layouts = %W[normal leveler vanguard dfc double-faced mdfc modal-dfc modaldfc transform split flip plane scheme phenomenon meld aftermath adventure saga planar augment host class dungeon prototype mutate]
         @warnings << "Unknown layout: #{layout}. Known layout types are: #{layouts.join(", ")}."
       elsif s.scan(/stamp\s*[:=]\s*(?:"(.*?)"|([\.\*\p{L}\p{Digit}_]+))/i)
         kind = (s[1]||s[2]).downcase

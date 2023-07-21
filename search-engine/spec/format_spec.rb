@@ -14,6 +14,7 @@ describe "Formats" do
         -(Fable of the Mirror-Breaker)
         -(Reflection of Kiki-Jiki)
         -(Reckoner Bankbuster)
+        -is:alchemy
       ]
     assert_search_equal_cards 'f:"ravnica block"', "e:rav,gp,di"
     assert_search_equal 'f:"ravnica block"', 'legal:"ravnica block"'
@@ -208,8 +209,8 @@ describe "Formats" do
   # We don't have all historical legality for Duel Commander yet,
   # maybe add it at some later point
   it "duel commander" do
-    assert_count_cards 'banned:"duel commander"', 89
-    assert_count_cards 'restricted:"duel commander"', 28
+    assert_count_cards 'banned:"duel commander"', 93
+    assert_count_cards 'restricted:"duel commander"', 29
   end
 
   # Used to be Lurrus
