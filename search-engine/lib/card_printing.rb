@@ -189,6 +189,7 @@ class CardPrinting
     hand
     has_alchemy
     has_multiple_parts?
+    in_spellbook
     keywords
     last_release_date
     layout
@@ -208,6 +209,9 @@ class CardPrinting
     reserved
     rulings
     secondary?
+    specialized
+    specializes
+    spellbook
     text
     text_normalized
     toughness

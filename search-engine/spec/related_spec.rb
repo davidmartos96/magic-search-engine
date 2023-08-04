@@ -18,6 +18,84 @@ describe "Spelling" do
       "Domesticated Mammoth"
   end
 
+  it "Alchemy" do
+    assert_search_results "related:Acererak",
+      "Acererak the Archlich",
+      "Acererak the Archlich (Alchemy)"
+  end
+
+  it "specialize" do
+    assert_search_results "related:Alora",
+      "Alora, Cheerful Assassin",
+      "Alora, Cheerful Mastermind",
+      "Alora, Cheerful Scout",
+      "Alora, Cheerful Swashbuckler",
+      "Alora, Cheerful Thief",
+      "Alora, Rogue Companion"
+  end
+
+  # HBG examples, but there's a lot more spellbooks out there
+  it "spellbooks" do
+    assert_search_results %Q[related:"Follow the Tracks"],
+      "Gate to the Citadel",
+      "Gate to Seatower",
+      "Gate of the Black Dragon",
+      "Gate to Tumbledown",
+      "Gate to Manorborn"
+
+    assert_search_results %Q[related:"The Hourglass Coven"],
+      "Hag of Syphoned Breath",
+      "Hag of Dark Duress",
+      "Hag of Ceaseless Torment",
+      "Hag of Inner Weakness",
+      "Hag of Death's Legion",
+      "Hag of Scoured Thoughts",
+      "Hag of Twisted Visions",
+      "Hag of Mage's Doom",
+      "Hag of Noxious Nightmares"
+
+    assert_search_results %Q[related:"Oyaminartok, Polar Werebear"],
+      "Mystic Skyfish",
+      "Moat Piranhas",
+      "Riptide Turtle",
+      "Spined Megalodon",
+      "Ruin Crab",
+      "Stinging Lionfish",
+      "Archipelagore",
+      "Pouncing Shoreshark",
+      "Junk Winder",
+      "Sigiled Starfish",
+      "Sea-Dasher Octopus",
+      "Voracious Greatshark",
+      "Nadir Kraken",
+      "Nezahal, Primal Tide",
+      "Pursued Whale"
+  end
+
+  it "is:spellbook" do
+    assert_search_include "is:spellbook",
+      "Black Lotus"
+  end
+
+  it "has:spellbook" do
+    assert_search_include "has:spellbook",
+      "Oyaminartok, Polar Werebear"
+  end
+
+  it "is:specialized" do
+    assert_search_results "is:specialized Alora",
+      "Alora, Cheerful Assassin",
+      "Alora, Cheerful Mastermind",
+      "Alora, Cheerful Scout",
+      "Alora, Cheerful Swashbuckler",
+      "Alora, Cheerful Thief"
+  end
+
+  it "has:specialized" do
+    assert_search_results "has:specialized Alora",
+      "Alora, Rogue Companion"
+  end
+
   it "*" do
     assert_search_equal "related:t:*", "related:*"
   end
@@ -29,7 +107,7 @@ describe "Spelling" do
   end
 
   it "Garth One-Eye" do
-    assert_search_results %Q[related:"Black Lotus"], "Garth One-Eye"
+    assert_search_results %Q[related:"Black Lotus"], "Garth One-Eye", "Oracle of the Alpha"
     assert_search_results "related:Garth",
       "Disenchant",
       "Braingeyser",

@@ -380,6 +380,7 @@ class Card
     :funny,
     :hand,
     :has_alchemy,
+    :in_spellbook,
     :keywords,
     :layout,
     :life,
@@ -393,6 +394,9 @@ class Card
     :reminder_text,
     :reserved,
     :rulings,
+    :specialized,
+    :specializes,
+    :spellbook,
     :stemmed_name,
     :text_normalized,
     :text,
@@ -446,6 +450,10 @@ class Card
     @partner = data["is_partner"]
     @commander = data["commander"]
     @brawler = data["brawler"]
+    @specialized = data["specialized"]
+    @specializes = data["specializes"]
+    @spellbook = data["spellbook"]
+    @in_spellbook = data["in_spellbook"]
     if data["foreign_names"]
       @foreign_names = data["foreign_names"].map{|k,v| [k.to_sym,v]}.to_h
       raise "Foreign data with empty value for #{name}" if @foreign_names.any?{|k,v| v.empty?}
