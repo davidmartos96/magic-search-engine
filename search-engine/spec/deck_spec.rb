@@ -30,6 +30,7 @@ describe Deck do
       ["core", "Planeswalker Deck"],
       ["standard", "Welcome Deck"],
       ["expansion", "Advanced Deck"],
+      ["expansion", "Enhanced Deck"],
       ["core", "Advanced Pack"],
       ["expansion", "Basic Deck"],
       ["expansion", "Clash Pack"],
@@ -52,6 +53,7 @@ describe Deck do
       ["box", "MTGO Theme Deck"], # MTGO
       ["box", "Commander Deck"], # MTGO
       ["core", "Spellslinger Starter Kit"],
+      ["modern", "Modern Event Deck"],
       ["funny", "Halfdeck"],
       ["standard", "Halfdeck"],
       ["draft innovation", "Jumpstart"], # JMP only
