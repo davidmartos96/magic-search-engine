@@ -4978,6 +4978,117 @@
     "source": "http://www.wizards.com/magic/displaythemedeck.asp?set=seventhedition&decknum=3&lang=en"
   },
   {
+    "name": "Gold Deck",
+    "type": "Starter Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Seventh Edition",
+    "set_code": "7ed",
+    "release_date": "2001-04-11",
+    "cards": [
+      {
+        "name": "Grizzly Bears",
+        "count": 3
+      },
+      {
+        "name": "Ogre Taskmaster",
+        "count": 1
+      },
+      {
+        "name": "Trained Orgg",
+        "count": 2
+      },
+      {
+        "name": "Spined Wurm",
+        "count": 1
+      },
+      {
+        "name": "Hill Giant",
+        "count": 1
+      },
+      {
+        "name": "Goblin Raider",
+        "count": 2
+      },
+      {
+        "name": "Lava Axe",
+        "count": 2
+      },
+      {
+        "name": "Monstrous Growth",
+        "count": 1
+      },
+      {
+        "name": "Rampant Growth",
+        "count": 1
+      },
+      {
+        "name": "Volcanic Hammer",
+        "count": 2
+      },
+      {
+        "name": "Forest",
+        "count": 6
+      },
+      {
+        "name": "Mountain",
+        "count": 8
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Seventh_Edition/2-Player_Starter_Set"
+  },
+  {
+    "name": "Gold Pack",
+    "type": "Advanced Pack",
+    "category": "box",
+    "set_name": "Seventh Edition",
+    "set_code": "7ed",
+    "release_date": "2001-04-11",
+    "cards": [
+      {
+        "name": "Llanowar Elves",
+        "count": 1
+      },
+      {
+        "name": "Goblin Glider",
+        "count": 1
+      },
+      {
+        "name": "Orcish Oriflamme",
+        "count": 1
+      },
+      {
+        "name": "Fog",
+        "count": 1
+      },
+      {
+        "name": "Patagia Golem",
+        "count": 1
+      },
+      {
+        "name": "Forest",
+        "count": 1
+      },
+      {
+        "name": "Mountain",
+        "count": 1
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Seventh_Edition/2-Player_Starter_Set"
+  },
+  {
     "name": "Infestation",
     "type": "Theme Deck",
     "category": "deck",
@@ -5062,6 +5173,117 @@
 
     ],
     "source": "http://www.wizards.com/magic/displaythemedeck.asp?set=seventhedition&decknum=4&lang=en"
+  },
+  {
+    "name": "Silver Deck",
+    "type": "Starter Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Seventh Edition",
+    "set_code": "7ed",
+    "release_date": "2001-04-11",
+    "cards": [
+      {
+        "name": "Eager Cadet",
+        "count": 1
+      },
+      {
+        "name": "Giant Octopus",
+        "count": 2
+      },
+      {
+        "name": "Vizzerdrix",
+        "count": 2
+      },
+      {
+        "name": "Knight Errant",
+        "count": 2
+      },
+      {
+        "name": "Coral Merfolk",
+        "count": 2
+      },
+      {
+        "name": "Merfolk of the Pearl Trident",
+        "count": 1
+      },
+      {
+        "name": "Sacred Nectar",
+        "count": 2
+      },
+      {
+        "name": "Breath of Life",
+        "count": 1
+      },
+      {
+        "name": "Vengeance",
+        "count": 2
+      },
+      {
+        "name": "Sleight of Hand",
+        "count": 1
+      },
+      {
+        "name": "Plains",
+        "count": 7
+      },
+      {
+        "name": "Island",
+        "count": 7
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Seventh_Edition/2-Player_Starter_Set"
+  },
+  {
+    "name": "Silver Pack",
+    "type": "Advanced Pack",
+    "category": "box",
+    "set_name": "Seventh Edition",
+    "set_code": "7ed",
+    "release_date": "2001-04-11",
+    "cards": [
+      {
+        "name": "Honor Guard",
+        "count": 1
+      },
+      {
+        "name": "Wind Drake",
+        "count": 1
+      },
+      {
+        "name": "Holy Strength",
+        "count": 1
+      },
+      {
+        "name": "Disenchant",
+        "count": 1
+      },
+      {
+        "name": "Rod of Ruin",
+        "count": 1
+      },
+      {
+        "name": "Plains",
+        "count": 1
+      },
+      {
+        "name": "Island",
+        "count": 1
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Seventh_Edition/2-Player_Starter_Set"
   },
   {
     "name": "Way Wild",
@@ -134640,6 +134862,397 @@
     "source": "https://mtg.gamepedia.com/Portal_Second_Age/Theme_decks"
   },
   {
+    "name": "Angels: They're Just Like Us but Cooler and with Wings",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Angels: They're Just Like Us but Cooler and with Wings",
+    "set_code": "pagl",
+    "release_date": "2023-08-14",
+    "cards": [
+      {
+        "name": "Bruna, the Fading Light",
+        "count": 1,
+        "set": "SLD",
+        "number": "1336",
+        "foil": true
+      },
+      {
+        "name": "Ajani, Strength of the Pride",
+        "count": 1
+      },
+      {
+        "name": "Angel of Destiny",
+        "count": 1,
+        "set": "PAGL",
+        "number": "4",
+        "foil": true
+      },
+      {
+        "name": "Angel of Finality",
+        "count": 1,
+        "set": "SLD",
+        "number": "1342",
+        "foil": true
+      },
+      {
+        "name": "Angel of Serenity",
+        "count": 1,
+        "set": "PAGL",
+        "number": "5",
+        "foil": true
+      },
+      {
+        "name": "Angel of the Ruins",
+        "count": 1,
+        "set": "SLD",
+        "number": "1343",
+        "foil": true
+      },
+      {
+        "name": "Angel of Vitality",
+        "count": 1,
+        "set": "PAGL",
+        "number": "6",
+        "foil": true
+      },
+      {
+        "name": "Angelic Accord",
+        "count": 1
+      },
+      {
+        "name": "Angelic Field Marshal",
+        "count": 1,
+        "set": "PAGL",
+        "number": "3",
+        "foil": true
+      },
+      {
+        "name": "Arcane Signet",
+        "count": 1
+      },
+      {
+        "name": "Arch of Orazca",
+        "count": 1
+      },
+      {
+        "name": "Archangel of Thune",
+        "count": 1,
+        "set": "SLD",
+        "number": "1337",
+        "foil": true
+      },
+      {
+        "name": "Archangel of Tithes",
+        "count": 1,
+        "set": "PAGL",
+        "number": "7",
+        "foil": true
+      },
+      {
+        "name": "Arden Angel",
+        "count": 1,
+        "set": "SLD",
+        "number": "1344",
+        "foil": true
+      },
+      {
+        "name": "Austere Command",
+        "count": 1
+      },
+      {
+        "name": "Bishop of Wings",
+        "count": 1
+      },
+      {
+        "name": "Bonders' Enclave",
+        "count": 1
+      },
+      {
+        "name": "Breathkeeper Seraph",
+        "count": 1,
+        "set": "SLD",
+        "number": "1345",
+        "foil": true
+      },
+      {
+        "name": "Cleansing Nova",
+        "count": 1
+      },
+      {
+        "name": "Commander's Plate",
+        "count": 1,
+        "set": "SLD",
+        "number": "1339",
+        "foil": true
+      },
+      {
+        "name": "Cosmos Elixir",
+        "count": 1
+      },
+      {
+        "name": "Court of Grace",
+        "count": 1,
+        "set": "SLD",
+        "number": "1338",
+        "foil": true
+      },
+      {
+        "name": "Dawn of Hope",
+        "count": 1
+      },
+      {
+        "name": "Dawnbreak Reclaimer",
+        "count": 1,
+        "set": "SLD",
+        "number": "1346",
+        "foil": true
+      },
+      {
+        "name": "Dismantling Wave",
+        "count": 1
+      },
+      {
+        "name": "Emeria Shepherd",
+        "count": 1,
+        "set": "PAGL",
+        "number": "14",
+        "foil": true
+      },
+      {
+        "name": "Emeria, the Sky Ruin",
+        "count": 1
+      },
+      {
+        "name": "Endless Atlas",
+        "count": 1
+      },
+      {
+        "name": "Entreat the Angels",
+        "count": 1,
+        "set": "PAGL",
+        "number": "15",
+        "foil": true
+      },
+      {
+        "name": "Everflowing Chalice",
+        "count": 1
+      },
+      {
+        "name": "Giada, Font of Hope",
+        "count": 1
+      },
+      {
+        "name": "Griffin Aerie",
+        "count": 1
+      },
+      {
+        "name": "Heirloom Blade",
+        "count": 1
+      },
+      {
+        "name": "Invoke the Divine",
+        "count": 1
+      },
+      {
+        "name": "Karoo",
+        "count": 1
+      },
+      {
+        "name": "Keeper of the Accord",
+        "count": 1
+      },
+      {
+        "name": "Kindred Boon",
+        "count": 1
+      },
+      {
+        "name": "Lightning Greaves",
+        "count": 1
+      },
+      {
+        "name": "Marble Diamond",
+        "count": 1
+      },
+      {
+        "name": "Mazemind Tome",
+        "count": 1
+      },
+      {
+        "name": "Mind Stone",
+        "count": 1
+      },
+      {
+        "name": "Myriad Landscape",
+        "count": 1
+      },
+      {
+        "name": "Nykthos Paragon",
+        "count": 1
+      },
+      {
+        "name": "Nykthos, Shrine to Nyx",
+        "count": 1
+      },
+      {
+        "name": "Oketra's Monument",
+        "count": 1
+      },
+      {
+        "name": "Path of Ancestry",
+        "count": 1
+      },
+      {
+        "name": "Path to Exile",
+        "count": 1
+      },
+      {
+        "name": "Pearl Medallion",
+        "count": 1
+      },
+      {
+        "name": "Plains",
+        "count": 8,
+        "set": "SLD",
+        "number": "1348",
+        "foil": true
+      },
+      {
+        "name": "Plains",
+        "count": 8,
+        "set": "SLD",
+        "number": "1349",
+        "foil": true
+      },
+      {
+        "name": "Plains",
+        "count": 7,
+        "set": "SLD",
+        "number": "1350",
+        "foil": true
+      },
+      {
+        "name": "Plains",
+        "count": 7,
+        "set": "SLD",
+        "number": "1351",
+        "foil": true
+      },
+      {
+        "name": "Righteous Valkyrie",
+        "count": 1,
+        "set": "PAGL",
+        "number": "23",
+        "foil": true
+      },
+      {
+        "name": "Search for Glory",
+        "count": 1
+      },
+      {
+        "name": "Sephara, Sky's Blade",
+        "count": 1,
+        "set": "PAGL",
+        "number": "25",
+        "foil": true
+      },
+      {
+        "name": "Seraph Sanctuary",
+        "count": 1
+      },
+      {
+        "name": "Serra Ascendant",
+        "count": 1
+      },
+      {
+        "name": "Shattered Angel",
+        "count": 1,
+        "set": "PAGL",
+        "number": "27",
+        "foil": true
+      },
+      {
+        "name": "Sol Ring",
+        "count": 1
+      },
+      {
+        "name": "Speaker of the Heavens",
+        "count": 1
+      },
+      {
+        "name": "Starnheim Aspirant",
+        "count": 1
+      },
+      {
+        "name": "Sunblast Angel",
+        "count": 1,
+        "set": "PAGL",
+        "number": "30",
+        "foil": true
+      },
+      {
+        "name": "Swiftfoot Boots",
+        "count": 1
+      },
+      {
+        "name": "Sword of the Animist",
+        "count": 1
+      },
+      {
+        "name": "Swords to Plowshares",
+        "count": 1
+      },
+      {
+        "name": "Thalia's Lancers",
+        "count": 1
+      },
+      {
+        "name": "The Book of Exalted Deeds",
+        "count": 1
+      },
+      {
+        "name": "Tome of Legends",
+        "count": 1
+      },
+      {
+        "name": "Urza's Incubator",
+        "count": 1
+      },
+      {
+        "name": "Valkyrie Harbinger",
+        "count": 1,
+        "set": "SLD",
+        "number": "1347",
+        "foil": true
+      },
+      {
+        "name": "Vanquisher's Banner",
+        "count": 1
+      },
+      {
+        "name": "War Room",
+        "count": 1
+      },
+      {
+        "name": "Well of Lost Dreams",
+        "count": 1
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+      {
+        "name": "Gisela, the Broken Blade",
+        "count": 1,
+        "set": "SLD",
+        "number": "1335",
+        "foil": true
+      }
+    ],
+    "source": "https://magic.wizards.com/en/news/announcements/secret-lairs-next-commander-deck-takes-flight"
+  },
+  {
     "name": "Ape Lord",
     "type": "Shandalar Enemy Deck",
     "category": "deck",
@@ -141479,13 +142092,15 @@
         "name": "Zndrsplt, Eye of Wisdom",
         "count": 1,
         "set": "SLD",
-        "number": "379★a"
+        "number": "379a",
+        "foil": true
       },
       {
         "name": "Okaun, Eye of Chaos",
         "count": 1,
         "set": "SLD",
-        "number": "380★a"
+        "number": "380a",
+        "foil": true
       }
     ],
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Secretversary_2021/Commander_deck",
@@ -160539,6 +161154,107 @@
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Secretversary_2021"
   },
   {
+    "name": "Featuring Gary Baseman",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-15",
+    "cards": [
+      {
+        "name": "Plains",
+        "count": 1,
+        "set": "SLD",
+        "number": "1382"
+      },
+      {
+        "name": "Island",
+        "count": 1,
+        "set": "SLD",
+        "number": "1383"
+      },
+      {
+        "name": "Swamp",
+        "count": 1,
+        "set": "SLD",
+        "number": "1384"
+      },
+      {
+        "name": "Mountain",
+        "count": 1,
+        "set": "SLD",
+        "number": "1385"
+      },
+      {
+        "name": "Forest",
+        "count": 1,
+        "set": "SLD",
+        "number": "1386"
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://secretlair.wizards.com/us/en/product/865794/featuring-gary-baseman",
+    "display": "Bonus card unknown"
+  },
+  {
+    "name": "Featuring Gary Baseman foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-15",
+    "cards": [
+      {
+        "name": "Plains",
+        "count": 1,
+        "set": "SLD",
+        "number": "1382",
+        "foil": true
+      },
+      {
+        "name": "Island",
+        "count": 1,
+        "set": "SLD",
+        "number": "1383",
+        "foil": true
+      },
+      {
+        "name": "Swamp",
+        "count": 1,
+        "set": "SLD",
+        "number": "1384",
+        "foil": true
+      },
+      {
+        "name": "Mountain",
+        "count": 1,
+        "set": "SLD",
+        "number": "1385",
+        "foil": true
+      },
+      {
+        "name": "Forest",
+        "count": 1,
+        "set": "SLD",
+        "number": "1386",
+        "foil": true
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://secretlair.wizards.com/us/en/product/865794/featuring-gary-baseman",
+    "display": "Bonus card unknown"
+  },
+  {
     "name": "Featuring the Mountain Goats",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -162879,6 +163595,107 @@
 
     ],
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_MSCHF"
+  },
+  {
+    "name": "Magic the Baseballing",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-15",
+    "cards": [
+      {
+        "name": "Ajani Goldmane",
+        "count": 1,
+        "set": "SLD",
+        "number": "1453a"
+      },
+      {
+        "name": "Jace Beleren",
+        "count": 1,
+        "set": "SLD",
+        "number": "1454a"
+      },
+      {
+        "name": "Liliana Vess",
+        "count": 1,
+        "set": "SLD",
+        "number": "1455a"
+      },
+      {
+        "name": "Chandra Nalaar",
+        "count": 1,
+        "set": "SLD",
+        "number": "1456a"
+      },
+      {
+        "name": "Garruk Wildspeaker",
+        "count": 1,
+        "set": "SLD",
+        "number": "1457a"
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://secretlair.wizards.com/us/en/product/865798/magic-the-baseballing",
+    "display": "Bonus card unknown"
+  },
+  {
+    "name": "Magic the Baseballing foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-15",
+    "cards": [
+      {
+        "name": "Ajani Goldmane",
+        "count": 1,
+        "set": "SLD",
+        "number": "1453a",
+        "foil": true
+      },
+      {
+        "name": "Jace Beleren",
+        "count": 1,
+        "set": "SLD",
+        "number": "1454a",
+        "foil": true
+      },
+      {
+        "name": "Liliana Vess",
+        "count": 1,
+        "set": "SLD",
+        "number": "1455a",
+        "foil": true
+      },
+      {
+        "name": "Chandra Nalaar",
+        "count": 1,
+        "set": "SLD",
+        "number": "1456a",
+        "foil": true
+      },
+      {
+        "name": "Garruk Wildspeaker",
+        "count": 1,
+        "set": "SLD",
+        "number": "1457a",
+        "foil": true
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://secretlair.wizards.com/us/en/product/865798/magic-the-baseballing",
+    "display": "Bonus card unknown"
   },
   {
     "name": "Math is for Blockers",
@@ -169178,35 +169995,35 @@
     "release_date": "2020-10-13",
     "cards": [
       {
-        "name": "Rick, Steadfast Leader",
+        "name": "Greymond, Avacyn's Stalwart",
         "count": 1,
         "set": "SLD",
         "number": "143",
         "foil": true
       },
       {
-        "name": "Daryl, Hunter of Walkers",
+        "name": "Hansk, Slayer Zealot",
         "count": 1,
         "set": "SLD",
         "number": "144",
         "foil": true
       },
       {
-        "name": "Glenn, the Voice of Calm",
+        "name": "Gregor, Shrewd Magistrate",
         "count": 1,
         "set": "SLD",
         "number": "145",
         "foil": true
       },
       {
-        "name": "Michonne, Ruthless Survivor",
+        "name": "Enkira, Hostile Scavenger",
         "count": 1,
         "set": "SLD",
         "number": "146",
         "foil": true
       },
       {
-        "name": "Negan, the Cold-Blooded",
+        "name": "Malik, Grim Manipulator",
         "count": 1,
         "set": "SLD",
         "number": "147",
@@ -169263,7 +170080,7 @@
     ],
     "sideboard": [
       {
-        "name": "Lucille",
+        "name": "Gisa's Favorite Shovel",
         "count": 1,
         "set": "SLD",
         "number": "581",
@@ -170788,6 +171605,53 @@
     ],
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series_(December_2019)",
     "display": "Also includes one foil stained-glass planeswalker: [SLD:503] Gideon, [SLD:521] Domri, [SLD:523] Ral, [SLD:527] Angrath, or [SLD:533] Nahiri"
+  },
+  {
+    "name": "Making Fetch Happen",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair: Ultimate Edition",
+    "set_code": "slu",
+    "release_date": "2020-05-29",
+    "cards": [
+      {
+        "name": "Marsh Flats",
+        "count": 1,
+        "set": "SLU",
+        "number": "1"
+      },
+      {
+        "name": "Scalding Tarn",
+        "count": 1,
+        "set": "SLU",
+        "number": "2"
+      },
+      {
+        "name": "Verdant Catacombs",
+        "count": 1,
+        "set": "SLU",
+        "number": "3"
+      },
+      {
+        "name": "Arid Mesa",
+        "count": 1,
+        "set": "SLU",
+        "number": "4"
+      },
+      {
+        "name": "Misty Rainforest",
+        "count": 1,
+        "set": "SLU",
+        "number": "5"
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://magic.wizards.com/en/news/announcements/making-fetch-happen-secret-lair-ultimate-edition-2020-03-13"
   },
   {
     "name": "Angelic Accountants",
@@ -192385,6 +193249,503 @@
     "source": "https://magic.wizards.com/en/articles/archive/arcana/worldwake-intro-pack-decklists-2010-02-02"
   },
   {
+    "name": "Black and White Vampires",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "Duskborne Skymarcher",
+        "count": 1
+      },
+      {
+        "name": "Vicious Conquistador",
+        "count": 1
+      },
+      {
+        "name": "Bishop of the Bloodstained",
+        "count": 1
+      },
+      {
+        "name": "Call to the Feast",
+        "count": 2
+      },
+      {
+        "name": "Bishop's Soldier",
+        "count": 1
+      },
+      {
+        "name": "Queen's Commission",
+        "count": 1
+      },
+      {
+        "name": "Skymarch Bloodletter",
+        "count": 1
+      },
+      {
+        "name": "Anointed Deacon",
+        "count": 2
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
+  },
+  {
+    "name": "Blue and Black Pirates",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "Siren Stormtamer",
+        "count": 1
+      },
+      {
+        "name": "Chart a Course",
+        "count": 1
+      },
+      {
+        "name": "Ruthless Knave",
+        "count": 1
+      },
+      {
+        "name": "Deadeye Plunderers",
+        "count": 2
+      },
+      {
+        "name": "Sailor of Means",
+        "count": 1
+      },
+      {
+        "name": "Pirate's Prize",
+        "count": 1
+      },
+      {
+        "name": "Contract Killing",
+        "count": 2
+      },
+      {
+        "name": "Desperate Castaways",
+        "count": 1
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
+  },
+  {
+    "name": "Blue and Green Merfolk",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "River Sneak",
+        "count": 1
+      },
+      {
+        "name": "Deeproot Waters",
+        "count": 1
+      },
+      {
+        "name": "Vineshaper Mystic",
+        "count": 1
+      },
+      {
+        "name": "Kumena's Speaker",
+        "count": 1
+      },
+      {
+        "name": "Shapers of Nature",
+        "count": 1
+      },
+      {
+        "name": "Shaper Apprentice",
+        "count": 2
+      },
+      {
+        "name": "Watertrap Weaver",
+        "count": 1
+      },
+      {
+        "name": "Jade Guardian",
+        "count": 1
+      },
+      {
+        "name": "River Heralds' Boon",
+        "count": 1
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
+  },
+  {
+    "name": "Blue and Green Ramp",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "Lay Claim",
+        "count": 1
+      },
+      {
+        "name": "Chart a Course",
+        "count": 1
+      },
+      {
+        "name": "Arborback Stomper",
+        "count": 1
+      },
+      {
+        "name": "Merfolk Branchwalker",
+        "count": 1
+      },
+      {
+        "name": "Shore Keeper",
+        "count": 1
+      },
+      {
+        "name": "Ranging Raptors",
+        "count": 1
+      },
+      {
+        "name": "Pirate's Prize",
+        "count": 2
+      },
+      {
+        "name": "Tishana's Wayfinder",
+        "count": 1
+      },
+      {
+        "name": "New Horizons",
+        "count": 1
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
+  },
+  {
+    "name": "Fixed Content",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "Victory's Herald",
+        "count": 1
+      },
+      {
+        "name": "Sphinx of Magosi",
+        "count": 1
+      },
+      {
+        "name": "Nightmare",
+        "count": 1
+      },
+      {
+        "name": "Shivan Dragon",
+        "count": 1
+      },
+      {
+        "name": "Garruk's Horde",
+        "count": 1
+      },
+      {
+        "name": "Imperial Aerosaur",
+        "count": 1
+      },
+      {
+        "name": "Adanto Vanguard",
+        "count": 1
+      },
+      {
+        "name": "Inspiring Cleric",
+        "count": 1
+      },
+      {
+        "name": "Cast Out",
+        "count": 1
+      },
+      {
+        "name": "Raptor Companion",
+        "count": 2
+      },
+      {
+        "name": "Territorial Hammerskull",
+        "count": 2
+      },
+      {
+        "name": "Fragmentize",
+        "count": 1
+      },
+      {
+        "name": "Compulsory Rest",
+        "count": 1
+      },
+      {
+        "name": "Angler Drake",
+        "count": 1
+      },
+      {
+        "name": "Chart a Course",
+        "count": 1
+      },
+      {
+        "name": "Perilous Voyage",
+        "count": 1
+      },
+      {
+        "name": "Supreme Will",
+        "count": 1
+      },
+      {
+        "name": "Unsummon",
+        "count": 2
+      },
+      {
+        "name": "Spell Pierce",
+        "count": 2
+      },
+      {
+        "name": "Essence Scatter",
+        "count": 1
+      },
+      {
+        "name": "Watertrap Weaver",
+        "count": 1
+      },
+      {
+        "name": "Doomfall",
+        "count": 1
+      },
+      {
+        "name": "Gifted Aetherborn",
+        "count": 1
+      },
+      {
+        "name": "Kitesail Freebooter",
+        "count": 1
+      },
+      {
+        "name": "Walk the Plank",
+        "count": 1
+      },
+      {
+        "name": "Dire Fleet Hoarder",
+        "count": 2
+      },
+      {
+        "name": "Contract Killing",
+        "count": 1
+      },
+      {
+        "name": "Supernatural Stamina",
+        "count": 1
+      },
+      {
+        "name": "Duress",
+        "count": 1
+      },
+      {
+        "name": "Scarab Feast",
+        "count": 1
+      },
+      {
+        "name": "Charging Monstrosaur",
+        "count": 1
+      },
+      {
+        "name": "Wily Goblin",
+        "count": 1
+      },
+      {
+        "name": "Abrade",
+        "count": 1
+      },
+      {
+        "name": "Lightning Strike",
+        "count": 1
+      },
+      {
+        "name": "Nest Robber",
+        "count": 1
+      },
+      {
+        "name": "Fathom Fleet Firebrand",
+        "count": 1
+      },
+      {
+        "name": "Frenzied Raptor",
+        "count": 1
+      },
+      {
+        "name": "Pursue Glory",
+        "count": 1
+      },
+      {
+        "name": "Shock",
+        "count": 2
+      },
+      {
+        "name": "Savage Stomp",
+        "count": 1
+      },
+      {
+        "name": "Merfolk Branchwalker",
+        "count": 1
+      },
+      {
+        "name": "Arborback Stomper",
+        "count": 1
+      },
+      {
+        "name": "Blossoming Defense",
+        "count": 1
+      },
+      {
+        "name": "Tishana's Wayfinder",
+        "count": 1
+      },
+      {
+        "name": "Druid of the Cowl",
+        "count": 2
+      },
+      {
+        "name": "Prey Upon",
+        "count": 1
+      },
+      {
+        "name": "Colossal Dreadmaw",
+        "count": 1
+      },
+      {
+        "name": "Dissenter's Deliverance",
+        "count": 1
+      },
+      {
+        "name": "Pirate's Cutlass",
+        "count": 2
+      },
+      {
+        "name": "Hierophant's Chalice",
+        "count": 1
+      },
+      {
+        "name": "Prophetic Prism",
+        "count": 1
+      },
+      {
+        "name": "Cinder Barrens",
+        "count": 2
+      },
+      {
+        "name": "Meandering River",
+        "count": 2
+      },
+      {
+        "name": "Submerged Boneyard",
+        "count": 2
+      },
+      {
+        "name": "Timber Gorge",
+        "count": 2
+      },
+      {
+        "name": "Tranquil Expanse",
+        "count": 2
+      },
+      {
+        "name": "Forsaken Sanctuary",
+        "count": 2
+      },
+      {
+        "name": "Foul Orchard",
+        "count": 2
+      },
+      {
+        "name": "Highland Lake",
+        "count": 2
+      },
+      {
+        "name": "Stone Quarry",
+        "count": 2
+      },
+      {
+        "name": "Woodland Stream",
+        "count": 2
+      },
+      {
+        "name": "Unclaimed Territory",
+        "count": 1
+      },
+      {
+        "name": "Sunscorched Desert",
+        "count": 1
+      },
+      {
+        "name": "Plains",
+        "count": 20
+      },
+      {
+        "name": "Island",
+        "count": 20
+      },
+      {
+        "name": "Swamp",
+        "count": 20
+      },
+      {
+        "name": "Mountain",
+        "count": 20
+      },
+      {
+        "name": "Forest",
+        "count": 20
+      },
+      {
+        "name": "Evolving Wilds",
+        "count": 4
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
+  },
+  {
     "name": "Huatli, Dinosaur Knight",
     "type": "Planeswalker Deck",
     "category": "deck",
@@ -192581,6 +193942,153 @@
 
     ],
     "source": "https://magic.wizards.com/en/articles/archive/feature/ixalan-planeswalker-deck-lists-2017-09-20"
+  },
+  {
+    "name": "Red and Black Pirates",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "Lightning-Rig Crew",
+        "count": 1
+      },
+      {
+        "name": "Fiery Cannonade",
+        "count": 1
+      },
+      {
+        "name": "Rigging Runner",
+        "count": 1
+      },
+      {
+        "name": "Kitesail Freebooter",
+        "count": 1
+      },
+      {
+        "name": "Dire Fleet Captain",
+        "count": 1
+      },
+      {
+        "name": "March of the Drowned",
+        "count": 1
+      },
+      {
+        "name": "Deadeye Tormentor",
+        "count": 2
+      },
+      {
+        "name": "Headstrong Brute",
+        "count": 2
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
+  },
+  {
+    "name": "Red and Green Dinosaurs",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "Charging Monstrosaur",
+        "count": 1
+      },
+      {
+        "name": "Raptor Hatchling",
+        "count": 1
+      },
+      {
+        "name": "Atzocan Archer",
+        "count": 1
+      },
+      {
+        "name": "Ranging Raptors",
+        "count": 1
+      },
+      {
+        "name": "Raging Swordtooth",
+        "count": 1
+      },
+      {
+        "name": "Sun-Crowned Hunters",
+        "count": 2
+      },
+      {
+        "name": "Chandra's Pyrohelix",
+        "count": 1
+      },
+      {
+        "name": "Ravenous Daggertooth",
+        "count": 2
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
+  },
+  {
+    "name": "Red and White Dinosaurs",
+    "type": "Deck Builder's Toolkit",
+    "category": "box",
+    "set_name": "Ixalan",
+    "set_code": "xln",
+    "release_date": "2017-09-29",
+    "cards": [
+      {
+        "name": "Imperial Aerosaur",
+        "count": 1
+      },
+      {
+        "name": "Imperial Lancer",
+        "count": 1
+      },
+      {
+        "name": "Charging Monstrosaur",
+        "count": 1
+      },
+      {
+        "name": "Sky Terror",
+        "count": 1
+      },
+      {
+        "name": "Dinosaur Stampede",
+        "count": 1
+      },
+      {
+        "name": "Kinjalli's Caller",
+        "count": 2
+      },
+      {
+        "name": "Frenzied Raptor",
+        "count": 1
+      },
+      {
+        "name": "Thrash of Raptors",
+        "count": 2
+      }
+    ],
+    "sideboard": [
+
+    ],
+    "commander": [
+
+    ],
+    "source": "https://mtg.fandom.com/wiki/Ixalan/Deck_Builder%27s_Toolkit"
   },
   {
     "name": "Kor Armory",

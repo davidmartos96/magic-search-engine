@@ -36,8 +36,8 @@ describe "Regexp" do
   # end
 
   it "regexp oracle text" do
-    assert_search_results 'o:/\d{3,}/',
-      "1996 World Champion",
+    # This gets updated too much from SLD etc.
+    assert_search_results 'o:/\d{3,}/ -is:promo',
       "A Good Thing",
       "Ajani, Mentor of Heroes",
       "As Luck Would Have It",
@@ -52,10 +52,9 @@ describe "Regexp" do
   end
 
   it "regexp flavor text" do
-    assert_search_results 'ft:/\d{4,}/ -e:olgc,ovnt,pewk',
+    assert_search_results 'ft:/\d{4,}/ -e:olgc,ovnt,pewk,sld',
       "Aardwolf's Advantage",
       "Automatic Librarian",
-      "Collector Ouphe",
       "Fervent Champion",
       "Gilded Lotus",
       "Goblin Secret Agent",

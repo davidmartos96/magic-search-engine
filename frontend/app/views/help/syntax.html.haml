@@ -190,13 +190,13 @@
       = search_help "decklimit=any", "Cards you can have any number of in your deck"
 
     %h4 Boolean expressions
+    %div You can use multiple conditions in the search. The result will match all conditions, so AND is implied. If you need to do a more complicated search, you can also use parentheses, OR, and - prefix.
     %ul
       = search_help "t:goblin AND mv=2", "cards which are Goblins and have mana value 2"
-      = search_help "t:goblin AND mv=2", "cards which are Goblins and have mana value 2 (AND is optional)"
+      = search_help "t:goblin mv=2", "cards which are Goblins and have mana value 2 (AND is implied)"
       = search_help "t:goblin OR mv=2", "cards which are Goblins or have mana value 2"
       = search_help "c=u (t:goblin OR t:elf)", "cards which are blue Goblins or blue Elves"
       = search_help "t:goblin -mv=2", "cards which are Goblins but do not have mana value 2"
-      = search_help "t:goblin not mv=2", "cards which are Goblins but do not have mana value 2"
 
     %h4 Search by rarity
     %div Search engine recognizes 6 rarities - basic, common, uncommon, rare, mythic, and special.
@@ -306,7 +306,7 @@
       = search_help "stamp:*", "cards with any security stamp"
       = search_help "is:funny", "cards from funny sets (including acorn-marked cards from mixed sets)"
       = search_help "is:promo", "promotional cards"
-      = search_help "promo:fnm", "is promo type <code>fnm</code>. Other values are <code>alchemy</code>, <code>ampersand</code>, <code>arenaleague</code>, <code>boosterfun</code>, <code>boxtopper</code>, <code>brawldeck</code>, <code>bringafriend</code>, <code>bundle</code>, <code>buyabox</code>, <code>commanderparty</code>, <code>concept</code>, <code>confettifoil</code>, <code>convention</code>, <code>datestamped</code>, <code>doublerainbow</code>, <code>draculaseries</code>, <code>draftweekend</code>, <code>duels</code>, <code>event</code>, <code>galaxyfoil</code>, <code>gameday</code>, <code>giftbox</code>, <code>gilded</code>, <code>glossy</code>, <code>godzillaseries</code>, <code>halofoil</code>, <code>instore</code>, <code>intropack</code>, <code>jpwalker</code>, <code>judgegift</code>, <code>league</code>, <code>mediainsert</code>, <code>moonlitland</code>, <code>neonink</code>, <code>oilslick</code>, <code>openhouse</code>, <code>planeswalkerstamped</code>, <code>playerrewards</code>, <code>playpromo</code>, <code>premiereshop</code>, <code>prerelease</code>, <code>promopack</code>, <code>rebalanced</code>, <code>release</code>, <code>schinesealtart</code>, <code>serialized</code>, <code>setextension</code>, <code>setpromo</code>, <code>stamped</code>, <code>stepandcompleat</code>, <code>surgefoil</code>, <code>textured</code>, <code>themepack</code>, <code>thick</code>, <code>tourney</code>, <code>wizardsplaynetwork</code>"
+      = search_help "promo:fnm", "is promo type <code>fnm</code>. Other values are <code>alchemy</code>, <code>ampersand</code>, <code>arenaleague</code>, <code>boosterfun</code>, <code>boxtopper</code>, <code>brawldeck</code>, <code>bringafriend</code>, <code>bundle</code>, <code>buyabox</code>, <code>commanderparty</code>, <code>concept</code>, <code>confettifoil</code>, <code>convention</code>, <code>datestamped</code>, <code>doublerainbow</code>, <code>draculaseries</code>, <code>draftweekend</code>, <code>duels</code>, <code>event</code>, <code>galaxyfoil</code>, <code>gameday</code>, <code>giftbox</code>, <code>gilded</code>, <code>glossy</code>, <code>godzillaseries</code>, <code>halofoil</code>, <code>instore</code>, <code>intropack</code>, <code>jpwalker</code>, <code>judgegift</code>, <code>league</code>, <code>mediainsert</code>, <code>moonlitland</code>, <code>neonink</code>, <code>oilslick</code>, <code>openhouse</code>, <code>planeswalkerstamped</code>, <code>playerrewards</code>, <code>playpromo</code>, <code>premiereshop</code>, <code>prerelease</code>, <code>promopack</code>, <code>rebalanced</code>, <code>release</code>, <code>schinesealtart</code>, <code>serialized</code>, <code>setextension</code>, <code>setpromo</code>, <code>stamped</code>, <code>silverfoil</code>, <code>starterdeck</code>, <code>storechampionship</code>, <code>stepandcompleat</code>, <code>surgefoil</code>, <code>textured</code>, <code>themepack</code>, <code>thick</code>, <code>tourney</code>, <code>wizardsplaynetwork</code>"
       = search_help "promo:*", "has any promo type (this uses different system than is:promo, so there is some non-overlap)"
       = search_help "is:meld", "meld cards"
       = search_help "is:primary", "regular cards and directly playable parts of double-faced/meld/flip/aftermath cards"
@@ -323,7 +323,7 @@
       = search_help "is:draft", "draft-matters cards including conspiracies"
       = search_help "is:partner", "is a partner"
       = search_help "has:partner", "has a partner card"
-      = search_help "frame:legendary", "has frame effect <code>legendary</code>. Other values are <code>compasslanddfc</code>, <code>devoid</code>, <code>extendedart</code>, <code>miracle</code>, <code>mooneldrazidfc</code>, <code>nyxtouched</code>, <code>originpwdfc</code>, <code>sunmoondfc</code>, <code>tombstone</code>, <code>inverted</code>, <code>etched</code>, <code>draft</code>, <code>showcase</code>, <code>snow</code>, <code>fullart</code>, <code>companion</code>, <code>waxingandwaningmoondfc</code>, <code>nyxborn</code>"
+      = search_help "frame:legendary", "has frame effect <code>legendary</code>. Other values are <code>burstfoil</code>, <code>compasslanddfc</code>, <code>devoid</code>, <code>extendedart</code>, <code>miracle</code>, <code>mooneldrazidfc</code>, <code>nyxtouched</code>, <code>originpwdfc</code>, <code>sunmoondfc</code>, <code>tombstone</code>, <code>inverted</code>, <code>etched</code>, <code>draft</code>, <code>showcase</code>, <code>snow</code>, <code>fullart</code>, <code>companion</code>, <code>waxingandwaningmoondfc</code>, <code>nyxborn</code>"
       = search_help "is:fullart", "is full art card"
       = search_help "is:textless", "is textless card"
       = search_help "is:spotlight", "is Story Spotlight"
@@ -343,6 +343,7 @@
       = search_help "is:specialized", "card is a specialized version of another card (Arena digital only cards)"
       = search_help "has:spellbook", "card has an associated spellbook (Arena digital only cards)"
       = search_help "is:spellbook", "card is in a spellbook (for one of Arena digital only cards)"
+      = search_help "is:token", "card is actually a token (only a few special ones like dungeons and The Ring are included in search)"
 
     %h4 Search by booster contents
     %div You can search all cards present in specific booster, or in specific print sheet.
@@ -576,7 +577,7 @@
       = search_help %[time:"1 march 2009" banned:commander], "Commander banned cards as of 1 March 2009"
       = search_help "time:m10 t:planeswalker", "All Planeswalker cards in existence as of printing of Magic 2010 set"
       = search_help "time:2010 restricted:commander", %[Cards restricted in Commander as of beginning of 2010 (in Commander context "restricted" means historical contept of "banned as general"]
-      = search_help "(time:OGW f:Standard) not (time:SOI f:Standard)", "Cards in Oath of Gatewatch Standard which are not in Shadows Over Innistrad Standard"
+      = search_help "(time:OGW f:Standard) -(time:SOI f:Standard)", "Cards in Oath of Gatewatch Standard which are not in Shadows Over Innistrad Standard"
 
     %h4 Sort results
     %div Use sort: operator to order results in a different way. By default alphabetical sorting is used.

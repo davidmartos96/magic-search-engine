@@ -81,6 +81,7 @@ describe Deck do
       ["planechase", "Box Set"],
       ["promo", "Box Set"],
       ["funny", "Box Set"],
+      ["memorabilia", "Box Set"],
     ]
 
     db.sets.each do |set_code, set|
@@ -170,6 +171,10 @@ describe Deck do
         sets_found.should match_array ["ltc", "ltr"]
       when "pca"
         sets_found.should match_array ["pca", "opca"]
+      when "woc"
+        sets_found.should match_array ["woc", "woe"]
+      when "pagl"
+        sets_found.should match_array ["sld", "pagl"]
       else
         sets_found.should eq [set.code]
       end
@@ -305,6 +310,8 @@ describe Deck do
       next if set_code == "pctb"
       # Not decks, just boxed products
       next if set_code == "sld"
+      # Crazy foiling
+      next if set_code == "pagl"
 
       # Some crazy foiling in them
       # Deck indexer doesn't even try, it's just marked on decklist manually
