@@ -1,10 +1,11 @@
 class Deck
   attr_reader :cards, :sideboard, :commander
 
-  def initialize(cards, sideboard, commander)
-    @cards = cards
-    @sideboard = sideboard || []
-    @commander = commander || []
+  def initialize(sections)
+    @sections = sections
+    @cards = sections["Main Deck"]
+    @sideboard = (sections["Sideboard"] || []) + (sections["Planar Deck"] || []) + (sections["Display Commander"] || []) + (sections["Scheme Deck"] || [])
+    @commander = sections["Commander"] || []
   end
 
   def cards_in_all_zones
@@ -33,28 +34,33 @@ class Deck
     result.map{|card,(name,number)| [card, name, number] }
   end
 
+  def section(name)
+    @sections[name] || []
+  end
+
+  def number_of_cards(section)
+    return 0 unless @sections[section]
+    @sections[section].sum(&:first)
+  end
+
   def number_of_mainboard_cards
-    @cards.sum(&:first)
+    number_of_cards("Main Deck")
   end
 
   def number_of_sideboard_cards
-    @sideboard.sum(&:first)
+    number_of_cards("Sideboard")
   end
 
   def number_of_commander_cards
-    @commander.sum(&:first)
+    number_of_cards("Commander")
   end
 
   def number_of_total_cards
-    number_of_mainboard_cards + number_of_sideboard_cards + number_of_commander_cards
+    @sections.values.map{|cs| cs.sum(&:first)}.sum
   end
 
   def physical_cards
-    [
-      *@cards.map(&:last),
-      *@sideboard.map(&:last),
-      *@commander.map(&:last),
-  ].uniq
+    @sections.values.flat_map{|sc| sc.map(&:last)}.uniq
   end
 
   def physical_card_names
@@ -94,5 +100,13 @@ class Deck
   def color_identity
     return nil unless number_of_commander_cards.between?(1, 2)
     @commander.map{|n,c| c.color_identity}.inject{|c1, c2| (c1.chars | c2.chars).sort.join }
+  end
+
+  def all_set_codes
+    @sections.values.flat_map{|sc| sc.map{|_,card| card.set_code}}.to_set
+  end
+
+  def all_cards
+    @sections.values.flatten(1)
   end
 end

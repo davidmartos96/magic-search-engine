@@ -385,7 +385,22 @@ class PatchLinkRelated < Patch
         add_link "Undercity", name
       end
 
-      # Dungeon - TODO
+      # Dungeon
+      # This is maybe a bit questionable, "venture" can't do Undercity, but other dungeon abilities work with Undercity too
+      if text =~ /venture into the dungeon/i
+        add_link "Dungeon of the Mad Mage", name
+        add_link "Lost Mine of Phandelver", name
+        add_link "Tomb of Annihilation", name
+      end
+
+      if text =~ /complete a dungeon|completed a dungeon|dungeons/i
+        add_link "Undercity", name
+        add_link "Dungeon of the Mad Mage", name
+        add_link "Lost Mine of Phandelver", name
+        add_link "Tomb of Annihilation", name
+      end
+
+      # Acererak (and its Alchemy version) also use "completed Tomb of Annihilation", but they already match the above
 
       # Monarch - TODO
     end

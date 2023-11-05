@@ -1,7 +1,7 @@
 class PreconDeck < Deck
   attr_reader :set, :name, :type, :category, :format, :release_date, :slug, :source, :display, :normalized_name
-  def initialize(set, name, type, category, format, release_date, cards, sideboard, commander, display)
-    super(cards, sideboard, commander)
+  def initialize(set, name, type, category, format, release_date, sections, display)
+    super(sections)
     @set = set
     @name = name
     @type = type
@@ -19,10 +19,6 @@ class PreconDeck < Deck
 
   def to_s
     inspect
-  end
-
-  def all_set_codes
-    @all_set_codes ||= [*@cards, *@sideboard, *@commander].map{|_,card| card.set_code}.to_set
   end
 
   def set_code
@@ -53,9 +49,5 @@ class PreconDeck < Deck
       end
     end
     output.join("\n") + "\n"
-  end
-
-  def all_cards
-    @cards + @sideboard + @commander
   end
 end

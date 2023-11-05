@@ -94,6 +94,7 @@ describe "Spelling" do
       next if name == "Death's-Head Buzzard"
       # I don't even
       next if name == "Guan Yu's 1,000-Li March"
+      next if name == "K-9, Mark I"
       # Ignore Unstable augments
       next if name == "Monkey-"
       next if name == "Rhino-"
@@ -102,6 +103,8 @@ describe "Spelling" do
       next if name == "Jin-Gitaxias"
       next if name == "Death-Greeter's Champion"
       next if name == "Lich-Knights' Conquest"
+      next if name == "Cave-In"
+      next if name == "Deep-Cavern Bat"
 
       # "Thousand-Faced Shadow" will absolutely also return "Thousand-Faced Shadow (Alchemy)"
       "-is:alchemy #{name}".should return_cards(name)

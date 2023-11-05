@@ -36,7 +36,7 @@ class PatchSetTypes < Patch
         set_types << "masters"
       when "md1"
         set_types << "modern"
-      when "ocmd", /\Aoc\d\d\z/, "cmr", "clb", "cmm"
+      when "ocmd", /\Aoc\d\d\z/, "cmr", "clb", "cmm", "who"
         set_types << "commander" << "multiplayer"
       when "pwpn", /\Apwp\d+\z/
         set_types << "wpn"
@@ -67,6 +67,8 @@ class PatchSetTypes < Patch
         set_types << "shandalar"
       when "pz2", /\Ap...\z/
         set_types << "promo"
+      when /\Ass\d/
+        set_types << "spellbook" << "box"
       end
 
       # Some of these are not actually funny sets, just promo sets mixing funny and regular cards (like plist)
