@@ -116,6 +116,8 @@ describe Deck do
   it "precon decks have dates matching set release dates" do
     precon_sets.each do |set|
       set.decks.each do |deck|
+        # New weird product, so far the only such case
+        next if deck.type == "Box Set" and set.code == "ltc"
         deck.release_date.should eq(set.release_date), "#{deck.name} for #{set.name}"
       end
     end
@@ -141,13 +143,13 @@ describe Deck do
       when "pc2"
         sets_found.should match_array ["pc2", "opc2"]
       when "c20"
-        sets_found.should match_array ["c20", "iko"]
+        sets_found.should match_array ["c20", "iko", "oc20"]
       when "znc"
         sets_found.should match_array ["znr", "znc"]
       when "khc"
         sets_found.should match_array ["khm", "khc"]
       when "c21"
-        sets_found.should match_array ["c21", "stx"]
+        sets_found.should match_array ["c21", "stx", "oc21"]
       when "afc"
         sets_found.should match_array ["afc", "afr"]
       when "mic"
@@ -176,6 +178,24 @@ describe Deck do
         sets_found.should match_array ["woc", "woe"]
       when "pagl"
         sets_found.should match_array ["sld", "pagl"]
+      when "lcc"
+        sets_found.should match_array ["lcc", "lci"]
+      when "cmd"
+        sets_found.should match_array ["cmd", "ocmd"]
+      when "c13"
+        sets_found.should match_array ["c13", "oc13"]
+      when "c14"
+        sets_found.should match_array ["c14", "oc14"]
+      when "c15"
+        sets_found.should match_array ["c15", "oc15"]
+      when "c16"
+        sets_found.should match_array ["c16", "oc16"]
+      when "c17"
+        sets_found.should match_array ["c17", "oc17"]
+      when "c18"
+        sets_found.should match_array ["c18", "oc18"]
+      when "c19"
+        sets_found.should match_array ["c19", "oc19"]
       else
         sets_found.should eq [set.code]
       end
@@ -334,13 +354,16 @@ describe Deck do
         # Box not deck
         next if deck.type == "Welcome Booster"
 
-        foils = deck.physical_cards.select(&:foil)
+        # Exclude oversized cards from consideration
+        deck_cards = deck.physical_cards.reject(&:oversized)
+
+        foils = deck_cards.select(&:foil)
         # Skip if no foils
         next if foils.empty?
         # Skip if all foils
-        next if deck.physical_cards.all?(&:foil)
+        next if deck_cards.all?(&:foil)
 
-        max_rarity = deck.physical_cards.map(&:main_front).max_by(&:rarity_code).rarity
+        max_rarity = deck_cards.map(&:main_front).max_by(&:rarity_code).rarity
         foils_rarity = foils.map(&:main_front).map(&:rarity)
         if set_code == "c16"
           # Doesn't follow normal rules

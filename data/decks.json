@@ -4640,6 +4640,438 @@
     "source": "http://www.wizards.com/magic/displaythemedeck.asp?set=5dn&decknum=4&lang=en"
   },
   {
+    "name": "Deck A",
+    "type": "Starter Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Fifth Edition",
+    "set_code": "5ed",
+    "release_date": "1997-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Pearled Unicorn",
+          "count": 1
+        },
+        {
+          "name": "Samite Healer",
+          "count": 1
+        },
+        {
+          "name": "Bird Maiden",
+          "count": 1
+        },
+        {
+          "name": "Dwarven Warriors",
+          "count": 1
+        },
+        {
+          "name": "Hill Giant",
+          "count": 1
+        },
+        {
+          "name": "Ironclaw Orcs",
+          "count": 1
+        },
+        {
+          "name": "Mons's Goblin Raiders",
+          "count": 1
+        },
+        {
+          "name": "Grizzly Bears",
+          "count": 1
+        },
+        {
+          "name": "Llanowar Elves",
+          "count": 1
+        },
+        {
+          "name": "Tarpan",
+          "count": 1
+        },
+        {
+          "name": "Circle of Protection: Black",
+          "count": 1
+        },
+        {
+          "name": "Firebreathing",
+          "count": 1
+        },
+        {
+          "name": "Regeneration",
+          "count": 1
+        },
+        {
+          "name": "Disenchant",
+          "count": 1
+        },
+        {
+          "name": "Righteousness",
+          "count": 1
+        },
+        {
+          "name": "Incinerate",
+          "count": 1
+        },
+        {
+          "name": "Giant Growth",
+          "count": 1
+        },
+        {
+          "name": "Dancing Scimitar",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 3
+        },
+        {
+          "name": "Mountain",
+          "count": 5
+        },
+        {
+          "name": "Forest",
+          "count": 3
+        },
+        {
+          "name": "City of Brass",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Fifth_Edition/2-Player_Starter_Set"
+  },
+  {
+    "name": "Deck B",
+    "type": "Starter Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Fifth Edition",
+    "set_code": "5ed",
+    "release_date": "1997-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Merfolk of the Pearl Trident",
+          "count": 1
+        },
+        {
+          "name": "Phantom Monster",
+          "count": 1
+        },
+        {
+          "name": "Prodigal Sorcerer",
+          "count": 1
+        },
+        {
+          "name": "Vodalian Soldiers",
+          "count": 1
+        },
+        {
+          "name": "Zephyr Falcon",
+          "count": 1
+        },
+        {
+          "name": "Bog Imp",
+          "count": 1
+        },
+        {
+          "name": "Bog Rats",
+          "count": 1
+        },
+        {
+          "name": "Bog Wraith",
+          "count": 1
+        },
+        {
+          "name": "Erg Raiders",
+          "count": 1
+        },
+        {
+          "name": "Frozen Shade",
+          "count": 1
+        },
+        {
+          "name": "Mole Worms",
+          "count": 1
+        },
+        {
+          "name": "Scathe Zombies",
+          "count": 1
+        },
+        {
+          "name": "Soul Barrier",
+          "count": 1
+        },
+        {
+          "name": "Unholy Strength",
+          "count": 1
+        },
+        {
+          "name": "Counterspell",
+          "count": 1
+        },
+        {
+          "name": "Terror",
+          "count": 1
+        },
+        {
+          "name": "Rod of Ruin",
+          "count": 1
+        },
+        {
+          "name": "Soul Net",
+          "count": 1
+        },
+        {
+          "name": "Swamp",
+          "count": 6
+        },
+        {
+          "name": "Island",
+          "count": 6
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Fifth_Edition/2-Player_Starter_Set"
+  },
+  {
+    "name": "Deck A",
+    "type": "Starter Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Classic Sixth Edition",
+    "set_code": "6ed",
+    "release_date": "1999-04-21",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Ardent Militia",
+          "count": 1
+        },
+        {
+          "name": "Blood Pet",
+          "count": 1
+        },
+        {
+          "name": "Drudge Skeletons",
+          "count": 1
+        },
+        {
+          "name": "Giant Spider",
+          "count": 1
+        },
+        {
+          "name": "Gravebane Zombie",
+          "count": 1
+        },
+        {
+          "name": "Hidden Horror",
+          "count": 1
+        },
+        {
+          "name": "Llanowar Elves",
+          "count": 1
+        },
+        {
+          "name": "Mischievous Poltergeist",
+          "count": 1
+        },
+        {
+          "name": "Panther Warriors",
+          "count": 1
+        },
+        {
+          "name": "Samite Healer",
+          "count": 1
+        },
+        {
+          "name": "Scaled Wurm",
+          "count": 1
+        },
+        {
+          "name": "Trained Armodon",
+          "count": 1
+        },
+        {
+          "name": "Call of the Wild",
+          "count": 1
+        },
+        {
+          "name": "Enfeeblement",
+          "count": 1
+        },
+        {
+          "name": "Giant Growth",
+          "count": 1
+        },
+        {
+          "name": "Healing Salve",
+          "count": 1
+        },
+        {
+          "name": "Terror",
+          "count": 1
+        },
+        {
+          "name": "Warrior's Honor",
+          "count": 1
+        },
+        {
+          "name": "Creeping Mold",
+          "count": 1
+        },
+        {
+          "name": "Raise Dead",
+          "count": 1
+        },
+        {
+          "name": "Rampant Growth",
+          "count": 1
+        },
+        {
+          "name": "Obsianus Golem",
+          "count": 1
+        },
+        {
+          "name": "Rod of Ruin",
+          "count": 1
+        },
+        {
+          "name": "Forest",
+          "count": 7
+        },
+        {
+          "name": "Plains",
+          "count": 3
+        },
+        {
+          "name": "Swamp",
+          "count": 7
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Sixth_Edition/2-Player_Starter_Set"
+  },
+  {
+    "name": "Deck B",
+    "type": "Starter Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Classic Sixth Edition",
+    "set_code": "6ed",
+    "release_date": "1999-04-21",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Air Elemental",
+          "count": 1
+        },
+        {
+          "name": "Anaba Bodyguard",
+          "count": 1
+        },
+        {
+          "name": "D'Avenant Archer",
+          "count": 1
+        },
+        {
+          "name": "Horned Turtle",
+          "count": 1
+        },
+        {
+          "name": "Phantom Warrior",
+          "count": 1
+        },
+        {
+          "name": "Prodigal Sorcerer",
+          "count": 1
+        },
+        {
+          "name": "Sabretooth Tiger",
+          "count": 1
+        },
+        {
+          "name": "Sibilant Spirit",
+          "count": 1
+        },
+        {
+          "name": "Storm Crow",
+          "count": 1
+        },
+        {
+          "name": "Venerable Monk",
+          "count": 1
+        },
+        {
+          "name": "Wall of Fire",
+          "count": 1
+        },
+        {
+          "name": "Wind Drake",
+          "count": 1
+        },
+        {
+          "name": "Castle",
+          "count": 1
+        },
+        {
+          "name": "Hero's Resolve",
+          "count": 1
+        },
+        {
+          "name": "Boomerang",
+          "count": 1
+        },
+        {
+          "name": "Counterspell",
+          "count": 1
+        },
+        {
+          "name": "Disenchant",
+          "count": 1
+        },
+        {
+          "name": "Lightning Blast",
+          "count": 1
+        },
+        {
+          "name": "Blaze",
+          "count": 1
+        },
+        {
+          "name": "Fit of Rage",
+          "count": 1
+        },
+        {
+          "name": "Pyrotechnics",
+          "count": 1
+        },
+        {
+          "name": "Tremor",
+          "count": 1
+        },
+        {
+          "name": "Mana Prism",
+          "count": 1
+        },
+        {
+          "name": "Island",
+          "count": 6
+        },
+        {
+          "name": "Mountain",
+          "count": 6
+        },
+        {
+          "name": "Plains",
+          "count": 5
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Sixth_Edition/2-Player_Starter_Set"
+  },
+  {
     "name": "Armada",
     "type": "Theme Deck",
     "category": "deck",
@@ -19119,6 +19551,26 @@
           "name": "Transguild Promenade",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Oloro, Ageless Ascetic",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Sharuum the Hegemon",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Sydri, Galvanic Genius",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/eternal-bargain-commander-2013-card-set-archive"
@@ -19467,6 +19919,26 @@
           "name": "Transguild Promenade",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Derevi, Empyrial Tactician",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Roon of the Hidden Realm",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Rubinia Soulsinger",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/evasive-maneuvers-commander-2013-card-set-archive"
@@ -19806,6 +20278,26 @@
         {
           "name": "Vivid Marsh",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Jeleva, Nephalia's Scourge",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Nekusar, the Mindrazer",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Thraximundar",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
         }
       ]
     },
@@ -20167,6 +20659,26 @@
           "name": "Vivid Crag",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Gahiji, Honored One",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Marath, Will of the Wild",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Mayael the Anima",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/nature-beast-commander-2013-card-set-archive"
@@ -20515,6 +21027,26 @@
           "name": "Vivid Grove",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Prossh, Skyraider of Kher",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Sek'Kuar, Deathkeeper",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        },
+        {
+          "name": "Shattergang Brothers",
+          "count": 1,
+          "set": "oc13",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/power-hungry-commander-2013-card-set-archive"
@@ -20819,6 +21351,14 @@
           "name": "Mountain",
           "count": 29
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Daretti, Scrap Savant",
+          "count": 1,
+          "set": "oc14",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/products/card-set-archive/commander-2014/built-from-scratch"
@@ -21110,6 +21650,14 @@
         {
           "name": "Plains",
           "count": 32
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Nahiri, the Lithomancer",
+          "count": 1,
+          "set": "oc14",
+          "foil": true
         }
       ]
     },
@@ -21431,6 +21979,14 @@
           "name": "Forest",
           "count": 25
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Freyalise, Llanowar's Fury",
+          "count": 1,
+          "set": "oc14",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/products/card-set-archive/commander-2014/guided-by-nature"
@@ -21727,6 +22283,14 @@
           "name": "Island",
           "count": 31
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Teferi, Temporal Archmage",
+          "count": 1,
+          "set": "oc14",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/products/card-set-archive/commander-2014/peer-through-time"
@@ -22018,6 +22582,14 @@
         {
           "name": "Swamp",
           "count": 32
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Ob Nixilis of the Black Oath",
+          "count": 1,
+          "set": "oc14",
+          "foil": true
         }
       ]
     },
@@ -22347,6 +22919,14 @@
           "name": "Swamp",
           "count": 13
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Daxos the Returned",
+          "count": 1,
+          "set": "oc15",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/commander-2015-decklists"
@@ -22671,6 +23251,14 @@
           "name": "Forest",
           "count": 12
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Meren of Clan Nel Toth",
+          "count": 1,
+          "set": "oc15",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/commander-2015-decklists"
@@ -22986,6 +23574,14 @@
         {
           "name": "Mountain",
           "count": 13
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Mizzix of the Izmagnus",
+          "count": 1,
+          "set": "oc15",
+          "foil": true
         }
       ]
     },
@@ -23311,6 +23907,14 @@
           "name": "Island",
           "count": 11
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Ezuri, Claw of Progress",
+          "count": 1,
+          "set": "oc15",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/commander-2015-decklists"
@@ -23634,6 +24238,14 @@
         {
           "name": "Crib Swap",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Kalemne, Disciple of Iroas",
+          "count": 1,
+          "set": "oc15",
+          "foil": true
         }
       ]
     },
@@ -23986,6 +24598,14 @@
         {
           "name": "Forest",
           "count": 7
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Atraxa, Praetors' Voice",
+          "count": 1,
+          "set": "oc16",
+          "foil": true
         }
       ]
     },
@@ -24342,6 +24962,14 @@
         {
           "name": "Forest",
           "count": 5
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Yidris, Maelstrom Wielder",
+          "count": 1,
+          "set": "oc16",
+          "foil": true
         }
       ]
     },
@@ -24706,6 +25334,14 @@
         {
           "name": "Mountain",
           "count": 4
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Breya, Etherium Shaper",
+          "count": 1,
+          "set": "oc16",
+          "foil": true
         }
       ]
     },
@@ -25079,6 +25715,14 @@
           "name": "Forest",
           "count": 5
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Saskia the Unyielding",
+          "count": 1,
+          "set": "oc16",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/commander-2016-cards"
@@ -25435,6 +26079,14 @@
           "name": "Forest",
           "count": 5
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Kynaios and Tiro of Meletis",
+          "count": 1,
+          "set": "oc16",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/content/commander-2016-cards"
@@ -25785,6 +26437,14 @@
         {
           "name": "Vivid Marsh",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Inalla, Archmage Ritualist",
+          "count": 1,
+          "set": "oc17",
+          "foil": true
         }
       ]
     },
@@ -26152,6 +26812,14 @@
         {
           "name": "Vivid Meadow",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "The Ur-Dragon",
+          "count": 1,
+          "set": "oc17",
+          "foil": true
         }
       ]
     },
@@ -26528,6 +27196,14 @@
           "name": "Vivid Grove",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Arahbo, Roar of the World",
+          "count": 1,
+          "set": "oc17",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/feature/commander-2017-edition-decklists-2017-08-11"
@@ -26899,6 +27575,14 @@
           "name": "Wind-Scarred Crag",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Edgar Markov",
+          "count": 1,
+          "set": "oc17",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/feature/commander-2017-edition-decklists-2017-08-11"
@@ -27238,6 +27922,14 @@
           "name": "Forge of Heroes",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Estrid, the Masked",
+          "count": 1,
+          "set": "oc18",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/feature/commander-2018-edition-decklists-and-tokens-2018-07-27"
@@ -27556,6 +28248,14 @@
         {
           "name": "Forge of Heroes",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Saheeli, the Gifted",
+          "count": 1,
+          "set": "oc18",
+          "foil": true
         }
       ]
     },
@@ -27915,6 +28615,14 @@
         {
           "name": "Forge of Heroes",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Lord Windgrace",
+          "count": 1,
+          "set": "oc18",
+          "foil": true
         }
       ]
     },
@@ -28282,6 +28990,14 @@
         {
           "name": "Crib Swap",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Aminatou, the Fateshifter",
+          "count": 1,
+          "set": "oc18",
+          "foil": true
         }
       ]
     },
@@ -28654,6 +29370,14 @@
           "name": "Woodland Stream",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Kadena, Slinking Sorcerer",
+          "count": 1,
+          "set": "oc19",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/feature/decks-commander-2019-edition-2019-08-08"
@@ -29001,6 +29725,14 @@
           "name": "Temple of the False God",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Anje Falkenrath",
+          "count": 1,
+          "set": "oc19",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/feature/decks-commander-2019-edition-2019-08-08"
@@ -29347,6 +30079,14 @@
         {
           "name": "Wind-Scarred Crag",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Sevinne, the Chronoclasm",
+          "count": 1,
+          "set": "oc19",
+          "foil": true
         }
       ]
     },
@@ -29702,6 +30442,14 @@
         {
           "name": "Terramorphic Expanse",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Ghired, Conclave Exile",
+          "count": 1,
+          "set": "oc19",
+          "foil": true
         }
       ]
     },
@@ -30063,6 +30811,14 @@
           "name": "Mountain",
           "count": 5
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Kalamax, the Stormsire",
+          "count": 1,
+          "set": "oc20",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/news/arcane-maelstrom-2020-04-06"
@@ -30422,6 +31178,14 @@
         {
           "name": "Island",
           "count": 2
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Otrimi, the Ever-Playful",
+          "count": 1,
+          "set": "oc20",
+          "foil": true
         }
       ]
     },
@@ -30791,6 +31555,14 @@
           "name": "Swamp",
           "count": 4
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Jirina Kudro",
+          "count": 1,
+          "set": "oc20",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/news/ruthless-regiment-2020-04-06"
@@ -31150,6 +31922,14 @@
         {
           "name": "Forest",
           "count": 4
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Kathril, Aspect Warper",
+          "count": 1,
+          "set": "oc20",
+          "foil": true
         }
       ]
     },
@@ -31523,6 +32303,14 @@
           "name": "Plains",
           "count": 4
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Gavi, Nest Warden",
+          "count": 1,
+          "set": "oc20",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/news/timeless-wisdom-2020-04-06"
@@ -31868,6 +32656,14 @@
         {
           "name": "Plains",
           "count": 8
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Osgir, the Reconstructor",
+          "count": 1,
+          "set": "oc21",
+          "foil": true
         }
       ]
     },
@@ -32219,6 +33015,14 @@
           "name": "Pyromancer's Goggles",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Zaffai, Thunder Conductor",
+          "count": 1,
+          "set": "oc21",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/news/commander-2021-edition-decklists-2021-04-05"
@@ -32561,6 +33365,14 @@
           "name": "Rogue's Passage",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Adrix and Nev, Twincasters",
+          "count": 1,
+          "set": "oc21",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/news/commander-2021-edition-decklists-2021-04-05"
@@ -32890,6 +33702,14 @@
         {
           "name": "Rogue's Passage",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Breena, the Demagogue",
+          "count": 1,
+          "set": "oc21",
+          "foil": true
         }
       ]
     },
@@ -33228,6 +34048,14 @@
         {
           "name": "Rogue's Passage",
           "count": 1
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Willowdusk, Essence Seer",
+          "count": 1,
+          "set": "oc21",
+          "foil": true
         }
       ]
     },
@@ -41196,6 +42024,26 @@
           "name": "Plains",
           "count": 8
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Ghave, Guru of Spores",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Karador, Ghost Chieftain",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Teneb, the Harvester",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/arcana/magic-gathering-commander-decklists-2011-06-14"
@@ -41515,6 +42363,26 @@
         {
           "name": "Swamp",
           "count": 11
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Damia, Sage of Stone",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "The Mimeoplasm",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Vorosh, the Hunter",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
         }
       ]
     },
@@ -41848,6 +42716,26 @@
           "name": "Mountain",
           "count": 8
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Kaalia of the Vast",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Oros, the Avenger",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Tariel, Reckoner of Souls",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/arcana/magic-gathering-commander-decklists-2011-06-14"
@@ -42164,6 +43052,26 @@
           "name": "Fire // Ice",
           "count": 1
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Animar, Soul of Elements",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Intet, the Dreamer",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Riku of Two Reflections",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/arcana/magic-gathering-commander-decklists-2011-06-14"
@@ -42479,6 +43387,26 @@
         {
           "name": "Island",
           "count": 12
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Numot, the Devastator",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Ruhan of the Fomori",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
+        },
+        {
+          "name": "Zedruu the Greathearted",
+          "count": 1,
+          "set": "ocmd",
+          "foil": true
         }
       ]
     },
@@ -46005,6 +46933,127 @@
     "source": "https://magic.wizards.com/en/content/duel-decks-jace-vs-chandra"
   },
   {
+    "name": "Chandra Japanese",
+    "type": "Duel Deck",
+    "category": "deck",
+    "format": "casual",
+    "set_name": "Duel Decks: Jace vs. Chandra",
+    "set_code": "dd2",
+    "release_date": "2008-11-07",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Chandra Nalaar",
+          "count": 1,
+          "set": "DD2",
+          "number": "34★",
+          "foil": true
+        },
+        {
+          "name": "Chartooth Cougar",
+          "count": 1
+        },
+        {
+          "name": "Fireslinger",
+          "count": 1
+        },
+        {
+          "name": "Flamekin Brawler",
+          "count": 2
+        },
+        {
+          "name": "Flametongue Kavu",
+          "count": 1
+        },
+        {
+          "name": "Flamewave Invoker",
+          "count": 1
+        },
+        {
+          "name": "Furnace Whelp",
+          "count": 2
+        },
+        {
+          "name": "Hostility",
+          "count": 1
+        },
+        {
+          "name": "Ingot Chewer",
+          "count": 1
+        },
+        {
+          "name": "Inner-Flame Acolyte",
+          "count": 2
+        },
+        {
+          "name": "Oxidda Golem",
+          "count": 2
+        },
+        {
+          "name": "Pyre Charger",
+          "count": 1
+        },
+        {
+          "name": "Rakdos Pit Dragon",
+          "count": 1
+        },
+        {
+          "name": "Slith Firewalker",
+          "count": 2
+        },
+        {
+          "name": "Soulbright Flamekin",
+          "count": 2
+        },
+        {
+          "name": "Cone of Flame",
+          "count": 1
+        },
+        {
+          "name": "Demonfire",
+          "count": 1
+        },
+        {
+          "name": "Fireball",
+          "count": 2
+        },
+        {
+          "name": "Firebolt",
+          "count": 2
+        },
+        {
+          "name": "Fireblast",
+          "count": 2
+        },
+        {
+          "name": "Flame Javelin",
+          "count": 1
+        },
+        {
+          "name": "Incinerate",
+          "count": 2
+        },
+        {
+          "name": "Magma Jet",
+          "count": 1
+        },
+        {
+          "name": "Seal of Fire",
+          "count": 2
+        },
+        {
+          "name": "Keldon Megaliths",
+          "count": 1
+        },
+        {
+          "name": "Mountain",
+          "count": 24
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/content/duel-decks-jace-vs-chandra"
+  },
+  {
     "name": "Jace",
     "type": "Duel Deck",
     "category": "deck",
@@ -46017,6 +47066,143 @@
         {
           "name": "Jace Beleren",
           "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Aethersnipe",
+          "count": 1
+        },
+        {
+          "name": "Air Elemental",
+          "count": 1
+        },
+        {
+          "name": "Bottle Gnomes",
+          "count": 1
+        },
+        {
+          "name": "Brine Elemental",
+          "count": 1
+        },
+        {
+          "name": "Errant Ephemeron",
+          "count": 1
+        },
+        {
+          "name": "Fathom Seer",
+          "count": 2
+        },
+        {
+          "name": "Fledgling Mawcor",
+          "count": 1
+        },
+        {
+          "name": "Guile",
+          "count": 1
+        },
+        {
+          "name": "Man-o'-War",
+          "count": 2
+        },
+        {
+          "name": "Martyr of Frost",
+          "count": 1
+        },
+        {
+          "name": "Mulldrifter",
+          "count": 2
+        },
+        {
+          "name": "Ophidian",
+          "count": 1
+        },
+        {
+          "name": "Quicksilver Dragon",
+          "count": 1
+        },
+        {
+          "name": "Riftwing Cloudskate",
+          "count": 1
+        },
+        {
+          "name": "Spire Golem",
+          "count": 2
+        },
+        {
+          "name": "Voidmage Apprentice",
+          "count": 1
+        },
+        {
+          "name": "Wall of Deceit",
+          "count": 2
+        },
+        {
+          "name": "Waterspout Djinn",
+          "count": 1
+        },
+        {
+          "name": "Willbender",
+          "count": 1
+        },
+        {
+          "name": "Ancestral Vision",
+          "count": 1
+        },
+        {
+          "name": "Condescend",
+          "count": 2
+        },
+        {
+          "name": "Counterspell",
+          "count": 2
+        },
+        {
+          "name": "Daze",
+          "count": 1
+        },
+        {
+          "name": "Fact or Fiction",
+          "count": 1
+        },
+        {
+          "name": "Gush",
+          "count": 1
+        },
+        {
+          "name": "Repulse",
+          "count": 2
+        },
+        {
+          "name": "Mind Stone",
+          "count": 1
+        },
+        {
+          "name": "Island",
+          "count": 23
+        },
+        {
+          "name": "Terrain Generator",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/content/duel-decks-jace-vs-chandra"
+  },
+  {
+    "name": "Jace Japanese",
+    "type": "Duel Deck",
+    "category": "deck",
+    "format": "casual",
+    "set_name": "Duel Decks: Jace vs. Chandra",
+    "set_code": "dd2",
+    "release_date": "2008-11-07",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Jace Beleren",
+          "count": 1,
+          "set": "DD2",
+          "number": "1★",
           "foil": true
         },
         {
@@ -95912,6 +97098,1446 @@
     "source": "https://magic.wizards.com/en/articles/archive/arc/khans-tarkir-intro-pack-decklists-2014-09-18"
   },
   {
+    "name": "Ahoy Mateys",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Lost Caverns of Ixalan Commander",
+    "set_code": "lcc",
+    "release_date": "2023-11-17",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Admiral Brass, Unsinkable",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Don Andres, the Renegade",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "The Indomitable",
+          "count": 1,
+          "set": "LCC",
+          "number": "75"
+        },
+        {
+          "name": "Storm Fleet Negotiator",
+          "count": 1,
+          "set": "LCC",
+          "number": "78"
+        },
+        {
+          "name": "Francisco, Fowl Marauder",
+          "count": 1,
+          "set": "LCC",
+          "number": "81"
+        },
+        {
+          "name": "The Grim Captain's Locker",
+          "count": 1,
+          "set": "LCC",
+          "number": "82"
+        },
+        {
+          "name": "Skeleton Crew",
+          "count": 1,
+          "set": "LCC",
+          "number": "85"
+        },
+        {
+          "name": "Broadside Bombardiers",
+          "count": 1,
+          "set": "LCC",
+          "number": "86"
+        },
+        {
+          "name": "Gemcutter Buccaneer",
+          "count": 1,
+          "set": "LCC",
+          "number": "87"
+        },
+        {
+          "name": "Arm-Mounted Anchor",
+          "count": 1,
+          "set": "LCC",
+          "number": "99"
+        },
+        {
+          "name": "Amphin Mutineer",
+          "count": 1
+        },
+        {
+          "name": "Bident of Thassa",
+          "count": 1
+        },
+        {
+          "name": "Corsair Captain",
+          "count": 1
+        },
+        {
+          "name": "Evacuation",
+          "count": 1
+        },
+        {
+          "name": "Timestream Navigator",
+          "count": 1
+        },
+        {
+          "name": "Warkite Marauder",
+          "count": 1
+        },
+        {
+          "name": "Black Market Connections",
+          "count": 1
+        },
+        {
+          "name": "Blood Money",
+          "count": 1
+        },
+        {
+          "name": "Dire Fleet Ravager",
+          "count": 1
+        },
+        {
+          "name": "Fathom Fleet Captain",
+          "count": 1
+        },
+        {
+          "name": "Lethal Scheme",
+          "count": 1
+        },
+        {
+          "name": "Angrath's Marauders",
+          "count": 1
+        },
+        {
+          "name": "Blasphemous Act",
+          "count": 1
+        },
+        {
+          "name": "Captain Lannery Storm",
+          "count": 1
+        },
+        {
+          "name": "Captivating Crew",
+          "count": 1
+        },
+        {
+          "name": "Chaos Warp",
+          "count": 1
+        },
+        {
+          "name": "Coercive Recruiter",
+          "count": 1
+        },
+        {
+          "name": "Dire Fleet Daredevil",
+          "count": 1
+        },
+        {
+          "name": "Kari Zev, Skyship Raider",
+          "count": 1
+        },
+        {
+          "name": "Port Razer",
+          "count": 1
+        },
+        {
+          "name": "Shared Animosity",
+          "count": 1
+        },
+        {
+          "name": "Admiral Beckett Brass",
+          "count": 1
+        },
+        {
+          "name": "Hostage Taker",
+          "count": 1
+        },
+        {
+          "name": "King Narfi's Betrayal",
+          "count": 1
+        },
+        {
+          "name": "Prismari Command",
+          "count": 1
+        },
+        {
+          "name": "Zara, Renegade Recruiter",
+          "count": 1
+        },
+        {
+          "name": "Icon of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Vanquisher's Banner",
+          "count": 1
+        },
+        {
+          "name": "Choked Estuary",
+          "count": 1
+        },
+        {
+          "name": "Desolate Lighthouse",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Foreboding Ruins",
+          "count": 1
+        },
+        {
+          "name": "Frostboil Snarl",
+          "count": 1
+        },
+        {
+          "name": "Geier Reach Sanitarium",
+          "count": 1
+        },
+        {
+          "name": "Nephalia Drownyard",
+          "count": 1
+        },
+        {
+          "name": "Smoldering Marsh",
+          "count": 1
+        },
+        {
+          "name": "Sulfur Falls",
+          "count": 1
+        },
+        {
+          "name": "Sunken Hollow",
+          "count": 1
+        },
+        {
+          "name": "Azure Fleet Admiral",
+          "count": 1
+        },
+        {
+          "name": "Enterprising Scallywag",
+          "count": 1
+        },
+        {
+          "name": "Daring Saboteur",
+          "count": 1
+        },
+        {
+          "name": "Departed Deckhand",
+          "count": 1
+        },
+        {
+          "name": "Distant Melody",
+          "count": 1
+        },
+        {
+          "name": "Ghost of Ramirez DePietro",
+          "count": 1
+        },
+        {
+          "name": "Malcolm, Keen-Eyed Navigator",
+          "count": 1
+        },
+        {
+          "name": "Merchant Raiders",
+          "count": 1
+        },
+        {
+          "name": "Siren Stormtamer",
+          "count": 1
+        },
+        {
+          "name": "Spectral Sailor",
+          "count": 1
+        },
+        {
+          "name": "Windfall",
+          "count": 1
+        },
+        {
+          "name": "Feed the Swarm",
+          "count": 1
+        },
+        {
+          "name": "Pitiless Plunderer",
+          "count": 1
+        },
+        {
+          "name": "Breeches, Brazen Plunderer",
+          "count": 1
+        },
+        {
+          "name": "Faithless Looting",
+          "count": 1
+        },
+        {
+          "name": "Rakdos Charm",
+          "count": 1
+        },
+        {
+          "name": "Ramirez DePietro, Pillager",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1
+        },
+        {
+          "name": "Dimir Signet",
+          "count": 1
+        },
+        {
+          "name": "Herald's Horn",
+          "count": 1
+        },
+        {
+          "name": "Izzet Signet",
+          "count": 1
+        },
+        {
+          "name": "Rakdos Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1
+        },
+        {
+          "name": "Wayfarer's Bauble",
+          "count": 1
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Crumbling Necropolis",
+          "count": 1
+        },
+        {
+          "name": "Evolving Wilds",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Port of Karfell",
+          "count": 1
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1
+        },
+        {
+          "name": "Secluded Courtyard",
+          "count": 1
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1
+        },
+        {
+          "name": "Thriving Bluff",
+          "count": 1
+        },
+        {
+          "name": "Thriving Isle",
+          "count": 1
+        },
+        {
+          "name": "Thriving Moor",
+          "count": 1
+        },
+        {
+          "name": "Unclaimed Territory",
+          "count": 1
+        },
+        {
+          "name": "Island",
+          "count": 6
+        },
+        {
+          "name": "Swamp",
+          "count": 4
+        },
+        {
+          "name": "Mountain",
+          "count": 5
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lost-caverns-of-ixalan-commander-decklists"
+  },
+  {
+    "name": "Blood Rites",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Lost Caverns of Ixalan Commander",
+    "set_code": "lcc",
+    "release_date": "2023-11-17",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Clavileño, First of the Blessed",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Carmen, Cruel Skymarcher",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Charismatic Conqueror",
+          "count": 1
+        },
+        {
+          "name": "Elenda's Hierophant",
+          "count": 1
+        },
+        {
+          "name": "March of the Canonized",
+          "count": 1
+        },
+        {
+          "name": "Redemption Choir",
+          "count": 1
+        },
+        {
+          "name": "Dusk Legion Sergeant",
+          "count": 1
+        },
+        {
+          "name": "Master of Dark Rites",
+          "count": 1
+        },
+        {
+          "name": "Promise of Aclazotz",
+          "count": 1
+        },
+        {
+          "name": "Order of Sacred Dusk",
+          "count": 1
+        },
+        {
+          "name": "Austere Command",
+          "count": 1
+        },
+        {
+          "name": "Kindred Boon",
+          "count": 1
+        },
+        {
+          "name": "Mavren Fein, Dusk Apostle",
+          "count": 1
+        },
+        {
+          "name": "Radiant Destiny",
+          "count": 1
+        },
+        {
+          "name": "Welcoming Vampire",
+          "count": 1
+        },
+        {
+          "name": "Bloodghast",
+          "count": 1
+        },
+        {
+          "name": "Bloodtracker",
+          "count": 1
+        },
+        {
+          "name": "Butcher of Malakir",
+          "count": 1
+        },
+        {
+          "name": "Champion of Dusk",
+          "count": 1
+        },
+        {
+          "name": "Cordial Vampire",
+          "count": 1
+        },
+        {
+          "name": "Crossway Troublemakers",
+          "count": 1
+        },
+        {
+          "name": "Damn",
+          "count": 1
+        },
+        {
+          "name": "Drana, Liberator of Malakir",
+          "count": 1
+        },
+        {
+          "name": "Exquisite Blood",
+          "count": 1
+        },
+        {
+          "name": "Glass-Cast Heart",
+          "count": 1
+        },
+        {
+          "name": "New Blood",
+          "count": 1
+        },
+        {
+          "name": "Nighthawk Scavenger",
+          "count": 1
+        },
+        {
+          "name": "Olivia's Wrath",
+          "count": 1
+        },
+        {
+          "name": "Pact of the Serpent",
+          "count": 1
+        },
+        {
+          "name": "Patron of the Vein",
+          "count": 1
+        },
+        {
+          "name": "Sanctum Seeker",
+          "count": 1
+        },
+        {
+          "name": "Timothar, Baron of Bats",
+          "count": 1
+        },
+        {
+          "name": "Twilight Prophet",
+          "count": 1
+        },
+        {
+          "name": "Yahenni, Undying Partisan",
+          "count": 1
+        },
+        {
+          "name": "Elenda, the Dusk Rose",
+          "count": 1
+        },
+        {
+          "name": "Sorin, Lord of Innistrad",
+          "count": 1
+        },
+        {
+          "name": "Utter End",
+          "count": 1
+        },
+        {
+          "name": "Vona, Butcher of Magan",
+          "count": 1
+        },
+        {
+          "name": "Blade of the Bloodchief",
+          "count": 1
+        },
+        {
+          "name": "Isolated Chapel",
+          "count": 1
+        },
+        {
+          "name": "Shineshadow Snarl",
+          "count": 1
+        },
+        {
+          "name": "Temple of Silence",
+          "count": 1
+        },
+        {
+          "name": "Vault of the Archangel",
+          "count": 1
+        },
+        {
+          "name": "Voldaren Estate",
+          "count": 1
+        },
+        {
+          "name": "Windbrisk Heights",
+          "count": 1
+        },
+        {
+          "name": "Martyr of Dusk",
+          "count": 1
+        },
+        {
+          "name": "Return to Dust",
+          "count": 1
+        },
+        {
+          "name": "Swords to Plowshares",
+          "count": 1
+        },
+        {
+          "name": "Blood Artist",
+          "count": 1
+        },
+        {
+          "name": "Bloodline Necromancer",
+          "count": 1
+        },
+        {
+          "name": "Dusk Legion Zealot",
+          "count": 1
+        },
+        {
+          "name": "Falkenrath Noble",
+          "count": 1
+        },
+        {
+          "name": "Indulgent Aristocrat",
+          "count": 1
+        },
+        {
+          "name": "Oathsworn Vampire",
+          "count": 1
+        },
+        {
+          "name": "Village Rites",
+          "count": 1
+        },
+        {
+          "name": "Viscera Seer",
+          "count": 1
+        },
+        {
+          "name": "Bartolomé del Presidio",
+          "count": 1
+        },
+        {
+          "name": "Cruel Celebrant",
+          "count": 1
+        },
+        {
+          "name": "Etchings of the Chosen",
+          "count": 1
+        },
+        {
+          "name": "Legion Lieutenant",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1
+        },
+        {
+          "name": "Heirloom Blade",
+          "count": 1
+        },
+        {
+          "name": "Mind Stone",
+          "count": 1
+        },
+        {
+          "name": "Orzhov Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1
+        },
+        {
+          "name": "Swiftfoot Boots",
+          "count": 1
+        },
+        {
+          "name": "Talisman of Hierarchy",
+          "count": 1
+        },
+        {
+          "name": "Wayfarer's Bauble",
+          "count": 1
+        },
+        {
+          "name": "Bojuka Bog",
+          "count": 1
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Myriad Landscape",
+          "count": 1
+        },
+        {
+          "name": "Orzhov Basilica",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1
+        },
+        {
+          "name": "Secluded Courtyard",
+          "count": 1
+        },
+        {
+          "name": "Tainted Field",
+          "count": 1
+        },
+        {
+          "name": "Temple of the False God",
+          "count": 1
+        },
+        {
+          "name": "Unclaimed Territory",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 8
+        },
+        {
+          "name": "Swamp",
+          "count": 13
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lost-caverns-of-ixalan-commander-decklists"
+  },
+  {
+    "name": "Explorers of the Deep",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Lost Caverns of Ixalan Commander",
+    "set_code": "lcc",
+    "release_date": "2023-11-17",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Hakbal of the Surging Soul",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Xolatoyac, the Smiling Flood",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Mist Dancer",
+          "count": 1
+        },
+        {
+          "name": "Ripples of Potential",
+          "count": 1
+        },
+        {
+          "name": "Wave Goodbye",
+          "count": 1
+        },
+        {
+          "name": "Bygone Marvels",
+          "count": 1
+        },
+        {
+          "name": "Deeproot Historian",
+          "count": 1
+        },
+        {
+          "name": "Topography Tracker",
+          "count": 1
+        },
+        {
+          "name": "Tributary Instructor",
+          "count": 1
+        },
+        {
+          "name": "Singer of Swift Rivers",
+          "count": 1
+        },
+        {
+          "name": "Benthic Biomancer",
+          "count": 1
+        },
+        {
+          "name": "Commit // Memory",
+          "count": 1
+        },
+        {
+          "name": "Coralhelm Commander",
+          "count": 1
+        },
+        {
+          "name": "Curse of the Swine",
+          "count": 1
+        },
+        {
+          "name": "Emperor Mihail II",
+          "count": 1
+        },
+        {
+          "name": "Herald of Secret Streams",
+          "count": 1
+        },
+        {
+          "name": "Kindred Discovery",
+          "count": 1
+        },
+        {
+          "name": "Kopala, Warden of Waves",
+          "count": 1
+        },
+        {
+          "name": "Master of the Pearl Trident",
+          "count": 1
+        },
+        {
+          "name": "Merfolk Sovereign",
+          "count": 1
+        },
+        {
+          "name": "Reflections of Littjara",
+          "count": 1
+        },
+        {
+          "name": "Seafloor Oracle",
+          "count": 1
+        },
+        {
+          "name": "Surgespanner",
+          "count": 1
+        },
+        {
+          "name": "Svyelun of Sea and Sky",
+          "count": 1
+        },
+        {
+          "name": "Thassa, God of the Sea",
+          "count": 1
+        },
+        {
+          "name": "Thieving Skydiver",
+          "count": 1
+        },
+        {
+          "name": "Branching Evolution",
+          "count": 1
+        },
+        {
+          "name": "Deeproot Elite",
+          "count": 1
+        },
+        {
+          "name": "Hardened Scales",
+          "count": 1
+        },
+        {
+          "name": "Realmwalker",
+          "count": 1
+        },
+        {
+          "name": "Ruinous Intrusion",
+          "count": 1
+        },
+        {
+          "name": "Cold-Eyed Selkie",
+          "count": 1
+        },
+        {
+          "name": "Kumena, Tyrant of Orazca",
+          "count": 1
+        },
+        {
+          "name": "Prime Speaker Zegana",
+          "count": 1
+        },
+        {
+          "name": "Quandrix Command",
+          "count": 1
+        },
+        {
+          "name": "Simic Ascendancy",
+          "count": 1
+        },
+        {
+          "name": "Tishana, Voice of Thunder",
+          "count": 1
+        },
+        {
+          "name": "Vorel of the Hull Clade",
+          "count": 1
+        },
+        {
+          "name": "Zegana, Utopian Speaker",
+          "count": 1
+        },
+        {
+          "name": "Metallic Mimic",
+          "count": 1
+        },
+        {
+          "name": "Alchemist's Refuge",
+          "count": 1
+        },
+        {
+          "name": "Hinterland Harbor",
+          "count": 1
+        },
+        {
+          "name": "Karn's Bastion",
+          "count": 1
+        },
+        {
+          "name": "Mosswort Bridge",
+          "count": 1
+        },
+        {
+          "name": "Temple of Mystery",
+          "count": 1
+        },
+        {
+          "name": "Vineglimmer Snarl",
+          "count": 1
+        },
+        {
+          "name": "Merfolk Cave-Diver",
+          "count": 1
+        },
+        {
+          "name": "Aetherize",
+          "count": 1
+        },
+        {
+          "name": "Deeproot Waters",
+          "count": 1
+        },
+        {
+          "name": "Merrow Reejerey",
+          "count": 1
+        },
+        {
+          "name": "Rapid Hybridization",
+          "count": 1
+        },
+        {
+          "name": "Ravenform",
+          "count": 1
+        },
+        {
+          "name": "Sage of Fables",
+          "count": 1
+        },
+        {
+          "name": "Stonybrook Banneret",
+          "count": 1
+        },
+        {
+          "name": "Beast Within",
+          "count": 1
+        },
+        {
+          "name": "Nicanzil, Current Conductor",
+          "count": 1
+        },
+        {
+          "name": "Evolution Sage",
+          "count": 1
+        },
+        {
+          "name": "Explore",
+          "count": 1
+        },
+        {
+          "name": "Inspiring Call",
+          "count": 1
+        },
+        {
+          "name": "Kodama's Reach",
+          "count": 1
+        },
+        {
+          "name": "Growth Spiral",
+          "count": 1
+        },
+        {
+          "name": "Kiora's Follower",
+          "count": 1
+        },
+        {
+          "name": "Merfolk Mistbinder",
+          "count": 1
+        },
+        {
+          "name": "Merfolk Skydiver",
+          "count": 1
+        },
+        {
+          "name": "Tatyova, Benthic Druid",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1
+        },
+        {
+          "name": "Simic Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1
+        },
+        {
+          "name": "Swiftfoot Boots",
+          "count": 1
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Llanowar Reborn",
+          "count": 1
+        },
+        {
+          "name": "Myriad Landscape",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Reliquary Tower",
+          "count": 1
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1
+        },
+        {
+          "name": "Secluded Courtyard",
+          "count": 1
+        },
+        {
+          "name": "Simic Growth Chamber",
+          "count": 1
+        },
+        {
+          "name": "Temple of the False God",
+          "count": 1
+        },
+        {
+          "name": "Unclaimed Territory",
+          "count": 1
+        },
+        {
+          "name": "Forest",
+          "count": 7
+        },
+        {
+          "name": "Island",
+          "count": 13
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lost-caverns-of-ixalan-commander-decklists"
+  },
+  {
+    "name": "Veloci-Ramp-Tor",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Lost Caverns of Ixalan Commander",
+    "set_code": "lcc",
+    "release_date": "2023-11-17",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Pantlaza, Sun-Favored",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Wayta, Trainer Prodigy",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Bronzebeak Foragers",
+          "count": 1
+        },
+        {
+          "name": "From the Rubble",
+          "count": 1
+        },
+        {
+          "name": "Wrathful Raptors",
+          "count": 1
+        },
+        {
+          "name": "Curious Altisaur",
+          "count": 1
+        },
+        {
+          "name": "Dinosaur Egg",
+          "count": 1
+        },
+        {
+          "name": "Scion of Calamity",
+          "count": 1
+        },
+        {
+          "name": "Sunfrill Imitator",
+          "count": 1
+        },
+        {
+          "name": "Progenitor's Icon",
+          "count": 1
+        },
+        {
+          "name": "Akroma's Will",
+          "count": 1
+        },
+        {
+          "name": "Kinjalli's Sunwing",
+          "count": 1
+        },
+        {
+          "name": "Temple Altisaur",
+          "count": 1
+        },
+        {
+          "name": "Wakening Sun's Avatar",
+          "count": 1
+        },
+        {
+          "name": "Zetalpa, Primal Dawn",
+          "count": 1
+        },
+        {
+          "name": "Chandra's Ignition",
+          "count": 1
+        },
+        {
+          "name": "Etali, Primal Storm",
+          "count": 1
+        },
+        {
+          "name": "Fiery Confluence",
+          "count": 1
+        },
+        {
+          "name": "Marauding Raptor",
+          "count": 1
+        },
+        {
+          "name": "Apex Altisaur",
+          "count": 1
+        },
+        {
+          "name": "Deathgorge Scavenger",
+          "count": 1
+        },
+        {
+          "name": "Descendants' Path",
+          "count": 1
+        },
+        {
+          "name": "Rampaging Brontodon",
+          "count": 1
+        },
+        {
+          "name": "Regal Behemoth",
+          "count": 1
+        },
+        {
+          "name": "Return of the Wildspeaker",
+          "count": 1
+        },
+        {
+          "name": "Ripjaw Raptor",
+          "count": 1
+        },
+        {
+          "name": "Rishkar's Expertise",
+          "count": 1
+        },
+        {
+          "name": "Runic Armasaur",
+          "count": 1
+        },
+        {
+          "name": "Shifting Ceratops",
+          "count": 1
+        },
+        {
+          "name": "Topiary Stomper",
+          "count": 1
+        },
+        {
+          "name": "Verdant Sun's Avatar",
+          "count": 1
+        },
+        {
+          "name": "Wayward Swordtooth",
+          "count": 1
+        },
+        {
+          "name": "Quartzwood Crasher",
+          "count": 1
+        },
+        {
+          "name": "Regisaur Alpha",
+          "count": 1
+        },
+        {
+          "name": "Xenagos, God of Revels",
+          "count": 1
+        },
+        {
+          "name": "Zacama, Primal Calamity",
+          "count": 1
+        },
+        {
+          "name": "Lifecrafter's Bestiary",
+          "count": 1
+        },
+        {
+          "name": "Arch of Orazca",
+          "count": 1
+        },
+        {
+          "name": "Canopy Vista",
+          "count": 1
+        },
+        {
+          "name": "Cinder Glade",
+          "count": 1
+        },
+        {
+          "name": "Clifftop Retreat",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Fortified Village",
+          "count": 1
+        },
+        {
+          "name": "Furycalm Snarl",
+          "count": 1
+        },
+        {
+          "name": "Game Trail",
+          "count": 1
+        },
+        {
+          "name": "Kessig Wolf Run",
+          "count": 1
+        },
+        {
+          "name": "Mosswort Bridge",
+          "count": 1
+        },
+        {
+          "name": "Bellowing Aegisaur",
+          "count": 1
+        },
+        {
+          "name": "Generous Gift",
+          "count": 1
+        },
+        {
+          "name": "Majestic Heliopterus",
+          "count": 1
+        },
+        {
+          "name": "Path to Exile",
+          "count": 1
+        },
+        {
+          "name": "Earthshaker Dreadmaw",
+          "count": 1
+        },
+        {
+          "name": "Ixalli's Lorekeeper",
+          "count": 1
+        },
+        {
+          "name": "Thrashing Brontodon",
+          "count": 1
+        },
+        {
+          "name": "Otepec Huntmaster",
+          "count": 1
+        },
+        {
+          "name": "Itzquinth, Firstborn of Gishath",
+          "count": 1
+        },
+        {
+          "name": "Cultivate",
+          "count": 1
+        },
+        {
+          "name": "Drover of the Mighty",
+          "count": 1
+        },
+        {
+          "name": "Farseek",
+          "count": 1
+        },
+        {
+          "name": "Migration Path",
+          "count": 1
+        },
+        {
+          "name": "Rampant Growth",
+          "count": 1
+        },
+        {
+          "name": "Ranging Raptors",
+          "count": 1
+        },
+        {
+          "name": "Savage Stomp",
+          "count": 1
+        },
+        {
+          "name": "Thunderherd Migration",
+          "count": 1
+        },
+        {
+          "name": "Thundering Spineback",
+          "count": 1
+        },
+        {
+          "name": "Atzocan Seer",
+          "count": 1
+        },
+        {
+          "name": "Raging Regisaur",
+          "count": 1
+        },
+        {
+          "name": "Raging Swordtooth",
+          "count": 1
+        },
+        {
+          "name": "Rhythm of the Wild",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Evolving Wilds",
+          "count": 1
+        },
+        {
+          "name": "Jungle Shrine",
+          "count": 1
+        },
+        {
+          "name": "Myriad Landscape",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1
+        },
+        {
+          "name": "Secluded Courtyard",
+          "count": 1
+        },
+        {
+          "name": "Temple of the False God",
+          "count": 1
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1
+        },
+        {
+          "name": "Thriving Bluff",
+          "count": 1
+        },
+        {
+          "name": "Thriving Grove",
+          "count": 1
+        },
+        {
+          "name": "Thriving Heath",
+          "count": 1
+        },
+        {
+          "name": "Unclaimed Territory",
+          "count": 1
+        },
+        {
+          "name": "Forest",
+          "count": 8
+        },
+        {
+          "name": "Plains",
+          "count": 4
+        },
+        {
+          "name": "Mountain",
+          "count": 4
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lost-caverns-of-ixalan-commander-decklists"
+  },
+  {
     "name": "Elvish Rage",
     "type": "Theme Deck",
     "category": "deck",
@@ -96898,6 +99524,43 @@
     "source": "http://www.wizards.com/magic/displaythemedeck.asp?set=lorwyn&decknum=4&lang=en"
   },
   {
+    "name": "Aragorn at Helms Deep",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Tales of Middle-earth Commander",
+    "set_code": "ltc",
+    "release_date": "2023-11-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Andúril, Narsil Reforged",
+          "count": 1
+        },
+        {
+          "name": "Aragorn, Hornburg Hero",
+          "count": 1
+        },
+        {
+          "name": "Legolas's Quick Reflexes",
+          "count": 1
+        },
+        {
+          "name": "Gimli's Reckless Might",
+          "count": 1
+        },
+        {
+          "name": "Isengard Unleashed",
+          "count": 1
+        },
+        {
+          "name": "Rohirrim Chargers",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://www.magicspoiler.com/mtg-news/the-lord-of-the-rings-scene-boxes/"
+  },
+  {
     "name": "Elven Council",
     "type": "Commander Deck",
     "category": "deck",
@@ -97274,6 +99937,43 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-commander-decklists"
+  },
+  {
+    "name": "Flight of the Witch King",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Tales of Middle-earth Commander",
+    "set_code": "ltc",
+    "release_date": "2023-11-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Call Forth the Tempest",
+          "count": 1
+        },
+        {
+          "name": "Nazgûl Battle-Mace",
+          "count": 1
+        },
+        {
+          "name": "Witch-king, Sky Scourge",
+          "count": 1
+        },
+        {
+          "name": "Mordor on the March",
+          "count": 1
+        },
+        {
+          "name": "Fell Beast of Mordor",
+          "count": 1
+        },
+        {
+          "name": "Minas Morgul, Dark Fortress",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://www.magicspoiler.com/mtg-news/the-lord-of-the-rings-scene-boxes/"
   },
   {
     "name": "Food and Fellowship",
@@ -97704,6 +100404,43 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-commander-decklists"
+  },
+  {
+    "name": "Gandalf in the Pelennor Fields",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Tales of Middle-earth Commander",
+    "set_code": "ltc",
+    "release_date": "2023-11-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Olórin's Searing Light",
+          "count": 1
+        },
+        {
+          "name": "Sorcerous Squall",
+          "count": 1
+        },
+        {
+          "name": "Rammas Echor, Ancient Shield",
+          "count": 1
+        },
+        {
+          "name": "Courageous Resolve",
+          "count": 1
+        },
+        {
+          "name": "Gandalf of the Secret Fire",
+          "count": 1
+        },
+        {
+          "name": "Fell Beast's Shriek",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://www.magicspoiler.com/mtg-news/the-lord-of-the-rings-scene-boxes/"
   },
   {
     "name": "Riders of Rohan",
@@ -98542,6 +101279,43 @@
     "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-commander-decklists"
   },
   {
+    "name": "The Might of Galadriel",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Tales of Middle-earth Commander",
+    "set_code": "ltc",
+    "release_date": "2023-11-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Arboreal Alliance",
+          "count": 1
+        },
+        {
+          "name": "Galadriel, Light of Valinor",
+          "count": 1
+        },
+        {
+          "name": "Rally the Galadhrim",
+          "count": 1
+        },
+        {
+          "name": "Galadriel's Dismissal",
+          "count": 1
+        },
+        {
+          "name": "Mists of Lórien",
+          "count": 1
+        },
+        {
+          "name": "Galadhrim Brigade",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://www.magicspoiler.com/mtg-news/the-lord-of-the-rings-scene-boxes/"
+  },
+  {
     "name": "Arcane Aggression",
     "type": "Arena Starter Deck",
     "category": "deck",
@@ -98938,6 +101712,258 @@
     },
     "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
     "display": "Also contains 1 random white rare or mythic rare from the base set."
+  },
+  {
+    "name": "Cunning 1",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Minas Tirith Garrison",
+          "count": 1
+        },
+        {
+          "name": "Pelargir Survivor",
+          "count": 1
+        },
+        {
+          "name": "Captain of Umbar",
+          "count": 1
+        },
+        {
+          "name": "Knights of Dol Amroth",
+          "count": 1
+        },
+        {
+          "name": "Bewitching Leechcraft",
+          "count": 1
+        },
+        {
+          "name": "Glorious Gale",
+          "count": 1
+        },
+        {
+          "name": "Arwen's Gift",
+          "count": 1
+        },
+        {
+          "name": "Ioreth of the Healing House",
+          "count": 1
+        },
+        {
+          "name": "Meneldor, Swift Savior",
+          "count": 1
+        },
+        {
+          "name": "Horses of the Bruinen",
+          "count": 1
+        },
+        {
+          "name": "The Bath Song",
+          "count": 1
+        },
+        {
+          "name": "Island",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random blue rare or mythic rare from the base set."
+  },
+  {
+    "name": "Cunning 2",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Minas Tirith Garrison",
+          "count": 1
+        },
+        {
+          "name": "Pelargir Survivor",
+          "count": 1
+        },
+        {
+          "name": "Captain of Umbar",
+          "count": 1
+        },
+        {
+          "name": "Knights of Dol Amroth",
+          "count": 1
+        },
+        {
+          "name": "Bewitching Leechcraft",
+          "count": 1
+        },
+        {
+          "name": "Isolation at Orthanc",
+          "count": 1
+        },
+        {
+          "name": "Lórien Revealed",
+          "count": 1
+        },
+        {
+          "name": "Bill Ferny, Bree Swindler",
+          "count": 1
+        },
+        {
+          "name": "Elrond, Lord of Rivendell",
+          "count": 1
+        },
+        {
+          "name": "Horses of the Bruinen",
+          "count": 1
+        },
+        {
+          "name": "Mirror of Galadriel",
+          "count": 1
+        },
+        {
+          "name": "Island",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random blue rare or mythic rare from the base set."
+  },
+  {
+    "name": "Elven 1",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mirkwood Channeler",
+          "count": 1
+        },
+        {
+          "name": "Lothlórien Lookout",
+          "count": 1
+        },
+        {
+          "name": "Chance-Met Elves",
+          "count": 1
+        },
+        {
+          "name": "Galadhrim Guide",
+          "count": 1
+        },
+        {
+          "name": "Enraged Huorn",
+          "count": 1
+        },
+        {
+          "name": "Shower of Arrows",
+          "count": 1
+        },
+        {
+          "name": "Glorfindel, Dauntless Rescuer",
+          "count": 1
+        },
+        {
+          "name": "Celeborn the Wise",
+          "count": 1
+        },
+        {
+          "name": "Stew the Coneys",
+          "count": 1
+        },
+        {
+          "name": "Entish Restoration",
+          "count": 1
+        },
+        {
+          "name": "Lembas",
+          "count": 1
+        },
+        {
+          "name": "Forest",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random green rare or mythic rare from the base set."
+  },
+  {
+    "name": "Elven 2",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mirkwood Channeler",
+          "count": 1
+        },
+        {
+          "name": "Mirkwood Spider",
+          "count": 1
+        },
+        {
+          "name": "Lothlórien Lookout",
+          "count": 1
+        },
+        {
+          "name": "Chance-Met Elves",
+          "count": 1
+        },
+        {
+          "name": "Galadhrim Guide",
+          "count": 1
+        },
+        {
+          "name": "Bombadil's Song",
+          "count": 1
+        },
+        {
+          "name": "Revive the Shire",
+          "count": 1
+        },
+        {
+          "name": "Celeborn the Wise",
+          "count": 1
+        },
+        {
+          "name": "Quickbeam, Upstart Ent",
+          "count": 1
+        },
+        {
+          "name": "Stew the Coneys",
+          "count": 1
+        },
+        {
+          "name": "Ent-Draught Basin",
+          "count": 1
+        },
+        {
+          "name": "Forest",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random green rare or mythic rare from the base set."
   },
   {
     "name": "Gondor - Green-White",
@@ -100176,6 +103202,258 @@
     "display": "Also contains 1 random black rare or mythic rare from the base set."
   },
   {
+    "name": "Mortals 1",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Eagle of Deliverance",
+          "count": 1
+        },
+        {
+          "name": "Took Reaper",
+          "count": 1
+        },
+        {
+          "name": "Eastfarthing Farmer",
+          "count": 1
+        },
+        {
+          "name": "Soldier of the Grey Host",
+          "count": 1
+        },
+        {
+          "name": "Second Breakfast",
+          "count": 1
+        },
+        {
+          "name": "Fog on the Barrow-Downs",
+          "count": 1
+        },
+        {
+          "name": "Banish from Edoras",
+          "count": 1
+        },
+        {
+          "name": "Shire Shirriff",
+          "count": 1
+        },
+        {
+          "name": "Éowyn, Lady of Rohan",
+          "count": 1
+        },
+        {
+          "name": "Faramir, Field Commander",
+          "count": 1
+        },
+        {
+          "name": "Barrow-Blade",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random white rare or mythic rare from the base set."
+  },
+  {
+    "name": "Mortals 2",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Eagle of Deliverance",
+          "count": 1
+        },
+        {
+          "name": "East-Mark Cavalier",
+          "count": 1
+        },
+        {
+          "name": "Took Reaper",
+          "count": 1
+        },
+        {
+          "name": "Errand-Rider of Gondor",
+          "count": 1
+        },
+        {
+          "name": "Slip On the Ring",
+          "count": 1
+        },
+        {
+          "name": "Banish from Edoras",
+          "count": 1
+        },
+        {
+          "name": "Samwise the Stouthearted",
+          "count": 1
+        },
+        {
+          "name": "Faramir, Field Commander",
+          "count": 1
+        },
+        {
+          "name": "Landroval, Horizon Witness",
+          "count": 1
+        },
+        {
+          "name": "Reprieve",
+          "count": 1
+        },
+        {
+          "name": "Inherited Envelope",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random white rare or mythic rare from the base set."
+  },
+  {
+    "name": "Orcish 1",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Warg Rider",
+          "count": 1
+        },
+        {
+          "name": "Easterling Vanguard",
+          "count": 1
+        },
+        {
+          "name": "Mordor Muster",
+          "count": 1
+        },
+        {
+          "name": "Dunland Crebain",
+          "count": 1
+        },
+        {
+          "name": "Mirkwood Bats",
+          "count": 1
+        },
+        {
+          "name": "Sam's Desperate Rescue",
+          "count": 1
+        },
+        {
+          "name": "Orcish Medicine",
+          "count": 1
+        },
+        {
+          "name": "Gorbag of Minas Morgul",
+          "count": 1
+        },
+        {
+          "name": "Gothmog, Morgul Lieutenant",
+          "count": 1
+        },
+        {
+          "name": "Grond, the Gatebreaker",
+          "count": 1
+        },
+        {
+          "name": "Bitter Downfall",
+          "count": 1
+        },
+        {
+          "name": "Swamp",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random black rare or mythic rare from the base set."
+  },
+  {
+    "name": "Orcish 2",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Warg Rider",
+          "count": 1
+        },
+        {
+          "name": "Easterling Vanguard",
+          "count": 1
+        },
+        {
+          "name": "Mordor Muster",
+          "count": 1
+        },
+        {
+          "name": "Dunland Crebain",
+          "count": 1
+        },
+        {
+          "name": "Mordor Trebuchet",
+          "count": 1
+        },
+        {
+          "name": "Lash of the Balrog",
+          "count": 1
+        },
+        {
+          "name": "Nasty End",
+          "count": 1
+        },
+        {
+          "name": "Gorbag of Minas Morgul",
+          "count": 1
+        },
+        {
+          "name": "Gothmog, Morgul Lieutenant",
+          "count": 1
+        },
+        {
+          "name": "Voracious Fell Beast",
+          "count": 1
+        },
+        {
+          "name": "March from the Black Gate",
+          "count": 1
+        },
+        {
+          "name": "Swamp",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random black rare or mythic rare from the base set."
+  },
+  {
     "name": "Rebel Armory",
     "type": "Arena Starter Deck",
     "category": "deck",
@@ -100308,6 +103586,132 @@
       ]
     },
     "source": "MTG Arena"
+  },
+  {
+    "name": "Riders 1",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Riders of the Mark",
+          "count": 1
+        },
+        {
+          "name": "Rohirrim Lancer",
+          "count": 1
+        },
+        {
+          "name": "Rally at the Hornburg",
+          "count": 1
+        },
+        {
+          "name": "Relentless Rohirrim",
+          "count": 1
+        },
+        {
+          "name": "Gimli's Fury",
+          "count": 1
+        },
+        {
+          "name": "Smite the Deathless",
+          "count": 1
+        },
+        {
+          "name": "Quarrel's End",
+          "count": 1
+        },
+        {
+          "name": "Erkenbrand, Lord of Westfold",
+          "count": 1
+        },
+        {
+          "name": "Éomer of the Riddermark",
+          "count": 1
+        },
+        {
+          "name": "Rising of the Day",
+          "count": 1
+        },
+        {
+          "name": "Fear, Fire, Foes!",
+          "count": 1
+        },
+        {
+          "name": "Mountain",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random red rare or mythic rare from the base set."
+  },
+  {
+    "name": "Riders 2",
+    "type": "Jumpstart",
+    "category": "halfdeck",
+    "format": "jumpstart",
+    "set_name": "The Lord of the Rings: Tales of Middle-earth",
+    "set_code": "ltr",
+    "release_date": "2023-11-3",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Riders of the Mark",
+          "count": 1
+        },
+        {
+          "name": "Rohirrim Lancer",
+          "count": 1
+        },
+        {
+          "name": "Rally at the Hornburg",
+          "count": 1
+        },
+        {
+          "name": "Haradrim Spearmaster",
+          "count": 1
+        },
+        {
+          "name": "Relentless Rohirrim",
+          "count": 1
+        },
+        {
+          "name": "Smite the Deathless",
+          "count": 1
+        },
+        {
+          "name": "Gimli's Axe",
+          "count": 1
+        },
+        {
+          "name": "Erkenbrand, Lord of Westfold",
+          "count": 1
+        },
+        {
+          "name": "Éomer of the Riddermark",
+          "count": 1
+        },
+        {
+          "name": "Fear, Fire, Foes!",
+          "count": 1
+        },
+        {
+          "name": "Book of Mazarbul",
+          "count": 1
+        },
+        {
+          "name": "Mountain",
+          "count": 8
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/the-lord-of-the-rings-tales-of-middle-earth-jumpstart-booster-contents",
+    "display": "Also contains 1 random red rare or mythic rare from the base set."
   },
   {
     "name": "Savage Salvagers",
@@ -102737,6 +106141,154 @@
     "source": "https://magic.wizards.com/en/articles/archive/arcana/magic-2012-event-decks-2011-08-01"
   },
   {
+    "name": "Black Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Magic 2013",
+    "set_code": "m13",
+    "release_date": "2012-07-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Swamp",
+          "count": 13
+        },
+        {
+          "name": "Bloodhunter Bat",
+          "count": 1
+        },
+        {
+          "name": "Giant Scorpion",
+          "count": 1
+        },
+        {
+          "name": "Liliana's Shade",
+          "count": 1
+        },
+        {
+          "name": "Renegade Demon",
+          "count": 2
+        },
+        {
+          "name": "Tormented Soul",
+          "count": 2
+        },
+        {
+          "name": "Vampire Nighthawk",
+          "count": 1
+        },
+        {
+          "name": "Walking Corpse",
+          "count": 2
+        },
+        {
+          "name": "Cower in Fear",
+          "count": 1
+        },
+        {
+          "name": "Murder",
+          "count": 2
+        },
+        {
+          "name": "Disentomb",
+          "count": 1
+        },
+        {
+          "name": "Mind Rot",
+          "count": 1
+        },
+        {
+          "name": "Rise from the Grave",
+          "count": 1
+        },
+        {
+          "name": "Crippling Blight",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Magic_2013/Sample_decks"
+  },
+  {
+    "name": "Blue Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Magic 2013",
+    "set_code": "m13",
+    "release_date": "2012-07-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Island",
+          "count": 12
+        },
+        {
+          "name": "Archaeomancer",
+          "count": 1
+        },
+        {
+          "name": "Gryff Vanguard",
+          "count": 1
+        },
+        {
+          "name": "Jace's Phantasm",
+          "count": 1
+        },
+        {
+          "name": "Kraken Hatchling",
+          "count": 2
+        },
+        {
+          "name": "Mist Raven",
+          "count": 1
+        },
+        {
+          "name": "Scroll Thief",
+          "count": 1
+        },
+        {
+          "name": "Vedalken Entrancer",
+          "count": 1
+        },
+        {
+          "name": "Wind Drake",
+          "count": 2
+        },
+        {
+          "name": "Essence Scatter",
+          "count": 1
+        },
+        {
+          "name": "Thought Scour",
+          "count": 2
+        },
+        {
+          "name": "Unsummon",
+          "count": 1
+        },
+        {
+          "name": "Divination",
+          "count": 1
+        },
+        {
+          "name": "Mind Sculpt",
+          "count": 1
+        },
+        {
+          "name": "Sleep",
+          "count": 1
+        },
+        {
+          "name": "Switcheroo",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Magic_2013/Sample_decks"
+  },
+  {
     "name": "Depths of Power",
     "type": "Intro Pack",
     "category": "deck",
@@ -102858,6 +106410,80 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/arcana/intro-pack-decklists-2012-07-03"
+  },
+  {
+    "name": "Green Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Magic 2013",
+    "set_code": "m13",
+    "release_date": "2012-07-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Forest",
+          "count": 12
+        },
+        {
+          "name": "Borderland Ranger",
+          "count": 1
+        },
+        {
+          "name": "Centaur Courser",
+          "count": 2
+        },
+        {
+          "name": "Deadly Recluse",
+          "count": 1
+        },
+        {
+          "name": "Duskdale Wurm",
+          "count": 2
+        },
+        {
+          "name": "Elvish Visionary",
+          "count": 1
+        },
+        {
+          "name": "Primal Huntbeast",
+          "count": 1
+        },
+        {
+          "name": "Sentinel Spider",
+          "count": 1
+        },
+        {
+          "name": "Spiked Baloth",
+          "count": 1
+        },
+        {
+          "name": "Fog",
+          "count": 1
+        },
+        {
+          "name": "Titanic Growth",
+          "count": 2
+        },
+        {
+          "name": "Bountiful Harvest",
+          "count": 1
+        },
+        {
+          "name": "Prey Upon",
+          "count": 2
+        },
+        {
+          "name": "Ranger's Path",
+          "count": 1
+        },
+        {
+          "name": "Revive",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Magic_2013/Sample_decks"
   },
   {
     "name": "Mob Rule",
@@ -103096,6 +106722,84 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/arcana/intro-pack-decklists-2012-07-03"
+  },
+  {
+    "name": "Red Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Magic 2013",
+    "set_code": "m13",
+    "release_date": "2012-07-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mountain",
+          "count": 13
+        },
+        {
+          "name": "Bladetusk Boar",
+          "count": 1
+        },
+        {
+          "name": "Dragon Hatchling",
+          "count": 1
+        },
+        {
+          "name": "Fervent Cathar",
+          "count": 1
+        },
+        {
+          "name": "Fire Elemental",
+          "count": 1
+        },
+        {
+          "name": "Furnace Whelp",
+          "count": 1
+        },
+        {
+          "name": "Goblin Arsonist",
+          "count": 1
+        },
+        {
+          "name": "Goblin Battle Jester",
+          "count": 1
+        },
+        {
+          "name": "Riot Devils",
+          "count": 2
+        },
+        {
+          "name": "Scalding Devil",
+          "count": 1
+        },
+        {
+          "name": "Chandra's Fury",
+          "count": 1
+        },
+        {
+          "name": "Kindled Fury",
+          "count": 1
+        },
+        {
+          "name": "Searing Spear",
+          "count": 2
+        },
+        {
+          "name": "Cleaver Riot",
+          "count": 1
+        },
+        {
+          "name": "Flames of the Firebrand",
+          "count": 1
+        },
+        {
+          "name": "Wild Guess",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Magic_2013/Sample_decks"
   },
   {
     "name": "Repeat Performance",
@@ -103467,6 +107171,88 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/arcana/magic-2013-event-deck-decklists-2012-07-24"
+  },
+  {
+    "name": "White Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Magic 2013",
+    "set_code": "m13",
+    "release_date": "2012-07-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 13
+        },
+        {
+          "name": "Abbey Griffin",
+          "count": 1
+        },
+        {
+          "name": "Ajani's Sunstriker",
+          "count": 1
+        },
+        {
+          "name": "Chapel Geist",
+          "count": 1
+        },
+        {
+          "name": "Guardian Lions",
+          "count": 1
+        },
+        {
+          "name": "Healer of the Pride",
+          "count": 1
+        },
+        {
+          "name": "Seraph of Dawn",
+          "count": 1
+        },
+        {
+          "name": "Serra Angel",
+          "count": 1
+        },
+        {
+          "name": "Silvercoat Lion",
+          "count": 2
+        },
+        {
+          "name": "Warclamp Mastiff",
+          "count": 1
+        },
+        {
+          "name": "Elixir of Immortality",
+          "count": 1
+        },
+        {
+          "name": "Angel's Mercy",
+          "count": 1
+        },
+        {
+          "name": "Zealous Strike",
+          "count": 1
+        },
+        {
+          "name": "Divine Verdict",
+          "count": 1
+        },
+        {
+          "name": "Defang",
+          "count": 1
+        },
+        {
+          "name": "Divine Favor",
+          "count": 1
+        },
+        {
+          "name": "Pacifism",
+          "count": 1
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Magic_2013/Sample_decks"
   },
   {
     "name": "Wild Rush",
@@ -152614,6 +156400,84 @@
     "display": "Also includes one foil stained-glass planeswalker: [SLD:523] Ral, [SLD:511] Ob Nixilis, [SLD:512] Chandra, [SLD:507] Kasmina, or [SLD:535] Samut"
   },
   {
+    "name": "Absolute Annihilation",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Oppression",
+          "count": 1,
+          "set": "SLD",
+          "number": "1424"
+        },
+        {
+          "name": "Abrade",
+          "count": 1,
+          "set": "SLD",
+          "number": "1425"
+        },
+        {
+          "name": "Mass Hysteria",
+          "count": 1,
+          "set": "SLD",
+          "number": "1426"
+        },
+        {
+          "name": "Terminate",
+          "count": 1,
+          "set": "SLD",
+          "number": "1427"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
+    "name": "Absolute Annihilation foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Oppression",
+          "count": 1,
+          "set": "SLD",
+          "number": "1424",
+          "foil": true
+        },
+        {
+          "name": "Abrade",
+          "count": 1,
+          "set": "SLD",
+          "number": "1425",
+          "foil": true
+        },
+        {
+          "name": "Mass Hysteria",
+          "count": 1,
+          "set": "SLD",
+          "number": "1426",
+          "foil": true
+        },
+        {
+          "name": "Terminate",
+          "count": 1,
+          "set": "SLD",
+          "number": "1427",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
     "name": "April Fools foil",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -153280,6 +157144,179 @@
     },
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Out_of_Time_Superdrop",
     "display": "Has a roughly 7% chance to have a Blueprint artifact card instead of the normal bonus card: [SLD:603-607]."
+  },
+  {
+    "name": "Artist Series John Avon",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Emrakul, the Promised End",
+          "count": 1,
+          "set": "SLD",
+          "number": "1160"
+        },
+        {
+          "name": "Serra Angel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1161"
+        },
+        {
+          "name": "Brainstorm",
+          "count": 1,
+          "set": "SLD",
+          "number": "1162"
+        },
+        {
+          "name": "Progenitus",
+          "count": 1,
+          "set": "SLD",
+          "number": "1163"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Artist Series John Avon foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Emrakul, the Promised End",
+          "count": 1,
+          "set": "SLD",
+          "number": "1160",
+          "foil": true
+        },
+        {
+          "name": "Serra Angel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1161",
+          "foil": true
+        },
+        {
+          "name": "Brainstorm",
+          "count": 1,
+          "set": "SLD",
+          "number": "1162",
+          "foil": true
+        },
+        {
+          "name": "Progenitus",
+          "count": 1,
+          "set": "SLD",
+          "number": "1163",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Artist Series Kev Walker",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Faeburrow Elder",
+          "count": 1,
+          "set": "SLD",
+          "number": "1173"
+        },
+        {
+          "name": "Carnage Tyrant",
+          "count": 1,
+          "set": "SLD",
+          "number": "1174"
+        },
+        {
+          "name": "Fleshbag Marauder",
+          "count": 1,
+          "set": "SLD",
+          "number": "1175"
+        },
+        {
+          "name": "It That Betrays",
+          "count": 1,
+          "set": "SLD",
+          "number": "1176"
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Fleshbag Marauder",
+          "count": 1,
+          "set": "SLD",
+          "number": "725"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
+    "name": "Artist Series Kev Walker foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Faeburrow Elder",
+          "count": 1,
+          "set": "SLD",
+          "number": "1173",
+          "foil": true
+        },
+        {
+          "name": "Carnage Tyrant",
+          "count": 1,
+          "set": "SLD",
+          "number": "1174",
+          "foil": true
+        },
+        {
+          "name": "Fleshbag Marauder",
+          "count": 1,
+          "set": "SLD",
+          "number": "1175",
+          "foil": true
+        },
+        {
+          "name": "It That Betrays",
+          "count": 1,
+          "set": "SLD",
+          "number": "1176",
+          "foil": true
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Fleshbag Marauder",
+          "count": 1,
+          "set": "SLD",
+          "number": "725",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
   },
   {
     "name": "Artist Series Livia Prima",
@@ -154993,6 +159030,153 @@
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_October_Superdrop_2022"
   },
   {
+    "name": "Buggin Out",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Eldritch Evolution",
+          "count": 1,
+          "set": "SLD",
+          "number": "1414"
+        },
+        {
+          "name": "Giant Adephage",
+          "count": 1,
+          "set": "SLD",
+          "number": "1415"
+        },
+        {
+          "name": "Noxious Revival",
+          "count": 1,
+          "set": "SLD",
+          "number": "1416"
+        },
+        {
+          "name": "Grist, the Hunger Tide",
+          "count": 1,
+          "set": "SLD",
+          "number": "1417"
+        },
+        {
+          "name": "Mazirek, Kraul Death Priest",
+          "count": 1,
+          "set": "SLD",
+          "number": "1418"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
+    "name": "Buggin Out foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Eldritch Evolution",
+          "count": 1,
+          "set": "SLD",
+          "number": "1414",
+          "foil": true
+        },
+        {
+          "name": "Giant Adephage",
+          "count": 1,
+          "set": "SLD",
+          "number": "1415",
+          "foil": true
+        },
+        {
+          "name": "Noxious Revival",
+          "count": 1,
+          "set": "SLD",
+          "number": "1416",
+          "foil": true
+        },
+        {
+          "name": "Grist, the Hunger Tide",
+          "count": 1,
+          "set": "SLD",
+          "number": "1417",
+          "foil": true
+        },
+        {
+          "name": "Mazirek, Kraul Death Priest",
+          "count": 1,
+          "set": "SLD",
+          "number": "1418",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
+    "name": "Calling All Hydra Heads foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-12-08",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Gargos, Vicious Watcher",
+          "count": 1,
+          "set": "SLD",
+          "number": "1329",
+          "foil": true
+        },
+        {
+          "name": "Primordial Hydra",
+          "count": 1,
+          "set": "SLD",
+          "number": "1330",
+          "foil": true
+        },
+        {
+          "name": "Unbound Flourishing",
+          "count": 1,
+          "set": "SLD",
+          "number": "1331",
+          "foil": true
+        },
+        {
+          "name": "Hydroid Krasis",
+          "count": 1,
+          "set": "SLD",
+          "number": "1332",
+          "foil": true
+        },
+        {
+          "name": "Zaxara, the Exemplary",
+          "count": 1,
+          "set": "SLD",
+          "number": "1333",
+          "foil": true
+        },
+        {
+          "name": "Hydra token",
+          "count": 1,
+          "set": "SLD",
+          "number": "1334",
+          "foil": true,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair:_Calling_All_Hydra_Heads"
+  },
+  {
     "name": "Can You Feel with a Heart of Steel foil",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -155209,6 +159393,97 @@
     "display": "Also includes one foil extended art sliver [SLD:610-667] or foil borderless Shadowborn Apostles [SLD:681-688]"
   },
   {
+    "name": "Creepshow",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Death Baron",
+          "count": 1,
+          "set": "SLD",
+          "number": "1458a"
+        },
+        {
+          "name": "Noxious Ghoul",
+          "count": 1,
+          "set": "SLD",
+          "number": "1459a"
+        },
+        {
+          "name": "Zombie Master",
+          "count": 1,
+          "set": "SLD",
+          "number": "1460a"
+        },
+        {
+          "name": "Grimgrin, Corpse-Born",
+          "count": 1,
+          "set": "SLD",
+          "number": "1461a"
+        },
+        {
+          "name": "Unholy Grotto",
+          "count": 1,
+          "set": "SLD",
+          "number": "1462a"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Creepshow foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Death Baron",
+          "count": 1,
+          "set": "SLD",
+          "number": "1458a",
+          "foil": true
+        },
+        {
+          "name": "Noxious Ghoul",
+          "count": 1,
+          "set": "SLD",
+          "number": "1459a",
+          "foil": true
+        },
+        {
+          "name": "Zombie Master",
+          "count": 1,
+          "set": "SLD",
+          "number": "1460a",
+          "foil": true
+        },
+        {
+          "name": "Grimgrin, Corpse-Born",
+          "count": 1,
+          "set": "SLD",
+          "number": "1461a",
+          "foil": true
+        },
+        {
+          "name": "Unholy Grotto",
+          "count": 1,
+          "set": "SLD",
+          "number": "1462a",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
     "name": "Crocodile Jacksons Monstrous Menagerie",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -155273,35 +159548,40 @@
           "count": 1,
           "set": "SLD",
           "number": "305",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Managorger Hydra",
           "count": 1,
           "set": "SLD",
           "number": "306",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Pathbreaker Ibex",
           "count": 1,
           "set": "SLD",
           "number": "307",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Temur Sabertooth",
           "count": 1,
           "set": "SLD",
           "number": "308",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Winding Constrictor",
           "count": 1,
           "set": "SLD",
           "number": "309",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ],
       "Sideboard": [
@@ -155310,7 +159590,8 @@
           "count": 1,
           "set": "SLD",
           "number": "590",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -155598,6 +159879,49 @@
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Dungeons_%26_Dragons:_Honor_Among_Thieves"
   },
   {
+    "name": "Dan Frasier's Mox Box foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-14",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mox Opal",
+          "count": 1,
+          "set": "SLD",
+          "number": "1072",
+          "foil": true
+        },
+        {
+          "name": "Mox Tantalite",
+          "count": 1,
+          "set": "SLD",
+          "number": "1073",
+          "foil": true
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "1074",
+          "foil": true
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "SLD",
+          "number": "589",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Dan_Frazier%27s_Mox_Box"
+  },
+  {
     "name": "Dan Frazier Is Back Again The Allied Talismans",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -155662,35 +159986,40 @@
           "count": 1,
           "set": "SLD",
           "number": "1052",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Dominance",
           "count": 1,
           "set": "SLD",
           "number": "1053",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Indulgence",
           "count": 1,
           "set": "SLD",
           "number": "1054",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Impulse",
           "count": 1,
           "set": "SLD",
           "number": "1055",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Unity",
           "count": 1,
           "set": "SLD",
           "number": "1056",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ],
       "Sideboard": [
@@ -155699,7 +160028,8 @@
           "count": 1,
           "set": "SLD",
           "number": "708",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -155770,35 +160100,40 @@
           "count": 1,
           "set": "SLD",
           "number": "1057",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Creativity",
           "count": 1,
           "set": "SLD",
           "number": "1058",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Resilience",
           "count": 1,
           "set": "SLD",
           "number": "1059",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Conviction",
           "count": 1,
           "set": "SLD",
           "number": "1060",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Talisman of Curiosity",
           "count": 1,
           "set": "SLD",
           "number": "1061",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ],
       "Sideboard": [
@@ -155807,7 +160142,8 @@
           "count": 1,
           "set": "SLD",
           "number": "708",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -155879,35 +160215,40 @@
           "count": 1,
           "set": "SLD",
           "number": "286",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Dimir Signet",
           "count": 1,
           "set": "SLD",
           "number": "287",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Gruul Signet",
           "count": 1,
           "set": "SLD",
           "number": "288",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Rakdos Signet",
           "count": 1,
           "set": "SLD",
           "number": "289",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Selesnya Signet",
           "count": 1,
           "set": "SLD",
           "number": "290",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ],
       "Sideboard": [
@@ -155916,7 +160257,8 @@
           "count": 1,
           "set": "SLD",
           "number": "589",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -155989,35 +160331,40 @@
           "count": 1,
           "set": "SLD",
           "number": "291",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Golgari Signet",
           "count": 1,
           "set": "SLD",
           "number": "292",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Izzet Signet",
           "count": 1,
           "set": "SLD",
           "number": "293",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Orzhov Signet",
           "count": 1,
           "set": "SLD",
           "number": "294",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Simic Signet",
           "count": 1,
           "set": "SLD",
           "number": "295",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ],
       "Sideboard": [
@@ -156026,7 +160373,8 @@
           "count": 1,
           "set": "SLD",
           "number": "589",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -156159,6 +160507,188 @@
     },
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Summer_Superdrop_2023",
     "display": "Bonus card is unknown"
+  },
+  {
+    "name": "Doctor Who The Dalek Lands",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Concealed Courtyard",
+          "count": 1,
+          "set": "SLD",
+          "number": "1372"
+        },
+        {
+          "name": "Spirebluff Canal",
+          "count": 1,
+          "set": "SLD",
+          "number": "1373"
+        },
+        {
+          "name": "Blooming Marsh",
+          "count": 1,
+          "set": "SLD",
+          "number": "1374"
+        },
+        {
+          "name": "Inspiring Vantage",
+          "count": 1,
+          "set": "SLD",
+          "number": "1375"
+        },
+        {
+          "name": "Botanical Sanctum",
+          "count": 1,
+          "set": "SLD",
+          "number": "1376"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Doctor Who The Dalek Lands foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Concealed Courtyard",
+          "count": 1,
+          "set": "SLD",
+          "number": "1372",
+          "foil": true
+        },
+        {
+          "name": "Spirebluff Canal",
+          "count": 1,
+          "set": "SLD",
+          "number": "1373",
+          "foil": true
+        },
+        {
+          "name": "Blooming Marsh",
+          "count": 1,
+          "set": "SLD",
+          "number": "1374",
+          "foil": true
+        },
+        {
+          "name": "Inspiring Vantage",
+          "count": 1,
+          "set": "SLD",
+          "number": "1375",
+          "foil": true
+        },
+        {
+          "name": "Botanical Sanctum",
+          "count": 1,
+          "set": "SLD",
+          "number": "1376",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Doctor Who The Weeping Angels",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Angel of Serenity",
+          "count": 1,
+          "set": "SLD",
+          "number": "1377"
+        },
+        {
+          "name": "Angel of the Ruins",
+          "count": 1,
+          "set": "SLD",
+          "number": "1378"
+        },
+        {
+          "name": "Blinding Angel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1379"
+        },
+        {
+          "name": "Restoration Angel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1380"
+        },
+        {
+          "name": "Sublime Archangel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1381"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Doctor Who The Weeping Angels foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Angel of Serenity",
+          "count": 1,
+          "set": "SLD",
+          "number": "1377",
+          "foil": true
+        },
+        {
+          "name": "Angel of the Ruins",
+          "count": 1,
+          "set": "SLD",
+          "number": "1378",
+          "foil": true
+        },
+        {
+          "name": "Blinding Angel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1379",
+          "foil": true
+        },
+        {
+          "name": "Restoration Angel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1380",
+          "foil": true
+        },
+        {
+          "name": "Sublime Archangel",
+          "count": 1,
+          "set": "SLD",
+          "number": "1381",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
   },
   {
     "name": "Draw Your Hand",
@@ -156384,6 +160914,112 @@
       ]
     },
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Every_Dog_Has_Its_Day"
+  },
+  {
+    "name": "Evil Dead",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Puresteel Paladin",
+          "count": 1,
+          "set": "SLD",
+          "number": "1352"
+        },
+        {
+          "name": "Vanquish the Horde",
+          "count": 1,
+          "set": "SLD",
+          "number": "1353"
+        },
+        {
+          "name": "Zombie Apocalypse",
+          "count": 1,
+          "set": "SLD",
+          "number": "1354"
+        },
+        {
+          "name": "Varina, Lich Queen",
+          "count": 1,
+          "set": "SLD",
+          "number": "1355"
+        },
+        {
+          "name": "Field of the Dead",
+          "count": 1,
+          "set": "SLD",
+          "number": "1356"
+        },
+        {
+          "name": "Zombie",
+          "count": 1,
+          "set": "SLD",
+          "number": "1357",
+          "token": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Evil Dead foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Puresteel Paladin",
+          "count": 1,
+          "set": "SLD",
+          "number": "1352",
+          "foil": true
+        },
+        {
+          "name": "Vanquish the Horde",
+          "count": 1,
+          "set": "SLD",
+          "number": "1353",
+          "foil": true
+        },
+        {
+          "name": "Zombie Apocalypse",
+          "count": 1,
+          "set": "SLD",
+          "number": "1354",
+          "foil": true
+        },
+        {
+          "name": "Varina, Lich Queen",
+          "count": 1,
+          "set": "SLD",
+          "number": "1355",
+          "foil": true
+        },
+        {
+          "name": "Field of the Dead",
+          "count": 1,
+          "set": "SLD",
+          "number": "1356",
+          "foil": true
+        },
+        {
+          "name": "Zombie",
+          "count": 1,
+          "set": "SLD",
+          "number": "1357",
+          "foil": true,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
   },
   {
     "name": "Extra Life 2020 foil",
@@ -157647,35 +162283,35 @@
           "name": "Goblin Lackey",
           "count": 1,
           "set": "SLD",
-          "number": "1311",
+          "number": "1311★",
           "foil": true
         },
         {
           "name": "Goblin Matron",
           "count": 1,
           "set": "SLD",
-          "number": "1312",
+          "number": "1312★",
           "foil": true
         },
         {
           "name": "Goblin Recruiter",
           "count": 1,
           "set": "SLD",
-          "number": "1313",
+          "number": "1313★",
           "foil": true
         },
         {
           "name": "Muxus, Goblin Grandee",
           "count": 1,
           "set": "SLD",
-          "number": "1314",
+          "number": "1314★",
           "foil": true
         },
         {
           "name": "Shattergang Brothers",
           "count": 1,
           "set": "SLD",
-          "number": "1315",
+          "number": "1315★",
           "foil": true
         }
       ]
@@ -158858,6 +163494,84 @@
     "display": "Also includes one foil extended art sliver: [SLD:617] Ward Sliver, [SLD:628] Winged Sliver, [SLD:646] Two-Headed Sliver, [SLD:647] Brood Sliver, [SLD:649] Horned Sliver, or [SLD:657] Tempered Sliver. There is a roughly 6% chance to instead get one of the foil blueprint artifact card [SLD:603-607], or a foil [SLD:599] Persistent Petitioners."
   },
   {
+    "name": "Keep Partying Hard Shred Harder Than You Previously Thought Possible",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Tevesh Szat, Doom of Fools",
+          "count": 1,
+          "set": "SLD",
+          "number": "1199"
+        },
+        {
+          "name": "Godo, Bandit Warlord",
+          "count": 1,
+          "set": "SLD",
+          "number": "1200"
+        },
+        {
+          "name": "Jeska, Thrice Reborn",
+          "count": 1,
+          "set": "SLD",
+          "number": "1201"
+        },
+        {
+          "name": "Vial Smasher the Fierce",
+          "count": 1,
+          "set": "SLD",
+          "number": "1202"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
+    "name": "Keep Partying Hard Shred Harder Than You Previously Thought Possible foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Tevesh Szat, Doom of Fools",
+          "count": 1,
+          "set": "SLD",
+          "number": "1199",
+          "foil": true
+        },
+        {
+          "name": "Godo, Bandit Warlord",
+          "count": 1,
+          "set": "SLD",
+          "number": "1200",
+          "foil": true
+        },
+        {
+          "name": "Jeska, Thrice Reborn",
+          "count": 1,
+          "set": "SLD",
+          "number": "1201",
+          "foil": true
+        },
+        {
+          "name": "Vial Smasher the Fierce",
+          "count": 1,
+          "set": "SLD",
+          "number": "1202",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
     "name": "Legendary Flyers Not That Kind foil",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -159050,6 +163764,97 @@
     "display": "Also includes one foil extended art sliver: [SLD:617] Ward Sliver, [SLD:628] Winged Sliver, [SLD:646] Two-Headed Sliver, [SLD:647] Brood Sliver, [SLD:649] Horned Sliver, or [SLD:657] Tempered Sliver. There is a roughly 6% chance to instead get one of the foil blueprint artifact card [SLD:603-607], or a foil [SLD:599] Persistent Petitioners."
   },
   {
+    "name": "Lilest Walkers",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-22",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Karn, Scion of Urza",
+          "count": 1,
+          "set": "SLD",
+          "number": "1419"
+        },
+        {
+          "name": "Chandra, Flame's Catalyst",
+          "count": 1,
+          "set": "SLD",
+          "number": "1420"
+        },
+        {
+          "name": "Aminatou, the Fateshifter",
+          "count": 1,
+          "set": "SLD",
+          "number": "1421"
+        },
+        {
+          "name": "Daretti, Ingenious Iconoclast",
+          "count": 1,
+          "set": "SLD",
+          "number": "1422"
+        },
+        {
+          "name": "Venser, the Sojourner",
+          "count": 1,
+          "set": "SLD",
+          "number": "1423"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Li%E2%80%99l%E2%80%99est_Walkers"
+  },
+  {
+    "name": "Lilest Walkers foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-22",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Karn, Scion of Urza",
+          "count": 1,
+          "set": "SLD",
+          "number": "1419★",
+          "foil": true
+        },
+        {
+          "name": "Chandra, Flame's Catalyst",
+          "count": 1,
+          "set": "SLD",
+          "number": "1420★",
+          "foil": true
+        },
+        {
+          "name": "Aminatou, the Fateshifter",
+          "count": 1,
+          "set": "SLD",
+          "number": "1421★",
+          "foil": true
+        },
+        {
+          "name": "Daretti, Ingenious Iconoclast",
+          "count": 1,
+          "set": "SLD",
+          "number": "1422★",
+          "foil": true
+        },
+        {
+          "name": "Venser, the Sojourner",
+          "count": 1,
+          "set": "SLD",
+          "number": "1423★",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Li%E2%80%99l%E2%80%99est_Walkers"
+  },
+  {
     "name": "Liller Walkers",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -159198,7 +164003,8 @@
           "count": 1,
           "set": "SLD",
           "number": "364",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Grim Tutor",
@@ -159212,14 +164018,16 @@
           "count": 1,
           "set": "SLD",
           "number": "366",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Cut",
           "count": 1,
           "set": "SLD",
           "number": "367a",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Teferi's Puzzle Box",
@@ -159246,7 +164054,8 @@
         }
       ]
     },
-    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_MSCHF"
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_MSCHF",
+    "display": "This drop featured diffent styles of foil finishes, so not all cards are etched, despite the name."
   },
   {
     "name": "Magic the Baseballing",
@@ -159453,6 +164262,97 @@
     "display": "Has a roughly 7% chance to have a Blueprint artifact card instead of the normal bonus card: [SLD:603-607]."
   },
   {
+    "name": "Meditations on Nature",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "SLD",
+          "number": "1399"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "SLD",
+          "number": "1400"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "SLD",
+          "number": "1401"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1402"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "SLD",
+          "number": "1403"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "Meditations on Nature foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "SLD",
+          "number": "1399",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "SLD",
+          "number": "1400",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "SLD",
+          "number": "1401",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1402",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "SLD",
+          "number": "1403",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
     "name": "Mirrodinsanity",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -159618,35 +164518,40 @@
           "count": 1,
           "set": "SLD",
           "number": "316",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Goblin Trashmaster",
           "count": 1,
           "set": "SLD",
           "number": "317",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Ilharg, the Raze-Boar",
           "count": 1,
           "set": "SLD",
           "number": "318",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Protean Hulk",
           "count": 1,
           "set": "SLD",
           "number": "319",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Gishath, Sun's Avatar",
           "count": 1,
           "set": "SLD",
           "number": "320",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -160064,6 +164969,84 @@
     },
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spring_Superdrop_2023",
     "display": "Also includes one foil extended art sliver [SLD:610-667] or foil borderless Shadowborn Apostles [SLD:681-688]"
+  },
+  {
+    "name": "Now on VHS",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Rewind",
+          "count": 1,
+          "set": "SLD",
+          "number": "1368"
+        },
+        {
+          "name": "Food Chain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1369"
+        },
+        {
+          "name": "Rampant Growth",
+          "count": 1,
+          "set": "SLD",
+          "number": "1370"
+        },
+        {
+          "name": "The First Sliver",
+          "count": 1,
+          "set": "SLD",
+          "number": "1371"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
+  },
+  {
+    "name": "Now on VHS foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-08-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Rewind",
+          "count": 1,
+          "set": "SLD",
+          "number": "1368",
+          "foil": true
+        },
+        {
+          "name": "Food Chain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1369",
+          "foil": true
+        },
+        {
+          "name": "Rampant Growth",
+          "count": 1,
+          "set": "SLD",
+          "number": "1370",
+          "foil": true
+        },
+        {
+          "name": "The First Sliver",
+          "count": 1,
+          "set": "SLD",
+          "number": "1371",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Fall_Superdrop_2023"
   },
   {
     "name": "OMG KITTIES foil",
@@ -160583,6 +165566,97 @@
     "display": "Also includes one foil extended art sliver: [SLD:617] Ward Sliver, [SLD:628] Winged Sliver, [SLD:646] Two-Headed Sliver, [SLD:647] Brood Sliver, [SLD:649] Horned Sliver, or [SLD:657] Tempered Sliver. There is a roughly 6% chance to instead get one of the foil blueprint artifact card [SLD:603-607], or a foil [SLD:599] Persistent Petitioners."
   },
   {
+    "name": "PixelLands_v02",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "SLD",
+          "number": "1468"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "SLD",
+          "number": "1469"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "SLD",
+          "number": "1470"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1471"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "SLD",
+          "number": "1472"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "PixelLands_v02 foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "SLD",
+          "number": "1468",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "SLD",
+          "number": "1469",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "SLD",
+          "number": "1470",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1471",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "SLD",
+          "number": "1472",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
     "name": "PixelSnowLandsjpg",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -160640,35 +165714,40 @@
           "count": 1,
           "set": "SLD",
           "number": "325",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Snow-Covered Island",
           "count": 1,
           "set": "SLD",
           "number": "326",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Snow-Covered Swamp",
           "count": 1,
           "set": "SLD",
           "number": "327",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Snow-Covered Mountain",
           "count": 1,
           "set": "SLD",
           "number": "328",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Snow-Covered Forest",
           "count": 1,
           "set": "SLD",
           "number": "329",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -160723,6 +165802,84 @@
     },
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Secretversary_2021",
     "display": "Also contains 1 of 21 possible foil Jumpstart basic lands. Has a 5% chance to include either a foil Blueprint card [SLD:603-607] or a foil [SLD:595] Persistent Petitioners"
+  },
+  {
+    "name": "Ponies the Galloping 2",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Applejack",
+          "count": 1,
+          "set": "SLD",
+          "number": "1537"
+        },
+        {
+          "name": "Fluttershy",
+          "count": 1,
+          "set": "SLD",
+          "number": "1538"
+        },
+        {
+          "name": "Pinkie Pie",
+          "count": 1,
+          "set": "SLD",
+          "number": "1539"
+        },
+        {
+          "name": "Rainbow Dash",
+          "count": 1,
+          "set": "SLD",
+          "number": "1540"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Ponies:_The_Galloping_2_-_Extra_Life_2023"
+  },
+  {
+    "name": "Ponies the Galloping 2 foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-09-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Applejack",
+          "count": 1,
+          "set": "SLD",
+          "number": "1537",
+          "foil": true
+        },
+        {
+          "name": "Fluttershy",
+          "count": 1,
+          "set": "SLD",
+          "number": "1538",
+          "foil": true
+        },
+        {
+          "name": "Pinkie Pie",
+          "count": 1,
+          "set": "SLD",
+          "number": "1539",
+          "foil": true
+        },
+        {
+          "name": "Rainbow Dash",
+          "count": 1,
+          "set": "SLD",
+          "number": "1540",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Ponies:_The_Galloping_2_-_Extra_Life_2023"
   },
   {
     "name": "Post Malone Backstage Pass",
@@ -161247,7 +166404,7 @@
     "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_October_Superdrop_(2021)"
   },
   {
-    "name": "Read the Fine Print foil",
+    "name": "Read the Fine Print etched",
     "type": "Secret Lair Drop",
     "category": "box",
     "set_name": "Secret Lair Drop",
@@ -161259,36 +166416,41 @@
           "name": "Demonlord Belzenlok",
           "count": 1,
           "set": "SLD",
-          "number": "159",
-          "foil": true
+          "number": "159★",
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Griselbrand",
           "count": 1,
           "set": "SLD",
-          "number": "160",
-          "foil": true
+          "number": "160★",
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Liliana's Contract",
           "count": 1,
           "set": "SLD",
-          "number": "161",
-          "foil": true
+          "number": "161★",
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Kothophed, Soul Hoarder",
           "count": 1,
           "set": "SLD",
-          "number": "162",
-          "foil": true
+          "number": "162★",
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Razaketh, the Foulblooded",
           "count": 1,
           "set": "SLD",
-          "number": "163",
-          "foil": true
+          "number": "163★",
+          "foil": true,
+          "etched": true
         }
       ],
       "Sideboard": [
@@ -162719,28 +167881,32 @@
           "count": 1,
           "set": "SLD",
           "number": "1114",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Doomsday",
           "count": 1,
           "set": "SLD",
           "number": "1115",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Plaguecrafter",
           "count": 1,
           "set": "SLD",
           "number": "1116",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Thoughtseize",
           "count": 1,
           "set": "SLD",
           "number": "1117",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -164832,6 +169998,149 @@
     "display": "Also includes one foil stained-glass planeswalker: [SLD:520] Ajani, [SLD:521] Domri, [SLD:525] Tamiyo, or [SLD:536] Vraska"
   },
   {
+    "name": "The Princess Bride",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Sisay, Weatherlight Captain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1444"
+        },
+        {
+          "name": "Silence",
+          "count": 1,
+          "set": "SLD",
+          "number": "1445"
+        },
+        {
+          "name": "Battle of Wits",
+          "count": 1,
+          "set": "SLD",
+          "number": "1446"
+        },
+        {
+          "name": "Baral, Chief of Compliance",
+          "count": 1,
+          "set": "SLD",
+          "number": "1447"
+        },
+        {
+          "name": "Pack Rat",
+          "count": 1,
+          "set": "SLD",
+          "number": "1448"
+        },
+        {
+          "name": "Fynn, the Fangbearer",
+          "count": 1,
+          "set": "SLD",
+          "number": "1449"
+        },
+        {
+          "name": "Brion Stoutarm",
+          "count": 1,
+          "set": "SLD",
+          "number": "1450"
+        },
+        {
+          "name": "Samut, Voice of Dissent",
+          "count": 1,
+          "set": "SLD",
+          "number": "1451"
+        },
+        {
+          "name": "Marchesa, the Black Rose",
+          "count": 1,
+          "set": "SLD",
+          "number": "1452"
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
+    "name": "The Princess Bride foil",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2023-10-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Sisay, Weatherlight Captain",
+          "count": 1,
+          "set": "SLD",
+          "number": "1444",
+          "foil": true
+        },
+        {
+          "name": "Silence",
+          "count": 1,
+          "set": "SLD",
+          "number": "1445",
+          "foil": true
+        },
+        {
+          "name": "Battle of Wits",
+          "count": 1,
+          "set": "SLD",
+          "number": "1446",
+          "foil": true
+        },
+        {
+          "name": "Baral, Chief of Compliance",
+          "count": 1,
+          "set": "SLD",
+          "number": "1447",
+          "foil": true
+        },
+        {
+          "name": "Pack Rat",
+          "count": 1,
+          "set": "SLD",
+          "number": "1448",
+          "foil": true
+        },
+        {
+          "name": "Fynn, the Fangbearer",
+          "count": 1,
+          "set": "SLD",
+          "number": "1449",
+          "foil": true
+        },
+        {
+          "name": "Brion Stoutarm",
+          "count": 1,
+          "set": "SLD",
+          "number": "1450",
+          "foil": true
+        },
+        {
+          "name": "Samut, Voice of Dissent",
+          "count": 1,
+          "set": "SLD",
+          "number": "1451",
+          "foil": true
+        },
+        {
+          "name": "Marchesa, the Black Rose",
+          "count": 1,
+          "set": "SLD",
+          "number": "1452",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.fandom.com/wiki/Secret_Lair_Drop_Series:_Spookydrop_2023"
+  },
+  {
     "name": "The Space Beyond the Stars",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -165049,35 +170358,40 @@
           "count": 1,
           "set": "SLD",
           "number": "46",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Island",
           "count": 1,
           "set": "SLD",
           "number": "47",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Swamp",
           "count": 1,
           "set": "SLD",
           "number": "48",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Mountain",
           "count": 1,
           "set": "SLD",
           "number": "49",
-          "foil": true
+          "foil": true,
+          "etched": true
         },
         {
           "name": "Forest",
           "count": 1,
           "set": "SLD",
           "number": "50",
-          "foil": true
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -188978,6 +194292,214 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/wilds-of-eldraine-commander-decklists"
+  },
+  {
+    "name": "Backup Beatdown",
+    "type": "Starter Kit",
+    "category": "deck",
+    "format": "standard",
+    "set_name": "Wilds of Eldraine",
+    "set_code": "woe",
+    "release_date": "2023-09-08",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Boon-Bringer Valkyrie",
+          "count": 1
+        },
+        {
+          "name": "In the Trenches",
+          "count": 1
+        },
+        {
+          "name": "Silverback Elder",
+          "count": 1
+        },
+        {
+          "name": "Dusk Legion Duelist",
+          "count": 1
+        },
+        {
+          "name": "Siege Veteran",
+          "count": 1
+        },
+        {
+          "name": "Ancient Imperiosaur",
+          "count": 1
+        },
+        {
+          "name": "Quirion Beastcaller",
+          "count": 1
+        },
+        {
+          "name": "Simian Simulacrum",
+          "count": 1
+        },
+        {
+          "name": "Recruitment Officer",
+          "count": 2
+        },
+        {
+          "name": "Storm the Seedcore",
+          "count": 2
+        },
+        {
+          "name": "Samite Herbalist",
+          "count": 2
+        },
+        {
+          "name": "Sigiled Sentinel",
+          "count": 2
+        },
+        {
+          "name": "Mesa Cavalier",
+          "count": 3
+        },
+        {
+          "name": "Cooped Up",
+          "count": 3
+        },
+        {
+          "name": "Iridescent Blademaster",
+          "count": 2
+        },
+        {
+          "name": "Chomping Kavu",
+          "count": 2
+        },
+        {
+          "name": "Magnigoth Sentry",
+          "count": 2
+        },
+        {
+          "name": "Giant Growth",
+          "count": 1
+        },
+        {
+          "name": "Titanic Growth",
+          "count": 1
+        },
+        {
+          "name": "Broken Wings",
+          "count": 2
+        },
+        {
+          "name": "Fairgrounds Trumpeter",
+          "count": 2
+        },
+        {
+          "name": "Blossoming Sands",
+          "count": 4
+        },
+        {
+          "name": "Forest",
+          "count": 12
+        },
+        {
+          "name": "Plains",
+          "count": 10
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/starter-kit-2023-decklists"
+  },
+  {
+    "name": "Day of the Dragon",
+    "type": "Starter Kit",
+    "category": "deck",
+    "format": "standard",
+    "set_name": "Wilds of Eldraine",
+    "set_code": "woe",
+    "release_date": "2023-09-08",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Tyrant of Kher Ridges",
+          "count": 1
+        },
+        {
+          "name": "Sarkhan, Soul Aflame",
+          "count": 1
+        },
+        {
+          "name": "Shivan Devastator",
+          "count": 1
+        },
+        {
+          "name": "Ragefire Hellkite",
+          "count": 1
+        },
+        {
+          "name": "Aether Channeler",
+          "count": 1
+        },
+        {
+          "name": "Ingenious Prodigy",
+          "count": 1
+        },
+        {
+          "name": "Dragonwing Glider",
+          "count": 1
+        },
+        {
+          "name": "Goddric, Cloaked Reveler",
+          "count": 1
+        },
+        {
+          "name": "Kolaghan Warmonger",
+          "count": 3
+        },
+        {
+          "name": "Archive Dragon",
+          "count": 2
+        },
+        {
+          "name": "Dragon Whelp",
+          "count": 3
+        },
+        {
+          "name": "Witchstalker Frenzy",
+          "count": 3
+        },
+        {
+          "name": "Shivan Branch-Burner",
+          "count": 1
+        },
+        {
+          "name": "Quick Study",
+          "count": 2
+        },
+        {
+          "name": "Stormkeld Prowler",
+          "count": 4
+        },
+        {
+          "name": "Stasis Field",
+          "count": 3
+        },
+        {
+          "name": "Lightning Strike",
+          "count": 3
+        },
+        {
+          "name": "Roc Hunter",
+          "count": 2
+        },
+        {
+          "name": "Swiftwater Cliffs",
+          "count": 4
+        },
+        {
+          "name": "Island",
+          "count": 11
+        },
+        {
+          "name": "Mountain",
+          "count": 11
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/starter-kit-2023-decklists"
   },
   {
     "name": "Air Forces",

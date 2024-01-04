@@ -1,46 +1,61 @@
 class ConditionNumberRange < ConditionSimple
   def initialize(ranges)
-    @ranges = ranges.downcase.split(",").map{|range|
-      a, b = range.split("-", 2)
-      b ||= a
-      [[a.to_i, a.to_s], [b.to_i, b.to_s]]
-    }
-  end
-
-  def match?(card)
-    card_number_s = card.number.downcase
-    card_number_i = card.number_i
-    key = [card_number_i, card_number_s]
-    @ranges.any? do |a, b|
-      if a[1] == "set"
-        if card.set.base_set_size
-          acond = (card_number_i >= card.set.base_set_size)
-        else
-          acord = false
-        end
-      else
-        acond = (key <=> a) >= 0
-      end
-      if b[1] == "set"
-        if card.set.base_set_size
-          bcond = (card_number_i <= card.set.base_set_size)
-        else
-          bcond = false
-        end
-      else
-        bcond = (key <=> b) <= 0
-      end
-      acond && bcond
+    if ranges =~ /\A(\d+)-(\d+)\z/
+      @range = ($1.to_i..$2.to_i)
+    else
+      @ranges = ranges.downcase.split(",").map{|range|
+        a, b = range.split("-", 2)
+        b ||= a
+        [a.to_i, a, b.to_i, b =~ /\D/ ? b : "#{b}zzz", a == "set", b == "set"]
+      }
     end
   end
 
-  def to_s
-    "number:#{@ranges.map{|(ai, as), (bi, bs)|
-      if as == bs
-        as
+  def match?(card)
+    card_number_i = card.number_i
+
+    if @range
+      return @range.cover?(card_number_i)
+    end
+
+    @ranges.each do |ai, as, bi, bs, aset, bset|
+      if aset
+        base_set_size = card.set.base_set_size
+        next unless base_set_size && (card_number_i >= base_set_size)
       else
-        "#{as}-#{bs}"
+        next unless card_number_i >= ai
+        if card_number_i == ai
+          next unless card.number.downcase >= as
+        end
       end
-    }.join(",")}"
+
+      if bset
+        base_set_size = card.set.base_set_size
+        next unless base_set_size && (card_number_i <= card.set.base_set_size)
+      else
+        next unless card_number_i <= bi
+        if card_number_i == bi
+          next unless card.number.downcase <= bs
+        end
+      end
+
+      return true
+    end
+
+    false
+  end
+
+  def to_s
+    if @range
+      "number:#{@range.begin}-#{@range.end}"
+    else
+      "number:#{@ranges.map{|ai, as, bi, bs, aset, bset|
+        if as == bs
+          as
+        else
+          "#{as}-#{bs}"
+        end
+      }.join(",")}"
+    end
   end
 end

@@ -1,0 +1,44 @@
+# Data from https://magic.wizards.com/en/news/feature/collecting-the-lost-caverns-of-ixalan
+pack:
+  cave_fullart_land: 1
+  foil_chance:
+  - sfc_common: 9
+    chance: 2
+  - sfc_common: 8
+    foil_with_showcase: 1
+    chance: 1
+  dfc_common_uncommon: 1
+  sfc_uncommon_with_showcase: 3
+  rare_mythic_with_showcase: 1
+sheets: 
+  sfc_common:
+    balanced: true
+    query: "r:c is:sfc -t:cave"
+  cave_fullart_land:
+    any:
+    - query: "t:cave r:c"
+      chance: 7
+    - query: "is:fullart t:basic"
+      chance: 3
+  dfc_common_uncommon:
+    any:
+    - use: dfc_common_with_showcase
+      chance: 10
+    - use: dfc_uncommon_with_showcase
+      chance: 12
+  mythic_with_showcase:
+    any:
+    - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper -(Quintorius Kand)"
+      rate: 1
+    - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper (Quintorius Kand)"
+      rate: 2
+    - use: mythic_has_showcase
+      rate: 4
+    - use: mythic_has_no_showcase
+      rate: 6
+  rare_mythic_with_showcase:
+    any:
+    - use: rare_with_showcase
+      chance: 128
+    - use: mythic_with_showcase
+      chance: 22

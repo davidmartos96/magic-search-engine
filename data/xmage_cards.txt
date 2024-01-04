@@ -3653,6 +3653,7 @@
 5ed	Hecatomb	167
 5ed	Helm of Chatzuk	376
 5ed	Hill Giant	239
+5ed	Hipparion	34
 5ed	Hollow Trees	418
 5ed	Holy Strength	35
 5ed	Homarid Warrior	92
@@ -14283,6 +14284,9 @@ clb	Jan Jansen, Chaos Crafter	277
 clb	Javelin of Lightning	185
 clb	Jazal Goldmane	697
 clb	Jeska's Will	799
+clb	Jon Irenicus, Shattered One	278
+clb	Jon Irenicus, Shattered One	425
+clb	Jon Irenicus, Shattered One	536
 clb	Journey to the Lost City	681
 clb	Juvenile Mist Dragon	79
 clb	Kagha, Shadow Archdruid	279
@@ -14616,6 +14620,12 @@ clb	Zellix, Sanity Flayer	652
 clb	Zevlor, Elturel Exile	296
 clb	Zhentarim Bandit	158
 clb	Zulaport Cutthroat	775
+clu	Commander Mustard	6
+clu	Dining Room	15
+clu	Hallowed Fountain	277
+clu	Lead Pipe	9
+clu	Senator Peacock	2
+clu	Steam Vents	280
 cm1	Chaos Warp	1
 cm1	Command Tower	2
 cm1	Decree of Pain	3
@@ -27545,6 +27555,7 @@ hou	Wretched Camel	82
 hou	Zealot of the God-Pharaoh	207
 ice	Abyssal Specter	113
 ice	Adarkar Sentinel	306
+ice	Adarkar Unicorn	1
 ice	Adarkar Wastes	351
 ice	Aegis of the Meek	307
 ice	Aggression	169
@@ -27678,6 +27689,7 @@ ice	Halls of Mist	354
 ice	Heal	30
 ice	Hecatomb	130
 ice	Hematite Talisman	320
+ice	Hipparion	31
 ice	Hoar Shade	131
 ice	Hot Springs	248
 ice	Howl from Beyond	132
@@ -27743,6 +27755,7 @@ ice	Lim-Dul's Cohort	145
 ice	Lim-Dul's Hex	146
 ice	Lost Order of Jarkeld	43
 ice	Lure	253
+ice	Maddening Wind	254
 ice	Magus of the Unseen	82
 ice	Malachite Talisman	328
 ice	Marton Stromgald	199
@@ -27835,6 +27848,7 @@ ice	Snow-Covered Mountain	379
 ice	Snow-Covered Plains	367
 ice	Snow-Covered Swamp	372
 ice	Snowblind	264
+ice	Snowfall	101
 ice	Soldevi Golem	338
 ice	Soldevi Machinist	102
 ice	Soldevi Simulacrum	339
@@ -32744,6 +32758,7 @@ ktk	Wooded Foothills	249
 ktk	Woolly Loxodon	158
 ktk	Zurgo Helmsmasher	214
 lcc	Admiral Beckett Brass	264
+lcc	Admiral Brass, Unsinkable	1
 lcc	Aetherize	142
 lcc	Akroma's Will	125
 lcc	Alchemist's Refuge	318
@@ -32772,7 +32787,10 @@ lcc	Bloodtracker	186
 lcc	Bojuka Bog	320
 lcc	Branching Evolution	234
 lcc	Breeches, Brazen Plunderer	217
+lcc	Broadside Bombardiers	86
+lcc	Bronzebeak Foragers	69
 lcc	Butcher of Malakir	187
+lcc	Bygone Marvels	89
 lcc	Canopy Vista	321
 lcc	Captain Lannery Storm	218
 lcc	Captivating Crew	219
@@ -32800,22 +32818,27 @@ lcc	Crossway Troublemakers	190
 lcc	Cruel Celebrant	267
 lcc	Crumbling Necropolis	326
 lcc	Cultivate	235
+lcc	Curious Altisaur	90
 lcc	Curse of the Swine	150
 lcc	Damn	191
 lcc	Daring Saboteur	151
 lcc	Deathgorge Scavenger	236
 lcc	Deeproot Elite	237
+lcc	Deeproot Historian	91
 lcc	Deeproot Waters	152
 lcc	Departed Deckhand	153
 lcc	Descendants' Path	238
 lcc	Desolate Lighthouse	327
 lcc	Dimir Signet	302
+lcc	Dinosaur Egg	92
 lcc	Dire Fleet Daredevil	223
 lcc	Dire Fleet Ravager	192
 lcc	Distant Melody	154
 lcc	Drana, Liberator of Malakir	193
 lcc	Drover of the Mighty	239
+lcc	Dusk Legion Sergeant	80
 lcc	Dusk Legion Zealot	194
+lcc	Elenda's Hierophant	71
 lcc	Elenda, the Dusk Rose	268
 lcc	Emperor Mihail II	155
 lcc	Etali, Primal Storm	224
@@ -32837,6 +32860,8 @@ lcc	Fiery Confluence	226
 lcc	Fist of Suns	113
 lcc	Foreboding Ruins	330
 lcc	Fortified Village	331
+lcc	Francisco, Fowl Marauder	49
+lcc	From the Rubble	72
 lcc	Frostboil Snarl	332
 lcc	Furycalm Snarl	333
 lcc	Game Trail	334
@@ -32845,6 +32870,7 @@ lcc	Generous Gift	128
 lcc	Ghost of Ramirez DePietro	157
 lcc	Glass-Cast Heart	199
 lcc	Growth Spiral	270
+lcc	Hakbal of the Surging Soul	3
 lcc	Hardened Scales	243
 lcc	Heirloom Blade	303
 lcc	Herald of Secret Streams	158
@@ -32852,6 +32878,7 @@ lcc	Herald's Horn	304
 lcc	Hinterland Harbor	336
 lcc	Hostage Taker	271
 lcc	Icon of Ancestry	305
+lcc	Illustrious Wanderglyph	9
 lcc	Indulgent Aristocrat	200
 lcc	Inspiring Call	244
 lcc	Isolated Chapel	337
@@ -32876,7 +32903,9 @@ lcc	Llanowar Reborn	341
 lcc	Majestic Heliopterus	131
 lcc	Malcolm, Keen-Eyed Navigator	161
 lcc	Marauding Raptor	228
+lcc	March of the Canonized	73
 lcc	Martyr of Dusk	132
+lcc	Master of Dark Rites	83
 lcc	Master of the Pearl Trident	162
 lcc	Mavren Fein, Dusk Apostle	133
 lcc	Memory	147
@@ -32902,6 +32931,7 @@ lcc	Orzhov Basilica	345
 lcc	Orzhov Signet	310
 lcc	Otepec Huntmaster	229
 lcc	Pact of the Serpent	206
+lcc	Pantlaza, Sun-Favored	4
 lcc	Path of Ancestry	346
 lcc	Path to Exile	134
 lcc	Patron of the Vein	207
@@ -32924,6 +32954,7 @@ lcc	Ranging Raptors	249
 lcc	Rapid Hybridization	166
 lcc	Ravenform	167
 lcc	Realmwalker	250
+lcc	Redemption Choir	74
 lcc	Reflections of Littjara	168
 lcc	Regal Behemoth	251
 lcc	Regisaur Alpha	286
@@ -32939,6 +32970,7 @@ lcc	Runic Armasaur	256
 lcc	Sage of Fables	169
 lcc	Sanctum Seeker	209
 lcc	Savage Stomp	257
+lcc	Scion of Calamity	93
 lcc	Seafloor Oracle	170
 lcc	Secluded Courtyard	350
 lcc	Shared Animosity	231
@@ -32947,12 +32979,15 @@ lcc	Shineshadow Snarl	351
 lcc	Simic Ascendancy	288
 lcc	Simic Growth Chamber	352
 lcc	Simic Signet	312
+lcc	Singer of Swift Rivers	98
 lcc	Siren Stormtamer	171
+lcc	Skeleton Crew	85
 lcc	Smoldering Marsh	353
 lcc	Sol Ring	313
 lcc	Sorin, Lord of Innistrad	289
 lcc	Spectral Sailor	172
 lcc	Stonybrook Banneret	173
+lcc	Storm Fleet Negotiator	78
 lcc	Strionic Resonator	116
 lcc	Sulfur Falls	354
 lcc	Sunken Hollow	355
@@ -32970,6 +33005,8 @@ lcc	Temple of Silence	358
 lcc	Temple of the False God	359
 lcc	Terramorphic Expanse	360
 lcc	Thassa, God of the Sea	176
+lcc	The Indomitable	43
+lcc	The Indomitable	75
 lcc	Thieving Skydiver	177
 lcc	Thought Vessel	118
 lcc	Thriving Bluff	361
@@ -32983,6 +33020,7 @@ lcc	Timestream Navigator	178
 lcc	Timothar, Baron of Bats	210
 lcc	Tishana, Voice of Thunder	291
 lcc	Topiary Stomper	261
+lcc	Topography Tracker	95
 lcc	Tributary Instructor	96
 lcc	Twilight Prophet	211
 lcc	Unclaimed Territory	366
@@ -33007,38 +33045,68 @@ lcc	Whispersilk Cloak	119
 lcc	Windbrisk Heights	370
 lcc	Windfall	180
 lcc	Worn Powerstone	120
+lcc	Wrathful Raptors	88
+lcc	Xavier Sal, Infested Captain	14
 lcc	Xenagos, God of Revels	295
+lcc	Xolatoyac, the Smiling Flood	8
 lcc	Yahenni, Undying Partisan	214
 lcc	Zacama, Primal Calamity	296
 lcc	Zara, Renegade Recruiter	297
 lcc	Zegana, Utopian Speaker	298
 lcc	Zetalpa, Primal Dawn	141
 lci	Abrade	131
+lci	Abuelo's Awakening	1
+lci	Abuelo's Awakening	353
 lci	Abuelo, Ancestral Echo	219
+lci	Abuelo, Ancestral Echo	297
 lci	Abyssal Gorestalker	87
+lci	Aclazotz, Deepest Betrayal	316
 lci	Aclazotz, Deepest Betrayal	88
 lci	Acolyte of Aclazotz	89
 lci	Acrobatic Leap	2
 lci	Adaptive Gemguard	3
+lci	Akal Pakal, First Among Equals	292
 lci	Akal Pakal, First Among Equals	44
 lci	Akawalli, the Seething Tower	220
+lci	Akawalli, the Seething Tower	298
 lci	Amalia Benavides Aguirre	221
+lci	Amalia Benavides Aguirre	299
 lci	Ancestors' Aid	132
 lci	Ancestral Reminiscence	45
 lci	Anim Pakal, Thousandth Moon	223
+lci	Anim Pakal, Thousandth Moon	300
+lci	Another Chance	90
+lci	Armored Kincaller	174
 lci	Attentive Sunscribe	4
+lci	Barracks of the Thousand	357
+lci	Barracks of the Thousand	39
 lci	Bartolome del Presidio	224
+lci	Bartolome del Presidio	301
+lci	Bartolome del Presidio	409
 lci	Basking Capybara	175
+lci	Bat Colony	5
 lci	Bedrock Tortoise	176
+lci	Bedrock Tortoise	378
 lci	Belligerent Yearling	133
+lci	Belligerent Yearling	320
 lci	Bitter Triumph	91
 lci	Bladewheel Chariot	36
+lci	Bloodletter of Aclazotz	336
 lci	Bloodletter of Aclazotz	92
 lci	Bloodthorn Flail	93
 lci	Bonehoard Dracosaur	134
+lci	Bonehoard Dracosaur	321
 lci	Brackish Blunder	46
+lci	Braided Net	360
+lci	Braided Net	47
+lci	Braided Quipu	360
+lci	Braided Quipu	47
+lci	Brass's Tunnel-Grinder	135
+lci	Brass's Tunnel-Grinder	373
 lci	Brazen Blademaster	136
 lci	Breeches, Eager Pillager	137
+lci	Breeches, Eager Pillager	294
+lci	Bringer of the Last Gift	337
 lci	Bringer of the Last Gift	94
 lci	Broodrage Mycoid	95
 lci	Buried Treasure	246
@@ -33046,14 +33114,24 @@ lci	Burning Sun Cavalry	138
 lci	Calamitous Cave-In	139
 lci	Canonized in Blood	96
 lci	Caparocti Sunborn	226
+lci	Caparocti Sunborn	302
 lci	Captain Storm, Cosmium Raider	227
+lci	Captain Storm, Cosmium Raider	303
 lci	Captivating Cave	268
 lci	Careening Mine Cart	247
 lci	Cartographer's Companion	248
 lci	Cavern Stomper	177
 lci	Cavern of Souls	269
+lci	Cavern of Souls	345
+lci	Cavern of Souls	410a
+lci	Cavern of Souls	410b
+lci	Cavern of Souls	410c
+lci	Cavern of Souls	410d
+lci	Cavern of Souls	410e
+lci	Cavern of Souls	410f
 lci	Cavernous Maw	270
 lci	Cenote Scout	178
+lci	Cenote Scout	408
 lci	Chart a Course	48
 lci	Child of the Volcano	140
 lci	Chimil, the Inner Sun	249
@@ -33065,9 +33143,12 @@ lci	Colossadactyl	180
 lci	Compass Gnome	250
 lci	Confounding Riddle	50
 lci	Consuming Sepulcher	128
+lci	Contested Game Ball	251
+lci	Corpses of the Lost	366
 lci	Corpses of the Lost	98
 lci	Cosmium Blast	7
 lci	Cosmium Confluence	181
+lci	Cosmium Confluence	379
 lci	Cosmium Kiln	6
 lci	Council of Echoes	51
 lci	Curator of Sun's Creation	141
@@ -33078,7 +33159,10 @@ lci	Deathcap Marionette	100
 lci	Deconstruction Hammer	9
 lci	Deep Goblin Skulltaker	101
 lci	Deep-Cavern Bat	102
+lci	Deep-Cavern Bat	406
 lci	Deepfathom Echo	228
+lci	Deepfathom Echo	385
+lci	Deeproot Pilgrimage	361
 lci	Deeproot Pilgrimage	52
 lci	Defossilize	103
 lci	Diamond Pick-Axe	143
@@ -33086,38 +33170,54 @@ lci	Didact Echo	53
 lci	Digsite Conservator	252
 lci	Dinotomaton	144
 lci	Dire Blunderbuss	145
+lci	Dire Blunderbuss	374
 lci	Dire Flail	145
+lci	Dire Flail	374
 lci	Disruptor Wanderglyph	253
+lci	Disturbed Slumber	182
 lci	Dowsing Device	146
+lci	Dread Osseosaur	129
 lci	Dreadmaw's Ire	147
 lci	Dusk Rose Reliquary	10
 lci	Earthshaker Dreadmaw	183
+lci	Earthshaker Dreadmaw	325
+lci	Eaten by Piranhas	54
 lci	Echo of Dusk	104
 lci	Echoing Deeps	271
+lci	Echoing Deeps	346
 lci	Enterprising Scallywag	148
 lci	Envoy of Okinec Ahau	11
 lci	Etali's Favor	149
 lci	Explorer's Cache	184
+lci	Fabrication Foundry	12
+lci	Fabrication Foundry	354
 lci	Family Reunion	13
 lci	Fanatical Offering	105
 lci	Forest	291
 lci	Forest	401
+lci	Forest	402
 lci	Forgotten Monument	272
 lci	Frilled Cave-Wurm	57
 lci	Fungal Fortitude	106
 lci	Gargantuan Leech	107
 lci	Geode Grotto	146
 lci	Geological Appraiser	150
+lci	Geological Appraiser	407
 lci	Get Lost	14
+lci	Get Lost	333
 lci	Ghalta, Stampede Tyrant	185
+lci	Ghalta, Stampede Tyrant	326
 lci	Gishath, Sun's Avatar	229
+lci	Gishath, Sun's Avatar	330
 lci	Glimpse the Core	186
 lci	Glorifier of Suffering	15
 lci	Glowcap Lantern	187
 lci	Goblin Tomb Raider	151
 lci	Goldfury Strider	152
+lci	Grasping Shadows	108
 lci	Greedy Freebooter	109
 lci	Growing Rites of Itlimoc	188
+lci	Growing Rites of Itlimoc	380
 lci	Guardian of the Great Door	16
 lci	Guidestone Compass	62
 lci	Helping Hand	17
@@ -33128,41 +33228,72 @@ lci	Hidden Necropolis	275
 lci	Hidden Nursery	276
 lci	Hidden Volcano	277
 lci	Hit the Mother Lode	153
+lci	Hit the Mother Lode	375
+lci	Hit the Mother Lode	404
 lci	Hotfoot Gnome	154
 lci	Hoverstone Pilgrim	254
 lci	Huatli's Final Strike	190
 lci	Huatli, Poet of Unity	189
+lci	Huatli, Poet of Unity	296
+lci	Huatli, Poet of Unity	339
 lci	Hulking Raptor	191
+lci	Hulking Raptor	327
 lci	Hunter's Blowgun	255
 lci	Hurl into History	59
 lci	Iceberg Titan	60
 lci	Idol of the Deep King	155
+lci	In the Presence of Ages	192
 lci	Inti, Seneschal of the Sun	156
+lci	Inti, Seneschal of the Sun	295
+lci	Intrepid Paleontologist	193
+lci	Intrepid Paleontologist	381
 lci	Inverted Iceberg	60
 lci	Ironpaw Aspirant	18
 lci	Island	288
 lci	Island	395
+lci	Island	396
 lci	Itlimoc, Cradle of the Sun	188
+lci	Itlimoc, Cradle of the Sun	380
 lci	Itzquinth, Firstborn of Gishath	230
+lci	Itzquinth, Firstborn of Gishath	331
 lci	Ixalli's Lorekeeper	194
+lci	Jade Seedstones	195
+lci	Jadeheart Attendant	195
 lci	Jadelight Spelunker	196
+lci	Jadelight Spelunker	382
+lci	Jadelight Spelunker	403
+lci	Join the Dead	110
 lci	Kaslem's Stonetree	197
 lci	Kaslem's Strider	197
 lci	Kellan, Daring Traveler	231
+lci	Kellan, Daring Traveler	341
 lci	Kinjalli's Dawnrunner	19
+lci	Kitesail Larcenist	364
+lci	Kitesail Larcenist	61
 lci	Kutzil's Flanker	20
+lci	Kutzil's Flanker	355
+lci	Kutzil, Malamet Exemplar	232
+lci	Kutzil, Malamet Exemplar	304
+lci	Locus of Enlightenment	362
+lci	Locus of Enlightenment	55
 lci	Lodestone Needle	62
+lci	Magmatic Galleon	157
+lci	Magmatic Galleon	376
+lci	Malamet Battle Glyph	198
 lci	Malamet Brawler	199
 lci	Malamet Scythe	200
 lci	Malamet Veteran	201
 lci	Malamet War Scribe	21
+lci	Malcolm, Alluring Scoundrel	293
 lci	Malcolm, Alluring Scoundrel	63
 lci	Malicious Eclipse	111
 lci	Marauding Brinefang	64
+lci	Market Gnome	22
 lci	Master's Guide-Mural	233
 lci	Master's Manufactory	233
 lci	Mastercraft Raptor	164
 lci	Matzalantli, the Great Door	256
+lci	Matzalantli, the Great Door	387
 lci	Mephitic Draught	112
 lci	Merfolk Cave-Diver	65
 lci	Might of the Ancestors	23
@@ -33170,14 +33301,23 @@ lci	Miner's Guidewing	24
 lci	Mineshaft Spider	202
 lci	Mischievous Pup	25
 lci	Molten Collapse	234
+lci	Molten Collapse	342
 lci	Mountain	290
 lci	Mountain	399
+lci	Mountain	400
 lci	Mycoid Maze	217
 lci	Nicanzil, Current Conductor	236
+lci	Nicanzil, Current Conductor	306
 lci	Nurturing Bristleback	203
+lci	Oaken Siren	66
 lci	Ojer Axonil, Deepest Might	158
+lci	Ojer Axonil, Deepest Might	317
 lci	Ojer Kaslem, Deepest Growth	204
+lci	Ojer Kaslem, Deepest Growth	318
+lci	Ojer Pakpatiq, Deepest Epoch	315
+lci	Ojer Pakpatiq, Deepest Epoch	67
 lci	Ojer Taq, Deepest Foundation	26
+lci	Ojer Taq, Deepest Foundation	314
 lci	Oltec Archaeologists	27
 lci	Oltec Cloud Guard	28
 lci	Orazca Puzzle-Door	68
@@ -33186,45 +33326,76 @@ lci	Oteclan Levitator	29
 lci	Out of Air	69
 lci	Over the Edge	205
 lci	Palani's Hatcher	237
+lci	Palani's Hatcher	332
 lci	Panicked Altisaur	159
 lci	Pathfinding Axejaw	206
 lci	Petrify	30
+lci	Pirate Hat	70
+lci	Pit of Offerings	278
 lci	Plains	287
 lci	Plains	393
+lci	Plains	394
 lci	Plundering Pirate	160
 lci	Poetic Ingenuity	161
+lci	Poetic Ingenuity	377
 lci	Poison Dart Frog	207
+lci	Preacher of the Schism	113
+lci	Preacher of the Schism	367
 lci	Primordial Gnawer	114
 lci	Promising Vein	279
 lci	Pugnacious Hammerskull	208
+lci	Pugnacious Hammerskull	328
+lci	Queen's Bay Paladin	115
+lci	Queen's Bay Paladin	368
 lci	Quicksand Whirlpool	31
 lci	Quintorius Kand	238
+lci	Quintorius Kand	307
+lci	Quintorius Kand	352
 lci	Rampaging Ceratops	162
+lci	Rampaging Ceratops	322
 lci	Rampaging Spiketail	116
 lci	Ray of Ruin	117
+lci	Relic's Roar	71
 lci	Resplendent Angel	32
+lci	Resplendent Angel	334
 lci	Restless Anchorage	280
+lci	Restless Anchorage	347
 lci	Restless Prairie	281
+lci	Restless Prairie	348
 lci	Restless Reef	282
+lci	Restless Reef	349
 lci	Restless Ridgeline	283
+lci	Restless Ridgeline	350
 lci	Restless Vents	284
+lci	Restless Vents	351
 lci	River Herald Guide	209
 lci	River Herald Scout	72
+lci	Roaming Throne	258
+lci	Roaming Throne	344
 lci	Roar of the Fifth People	189
+lci	Roar of the Fifth People	296
+lci	Roar of the Fifth People	339
 lci	Ruin-Lurker Bat	33
 lci	Rumbling Rockslide	163
 lci	Runaway Boulder	259
 lci	Sage of Days	73
 lci	Saheeli's Lattice	164
 lci	Saheeli, the Sun's Brilliance	239
+lci	Saheeli, the Sun's Brilliance	308
+lci	Sandswirl Wanderglyph	358
+lci	Sandswirl Wanderglyph	41
 lci	Sanguine Evangelist	34
+lci	Sanguine Evangelist	356
 lci	Scampering Surveyor	260
 lci	Screaming Phantom	118
 lci	Scytheclaw Raptor	165
+lci	Scytheclaw Raptor	323
 lci	Seeker of Sunlight	210
 lci	Seismic Monstrosaur	166
 lci	Self-Reflection	74
 lci	Sentinel of the Nameless City	211
+lci	Sentinel of the Nameless City	383
+lci	Shadows' Lair	108
 lci	Shipwreck Sentry	75
 lci	Sinuous Benthisaur	76
 lci	Skullcap Snail	119
@@ -33233,59 +33404,116 @@ lci	Song of Stupefaction	77
 lci	Sorcerous Spyglass	261
 lci	Soulcoil Viper	120
 lci	Souls of the Lost	121
+lci	Souls of the Lost	369
 lci	Sovereign Okinec Ahau	240
+lci	Sovereign Okinec Ahau	309
 lci	Sovereign's Macuahuitl	155
 lci	Spelunking	213
 lci	Spring-Loaded Sawblades	36
+lci	Spyglass Siren	405
 lci	Spyglass Siren	78
 lci	Squirming Emergence	241
+lci	Squirming Emergence	386
 lci	Staggering Size	214
 lci	Stalactite Stalker	122
+lci	Stalactite Stalker	370
 lci	Starving Revenant	123
+lci	Starving Revenant	338
 lci	Staunch Crewmate	79
 lci	Stinging Cave Crawler	124
+lci	Subterranean Schooner	365
+lci	Subterranean Schooner	80
 lci	Sunbird Effigy	262
 lci	Sunbird Standard	262
 lci	Sunfire Torch	167
+lci	Sunken Citadel	285
+lci	Sunken Citadel	392
 lci	Sunshot Militia	168
 lci	Swamp	289
 lci	Swamp	397
+lci	Swamp	398
+lci	Swashbuckler's Whip	263
 lci	Synapse Necromage	125
+lci	Tarrian's Journal	126
+lci	Tarrian's Journal	371
 lci	Tarrian's Soulcleaver	264
+lci	Tarrian's Soulcleaver	389
 lci	Tectonic Hazard	169
+lci	Tecutlan, the Searing Rift	135
+lci	Tecutlan, the Searing Rift	373
 lci	Temple of Civilization	26
+lci	Temple of Civilization	314
 lci	Temple of Cultivation	204
+lci	Temple of Cultivation	318
+lci	Temple of Cyclical Time	315
+lci	Temple of Cyclical Time	67
 lci	Temple of Power	158
+lci	Temple of Power	317
+lci	Temple of the Dead	316
 lci	Temple of the Dead	88
 lci	Tendril of the Mycotyrant	215
 lci	Terror Tide	127
+lci	Terror Tide	372
 lci	The Ancient One	222
+lci	The Ancient One	319
 lci	The Belligerent	225
+lci	The Belligerent	384
 lci	The Core	256
+lci	The Core	387
+lci	The Enigma Jewel	362
+lci	The Enigma Jewel	55
+lci	The Everflowing Well	363
+lci	The Everflowing Well	56
 lci	The Grim Captain	266
+lci	The Grim Captain	313
 lci	The Millennium Calendar	257
+lci	The Millennium Calendar	388
 lci	The Mycotyrant	235
+lci	The Mycotyrant	305
+lci	The Myriad Pools	363
+lci	The Myriad Pools	56
 lci	The Skullspore Nexus	212
+lci	The Skullspore Nexus	340
+lci	The Tomb of Aclazotz	126
+lci	The Tomb of Aclazotz	371
 lci	Thousand Moons Crackshot	37
 lci	Thousand Moons Infantry	38
+lci	Thousand Moons Smithy	357
+lci	Thousand Moons Smithy	39
 lci	Thrashing Brontodon	216
+lci	Thrashing Brontodon	329
 lci	Threefold Thunderhulk	265
+lci	Threefold Thunderhulk	390
 lci	Throne of the Grim Captain	266
+lci	Throne of the Grim Captain	313
 lci	Tinker's Tote	40
+lci	Tishana's Tidebinder	335
+lci	Tishana's Tidebinder	81
 lci	Tithing Blade	128
 lci	Treasure Cove	267
+lci	Treasure Cove	391
 lci	Treasure Map	267
+lci	Treasure Map	391
 lci	Triumphant Chomp	170
 lci	Trumpeting Carnosaur	171
+lci	Trumpeting Carnosaur	324
 lci	Twists and Turns	217
 lci	Uchbenbak, the Great Mistake	242
+lci	Uchbenbak, the Great Mistake	310
 lci	Unlucky Drop	82
+lci	Unstable Glyphbridge	358
+lci	Unstable Glyphbridge	41
 lci	Vanguard of the Rose	42
+lci	Visage of Dread	129
 lci	Vito's Inquisitor	130
 lci	Vito, Fanatic of Aclazotz	243
+lci	Vito, Fanatic of Aclazotz	311
+lci	Volatile Fault	286
 lci	Volatile Wanderglyph	172
 lci	Wail of the Forgotten	244
+lci	Wail of the Forgotten	343
 lci	Walk with the Ancestors	218
+lci	Warden of the Inner Sky	359
 lci	Warden of the Inner Sky	43
 lci	Waterlogged Hulk	83
 lci	Watertight Gondola	83
@@ -33293,6 +33521,7 @@ lci	Waterwind Scout	84
 lci	Waylaying Pirates	85
 lci	Zoetic Glyph	86
 lci	Zoyowa Lava-Tongue	245
+lci	Zoyowa Lava-Tongue	312
 lci	Zoyowa's Justice	173
 lea	Air Elemental	46
 lea	Ancestral Recall	47
@@ -34629,8 +34858,10 @@ lrw	Zephyr Net	98
 ltc	Abyssal Persecutor	525
 ltc	Access Tunnel	294
 ltc	Ancient Tomb	357
+ltc	Anduril, Narsil Reforged	491
 ltc	Anger	210
 ltc	Anguished Unmaking	265
+ltc	Aragorn, Hornburg Hero	492
 ltc	Aragorn, King of Gondor	5
 ltc	Arbor Elf	232
 ltc	Arboreal Alliance	497
@@ -34723,6 +34954,7 @@ ltc	Fealty to the Realm	21
 ltc	Feasting Hobbit	37
 ltc	Feed the Swarm	200
 ltc	Fell Beast of Mordor	513
+ltc	Fell Beast's Shriek	508
 ltc	Fell the Mighty	167
 ltc	Field of Ruin	308
 ltc	Field-Tested Frying Pan	11
@@ -34741,6 +34973,7 @@ ltc	Fumigate	170
 ltc	Furycalm Snarl	313
 ltc	Galadhrim Ambush	38
 ltc	Galadhrim Brigade	502
+ltc	Galadriel's Dismissal	500
 ltc	Galadriel, Elven-Queen	3
 ltc	Galadriel, Light of Valinor	498
 ltc	Gandalf, Westward Voyager	6
@@ -34750,6 +34983,7 @@ ltc	Ghost Quarter	314
 ltc	Gilded Goose	246
 ltc	Gilraen, Dunedain Protector	13
 ltc	Gimli of the Glittering Caves	32
+ltc	Gimli's Reckless Might	494
 ltc	Glacial Fortress	315
 ltc	Go for the Throat	201
 ltc	Goblin Cratermaker	218
@@ -34770,6 +35004,7 @@ ltc	Heirloom Blade	279
 ltc	Herald's Horn	280
 ltc	Heroic Intervention	249
 ltc	Hinterland Harbor	317
+ltc	Hithlain Rope	76
 ltc	Homeward Path	365
 ltc	Horizon Canopy	366
 ltc	Hornet Queen	250
@@ -34779,6 +35014,7 @@ ltc	In the Darkness Bind Them	58
 ltc	Increasing Devotion	171
 ltc	Inferno Titan	223
 ltc	Inscription of Abundance	251
+ltc	Isengard Unleashed	495
 ltc	Ishkanah, Grafwidow	516
 ltc	Isolated Chapel	318
 ltc	Karakas	367
@@ -34803,11 +35039,14 @@ ltc	Mentor of the Meek	173
 ltc	Merciless Executioner	204
 ltc	Merry, Warden of Isengard	61
 ltc	Minamo, School at Water's Edge	369
+ltc	Minas Morgul, Dark Fortress	514
 ltc	Mind Stone	282
 ltc	Mirkwood Elk	41
 ltc	Mirkwood Trapper	62
+ltc	Mists of Lorien	501
 ltc	Model of Unity	78
 ltc	Monstrosity of the Lake	22
+ltc	Mordor on the March	512
 ltc	Moria Scavenger	63
 ltc	Mortify	269
 ltc	Motivated Pony	42
@@ -34815,12 +35054,14 @@ ltc	Mouth of Ronom	370
 ltc	Murmuring Bosk	320
 ltc	Myriad Landscape	534
 ltc	Mystic Confluence	193
+ltc	Nazgul Battle-Mace	510
 ltc	Necroblossom Snarl	321
 ltc	Night's Whisper	205
 ltc	Notion Thief	270
 ltc	Oath of Eorl	64
 ltc	Oboro, Palace in the Clouds	371
 ltc	Of Herbs and Stewed Rabbit	17
+ltc	Olorin's Searing Light	503
 ltc	Opt	194
 ltc	Orchard Strider	253
 ltc	Orcish Siegemaster	33
@@ -34841,6 +35082,8 @@ ltc	Prize Pig	43
 ltc	Prosperous Innkeeper	256
 ltc	Radagast, Wizard of Wilds	66
 ltc	Raise the Palisade	23
+ltc	Rally the Galadhrim	499
+ltc	Rammas Echor, Ancient Shield	505
 ltc	Rampaging War Mammoth	34
 ltc	Rampant Growth	257
 ltc	Rapacious Guest	28
@@ -34855,6 +35098,7 @@ ltc	Riders of Rohan	67
 ltc	Rings of Brighthearth	352
 ltc	River Kelpie	524
 ltc	Rogue's Passage	326
+ltc	Rohirrim Chargers	496
 ltc	Sail into the West	68
 ltc	Sam, Loyal Attendant	7
 ltc	Sandsteppe Citadel	327
@@ -34880,6 +35124,7 @@ ltc	Siege-Gang Commander	228
 ltc	Smoldering Marsh	332
 ltc	Sol Ring	284
 ltc	Song of Earendil	69
+ltc	Sorcerous Squall	504
 ltc	Soul's Attendant	520
 ltc	Stonehewer Giant	521
 ltc	Subjugate the Hobbits	24
@@ -34940,6 +35185,7 @@ ltc	Whispersilk Cloak	292
 ltc	Wind-Scarred Crag	344
 ltc	Windbrisk Heights	345
 ltc	Windswift Slice	45
+ltc	Witch-king, Sky Scourge	511
 ltc	Wood Elves	263
 ltc	Woodfall Primus	264
 ltc	Woodland Cemetery	346
@@ -42856,6 +43102,7 @@ mir	Azimaet Drake	53
 mir	Bad River	324
 mir	Barbed Foliage	207
 mir	Barbed-Back Wurm	105
+mir	Barreling Attack	157
 mir	Basalt Golem	294
 mir	Bay Falcon	54
 mir	Bazaar of Wonders	55
@@ -42887,6 +43134,7 @@ mir	Charcoal Diamond	296
 mir	Chariot of the Sun	297
 mir	Choking Sands	113
 mir	Cinder Cloud	165
+mir	Circle of Despair	259
 mir	Civic Guildmage	7
 mir	Cloak of Invisibility	58
 mir	Consuming Ferocity	166
@@ -42902,6 +43150,7 @@ mir	Daring Apprentice	60
 mir	Dark Banishing	115
 mir	Dark Ritual	116
 mir	Dazzling Beauty	8
+mir	Decomposition	212
 mir	Delirium	260
 mir	Dirtwater Wraith	117
 mir	Disempower	9
@@ -42971,6 +43220,7 @@ mir	Hammer of Bogardan	181
 mir	Harbinger of Night	128
 mir	Harbor Guardian	266
 mir	Harmattan Efreet	69
+mir	Haunting Apparition	267
 mir	Hazerider Drake	268
 mir	Healing Salve	20
 mir	Hivis of the Scale	182
@@ -42986,6 +43236,7 @@ mir	Island	336
 mir	Island	337
 mir	Island	338
 mir	Ivory Charm	23
+mir	Jabari's Influence	24
 mir	Jolrael's Centaur	222
 mir	Jolt	70
 mir	Jungle Patrol	223
@@ -43005,6 +43256,8 @@ mir	Locust Swarm	226
 mir	Lure of Prey	227
 mir	Malignant Growth	272
 mir	Mana Prism	308
+mir	Mangara's Blessing	25
+mir	Mangara's Equity	26
 mir	Mangara's Tome	309
 mir	Marble Diamond	310
 mir	Maro	228
@@ -43014,6 +43267,7 @@ mir	Memory Lapse	74
 mir	Merfolk Raiders	75
 mir	Merfolk Seer	76
 mir	Mind Harness	78
+mir	Mindbender Spores	229
 mir	Mire Shade	131
 mir	Misers' Cage	311
 mir	Mist Dragon	79
@@ -43078,6 +43332,7 @@ mir	Rocky Tar Pit	329
 mir	Roots of Life	237
 mir	Sabertooth Cobra	238
 mir	Sacred Mesa	37
+mir	Sand Golem	318
 mir	Sandbar Crocodile	88
 mir	Sandstorm	239
 mir	Sapphire Charm	89
@@ -43118,6 +43373,7 @@ mir	Swamp	339
 mir	Swamp	340
 mir	Swamp	341
 mir	Swamp	342
+mir	Tainted Specter	148
 mir	Talruum Minotaur	196
 mir	Taniwha	95
 mir	Teeka's Dragon	320
@@ -43169,6 +43425,31 @@ mir	Zhalfirin Knight	50
 mir	Zirilan of the Claw	204
 mir	Zombie Mob	153
 mir	Zuberi, Golden Feather	51
+mkm	Alquist Proft, Master Sleuth	185
+mkm	Aurelia, the Law Above	188
+mkm	Benthic Criminologists	40
+mkm	Burden of Proof	42
+mkm	Curious Cadaver	194
+mkm	Deduce	52
+mkm	Demand Answers	122
+mkm	Fanatical Strength	159
+mkm	Forest	276
+mkm	Gleaming Geardrake	205
+mkm	Hotshot Investigators	60
+mkm	Island	273
+mkm	Lead Pipe	90
+mkm	Lightning Helix	218
+mkm	Magnifying Glass	255
+mkm	Meddling Youths	219
+mkm	Mountain	275
+mkm	Not on My Watch	28
+mkm	Novice Inspector	29
+mkm	Out Cold	66
+mkm	Plains	272
+mkm	Shock	144
+mkm	Swamp	274
+mkm	Topiary Panther	179
+mkm	Wojek Investigator	36
 mm2	Aethersnipe	39
 mm2	Agony Warp	170
 mm2	Air Servant	40
@@ -51087,6 +51368,7 @@ pip	Radstorm	37
 pip	Sol Ring	359
 pip	Swamp	321
 pip	V.A.T.S.	50
+pip	Vault 101: Birthday Party	28
 pip	Wasteland	361
 pisd	Devil's Play	140
 pisd	Diregraf Ghoul	97
@@ -55791,6 +56073,7 @@ rex	Command Tower	26
 rex	Command Tower	26b
 rex	Forest	25
 rex	Forest	25b
+rex	Hunting Velociraptor	4
 rex	Island	22
 rex	Island	22b
 rex	Mountain	24
@@ -56881,6 +57164,483 @@ rtr	Wayfaring Temple	209
 rtr	Wild Beastmaster	139
 rtr	Worldspine Wurm	140
 rtr	Zanikev Locust	84
+rvr	Act of Treason	99
+rvr	Aetherize	448
+rvr	Aetherplasm	34
+rvr	Angelic Exaltation	2
+rvr	Arboreal Grazer	131
+rvr	Arboreal Grazer	343
+rvr	Arclight Phoenix	100
+rvr	Arclight Phoenix	331
+rvr	Arclight Phoenix	427
+rvr	Armory Guard	3
+rvr	Arrester's Zeal	4
+rvr	Assemble	248
+rvr	Assemble the Legion	163
+rvr	Assure	248
+rvr	Aurelia, Exemplar of Justice	164
+rvr	Aurelia, Exemplar of Justice	356
+rvr	Aurelia, Exemplar of Justice	436
+rvr	Azorius Arrester	5
+rvr	Azorius Guildgate	272
+rvr	Azorius Guildgate	396
+rvr	Azorius Guildmage	165
+rvr	Azorius Justiciar	6
+rvr	Azorius Signet	250
+rvr	Balustrade Spy	66
+rvr	Band Together	132
+rvr	Basilica Guards	7
+rvr	Bedazzle	244
+rvr	Bedeck	244
+rvr	Birds of Paradise	133
+rvr	Birds of Paradise	344
+rvr	Birds of Paradise	432
+rvr	Blade Juggler	67
+rvr	Bladebrand	68
+rvr	Blazing Archon	302
+rvr	Blazing Archon	8
+rvr	Blind Hunter	166
+rvr	Blind Obedience	303
+rvr	Blind Obedience	9
+rvr	Blood Crypt	273
+rvr	Blood Crypt	292
+rvr	Blood Crypt	397
+rvr	Bloodfray Giant	101
+rvr	Bomber Corps	102
+rvr	Borborygmos Enraged	167
+rvr	Borborygmos Enraged	357
+rvr	Boros Elite	10
+rvr	Boros Guildgate	274
+rvr	Boros Guildgate	398
+rvr	Boros Guildmage	168
+rvr	Boros Signet	251
+rvr	Bottled Cloister	252
+rvr	Bottled Cloister	389
+rvr	Breeding Pool	275
+rvr	Breeding Pool	293
+rvr	Breeding Pool	399
+rvr	Bruvac the Grandiloquent	309
+rvr	Bruvac the Grandiloquent	35
+rvr	Bruvac the Grandiloquent	418
+rvr	Bulwark Giant	11
+rvr	Burglar Rat	69
+rvr	Burn Bright	103
+rvr	Burning Prophet	104
+rvr	Burning-Tree Vandal	105
+rvr	Call of the Conclave	169
+rvr	Call of the Conclave	358
+rvr	Carom	12
+rvr	Cartel Aristocrat	170
+rvr	Cartel Aristocrat	359
+rvr	Cerulean Sphinx	36
+rvr	Chord of Calling	134
+rvr	Chord of Calling	345
+rvr	Chromatic Lantern	253
+rvr	Chromatic Lantern	390
+rvr	Chromatic Lantern	442
+rvr	Cindervines	171
+rvr	Cindervines	360
+rvr	Civic Saber	254
+rvr	Cloudfin Raptor	310
+rvr	Cloudfin Raptor	37
+rvr	Cloudstone Curio	255
+rvr	Cloudstone Curio	391
+rvr	Cloudstone Curio	443
+rvr	Coiling Oracle	172
+rvr	Coiling Oracle	361
+rvr	Compulsive Research	311
+rvr	Compulsive Research	38
+rvr	Conclave Cavalier	173
+rvr	Conclave Equenaut	13
+rvr	Concoct	242
+rvr	Condemn	14
+rvr	Condemn	304
+rvr	Connive	242
+rvr	Copy Enchantment	312
+rvr	Copy Enchantment	39
+rvr	Crackling Drake	174
+rvr	Crackling Drake	362
+rvr	Creeping Chill	453
+rvr	Crocanura	135
+rvr	Crypt Ghast	322
+rvr	Crypt Ghast	423
+rvr	Crypt Ghast	70
+rvr	Cyclonic Rift	313
+rvr	Cyclonic Rift	40
+rvr	Cyclonic Rift	419
+rvr	Dark Confidant	323
+rvr	Dark Confidant	71
+rvr	Darkblast	454
+rvr	Deathrite Shaman	175
+rvr	Deathrite Shaman	363
+rvr	Debt to the Deathless	176
+rvr	Debt to the Deathless	364
+rvr	Debtors' Transport	72
+rvr	Demolish	106
+rvr	Demonfire	107
+rvr	Deputy of Acquittals	177
+rvr	Devouring Light	15
+rvr	Devouring Light	305
+rvr	Dimir Guildgate	276
+rvr	Dimir Guildgate	400
+rvr	Dimir Guildmage	178
+rvr	Dimir House Guard	324
+rvr	Dimir House Guard	73
+rvr	Dimir Signet	256
+rvr	Disembowel	74
+rvr	Divine Visitation	16
+rvr	Divine Visitation	306
+rvr	Divine Visitation	416
+rvr	Dogpile	108
+rvr	Domri Rade	179
+rvr	Domri Rade	444
+rvr	Downsize	41
+rvr	Dreadbore	180
+rvr	Dreadbore	365
+rvr	Dreadmalkin	75
+rvr	Drift of Phantasms	314
+rvr	Drift of Phantasms	42
+rvr	Drudge Beetle	136
+rvr	Enter the Infinite	449
+rvr	Expansion	243
+rvr	Experiment One	137
+rvr	Experiment One	346
+rvr	Explosion	243
+rvr	Eyes Everywhere	43
+rvr	Eyes in the Skies	17
+rvr	Faith's Fetters	18
+rvr	Faith's Fetters	307
+rvr	Farseek	138
+rvr	Farseek	347
+rvr	Fblthp, the Lost	420
+rvr	Fblthp, the Lost	44
+rvr	Finality	245
+rvr	Find	245
+rvr	Fists of Ironwood	139
+rvr	Footlight Fiend	181
+rvr	Forced Adaptation	140
+rvr	Forced Landing	141
+rvr	Fresh-Faced Recruit	182
+rvr	Frilled Mystic	183
+rvr	Frilled Mystic	366
+rvr	Fungal Rebirth	142
+rvr	Gate Colossus	257
+rvr	Gather Courage	143
+rvr	Ghostway	19
+rvr	Ghostway	308
+rvr	Gideon Blackblade	20
+rvr	Gigantoplasm	450
+rvr	Glowspore Shaman	184
+rvr	Gobhobbler Rats	185
+rvr	Goblin Electromancer	186
+rvr	Goblin Electromancer	367
+rvr	Godless Shrine	277
+rvr	Godless Shrine	294
+rvr	Godless Shrine	401
+rvr	Golgari Findbroker	187
+rvr	Golgari Grave-Troll	144
+rvr	Golgari Grave-Troll	348
+rvr	Golgari Guildgate	278
+rvr	Golgari Guildgate	402
+rvr	Golgari Guildmage	188
+rvr	Golgari Signet	258
+rvr	Golgari Thug	325
+rvr	Golgari Thug	76
+rvr	Greater Forgeling	109
+rvr	Greater Mossdog	145
+rvr	Gruul Guildgate	279
+rvr	Gruul Guildgate	403
+rvr	Gruul Guildmage	189
+rvr	Gruul Signet	259
+rvr	Guardian Project	146
+rvr	Guardian Project	349
+rvr	Guardian Project	433
+rvr	Guttersnipe	110
+rvr	Guttersnipe	332
+rvr	Hallowed Fountain	280
+rvr	Hallowed Fountain	295
+rvr	Hallowed Fountain	404
+rvr	Helium Squirter	45
+rvr	Hellkite Tyrant	111
+rvr	Hellkite Tyrant	333
+rvr	Hellkite Tyrant	428
+rvr	Homing Lightning	112
+rvr	Horncaller's Chant	147
+rvr	Ilharg, the Raze-Boar	113
+rvr	Ilharg, the Raze-Boar	334
+rvr	Ilharg, the Raze-Boar	429
+rvr	Ill-Gotten Inheritance	77
+rvr	Illusionist's Bracers	260
+rvr	Illusionist's Bracers	392
+rvr	Infernal Tutor	326
+rvr	Infernal Tutor	78
+rvr	Izzet Charm	190
+rvr	Izzet Charm	368
+rvr	Izzet Guildgate	281
+rvr	Izzet Guildgate	405
+rvr	Izzet Guildmage	191
+rvr	Izzet Signet	261
+rvr	Judge's Familiar	192
+rvr	Junktroller	262
+rvr	Karlov of the Ghost Council	193
+rvr	Karlov of the Ghost Council	369
+rvr	Karlov of the Ghost Council	437
+rvr	Karn's Bastion	464
+rvr	Karn, the Great Creator	1
+rvr	Kasmina's Transmutation	46
+rvr	Kaya, Orzhov Usurper	194
+rvr	Keening Apparition	21
+rvr	Keymaster Rogue	47
+rvr	Kiora's Dambreaker	48
+rvr	Krenko's Command	115
+rvr	Krenko's Command	336
+rvr	Krenko, Mob Boss	114
+rvr	Krenko, Mob Boss	335
+rvr	Krenko, Mob Boss	430
+rvr	Last Gasp	79
+rvr	Lavinia, Azorius Renegade	195
+rvr	Lavinia, Azorius Renegade	370
+rvr	Lazav, the Multifarious	196
+rvr	Lazav, the Multifarious	371
+rvr	Leapfrog	49
+rvr	Legion Warboss	116
+rvr	Legion Warboss	337
+rvr	Life from the Loam	148
+rvr	Life from the Loam	350
+rvr	Life from the Loam	434
+rvr	Light Up the Stage	117
+rvr	Light Up the Stage	338
+rvr	Lightning Helix	197
+rvr	Lightning Helix	372
+rvr	Liliana, Dreadhorde General	80
+rvr	Loaming Shaman	149
+rvr	Loaming Shaman	351
+rvr	Lord of the Void	327
+rvr	Lord of the Void	424
+rvr	Lord of the Void	81
+rvr	Macabre Waltz	82
+rvr	Magewright's Stone	462
+rvr	Makeshift Battalion	22
+rvr	Massacre Girl	328
+rvr	Massacre Girl	425
+rvr	Massacre Girl	83
+rvr	Master of Cruelties	198
+rvr	Master of Cruelties	373
+rvr	Mausoleum Turnkey	84
+rvr	Mayhem Devil	199
+rvr	Mayhem Devil	374
+rvr	Maze's End	465
+rvr	Mephitic Vapors	85
+rvr	Merfolk of the Depths	200
+rvr	Midnight Reaper	86
+rvr	Mindleech Mass	201
+rvr	Mindleech Mass	375
+rvr	Ministrant of Obligation	23
+rvr	Mistral Charger	24
+rvr	Mizzix's Mastery	118
+rvr	Mizzix's Mastery	339
+rvr	Moldervine Cloak	150
+rvr	Moldervine Cloak	352
+rvr	Moroii	202
+rvr	Mortus Strider	203
+rvr	Mourning Thrull	204
+rvr	Muddle the Mixture	315
+rvr	Muddle the Mixture	50
+rvr	Mugging	119
+rvr	Murmuring Mystic	51
+rvr	Narcomoeba	451
+rvr	Nicol Bolas, Dragon-God	205
+rvr	Nightveil Predator	206
+rvr	Nightveil Sprite	52
+rvr	Niv-Mizzet Reborn	459
+rvr	Niv-Mizzet, Parun	207
+rvr	Niv-Mizzet, Parun	376
+rvr	Niv-Mizzet, Parun	438
+rvr	Niv-Mizzet, the Firemind	467
+rvr	Open the Gates	151
+rvr	Orzhov Enforcer	87
+rvr	Orzhov Euthanist	88
+rvr	Orzhov Guildgate	282
+rvr	Orzhov Guildgate	406
+rvr	Orzhov Guildmage	208
+rvr	Orzhov Signet	263
+rvr	Overgrown Tomb	283
+rvr	Overgrown Tomb	296
+rvr	Overgrown Tomb	407
+rvr	Overwhelm	152
+rvr	Pack Rat	426
+rvr	Pack Rat	455
+rvr	Pariah's Shield	264
+rvr	Pariah's Shield	393
+rvr	Perilous Forays	457
+rvr	Persistent Petitioners	316
+rvr	Persistent Petitioners	53
+rvr	Petrahydrox	209
+rvr	Phytohydra	210
+rvr	Pithing Needle	463
+rvr	Plaguecrafter	89
+rvr	Priest of Forgotten Gods	90
+rvr	Prime Speaker Zegana	211
+rvr	Prime Speaker Zegana	377
+rvr	Prime Speaker Zegana	439
+rvr	Protean Hulk	153
+rvr	Protean Hulk	353
+rvr	Protean Hulk	435
+rvr	Pteramander	317
+rvr	Pteramander	54
+rvr	Putrefy	212
+rvr	Putrefy	378
+rvr	Quasiduplicate	55
+rvr	Quench	56
+rvr	Quicken	318
+rvr	Quicken	57
+rvr	Radical Idea	58
+rvr	Rakdos Firewheeler	213
+rvr	Rakdos Guildgate	284
+rvr	Rakdos Guildgate	408
+rvr	Rakdos Guildmage	214
+rvr	Rakdos Pit Dragon	120
+rvr	Rakdos Signet	265
+rvr	Rakdos, Lord of Riots	215
+rvr	Rakdos, Lord of Riots	379
+rvr	Ral Zarek	216
+rvr	Ral Zarek	445
+rvr	Rampaging Rendhorn	154
+rvr	Remand	59
+rvr	Repeal	60
+rvr	Replicate	249
+rvr	Repudiate	249
+rvr	Response	247
+rvr	Rest in Peace	446
+rvr	Resurgence	247
+rvr	Revenge	241
+rvr	Revival	241
+rvr	Rhythm of the Wild	217
+rvr	Rhythm of the Wild	380
+rvr	Rising Populace	25
+rvr	Rootborn Defenses	26
+rvr	Rubblebelt Maaka	121
+rvr	Sacred Foundry	285
+rvr	Sacred Foundry	297
+rvr	Sacred Foundry	409
+rvr	Savra, Queen of the Golgari	218
+rvr	Savra, Queen of the Golgari	381
+rvr	Savra, Queen of the Golgari	440
+rvr	Scab-Clan Mauler	219
+rvr	Scorched Rusalka	122
+rvr	Seal of the Guildpact	266
+rvr	Seal of the Guildpact	394
+rvr	Selesnya Evangel	220
+rvr	Selesnya Guildgate	286
+rvr	Selesnya Guildgate	410
+rvr	Selesnya Guildmage	221
+rvr	Selesnya Signet	267
+rvr	Sewer Shambler	91
+rvr	Shadow Alley Denizen	92
+rvr	Shambling Shell	460
+rvr	Sharktocrab	222
+rvr	Shattering Spree	456
+rvr	Siege Wurm	155
+rvr	Siege of Towers	123
+rvr	Silent Dart	268
+rvr	Silhana Ledgewalker	156
+rvr	Silhana Ledgewalker	354
+rvr	Simic Guildgate	287
+rvr	Simic Guildgate	411
+rvr	Simic Guildmage	223
+rvr	Simic Signet	269
+rvr	Sinister Sabotage	61
+rvr	Skewer the Critics	124
+rvr	Skewer the Critics	340
+rvr	Skullcrack	125
+rvr	Skullcrack	341
+rvr	Sky Hussar	224
+rvr	Sky Hussar	382
+rvr	Skyknight Legionnaire	225
+rvr	Slitherhead	226
+rvr	Spark Double	319
+rvr	Spark Double	421
+rvr	Spark Double	62
+rvr	Sphere of Safety	447
+rvr	Sphinx of New Prahv	227
+rvr	Sphinx's Revelation	228
+rvr	Sphinx's Revelation	383
+rvr	Sprouting Renewal	157
+rvr	Stab Wound	93
+rvr	Stalking Vengeance	126
+rvr	Steam Vents	288
+rvr	Steam Vents	298
+rvr	Steam Vents	412
+rvr	Stitch in Time	229
+rvr	Stitch in Time	384
+rvr	Stomping Ground	289
+rvr	Stomping Ground	299
+rvr	Stomping Ground	413
+rvr	Summary Judgment	27
+rvr	Sunder Shaman	230
+rvr	Sunhome Stalwart	28
+rvr	Supreme Verdict	461
+rvr	Sword of the Paruns	270
+rvr	Sword of the Paruns	395
+rvr	Syndicate Messenger	29
+rvr	Tajic, Legion's Edge	231
+rvr	Tajic, Legion's Edge	385
+rvr	Taste for Mayhem	127
+rvr	Teferi, Time Raveler	232
+rvr	Temple Garden	290
+rvr	Temple Garden	300
+rvr	Temple Garden	414
+rvr	Teysa, Orzhov Scion	233
+rvr	Teysa, Orzhov Scion	386
+rvr	Teysa, Orzhov Scion	441
+rvr	Thespian's Stage	466
+rvr	Thrash	246
+rvr	Threat	246
+rvr	Thrill-Kill Assassin	94
+rvr	Tidespout Tyrant	320
+rvr	Tidespout Tyrant	422
+rvr	Tidespout Tyrant	63
+rvr	Tin Street Dodger	128
+rvr	Titanic Brawl	158
+rvr	To Arms!	30
+rvr	Tolsimir Wolfblood	234
+rvr	Tolsimir Wolfblood	387
+rvr	Tomik, Distinguished Advokist	31
+rvr	Tomik, Distinguished Advokist	417
+rvr	Totally Lost	321
+rvr	Totally Lost	64
+rvr	Truefire Captain	235
+rvr	Turnabout	452
+rvr	Ultimate Price	329
+rvr	Ultimate Price	95
+rvr	Unbreakable Formation	32
+rvr	Undercity's Embrace	96
+rvr	Urbis Protector	33
+rvr	Utopia Sprawl	159
+rvr	Utopia Sprawl	355
+rvr	Utvara Hellkite	129
+rvr	Utvara Hellkite	342
+rvr	Utvara Hellkite	431
+rvr	Vedalken Mesmerist	65
+rvr	Vernadi Shieldmate	236
+rvr	Vindictive Vampire	330
+rvr	Vindictive Vampire	97
+rvr	Voidslime	237
+rvr	Voidslime	388
+rvr	Voyager Staff	271
+rvr	Warden	240
+rvr	Warrant	240
+rvr	Wasteland Viper	160
+rvr	Watery Grave	291
+rvr	Watery Grave	301
+rvr	Watery Grave	415
+rvr	Whisper Agent	238
+rvr	Wild Cantor	239
+rvr	Wilderness Reclamation	458
+rvr	Woebringer Demon	98
+rvr	Wojek Bodyguard	130
+rvr	Wurmweaver Coil	161
+rvr	Yeva, Nature's Herald	162
 s00	Angelic Blessing	1
 s00	Breath of Life	3
 s00	Durkwood Boars	38
@@ -57608,8 +58368,10 @@ sld	Baldin, Century Herdmaster	428
 sld	Baleful Strix	94
 sld	Balthor the Defiled	462
 sld	Baral, Chief of Compliance	1164
+sld	Baral, Chief of Compliance	1447
 sld	Basal Sliver	629
 sld	Batterskull	1206
+sld	Battle of Wits	1446
 sld	Battlefield Forge	669
 sld	Bearscape	1008
 sld	Beast Whisperer	1099
@@ -57653,6 +58415,7 @@ sld	Breeding Pool	132
 sld	Breya, Etherium Shaper	454
 sld	Bribery	411
 sld	Brimaz, King of Oreskos	497
+sld	Brion Stoutarm	1450
 sld	Brisela, Voice of Nightmares	1336b
 sld	Brood Sliver	647
 sld	Bruna, Light of Alabaster	1221
@@ -57840,6 +58603,7 @@ sld	Frenetic Sliver	662
 sld	Frost Titan	220
 sld	Fury Sliver	638
 sld	Future Sight	1178
+sld	Fynn, the Fangbearer	1449
 sld	Gaea's Blessing	1303
 sld	Galerider Sliver	619
 sld	Gamble	188
@@ -58068,6 +58832,7 @@ sld	Malik, Grim Manipulator	147
 sld	Mana Confluence	1012a
 sld	Managorger Hydra	306
 sld	Manaweft Sliver	650
+sld	Marchesa, the Black Rose	1452
 sld	Maro	718
 sld	Maro	719
 sld	Marrow-Gnawer	34
@@ -58204,6 +58969,7 @@ sld	Ornithopter	604
 sld	Orzhov Signet	294
 sld	Othelm, Sigardian Outcast	346
 sld	Overgrown Tomb	130
+sld	Pack Rat	1448
 sld	Pack Rat	35
 sld	Palladia-Mors	1071
 sld	Panharmonicon	605
@@ -58327,6 +59093,7 @@ sld	Saheeli, Sublime Artificer	534
 sld	Sakashima the Impostor	1232
 sld	Sakura-Tribe Elder	192
 sld	Samut, Tyrant Smasher	535
+sld	Samut, Voice of Dissent	1451
 sld	Sanctum Prelate	278
 sld	Sarkhan Vol	1144
 sld	Sarkhan the Masterless	514
@@ -58376,9 +59143,11 @@ sld	Shire Terrace	1296
 sld	Shivan Dragon	716
 sld	Sidewinder Sliver	615
 sld	Sigarda's Aid	731
+sld	Silence	1445
 sld	Simic Signet	295
 sld	Simon, Wild Magic Sorcerer	1238
 sld	Sire of Insanity	275
+sld	Sisay, Weatherlight Captain	1444
 sld	Sisay, Weatherlight Captain	9999
 sld	Skullclamp	1112
 sld	Skysovereign, Consul Flagship	1029
@@ -59886,8 +60655,30 @@ som	Whitesun's Passage	27
 som	Wing Puncture	133
 som	Withstand Death	134
 som	Wurmcoil Engine	223
+spg	Breeches, Brazen Plunderer	6
+spg	Bridge from Below	3
+spg	Carnage Tyrant	10
+spg	Dargo, the Shipwrecker	7
+spg	Ghalta, Primal Hunger	11
+spg	Kalamax, the Stormsire	13
+spg	Lord Windgrace	14
 spg	Lord of Atlantis	1
+spg	Malcolm, Keen-Eyed Navigator	2
 spg	Mana Crypt	17
+spg	Mana Crypt	17a
+spg	Mana Crypt	17b
+spg	Mana Crypt	17c
+spg	Mana Crypt	17d
+spg	Mana Crypt	17e
+spg	Mana Crypt	17f
+spg	Mephidross Vampire	4
+spg	Mirri, Weatherlight Duelist	15
+spg	Pitiless Plunderer	5
+spg	Polyraptor	12
+spg	Rampaging Ferocidon	8
+spg	Star Compass	18
+spg	Thrasios, Triton Hero	16
+spg	Underworld Breach	9
 ss1	Blue Elemental Blast	2
 ss1	Brainstorm	3
 ss1	Counterspell	4
@@ -63992,6 +64783,7 @@ und	Swamp	91
 und	Swamp	92
 und	Time Out	28
 und	Timmy, Power Gamer	73
+unf	"Name Sticker" Goblin	107m
 unf	Attempted Murder	66
 unf	Blood Crypt	279
 unf	Boing!	40
@@ -64714,6 +65506,7 @@ vis	Gossamer Chains	6
 vis	Griffin Canyon	163
 vis	Guiding Spirit	131
 vis	Hearth Charm	82
+vis	Heat Wave	83
 vis	Helm of Awakening	145
 vis	Honorable Passage	7
 vis	Hope Charm	8
@@ -67119,6 +67912,7 @@ wc99	Worn Powerstone	kb318
 wc99	Yawgmoth's Will	js171
 who	Ace's Baseball Bat	170
 who	Ace, Fearless Rebel	98
+who	Adipose Offspring	10
 who	Adric, Mathematical Genius	33
 who	Alistair, the Brigadier	112
 who	All of History, All at Once	34
@@ -67147,6 +67941,7 @@ who	Clockspinning	215
 who	Clockwork Droid	172
 who	Command Tower	263
 who	Commander's Sphere	240
+who	Coward	77
 who	Crack in Time	16
 who	Creeping Tar Pit	267
 who	Crisis of Conscience	17
@@ -67195,6 +67990,7 @@ who	Frost Fair Lure Fish	129
 who	Frostboil Snarl	282
 who	Furycalm Snarl	283
 who	Gallifrey Council Chamber	188
+who	Gallifrey Falls	131
 who	Gallifrey Stands	132
 who	Game Trail	284
 who	Glacial Fortress	285
@@ -67223,6 +68019,7 @@ who	Judoon Enforcers	138
 who	K-9, Mark I	47
 who	Karvanista, Loyal Lupari	106
 who	Kate Stewart	139
+who	Killer	77
 who	Laser Screwdriver	178
 who	Lavaclaw Reaches	289
 who	Lightning Greaves	243
@@ -67234,6 +68031,7 @@ who	Mind Stone	244
 who	Mountain	202
 who	Myriad Landscape	290
 who	Mystic Monastery	291
+who	No More	131
 who	Ominous Cemetery	189
 who	Out of Time	209
 who	Overgrown Farmland	292
@@ -67307,6 +68105,10 @@ who	Temple of Plenty	319
 who	Temple of Triumph	321
 who	Temple of the False God	320
 who	Terramorphic Expanse	322
+who	The Beast, Deathless Prince	114
+who	The Beast, Deathless Prince	403
+who	The Beast, Deathless Prince	719
+who	The Beast, Deathless Prince	994
 who	The Dalek Emperor	120
 who	The Eleventh Hour	41
 who	The Fifth Doctor	127
@@ -67325,10 +68127,18 @@ who	The Tenth Doctor	194
 who	The Tenth Doctor	3
 who	The Tenth Doctor	446
 who	The Tenth Doctor	561
+who	The Third Doctor	1038
+who	The Third Doctor	1145
+who	The Third Doctor	162
+who	The Third Doctor	447
+who	The Third Doctor	554
+who	The Third Doctor	554z
+who	The Third Doctor	767
 who	The Thirteenth Doctor	4
 who	The Twelfth Doctor	164
 who	The Valeyard	165
 who	Thespian's Stage	323
+who	Thijarian Witness	111
 who	Think Twice	220
 who	Thought Vessel	255
 who	Three Visits	235
