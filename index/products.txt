@@ -42,15 +42,15 @@ chr	Chronicles Booster Box	booster_box	default	339fb73b-ae6d-5fa0-af2a-3f883a1c9
 chr	Chronicles Booster Pack	booster_pack	default	e541259a-015f-5477-9a10-bdecab8fd0e4	
 hml	Homelands Booster Box	booster_box	default	6454c98e-0e8c-5bc7-a45a-76cea4f16dd7	
 hml	Homelands Booster Pack	booster_pack	default	c9de01e3-8ad0-5efa-a5f4-4cfeac03e5c7	
+ptc	1996 World Championship Deck Bertrand Lestree	deck	championship	412f2a14-c36d-554c-9ec5-b0beb0b7b671	
+ptc	1996 World Championship Deck Eric Tam	deck	championship	31bbdadb-7a92-5960-b525-de8acdbc7490	
+ptc	1996 World Championship Deck George Baxter	deck	championship	70473da0-3feb-55ab-bb4f-5e68146373b8	
+ptc	1996 World Championship Deck Leon Lindback	deck	championship	36d10361-7c6a-5eec-a81b-9381e7e3a986	
+ptc	1996 World Championship Deck Mark Justice	deck	championship	5fc7f272-cf91-5537-940f-e4e8ec9485ed	
+ptc	1996 World Championship Deck Michael Loconto	deck	championship	fb30f8f0-dca2-59c1-a2bd-1e2f4ed7aa18	
+ptc	1996 World Championship Deck Preston Poulter	deck	championship	25bbee95-997d-5849-9693-02d8c5b955f2	
+ptc	1996 World Championship Deck Shawn HAMMER Regnier	deck	championship	24b978a8-c548-5d21-9066-7f43d96ee17f	
 ptc	Pro Tour Collector Set	deck_box	championship	9ed7c7e8-cc5d-5c8e-984f-2ef371862557	
-ptc	World Championship Deck 1996 Bertrand Lestree	deck	championship	61f3fd70-39cc-5bca-8ee0-416330188563	
-ptc	World Championship Deck 1996 Eric Tam	deck	championship	e014d503-d1af-5df7-93bb-2307bc16c664	
-ptc	World Championship Deck 1996 George Baxter	deck	championship	1b19f34e-dd6e-5fdf-98eb-e12829faa892	
-ptc	World Championship Deck 1996 Leon Lindback	deck	championship	df492685-a08e-5880-b973-e1456cee15ec	
-ptc	World Championship Deck 1996 Mark Justice	deck	championship	e4c58e08-8e82-5acd-9a84-216f9e890de5	
-ptc	World Championship Deck 1996 Michael Loconto	deck	championship	2529c088-a81a-584e-a392-d18ba712111c	
-ptc	World Championship Deck 1996 Preston Poulter	deck	championship	a2d833f3-329d-5828-99ca-b01aa0604654	
-ptc	World Championship Deck 1996 Shawn HAMMER Regnier	deck	championship	7157eb73-8f7f-5605-869a-919707cd7dd3	
 all	Alliances Booster Box	booster_box	default	5df0778f-77bc-5794-a7e1-c09993d3e70f	
 all	Alliances Booster Pack	booster_pack	default	6d34b813-0fd3-5d4e-a9e9-a61bb8c4f517	
 rqs	Rivals Quick Start Set	box_set	other	92398ec1-f5a7-5c41-9820-49d990807c48	
@@ -414,9 +414,9 @@ dis	Dissension Booster Box	booster_box	default	4895b804-4cd1-5fde-9476-66e361a1d
 dis	Dissension Booster Pack	booster_pack	default	5de3d6fd-9c11-5d79-a9ea-8ec1d866a9db	
 dis	Dissension Fat Pack	bundle	fat_pack	bd95f08a-d3a7-51ae-89fe-44df2a19bb10	
 dis	Dissension Theme Deck Azorius Ascendant	deck	theme	8c292a0d-361c-5d55-a6ad-164426eec0e0	
+dis	Dissension Theme Deck Display	deck_box	theme	420c5332-0ed0-5186-9c20-06623a7e125e	
 dis	Dissension Theme Deck Rakdos Bloodsport	deck	theme	1a55da4f-6862-531d-a221-e180a4ef2500	
 dis	Dissension Theme Deck Simic Mutology	deck	theme	1e3746fe-4e4d-5956-9e91-6780316b2018	
-dis	Dissention Theme Deck Display	deck_box	theme	d75ddbc1-d709-58ce-a43d-ba6a24366e57	
 csp	Coldsnap Booster Box	booster_box	default	90b20e4e-9272-5037-bf4f-c33b27b8e1a1	
 csp	Coldsnap Booster Pack	booster_pack	default	8e9110d1-4028-5a78-9d19-a65d287d18c1	
 csp	Coldsnap Fat Pack	bundle	fat_pack	27d04f00-dab0-5fc7-afea-ae99d3cb8097	
@@ -748,10 +748,10 @@ avr	Avacyn Restored Intro Pack Display	deck_box	intro	5783ce62-9e5e-5a10-8e83-56
 avr	Avacyn Restored Intro Pack Fiery Dawn	deck	intro	a49e505e-a3bb-5012-bd72-4b5fe38b6571	2012-05-04
 avr	Avacyn Restored Intro Pack Slaughterhouse	deck	intro	01d8c8bc-ff1b-515a-913d-883784cf2279	2012-05-04
 avr	Avacyn Restored Intro Pack Solitary Fiends	deck	intro	f8920938-fb53-560c-a3c5-903e15f89a0f	2012-05-04
-pc2	Planechase 2012 Chaos Reigns Deck	deck	planechase	9d12dbb6-6434-56ff-80c8-5a5e0c379a4d	2012-06-01
-pc2	Planechase 2012 Night of the Ninja Deck	deck	planechase	f11cc69d-3277-5ebb-809c-7219d79e586b	2012-06-01
-pc2	Planechase 2012 Primordial Hunger Deck	deck	planechase	04be3b12-cfcd-5063-8cd2-d791dd84e647	2012-06-01
-pc2	Planechase 2012 Savage Auras Deck	deck	planechase	e6d7d890-88ae-5972-948d-0562db592c8c	2012-06-01
+pc2	Planechase 2012 Deck Chaos Reigns	deck	planechase	4f793e23-170d-5a3c-8698-f91ace23191f	2012-06-01
+pc2	Planechase 2012 Deck Night of the Ninja	deck	planechase	f1c4e9f2-a2cc-5faa-9f73-ed599eb423f7	2012-06-01
+pc2	Planechase 2012 Deck Primordial Hunger	deck	planechase	31be2996-4a94-5af7-bf14-1bee8d5fd368	2012-06-01
+pc2	Planechase 2012 Deck Savage Auras	deck	planechase	790ace1c-545b-5a28-bc1d-5d444bcbdfb0	2012-06-01
 pc2	Planechase 2012 Set of 4	subset	planechase	544f056a-6ca3-5566-acab-497e101a0711	
 m13	2013 Core Set 3 Booster Draft Pack	limited_aid_tool	draft_set	aa73e180-915c-5ec9-af9e-ea331fc3843f	2012-07-13
 m13	2013 Core Set 6 Card Booster Pack	booster_pack	six-card	468abfbb-62a8-5c18-9974-02bb8e7ed719	
@@ -938,7 +938,7 @@ jou	Journey Into Nyx Prerelease Forged in Pursuit	limited_aid_tool	prerelease_ki
 jou	Journey Into Nyx Prerelease Forged in Tyranny	limited_aid_tool	prerelease_kit	3f1acaa1-45ac-5d06-af8b-6b81b1e75e9d	
 jou	Journey Into Nyx Prerelease Forged in War	limited_aid_tool	prerelease_kit	020643ce-9c35-5414-ae12-38cadb0de8cc	
 jou	Journey Into Nyx Prerelease Kit Set of 5	subset	prerelease_kit	62bc5578-451c-5306-9d63-b28b002445b4	
-md1	Magic Modern Event Deck	deck	event	aacf7e27-f9e6-5f3b-a34c-8e518fe6b57c	
+md1	Magic Modern Event Deck March of the Multitudes	deck	event	e3f167cc-4c64-5c84-a07a-2f6ebfa50ff5	
 cns	Conspiracy Booster Box	booster_box	default	a84d180b-d942-5c94-ae18-75a59e810758	2014-06-06
 cns	Conspiracy Booster Box Case	booster_case	default	4ce2447a-c3e2-544d-8ca4-a8db000956a1	
 cns	Conspiracy Booster Pack	booster_pack	default	0cfcf7bf-d259-562d-b55b-dfa3b7b81d9c	2014-06-06
@@ -1020,7 +1020,7 @@ ddo	Duel Deck Elspeth vs Kiora	multiple_decks	duel	610fdad6-50f4-5f1e-abbd-d94cf
 dtk	Dragons of Tarkir Booster Box	booster_box	default	1688d5f4-7160-5aa0-a8d9-09e3348ddef7	
 dtk	Dragons of Tarkir Booster Box Case	booster_case	default	193bd43f-e7c3-558c-a76a-6a70cf0f9a50	2015-03-27
 dtk	Dragons of Tarkir Booster Pack	booster_pack	default	1075193b-2991-5302-b1e0-e452a5010ceb	2015-03-27
-dtk	Dragons of Tarkir Event Deck	deck	event	275bccaf-1376-5937-b174-2488fbad9cf1	
+dtk	Dragons of Tarkir Event Deck Landslide Charge	deck	event	e7228a0f-3164-55fa-8b37-904a7240d2de	
 dtk	Dragons of Tarkir Fat Pack	bundle	fat_pack	3b9d48be-72f4-5b9d-9c80-a3bee02bb816	2015-03-27
 dtk	Dragons of Tarkir Intro Pack Cruel Plots	deck	intro	485b2247-ae4d-551e-8a1d-bb7e0a02932f	
 dtk	Dragons of Tarkir Intro Pack Enlightened Mastery	deck	intro	a2bbc944-74c4-5739-b5a8-287ba889d58b	
@@ -1258,7 +1258,6 @@ bbd	Battlebond Booster Pack	booster_pack	default	7483f37d-039c-5f4a-ae7c-b2a191d
 cm2	Commander Anthology Volume II	box_set	commander	2b7d3b86-826c-5432-a925-e36ee8a2767e	2018-06-08
 ss1	Signature Spellbook Jace	box_set	spellbook	cdcd7361-1625-5a71-b059-77ceda4ab134	
 gs1	Global Series Jiang Yanggu and Mu Yanling	multiple_decks	planeswalker	964e6935-9f2d-5196-9107-a1f3f8f16e4a	2018-06-22
-m19	2018 Gift Pack	bundle	gift_bundle	f06f30a4-6665-5d46-8a1d-77b3961e4fa4	
 m19	Core Set 2019 Booster Box	booster_box	default	dc4f7872-fe11-5cb5-8036-157ab2247c61	2018-07-13
 m19	Core Set 2019 Booster Box Case	booster_case	default	8eee5b71-8e03-5f7c-9461-b4ca5fc8b7b4	2018-07-13
 m19	Core Set 2019 Booster Pack	booster_pack	default	36d4765d-add1-5d6b-8bff-f342ef62a3d0	2018-07-13
@@ -1485,8 +1484,8 @@ sld	Secret Lair Bundle Big Foil Bundle	box_set	secret_lair_bundle	65268b0e-2539-
 sld	Secret Lair Bundle Big Non Foil Bundle	box_set	secret_lair_bundle	aadb51d0-ea76-5050-8192-3525867da2ba	
 sld	Secret Lair Bundle Bugs Bands and Blockbusters	box_set	secret_lair_bundle	367b5702-af90-5792-b789-7f540cc37e47	
 sld	Secret Lair Bundle Bugs Bands and Blockbusters Bundle Foil	box_set	secret_lair_bundle	c6b79159-10ae-57b3-a210-5651a338b38c	
+sld	Secret Lair Bundle Cards in Costume	box_set	secret_lair_bundle	f744a1ff-4c86-55a0-b3bc-f40c40013d5a	2023-09-23
 sld	Secret Lair Bundle Cards in Costume Foil	box_set	secret_lair_bundle	e7f1d2e4-fdcc-5b85-b047-4ad5e1a155e5	2023-09-23
-sld	Secret Lair Bundle Cards in Costume Non Foil	box_set	secret_lair_bundle	29a654ef-e75f-5b82-a588-9cb849e18ea4	2023-09-23
 sld	Secret Lair Bundle Carving Up A Barrel of Foils	box_set	secret_lair_bundle	c6d9c041-cfe2-5560-a407-a7dd73b97c35	2023-09-06
 sld	Secret Lair Bundle December Superdrop Foil	box_set	secret_lair_bundle	f4408196-edc7-5ace-bb26-2c152574c575	
 sld	Secret Lair Bundle December Superdrop Non Foil	box_set	secret_lair_bundle	82092d20-3d47-5f91-ba75-ba43cf1ef524	
@@ -1547,8 +1546,8 @@ sld	Secret Lair Bundle This One Is For My Non Foils	box_set	secret_lair_bundle	1
 sld	Secret Lair Bundle Those Foils Are Really Coming Down	box_set	secret_lair_bundle	b4358256-af39-5e1b-9ea8-1d55cc89e7c7	
 sld	Secret Lair Bundle Those Non Foils Just Wont Let Up	box_set	secret_lair_bundle	785f0196-8c0f-5cea-a900-474b0a3c8d7e	
 sld	Secret Lair Bundle Totally Refreshing Non Foil	box_set	secret_lair_bundle	7c3bd9aa-deb7-5e87-a36b-39376f2cc328	
+sld	Secret Lair Bundle Transformers	box_set	secret_lair_bundle	1be94825-9346-5658-8490-ec9e747a470d	
 sld	Secret Lair Bundle Transformers Foil	box_set	secret_lair_bundle	d557c114-f244-5694-bf2b-3bffaab8791f	
-sld	Secret Lair Bundle Transformers Non Foil	box_set	secret_lair_bundle	f9220a0b-77cb-542f-9822-85de76f1bb0b	
 sld	Secret Lair Bundle Voracious Reader	box_set	secret_lair_bundle	546ef38e-9240-5cbb-9bff-0e751cfd4af6	
 sld	Secret Lair Bundle Voracious Reader Foil	box_set	secret_lair_bundle	7ee248d7-a5e4-5870-b68d-f587f70c7409	
 sld	Secret Lair Commander Deck Angels Theyre Just Like Us but Cooler and with Wings	deck	commander	1c890060-2a4b-5c2e-bde9-901e2a02f26a	2023-09-06
@@ -1568,7 +1567,7 @@ sld	Secret Lair Drop Artist Series Chris Rahn Foil	box_set	secret_lair	f0f2b843-
 sld	Secret Lair Drop Artist Series Johannes Voss	box_set	secret_lair	5ceb78bd-aaf2-5ec0-b0f2-947f9467751e	
 sld	Secret Lair Drop Artist Series Johannes Voss Foil	box_set	secret_lair	f7f03cb9-8e94-573e-96d3-e99028c934af	
 sld	Secret Lair Drop Artist Series John Avon	box_set	secret_lair	301820ce-327c-5f91-bbcd-eca1086475bb	2023-09-23
-sld	Secret Lair Drop Artist Series John Avon Foil Edition	box_set	secret_lair	9af46ca7-5287-52de-af8d-68b004212ff3	2023-09-23
+sld	Secret Lair Drop Artist Series John Avon Foil	box_set	secret_lair	1367da2e-238f-5698-9f44-c5c8b6b21480	2023-09-23
 sld	Secret Lair Drop Artist Series Kev Walker	box_set	secret_lair	36635910-ccba-5288-b7d9-ca9fdead07db	
 sld	Secret Lair Drop Artist Series Kev Walker Foil	box_set	secret_lair	e7edc336-0361-5b2d-ba2a-f4937a27f973	
 sld	Secret Lair Drop Artist Series Livia Prima	box_set	secret_lair	7133351a-792d-5e8c-a139-f37651085295	
@@ -1657,8 +1656,8 @@ sld	Secret Lair Drop Death Is Temporary Metal Is Forever Foil	box_set	secret_lai
 sld	Secret Lair Drop Draw Your Hand	box_set	secret_lair	93aaeb91-f308-5d1e-97dd-3515747c1789	
 sld	Secret Lair Drop Draw Your Hand Foil	box_set	secret_lair	a7fce281-d4cf-5aba-8fc1-219e7a2a9155	
 sld	Secret Lair Drop Eldraine Wonderland	box_set	secret_lair	97c0404f-978d-514c-986b-b18573741da8	
+sld	Secret Lair Drop Every Dog Has Its Day	box_set	secret_lair	88e48ab5-3e1c-5e4a-945b-26471597a0f5	
 sld	Secret Lair Drop Every Dog Has Its Day Foil	box_set	secret_lair	aba5f8bd-a35a-54d0-ab17-9c305d7b1faf	
-sld	Secret Lair Drop Every Dog Has Its Day Non Foil	box_set	secret_lair	bea0842a-9eb4-550f-a87b-d4c07a090afb	
 sld	Secret Lair Drop Extra Life 2020	box_set	secret_lair	09958df0-c9f3-5be6-9dad-0342fb2aa1ef	
 sld	Secret Lair Drop Extra Life 2022	box_set	secret_lair	7ef083a9-d11f-5f78-9c52-15109491f9e7	
 sld	Secret Lair Drop Extra Life 2022 Foil	box_set	secret_lair	d712479f-e099-58ee-a9b0-e6b6ec0e8a9c	
@@ -1708,7 +1707,7 @@ sld	Secret Lair Drop Legendary Flyers Not That Kind Foil	box_set	secret_lair	662
 sld	Secret Lair Drop Lil Giri Saves the Day Foil	box_set	secret_lair	bdcac20e-35d5-5bbf-83c3-f6bbd1353075	
 sld	Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil	box_set	secret_lair	cdcf9300-bd08-50f6-ab50-ddb5da3a3740	
 sld	Secret Lair Drop Lil Walkers	box_set	secret_lair	9251cf99-7437-5127-9756-fcf2475a0765	
-sld	Secret Lair Drop Lil Walkers Foil Edition	box_set	secret_lair	6c6cf780-133c-56f0-b41b-58c482fd13f9	
+sld	Secret Lair Drop Lil Walkers Foil	box_set	secret_lair	5b22c926-cfb9-5e20-abc2-122139de58b5	
 sld	Secret Lair Drop Liler Walkers	box_set	secret_lair	0bff6ed7-561e-54f6-b52a-a3d515dad35b	
 sld	Secret Lair Drop Liler Walkers Foil	box_set	secret_lair	8f4f540f-aa86-500e-a3ad-42d51f1bd9fc	
 sld	Secret Lair Drop Lilest Walkers	box_set	secret_lair	111922b4-6e25-5530-b65a-312fce1e3e53	2023-09-23
@@ -1720,7 +1719,7 @@ sld	Secret Lair Drop Math Is For Blockers Foil	box_set	secret_lair	308d7d82-b163
 sld	Secret Lair Drop Meditations on Nature	box_set	secret_lair	fa0c895c-4909-55e1-b7c1-5d879d0eea7b	2023-09-23
 sld	Secret Lair Drop Meditations on Nature Foil	box_set	secret_lair	6088ea06-6dee-5b34-a1d7-d7dc3f29bac4	2023-09-23
 sld	Secret Lair Drop Mirrodinsanity	box_set	secret_lair	13876e7e-0b4a-56fc-9cc4-35999cb7b15a	
-sld	Secret Lair Drop Mirrodinsanity Foil Edition	box_set	secret_lair	a29b046c-8571-59a5-9ef2-ac40090e3847	
+sld	Secret Lair Drop Mirrodinsanity Foil	box_set	secret_lair	090657d0-1c7e-53f9-a5a9-1349e53f5873	
 sld	Secret Lair Drop Monster Movie Marathon	box_set	secret_lair	eee50b20-c0d3-54b7-8c19-464044191100	
 sld	Secret Lair Drop Monster Movie Marathon Foil	box_set	secret_lair	6e171d4a-24b9-5bb5-a093-1ca17521973f	
 sld	Secret Lair Drop More Adventures in Middle earth	box_set	secret_lair	59cfd975-44a8-5ba2-af52-b83c3d635aa8	2023-09-06
@@ -2138,11 +2137,11 @@ mh2	Modern Horizons 2 Set Booster Box	booster_box	set	bc01b7fa-b49a-5357-8be9-1d
 mh2	Modern Horizons 2 Set Booster Box Case	booster_case	set	84c55f34-3ef9-5f4c-8692-444b8bc5e146	
 mh2	Modern Horizons 2 Set Booster Hanger Pack	booster_pack	set	84d9480c-4081-5c49-8c49-8e8f0f42b294	
 mh2	Modern Horizons 2 Set Booster Pack	booster_pack	set	1fc1a634-d083-59eb-8194-2e6da14e912e	2021-06-18
-afc	Adventures in the Forgotten Realms Aura of Courage Commander Deck	deck	commander	c90c5b01-4fd3-5269-8a88-81b80b760b29	2021-07-23
+afc	Adventures in the Forgotten Realms Commander Deck Aura of Courage	deck	commander	580be6d5-4c32-550a-9a00-4290c383b3ae	2021-07-23
 afc	Adventures in the Forgotten Realms Commander Deck Display	deck_box	commander	cc4a5f9f-7d04-5b52-a18e-e6fae1c2eab1	2021-07-23
-afc	Adventures in the Forgotten Realms Draconic Rage Commander Deck	deck	commander	dabbb9ef-3446-55a2-9f46-488d73c87125	2021-07-23
-afc	Adventures in the Forgotten Realms Dungeons of Death Commander Deck	deck	commander	bff70067-7279-5764-93f8-ba5a2c971539	2021-07-23
-afc	Adventures in the Forgotten Realms Planar Portal Commander Deck	deck	commander	b0edf9c6-18bd-508a-a4ae-5b0f489a55a4	2021-07-23
+afc	Adventures in the Forgotten Realms Commander Deck Draconic Rage	deck	commander	97ff14e6-683e-5a4e-8330-b556470bb432	2021-07-23
+afc	Adventures in the Forgotten Realms Commander Deck Dungeons of Death	deck	commander	4091d3ae-702b-5359-bcde-0ba739aeca00	2021-07-23
+afc	Adventures in the Forgotten Realms Commander Deck Planar Portal	deck	commander	c10d76ba-cc3c-537b-8804-4b1fe994d1e3	2021-07-23
 afr	2021 Arena Starter Kit	multiple_decks	two_player_starter	b2aae330-2ab4-5c63-821f-50bb3c310282	2021-08-06
 afr	2021 Arena Starter Kit Amazon	multiple_decks	two_player_starter	ba2690a9-2f5c-5ce8-86ed-0e8073d4f68f	
 afr	Adventures in the Forgotten Realms Bundle	bundle	default	9b6662a9-c867-5fe4-ac6d-6d2e17148f08	2021-07-23
@@ -2175,7 +2174,7 @@ mic	Innistrad Midnight Hunt Commander Deck Coven Counters Minimal Packaging	deck
 mic	Innistrad Midnight Hunt Commander Deck Display	deck_box	commander	b5c7aeda-7a53-522d-a145-539c0d9da034	2021-09-24
 mic	Innistrad Midnight Hunt Commander Deck Undead Unleashed	deck	commander	3ca8a448-1f52-5b42-9285-7c6588fd8eb3	2021-09-24
 mic	Innistrad Midnight Hunt Commander Deck Undead Unleashed Minimal Packaging	deck	commander	316315d9-096e-5b71-98af-cbac73af1a81	2021-09-24
-mic	Innistrad Midnight Hunt Commander Decks - Set of 2	subset	commander	0d2b3e14-0c12-53a5-bc96-e73ba98fe9e5	2021-09-24
+mic	Innistrad Midnight Hunt Commander Decks Set of 2	subset	commander	f1aa7d4d-11e1-51b4-9ebd-9154f028eff4	2021-09-24
 mid	Innistrad Midnight Hunt 3 Booster Draft Pack	limited_aid_tool	draft_set	c9c67975-b5af-5ec7-91f5-e5b9f1cadc90	2021-09-24
 mid	Innistrad Midnight Hunt Bundle	bundle	default	477044e0-8db7-5d10-96b0-9c4f6f90efb7	2021-09-24
 mid	Innistrad Midnight Hunt Bundle Case	bundle_case	default	54e99da1-9dd5-5636-a0ab-50a5832b8ae3	
@@ -2291,7 +2290,7 @@ ncc	Streets of New Capenna Commander Deck Obscura Operation	deck	commander	d0dfe
 ncc	Streets of New Capenna Commander Deck Obscura Operation Minimal Packaging	deck	commander	1cc0da19-2b54-593b-84b1-f0bb12c34114	
 ncc	Streets of New Capenna Commander Deck Riveteers Rampage	deck	commander	6ce9546b-3a8d-5283-ac09-b0782d61db8a	2022-04-29
 ncc	Streets of New Capenna Commander Deck Riveteers Rampage Minimal Packaging	deck	commander	3be2adba-98b7-530b-9084-e323f9a9732c	
-ncc	Streets of New Capenna Commander Decks - Set of 5	subset	commander	62d06738-16fe-53c5-9153-5ad7133cdbd8	
+ncc	Streets of New Capenna Commander Decks Set of 5	subset	commander	f68dea98-3179-59e1-a1f8-ffc2d70b2546	
 snc	2022 Arena Starter Kit	multiple_decks	two_player_starter	57be20bf-5950-5969-b16b-047aaf6e5010	2022-06-03
 snc	2022 Arena Starter Kit Case	deck_box	two_player_starter	ddb82bb9-5dff-5177-b8fe-8e55808a2587	
 snc	Streets of New Capenna 3 Booster Draft Pack	limited_aid_tool	draft_set	445ccae2-2454-5a12-93ea-d47b62889a62	2022-04-29
@@ -2382,14 +2381,14 @@ dmu	Dominaria United Set Booster Pack	booster_pack	set	f5f30fc8-0b27-5c44-b9b1-4
 dmu	Dominaria United Welcome Booster	booster_pack	welcome	ea6fefd5-a66a-5e3a-9cd0-1066e6910bb3	2022-09-09
 40k	Warhammer 40000 Commander Deck Display	deck_box	commander	61ee21e4-f657-513a-8164-d92dcf6733ba	2022-10-07
 40k	Warhammer 40000 Commander Deck Display Collectors Edition	deck_box	commander	252ea378-89bb-53dc-82ee-1be717cfe6b1	2022-10-07
-40k	Warhammer 40000 Forces of the Imperium Commander Deck	deck	commander	60e82f72-3561-5873-a2d8-db9deff8ea3b	2022-10-07
-40k	Warhammer 40000 Forces of the Imperium Commander Deck Collectors Edition	deck	commander	17ec633f-0c52-5016-9e1a-55aaf22f0b1b	2022-10-07
-40k	Warhammer 40000 Necron Dynasties Commander Deck	deck	commander	0d3709d5-5a23-5e50-b524-7f8fd3452005	2022-10-07
-40k	Warhammer 40000 Necron Dynasties Commander Deck Collectors Edition	deck	commander	6d9dd30d-7fa3-5227-83dd-dc23a3f25f3b	2022-10-07
-40k	Warhammer 40000 The Ruinous Powers Commander Deck	deck	commander	7751929e-8aaa-5c85-ba3c-4d6aa458d56a	2022-10-07
-40k	Warhammer 40000 The Ruinous Powers Commander Deck Collectors Edition	deck	commander	7f487524-ec9f-53f6-8023-2c5f7edfa5d3	2022-10-07
-40k	Warhammer 40000 Tyranid Swarm Commander Deck	deck	commander	289d82cb-5ab8-5245-9ee1-1940e4e49fc4	2022-10-07
-40k	Warhammer 40000 Tyranid Swarm Commander Deck Collectors Edition	deck	commander	1118be9c-599f-59cc-9fef-e36035392460	2022-10-07
+40k	Warhammer 40000 Commander Deck Forces of the Imperium	deck	commander	94158efc-0ea1-5cf7-91f2-22f84caaef3c	2022-10-07
+40k	Warhammer 40000 Commander Deck Forces of the Imperium Collectors Edition	deck	commander	9dd4bff1-35ac-5703-b646-de93c5713887	2022-10-07
+40k	Warhammer 40000 Commander Deck Necron Dynasties	deck	commander	79a81dce-2546-5cbb-9b1f-4806d4a65204	2022-10-07
+40k	Warhammer 40000 Commander Deck Necron Dynasties Collectors Edition	deck	commander	97bb3015-fc6e-52d5-940d-ce5f2f4a5c9d	2022-10-07
+40k	Warhammer 40000 Commander Deck The Ruinous Powers	deck	commander	b99b36b2-d9db-5c60-bcc4-710f6c7cc601	2022-10-07
+40k	Warhammer 40000 Commander Deck The Ruinous Powers Collectors Edition	deck	commander	3e9933ef-fb48-5d3e-bc1c-4ce53db331d3	2022-10-07
+40k	Warhammer 40000 Commander Deck Tyranid Swarm	deck	commander	9321e73d-7e9d-5c63-b356-e3cc1919d045	2022-10-07
+40k	Warhammer 40000 Commander Deck Tyranid Swarm Collectors Edition	deck	commander	850a5232-bbbc-524c-8353-0c50cc1c169a	2022-10-07
 unf	Unfinity 3 Booster Draft Pack	limited_aid_tool	draft_set	a21ab17e-2537-5d88-833b-5ff400d4a385	
 unf	Unfinity Box Topper Pack	booster_pack	topper	4d3676f2-0f3e-576f-96df-e416e6a49b70	
 unf	Unfinity Collector Booster Box	booster_box	collector	7a9028f2-ece8-5637-87dd-8417a01c04f3	
@@ -2409,8 +2408,9 @@ q08	Pioneer Challenger Deck 2022 Set of 4	subset	challenger	4972b29a-61e9-5a64-b
 brc	The Brothers' War Commander Deck Display	deck_box	commander	0eae7c3b-a536-5130-bc7a-63c986b557cd	2022-11-18
 brc	The Brothers' War Commander Deck Mishras Burnished Banner	deck	commander	6edfabcd-4df0-5f4c-82c1-ea7d54fdb058	2022-11-18
 brc	The Brothers' War Commander Deck Urzas Iron Alliance	deck	commander	00a77e73-c3b5-5a7a-b4b8-ad3d1be4e754	2022-11-18
-brc	The Brothers' War Commander Decks - Set of 2	subset	commander	cb43285b-adae-57b6-a154-b3abe21d95e1	2022-11-18
+brc	The Brothers' War Commander Decks Set of 2	subset	commander	b5d08553-e880-5ce5-8c6b-e04ce2309e48	2022-11-18
 bro	Land Station 2022	kit	land_station	e20ab480-7542-5349-854e-d7d564c4a97d	2022-11-18
+bro	The Brothers War Jumpstart Booster Pack 2 Pack	limited_aid_tool	draft_set	4a3b4547-cec7-5848-a364-2e14224fa7b2	
 bro	The Brothers' War Bundle	bundle	default	6d0880d3-b3a8-5df5-a526-5be1def7899b	2022-11-18
 bro	The Brothers' War Bundle Case	bundle_case	default	c7d5e0a2-9c32-5311-b42e-506fafdfe0f4	2022-11-18
 bro	The Brothers' War Collector Booster Box	booster_box	collector	9c671def-8389-5814-a0cd-9037fea7519d	2022-11-18
@@ -2474,7 +2474,7 @@ moc	March of the Machine Commander Deck Cavalry Charge	deck	commander	c4345ca9-4
 moc	March of the Machine Commander Deck Divine Convocation	deck	commander	aaafd779-74dd-593e-a6be-9f9912314920	2023-04-21
 moc	March of the Machine Commander Deck Growing Threat	deck	commander	c761fe82-5597-5439-b50b-b09911bfa6fb	2023-04-21
 moc	March of the Machine Commander Deck Tinker Time	deck	commander	832131a2-077b-5300-98e2-02f5eabbbaed	2023-04-21
-moc	March of the Machine Commander Decks - Set of 5	subset	commander	97ca3ead-48d3-5d12-9ce4-d691bd0e172b	
+moc	March of the Machine Commander Decks Set of 5	subset	commander	55fed710-49e0-55e9-949b-72a0c6d5c4b3	
 mom	Magic The Gathering Starter Kit 2023	multiple_decks	two_player_starter	3b8b7203-e424-5ee2-a6e0-239a75b73e07	
 mom	March of the Machine Bundle	bundle	default	9ae9feb8-beb6-51ce-be04-4e6c641f9fe1	2023-04-21
 mom	March of the Machine Bundle Case	bundle_case	default	1f44c701-d6d4-55a8-a2ea-0281d8672ed3	
@@ -2618,3 +2618,19 @@ rvr	Ravnica Remastered Collector Booster Pack	booster_pack	collector	1f855c43-5e
 rvr	Ravnica Remastered Draft Booster Box	booster_box	default	3d398af8-22ce-5742-9bfb-c7d9516aa084	2024-01-12
 rvr	Ravnica Remastered Draft Booster Box Case	booster_case	default	68530272-810c-5756-9060-144b9a9296a7	2024-01-12
 rvr	Ravnica Remastered Draft Booster Pack	booster_pack	default	86ff66c5-929a-5b39-ba46-8052674f26c7	2024-01-12
+clu	Ravnica Clue Edition	bundle	game_night	b2a41e1a-9956-5978-a980-3690f656d66b	2024-02-23
+clu	Ravnica Clue Edition Case	bundle_case	game_night	9bd3eeff-8f8a-5bdf-b7f8-6f283171645b	2024-02-23
+mkm	Murders at Karlov Manor Bundle	bundle	default	85b30c3e-1378-5143-8fc3-ad4d55faa19e	2024-02-09
+mkm	Murders at Karlov Manor Bundle Case	bundle_case	default	15544ca5-b99f-5d37-9ff9-a34cb65d0946	2024-02-09
+mkm	Murders at Karlov Manor Collector Booster Box	booster_box	collector	6d633f6b-c283-5603-bb71-7bbde5d6407f	2024-02-09
+mkm	Murders at Karlov Manor Collector Booster Box Case	booster_case	collector	41761082-0305-5daf-a1a5-90eb27bd2701	2024-02-09
+mkm	Murders at Karlov Manor Collector Booster Pack	booster_pack	collector	bbbdf7c5-7f6c-535e-ad8a-ed292e4cbfe2	2024-02-09
+mkm	Murders at Karlov Manor Play Booster Box	booster_box	play	5e5fe69e-56ee-55cc-a2b2-19f903a72aa6	2024-02-09
+mkm	Murders at Karlov Manor Play Booster Box Case	booster_case	play	a87bfc00-197f-5474-b55a-e8342aaac80a	2024-02-09
+mkm	Murders at Karlov Manor Play Booster Pack	booster_pack	play	c9b74555-134e-5865-b8f7-0d0cd26c8f58	2024-02-09
+mkm	Murders at Karlov Manor Prerelease Pack	limited_aid_tool	prerelease_kit	60f39425-9415-5a4f-b331-dd7a18c5eedb	2024-02-09
+mkc	Murders at Karlov Manor Commander Deck Blame Game	deck	commander	c16803d0-6f98-579d-9f38-c5e11e78f104	2024-02-09
+mkc	Murders at Karlov Manor Commander Deck Deadly Disguise	deck	commander	e4285534-2c7f-51ad-b6ae-37ac29db4d32	2024-02-09
+mkc	Murders at Karlov Manor Commander Deck Deep Clue Sea	deck	commander	adeb6008-4d30-52be-80da-11ba517b57ff	2024-02-09
+mkc	Murders at Karlov Manor Commander Deck Display	deck_box	commander	9d70e71a-8d19-5af5-81b2-936fc1054eb3	2024-02-09
+mkc	Murders at Karlov Manor Commander Deck Revenant Recon	deck	commander	1dda9d52-11ef-52dd-b169-b02271aff831	2024-02-09
