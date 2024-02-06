@@ -22,11 +22,11 @@ describe "is:booster" do
       should_have_boosters = (
         %W[mb1 cmr dbl clb 30a zne who].include?(set_code) or (
           !(set_types_with_boosters & set.types).empty? and
-          !%W[ced cei tsb itp s00 cp1 cp2 cp3 w16 w17 gk1 ppod ana oana fmb1 anb plist slx uplist sis md1].include?(set.code)
+          !%W[ced cei tsb itp s00 cp1 cp2 cp3 w16 w17 gk1 ppod ana oana fmb1 anb plst slx ulst sis md1].include?(set.code)
         )
       )
       should_be_in_other_boosters = (
-        %W[tsb exp mps mp2 fmb1 plist sta sunf brr sis slx].include?(set.code)
+        %W[tsb exp mps mp2 fmb1 plst sta sunf brr sis slx].include?(set.code)
       )
       if %W[j21 ajmp].include?(set_code)
         # Arena extras
@@ -47,7 +47,7 @@ describe "is:booster" do
   # Tests for is:booster removed as
   # realistically it would be far too complex
 
-  describe "Arena boosters" do
+  describe "Arena and play boosters" do
     let(:pack_factory) { PackFactory.new(db) }
 
     let(:standard_arena_sets) do
@@ -66,12 +66,18 @@ describe "is:booster" do
 
     it do
       db.sets.each do |set_code, set|
-        if standard_arena_sets.include?(set_code)
-          pack_factory.for(set_code, "arena").should_not(be_nil, "#{set_code} should have Arena boosters")
-          pack_factory.for(set_code, nil).should_not(be_nil, "#{set_code} should have regular boosters")
-        elsif remaster_arena_sets.include?(set_code)
+        if remaster_arena_sets.include?(set_code)
           pack_factory.for(set_code, "arena").should_not(be_nil, "#{set_code} should have Arena boosters")
           pack_factory.for(set_code, nil).should(be_nil, "#{set_code} should not have regular boosters")
+        elsif standard_arena_sets.include?(set_code)
+          pack_factory.for(set_code, "arena").should_not(be_nil, "#{set_code} should have Arena boosters")
+          # MKM
+          if set.release_date >=  Date.parse("2024-02-09")
+            pack_factory.for(set_code, "play").should_not(be_nil, "#{set_code} should have regular boosters")
+            pack_factory.for(set_code, nil).should(be_nil, "#{set_code} should not have regular boosters")
+          else
+            pack_factory.for(set_code, nil).should_not(be_nil, "#{set_code} should have regular boosters")
+          end
         else
           pack_factory.for(set_code, "arena").should(be_nil, "#{set_code} should not have Arena boosters")
         end
