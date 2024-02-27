@@ -1,0 +1,54 @@
+# Data from https://magic.wizards.com/en/news/feature/collecting-murders-at-karlov-manor
+pack:
+  basic: 1
+  list_slot:
+  - common: 7
+    chance: 7
+  - common: 6
+    the_list: 1
+    chance: 1
+  uncommon: 3
+  rare_mythic: 1
+  wildcard: 1
+  foil: 1
+sheets:
+  basic:
+    query: "t:basic -is:fullart"
+  common:
+    query: "r:c"
+  rare_mythic:
+    any:
+    - query: "r:r -t:land"
+      chance: 120
+    - use: mythic
+      chance: 20
+  wildcard:
+    any:
+    - chance: 1
+      query: "r:r t:land"
+    - chance: 5
+      any:
+      - chance: 700
+        use: common
+      - chance: 175
+        use: uncommon
+      - chance: 125
+        use: rare_mythic
+  foil:
+    any:
+    - chance: 12
+      use: common
+    - chance: 5
+      use: uncommon
+    - chance: 3
+      any:
+      - use: rare
+        chance: 140
+      - use: mythic
+        chance: 20
+  the_list:
+    any:
+    - rawquery: "sheet:MKM_ARENA_CU"
+      rate: 2
+    - rawquery: "sheet:MKM_ARENA_RM"
+      rate: 1
