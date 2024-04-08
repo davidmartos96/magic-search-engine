@@ -204,7 +204,7 @@ pcy	Prophecy Theme Deck Distress	deck	theme	9b346acb-9926-5314-86b5-7b0436c5cadb
 pcy	Prophecy Theme Deck Pummel	deck	theme	6ba5ea46-46f5-58a7-ae9b-928555e8425d	
 pcy	Prophecy Theme Deck Slither	deck	theme	4a48565c-9eac-534c-8719-e2c199a2bd00	
 pcy	Prophecy Theme Deck Turnaround	deck	theme	33ff1509-df96-5bd7-9a49-e4ec63413db4	
-wc00	2000 World Championship Deck Janosh Kuhn	deck	championship	3bd7593a-c97a-58a0-89a5-194374538dbb	
+wc00	2000 World Championship Deck Janosch Kuhn	deck	championship	3ffa6e9f-31eb-5866-bd6f-39cff42a9d48	
 wc00	2000 World Championship Deck Jon Finkel	deck	championship	4db4341c-0aee-5cd7-bc35-775935350f99	
 wc00	2000 World Championship Deck Nicolas Labarre	deck	championship	5169ca8e-6665-5716-80ae-b33d6308a684	
 wc00	2000 World Championship Deck Tom van de Logt	deck	championship	9bc58176-6066-5b22-9ef1-8672a69aae40	
@@ -289,6 +289,7 @@ ons	Onslaught Theme Deck Devastation	deck	theme	95796f98-1d7c-520d-bbde-1073f6b7
 ons	Onslaught Theme Deck Display	deck_box	theme	fd1514c6-d82c-55b1-a012-bac4884e9e3d	
 ons	Onslaught Theme Deck Ivory Doom	deck	theme	1e77e4c2-c015-506d-9488-c22233abd552	
 ons	Onslaught Tournament Pack	limited_aid_tool	tournament_deck	de0877c3-6604-50cc-a2e5-50d47d05fa29	
+ons	Onslaught Tournament Pack Display	limited_aid_case	tournament_deck	535b3369-d9ba-5930-bba1-d95f0f73983b	
 lgn	Legions Booster Box	booster_box	default	4cdee41e-4282-59bd-b73d-5f7c0cc09c83	
 lgn	Legions Booster Pack	booster_pack	default	97d505c5-12cf-54cc-bd25-1b49645e5af9	
 lgn	Legions Fat Pack	bundle	fat_pack	ec6c50c8-1b9d-5e79-8543-4eb8b921c5c6	
@@ -792,6 +793,7 @@ rtr	Return to Ravnica Event Deck Wrack and Rage	deck	event	6f82138f-5b64-5b8d-94
 rtr	Return to Ravnica Fat Pack	bundle	fat_pack	6e6b09b4-3760-5890-9299-bb3ae5420b54	2012-10-05
 rtr	Return to Ravnica Holiday Gift Box	bundle	gift_bundle	8286bfef-a3f6-5846-9231-c309c3e8fbe9	
 rtr	Return to Ravnica Intro Pack Azorius Advance	deck	intro	83bbced3-60e5-5523-a1ab-38f3752cb3a2	2012-10-05
+rtr	Return to Ravnica Intro Pack Display	deck_box	intro	eca6a754-570d-530c-a8a0-b8f3addb014b	
 rtr	Return to Ravnica Intro Pack Golgari Growth	deck	intro	b1b7c4a8-d09b-5dbb-9cee-66bdd73347c2	2012-10-05
 rtr	Return to Ravnica Intro Pack Izzet Ingenuity	deck	intro	a1e82ace-6abf-5521-90ee-abae2335c8c3	2012-10-05
 rtr	Return to Ravnica Intro Pack Rakdos Raid	deck	intro	fdeac9ff-eb4f-596d-8b10-5c9951fbe442	2012-10-05
@@ -1644,21 +1646,21 @@ sld	Secret Lair Drop City Styles Foil	box_set	secret_lair	66905a0a-7c90-59fe-a9f
 sld	Secret Lair Drop Cool Ocean Breeze	box_set	secret_lair	bc09510a-9682-5812-bbd7-75c43048eede	
 sld	Secret Lair Drop Cool Ocean Breeze Foil	box_set	secret_lair	7344ea10-7ba4-5239-b4fe-261203f779cc	
 sld	Secret Lair Drop Crocodile Jacksons Monstrous Menagerie	box_set	secret_lair	cff258e1-2e9a-510b-99b4-ded71d7615b3	
-sld	Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Foil Etched	box_set	secret_lair	fe2703b6-2c82-5d41-9f1e-8adacebc50b9	
+sld	Secret Lair Drop Crocodile Jacksons Monstrous Menagerie Etched	box_set	secret_lair	cc6eb0e6-6a16-58b7-a975-d161bafd483e	
 sld	Secret Lair Drop Culture Shocks Bant	box_set	secret_lair	49b3b54d-f0cd-51ce-a2fd-a61c477a76f3	
 sld	Secret Lair Drop Culture Shocks Esper	box_set	secret_lair	9fb79ce0-12ef-52c6-981d-49e5118ade70	
 sld	Secret Lair Drop Culture Shocks Grixis	box_set	secret_lair	af0fc96f-a014-5683-b3cd-affb81cd951a	
 sld	Secret Lair Drop Culture Shocks Jund	box_set	secret_lair	8e94abdc-93e7-5178-b719-2616e648e58e	
 sld	Secret Lair Drop Culture Shocks Naya	box_set	secret_lair	412f5a67-48f9-56b9-a43d-1866c98fa9ef	
 sld	Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans	box_set	secret_lair	03f1278a-57d9-517c-9420-4ecc03a37d0d	
-sld	Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Foil Etched	box_set	secret_lair	b7151c40-48a6-597c-b242-18a01734cdd1	
+sld	Secret Lair Drop Dan Frazier Is Back Again The Allied Talismans Etched	box_set	secret_lair	d19de012-45e7-5b5d-9c7a-c341be4cdf95	
 sld	Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans	box_set	secret_lair	65d2b514-ee6e-5baf-9943-759f34e9facc	
-sld	Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Foil Etched	box_set	secret_lair	330b1421-08da-57c4-95f1-848e3d90c9d5	
+sld	Secret Lair Drop Dan Frazier Is Back Again The Enemy Talismans Etched	box_set	secret_lair	1d463e79-7dfe-51d8-9f41-8b6e3a555bef	
 sld	Secret Lair Drop Dan Frazier is Back The Allied Signets	box_set	secret_lair	49e589a7-1ea4-560f-87fa-3be2855d281d	
 sld	Secret Lair Drop Dan Frazier is Back The Allied Signets Foil	box_set	secret_lair	f3b42d30-711d-5220-8b10-97e8ccceacbd	
 sld	Secret Lair Drop Dan Frazier is Back The Enemy Signets	box_set	secret_lair	c288f707-b4da-5f04-8f95-450fda37fa66	
 sld	Secret Lair Drop Dan Frazier is Back The Enemy Signets Foil	box_set	secret_lair	32d96208-8b7d-56ea-a36b-28bddf9c9334	
-sld	Secret Lair Drop Dan Fraziers Mox Box Foil Etched	box_set	secret_lair	7936f398-c08e-5ef3-be37-63dd8c294f69	2023-09-23
+sld	Secret Lair Drop Dan Fraziers Mox Box Etched	box_set	secret_lair	d10abcf3-329b-5335-937c-6fc217b8bebd	2023-09-23
 sld	Secret Lair Drop Death Is Temporary Metal Is Forever	box_set	secret_lair	d800ba2a-1e59-5efa-974a-f95e4041c742	2023-09-06
 sld	Secret Lair Drop Death Is Temporary Metal Is Forever Foil	box_set	secret_lair	983fcdfb-a3f1-5460-aef9-4066f6329ce5	2023-09-06
 sld	Secret Lair Drop Deceptive Divination	box_set	secret_lair	d10b0710-6f0b-5f25-85ba-a4dfa49a8b92	2024-03-15
@@ -1775,6 +1777,7 @@ sld	Secret Lair Drop Prismatic Nightmares Rainbow Foil	box_set	secret_lair	6ced2
 sld	Secret Lair Drop Purrfection	box_set	secret_lair	c91538d4-debe-5c50-aa88-25c8a46de3ba	
 sld	Secret Lair Drop Purrfection Foil	box_set	secret_lair	5ccc43cf-7808-5458-a233-4143e24d38be	
 sld	Secret Lair Drop Restless in Peace	box_set	secret_lair	c11bf074-7229-53df-942f-56a43b858195	
+sld	Secret Lair Drop Roadshow Edition Burning Revelations Rainbow Foil	box_set	secret_lair	36ae9f8e-7bb6-5bd8-8d9b-1c7cce29fbed	
 sld	Secret Lair Drop Rule the Room	box_set	secret_lair	d66ad516-97b3-5216-86dc-9fa761cc6659	
 sld	Secret Lair Drop Rule the Room Foil	box_set	secret_lair	76013a6d-ad60-5665-8811-1772da1a8fdf	
 sld	Secret Lair Drop Saturday Morning DandD	box_set	secret_lair	b19ca0fd-5271-52f8-b9b7-8dee082cf8fe	
@@ -2657,9 +2660,24 @@ clu	Ravnica Clue Edition Case	bundle_case	game_night	9bd3eeff-8f8a-5bdf-b7f8-6f2
 pip	Fallout Collector Booster Box	booster_box	collector	ccc8370c-c0c5-58af-8ec4-9669782f9c37	2024-03-08
 pip	Fallout Collector Booster Box Case	booster_case	collector	67ceb0fb-5949-5110-be9d-91cdeecd8531	2024-03-08
 pip	Fallout Collector Booster Pack	booster_pack	collector	2fc498e6-b9c7-5104-ae4a-d1d9c6a4fbfc	2024-03-08
+pip	Fallout Collector Booster Sample Pack	booster_pack	promotional	7a584835-af39-59bb-826f-32152df22ca5	
 pip	Fallout Commander Deck Display	deck_box	commander	9d373e6e-abeb-55b7-b1b5-6b5cf6875b45	2024-03-08
 pip	Fallout Commander Deck Hail Caesar	deck	commander	10569c6c-d547-5605-9d4b-6b165817ede0	2024-03-08
 pip	Fallout Commander Deck Mutant Menace	deck	commander	efe144d5-6413-5464-b709-4748a0fa6995	2024-03-08
 pip	Fallout Commander Deck Science	deck	commander	c2974b81-2006-59c4-bc63-e4fe2fb3e969	2024-03-08
 pip	Fallout Commander Deck Scrappy Survivors	deck	commander	a86a2bee-752f-543c-9f96-c7e64c3cab8d	2024-03-08
 pip	Fallout Commander Decks Set of Four	subset	commander	11aae577-e2a7-5614-9e08-57d8255a2ef5	
+otc	Outlaws of Thunder Junction Commander Deck Desert Bloom	deck	commander	0669aced-dea1-5748-865f-3b11060546fd	2024-04-19
+otc	Outlaws of Thunder Junction Commander Deck Display	deck_box	commander	02393b20-bc9a-5b06-befd-787e257f3a6a	2024-04-19
+otc	Outlaws of Thunder Junction Commander Deck Grand Larceny	deck	commander	e5dd120f-1ddb-5522-975b-bf2e59474c04	2024-04-19
+otc	Outlaws of Thunder Junction Commander Deck Most Wanted	deck	commander	4233fcb4-c1f6-5ccc-9a36-c0cbf021ae93	2024-04-19
+otc	Outlaws of Thunder Junction Commander Deck Quick Draw	deck	commander	739e751a-c299-5ac9-94c2-23f60e3b172f	2024-04-19
+otj	Outlaws of Thunder Junction Bundle	bundle	default	dc7bb271-735d-5f5d-9b51-13c644819bb3	2024-04-19
+otj	Outlaws of Thunder Junction Bundle Case	bundle_case	default	230724ed-2bb7-5915-8acf-52f210226e43	2024-04-19
+otj	Outlaws of Thunder Junction Collector Booster Box	booster_box	collector	2965559b-fc0b-5c06-b156-47bcf61be207	2024-04-19
+otj	Outlaws of Thunder Junction Collector Booster Box Case	booster_case	collector	708b2f1d-80ea-5b45-a31f-8863acb4704e	2024-04-19
+otj	Outlaws of Thunder Junction Collector Booster Pack	booster_pack	collector	6b307a92-0a52-5ecc-aaeb-1fa4180ec7ad	2024-04-19
+otj	Outlaws of Thunder Junction Play Booster Box	booster_box	play	7a09908f-ec2c-5463-8d39-8e2641d74db9	2024-04-19
+otj	Outlaws of Thunder Junction Play Booster Box Case	booster_case	play	7b3a9bd3-0c91-56e8-bf91-4ef029035a68	2024-04-19
+otj	Outlaws of Thunder Junction Play Booster Pack	booster_pack	play	7c02f937-ddc8-57af-9cf7-a09f7c0be1c3	2024-04-19
+otj	Outlaws of Thunder Junction Prerelease Pack	limited_aid_tool	prerelease_kit	7e1ce491-fe15-5773-a792-169fb1c9ee5d	2024-04-19

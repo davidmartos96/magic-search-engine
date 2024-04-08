@@ -7,6 +7,9 @@ class PatchSetTypes < Patch
     each_set do |set|
       set_code = set["code"]
       main_set_type = set.delete("type").tr("_", " ")
+
+      main_set_type = "alchemy" if set_code == "ymkm" # mtgjson bug
+
       set_types = [main_set_type]
 
       if set["custom"]
@@ -69,10 +72,14 @@ class PatchSetTypes < Patch
         set_types << "promo" << "sld"
       when "past"
         set_types << "shandalar"
+      when /\Aps\d\d\z/, "psdc"
+        set_types << "promo" << "box" << "sdcc"
       when "pz2", /\Ap...\z/
         set_types << "promo"
       when /\Ass\d/
         set_types << "spellbook" << "box"
+      when "clu"
+        set_types << "box" << "booster"
       end
 
       # Some of these are not actually funny sets, just promo sets mixing funny and regular cards (like plst)

@@ -104,7 +104,7 @@ class ExportFormatterBasic < ExportFormatter
 
   def data
     result = []
-    @db.supported_booster_types.each do |booster_code, booster|
+    @db.unique_supported_booster_types.each do |booster_code, booster|
       # save @booster for better error messages
       @booster = booster = flatten_pack(booster)
       sheets = extract_sheets(booster)
@@ -152,7 +152,8 @@ class ExportFormatterExtended < ExportFormatter
 
   def data
     result = []
-    @db.supported_booster_types.each do |booster_code, booster|
+    @db.unique_supported_booster_types.each do |booster_code, booster|
+      next unless booster_code == booster.code
       booster = flatten_pack(booster)
       sheets = extract_sheets(booster)
       result << {
@@ -221,7 +222,9 @@ class ExportFormatterExperimental < ExportFormatter
 
   def data
     result = {}
-    @db.supported_booster_types.each do |booster_code, booster|
+    @db.unique_supported_booster_types.each do |booster_code, booster|
+      next unless booster_code == booster.code
+      next if booster_code == "slc" # can't mix foil and nonfoil in this format
       set_code = booster.set_code.upcase
       booster_type = booster.code.split("-", 2)[1] || "default"
       booster = flatten_pack(booster)
