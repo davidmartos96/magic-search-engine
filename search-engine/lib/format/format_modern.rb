@@ -61,6 +61,9 @@ class FormatModern < Format
       "lci",
       "mkm",
       "otj",
+      "big",
+      "h2r",
+      "mh3",
     ]
   end
 end

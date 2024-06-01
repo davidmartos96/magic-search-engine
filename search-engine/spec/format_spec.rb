@@ -8,7 +8,7 @@ describe "Formats" do
     assert_search_results "f:extended" # Does not exist according to mtgjson
     assert_search_equal_cards "f:standard",
       %[
-        e:mid,vow,neo,snc,dmu,bro,one,mom,mat,woe,lci,mkm,otj
+        e:mid,vow,neo,snc,dmu,bro,one,mom,mat,woe,lci,mkm,otj,big
         -(The Meathook Massacre)
         -(Invoke Despair)
         -(Fable of the Mirror-Breaker)
@@ -225,6 +225,7 @@ describe "Formats" do
   end
 
   # Used to be Lurrus
+  # And now it's all the sticker and attraction cards, and I don't even know if the format is still used or not really
   it "mtgo commander" do
     assert_count_cards 'banned:vintage legal:"mtgo commander"', 0
   end

@@ -70,6 +70,7 @@ describe Deck do
       ["modern", "Arena Starter Deck"], # LTR
       ["standard", "Deck Builder's Toolkit"],
       ["box", "Challenger Deck"], # Q07
+      ["core", "Sample Deck"],
       ["shandalar", "Shandalar Enemy Deck"], # assigned to PAST, as there's no Shandalar set
       # Non-decks, this needs to be sorted out at some point
       ["box", "Box"],
@@ -130,12 +131,14 @@ describe Deck do
     end
   end
 
+  # This is basically false now and every XXX set now has XXc associated with it
+  # It's arguably useful for checking no really weird card leaks
   it "cards in precon sets have no off-set cards" do
     precon_sets.each do |set|
       sets_found = set.decks.flat_map(&:physical_cards).map(&:set).map(&:code).uniq
-      # Contains some Amonkhet cards
       case set.code
       when "e01"
+        # Contains some Amonkhet cards
         sets_found.should match_array ["e01", "akh", "oe01"]
       when "hop"
         sets_found.should match_array ["hop", "ohop"]
@@ -193,6 +196,8 @@ describe Deck do
         sets_found.should match_array ["c18", "oc18"]
       when "c19"
         sets_found.should match_array ["c19", "oc19"]
+      when "otc"
+        sets_found.should match_array ["otc", "otj"]
       else
         sets_found.should eq [set.code]
       end
@@ -308,6 +313,7 @@ describe Deck do
     db.decks_containing(som_arc_trail).map{|deck| [deck.set_name, deck.name, deck.type] }.should eq([
       ["Scars of Mirrodin", "Relic Breaker", "Intro Pack"],
       ["Mirrodin Besieged", "Mirromancy", "Intro Pack"],
+      ["Magic 2012", "Red Deck A", "Sample Deck"],
       ["Dark Ascension", "Gleeful Flames", "Event Deck"],
       ["Magic 2013", "Sweet Revenge", "Event Deck"],
     ])

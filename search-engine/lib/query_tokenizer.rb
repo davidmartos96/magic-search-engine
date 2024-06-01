@@ -214,7 +214,7 @@ class QueryTokenizer
         tokens << [:test, ConditionMana.new(op, mana)]
       elsif s.scan(/(?:cast)\s*(?:=|:)\s*((?:[\dwubrgxyzchmnos]|\{.*?\})*)/i)
         tokens << [:test, ConditionCast.new(s[1])]
-      elsif s.scan(/(is|not)\s*[:=]\s*(vanilla|spell|permanent|funny|timeshifted|colorshifted|reserved|multipart|promo|primary|secondary|front|back|commander|digital|reprint|fetchland|shockland|dual|fastland|bounceland|gainland|filterland|checkland|manland|creatureland|scryland|battleland|guildgate|karoo|painland|triland|canopyland|shadowland|storageland|tangoland|canland|phyrexian|hybrid|augment|unique|booster|draft|historic|holofoil|foilonly|nonfoilonly|foil|nonfoil|foilboth|brawler|keywordsoup|partner|oversized|tournament|spotlight|story|modal|textless|fullart|full|ante|custom|mainfront|tricycleland|triome|racist|masterpiece|cycleland|bikeland|bicycleland|horizontal|vertical|baseset|basictype|foreign|etched|hero|maindeck|alchemy|rebalanced|specialized|spellbook|card|token)\b/i)
+      elsif s.scan(/(is|not)\s*[:=]\s*(vanilla|spell|permanent|funny|timeshifted|colorshifted|reserved|multipart|promo|primary|secondary|front|back|commander|digital|reprint|fetchland|shockland|dual|fastland|bounceland|gainland|filterland|checkland|manland|creatureland|scryland|battleland|guildgate|karoo|painland|triland|canopyland|shadowland|storageland|tangoland|canland|phyrexian|hybrid|augment|unique|booster|draft|historic|holofoil|foilonly|nonfoilonly|foil|nonfoil|foilboth|brawler|keywordsoup|partner|oversized|tournament|spotlight|story|modal|textless|fullart|full|ante|custom|mainfront|tricycleland|triome|racist|masterpiece|cycleland|bikeland|bicycleland|horizontal|vertical|baseset|basictype|foreign|etched|hero|maindeck|alchemy|rebalanced|specialized|spellbook|card|token|stickers|attraction)\b/i)
         tokens << [:not] if s[1].downcase == "not"
         cond = s[2].capitalize
         cond = "Bounceland" if cond == "Karoo"
@@ -350,10 +350,10 @@ class QueryTokenizer
         else
           tokens << [:test, ConditionInEdition.new(*sets)]
         end
-      elsif s.scan(/(is|frame|not)\s*[:=]\s*(compasslanddfc|colorshifted|devoid|extendedart|legendary|miracle|mooneldrazidfc|nyxtouched|originpwdfc|sunmoondfc|tombstone|inverted|etched|draft|showcase|snow|fullart|companion|waxingandwaningmoondfc|nyxborn|lesson|fandfc|upsidedowndfc|convertdfc|storyspotlight|shatteredglass|burstfoil|vehicle|stamped|promo)\b/i)
+      elsif s.scan(/(is|frame|not)\s*[:=]\s*(compasslanddfc|colorshifted|devoid|extendedart|legendary|miracle|mooneldrazidfc|nyxtouched|originpwdfc|sunmoondfc|tombstone|inverted|etched|draft|showcase|snow|fullart|companion|waxingandwaningmoondfc|nyxborn|lesson|fandfc|upsidedowndfc|convertdfc|storyspotlight|shatteredglass|burstfoil|vehicle|stamped|promo|spree)\b/i)
         tokens << [:not] if s[1].downcase == "not"
         tokens << [:test, ConditionFrameEffect.new(s[2].downcase)]
-      elsif s.scan(/(is|promo|not)\s*[:=]\s*((?:alchemy|ampersand|arenaleague|boosterfun|boxtopper|brawldeck|bringafriend|bundle|buyabox|commanderparty|concept|convention|datestamped|draculaseries|draftweekend|duels|event|fnm|galaxyfoil|gameday|giftbox|gilded|glossy|godzillaseries|instore|intropack|jpwalker|judgegift|league|mediainsert|neonink|oilslick|openhouse|planeswalkerstamped|playerrewards|playpromo|premiereshop|prerelease|promopack|rebalanced|release|schinesealtart|setextension|setpromo|stamped|stepandcompleat|surgefoil|textured|themepack|thick|tourney|wizardsplaynetwork|serialized|halofoil|doublerainbow|moonlitland|confettifoil|starterdeck|storechampionship|silverfoil|embossed|poster|scroll|invisibleink|dossier|magnified|ravnicacity|rainbow|reversiblefront|reversibleback)\b|\*)/i)
+      elsif s.scan(/(is|promo|not)\s*[:=]\s*((?:alchemy|ampersand|arenaleague|boosterfun|boxtopper|brawldeck|bringafriend|bundle|buyabox|commanderparty|concept|convention|datestamped|draculaseries|draftweekend|duels|event|fnm|galaxyfoil|gameday|giftbox|gilded|glossy|godzillaseries|instore|intropack|jpwalker|judgegift|league|mediainsert|neonink|oilslick|openhouse|planeswalkerstamped|playerrewards|playpromo|premiereshop|prerelease|promopack|rebalanced|release|schinesealtart|setextension|setpromo|stamped|stepandcompleat|surgefoil|textured|themepack|thick|tourney|wizardsplaynetwork|serialized|halofoil|doublerainbow|moonlitland|confettifoil|starterdeck|storechampionship|silverfoil|embossed|poster|scroll|invisibleink|dossier|magnified|ravnicacity|rainbow|reversiblefront|reversibleback|vault|raisedfoil|rainbowfoil)\b|\*)/i)
         tokens << [:not] if s[1].downcase == "not"
         tokens << [:test, ConditionPromoType.new(s[2].downcase)]
       elsif s.scan(/(is|frame|not)\s*[:=]\s*(old|new|future|modern|m15)\b/i)
@@ -366,7 +366,7 @@ class QueryTokenizer
       elsif s.scan(/frame\s*[:=]\s*(?:"(.*?)"|([\.\p{L}\p{Digit}_]+))/i)
         frame = (s[1]||s[2]).downcase
         frame_types = %W[old new future modern m15]
-        frame_effects = %W[compasslanddfc colorshifted devoid extendedart legendary miracle mooneldrazidfc nyxtouched originpwdfc sunmoondfc tombstone inverted etched draft showcase snow fullart companion waxingandwaningmoondfc nyxborn stamped promo].sort
+        frame_effects = %W[compasslanddfc colorshifted devoid extendedart legendary miracle mooneldrazidfc nyxtouched originpwdfc sunmoondfc tombstone inverted etched draft showcase snow fullart companion waxingandwaningmoondfc nyxborn stamped promo spree].sort
         @warnings << "Unknown frame: #{frame}. Known frame types are: #{frame_types.join(", ")}. Known frame effects are: #{frame_effects.join(", ")}."
       elsif s.scan(/(is|not)\s*[:=]\s*(black-bordered|silver-bordered|white-bordered|gold-bordered)\b/i)
         tokens << [:not] if s[1].downcase == "not"
