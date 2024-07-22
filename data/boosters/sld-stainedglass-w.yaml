@@ -1,0 +1,7 @@
+name: 'SLD Stained Glass Planeswalkers - White'
+pack:
+  stainedglass_white: 1
+sheets:
+  stainedglass_white:
+    rawquery: "e:sld number>=501 number<=536 color>=white"
+    foil: true
