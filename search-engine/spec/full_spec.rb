@@ -68,11 +68,12 @@ describe "Full Database Test" do
       "Rimrock Knight", "Boulder Rush",
       "Shepherd of the Flock", "Usher to Safety",
       "Smitten Swordmaster", "Curry Favor",
-      "Smelt (CMB1)", "Herd", "Saw",
+      "Smelt (CMB1)", "Herd", "Saw (CMB1)",
       "Ghost Lantern", "Bind Spirit",
       "Callous Sell-Sword", "Burn Together",
       "Pollen-Shield Hare", "Hare Raising",
-      "Kellan, Daring Traveler", "Journey On"
+      "Kellan, Daring Traveler", "Journey On",
+      "Their", "There", "They're"
     # Semantics of that changed
     # it used to match a lot of double-faced cards
     # then it all disappeared as DFCs share cmc
@@ -90,13 +91,14 @@ describe "Full Database Test" do
 
   it "color identity" do
     assert_search_results "ci:wu t:basic",
+      "Barry's Land",
       "Island",
+      "Omnipresent Impostor",
       "Plains",
       "Snow-Covered Island",
       "Snow-Covered Plains",
-      "Wastes",
-      "Barry's Land",
-      "Snow-Covered Wastes"
+      "Snow-Covered Wastes",
+      "Wastes"
   end
 
   it "year" do
@@ -213,6 +215,7 @@ describe "Full Database Test" do
       "Impulse",
       "Insectile Aberration",
       "Kird Ape",
+      "Lightning Bolt",
       "Lotus Petal",
       "Rhystic Study",
       "Sol Ring"
@@ -244,6 +247,7 @@ describe "Full Database Test" do
     assert_search_results "mana>mmmmm",
       "B.F.M. (Big Furry Monster)",
       "B.F.M. (Big Furry Monster, Right Side)",
+      "Doomsday Excruciator",
       "Khalni Hydra",
       "Primalcrux"
     assert_count_cards "e:ktk (charm OR ascendancy) mana=mno", 10
@@ -332,8 +336,8 @@ describe "Full Database Test" do
     assert_count_cards "r:special e:tsr", 121
   end
 
-  it "all planeswalkers are legendary (except CMB1)" do
-    assert_search_results "t:planeswalker -t:legendary", "Personal Decoy"
+  it "all planeswalkers are legendary (except CMB1 and MB2)" do
+    assert_search_results "t:planeswalker -t:legendary", "Personal Decoy", "Wrenn and One"
   end
 
   it "frame:" do

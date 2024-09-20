@@ -64,6 +64,9 @@ class FormatModern < Format
       "big",
       "h2r",
       "mh3",
+      "acr",
+      "blb",
+      "dsk",
     ]
   end
 end

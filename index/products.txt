@@ -33,7 +33,7 @@ fem	Fallen Empires Booster Box	booster_box	default	ae71589b-0372-5166-9408-d7ff8
 fem	Fallen Empires Booster Pack	booster_pack	default	cbbd7529-f4d9-53ac-bd3f-a55bd930c679	
 4ed	Fourth Edition Booster Box	booster_box	default	01419779-7279-5871-9e3a-bd00f03e7a39	
 4ed	Fourth Edition Booster Pack	booster_pack	default	5cdef45e-395c-5c65-a6a1-3a44136308bf	
-4ed	Fourth Edition Gift Box	bundle	gift_bundle	f1e98f27-9dfc-54a0-9d94-336b37689f4a	2019-01-29
+4ed	Fourth Edition Gift Box	multiple_decks	two_player_starter	f1e98f27-9dfc-54a0-9d94-336b37689f4a	2019-01-29
 4ed	Fourth Edition Starter Deck	limited_aid_tool	starter_deck	aadb04f0-36cf-564a-b105-5466938faff7	
 4ed	Fourth Edition Starter Deck Display	limited_aid_case	starter_deck	e986d63f-dbd2-525b-9a11-c22989b1a750	
 ice	Ice Age Booster Box	booster_box	default	6cba11df-9d29-53eb-80ac-147be0689ddb	
@@ -42,8 +42,6 @@ ice	Ice Age Starter Deck	limited_aid_tool	starter_deck	336c0f3c-7922-530d-b687-c
 ice	Ice Age Starter Deck Display	limited_aid_case	starter_deck	bc956a68-0756-516e-82b3-9526e43b7b3c	
 chr	Chronicles Booster Box	booster_box	default	339fb73b-ae6d-5fa0-af2a-3f883a1c981b	
 chr	Chronicles Booster Pack	booster_pack	default	e541259a-015f-5477-9a10-bdecab8fd0e4	
-chr	Chronicles Japanese Booster Box	booster_box	default	8df5d035-6d44-5cd0-a795-607234044c77	
-chr	Chronicles Japanese Booster Pack	booster_pack	default	e7f52878-eaaf-574f-ad81-c718d12a8105	
 hml	Homelands Booster Box	booster_box	default	6454c98e-0e8c-5bc7-a45a-76cea4f16dd7	
 hml	Homelands Booster Pack	booster_pack	default	c9de01e3-8ad0-5efa-a5f4-4cfeac03e5c7	
 ptc	1996 World Championship Deck Bertrand Lestree	deck	championship	412f2a14-c36d-554c-9ec5-b0beb0b7b671	
@@ -63,17 +61,11 @@ mir	Mirage Booster Pack	booster_pack	default	fc64e977-1e91-5da0-804e-09ec7e9d524
 mir	Mirage Starter Deck	limited_aid_tool	starter_deck	96a16e8c-7695-5768-aa9d-f84cc295a5ca	
 mir	Mirage Starter Deck Display	limited_aid_case	starter_deck	ba1fcec0-42d4-5dab-a6c9-81cf49a78f76	
 itp	Introductory Two Player Set	multiple_decks	two_player_starter	1d56d341-f8fe-5800-9c9d-085f1f8814bf	
-itp	Introductory Two Player Set Gift Edition	multiple_decks	two_player_starter	14fb8593-1680-57a4-8214-83018d58cee0	1996-12-1
+itp	Introductory Two Player Set Gift Edition	multiple_decks	two_player_starter	14fb8593-1680-57a4-8214-83018d58cee0	1996-12-01
 vis	Multiverse Gift Box	bundle	gift_bundle	bd2b71ea-b3a6-5781-92a8-fb04e66811d5	
 vis	Visions Booster Box	booster_box	default	7a437ad7-1971-539c-bccc-68344fedb6d6	
 vis	Visions Booster Pack	booster_pack	default	5a1aeba8-e8b4-543e-b108-93496c417ad4	
 vis	Visions Preview Printing Booster Pack	booster_pack	promotional	56e0f037-64b3-5c5d-b06d-3a4195caf8f1	
-vis	Visions Theme Deck Display	deck_box	theme	5ed75b35-5e45-5618-b0de-2d4229ffbb6b	
-vis	Visions Theme Deck Legion of Glory	deck	theme	86606974-c026-5d7a-affd-4292b7e61802	
-vis	Visions Theme Deck Savage Stompdown	deck	theme	9cf24732-4960-5aa2-876e-f1c1d9bceceb	
-vis	Visions Theme Deck Unnatural Forces	deck	theme	6824785f-ed4b-54e9-8c88-6ff16264ff38	
-vis	Visions Theme Deck Wild-Eyed Frenzy	deck	theme	f19cb15d-0c0e-5f4d-b292-be86f824e80b	
-vis	Visions Theme Decks Set of 4	subset	theme	7dd5f83f-d6ad-58bc-b220-c9c2cc2cffba	
 5ed	Fifth Edition Booster Box	booster_box	default	bfe335c8-487a-5e51-a31b-540a723d8024	
 5ed	Fifth Edition Booster Pack	booster_pack	default	93389a2e-9a5e-5ef4-9afe-60898199b905	
 5ed	Fifth Edition Starter Deck	limited_aid_tool	starter_deck	ec6e6678-3869-57ab-ab9a-d210e16fbaa9	
@@ -85,13 +77,16 @@ por	Portal Booster Pack	booster_pack	default	c9a8447f-abb7-5cef-818f-2899c56a7df
 por	Portal Demo Game Booster	booster_pack	advanced	3638450e-e62d-5c22-9f2d-412f3f23b5ed	
 por	Portal Gift Box	bundle	gift_bundle	0dcdb445-e09f-5486-bc35-e784c54dd048	
 por	Portal Two Player Starter Set	multiple_decks	two_player_starter	40955f10-1ae5-59ba-aaac-a3a2ae41adcc	
+por	Portal Two Player Starter Set Display	deck_box	two_player_starter	ee2e3082-6a6e-5693-b75a-3a807cab5d19	
 pvan	Vanguard Gift Box	bundle	gift_bundle	c2a85236-f765-5c39-8dc4-bf433ad11201	
 wth	Weatherlight Booster Box	booster_box	default	4a4bed55-a98f-592b-b52f-9d50f55d66d6	
 wth	Weatherlight Booster Pack	booster_pack	default	9133952a-7fae-56e7-ac50-a7cbaadfcfa7	
+wc97	1997 World Championship Deck Box	deck_box	championship	193fafea-af7f-5904-9d8b-89bae9776a6b	
 wc97	1997 World Championship Deck Jakub Slemr	deck	championship	a1e42b5c-d6d8-548f-9130-f735c6ca266d	
 wc97	1997 World Championship Deck Janosch Kuhn	deck	championship	301a9320-af0d-585f-9622-53471cac332d	
 wc97	1997 World Championship Deck Paul McCabe	deck	championship	7b1ba26d-4ea9-5e15-b6b9-b49251676453	
 wc97	1997 World Championship Deck Svend Geertsen	deck	championship	a3cf1459-8b16-59b7-8e53-276d268cae57	
+wc97	1997 World Championship Decks Set of 4	subset	championship	7e71dfc8-5157-51ae-b9b2-219973b877ec	
 tmp	Tempest Booster Box	booster_box	default	e00d639c-b8cf-51a2-9eb5-270d1f4685cb	
 tmp	Tempest Booster Pack	booster_pack	default	21b87b9c-d0f2-5a4b-aee7-163c9813a3aa	
 tmp	Tempest Starter Deck	limited_aid_tool	starter_deck	96d0588c-79f4-53ac-bb27-23020e7d60a7	
@@ -101,6 +96,7 @@ tmp	Tempest Theme Deck Display	deck_box	theme	c859addf-eada-515d-8f75-63bded0be8
 tmp	Tempest Theme Deck The Flames of Rath	deck	theme	0d77cf61-7a1e-5f84-9c54-3209e57c4e0d	
 tmp	Tempest Theme Deck The Slivers	deck	theme	4a57a3e3-c3ca-5acc-b474-e7a444414499	
 tmp	Tempest Theme Deck The Swarm	deck	theme	a846221e-484e-51a6-973d-7d3a04fff452	
+tmp	Tempest Theme Decks Set of 4	subset	theme	4d737e31-e912-5ce2-89a8-a2ee9e1f5386	
 sth	Stronghold Booster Box	booster_box	default	e59a06e4-48ec-5b97-9826-1ea8382d0702	
 sth	Stronghold Booster Pack	booster_pack	default	424005f9-6be0-57e7-87f4-940a12071a8a	
 sth	Stronghold Theme Deck Call of the Kor	deck	theme	0d8d3786-a24e-5b81-8743-c57cb8fba8cf	
@@ -108,6 +104,7 @@ sth	Stronghold Theme Deck Display	deck_box	theme	aa19b92b-c8a0-50c4-99c6-bd8d148
 sth	Stronghold Theme Deck Migraine	deck	theme	b9dfc525-597d-55a9-9117-68b349314037	
 sth	Stronghold Theme Deck The Sparkler	deck	theme	6d38f0be-a161-5c27-94e3-f3430d3274d6	
 sth	Stronghold Theme Deck The Spikes	deck	theme	cd79727e-1a88-5856-819d-68568d36a509	
+sth	Stronghold Theme Decks Set of 4	subset	theme	f630a208-496d-53a4-9b7e-cf61c5529bfc	
 exo	Exodus Booster Box	booster_box	default	6a96fe22-ef37-5ff6-8d40-aae91120ad31	
 exo	Exodus Booster Pack	booster_pack	default	7a001473-a0b3-52e5-a0a2-2c86ce098008	
 exo	Exodus Theme Deck Display	deck_box	theme	9387a5ae-1567-515f-9089-f8de04d99ea7	
@@ -125,14 +122,17 @@ p02	Portal Second Age Theme Deck Martial Law	deck	theme	e6411d43-1e13-51fc-be3c-
 p02	Portal Second Age Theme Deck Natures Assault	deck	theme	aec58536-a670-5612-a644-00bf6b78fe40	
 p02	Portal Second Age Theme Deck Spellweaver	deck	theme	57f268ca-c3b9-5c0c-933c-0f46caf26469	
 p02	Portal Second Age Theme Deck The Nightstalkers	deck	theme	0fabf7ad-cad3-5b02-b73f-c48738834d5e	
+p02	Portal Second Age Theme Decks Set of 5	subset	theme	c529b47f-383a-530b-89b6-e17bfa6d7e29	
 p02	Portal Second Age Two Player Starter Deck	multiple_decks	two_player_starter	d491705b-c660-595b-be69-2052ba78bd41	
 p02	Portal Second Age Two Player Starter Display	deck_box	two_player_starter	2d5a285c-c453-5543-bab7-7ae8a5b95c0d	
 ugl	Unglued Booster Box	booster_box	default	0c5bc6af-bcd4-5d80-9ebd-98a5a4dceb2d	
 ugl	Unglued Booster Pack	booster_pack	default	854f83da-bb8e-58e8-adc6-e4efc447d13c	
 wc98	1998 World Championship Deck Ben Rubin	deck	championship	60578129-6080-50e2-8ae2-8fc5f6784381	
+wc98	1998 World Championship Deck Box	deck_box	championship	02c13c9c-a075-5ad1-b663-9790e7506858	
 wc98	1998 World Championship Deck Brian Hacker	deck	championship	c79bc090-45f7-5d32-bd48-68e3a0d4220e	
 wc98	1998 World Championship Deck Brian Selden	deck	championship	d1cda0d4-30f2-5194-a28e-cb3d1a7f4f3f	
 wc98	1998 World Championship Deck Randy Buehler	deck	championship	8f422720-4260-593e-b7c2-f0296e7ba941	
+wc98	1998 World Championship Decks Set of 4	deck_box	championship	afc29599-bb0b-55e1-b6d8-bce3a3b9726b	
 usg	Urzas Saga Booster Box	booster_box	default	e4c989fc-0335-5bcc-b338-84fc202f75a1	
 usg	Urzas Saga Booster Pack	booster_pack	default	c901ab11-9d40-5fc1-a603-470b42f4b48b	
 usg	Urzas Saga Theme Deck Display	deck_box	theme	10ed7e34-d80c-5e05-a3cb-e2d9c63e35c2	
@@ -140,6 +140,7 @@ usg	Urzas Saga Theme Deck Sleeper	deck	theme	4656cb47-34b8-5dff-93bd-577f0e7e01f
 usg	Urzas Saga Theme Deck Special Delivery	deck	theme	24c34c41-34ac-55ba-a4ff-ac9ee44f0366	
 usg	Urzas Saga Theme Deck The Plague	deck	theme	13e34096-9752-5d9f-9658-0ecd712e60cc	
 usg	Urzas Saga Theme Deck Tombstone	deck	theme	c7fb49ad-09ce-50bc-b8f6-552e0a96b994	
+usg	Urzas Saga Theme Decks Set of 4	subset	theme	f77a190d-b730-56d9-810c-394ec360f5ce	
 usg	Urzas Saga Tournament Pack	limited_aid_tool	tournament_deck	96772e6d-0aba-5362-ab10-d5f3f6d23634	
 usg	Urzas Saga Tournament Pack Display	limited_aid_case	tournament_deck	dc86671d-1710-5773-90ae-d9883d621bfe	
 ath	Anthologies	multiple_decks	other	2dca49e9-8c34-550d-b0e1-ba07a52a2d3b	
@@ -150,6 +151,7 @@ ulg	Urzas Legacy Theme Deck Display	deck_box	theme	29a3e3eb-96c7-5662-a779-3f983
 ulg	Urzas Legacy Theme Deck Phyrexian Assault	deck	theme	fc38f6c9-a9a2-544a-9b76-1a3a007e5ea5	
 ulg	Urzas Legacy Theme Deck Radiants Revenge	deck	theme	ffc34058-2090-5835-b29b-f3fb8f6f85aa	
 ulg	Urzas Legacy Theme Deck Time Drain	deck	theme	ade128d4-3feb-5e55-8240-b4366cee9b42	
+ulg	Urzas Legacy Theme Decks Set of 4	subset	theme	4b0b7b4a-d048-5bee-8fc4-d76ecdde11e3	
 6ed	Classic Sixth Edition Booster Box	booster_box	default	9f80e55a-88d0-59dd-a13f-fe967bd7f5c2	
 6ed	Classic Sixth Edition Booster Pack	booster_pack	default	45c579b9-6951-59e1-8d30-f44a600f2a56	
 6ed	Classic Sixth Edition Tournament Pack	limited_aid_tool	tournament_deck	55e22afb-ad7d-52cd-ab52-056e3a9705b0	
@@ -171,6 +173,7 @@ uds	Urzas Destiny Theme Deck Battle Surge	deck	theme	59b5d447-0445-59ed-b02c-13e
 uds	Urzas Destiny Theme Deck Display	deck_box	theme	44623b62-bfa4-51a2-8948-79f75a3d48f3	
 uds	Urzas Destiny Theme Deck Enchanter	deck	theme	6684a38d-ad2b-5c65-9f73-266921d16597	
 uds	Urzas Destiny Theme Deck Fiendish Nature	deck	theme	354f7dd5-ba02-5cb9-92d5-762754bbc748	
+uds	Urzas Destiny Theme Decks Set of 4	subset	theme	46ddc33d-8178-59f6-becc-d807fa3c1814	
 s99	Starter 1999 Booster Box	booster_box	starter_deck	b4e8db8e-5bf6-5dc5-b10c-6955d8d59e1c	
 s99	Starter 1999 Booster Pack	booster_pack	starter_deck	2e237abb-7f02-5eac-98fe-4b680586f02c	
 s99	Starter 1999 Demo Game Booster Pack	booster_pack	promotional	6356eb22-9a81-554f-bd19-4d90deaab024	
@@ -183,10 +186,13 @@ s99	Starter 1999 Theme Deck Display	deck_box	theme	ff36e134-a47c-59ba-aef7-97fa1
 s99	Starter 1999 Theme Deck Goblin Assault	deck	theme	74ce0c73-3d75-504b-97fb-eaa78a9484c7	
 s99	Starter 1999 Theme Deck Impaler	deck	theme	c77a8525-5d05-5e30-bdd8-ff9034c99994	
 s99	Starter 1999 Theme Deck Time Curse	deck	theme	048c2666-61ff-55a7-8c5d-5b0112289700	
+s99	Starter 1999 Theme Decks Set of 5	subset	theme	263009b9-549d-5bae-b92e-330067619818	
+wc99	1999 World Championship Deck Box	deck_box	championship	8470cc34-733f-5c11-9465-c686aa9cef85	
 wc99	1999 World Championship Deck Jakub Slemr	deck	championship	d3446c61-c66e-56c6-8e10-32bdab78dda4	
 wc99	1999 World Championship Deck Kai Budde	deck	championship	726f4c37-5c3d-58a3-b7f9-e3ec78a3ad29	
 wc99	1999 World Championship Deck Mark Le Pine	deck	championship	6fe41486-d20b-5402-ab20-e5a31a6feccb	
 wc99	1999 World Championship Deck Matt Linde	deck	championship	9382c0fb-f0a6-53c7-b61d-a3568c234638	
+wc99	1999 World Championship Decks Set of 4	subset	championship	2a93281c-c476-56fa-a040-7d2126121c47	
 mmq	Mercadian Masques Booster Box	booster_box	default	e74fdcef-517f-50e4-9b0d-997b9ffcb031	
 mmq	Mercadian Masques Booster Pack	booster_pack	default	65bc1540-791e-5561-b050-658c4e65e28f	
 mmq	Mercadian Masques Fat Pack	bundle	fat_pack	0bb27b60-13c3-5d37-9151-e138b17788fd	
@@ -195,6 +201,7 @@ mmq	Mercadian Masques Theme Deck Display	deck_box	theme	4b016f7e-9466-545e-8844-
 mmq	Mercadian Masques Theme Deck Disrupter	deck	theme	38a48b42-2aad-552c-a0d0-79d8d48b0a1d	
 mmq	Mercadian Masques Theme Deck Rebels Call	deck	theme	903c2f25-4c12-52ff-bc5d-2f3cc1990081	
 mmq	Mercadian Masques Theme Deck Tidal Mastery	deck	theme	ef1e5269-bf1a-5f68-90b2-9db62e7845a2	
+mmq	Mercadian Masques Theme Decks Set of 4	subset	theme	5e225bb9-d16e-584d-ad6d-4a80469a47c9	
 mmq	Mercadian Masques Tournament Pack	limited_aid_tool	tournament_deck	1c7870eb-5ce3-5be0-b0fb-644bfe832d14	
 mmq	Mercadian Masques Tournament Pack Display	limited_aid_case	tournament_deck	0af776ef-9343-5a68-9e35-caa3c61b0c4f	
 brb	Battle Royale Multi Player Box set	multiple_decks	game_night	da578d52-945a-5c4a-9fc6-16bd3bcb6570	
@@ -210,6 +217,7 @@ nem	Nemesis Theme Deck Display	deck_box	theme	460b94f2-ba58-5e18-9df4-cc2e49128a
 nem	Nemesis Theme Deck Eruption	deck	theme	b783fe2e-16f4-5dac-944a-73377ccfb2b8	
 nem	Nemesis Theme Deck Mercenaries	deck	theme	c351a396-874c-5059-a072-b0ffd1fe3cb4	
 nem	Nemesis Theme Deck Replicator	deck	theme	d1348419-58c5-550d-a23d-6e681596dbcd	
+nem	Nemesis Theme Decks Set of 4	subset	theme	72b73944-e350-5bca-8eea-d043f957800a	
 s00	Starter 2000 Advanced Booster Pack	booster_pack	advanced	a74103c0-ff84-5ee8-997f-5336ad0cd9de	
 s00	Starter 2000 Demo Game Booster	booster_pack	promotional	627b02a0-cdef-5d94-af5c-98c91f0dc75f	
 s00	Starter 2000 Sampler Booster Pack	booster_pack	promotional	312b9d82-3a53-53d7-84cc-c05534547d86	2019-01-29
@@ -223,10 +231,13 @@ pcy	Prophecy Theme Deck Distress	deck	theme	9b346acb-9926-5314-86b5-7b0436c5cadb
 pcy	Prophecy Theme Deck Pummel	deck	theme	6ba5ea46-46f5-58a7-ae9b-928555e8425d	
 pcy	Prophecy Theme Deck Slither	deck	theme	4a48565c-9eac-534c-8719-e2c199a2bd00	
 pcy	Prophecy Theme Deck Turnaround	deck	theme	33ff1509-df96-5bd7-9a49-e4ec63413db4	
+pcy	Prophecy Theme Decks Set of 4	subset	theme	703ef1b4-4bbe-55f5-91aa-83e5b6c42499	
+wc00	2000 World Championship Deck Box	deck_box	theme	6733ec12-41fc-52ca-943f-8d514529043d	
 wc00	2000 World Championship Deck Janosch Kuhn	deck	championship	3ffa6e9f-31eb-5866-bd6f-39cff42a9d48	
 wc00	2000 World Championship Deck Jon Finkel	deck	championship	4db4341c-0aee-5cd7-bc35-775935350f99	
 wc00	2000 World Championship Deck Nicolas Labarre	deck	championship	5169ca8e-6665-5716-80ae-b33d6308a684	
 wc00	2000 World Championship Deck Tom van de Logt	deck	championship	9bc58176-6066-5b22-9ef1-8672a69aae40	
+wc00	2000 World Championship Decks Set of 4	subset	theme	3ff22935-c903-5ba7-9a57-8bf267d769e1	
 btd	Beatdown	multiple_decks	other	dfa9c011-ac53-51d9-bd2f-8590767f5303	
 inv	Invasion Booster Box	booster_box	default	3d1ca390-37df-5da1-afa7-65ca63242200	
 inv	Invasion Booster Pack	booster_pack	default	e634446e-4111-5781-ba46-1161cb3abb5a	
@@ -235,6 +246,7 @@ inv	Invasion Theme Deck Blowout	deck	theme	308d01d7-d39a-5165-a13f-46721cf60b29
 inv	Invasion Theme Deck Dismissal	deck	theme	119c72e6-1a36-5768-abba-9c690b4c0024	
 inv	Invasion Theme Deck Display	deck_box	theme	6d39af00-5440-54c6-906c-506c668c5d44	
 inv	Invasion Theme Deck Heavy Duty	deck	theme	9e5b2549-5f95-5014-a1dc-4dac9a276b23	
+inv	Invasion Theme Deck Set of 4	subset	theme	4fcb0f54-2b0e-5e70-83ef-d2ea1412e694	
 inv	Invasion Theme Deck Spectrum	deck	theme	2dc38c3d-97af-5900-bd36-0d5c192b0c07	
 inv	Invasion Tournament Pack	limited_aid_tool	tournament_deck	1971eacc-6305-5c8c-914d-663ae422c379	
 inv	Invasion Tournament Pack Display	limited_aid_case	tournament_deck	1b50ed20-b12f-54a1-8108-fb32e9e2bf31	
@@ -246,6 +258,7 @@ pls	Planeshift Theme Deck Comeback	deck	theme	68e80f04-bbb5-5b76-a3b4-99ee6a8af9
 pls	Planeshift Theme Deck Display	deck_box	theme	85ef968a-00b8-58c4-8013-2ae1be096529	
 pls	Planeshift Theme Deck Domain	deck	theme	93d9df41-42f9-56b2-bc45-cd6bd30e13dd	
 pls	Planeshift Theme Deck Scout	deck	theme	3a71f6dc-95b9-53e4-82c2-991526c76169	
+pls	Planeshift Theme Decks Set of 4	subset	theme	047c8629-1003-5a80-933d-5d1f0b59fb9a	
 7ed	Seventh Edition Advanced Booster	booster_pack	advanced	6b50f546-01d9-57c5-84d9-b0663cd13329	
 7ed	Seventh Edition Booster Box	booster_box	default	f28081c6-2a72-566b-ae47-fc397f80f14d	
 7ed	Seventh Edition Booster Pack	booster_pack	default	338f1f46-3973-5b8b-aafa-ddc9f478609f	
@@ -255,6 +268,7 @@ pls	Planeshift Theme Deck Scout	deck	theme	3a71f6dc-95b9-53e4-82c2-991526c76169
 7ed	Seventh Edition Theme Deck Decay	deck	theme	d2b19029-4765-5278-bf02-8f1ceb960b23	
 7ed	Seventh Edition Theme Deck Display	deck_box	theme	8483dd6b-fbb7-5603-ae68-d1afb7070086	
 7ed	Seventh Edition Theme Deck Infestation	deck	theme	278bd604-ec95-54c4-a96f-393701ad9722	
+7ed	Seventh Edition Theme Deck Set of 5	subset	theme	5a5c60c9-ec4e-5df7-bb38-f856bc3c0f30	
 7ed	Seventh Edition Theme Deck Way Wild	deck	theme	8d34c2a1-f53e-5190-a46c-11dff164a77b	
 7ed	Seventh Edition Two Player Starter	multiple_decks	two_player_starter	49b42259-471a-53ca-882b-53fa55afc7af	
 7ed	Seventh Edition Two Player Starter Set Display	deck_box	two_player_starter	9db7e49d-1e89-5ab6-8d58-218c867be6c3	
@@ -266,10 +280,13 @@ apc	Apocalypse Theme Deck Display	deck_box	theme	cb36bb43-9342-526f-9c0a-f0eaa42
 apc	Apocalypse Theme Deck Pandemonium	deck	theme	281934f7-6223-5fd9-88bf-a226b51ea8e1	
 apc	Apocalypse Theme Deck Swoop	deck	theme	5bc46d91-6f19-5fb9-b174-233d50cf33b4	
 apc	Apocalypse Theme Deck Whirlpool	deck	theme	c9be1ff1-8107-5237-b85d-36ce36dc5148	
+apc	Apocalypse Theme Decks Set of 4	subset	theme	9985820c-ea6c-50db-ae56-5cdb28c8f32e	
 wc01	2001 World Championship Deck Alex Borteh	deck	championship	03d3048c-2df0-5610-96bd-7e3cfbee9f43	
 wc01	2001 World Championship Deck Antoine Ruel	deck	championship	92b6a2e9-37ec-58f1-8cb9-14f7d62bf0c5	
+wc01	2001 World Championship Deck Box	deck_box	championship	a75c7d8b-9a5f-5474-b587-87fb181ac00e	
 wc01	2001 World Championship Deck Jan Tomcani	deck	championship	d47229f8-1a0d-53d7-aa58-3884c89abad4	
 wc01	2001 World Championship Deck Tom van de Logt	deck	championship	66467f79-b617-5159-a396-bcbf727011c0	
+wc01	2001 World Championship Decks Set of 4	subset	championship	13ab78fc-5d93-523b-8d2c-9ac8c2aa7f0e	
 ody	Odyssey Booster Box	booster_box	default	8749fa65-802e-5207-af4c-8027909ad432	
 ody	Odyssey Booster Pack	booster_pack	default	2990c4cb-4240-5cb3-8331-541ccb8eafe9	
 ody	Odyssey Fat Pack	bundle	fat_pack	70f3facf-4c1b-5254-870f-91eac713aebc	
@@ -278,6 +295,7 @@ ody	Odyssey Theme Deck Liftoff	deck	theme	1339e4c9-57dd-5469-90ec-4e49aa44aabd
 ody	Odyssey Theme Deck One Two Punch	deck	theme	33fc916d-07b0-53f4-8a14-b57015b33a01	
 ody	Odyssey Theme Deck Pressure Cooker	deck	theme	4e454d55-dc8a-5ab7-9ebf-1ee6d4d4e0ed	
 ody	Odyssey Theme Deck Trounce O Matic	deck	theme	75b865cf-9202-5699-b7d7-abb0c9ef1eaa	
+ody	Odyssey Theme Decks Set of 4	subset	theme	1c7486e9-0c79-5cb6-b504-af6f8836ac10	
 ody	Odyssey Tournament Pack	limited_aid_tool	tournament_deck	efb5a054-e7af-5b97-887e-79be34528d99	
 ody	Odyssey Tournament Pack Display	limited_aid_case	tournament_deck	2ebdd29e-6699-5115-8bb5-b9d5c779ed33	
 dkm	Garfield vs Finkel 2001 Deckmasters Tin	box_set	other	4c9d4ce9-d63c-5857-8320-d64f54273243	
@@ -289,6 +307,7 @@ tor	Torment Theme Deck Grave Danger	deck	theme	35fc1da5-b3ef-5656-b012-3f3c2ec49
 tor	Torment Theme Deck Insanity	deck	theme	31300227-8cd5-5933-9051-854af883edce	
 tor	Torment Theme Deck Sacrilege	deck	theme	627d18d1-bf42-56dc-be47-67a88570d269	
 tor	Torment Theme Deck Waking Nightmares	deck	theme	86f5b0ac-055c-5245-b1a7-be48fb6e1b20	
+tor	Torment Theme Decks Set of 4	subset	theme	b0535b9c-897f-572d-80a2-f885b9f26a5b	
 jud	Judgment Booster Box	booster_box	default	c2aedc93-0012-55de-a320-6e9c5a380620	
 jud	Judgment Booster Pack	booster_pack	default	bbae3f28-02b5-5e64-af4e-6ae73e28ea35	
 jud	Judgment Fat Pack	bundle	fat_pack	160c6ef9-6782-5206-a57c-3d998b250b20	
@@ -297,11 +316,14 @@ jud	Judgment Theme Deck Display	deck_box	theme	e08af702-4e06-55c7-b889-6a3d23b28
 jud	Judgment Theme Deck Inundation	deck	theme	89d0cb57-f12d-52ed-aa74-192219f9de09	
 jud	Judgment Theme Deck Painflow	deck	theme	f3546834-0672-550f-93f6-12f933f10993	
 jud	Judgment Theme Deck Spectral Slam	deck	theme	f5943fc3-da3c-5e69-9227-80c54a79e585	
+jud	Judgment Theme Decks Set of 4	subset	theme	3f5fe3af-ba11-5065-812b-ac1fde17fe38	
 prm	Behold New Phyrexia Limited Edition Set	box_set	secret_lair	590fd5f4-2d83-53e5-97c6-2c7fb07eacf6	
+wc02	2002 World Championship Deck Box	deck_box	championship	ec2718da-6e2d-577d-9802-73fcf77481f4	
 wc02	2002 World Championship Deck Brian Kibler	deck	championship	aaa5c825-fc9c-5707-a7e8-8dc99d4b2f30	
 wc02	2002 World Championship Deck Carlos Romao	deck	championship	2630d6d0-c579-53d0-960e-bc9787387993	
 wc02	2002 World Championship Deck Raphael Levy	deck	championship	a075181f-0a94-5043-993e-bba19da76b53	
 wc02	2002 World Championship Deck Sim Han How	deck	championship	1100944a-b19c-56ac-8553-b8ea67aa8ff1	
+wc02	2002 World Championship Decks Set of 4	subset	championship	dfab1720-c7e4-5f5c-b687-1e3938d1fa87	
 ons	Onslaught Booster Box	booster_box	default	b2bdf313-4756-5f86-9a32-72970bd052fb	
 ons	Onslaught Booster Pack	booster_pack	default	04f90aad-76b6-5bc6-a732-45d06c1dad37	
 ons	Onslaught Fat Pack	bundle	fat_pack	da796ce7-43ec-5fba-9705-77a79758eedb	
@@ -310,6 +332,7 @@ ons	Onslaught Theme Deck Celestial Assault	deck	theme	ebfdedd7-6982-552b-b25a-4a
 ons	Onslaught Theme Deck Devastation	deck	theme	95796f98-1d7c-520d-bbde-1073f6b7224b	
 ons	Onslaught Theme Deck Display	deck_box	theme	fd1514c6-d82c-55b1-a012-bac4884e9e3d	
 ons	Onslaught Theme Deck Ivory Doom	deck	theme	1e77e4c2-c015-506d-9488-c22233abd552	
+ons	Onslaught Theme Decks Set of 4	subset	theme	02a12dfe-15e6-59d1-a86e-4a789c02a591	
 ons	Onslaught Tournament Pack	limited_aid_tool	tournament_deck	de0877c3-6604-50cc-a2e5-50d47d05fa29	
 ons	Onslaught Tournament Pack Display	limited_aid_case	tournament_deck	535b3369-d9ba-5930-bba1-d95f0f73983b	
 lgn	Legions Booster Box	booster_box	default	4cdee41e-4282-59bd-b73d-5f7c0cc09c83	
@@ -320,6 +343,7 @@ lgn	Legions Theme Deck Elvish Rage	deck	theme	621e3aa5-501c-5506-a5ce-b22fa7e7ab
 lgn	Legions Theme Deck Morph Mayhem	deck	theme	8be1b070-8940-5a30-8146-a3db2574f9d1	
 lgn	Legions Theme Deck Sliver Shivers	deck	theme	890e546a-d837-573c-962e-5a290cdf76af	
 lgn	Legions Theme Deck Zombies Unleashed	deck	theme	dbd31f30-475f-55bb-8f27-4d2443d027a9	
+lgn	Legions Theme Decks Set of 4	subset	theme	6ec467c6-872d-571d-9992-31420ca14b85	
 scg	Scourge Booster Box	booster_box	default	430e0088-e71a-5e65-8fb3-002b4e38e920	
 scg	Scourge Booster Pack	booster_pack	default	6c2f9633-e35a-52aa-bbf9-a79f6b4eb1ef	
 scg	Scourge Fat Pack	bundle	fat_pack	a5725968-8510-59fd-8eca-d86e3efa1d66	
@@ -328,6 +352,7 @@ scg	Scourge Theme Deck Goblin Mob	deck	theme	24395f29-3479-58e9-a398-00f1816ed91
 scg	Scourge Theme Deck Max Attax	deck	theme	bb499225-524d-515b-9d4f-33609aed6ad3	
 scg	Scourge Theme Deck Pulverize	deck	theme	0175f5b6-1f35-5d13-ad46-b27e077fb3af	
 scg	Scourge Theme Deck Storm Surge	deck	theme	c33956d8-f43f-5fc8-8d6b-594a0c417123	
+scg	Scourge Theme Decks Set of 4	subset	theme	4534cb3f-3d7a-55ec-9268-3b6c568960c8	
 8ed	Eighth Edition Advanced Booster Pack	booster_pack	advanced	4195f77f-9837-5107-a265-9f334292bc39	
 8ed	Eighth Edition Booster Box	booster_box	default	6bf25404-acd1-5d26-a615-d72cb7968f38	
 8ed	Eighth Edition Booster Pack	booster_pack	default	c8dfa84a-38d1-5fcd-bab4-ed0050d81559	
@@ -338,14 +363,17 @@ scg	Scourge Theme Deck Storm Surge	deck	theme	c33956d8-f43f-5fc8-8d6b-594a0c4171
 8ed	Eighth Edition Theme Deck Expulsion	deck	theme	8ef9d32d-9a9b-52b8-9aaa-5f8f600b6131	
 8ed	Eighth Edition Theme Deck Heavy Hitters	deck	theme	56be817b-2c64-5712-a027-f29f7fe5357c	
 8ed	Eighth Edition Theme Deck Life Boost	deck	theme	b9faa8ee-eaaa-54ab-94cc-56e664d6ad90	
+8ed	Eighth Edition Theme Deck Set of 5	subset	theme	851465fe-f59a-5bfb-bb95-272f84fe3bdd	
 8ed	Eighth Edition Theme Deck Sky Slam	deck	theme	eaef0e76-2c77-56e7-ada7-aca8cfea52bc	
 8ed	Eighth Edition Theme Deck Speed Scorch	deck	theme	3944e833-9a7c-5547-be02-eb627771cfe7	
 8ed	Eighth Edition Two Player Starter	multiple_decks	two_player_starter	9b5e4776-6f1d-5463-b1eb-1f3f6cc333ea	
 8ed	Eighth Edition Two Player Starter Set Display	deck_box	two_player_starter	9d16fa77-32ea-538d-9e95-0bbed800e6e4	
+wc03	2003 World Championship Deck Box	deck_box	championship	6cf32ec6-3617-587c-a2e3-44ebd8808b1b	
 wc03	2003 World Championship Deck Daniel Zink	deck	championship	9ff89c71-310a-5921-b9c5-6ef1c5bfcfca	
 wc03	2003 World Championship Deck Dave Humpherys	deck	championship	0630160e-4d68-5dfd-babe-849cfe59727e	
 wc03	2003 World Championship Deck Peer Kroger	deck	championship	94bb105b-198e-5fb7-8612-ffdeb3fe317a	
 wc03	2003 World Championship Deck Wolfgang Eder	deck	championship	5eb3f308-3540-5471-8f49-0ecd3f6f03c0	
+wc03	2003 World Championship Decks Set of 4	subset	championship	7db16f23-8a5e-5e0d-9c2c-919c7bad6b59	
 mrd	Mirrodin Booster Box	booster_box	default	9e908a87-9890-50ff-8f38-7e9fc67d61e7	
 mrd	Mirrodin Booster Pack	booster_pack	default	9e39488c-c8a2-5ac3-ba79-6b5ee33dc639	
 mrd	Mirrodin Fat Pack	bundle	fat_pack	86234b3d-c40d-5105-bed4-44473faf146c	
@@ -354,6 +382,7 @@ mrd	Mirrodin Theme Deck Display	deck_box	theme	ec90ce0c-3018-5848-8e7e-63e139d84
 mrd	Mirrodin Theme Deck Little Bashers	deck	theme	43eeee0c-8899-5fa1-9017-c359fa7ac2a0	
 mrd	Mirrodin Theme Deck Sacrificial Bam	deck	theme	feb51e0c-78dc-50aa-a3c4-613af0205b3e	
 mrd	Mirrodin Theme Deck Wicked Big	deck	theme	d8ca8900-e356-5b5a-9fdc-50144fb820a6	
+mrd	Mirrodin Theme Decks Set of 4	subset	theme	d03106bb-1f78-5935-ac82-2d0287fb5351	
 mrd	Mirrodin Tournament Pack	limited_aid_tool	tournament_deck	7cfad63e-4577-5f7d-b4b9-ea5e0110a06f	
 mrd	Mirrodin Tournament Pack Display	limited_aid_case	tournament_deck	7d097b53-3876-5384-8a13-1281671e81f9	
 dst	Darksteel Booster Box	booster_box	default	18ecf587-927e-5e8b-8f64-f1c0d207d6df	
@@ -373,10 +402,12 @@ dst	Darksteel Theme Deck Transference	deck	theme	0fc88e21-b60a-5a23-a148-70df8d2
 5dn	Fifth Dawn Theme Deck Stampede	deck	theme	ed631ece-30fe-5d22-9764-cd6c66780d8e	
 5dn	Fifth Dawn Theme Deck Sunburst	deck	theme	359dd401-dee3-5de4-bd7f-df9fed63d7d0	
 wc04	2004 World Championship Deck Aeo Paquette	deck	championship	420cbfd6-9912-545c-a77e-4745474a46e4	
+wc04	2004 World Championship Deck Box	deck_box	championship	da30bacc-bea8-5e05-8d0c-ee22c767a35c	
 wc04	2004 World Championship Deck Box San Francisco	deck_box	championship	7094143b-42a2-5003-87a2-9a7dc0639221	
 wc04	2004 World Championship Deck Gabriel Nassif	deck	championship	f6e845ec-ba01-549d-b99f-20d733dcd227	
 wc04	2004 World Championship Deck Julien Nuijten	deck	championship	ff76a195-61e6-58ad-abf1-0abeca8b223b	
 wc04	2004 World Championship Deck Manuel Bevand	deck	championship	9de1b4d3-13f7-5914-af25-eb19c23dd8e0	
+wc04	2004 World Championship Deck Set of 4	subset	championship	0f793667-716a-5167-8bcf-fa1357331754	
 chk	Champions of Kamigawa Booster Box	booster_box	default	d3774de1-fa07-5f73-a6d4-3b00508ee710	
 chk	Champions of Kamigawa Booster Pack	booster_pack	default	71ce8446-fa11-584e-9da7-e3deba806a9e	
 chk	Champions of Kamigawa Fat Pack	bundle	fat_pack	9e295ba4-a378-5259-8ba9-5a67ead6d17f	
@@ -405,18 +436,20 @@ sok	Saviors of Kamigawa Theme Deck Display	deck_box	theme	7cb1a199-9822-5937-826
 sok	Saviors of Kamigawa Theme Deck Soratamis Wisdom	deck	theme	c49d2ef2-2be3-5f3b-b007-d6ce26d6b079	
 sok	Saviors of Kamigawa Theme Deck Spirit Flames	deck	theme	a8a40539-f7d2-5abf-b00b-422f54b7a97b	
 sok	Saviors of Kamigawa Theme Deck Truth Seekers	deck	theme	8b032bbe-989d-59c5-9726-854fc353eafa	
+sok	Saviors of Kamigawa Theme Decks Set of 4	subset	theme	14058448-e895-54bd-a95a-9cec7be60205	
 9ed	Ninth Edition Advanced Booster	booster_pack	advanced	a13db668-e09e-5ece-90ef-cd41256cba91	
 9ed	Ninth Edition Booster Box	booster_box	default	d83b8217-be87-5016-ba98-aea76305cc5d	
 9ed	Ninth Edition Booster Pack	booster_pack	default	ab8d4986-a9b9-5102-a7c1-2b5e6e21a637	
 9ed	Ninth Edition Box Two Player Starter	multiple_decks	two_player_starter	23942956-0a50-5fed-8c85-b7000d2838b4	
 9ed	Ninth Edition Demo Booster	booster_pack	promotional	cf5fc38d-dec0-5f76-82a1-50fe6fe20c57	2005-07-29
 9ed	Ninth Edition Fat Pack	bundle	fat_pack	eca95b47-6780-5bea-a8e6-2ef2951a605d	
-9ed	Ninth Edition Sample Booster	booster_pack	promotional	99c84631-c2b5-5352-9954-a22de782f744	
+9ed	Ninth Edition Sampler Booster	booster_pack	promotional	9d8100a3-d15a-5c2a-8227-27f227384124	
 9ed	Ninth Edition Theme Deck Army of Justice	deck	theme	c87f60c0-ca5b-54db-a50f-d198f6ffa441	
 9ed	Ninth Edition Theme Deck Custom Creatures	deck	theme	3f67a892-d10f-5057-a715-ca0067aa0cc5	
 9ed	Ninth Edition Theme Deck Dead Again	deck	theme	a522ced5-b687-5fef-9415-22aa73fc90b0	
 9ed	Ninth Edition Theme Deck Display	deck_box	theme	1784ec51-6016-5840-a952-93031fa0c5a0	
 9ed	Ninth Edition Theme Deck Lofty Heights	deck	theme	03440b09-6b56-5218-90c3-5aa408f97915	
+9ed	Ninth Edition Theme Deck Set of 5	subset	theme	3387020f-6af7-5e6a-b3a0-af0de8aed87f	
 9ed	Ninth Edition Theme Deck World Aflame	deck	theme	2e97d2f7-da04-54f7-a78b-3e93a82a4b6d	
 9ed	Ninth Edition Two Player Starter Display	deck_box	two_player_starter	2f14236c-d27c-5685-b779-7689195af736	
 rav	Ravnica Booster Box	booster_box	default	9ac94035-6213-5e21-a64f-654cdbec3f05	
@@ -427,6 +460,7 @@ rav	Ravnica Theme Deck Dimir Intrigues	deck	theme	76b84a2b-e8fd-577a-a1ea-45185e
 rav	Ravnica Theme Deck Display	deck_box	theme	47ca7b17-2e73-5502-8eee-866aaf41eb16	
 rav	Ravnica Theme Deck Golgari Deathcreep	deck	theme	2064906f-90f7-5995-ab27-c6150f391afd	
 rav	Ravnica Theme Deck Selesnya United	deck	theme	e5655754-ff66-5135-af7b-e70fdbc68122	
+rav	Ravnica Theme Decks Set of 4	subset	theme	512f6432-c7a9-506b-998e-21dcbb05bf1d	
 rav	Ravnica Tournament Pack	limited_aid_tool	tournament_deck	303d70f4-790d-5ccf-af92-fb6fe17c2311	
 rav	Ravnica Tournament Pack Display	limited_aid_case	tournament_deck	363407f0-695e-5989-8088-16a094880eed	
 gpt	Guildpact Booster Box	booster_box	default	f5b7f0df-ba24-5a30-9273-fc6b1bf563ed	
@@ -436,6 +470,7 @@ gpt	Guildpact Theme Deck Code of the Orzhov	deck	theme	21799486-357f-528f-a4ff-1
 gpt	Guildpact Theme Deck Display	deck_box	theme	6c66fc80-3d2c-56e4-949b-0e7e0887e839	
 gpt	Guildpact Theme Deck Gruul Wilding	deck	theme	541b4639-a3f2-5568-ac42-3edc7ef7831f	
 gpt	Guildpact Theme Deck Izzet Gizmometry	deck	theme	d855b582-c2d0-5b0f-b42a-96a3797ccf38	
+gpt	Guildpact Theme Decks Set of 3	subset	theme	b17f3403-e8e9-5f1b-8059-ef9a8b339658	
 dis	Dissension Booster Box	booster_box	default	4895b804-4cd1-5fde-9476-66e361a1d375	
 dis	Dissension Booster Pack	booster_pack	default	5de3d6fd-9c11-5d79-a9ea-8ec1d866a9db	
 dis	Dissension Fat Pack	bundle	fat_pack	bd95f08a-d3a7-51ae-89fe-44df2a19bb10	
@@ -470,6 +505,7 @@ plc	Planar Chaos Theme Deck Endless March	deck	theme	a918583f-3428-51e8-94ad-72d
 plc	Planar Chaos Theme Deck Ixidors Legacy	deck	theme	b4cf2c98-98e2-5294-bcb4-51f0ef5b48ef	
 plc	Planar Chaos Theme Deck Rituals of Rebirth	deck	theme	535db56b-14ed-515f-8d2f-6e7260743acd	
 plc	Planar Chaos Theme Deck Unraveling Mind	deck	theme	7f275e86-a962-5214-9763-68116ebf7b00	
+plc	Planar Chaos Theme Decks Set of 4	subset	theme	d073c1dc-dbce-5c9f-82f0-ea30a9e63e5f	
 fut	Future Sight Booster Box	booster_box	default	5165b7fc-a6c5-5b7a-9c6a-97a7f4b24b6a	
 fut	Future Sight Booster Pack	booster_pack	default	e6e772ad-c2d8-5030-891b-897766e58924	
 fut	Future Sight Fat Pack	bundle	fat_pack	30088e1c-451c-5a12-89d0-18f600dfbcf7	
@@ -514,8 +550,10 @@ mor	Morningtide Fat Pack	bundle	fat_pack	4f3dade8-afa3-5ff0-ab93-1ee40ffec8f9
 mor	Morningtide Theme Deck Battalion	deck	theme	fd08b94d-c430-51b9-a90e-0b3641815a3e	
 mor	Morningtide Theme Deck Display	deck_box	theme	cce7769c-c25c-5acb-a27e-dfc05540650d	
 mor	Morningtide Theme Deck Going Rogue	deck	theme	415016b9-2de0-5d05-8639-2b8ddb55d5c6	
+mor	Morningtide Theme Deck Set of 4	subset	theme	b9902d01-d8df-59d6-b402-3631b1df2d9e	
 mor	Morningtide Theme Deck Shamanism	deck	theme	b2da0096-c4e1-5585-8e06-c9d4590f2329	
 mor	Morningtide Theme Deck Warriors Code	deck	theme	9551ee44-ac0a-5511-b1a6-e30f4389ebec	
+p15a	15th Anniversary 2-Player Starter Set	multiple_decks	two_player_starter	0306bf4f-7155-58ff-8820-e2063d18e991	
 shm	Shadowmoor Booster Box	booster_box	default	c5756400-4f4f-541a-945b-519b9f57f389	
 shm	Shadowmoor Booster Pack	booster_pack	default	df9ec53c-cbe9-50c0-ad27-a94f6cc75812	
 shm	Shadowmoor Fat Pack	bundle	fat_pack	c393c68c-3c99-5f6a-9dec-3b0c048e0f63	
@@ -770,6 +808,7 @@ m12	2012 Core Set Sample Deck Garruk Wildspeaker	deck	starter_deck	b927d266-5487
 m12	2012 Core Set Sample Deck Gideon Jura	deck	starter_deck	b16345fa-ee13-5df8-aa41-073a5a77df3b	
 m12	2012 Core Set Sample Deck Jace Beleren	deck	starter_deck	4649983e-c43f-5dda-98f7-10327f5eef87	
 m12	2012 Core Set Sample Deck Sorin Markov	deck	starter_deck	2f246d5d-2b25-5116-93d4-1c8e55ce46db	
+m12	2012 Core Set Sample Decks Set of 5	subset	starter_deck	95c4e856-cc72-572a-9f30-28709069a7d9	
 m12	2012 Core Set Six Card Booster Pack	booster_pack	six-card	636c38ed-3238-5dd5-bf2e-204c38583c67	
 v11	From the Vault Legends	box_set	from_the_vault	13b19f21-7746-57ed-9990-1cfc5ae19252	
 ddh	Duel Deck Ajani vs Nicol Bolas	multiple_decks	duel	166e7b39-4a81-5fd1-bcd1-15cdd6b0282b	
@@ -1106,15 +1145,14 @@ c14	Commander 2014 Commander Deck Peer Through Time	deck	commander	cf9bb01b-4814
 c14	Commander 2014 Commander Deck Sworn to Darkness	deck	commander	8f7348d1-9f9a-5cda-b0d8-963ba2c6fcf3	
 c14	Commander 2014 Commander Decks Set of 5	subset	commander	f02ac1ec-5b58-52a6-a624-efe62daa348f	
 dd3	Duel Deck Anthology	multiple_decks	duel	ce642320-8d31-5eec-87d2-ef7992dbc95e	
-dd3	Duel Deck Anthology Chandra Deck	deck	duel	981854cc-a51c-5d50-91e1-42f87a33a559	
-dd3	Duel Deck Anthology Demonic Deck	deck	duel	fbffdc01-da61-565c-bcb9-cb782a1af4f0	
-dd3	Duel Deck Anthology Divine Deck	deck	duel	5a925acb-4481-59b7-b6ad-7d533c8fb343	
-dd3	Duel Deck Anthology Elves Deck	deck	duel	b7764f25-fe49-56d3-8eb7-64882f018a94	
-dd3	Duel Deck Anthology Garruk Deck	deck	duel	dd07654e-776e-557e-9ad6-89d665fb2279	
-dd3	Duel Deck Anthology Goblins Deck	deck	duel	f278269d-bf67-55c0-ac11-84ffb7996b85	
-dd3	Duel Deck Anthology Jace Deck	deck	duel	f6c53060-0f37-5370-b05c-46ac4d080cdd	
-dd3	Duel Deck Anthology Liliana Deck	deck	duel	5a300fe2-33ef-5d13-ae65-30a1622fac21	
-evg	Duel Deck Elves vs Goblins	multiple_decks	duel	6907c6d1-b2fe-56c7-8784-4fe671581b72	
+dvd	Duel Deck Anthology Demonic Deck	deck	duel	fbffdc01-da61-565c-bcb9-cb782a1af4f0	
+dvd	Duel Deck Anthology Divine Deck	deck	duel	5a925acb-4481-59b7-b6ad-7d533c8fb343	
+evg	Duel Deck Anthology Elves Deck	deck	duel	b7764f25-fe49-56d3-8eb7-64882f018a94	
+evg	Duel Deck Anthology Goblins Deck	deck	duel	f278269d-bf67-55c0-ac11-84ffb7996b85	
+gvl	Duel Deck Anthology Garruk Deck	deck	duel	dd07654e-776e-557e-9ad6-89d665fb2279	
+gvl	Duel Deck Anthology Liliana Deck	deck	duel	5a300fe2-33ef-5d13-ae65-30a1622fac21	
+jvc	Duel Deck Anthology Chandra Deck	deck	duel	981854cc-a51c-5d50-91e1-42f87a33a559	
+jvc	Duel Deck Anthology Jace Deck	deck	duel	f6c53060-0f37-5370-b05c-46ac4d080cdd	
 ugin	Ugins Fate Event Booster Pack	booster_pack	promotional	e1b62ec3-d6b0-50b0-a993-3b1ff65d0d66	
 frf	Fate Reforged Booster Box	booster_box	default	d8c365a9-1cb7-5901-8f73-4570cac812e5	2015-01-21
 frf	Fate Reforged Booster Box Case	booster_case	default	6ec7923f-b8b6-578b-b420-b775ac914d95	
@@ -1677,6 +1715,9 @@ sld	Secret Lair Bundle Cards in Costume Foil	box_set	secret_lair_bundle	e7f1d2e4
 sld	Secret Lair Bundle Carving Up A Barrel of Foils	box_set	secret_lair_bundle	c6d9c041-cfe2-5560-a407-a7dd73b97c35	2023-09-06
 sld	Secret Lair Bundle December Superdrop Foil	box_set	secret_lair_bundle	f4408196-edc7-5ace-bb26-2c152574c575	
 sld	Secret Lair Bundle December Superdrop Non Foil	box_set	secret_lair_bundle	82092d20-3d47-5f91-ba75-ba43cf1ef524	
+sld	Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Everything	box_set	secret_lair_bundle	ba4a88d1-ddb8-57b4-a032-d95226490b31	2024-09-06
+sld	Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Foils	box_set	secret_lair_bundle	b2ac5dc6-6196-5243-9c27-22f8d753c511	2024-09-06
+sld	Secret Lair Bundle Dungeons and Dragons 50th Anniversary Loot the Room with Non Foils	box_set	secret_lair_bundle	4cacd734-6a71-5d6a-8cce-20abce0ab92b	2024-09-06
 sld	Secret Lair Bundle Equinox Superdrop 2024 A Celebration of Everything Foil and Non Foil	box_set	secret_lair_bundle	60ded86f-0f73-5167-b049-bd3d7f75591b	2024-04-12
 sld	Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle	box_set	secret_lair_bundle	4867e002-deb3-5ee2-8770-a663f76bf135	2024-04-25
 sld	Secret Lair Bundle Equinox Superdrop 2024 Fallout Bundle Foil	box_set	secret_lair_bundle	b37f1a25-8864-5329-b3b1-8a788d9f12b9	2024-04-25
@@ -1692,6 +1733,13 @@ sld	Secret Lair Bundle Fill My Cauldron with Almost Everything	box_set	secret_la
 sld	Secret Lair Bundle Fill My Cauldron with Dr Who	box_set	secret_lair_bundle	924e11cf-99a9-53c7-aa80-00650004133b	2023-09-23
 sld	Secret Lair Bundle Fill My Cauldron with Foils	box_set	secret_lair_bundle	eaa04a6b-afff-5d24-8958-5c3484cb1ae7	2023-09-23
 sld	Secret Lair Bundle Fill My Cauldron with Non Foils	box_set	secret_lair_bundle	7efb903f-0577-52ff-a057-97a4862c5172	2023-09-23
+sld	Secret Lair Bundle Inside an Elevator Brain Dead	box_set	secret_lair_bundle	34c26f02-3472-5f5c-82cb-2caaa1f56a37	2024-06-07
+sld	Secret Lair Bundle Inside an Elevator Brain Dead Foil	box_set	secret_lair_bundle	c4e38657-9d4d-5194-bc13-710d731835ff	2024-06-07
+sld	Secret Lair Bundle Inside an Elevator Small Talk	box_set	secret_lair_bundle	b640c400-ecff-5aa9-86c7-5deaf2940c93	2024-06-07
+sld	Secret Lair Bundle Inside an Elevator Small Talk Foil	box_set	secret_lair_bundle	31b22902-193c-583a-bf34-1d1f61090791	2024-06-07
+sld	Secret Lair Bundle Inside an Elevator Take Me to the Floor with Everything	box_set	secret_lair_bundle	eec88762-0adc-590a-92c6-a804163dcb9e	2024-06-07
+sld	Secret Lair Bundle Inside an Elevator Take Me to the Floor with Foils	box_set	secret_lair_bundle	e6f78ed8-cdfb-5f39-bcf2-b7f0911f9917	2024-06-07
+sld	Secret Lair Bundle Inside an Elevator Take Me to the Floor with Non Foils	box_set	secret_lair_bundle	bbf84e3f-e593-5f49-a58b-c5fed8c39b4c	2024-06-07
 sld	Secret Lair Bundle Its Raining Foils And Non Foils	box_set	secret_lair_bundle	fede25fd-3045-5736-ab51-0c4ab95fc00e	
 sld	Secret Lair Bundle June Superdrop Full of Foils	box_set	secret_lair_bundle	8ae1dc19-dbe3-5ee6-b4b5-a37b567df9ec	
 sld	Secret Lair Bundle June Superdrop Non stop Non Foil	box_set	secret_lair_bundle	67987c48-3d15-590a-b3f6-00a76a41238c	
@@ -1897,6 +1945,8 @@ sld	Secret Lair Drop Far Out Man	box_set	secret_lair	c6b5004b-636a-5895-b243-385
 sld	Secret Lair Drop Far Out Man Foil	box_set	secret_lair	d4994b1a-4751-5dfd-9447-a4708c5e228f	
 sld	Secret Lair Drop Fblthp Completely Utterly Totally Lost	box_set	secret_lair	4c0a838e-f383-546f-b91c-eb681c0127c5	2022-03-10
 sld	Secret Lair Drop Fblthp Completely Utterly Totally Lost Foil	box_set	secret_lair	3bc930b6-bc8b-5e87-afb7-0da0759e8b72	
+sld	Secret Lair Drop Featuring Andrew Maclean	box_set	secret_lair	912f3030-a4c6-5503-b705-9a3d7b7fa25d	2024-06-07
+sld	Secret Lair Drop Featuring Andrew Maclean Rainbow Foil	box_set	secret_lair	d66a74df-d255-5182-b376-da0d83124cc6	2024-06-07
 sld	Secret Lair Drop Featuring Gary Baseman	box_set	secret_lair	d3909b78-712f-5774-bcf3-3f52288403f1	2023-09-13
 sld	Secret Lair Drop Featuring Gary Baseman Foil	box_set	secret_lair	f967a63d-e37f-568a-850c-da3482ec2b92	
 sld	Secret Lair Drop Featuring Julie Bell	box_set	secret_lair	69a95367-934a-58ba-bfb1-66d2d4fe03ad	2024-04-25
@@ -1950,6 +2000,7 @@ sld	Secret Lair Drop LOOK AT THE KITTIES Foil	box_set	secret_lair	8174fec9-3009-
 sld	Secret Lair Drop Legendary Flyers Not That Kind Foil	box_set	secret_lair	662e289e-e402-54cf-8652-7e9f23acf90f	2023-05-08
 sld	Secret Lair Drop Lil Giri Saves the Day Foil	box_set	secret_lair	bdcac20e-35d5-5bbf-83c3-f6bbd1353075	2022-11-30
 sld	Secret Lair Drop Lil Giri Saves the Day Roadshow Edition Foil	box_set	secret_lair	cdcf9300-bd08-50f6-ab50-ddb5da3a3740	2022-11-30
+sld	Secret Lair Drop Lil Legends Foil	box_set	secret_lair	89232a74-77f6-5311-b28e-b098488824b8	2024-06-07
 sld	Secret Lair Drop Lil Walkers	box_set	secret_lair	9251cf99-7437-5127-9756-fcf2475a0765	
 sld	Secret Lair Drop Lil Walkers Foil	box_set	secret_lair	5b22c926-cfb9-5e20-abc2-122139de58b5	
 sld	Secret Lair Drop Liler Walkers	box_set	secret_lair	0bff6ed7-561e-54f6-b52a-a3d515dad35b	2022-10-26
@@ -2027,6 +2078,12 @@ sld	Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends	box_set	secret
 sld	Secret Lair Drop Secret Lair x Assassins Creed Lethal Legends Rainbow Foil	box_set	secret_lair	ebb66665-702a-524b-9d6f-f8e598294ec4	2024-04-25
 sld	Secret Lair Drop Secret Lair x Blood Bowl	box_set	secret_lair	cbf6a666-2883-598d-ac72-0c8b4e566c69	2022-10-19
 sld	Secret Lair Drop Secret Lair x Blood Bowl Foil	box_set	secret_lair	e66bcc3b-4f37-5fe2-9c4d-91873500a9ed	
+sld	Secret Lair Drop Secret Lair x Brain Dead Creatures	box_set	secret_lair	4f973bd4-3524-51a5-b824-6202428e4017	2024-06-07
+sld	Secret Lair Drop Secret Lair x Brain Dead Creatures Rainbow Foil	box_set	secret_lair	c12365a8-e2db-57a3-9142-16755be4c23d	2024-06-07
+sld	Secret Lair Drop Secret Lair x Brain Dead Lands	box_set	secret_lair	9b7d203c-1d9c-5ca2-bdc2-bb2a1056a1c9	2024-06-07
+sld	Secret Lair Drop Secret Lair x Brain Dead Lands Rainbow Foil	box_set	secret_lair	91c10a5c-5253-54a3-8685-5448b3fe05af	2024-06-07
+sld	Secret Lair Drop Secret Lair x Brain Dead Staples	box_set	secret_lair	90d060db-688d-5e6b-af00-f49e15006a41	2024-06-07
+sld	Secret Lair Drop Secret Lair x Brain Dead Staples Rainbow Foil	box_set	secret_lair	60ea4fe9-5a4e-5b69-9159-3a15d371f8f2	2024-06-07
 sld	Secret Lair Drop Secret Lair x Creepshow	box_set	secret_lair	0141264d-cc41-5e13-8563-211d353d5169	2023-09-23
 sld	Secret Lair Drop Secret Lair x Creepshow Foil	box_set	secret_lair	3ae3d2b9-b885-59b0-99c4-f58d7ceeedc2	2023-09-23
 sld	Secret Lair Drop Secret Lair x Doctor Who Regeneration	box_set	secret_lair	32a05da5-3a28-5393-be4d-9351c50795ae	2024-03-15
@@ -2035,8 +2092,18 @@ sld	Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands	box_set	secret_lai
 sld	Secret Lair Drop Secret Lair x Doctor Who The Dalek Lands Foil	box_set	secret_lair	8c320acb-e01c-5d2d-ac65-7647a900f58e	2023-09-23
 sld	Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels	box_set	secret_lair	55c0f345-cea2-589c-aa69-2af0ff08fac8	2023-09-23
 sld	Secret Lair Drop Secret Lair x Doctor Who The Weeping Angels Foil	box_set	secret_lair	fb9ae3c4-6f35-5d18-b5c3-f9bf04124ac2	2023-09-23
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure	box_set	secret_lair	d6506ce9-fcbb-5c32-8cff-b09f5217c8d6	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons An Exhibition of Adventure Rainbow Foil	box_set	secret_lair	85cfeb55-8cb8-5e97-8e6f-75d5ae5870fe	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst	box_set	secret_lair	75c9c8b2-2a2b-57a1-835a-d2b0d8412171	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Astarions Thirst Rainbow Foil	box_set	secret_lair	201551c4-209b-5332-b80f-47b354fd3010	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I	box_set	secret_lair	97688b49-a4c4-5b64-95f5-5785d71e2747	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder I Rainbow Foil	box_set	secret_lair	5e3a55ce-8cf8-5699-92ef-47a3f730814a	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II	box_set	secret_lair	ae11b447-5051-505e-aa30-fbdacf1dd58e	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Death is in the Eyes of the Beholder II Rainbow Foil	box_set	secret_lair	0762ea49-3134-58f6-a193-70f8f2bf7867	2024-09-06
 sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves	box_set	secret_lair	81be0a43-c8eb-5159-9ad0-f8acb8ae48a1	2023-04-04
 sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Honor Among Thieves Foil	box_set	secret_lair	1fe89f88-ad0b-597f-82f8-f1983e7cd284	
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage	box_set	secret_lair	fd4dcac0-320d-5715-b04c-782d4d3837b0	2024-09-06
+sld	Secret Lair Drop Secret Lair x Dungeons and Dragons Karlachs Rage Rainbow Foil	box_set	secret_lair	f0133b61-5319-5fab-88e9-934d99163edf	2024-09-06
 sld	Secret Lair Drop Secret Lair x Fallout Points of Interest	box_set	secret_lair	f9af0601-e7e7-509e-a9a5-a53c7566b1d5	2024-04-25
 sld	Secret Lair Drop Secret Lair x Fallout Points of Interest Foil	box_set	secret_lair	d8528d5a-a748-5560-b9ea-25b7f038bc19	2024-04-25
 sld	Secret Lair Drop Secret Lair x Fallout SPECIAL	box_set	secret_lair	826ce88f-e6f7-5b1b-b682-b9c9bfe7c3d7	2024-04-25
@@ -2059,6 +2126,10 @@ sld	Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm	box_set	secret_
 sld	Secret Lair Drop Secret Lair x Jurassic World Dr Ian Malcolm Foil	box_set	secret_lair	2a74d019-9c8a-5dfc-acfb-975fcddb0ea1	2023-09-23
 sld	Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free	box_set	secret_lair	ee059c1d-8522-52c3-9b4c-0fdaace2cfc1	2023-09-23
 sld	Secret Lair Drop Secret Lair x Jurassic World Life Breaks Free Foil	box_set	secret_lair	8a04c5dd-23f2-5332-9809-00f4f86c81c0	2023-09-23
+sld	Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1	box_set	secret_lair	80f86a7e-fec7-5f20-9c16-4347302c9b9c	2024-06-07
+sld	Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 1 Foil	box_set	secret_lair	332aa4be-e4e0-5749-9379-5a68043036cd	2024-06-07
+sld	Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2	box_set	secret_lair	d29e45dc-a5d0-5a2a-afd0-3f3c34ade4ec	2024-06-07
+sld	Secret Lair Drop Secret Lair x Monty Python Monty Python and the Holy Grail Vol 2 Foil	box_set	secret_lair	7729f725-ec6c-562a-b706-cfc92e4835c5	2024-06-07
 sld	Secret Lair Drop Secret Lair x Post Malone Backstage Pass	box_set	secret_lair	b227e5e5-5403-522c-875e-6601f1982a43	2022-10-19
 sld	Secret Lair Drop Secret Lair x Post Malone Backstage Pass Foil	box_set	secret_lair	f957fd7e-829c-5065-9a8f-4c043f045ffb	
 sld	Secret Lair Drop Secret Lair x Post Malone The Lands	box_set	secret_lair	f03902a7-2db3-508f-84af-4a18b27450cb	2022-10-19
@@ -2083,6 +2154,8 @@ sld	Secret Lair Drop Shades Not Included Foil	box_set	secret_lair	6a74115c-ae8b-
 sld	Secret Lair Drop Sheldons Spellbook	box_set	secret_lair	a557abfa-763e-5737-a1bd-15ba89c79389	2024-04-12
 sld	Secret Lair Drop Sheldons Spellbook Foil	box_set	secret_lair	c50f62e9-b836-55d3-a1fb-b8242c766da2	2024-04-12
 sld	Secret Lair Drop Showcase All Will Be One Step and Compleat Foil	box_set	secret_lair	9385a081-aa79-5a9a-a853-78a4585b7590	2023-02-10
+sld	Secret Lair Drop Showcase Bloomburrow	box_set	secret_lair	67cf0d87-2e4d-56b5-8c12-e7665653d5ff	2024-06-07
+sld	Secret Lair Drop Showcase Bloomburrow Rainbow Foil	box_set	secret_lair	0d6575e9-08e3-574f-8c2d-6a33faec4952	2024-06-07
 sld	Secret Lair Drop Showcase Dominaria United Textured Foil	box_set	secret_lair	b962768e-9d1d-5c6a-8377-251dbd3fc1fb	2022-09-06
 sld	Secret Lair Drop Showcase Kaldheim Part 1	box_set	secret_lair	2345cc33-98fc-5879-93ce-0e43cec3bec0	2021-02-12
 sld	Secret Lair Drop Showcase Kaldheim Part 1 Foil	box_set	secret_lair	266ad874-cef4-5ad3-b395-efc0dcfaf957	
@@ -2201,6 +2274,7 @@ sld	Secret Lair Drop “explosion sounds”	box_set	secret_lair	1bf9952e-1de3-5c
 sld	Secret Lair Festival in a Box Barcelona 2023 Commander Fan Bundle	box_set	secret_lair_bundle	742d13ff-fb70-5b7d-9429-8a13f7eed345	
 sld	Secret Lair Festival in a Box Barcelona 2023 Drafters Dream Bundle	box_set	secret_lair_bundle	76750f76-dd6a-5e60-a83f-6e140ff0ebcf	
 sld	Secret Lair Festival in a Box Las Vegas 2023 Bundle	box_set	secret_lair_bundle	40e449ed-a921-5b8c-92a0-470eb8087d1c	2023-09-23
+sld	Secret Lair Festival in a Box Las Vegas 2024 Bundle	box_set	secret_lair_bundle	4cd5a7ce-3fb8-5780-a618-78d39c097a15	2024-06-07
 sld	Secret Lair Festival in a Box Magic 30 2022 Bundle	box_set	secret_lair_bundle	c2756ed2-3beb-5d3c-81fe-56f8b24eaabb	
 sld	Secret Lair Festival in a Box Minneapolis 2023 Bundle	box_set	secret_lair_bundle	aace20dd-5f80-5fac-94ab-d96d0887bebc	
 sld	Secret Lair Festival in a Box Philadelphia 2023 Bundle	box_set	secret_lair_bundle	9dbcbd90-0722-5880-b54e-cb6988adbe4e	
@@ -2534,7 +2608,6 @@ neo	Kamigawa Neon Dynasty Bundle	bundle	default	53c23cb9-f55f-5483-a0a0-6a3a3d09
 neo	Kamigawa Neon Dynasty Bundle Case	bundle_case	default	1ba0c306-4d47-55aa-8ae3-4937208fd77f	2022-02-18
 neo	Kamigawa Neon Dynasty Collector Booster Box	booster_box	collector	e01c4f02-b5ca-5be1-9fd8-d16067c8c9e5	2022-02-18
 neo	Kamigawa Neon Dynasty Collector Booster Box Case	booster_case	collector	199d1d04-2609-54c7-a282-00c51c4e517f	2022-02-18
-neo	Kamigawa Neon Dynasty Collector Booster Omega Pack	booster_pack	collector	70940619-301f-5c7a-b6d3-ad5e4a839cc5	
 neo	Kamigawa Neon Dynasty Collector Booster Pack	booster_pack	collector	1a8ee330-7570-5181-a459-410edef3d731	2022-02-18
 neo	Kamigawa Neon Dynasty Draft Booster Box	booster_box	default	09ba140c-c8ba-5c7f-b49a-1445ffc520a3	2022-02-18
 neo	Kamigawa Neon Dynasty Draft Booster Box Case	booster_case	default	7de024ec-02d0-508b-963c-6d2bdbb58467	2022-02-18
@@ -2630,7 +2703,6 @@ clb	Commander Legends Battle for Baldurs Gate Set Booster Pack	booster_pack	set	
 2x2	Double Masters 2022 3 Booster Draft Pack	limited_aid_tool	draft_set	a90376bd-c915-5f64-8e55-b87d326680ee	
 2x2	Double Masters 2022 Collector Booster Box	booster_box	collector	c36799de-cab1-5645-8e98-c5898a63b61c	2022-07-08
 2x2	Double Masters 2022 Collector Booster Box Case	booster_case	collector	cc65c64b-91e6-5c78-a2f2-9f349f1781e3	2022-07-08
-2x2	Double Masters 2022 Collector Booster Omega Pack	booster_pack	collector	0a6fe219-c24d-5dab-ab63-cf8e7be3ec92	
 2x2	Double Masters 2022 Collector Booster Pack	booster_pack	collector	a095d6b7-ab51-59c2-a2c2-363cf85147cd	2022-07-08
 2x2	Double Masters 2022 Draft Booster Box	booster_box	default	46d9414b-9289-5b63-9a62-e76620429e70	2022-05-13
 2x2	Double Masters 2022 Draft Booster Box Case	booster_case	default	b2de5205-8e5e-5206-8920-60307f4ccd27	2022-07-08
@@ -2640,13 +2712,11 @@ dmc	Dominaria United Commander Deck Display	deck_box	commander	48ff4260-64d3-5e9
 dmc	Dominaria United Commander Deck Legends Legacy	deck	commander	570bb70e-b533-5283-b130-df16c494b139	2022-09-09
 dmc	Dominaria United Commander Deck Painbow	deck	commander	dd9ebe9d-0c57-56e6-9c38-ee7279f94044	2022-09-09
 dmc	Dominaria United Commander Decks Set of 2	subset	commander	914c4424-6b22-506e-a547-19c9a17592a2	2022-09-09
-dmu	2023 Arena Starter Kit	multiple_decks	two_player_starter	dcb09ff9-f7e9-531d-9329-eec0f35e7469	2023-09-08
 dmu	Dominaria United Box Topper Pack	booster_pack	topper	94cea37a-60d8-582e-94b7-375362650017	
 dmu	Dominaria United Bundle	bundle	default	2893f4f4-daec-5b4d-b5ce-a4e9444cae84	2022-09-09
 dmu	Dominaria United Bundle Case	bundle_case	default	d530d363-267b-5826-aeeb-b3f56a1e38bb	2022-09-09
 dmu	Dominaria United Collector Booster Box	booster_box	collector	95db2c1f-83aa-582a-ac1c-c4d8ca00a1ed	2022-09-09
 dmu	Dominaria United Collector Booster Box Case	booster_case	collector	0efbdb68-44fe-558e-acd5-256ae62e8d5a	2022-09-09
-dmu	Dominaria United Collector Booster Omega Pack	booster_pack	collector	dd1fa232-c9b6-51b2-8912-f7d8df08dc5c	2022-09-09
 dmu	Dominaria United Collector Booster Pack	booster_pack	collector	d1dd4fe5-896a-5347-835e-a62367233c66	2022-09-09
 dmu	Dominaria United Collector Booster Sample Pack	booster_pack	promotional	51b64c33-b7f3-5f2b-8683-26f3a441a596	2022-09-09
 dmu	Dominaria United Draft Booster Box	booster_box	default	8233563f-860b-5505-b727-918ca14b1e79	2022-09-09
@@ -2758,7 +2828,6 @@ moc	March of the Machine Commander Deck Divine Convocation	deck	commander	aaafd7
 moc	March of the Machine Commander Deck Growing Threat	deck	commander	c761fe82-5597-5439-b50b-b09911bfa6fb	2023-04-21
 moc	March of the Machine Commander Deck Tinker Time	deck	commander	832131a2-077b-5300-98e2-02f5eabbbaed	2023-04-21
 moc	March of the Machine Commander Decks Set of 5	subset	commander	55fed710-49e0-55e9-949b-72a0c6d5c4b3	2023-02-20
-mom	Magic The Gathering Starter Kit 2023	multiple_decks	two_player_starter	3b8b7203-e424-5ee2-a6e0-239a75b73e07	
 mom	March of the Machine Bundle	bundle	default	9ae9feb8-beb6-51ce-be04-4e6c641f9fe1	2023-04-21
 mom	March of the Machine Bundle Case	bundle_case	default	1f44c701-d6d4-55a8-a2ea-0281d8672ed3	
 mom	March of the Machine Collector Booster Box	booster_box	collector	641a48be-9bd5-5ee8-aa50-90911e1af051	2023-04-21
@@ -2795,7 +2864,6 @@ ltr	The Lord of the Rings Tales of Middle earth Bundle	bundle	default	4f5d1280-b
 ltr	The Lord of the Rings Tales of Middle earth Bundle Case	bundle_case	default	2c731daf-779e-5a3d-b73d-d48cd97f1cb4	2023-06-23
 ltr	The Lord of the Rings Tales of Middle earth Collector Booster Box	booster_box	collector	f72749ee-a878-591f-97db-74eb7ba31bc5	2023-02-22
 ltr	The Lord of the Rings Tales of Middle earth Collector Booster Box Case	booster_case	collector	ffb40d41-557f-590c-9759-61d3b112422f	
-ltr	The Lord of the Rings Tales of Middle earth Collector Booster Omega Pack	booster_pack	collector	72945878-37de-5d40-ba70-ef588f8450cf	
 ltr	The Lord of the Rings Tales of Middle earth Collector Booster Pack	booster_pack	collector	266de9f8-de20-5d45-a4be-842de7a5a82d	2023-06-23
 ltr	The Lord of the Rings Tales of Middle earth Collector Booster Sample Pack	booster_pack	promotional	396a45ae-490d-5dc7-ae59-d3e764d2556a	2023-06-23
 ltr	The Lord of the Rings Tales of Middle earth Draft Booster Box	booster_box	default	40d0c9ea-15ef-5d2b-998f-23b106ede3bb	2023-06-23
@@ -2847,6 +2915,7 @@ woc	Wilds of Eldraine Commander Deck Display	deck_box	commander	4d7cf9d1-f15e-5f
 woc	Wilds of Eldraine Commander Deck Fae Dominion	deck	commander	ddfe3fb9-b57f-526c-ba3a-442e1448f718	2023-09-08
 woc	Wilds of Eldraine Commander Deck Virtue and Valor	deck	commander	63462fa8-3fe9-5f0b-a2e7-cea857c514b0	2023-09-08
 woc	Wilds of Eldraine Commander Decks Set of 2	subset	commander	7b88a0dd-3910-5677-b57a-d8ed7ac179ca	2023-09-08
+woe	Magic The Gathering Starter Kit 2023	multiple_decks	two_player_starter	3b8b7203-e424-5ee2-a6e0-239a75b73e07	
 woe	Wilds of Eldraine Bundle	bundle	default	a49596af-fcd5-5789-9b8c-5f02d1eb8ccb	2023-09-08
 woe	Wilds of Eldraine Bundle Case	bundle_case	default	aa7189ec-fcad-5d2e-ab04-489796db09ae	2023-09-08
 woe	Wilds of Eldraine Collector Booster Box	booster_box	collector	bd5929af-905f-5c7f-870b-d044015fe7f2	2023-09-08
@@ -2993,3 +3062,30 @@ blb	Bloomburrow Play Booster Pack	booster_pack	play	1370435e-4972-553f-9dac-dc72
 blb	Bloomburrow Prerelease Pack	limited_aid_tool	prerelease_kit	2a23b030-a71e-5102-86f7-063a507fcbc9	2024-08-02
 blb	Bloomburrow Starter Kit	multiple_decks	two_player_starter	a64d30bc-4483-59d2-9144-1219d5886fd3	2024-08-02
 blb	Bloomburrow Starter Kit Case	deck_box	two_player_starter	4e61923f-6dc4-5105-979e-8bbcaad82262	2024-08-02
+blc	Bloomburrow Commander Deck Animated Army	deck	commander	bd43f686-85d2-5b9f-b24d-3954180b085f	2024-08-02
+blc	Bloomburrow Commander Deck Display	deck_box	commander	009db46c-5a32-5fa0-99c0-12ffdb0416c0	2024-08-02
+blc	Bloomburrow Commander Deck Family Matters	deck	commander	8e163096-61b2-56fb-911b-ec87b164cb92	2024-08-02
+blc	Bloomburrow Commander Deck Peace Offering	deck	commander	de265922-b960-5a40-a375-6e6f5c16054c	2024-08-02
+blc	Bloomburrow Commander Deck Squirreled Away	deck	commander	a8a866cb-bd86-57bf-9cea-8ae7479aa439	2024-08-02
+blc	Bloomburrow Commander Decks Set of 4	subset	commander	5274586c-1561-53a9-a7a0-e96098a4eaa0	2024-03-20
+mb2	Mystery Booster 2 Box	booster_box	default	517e16f2-7021-553f-bede-d8ead88c0404	2024-10-25
+mb2	Mystery Booster 2 Box Case	booster_case	default	03f72a8b-3691-520b-ad47-23e6184e826f	2024-10-25
+mb2	Mystery Booster 2 Pack	booster_pack	default	d47d5b97-bea3-56c7-bf5f-4a8f8bd4f45e	2024-10-25
+dsc	Duskmourn House of Horror Commander Deck Death Toll	deck	commander	192907e7-f00d-5b8f-b025-bab1ed12b4a8	2024-09-27
+dsc	Duskmourn House of Horror Commander Deck Endless Punishment	deck	commander	2e328e42-642e-533f-99a6-aac11de47c7a	2024-09-27
+dsc	Duskmourn House of Horror Commander Deck Jump Scare	deck	commander	9693d820-c89c-5b84-9b26-c097ff691027	2024-09-27
+dsc	Duskmourn House of Horror Commander Deck Miracle Worker	deck	commander	dcdd3aeb-1070-53f7-b97a-4dda68d0176b	2024-09-27
+dsc	Duskmourn House of Horror Commander Decks Set of 4	subset	commander	73a79113-3320-5bb6-8610-6811aeee7122	2024-09-27
+dsk	Duskmourn House of Horror Bundle	bundle	default	989edd8e-fba0-5102-9dad-178755d59c74	2024-09-27
+dsk	Duskmourn House of Horror Bundle Case	bundle_case	default	5aa882f3-3704-5289-9fc5-45f152c8cb15	2024-09-27
+dsk	Duskmourn House of Horror Collector Booster Box	booster_box	collector	1d087a75-ba5d-55a0-a968-1f7375717b8f	2024-09-27
+dsk	Duskmourn House of Horror Collector Booster Box Case	booster_case	collector	6568b67f-8c4e-5cd2-a1a7-57ffa14f8485	2024-09-27
+dsk	Duskmourn House of Horror Collector Booster Pack	booster_pack	collector	463782d5-9d15-559c-a37c-9e919d72ebe1	2024-09-27
+dsk	Duskmourn House of Horror Collector Booster Sample Pack	booster_pack	promotional	6bbb1f46-7361-5b34-9b0f-6dfa733a97bc	2024-09-27
+dsk	Duskmourn House of Horror Nightmare Bundle	bundle	premium	2ff3f72e-205a-5323-9d7e-e2dd856f3bb2	2024-09-27
+dsk	Duskmourn House of Horror Nightmare Bundle Booster	booster_pack	premium	bc7f8595-19a4-5d92-96e3-206c9f1b3e97	
+dsk	Duskmourn House of Horror Nightmare Bundle Case	bundle_case	premium	6be2e49a-440b-5b19-a4e8-29fae6d4b491	2024-09-27
+dsk	Duskmourn House of Horror Play Booster Box	booster_box	play	f358221d-98a5-5ab8-b2c7-a169c362a2b9	2024-09-27
+dsk	Duskmourn House of Horror Play Booster Box Case	booster_case	play	edde415d-40cb-599d-9427-add0e16a275f	2024-09-27
+dsk	Duskmourn House of Horror Play Booster Pack	booster_pack	play	b87fe3be-3527-5767-a373-f3dc1cfe35b2	2024-09-27
+dsk	Duskmourn House of Horror Prerelease Pack	limited_aid_tool	prerelease_kit	2606fe32-1d56-572c-a317-e73798c6458d	2024-09-27

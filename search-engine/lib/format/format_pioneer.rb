@@ -42,6 +42,8 @@ class FormatPioneer < Format
       "mkm",
       "otj",
       "big",
+      "blb",
+      "dsk",
     ]
   end
 end

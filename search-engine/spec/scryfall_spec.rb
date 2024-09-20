@@ -100,7 +100,7 @@ describe "Scryfall" do
 
   it "restricted_vintage" do
     # Identical results
-    assert_count_cards "restricted:vintage", 50
+    assert_count_cards "restricted:vintage", 52
   end
 
   it "e_mm2" do
@@ -233,7 +233,7 @@ describe "Scryfall" do
 
   it "oracle_tilde" do
     # identical results, except for spoilers
-    assert_search_include 'o:"~ enters the battlefield tapped"',
+    assert_search_include 'o:"~ enters tapped"',
       "Deadlock Trap",
       "Port Town",
       "Izzet Boilerworks"
