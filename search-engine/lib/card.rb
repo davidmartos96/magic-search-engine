@@ -440,6 +440,24 @@ class Card
     "Reward",
     "Scryfall",
     "Trade Routes",
+    # DA1
+    # "Cosplay" and "Science" are in italics on the card, but wouldn't be according to normal templating system so mtgjson corrected it
+    # it's debatable either way
+    "Corrupted Metalcraft",
+    "Mirran Victory",
+    "Mono Eminence",
+    "Mono eminence",
+    "Old Companion",
+    "Phyrexian Victory",
+    "Rule Zero",
+    "Rulebreaker",
+    # SLD Marvel
+    "Ceaseless Tempest",
+    "Genius Industrialist",
+    "Mine Vibranium",
+    "Survey the Realm",
+    "Tempting Offer",
+    "Unrivaled Lethality",
   ].sort
   ABILITY_WORD_RX = %r[^(#{Regexp.union(ABILITY_WORD_LIST)}) —]i
 

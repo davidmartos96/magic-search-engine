@@ -45,7 +45,9 @@ class ConditionIsManland < ConditionNickname
       "stalking stones",
       "stirring wildwood",
       "svogthos, the restless tomb",
+      "the magical city, new",
       "treetop village",
+      "urza's hot dog stand",
       "wandering fumarole",
     ]
   end

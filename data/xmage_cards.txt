@@ -5599,6 +5599,7 @@ acr	Ballad of the Black Flag	13
 acr	Basim Ibn Ishaq	49
 acr	Battlefield Improvisation	276
 acr	Bayek of Siwa	50
+acr	Become Anonymous	14
 acr	Black Market Connections	87
 acr	Bleeding Effect	51
 acr	Brotherhood Ambushers	285
@@ -9573,6 +9574,7 @@ blb	Dire Downdraft	46
 blb	Diresight	91
 blb	Dour Port-Mage	47
 blb	Downwind Ambusher	92
+blb	Dragonhawk, Fate's Tempest	132
 blb	Dreamdew Entrancer	211
 blb	Driftgloom Coyote	11
 blb	Druid of the Spade	170
@@ -9587,6 +9589,7 @@ blb	Fecund Greenshell	171
 blb	Fecund Greenshell	362
 blb	Feed the Cycle	94
 blb	Fell	95
+blb	Festival of Embers	134
 blb	Finch Formation	50
 blb	Finneas, Ace Archer	212
 blb	Fireglass Mentor	213
@@ -9628,6 +9631,7 @@ blb	Into the Flood Maw	52
 blb	Intrepid Rabbit	17
 blb	Iridescent Vinelasher	99
 blb	Island	266
+blb	Jackdaw Savior	18
 blb	Jolly Gerbils	19
 blb	Junkblade Bruiser	220
 blb	Kastral, the Windcrested	221
@@ -9752,6 +9756,7 @@ blb	Tangle Tumbler	250
 blb	Teapot Slinger	157
 blb	Tempest Angler	235
 blb	Tender Wildguide	196
+blb	The Infamous Cruelclaw	219
 blb	Thieving Otter	390
 blb	Thistledown Players	35
 blb	Thornplate Intimidator	117
@@ -19348,6 +19353,7 @@ cst	Whalebone Glider	349
 cst	Wings of Aesthir	305
 cst	Woolly Mammoths	278
 cst	Zuran Spellcaster	112
+da1	More of That Strange Oil	CU13
 dbl	Abandon the Post	127
 dbl	Abrade	406
 dbl	Adamant Will	268
@@ -23976,6 +23982,7 @@ dsc	Rashmi, Eternities Crafter	231
 dsc	Read the Bones	154
 dsc	Reality Shift	125
 dsc	Reanimate	155
+dsc	Redress Fate	9
 dsc	Reliquary Tower	295
 dsc	Retreat to Coralhelm	126
 dsc	Return to Dust	102
@@ -23984,6 +23991,7 @@ dsc	Sandwurm Convergence	195
 dsc	Scavenging Ooze	196
 dsc	Scroll of Fate	251
 dsc	Scute Swarm	197
+dsc	Seance Board	40
 dsc	Shadowblood Ridge	296
 dsc	Shark Typhoon	127
 dsc	Shigeki, Jukai Visionary	198
@@ -24028,6 +24036,7 @@ dsc	Temple of the False God	313
 dsc	Temur War Shaman	200
 dsc	Terminus	70
 dsc	The Eldest Reborn	139
+dsc	The Lord of Pain	3
 dsc	Theater of Horrors	236
 dsc	They Came from the Pipes	14
 dsc	Thirst for Meaning	129
@@ -24063,6 +24072,7 @@ dsc	Wrenn and Seven	207
 dsc	Yavimaya Coast	327
 dsc	Yavimaya Elder	208
 dsc	Yedora, Grave Gardener	209
+dsc	Zimone, Mystery Unraveler	8
 dsk	Abandoned Campground	255
 dsk	Abhorrent Oculus	42
 dsk	Altanak, the Thrice-Called	166
@@ -24166,6 +24176,7 @@ dsk	Infernal Phantom	141
 dsk	Innocuous Rat	103
 dsk	Insidious Fungus	186
 dsk	Intruding Soulrager	218
+dsk	Irreverent Gremlin	142
 dsk	Island	273
 dsk	Jump Scare	17
 dsk	Killer's Mask	104
@@ -24191,6 +24202,7 @@ dsk	Murder	110
 dsk	Murky Sewer	263
 dsk	Nashi, Searcher in the Dark	223
 dsk	Neglected Manor	264
+dsk	Niko, Light of Hope	224
 dsk	Norin, Swift Survivalist	145
 dsk	Oblivious Bookworm	225
 dsk	Optimistic Scavenger	21
@@ -41018,6 +41030,7 @@ mb2	Standstill	172
 mb2	Static Orb	234
 mb2	Stifle	173
 mb2	Stitcher's Supplier	48
+mb2	Stone Drake	363
 mb2	Stony Silence	21
 mb2	Street Wraith	49
 mb2	Summoner's Pact	74
@@ -44530,6 +44543,7 @@ mkc	Bennie Bracks, Zoologist	57
 mkc	Black Sun's Zenith	126
 mkc	Bloodthirsty Blade	225
 mkc	Bojuka Bog	250
+mkc	Boltbender	30
 mkc	Boros Garrison	251
 mkc	Boros Reckoner	201
 mkc	Brainstorm	96
@@ -44612,10 +44626,12 @@ mkc	Gisela, Blade of Goldnight	211
 mkc	Graf Mole	170
 mkc	Grave Titan	129
 mkc	Gruul Turf	265
+mkc	Havoc Eater	31
 mkc	Hidden Dragonslayer	69
 mkc	Hooded Hydra	171
 mkc	Hornet Queen	172
 mkc	Hostile Desert	266
+mkc	Hot Pursuit	32
 mkc	Hydroid Krasis	212
 mkc	Idol of Oblivion	229
 mkc	Imperial Hellkite	155
@@ -44699,6 +44715,7 @@ mkc	Printlifter Ooze	40
 mkc	Prisoner's Dilemma	34
 mkc	Promise of Loyalty	79
 mkc	Psychosis Crawler	234
+mkc	Ransom Note	45
 mkc	Ravenous Chupacabra	136
 mkc	Reanimate	137
 mkc	Redemption Arc	13
@@ -61913,6 +61930,7 @@ sld	Bruna, the Fading Light	1336
 sld	Bruna, the Fading Light	1388
 sld	Burgeoning	408
 sld	By Force	1086
+sld	Captain America, First Avenger	1726
 sld	Captain Lannery Storm	1409
 sld	Captain Sisay	51
 sld	Carnage Tyrant	1174
@@ -62290,6 +62308,7 @@ sld	Inspiring Vantage	1375
 sld	Inspiring Vantage	1605
 sld	Intruder Alarm	229
 sld	Iroas, God of Victory	70
+sld	Iron Man, Titan of Innovation	1731
 sld	Island	102
 sld	Island	103
 sld	Island	1089
@@ -63100,6 +63119,7 @@ sld	Winding Constrictor	309
 sld	Winds of Change	1128
 sld	Winged Sliver	628
 sld	Winter Orb	1486
+sld	Wolverine, Best There Is	1737
 sld	Wood Elves	1101
 sld	Woodland Cemetery	738
 sld	Worldspine Wurm	1305
@@ -72017,19 +72037,23 @@ wmc	Thalia, Guardian of Thraben	2015
 wmc	Vengevine	2013
 woc	Ajani's Chosen	59
 woc	Alela, Cunning Conqueror	3
+woc	Alela, Cunning Conqueror	34
 woc	Ancestral Mask	119
 woc	Angelic Destiny	60
 woc	Arcane Denial	84
 woc	Arcane Signet	145
+woc	Archmage of Echoes	45
 woc	Archmage of Echoes	9
 woc	Archon of Sun's Grace	61
 woc	Aura Gnarlid	120
 woc	Austere Command	62
 woc	Bear Umbra	121
 woc	Blightwing Bandit	13
+woc	Blightwing Bandit	49
 woc	Bojuka Bog	152
 woc	Brazen Borrower	85
 woc	Brenard, Ginger Sculptor	27
+woc	Brenard, Ginger Sculptor	35
 woc	Canopy Vista	153
 woc	Careful Cultivation	122
 woc	Castle Ardenvale	154
@@ -72039,10 +72063,15 @@ woc	Cloud of Faeries	86
 woc	Command Tower	156
 woc	Consider	87
 woc	Court of Ardenvale	21
+woc	Court of Ardenvale	29
 woc	Court of Embereth	24
+woc	Court of Embereth	32
 woc	Court of Garenbrig	25
+woc	Court of Garenbrig	33
 woc	Court of Locthwain	23
+woc	Court of Locthwain	31
 woc	Court of Vantress	22
+woc	Court of Vantress	30
 woc	Danitha Capashen, Paragon	64
 woc	Darkwater Catacombs	157
 woc	Daybreak Coronet	65
@@ -72054,11 +72083,14 @@ woc	Distant Melody	89
 woc	Eidolon of Blossoms	124
 woc	Eidolon of Countless Battles	66
 woc	Ellivere of the Wild Court	2
+woc	Ellivere of the Wild Court	36
+woc	Ellivere of the Wild Court	57
 woc	Enchantress's Presence	125
 woc	Ethereal Armor	67
 woc	Exotic Orchard	159
 woc	Fact or Fiction	90
 woc	Faerie Bladecrafter	14
+woc	Faerie Bladecrafter	50
 woc	Faerie Conclave	160
 woc	Faerie Formation	91
 woc	Faerie Seer	92
@@ -72068,8 +72100,10 @@ woc	Fortified Village	161
 woc	Frantic Search	93
 woc	Generous Gift	68
 woc	Giant Inheritance	17
+woc	Giant Inheritance	53
 woc	Glen Elendra Archmage	94
 woc	Glen Elendra Liege	138
+woc	Gylwain, Casting Director	37
 woc	Gylwain, Casting Director	4
 woc	Hall of Heliod's Generosity	162
 woc	Halo Forager	139
@@ -72082,23 +72116,31 @@ woc	Keep Watch	98
 woc	Kenrith's Transformation	128
 woc	Kindred Dominance	113
 woc	Knickknack Ouphe	18
+woc	Knickknack Ouphe	54
 woc	Kor Spiritdancer	69
 woc	Korvold, Gleeful Glutton	26
+woc	Korvold, Gleeful Glutton	38
 woc	Krosan Verge	163
+woc	Liberated Livestock	41
 woc	Liberated Livestock	5
 woc	Loamcrafter Faun	19
+woc	Loamcrafter Faun	55
 woc	Malleable Impostor	10
+woc	Malleable Impostor	46
 woc	Mantle of the Ancients	70
 woc	Midnight Clock	99
 woc	Mind Stone	148
 woc	Misleading Signpost	11
+woc	Misleading Signpost	47
 woc	Myriad Landscape	164
 woc	Nettling Nuisance	15
+woc	Nettling Nuisance	51
 woc	Nightmare Unmaking	114
 woc	Nightveil Sprite	100
 woc	Nymris, Oona's Trickster	141
 woc	Oona, Queen of the Fae	142
 woc	Opt	101
+woc	Ox Drover	42
 woc	Ox Drover	6
 woc	Paradise Druid	129
 woc	Path of Ancestry	165
@@ -72122,11 +72164,13 @@ woc	Scion of Oona	109
 woc	Secluded Glen	166
 woc	Setessan Champion	132
 woc	Shadow Puppeteers	12
+woc	Shadow Puppeteers	48
 woc	Shalai, Voice of Plenty	74
 woc	Siona, Captain of the Pyleas	144
 woc	Snake Umbra	133
 woc	Snap	110
 woc	Sol Ring	149
+woc	Songbirds' Blessing	43
 woc	Songbirds' Blessing	7
 woc	Sower of Temptation	111
 woc	Spectral Steel	75
@@ -72138,18 +72182,25 @@ woc	Swords to Plowshares	78
 woc	Sylvan Ranger	134
 woc	Tainted Isle	169
 woc	Talisman of Dominance	150
+woc	Tegwyll's Scouring	16
+woc	Tegwyll's Scouring	52
 woc	Tegwyll, Duke of Splendor	1
+woc	Tegwyll, Duke of Splendor	39
+woc	Tegwyll, Duke of Splendor	58
 woc	Temple of Deceit	170
 woc	Temple of Plenty	171
 woc	Temple of the False God	172
 woc	Theoretical Duplication	112
 woc	Thrilling Encore	118
 woc	Throne of Eldraine	28
+woc	Throne of Eldraine	40
 woc	Timber Paladin	20
+woc	Timber Paladin	56
 woc	Timely Ward	79
 woc	Tithe Taker	80
 woc	Transcendent Envoy	81
 woc	Umbra Mystic	82
+woc	Unfinished Business	44
 woc	Unfinished Business	8
 woc	Utopia Sprawl	135
 woc	Verdant Embrace	136

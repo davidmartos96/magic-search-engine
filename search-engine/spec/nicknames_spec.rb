@@ -233,7 +233,9 @@ describe "Card nicknames" do
       "Stalking Stones",
       "Stirring Wildwood",
       "Svogthos, the Restless Tomb",
+      "The Magical City, New",
       "Treetop Village",
+      "Urza's Hot Dog Stand",
       "Wandering Fumarole"
     assert_search_equal "is:manland", "t:land o:becomes o:creature -(Tyrite Sanctum) -(Sorrow's Path) -(Mech Hangar)"
     assert_search_equal "is:manland", "is:creatureland"
@@ -316,7 +318,7 @@ describe "Card nicknames" do
       "Savage Lands",
       "Seaside Citadel"
     assert_search_equal "is:triland",
-      't:land o:/\{T\}: Add \{.\}, \{.\}, or \{.\}/ -o:sacrifice o:tapped -o:cycling'
+      't:land o:/\{T\}: Add \{.\}, \{.\}, or \{.\}/ -o:sacrifice o:tapped -o:cycling -(The Magical City, New)'
   end
 
   it "is:triome" do
