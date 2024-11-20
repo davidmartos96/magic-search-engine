@@ -204,18 +204,18 @@ describe "Full Database Test" do
 
   it "alt rarity" do
     assert_search_include "r:common alt:r:uncommon", "Doom Blade"
-    assert_search_results "r:common -is:digital -e:sld,spg alt:(r:mythic -is:digital -e:sld,spg)",
+    assert_search_results "r:common -is:digital -e:sld,spg,fdn alt:(r:mythic -is:digital -e:sld,spg,fdn)",
       "Bojuka Bog",
       "Cabal Ritual",
       "Dark Ritual",
       "Delver of Secrets",
       "Desert",
+      "Exhume",
       "Fyndhorn Elves",
       "Hymn to Tourach",
       "Impulse",
       "Insectile Aberration",
       "Kird Ape",
-      "Lightning Bolt",
       "Lotus Petal",
       "Rhystic Study",
       "Sol Ring"
@@ -226,6 +226,7 @@ describe "Full Database Test" do
     assert_search_results "abyss not:funny",
       "Abyssal Gatekeeper",
       "Abyssal Gorestalker",
+      "Abyssal Harvester",
       "Abyssal Horror",
       "Abyssal Hunter",
       "Abyssal Nightstalker",
@@ -237,7 +238,7 @@ describe "Full Database Test" do
       "Peer into the Abyss",
       "Reaper from the Abyss",
       "The Abyss"
-    assert_search_results "snow is:funny", "Snow Mercy"
+    assert_search_results "snow is:funny", "Snow Mercy", "Princess Snowfall"
     assert_search_results "tiger is:funny", "Paper Tiger", "Stocking Tiger"
   end
 
@@ -332,7 +333,7 @@ describe "Full Database Test" do
   end
 
   it "r:special" do
-    assert_search_equal "r:special -e:tsr,plst,pewk,ovnt,olgc", "(Super Secret Tech) or (e:vma r:special) or (e:tsb) or (Prismatic Piper) or (Faceless One) or e:mps,mp2"
+    assert_search_equal "r:special -e:tsr,plst,pewk,ovnt,olgc,da1", "(Super Secret Tech) or (e:vma r:special) or (e:tsb) or (Prismatic Piper) or (Faceless One) or e:mps,mp2"
     assert_count_cards "r:special e:tsr", 121
   end
 

@@ -446,7 +446,6 @@ class Card
     "Corrupted Metalcraft",
     "Mirran Victory",
     "Mono Eminence",
-    "Mono eminence",
     "Old Companion",
     "Phyrexian Victory",
     "Rule Zero",
@@ -554,7 +553,7 @@ class Card
     @decklimit = data["dl"]
     @hand = data["hd"]
     @life = data["lf"]
-    @rulings = data["r"]
+    @rulings = data["r"]&.map{|d,t| {"date" => d, "text" => t}}
     @secondary = data["s"]
     @partner = data["ip"]
     @commander = data["cm"]

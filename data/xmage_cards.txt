@@ -5628,6 +5628,7 @@ acr	Escape Detection	18
 acr	Escarpment Fortress	278
 acr	Evie Frye	19
 acr	Excalibur, Sword of Eden	72
+acr	Ezio Auditore da Firenze	25
 acr	Ezio, Blade of Vengeance	275
 acr	Ezio, Brash Novice	55
 acr	Fatal Push	90
@@ -23857,6 +23858,7 @@ dsc	Crawling Sensation	173
 dsc	Crypt Ghast	368
 dsc	Culling Ritual	85
 dsc	Cultivate	174
+dsc	Curator Beastie	30
 dsc	Damn	369
 dsc	Darkmoss Bridge	269
 dsc	Deadbridge Chant	215
@@ -23891,9 +23893,11 @@ dsc	Fellwar Stone	245
 dsc	Flooded Grove	276
 dsc	Florian, Voldaren Scion	217
 dsc	Foreboding Ruins	277
+dsc	Formless Genesis	34
 dsc	Geothermal Bog	278
 dsc	Giant Adephage	179
 dsc	Gleeful Arsonist	27
+dsc	Glitch Interpreter	13
 dsc	Gnarlwood Dryad	180
 dsc	Golgari Rot Farm	279
 dsc	Golgari Signet	246
@@ -23999,6 +24003,7 @@ dsc	Shadowblood Ridge	296
 dsc	Shark Typhoon	127
 dsc	Shigeki, Jukai Visionary	198
 dsc	Shivan Gorge	297
+dsc	Shriekwood Devourer	35
 dsc	Sigil of the Empty Throne	103
 dsc	Sign in Blood	156
 dsc	Simic Growth Chamber	298
@@ -24059,6 +24064,7 @@ dsc	Trygon Predator	238
 dsc	Twilight Mire	320
 dsc	Underground River	321
 dsc	Utter End	91
+dsc	Valgavoth, Harrower of Souls	6
 dsc	Vault of Whispers	322
 dsc	Verge Rangers	108
 dsc	Vial Smasher the Fierce	239
@@ -24190,6 +24196,8 @@ dsk	Let's Play a Game	105
 dsk	Leyline of Hope	18
 dsk	Leyline of Mutation	188
 dsk	Leyline of Resonance	143
+dsk	Leyline of Transformation	372
+dsk	Leyline of Transformation	63
 dsk	Leyline of the Void	106
 dsk	Lionheart Glimmer	19
 dsk	Live or Die	107
@@ -24279,6 +24287,9 @@ dsk	Under the Skin	203
 dsk	Unidentified Hovership	37
 dsk	Unnerving Grasp	80
 dsk	Unsettling Twins	38
+dsk	Unstoppable Slasher	119
+dsk	Unstoppable Slasher	294
+dsk	Unstoppable Slasher	312
 dsk	Untimely Malfunction	161
 dsk	Unwanted Remake	39
 dsk	Unwilling Vessel	81
@@ -26575,6 +26586,7 @@ fdn	Dread Summons	604
 fdn	Dreadwing Scavenger	118
 fdn	Driver of the Dead	605
 fdn	Drogskol Reaver	655
+fdn	Dropkick Bomber	537
 fdn	Druid of the Cowl	554
 fdn	Dryad Militant	656
 fdn	Duress	606
@@ -26583,7 +26595,9 @@ fdn	Dwynen, Gilt-Leaf Daen	217
 fdn	Eager Trufflesnout	102
 fdn	Eaten Alive	172
 fdn	Eaten by Piranhas	507
+fdn	Electroduplicate	85
 fdn	Elementalist Adept	36
+fdn	Elenda, Saint of Dusk	119
 fdn	Elfsworn Giant	103
 fdn	Elspeth's Smite	493
 fdn	Elvish Archdruid	219
@@ -26607,6 +26621,8 @@ fdn	Feldon's Cane	673
 fdn	Felidar Cub	573
 fdn	Felidar Retreat	574
 fdn	Felidar Savior	12
+fdn	Felling Blow	105
+fdn	Fiendish Panda	120
 fdn	Fierce Empath	636
 fdn	Fiery Annihilation	86
 fdn	Finale of Revelation	589
@@ -26614,9 +26630,11 @@ fdn	Fire Elemental	538
 fdn	Firebrand Archer	196
 fdn	Fireshrieker	674
 fdn	Firespitter Whelp	197
+fdn	Fishing Pole	128
 fdn	Flamewake Phoenix	198
 fdn	Flashfreeze	590
 fdn	Fleeting Distraction	155
+fdn	Fleeting Flight	13
 fdn	Fog Bank	591
 fdn	Forest	280
 fdn	Frenzied Goblin	199
@@ -26640,6 +26658,7 @@ fdn	Gnarlback Rhino	638
 fdn	Gnarlid Colony	224
 fdn	Goblin Boarders	87
 fdn	Goblin Firebomb	562
+fdn	Goblin Negotiation	88
 fdn	Goblin Oriflamme	539
 fdn	Goblin Smuggler	540
 fdn	Goblin Surprise	200
@@ -26652,6 +26671,7 @@ fdn	Gratuitous Violence	715
 fdn	Grow from the Ashes	225
 fdn	Gruul Guildgate	690
 fdn	Guarded Heir	14
+fdn	Gutless Plunderer	60
 fdn	Guttersnipe	716
 fdn	Halana and Alena, Partners	659
 fdn	Harbinger of the Tides	593
@@ -26669,21 +26689,25 @@ fdn	Heroes' Bane	639
 fdn	Heroic Reinforcements	241
 fdn	Hidetsugu's Second Rite	202
 fdn	High Fae Trickster	40
+fdn	High-Society Hunter	61
 fdn	Highborn Vampire	522
 fdn	Hinterland Sanctifier	730
 fdn	Hoarding Dragon	626
 fdn	Homunculus Horde	41
+fdn	Hungry Ghoul	62
 fdn	Icewind Elemental	42
 fdn	Immersturm Predator	660
 fdn	Impact Tremors	717
 fdn	Imperious Perfect	719
 fdn	Imprisoned in the Moon	156
 fdn	Incinerating Blast	90
+fdn	Infernal Vessel	63
 fdn	Infestation Sage	64
 fdn	Ingenious Leonin	495
 fdn	Inspiration from Beyond	43
 fdn	Inspiring Call	226
 fdn	Inspiring Overseer	496
+fdn	Inspiring Paladin	18
 fdn	Into the Roil	509
 fdn	Involuntary Employment	203
 fdn	Island	274
@@ -26693,9 +26717,12 @@ fdn	Joraga Invocation	555
 fdn	Joust Through	19
 fdn	Juggernaut	255
 fdn	Jungle Hollow	263
+fdn	Kaito, Cunning Infiltrator	44
 fdn	Kalastria Highborn	607
 fdn	Kargan Dragonrider	541
+fdn	Kellan, Planar Trailblazer	91
 fdn	Kindled Fury	542
+fdn	Kiora, the Rising Tide	45
 fdn	Kitesail Corsair	510
 fdn	Knight of Grace	576
 fdn	Knight of Malice	608
@@ -26711,6 +26738,7 @@ fdn	Lightshell Duo	157
 fdn	Liliana, Dreadhorde General	176
 fdn	Linden, the Steadfast Queen	577
 fdn	Llanowar Elves	227
+fdn	Loot, Exuberant Explorer	106
 fdn	Luminous Rebuke	20
 fdn	Lunar Insight	46
 fdn	Lyra Dawnbringer	707
@@ -26728,6 +26756,7 @@ fdn	Mentor of the Meek	578
 fdn	Meteor Golem	256
 fdn	Micromancer	158
 fdn	Midnight Reaper	609
+fdn	Midnight Snack	65
 fdn	Mild-Mannered Librarian	228
 fdn	Mindsparker	628
 fdn	Mischievous Mystic	47
@@ -26747,6 +26776,7 @@ fdn	Needletooth Pack	108
 fdn	Negate	710
 fdn	Nessian Hornbeetle	229
 fdn	New Horizons	557
+fdn	Nine-Lives Familiar	66
 fdn	Niv-Mizzet, Visionary	123
 fdn	Nullpriest of Oblivion	611
 fdn	Obliterating Bolt	629
@@ -26760,6 +26790,7 @@ fdn	Ovika, Enigma Goliath	663
 fdn	Pacifism	501
 fdn	Painful Quandary	179
 fdn	Pelakka Wurm	720
+fdn	Perforating Artist	124
 fdn	Phyrexian Arena	180
 fdn	Pilfer	181
 fdn	Pirate's Cutlass	563
@@ -26783,6 +26814,7 @@ fdn	Rakdos Guildgate	693
 fdn	Ramos, Dragon Engine	678
 fdn	Rampaging Baloths	645
 fdn	Rapacious Dragon	544
+fdn	Ravenous Amulet	131
 fdn	Ravenous Giant	630
 fdn	Reassembling Skeleton	182
 fdn	Reclamation Sage	231
@@ -26832,11 +26864,16 @@ fdn	Snakeskin Veil	233
 fdn	Solemn Simulacrum	257
 fdn	Sorcerous Spyglass	679
 fdn	Soul-Guide Lantern	680
+fdn	Soul-Shackled Zombie	70
+fdn	Soulstone Sanctuary	133
 fdn	Sower of Chaos	95
 fdn	Spectral Sailor	164
+fdn	Sphinx of Forgotten Lore	51
 fdn	Sphinx of the Final Word	597
+fdn	Spinner of Souls	112
 fdn	Spitfire Lagac	208
 fdn	Springbloom Druid	646
+fdn	Squad Rallier	24
 fdn	Stab	71
 fdn	Starlight Snare	514
 fdn	Stasis Snare	581
@@ -26882,6 +26919,7 @@ fdn	Thrashing Brontodon	560
 fdn	Three Tree Mascot	682
 fdn	Thrill of Possibility	210
 fdn	Time Stop	166
+fdn	Tinybones, Bauble Burglar	72
 fdn	Tolarian Terror	167
 fdn	Tragic Banshee	73
 fdn	Tranquil Cove	270
@@ -26890,11 +26928,14 @@ fdn	Tribute to Hunger	614
 fdn	Trygon Predator	667
 fdn	Twinblade Blessing	26
 fdn	Twinblade Paladin	503
+fdn	Twinflame Tyrant	97
 fdn	Uncharted Haven	564
+fdn	Uncharted Voyage	53
 fdn	Undying Malice	528
 fdn	Unflinching Courage	722
 fdn	Unsummon	599
 fdn	Untamed Hunger	529
+fdn	Valkyrie's Call	27
 fdn	Valorous Stance	583
 fdn	Vampire Gourmand	74
 fdn	Vampire Interloper	530
@@ -26912,6 +26953,7 @@ fdn	Vivien Reid	234
 fdn	Vizier of the Menagerie	649
 fdn	Volley Veteran	550
 fdn	Voracious Greatshark	600
+fdn	Wardens of the Cycle	125
 fdn	Wary Thespian	235
 fdn	Wildborn Preserver	650
 fdn	Wildheart Invoker	561
@@ -26922,7 +26964,9 @@ fdn	Wishclaw Talisman	617
 fdn	Witness Protection	168
 fdn	Youthful Valkyrie	149
 fdn	Zetalpa, Primal Dawn	584
+fdn	Zimone, Paradox Sculptor	126
 fdn	Zombify	187
+fdn	Zul Ashur, Lich Lord	77
 fem	Aeolipile	81
 fem	Armor Thrull	33a
 fem	Armor Thrull	33b
@@ -32695,6 +32739,7 @@ j25	Bond of Flourishing	637
 j25	Bonecaller Cleric	112
 j25	Boneclad Necromancer	411
 j25	Bounty of Skemfar	638
+j25	Braulios of Pheres Band	51
 j25	Breaching Hippocamp	290
 j25	Briarbridge Tracker	639
 j25	Brightmare	175
@@ -32769,6 +32814,7 @@ j25	Defend the Campus	186
 j25	Defend the Celestus	649
 j25	Defenestrate	420
 j25	Defiant Strike	187
+j25	Delightful Discovery	6
 j25	Desert of the Fervent	764
 j25	Desperate Lunge	188
 j25	Destroy Evil	189
@@ -32791,6 +32837,7 @@ j25	Draugr Thought-Thief	305
 j25	Dreadful Apathy	192
 j25	Dreadhorde Arcanist	539
 j25	Dreadhound	427
+j25	Dropkick Bomber	13
 j25	Dross Hopper	428
 j25	Drover of the Mighty	650
 j25	Drowsing Tyrannodon	651
@@ -32802,6 +32849,7 @@ j25	Dwynen's Elite	654
 j25	Eager Construct	749
 j25	Eaten Alive	116
 j25	Eerie Soultender	431
+j25	Eidolon of Astral Winds	2
 j25	Elderfang Disciple	432
 j25	Elite Skirmisher	193
 j25	Elvish Archdruid	655
@@ -32859,7 +32907,9 @@ j25	Forgotten Ancient	147
 j25	Forgotten Cave	766
 j25	Foul Play	442
 j25	Fretwork Colony	443
+j25	Frontline Heroism	15
 j25	Frost Trickster	313
+j25	Fumulus, the Infestation	42
 j25	Fungal Plots	658
 j25	Furious Reprisal	554
 j25	Fusion Elemental	745
@@ -32867,6 +32917,8 @@ j25	Garruk's Packleader	660
 j25	Garruk, Caller of Beasts	659
 j25	Gavony Silversmith	201
 j25	Gearseeker Serpent	314
+j25	General Kreat, the Boltbringer	48
+j25	Generous Pup	4
 j25	Ghalta, Primal Hunger	77
 j25	Ghirapur Guide	661
 j25	Ghitu Encampment	155
@@ -32901,6 +32953,7 @@ j25	Goremand	448
 j25	Gorex, the Tombshell	67
 j25	Gorging Vulture	449
 j25	Gorgon Flail	752
+j25	Gornog, the Red Reaper	49
 j25	Grave Strength	450
 j25	Graveblade Marauder	451
 j25	Gravedigger	452
@@ -32928,6 +32981,7 @@ j25	Hooded Blightfang	455
 j25	Howling Banshee	119
 j25	Hungry Megasloth	21
 j25	Hunter's Edge	671
+j25	Hurska Sweet-Tooth	53
 j25	Impeccable Timing	209
 j25	Incorrigible Youths	564
 j25	Indomitable Will	210
@@ -32942,6 +32996,7 @@ j25	Invigorating Surge	673
 j25	Ipnu Rivulet	767
 j25	Isareth the Awakener	68
 j25	Island	84
+j25	Ivora, Insatiable Heir	50
 j25	Ivy Lane Denizen	674
 j25	Ixalli's Diviner	675
 j25	Jadelight Ranger	676
@@ -33038,8 +33093,10 @@ j25	Naban, Dean of Iteration	61
 j25	Nadir Kraken	332
 j25	Naiad of Hidden Coves	333
 j25	Nantuko Husk	468
+j25	Nazar, the Velvet Fang	43
 j25	Necropolis Regent	469
 j25	Necrotic Wound	470
+j25	Neerdiv, Devious Diver	36
 j25	Nef-Crop Entangler	581
 j25	Neonate's Rush	582
 j25	Network Disruptor	334
@@ -33066,6 +33123,7 @@ j25	Overcome	696
 j25	Overflowing Insight	341
 j25	Overwhelm	697
 j25	Owl Familiar	342
+j25	Ozox, the Clattering King	44
 j25	Pacifism	234
 j25	Padeem, Consul of Innovation	62
 j25	Paladin of the Bloodstained	235
@@ -33077,14 +33135,17 @@ j25	Patron of the Valiant	237
 j25	Persistent Specimen	473
 j25	Pestermite	343
 j25	Phantasmal Form	344
+j25	Phantasmal Shieldback	8
 j25	Phantom Ninja	345
 j25	Pharika's Chosen	474
 j25	Pigment Storm	585
 j25	Pilfering Imp	475
 j25	Pitiless Plunderer	476
+j25	Plagon, Lord of the Beach	37
 j25	Plains	81
 j25	Plate Armor	100
 j25	Play with Fire	586
+j25	Pol Jamaar, Illusionist	38
 j25	Powerstone Fracture	477
 j25	Predator's Strike	699
 j25	Pridemalkin	700
@@ -33096,11 +33157,13 @@ j25	Prophetic Prism	758
 j25	Prosperous Thief	346
 j25	Purple-Crystal Crab	347
 j25	Pyrophobia	587
+j25	Qala, Ajani's Pridemate	32
 j25	Quirion Beastcaller	703
 j25	Raise the Alarm	101
 j25	Rally of Wings	238
 j25	Rampant Growth	704
 j25	Rapacious Dragon	588
+j25	Razorgrass Invoker	22
 j25	Read the Bones	479
 j25	Realm Seekers	705
 j25	Reaper from the Abyss	480
@@ -33119,6 +33182,7 @@ j25	Resistance Reunited	243
 j25	Resistance Skywarden	591
 j25	Retreat to Kazandu	707
 j25	Revitalize	244
+j25	Revoke Demise	10
 j25	Rhox Faithmender	245
 j25	Righteous Valkyrie	246
 j25	Rionya, Fire Dancer	75
@@ -33132,6 +33196,7 @@ j25	Ruthless Technomancer	484
 j25	Sai, Master Thopterist	63
 j25	Sanctum Seeker	485
 j25	Sandsteppe Outcast	248
+j25	Sandstorm Crasher	18
 j25	Sangromancer	122
 j25	Saproling Migration	709
 j25	Sarkhan's Rage	594
@@ -33141,11 +33206,13 @@ j25	Saurian Symbiote	23
 j25	Savage Stomp	710
 j25	Savannah Lions	249
 j25	Scavenged Blade	596
+j25	Scholar of Combustion	19
 j25	Scion of Darkness	486
 j25	Scion of Opulence	597
 j25	Scion of the Swarm	487
 j25	Scourge of the Undercity	11
 j25	Screaming Swarm	351
+j25	Scythecat Cub	24
 j25	Search Party Captain	250
 j25	Seat of the Synod	773
 j25	Secluded Steppe	774
@@ -33173,6 +33240,8 @@ j25	Sky-Eel School	359
 j25	Skyclave Pick-Axe	712
 j25	Skymarch Bloodletter	125
 j25	Slimebind	360
+j25	Slimy Piper	25
+j25	Slinza, the Spiked Stampede	55
 j25	Smoke Shroud	361
 j25	Snakeskin Veil	713
 j25	Snapping Gnarlid	714
@@ -33217,11 +33286,13 @@ j25	Sunhome Stalwart	266
 j25	Sunmane Pegasus	267
 j25	Sunspear Shikari	268
 j25	Supreme Will	370
+j25	Sutina, Speaker of the Tajuru	56
 j25	Swamp	87
 j25	Swarm of Bloodflies	492
 j25	Swift Response	269
 j25	Syr Elenora, the Discerning	64
 j25	Taborax, Hope's Demise	69
+j25	Taeko, the Patient Avalanche	39
 j25	Tail Swipe	721
 j25	Tajuru Pathwarden	722
 j25	Take Up the Shield	270
@@ -33283,6 +33354,7 @@ j25	Undersea Invader	380
 j25	Universal Solvent	761
 j25	Unleash Fury	608
 j25	Unstoppable Ogre	609
+j25	Urdnan, Dromoka Warrior	34
 j25	Urge to Feed	502
 j25	Valkyrie Harbinger	275
 j25	Valkyrie's Sword	276
@@ -35632,7 +35704,7 @@ lcc	Chimil, the Inner Sun	106
 lcc	Choked Estuary	322
 lcc	Chromatic Orrery	107
 lcc	Cinder Glade	323
-lcc	Clavileno, First of the Blessed	2
+lcc	Clavileño, First of the Blessed	2
 lcc	Clifftop Retreat	324
 lcc	Coat of Arms	108
 lcc	Coercive Portal	109
@@ -44198,9 +44270,9 @@ mh3	Arena of Glory	215
 mh3	Arena of Glory	351
 mh3	Argent Dais	20
 mh3	Argent Dais	447
-mh3	Arna Kennerud, Skycaptain	178
-mh3	Arna Kennerud, Skycaptain	371
-mh3	Arna Kennerud, Skycaptain	485
+mh3	Arna Kennerüd, Skycaptain	178
+mh3	Arna Kennerüd, Skycaptain	371
+mh3	Arna Kennerüd, Skycaptain	485
 mh3	Ashling, Flame Dancer	115
 mh3	Ashling, Flame Dancer	367
 mh3	Ashling, Flame Dancer	415
@@ -55361,6 +55433,7 @@ pip	Glacial Fortress	266
 pip	Glimmer of Genius	176
 pip	Glowing One	76
 pip	Grave Titan	346
+pip	Grim Reaper's Sprint	58
 pip	Guardian Project	199
 pip	Gunner Conscript	77
 pip	HELIOS One	149
@@ -55458,6 +55531,7 @@ pip	Nuka-Cola Vending Machine	137
 pip	One with the Machine	179
 pip	Open the Vaults	168
 pip	Opulent Palace	278
+pip	Overencumbered	18
 pip	Overflowing Basin	152
 pip	Overseer of Vault 76	19
 pip	Overseer of Vault 76	368
