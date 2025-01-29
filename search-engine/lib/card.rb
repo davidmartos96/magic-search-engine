@@ -27,6 +27,7 @@ class Card
     "Eminence",
     "Enrage",
     "Everypony's Invited",
+    "Exhaust",
     "Family Gathering",
     "Fateful hour",
     "Fathomless descent",
@@ -47,6 +48,7 @@ class Card
     "Legacy",
     "Lieutenant",
     "Magecraft",
+    "Max speed",
     "Metalcraft",
     "Morbid",
     "Parley",
@@ -68,6 +70,7 @@ class Card
     "Undergrowth",
     "Will of the council",
     "Will of the Planeswalkers",
+    "You can never leave",
     # AFR flavor words
     "Acid Breath",
     "Animate Walking Statue",

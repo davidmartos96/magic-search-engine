@@ -1,0 +1,229 @@
+#!/usr/bin/env ruby
+
+require "pathname"
+require "pry"
+
+DECKS_ROOT = Pathname("#{ENV['HOME']}/github/magic-preconstructed-decks")
+SHANDALAR_DATA_ROOT = Pathname(__dir__) + "../data/shandalar_decks"
+
+class Hash
+  def delete_default_values
+    delete_if{ _2 == default }
+  end
+end
+
+class ShandalarDeck
+  attr_reader :name, :comment, :cards, :sideboards, :source_url
+  attr_reader :export_mainboard, :export_sideboard, :display
+
+  def initialize(options, source_url)
+    @source_url = source_url
+    options = options.dup
+    @name = options.delete(:name)
+    @comment = options.delete(:comment)
+    @cards = options.delete(:cards)
+    @sideboards = {}
+    options.each do |key, value|
+      if key =~ /\Av_(.*)\z/
+        @sideboards[$1] = value
+      else
+        raise "Unknown key #{key}"
+      end
+    end
+    simplify_sideboards
+    calculate_output_fields
+  end
+
+  def simplify_sideboards
+    cards_in_all_sideboards = @sideboards.values.map(&:keys).inject{|a,b| a&b}
+    cards_in_all_sideboards.each do |card|
+      min_count = @sideboards.values.map{ _1[card] }.min
+      @sideboards.values.each do |sideboard|
+        sideboard[card] -= min_count
+        sideboard.delete_default_values
+      end
+      @cards[card] += min_count
+    end
+  end
+
+  def calculate_output_fields
+    @export_mainboard = @cards.dup
+    @export_sideboard = {}
+
+    @sideboards["none"].each do |card, count|
+      @export_mainboard[card] += count
+    end
+
+    @export_sideboard = {}
+    color_sideboards = @sideboards.reject{ _1 == "none"}
+
+    guide = {}
+    color_sideboards.each do |color, sideboard|
+      diff = sideboard.dup
+      @sideboards["none"].each do |card, count|
+        diff[card] -= count
+      end
+      diff.delete_default_values
+      guide[color] = diff
+    end
+
+    color_sideboard_adds = guide.values.map{|g| g.select{_2 > 0}}
+    cards_in_any_sideboard = color_sideboard_adds.map(&:keys).inject{|a,b| a|b}
+    cards_in_any_sideboard.each do |card|
+      max_count = color_sideboards.values.map{ _1[card] }.max
+      @export_sideboard[card] = max_count
+    end
+
+    @display = []
+    return if guide.values.all?(&:empty?)
+
+    @display = []
+    guide.each do |color, diff|
+      if diff.empty?
+        @display << "Against #{color.capitalize}: No changes"
+      else
+        subs = diff.select{ _2 < 0 }
+        adds = diff.select{ _2 > 0 }
+        @display << "Against #{color.capitalize}: #{subs.map{|card, count| "#{count} #{card}" }.join(", ")} #{adds.map{|card, count| "+#{count} #{card}" }.join(", ")}"
+      end
+    end
+  end
+
+  def export_string
+    result = []
+    result << "// NAME: #{name}"
+    result << "// SOURCE: #{source_url}"
+    result << "// DATE: 1997-04-01"
+
+    @display.each do |s|
+      result << "// DISPLAY: #{s}"
+    end
+
+    @export_mainboard.sort.each do |card, count|
+      result << "#{count} #{card}"
+    end
+
+    unless @export_sideboard.empty?
+      result << ""
+      result << "Sideboard"
+      @export_sideboard.sort.each do |card, count|
+        result << "#{count} #{card}"
+      end
+    end
+
+    result.map{|s| "#{s}\n" }.join
+  end
+end
+
+class ShandalarDeckParser
+  def initialize(str, source_url)
+    @str = str
+    @current_section = :cards
+    @source_url = source_url
+    @result = {
+      name: nil,
+      comment: nil,
+      cards: Hash.new(0),
+      v_none: Hash.new(0),
+      v_black: Hash.new(0),
+      v_blue: Hash.new(0),
+      v_green: Hash.new(0),
+      v_red: Hash.new(0),
+      v_white: Hash.new(0)
+    }
+  end
+
+  def fix_card_name(name)
+    {
+      "Circle of Protection Black" => "Circle of Protection: Black",
+      "Circle of Protection Blue" => "Circle of Protection: Blue",
+      "Circle of Protection from Artifacts" => "Circle of Protection: Artifacts",
+      "Circle of Protection Green" => "Circle of Protection: Green",
+      "Circle of Protection Red" => "Circle of Protection: Red",
+      "Circle of Protection White" => "Circle of Protection: White",
+      "El-Hajjaj" => "El-Hajjâj",
+      "Junun Efreet" => "Junún Efreet",
+      # This one is not obvious, but ID match in game data says so:
+      "Knights of the Rainbow Vale" => "Rainbow Knights",
+      "Manaflare" => "Mana Flare",
+      "Mishra's Factory" => "Mishra's Factory [ATQ:80a]",
+      "Mons Goblin Raiders" => "Mons's Goblin Raiders",
+      "Naf's Asp" => "Nafs Asp",
+      "Necropolis of Azaar" => "Necropolis of Azar",
+      "Ragman" => "Rag Man",
+      "Strip Mine" => "Strip Mine [ATQ:82a]",
+      "Stripmine" => "Strip Mine [ATQ:82a]",
+      "Tawnos' Wand" => "Tawnos's Wand",
+      "Tawnos' Weaponry" => "Tawnos's Weaponry",
+      "Will-O-The-Wisp" => "Will-o'-the-Wisp",
+      "Will-O'-The-Wisp" => "Will-o'-the-Wisp",
+      "Yotian Soldiers" => "Yotian Soldier",
+      "Zephyr Falcons" => "Zephyr Falcon",
+    }.fetch(name, name)
+  end
+
+  def call
+    lines = @str.split("\n")
+
+    # Parse name and comment from first line
+    if first_line = lines.shift
+      if match = first_line.match(/^(.+?)(\s*\(.*\)\s*)?$/)
+        @result[:name] = match[1].strip
+        @result[:comment] = match[2]&.strip
+      end
+    end
+
+    # Process remaining lines
+    lines.each do |line|
+      line = line.strip
+      next if line.empty?
+
+      # Check for section marker
+      if line.start_with?(".v")
+        @current_section = normalize_section(line)
+        next
+      end
+
+      # Parse card entry
+      if match = line.match(/^\.\d+\s+(\d+)\s+(.+)$/)
+        count = match[1].to_i
+        name = fix_card_name(match[2].strip)
+        @result[section_key(@current_section)][name] += count
+      end
+    end
+
+    ShandalarDeck.new(@result, @source_url)
+  end
+
+  private
+
+  def normalize_section(line)
+    line.downcase.delete_prefix(".v").to_sym
+  end
+
+  def section_key(section)
+    section == :cards ? :cards : :"v_#{section}"
+  end
+end
+
+class ImportShandalarDecks
+  def deck_paths
+    SHANDALAR_DATA_ROOT.glob("*.dck")
+  end
+
+  def decks
+    @decks ||= deck_paths.map do |path|
+      source_url = "#{path.basename} from game files"
+      ShandalarDeckParser.new(path.read, source_url).call
+    end
+  end
+
+  def call
+    decks.each do |deck|
+      export_path = DECKS_ROOT + "data/shandalar/past" + "#{deck.name}.txt"
+      export_path.write(deck.export_string)
+    end
+  end
+end
+
+ImportShandalarDecks.new.call

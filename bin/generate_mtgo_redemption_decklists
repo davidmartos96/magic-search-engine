@@ -1,0 +1,130 @@
+#!/usr/bin/env ruby
+
+require_relative "../search-engine/lib/card_database"
+require "csv"
+require "pry"
+
+DECKS_ROOT = Pathname("#{ENV['HOME']}/github/magic-preconstructed-decks")
+DB = CardDatabase.load
+
+class GenerateSetRedemptionDecklists
+  def regular_path
+    DECKS_ROOT + "data/redemption/#{set.code}/#{set.name} Redemption.txt"
+  end
+
+  def foil_path
+    DECKS_ROOT + "data/redemption/#{set.code}/#{set.name} Foil Redemption.txt"
+  end
+
+  def initialize(source: nil, numbers: nil, date: nil, set_code:, query: nil, card_count: nil)
+    @set_code = set_code
+    @source = source
+    @numbers = numbers
+    @numbers = 1..set.base_set_size if @numbers.nil?
+    @date = date || set.release_date
+    @query = query
+    @card_count = card_count || @numbers.size
+  end
+
+  def set
+    @set ||= DB.sets[@set_code] or raise "Unknown set #{@set_code}"
+  end
+
+  def regular_query
+    DB.search("e:#{@set_code} is:baseset game:mtgo #{@query} is:nonfoil").printings
+  end
+
+  def foil_query
+    DB.search("e:#{@set_code} is:baseset game:mtgo #{@query} is:nonfoil").printings
+  end
+
+  def regular_number_range
+    set.printings.select{
+      @numbers.include?(_1.number.to_i) and _1.mtgo? and _1.foiling != :foilonly and !_1.variant_foreign and !_1.variant_misprint
+    }
+  end
+
+  def foil_number_range
+    set.printings.select{
+      @numbers.include?(_1.number.to_i) and _1.mtgo? and _1.foiling != :nonfoil and !_1.variant_foreign and !_1.variant_misprint
+    }
+  end
+
+  def regular_cards
+    @regular_cards ||= if @query
+      regular_query.map{ PhysicalCard.for(_1) }.uniq
+    else
+      regular_number_range.map{ PhysicalCard.for(_1) }.uniq
+    end
+  end
+
+  def foil_cards
+    @foil_cards ||= if @query
+      foil_query.map{ PhysicalCard.for(_1) }.uniq
+    else
+      foil_number_range.map{ PhysicalCard.for(_1) }.uniq
+    end
+  end
+
+  def regular_name
+    "#{set.name} Redemption"
+  end
+
+  def foil_name
+    "#{set.name} Foil Redemption"
+  end
+
+  def call
+    if @numbers
+      warn "#{@set_code} Wrong number of regular cards, expected #{@card_count} (#{@numbers}), got #{regular_cards.size}" if regular_cards.size != @card_count
+      warn "#{@set_code} Wrong number of foil cards, expected #{@card_count} (#{@numbers}), got #{foil_cards.size}" if foil_cards.size != @card_count
+    end
+
+    regular_path.parent.mkpath
+    regular_path.open("w") do |fh|
+      fh.puts "// NAME: #{regular_name}"
+      fh.puts "// SOURCE: #{@source}" if @source
+      fh.puts "// DATE: #{@date}"
+      regular_cards.each do |card|
+        fh.puts "1 #{card.name} [#{set.code.upcase}:#{card.number}]"
+      end
+    end
+
+    foil_path.open("w") do |fh|
+      fh.puts "// NAME: #{regular_name}"
+      fh.puts "// SOURCE: #{@source}" if @source
+      fh.puts "// DATE: #{@date}"
+      foil_cards.each do |card|
+        fh.puts "1 #{card.name} [#{set.code.upcase}:#{card.number}] [foil]"
+      end
+    end
+  end
+end
+
+class GenerateMtgoRedemptionDecklists
+  def set_data_path
+    Pathname(__dir__) + "../data/mtgo_redemption.csv"
+  end
+
+  def set_data
+    @set_data ||= CSV.read(
+      set_data_path,
+      headers: true,
+      header_converters: :symbol,
+      converters: [:integer, :date]
+    )
+  end
+
+  def call
+    set_data.each do |row|
+      GenerateSetRedemptionDecklists.new(
+        date: row[:date],
+        set_code: row[:code].downcase,
+        query: row[:query],
+        card_count: row[:card_count]
+      ).call
+    end
+  end
+end
+
+GenerateMtgoRedemptionDecklists.new.call
