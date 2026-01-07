@@ -22,8 +22,8 @@ end
 
 desc "Generate index"
 task "index" do
-  sh "rescue ./indexer/bin/indexer"
-  sh "rescue ./booster_indexer/bin/booster_indexer"
+  sh "./indexer/bin/indexer"
+  sh "./booster_indexer/bin/booster_indexer"
 end
 
 desc "Update mtgjson database"
@@ -172,6 +172,14 @@ task "update" do
   Rake::Task["export:decks"].invoke
 end
 
+desc "Update only decks"
+task "update:decks" do
+  #Rake::Task["mtgjson:fetch"].invoke
+  Rake::Task["import:decks"].invoke
+  Rake::Task["index"].invoke
+  Rake::Task["export:decks"].invoke
+end
+
 desc "Update magic-preconstructed-decks metadata"
 task "update:decks:metadata" do
   # It would be better to do both steps from here, and to also include flavor names as valid names
@@ -183,13 +191,13 @@ end
 
 desc "Import deck data"
 task "import:decks" do
-  sh "~/github/magic-preconstructed-decks/bin/build_jsons ./data/decks.json"
+  sh "~/Dev/magic-preconstructed-decks/bin/build_jsons ./data/decks.json"
 end
 
 desc "Export deck data"
 task "export:decks" do
-  sh "./bin/export_decks_data_old ~/github/magic-preconstructed-decks-data/decks.json"
-  sh "./bin/export_decks_data ~/github/magic-preconstructed-decks-data/decks_v2.json"
+  sh "./bin/export_decks_data_old ~/Dev/magic-preconstructed-decks-data/decks.json"
+  sh "./bin/export_decks_data ~/Dev/magic-preconstructed-decks-data/decks_v2.json"
 end
 
 desc "Update sealed only"
