@@ -5,7 +5,7 @@ require_relative "../search-engine/lib/card_database"
 class ExportDecksData
   def initialize
     @db = CardDatabase.load
-    @uuids_path = Pathname("#{__dir__}/../index/uuids.txt")
+    @uuids_path = Pathname("#{__dir__}/../index/scryfall_ids.txt")
     @token_uuids_path = Pathname("#{__dir__}/../index/token_uuids.txt")
     load_uuids
     load_token_uuids
@@ -54,7 +54,7 @@ class ExportDecksData
       etched: c.etched ? true : nil,
       count: n,
       multiverseid: c.main_front.multiverseid,
-      mtgjson_uuid: uuid_for(c.set_code, c.number),
+      scryfall_id: uuid_for(c.set_code, c.number),
     }.compact
   end
 
