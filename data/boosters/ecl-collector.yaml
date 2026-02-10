@@ -1,0 +1,125 @@
+# Lorwyn Eclipsed
+# Collector Booster
+# Sources:
+# - https://magic.wizards.com/en/news/feature/collecting-lorwyn-eclipsed
+# - https://magic.wizards.com/en/products/lorwyn-eclipsed/card-image-gallery
+# - https://scryfall.com/sets/ecl
+# - https://scryfall.com/sets/ecc
+# - https://cardgamebase.com/serialized-bitterbloom-bearer-odds/
+
+superfilter: "-is:reversibleback"
+pack:
+  foil_common: 5
+  foil_uncommon: 4
+  foil_land: 1
+  foil_rare_mythic: 1
+  non_foil_ecc: 1
+  non_foil_boosterfun: 2
+  foil_boosterfun: 1
+
+queries:
+  basic_land: "e:{set} number:269-273"
+  fullart_land: "e:{set} number:274-283"
+  borderless: "e:{set} number:284-296"
+  fable: "e:{set} number:297-346"
+  reversible_shockland: "e:{set} number:347-351"
+  serialized_bitterbloom: "e:{set} number:352"
+  extended_art: "e:{set} number:353-381"
+  japanese_showcase: "e:{set} number:382-391"
+  fracture_foil_japanese_showcase: "e:{set} number:392-401"
+
+  boosterfun_2_1: "{borderless} or {fable} or {reversible_shockland} or {extended_art}"
+
+  ecc_mythic_borderless: "e:ECC number:1-4"
+  ecc_rare_extended: "e:ECC number:25-44"
+
+sheets:
+  foil_common:
+    foil: true
+    query: "r:c"
+    count: 81
+
+  foil_uncommon:
+    foil: true
+    any:
+      - use: uncommon
+        chance: 636 # 63.6%
+        count: 100
+      - rawquery: "{fable} r:u" # Uncommon fable frame
+        chance: 364 # 36.4%
+        count: 10
+
+  foil_land:
+    foil: true
+    rawquery: "{fullart_land}"
+    count: 10
+
+  foil_rare_mythic:
+    foil: true
+    any:
+      - use: rare
+        rate: 2
+        count: 65
+      - use: mythic
+        rate: 1
+        count: 22
+
+  non_foil_ecc:
+    any:
+      - rawquery: "{ecc_rare_extended}"
+        rate: 2
+        count: 20
+      - rawquery: "{ecc_mythic_borderless}"
+        rate: 1
+        count: 4
+
+  non_foil_boosterfun:
+    any:
+      - rawquery: "{extended_art}"
+        chance: 3770 # 37.7%
+        count: 29
+      - rawquery: "{fable} r:r"
+        chance: 3370 # 33.7%
+        count: 26
+      - rawquery: "{fable} r:m"
+        chance: 910 # 9.1%
+        count: 14
+      - rawquery: "{borderless} r:r"
+        chance: 130 # 13%
+        count: 5
+      - rawquery: "{borderless} r:m"
+        chance: 450 # 4.5%
+        count: 8
+      - rawquery: "{reversible_shockland}" # Reversible shock land
+        chance: 200 # 2%
+        count: 5
+
+  boosterfun_2_1_ratio:
+    # Japan Showcase and the serialized Bitterbloom are separate because they don't respect the 2:1 ratio
+    any:
+    - rawquery: "{boosterfun_2_1} r:r"
+      rate: 2
+      count: 65 # 29 + 26 + 5 + 5 = 65
+    - rawquery: "{boosterfun_2_1} r:m"
+      rate: 1
+      count: 22 # 14 + 8 = 22
+    - set: spg
+      code: "ECL"
+      rate: 1
+      count: 20
+
+  foil_boosterfun:
+    foil: true
+    any:
+      - use: boosterfun_2_1_ratio
+        chance: 5400 # 30.4 + 27.2% + 7.3% + 5.2% + 4.2% + 5.2% + 10.5% = 90.2% -> adjusted down to 90%
+        # 0.9 * 6000 = 5400, to make everything add up to 6000
+      - rawquery: "{japanese_showcase}"
+        chance: 540 # 9% -> 0.09 * 6000 = 540
+        count: 10
+      - rawquery: "{fracture_foil_japanese_showcase}"
+        chance: 60 # 1% -> 0.01 * 6000 = 60
+        count: 10
+      - rawquery: "{serialized_bitterbloom}"
+        chance: 1 # 1 / 6000
+        count: 1
