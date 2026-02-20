@@ -6,6 +6,7 @@ require "memoist"
 require "pathname-glob"
 require "pathname"
 require "pry"
+require "set"
 
 LOCKED_SETS_PATH = Pathname(__dir__) + "../../.locked_mtgjson_sets"
 
