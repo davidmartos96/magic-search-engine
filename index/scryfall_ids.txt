@@ -7190,7 +7190,7 @@ acr	58	63056bb9-e825-418a-a8ff-692980aa65fe	Jackdaw
 acr	59	e127a40c-90c8-4c2d-aff4-daab1c56a4c5	Kassandra, Eagle Bearer
 acr	60	9dd6c700-f961-484a-8fe2-57107f5b7717	Lydia Frye
 acr	61	116bf8c6-8488-4eff-b350-b3ea821353b1	Mary Read and Anne Bonny
-acr	62	2b16a212-602c-4839-9e34-fc5c5b0388f0	Ratonhnhaké꞉ton
+acr	62	2b16a212-602c-4839-9e34-fc5c5b0388f0	Ratonhnhakéton
 acr	63	085568e5-d622-45ff-9a31-52eaa513ff31	Shao Jun
 acr	64	d90080ea-062b-4b92-89e7-b6dcb2c70a8c	Shaun & Rebecca, Agents
 acr	65	42ca7f13-df00-4904-a7be-44f94272bfee	Shay Cormac
@@ -7280,7 +7280,7 @@ acr	146	4ffdd5a9-bc4f-48de-b87b-8087241f6d41	Havi, the All-Father
 acr	147	23aa895d-659f-49cb-82af-fd8fa491004f	Haytham Kenway
 acr	148	d7016d0a-0352-4955-86af-949cf6ba6a3f	Kassandra, Eagle Bearer
 acr	149	910570c8-c868-4513-8b27-22268d0cff68	Lydia Frye
-acr	150	4f0e1e27-9a74-4151-8902-aacd12897946	Ratonhnhaké꞉ton
+acr	150	4f0e1e27-9a74-4151-8902-aacd12897946	Ratonhnhakéton
 acr	151	9313f099-7f76-4b3e-af6a-f62b13cad7b8	Shao Jun
 acr	152	5395d40f-75ae-4198-bb8a-c91265bcf824	Shaun & Rebecca, Agents
 acr	153	bf3012ba-1537-4f54-bb4a-65b909b87e59	Shay Cormac
@@ -7374,7 +7374,7 @@ acr	240	c803e701-61d5-4f13-a0c4-78f00af1a4ea	Kassandra, Eagle Bearer
 acr	241	88081ed8-0416-4c1b-bd59-5bf9fdc3cc5f	Lydia Frye
 acr	242	f7b07542-b347-43ca-8203-cbf648d5426c	Mary Read and Anne Bonny
 acr	243	c96eb5dd-e846-433d-9cad-15c309c1ab75	Mortify
-acr	244	6133c3ab-9552-4b02-8c07-4128773a78b9	Ratonhnhaké꞉ton
+acr	244	6133c3ab-9552-4b02-8c07-4128773a78b9	Ratonhnhakéton
 acr	245	62d341e9-4d06-48fe-b668-3bd883c1bbe8	Reconstruct History
 acr	246	d4f07870-359c-4f7a-8287-b5f59b7dc72b	Shao Jun
 acr	247	a375bfc8-9272-4421-96cb-80bd8759db47	Shaun & Rebecca, Agents
@@ -67101,6 +67101,7 @@ pfdn	129s	49abd29d-639b-480e-95c6-28ec72458888	Leyline Axe
 pfdn	132s	696ed860-99ef-44d4-b2a9-2de50e5b1151	Scrawling Crawler
 pfdn	133s	ee826988-0bd3-4bf4-84f9-a1a5fdfa2cbb	Soulstone Sanctuary
 pfdn	134s	c54b626a-02a9-4d5f-be1a-286950e153f8	Ajani, Caller of the Pride
+pfdn	137p	b908bd6c-401b-419d-a26e-8db4421f809b	Authority of the Consuls
 pfdn	137s	a7512993-aafd-4c0c-b1e1-e967a0043883	Authority of the Consuls
 pfdn	140s	2d6a9a5a-329d-4ce2-92c2-f3c24b17c5cc	Day of Judgment
 pfdn	141s	9e779119-9cac-4e0d-8d3d-76be4a91a5fc	Giada, Font of Hope
@@ -69958,7 +69959,7 @@ plci	285p	55c7ff23-de4d-4067-bbb6-557f3862d7fd	Sunken Citadel
 plci	285s	74f9e655-1418-4c19-840a-f4e6f6227553	Sunken Citadel
 plg20	1	d27b6a46-f9be-437a-a13c-ad8077ac0127	Reliquary Tower
 plg20	2	773916fd-060e-4abc-a060-e18768807571	Hangarback Walker
-plg21	C1	fa49f3a9-9b64-4fe0-8ecf-df5f9d73defe	Xantcha, Sleeper Agent
+plg21	C1	06c30f28-15a1-4fd5-a743-5c2aed19d85f	Xantcha, Sleeper Agent
 plg21	C2	de2f26fc-1c69-490d-83a9-4031bcff6895	Yuriko, the Tiger's Shadow
 plg21	C3	116ca4c6-394e-42d9-bbef-def35e7dbed5	Path of Ancestry
 plg21	J1	2c0edd02-181e-4077-9829-1c1ed5035eeb	Orb of Dragonkind
@@ -83940,6 +83941,9 @@ pw26	1	ded0147d-220f-411d-8950-fd8a47786f6f	Nowhere to Run
 pw26	2	007dc743-19e4-4086-8afe-364116b0c91c	Farhaven Elf
 pw26	3	8737ee71-d1c1-4977-a509-c2c121f7ac4c	Gilded Lotus
 pw26	4	1f4ebb5a-936a-45bb-9bfd-5cd0c6d2fd97	The Eternal Wanderer
+pw26	5	b6bc6ff3-f466-4cb0-8b4e-a20d8ed129c8	Lightning Bolt
+pw26	6	2155537f-37b1-4121-9612-63781b461497	Courier of Comestibles
+pw26	7	cbe07254-5a32-45d6-b0c0-d842640deb47	Spicy Oatmeal Pizza
 pwar	1p	4455b2fd-3b44-4100-9573-5d2ba4507b6c	Karn, the Great Creator
 pwar	1s	a85cde02-5f6f-4c85-b0f2-46ec472fd151	Karn, the Great Creator
 pwar	1s★	753f7c1a-8310-4b66-9359-f072b353e9ee	Karn, the Great Creator
@@ -91126,6 +91130,35 @@ sld	2337	f8279ef6-59db-4834-824e-230f5528a509	Maddening Cacophony
 sld	2338	9a55b4e9-bbe7-4f12-909e-77082f54c1bb	Serum Visions
 sld	2339	13dac494-fa83-4d28-9870-955b531e18fb	Umbris, Fear Manifest
 sld	2340	6bbb6526-2fea-4f5d-921a-01ce870728de	Spellskite
+sld	2354	63ca41b6-a4ed-4cb6-84b8-64d3f6505140	Loxodon Gatekeeper
+sld	2355	1175b8f8-859f-4930-9725-2d2afea3703d	Sakashima's Student
+sld	2356	62a351c1-4541-4b67-a441-8c0db213652e	Throat Slitter
+sld	2357	f6d2ed27-2d70-4851-80cb-8480ac938516	Guttersnipe
+sld	2358	e0268eea-284b-450a-b334-e57d9080bd3b	Loxodon Gatekeeper
+sld	2359	248add6e-bf11-4378-90c3-49e154fa54e5	Sakashima's Student
+sld	2360	4ce97ea0-ae59-4137-8663-8d8f49105d6a	Throat Slitter
+sld	2361	6a3e6ee6-6fb5-4107-a96d-e1b979f0465c	Guttersnipe
+sld	2362	fef1c2a5-d5d8-4c1e-9b14-ee202a5f16b1	Deepglow Skate
+sld	2363	e9c3a74f-6b39-42f6-a144-592f83846d9b	Pirated Copy
+sld	2364	aa1c4ada-a218-4701-a293-ae6cbbe5c4d8	Kediss, Emberclaw Familiar
+sld	2365	faad0c3b-9963-4493-ad53-af68e3b5cd2c	Hardened Scales
+sld	2366	7ed22529-90a5-44e6-8e0e-76b92fb2618a	Triumph of the Hordes
+sld	2367a	a808459c-f086-4cb6-a53e-4b9e196c1000	Delver of Secrets
+sld	2367b	a808459c-f086-4cb6-a53e-4b9e196c1000	Insectile Aberration
+sld	2368	b8718130-e51a-4586-a6e7-367c4a49f790	Higure, the Still Wind
+sld	2369	e0a8aaa8-ccfb-470c-9011-ce3ff5e12ad4	Species Specialist
+sld	2370	23bc2161-50f0-4c42-9a38-824f8c0c0015	Rampaging Baloths
+sld	2371	4b811d9b-1815-4219-9fc8-706dff705d4a	Triskelion
+sld	2372	ff3a48ee-27c6-45de-8252-5f488bc05e66	Settle the Wreckage
+sld	2373	ab8741ca-43cb-4b4c-890d-0a363524bd13	Mental Misstep
+sld	2374	dccf6188-e038-4eec-af5b-8cc8a35ca00e	Ink-Eyes, Servant of Oni
+sld	2375	dd2c39c5-e3d1-421b-b14e-a28e6810a1d1	Anger
+sld	2376	cd9f1d2c-4fc7-40c5-aa81-afa4c7a7eef3	Chord of Calling
+sld	2377	08580488-686a-48cd-9a15-757fa0e4ff83	Baylen, the Haymaker
+sld	2378	5f8c16d5-c2ed-4e5c-8f50-d39013845f55	Felidar Retreat
+sld	2379	ac736037-113f-4e4b-8b97-7b2300b0d276	Master of Ceremonies
+sld	2380	eaf56de3-a2c5-476a-9fac-f149e8c3aa3d	Second Harvest
+sld	2381	f55ea597-fedb-443d-a242-3f161812ec11	Sunforger
 sld	2447	2a5150ee-d177-48f5-9c93-edfaa95922ab	Lucy MacLean, Positively Armed
 sld	2448	e7ed7d2c-c49b-4786-86eb-125863e874a2	The Ghoul, Gunslinger
 sld	2449	b2caf8e8-f98f-484f-b233-54ccf71ff9b9	Maximus, Knight Apparent
@@ -91178,6 +91211,16 @@ sld	2510	ec2bacc7-22b2-4f71-b7d7-bb4bb46d6eda	Island
 sld	2511	89b84af6-8fa6-4224-9f51-0edf48358dcd	Swamp
 sld	2512	63a9637b-61de-4d77-8c35-b12a075d7faa	Mountain
 sld	2513	f6e1cd0b-1f50-4a56-b015-269e3a95051d	Forest
+sld	2514	220d3897-c4b9-4920-8dd8-209776ab038a	Mirror Entity
+sld	2515	2d612018-b41f-4ae4-bd8e-9acc972b2154	Jace's Archivist
+sld	2516	6a601d71-04e0-48f1-8011-a77186c1dd97	Stinkweed Imp
+sld	2517	4f55fdb1-4c4e-4bc7-aa22-d00b43d5cfa5	Mogg Assassin
+sld	2518	1db109d4-00a6-42ed-9d0d-d99eaab16e7f	Sakura-Tribe Elder
+sld	2519	c030a6d9-4283-4ae4-8c8b-1790c3b6f0a8	Irrigated Farmland
+sld	2520	87bb746a-7959-4567-87a0-09e69fc78a4c	Fetid Pools
+sld	2521	84f04ba2-efae-464c-96c1-8b929288fba6	Canyon Slough
+sld	2522	8d2f3838-26b8-41ad-af75-75c269f79a2c	Sheltered Thicket
+sld	2523	0d9b8502-0bcf-4310-95a3-a9f3320b6439	Scattered Groves
 sld	7001	1fd9c17b-0cbb-49b7-8fb8-6a6f319f6a05	Feed the Swarm
 sld	7002	7ff1d69b-53fe-469c-945b-ecb23c426cce	Forge Anew
 sld	7003	159882aa-b596-4195-9b2e-983eee28d1bc	Silence
@@ -96741,40 +96784,133 @@ tmc	3	06c595fa-55ff-46f3-afaf-17edae465864	Splinter, the Mentor
 tmc	4	bccdd54c-e64b-44d2-87b3-e80029672529	Raphael, the Muscle
 tmc	5	bac2d744-db65-4b56-8634-c87fd00c090e	Michelangelo, the Heart
 tmc	6	ccc2a4e6-f505-4040-9d8a-c7b8e1a2b55e	Heroes in a Half Shell
+tmc	7	2c99c472-8820-43d8-9dfa-508dc3d07478	Continue?
+tmc	8	387f6f60-69da-4965-9ab9-57bdb763a013	Endless Foot Assault
+tmc	9	7265ab42-5434-4127-acd6-8905ab63d62d	April O'Neil, Live on the Scene
 tmc	10	f5ee290f-03cd-48a8-ba6e-d934cb3f4ff4	Baxter, Fly in the Ointment
+tmc	11	096a07e2-c213-4f8a-852f-813435bf1655	Here Comes a New Hero!
+tmc	12	c3128529-4ccd-4809-8388-03f7faa0eabe	Irma, Part-Time Mutant
+tmc	13	08a0ca58-e29e-477e-9377-f8b00e4b28a0	Krang, the All-Powerful
+tmc	14	796c1b1c-c701-4c7e-922b-0964f04e03a6	Ray Fillet, Wave Warrior
+tmc	15	af2a1494-9c0d-4590-999b-2c52725dc5d0	Bebop, Skull & Crossbones
+tmc	16	fe4ab58f-3fb5-45fa-8ea1-794efa6f7da9	Dimension X Pizzasaur
+tmc	17	f43fa5c7-51e6-4824-95f8-837ccc77a6ce	Foot Chopper
 tmc	18	f1eb50a6-07e2-41de-b948-8075bba197ee	Game Over
+tmc	19	9b215ce4-a085-4627-99b1-f4f1344ad41b	Rat King, Pale Piper
 tmc	20	ddf4d3c9-bef9-4796-91ef-3d5beebae571	Shredder, Shadow Master
+tmc	21	442feb65-9c0f-4962-8518-78e6d314c916	Swift Demise
+tmc	22	416d888d-2699-49bd-830b-bf5bda25c91f	Casey Jones, Back Alley Brute
 tmc	23	1ead9586-2b40-498e-90d3-c8a3aa81ef92	Electric Seaweed
+tmc	24	fe07512e-46c1-4f45-a06f-5875acaf8928	Fast Forward
+tmc	25	7d180bb8-6a33-4c55-b4c0-2abbf6595d7b	Shellshock
+tmc	26	600e2c3f-dfbd-4d5c-813a-47ae2d75ac12	Special Move
+tmc	27	4ccb74c9-046a-4d6b-b8c2-641e2a238d52	Tempestra, Dame of Games
+tmc	28	8bc5a0ac-5979-43ce-8a65-98c5f09f4aa6	Tokka & Rahzar, Unsupervised
 tmc	29	b9077ef5-d19a-4106-950b-bb49b3b37510	High Score
 tmc	30	c0cacd61-bdce-46c6-ac7f-b084987d9aec	Leatherhead, Iron Gator
 tmc	31	d4398907-17d2-4fad-bfa9-56925fb75834	Level Up
 tmc	32	74c24ff9-d3d2-4ffb-bf8b-dba803481a99	Ninja Pizza
+tmc	33	ae25d91f-5489-4cd8-8634-42bcd32d4cf1	Rocksteady, Mutant Marauder
+tmc	34	52bed0d4-3bcf-4770-b9c9-2a1d0666d220	Super Combo
+tmc	35a	c0b94a92-48d5-4d08-a8fa-6f3a992db941	Double Jump
+tmc	35b	c0b94a92-48d5-4d08-a8fa-6f3a992db941	Flying Kick
 tmc	36	b2fd1df8-cc67-4209-af9d-5cf18c68cca9	Arcade Cabinet
+tmc	37	c9ae6898-6b5a-43bd-8c84-4d8add285f7d	Big Mother Mouser
+tmc	38	ca053574-2ac9-4814-955d-87a97e0aca7e	Coin of Mastery
+tmc	39	dee26c1c-f890-46ca-81bb-2bd63fa691c9	Exploding Barrel
+tmc	40	248757d9-f590-4f90-98a5-3df947b2bff6	Mole Module
+tmc	41	3fc23e7a-5059-4c8d-85bd-224f4c1bfc1c	Roadkill Rodney
+tmc	42	b9cc16f9-fea3-4527-9b81-3c84ce9c5e01	Big Apple, 3 a.m.
+tmc	43	f356522c-018d-43c7-988a-9ef9829ae75c	Hidden Hideout
+tmc	44	1b19f82a-9724-41b1-934d-a8ec1493587b	Together Forever
+tmc	45	87514302-be90-4afe-9508-d9742425d1ba	Vanquish the Horde
+tmc	46	8fb141d9-addd-47ad-bfc1-b5b376d4c950	Wave Goodbye
+tmc	47	dc6c4337-7d3e-4700-9473-26185c109166	Blasphemous Act
+tmc	48	9e2ee84d-1d11-48a3-b79d-6a67991a2e60	Acidic Slime
+tmc	49	0e850205-d010-49af-b68b-262360751b70	Biogenic Ooze
+tmc	50	4824ad7c-e533-4357-b486-9e908721db65	Cultivate
+tmc	51	90b42c40-d6ff-4fda-a040-1594f0ef9585	Harmonize
+tmc	52	7869df96-ce77-45c0-829f-367819806356	Steelbane Hydra
+tmc	53	6952b1c3-2a18-4ad5-8130-861fce1cb422	Vigor
+tmc	54	f415b285-4771-43ba-9534-244e446f8f72	Voracious Hydra
+tmc	55	932efc19-9bfd-4501-a623-ff6765a356d8	Assassin's Trophy
+tmc	56	85caf05a-035b-47c0-975c-dec76799ffcf	Corpsejack Menace
+tmc	57	049ca0ff-0ca4-44f7-b144-731cf453afa9	Arcane Signet
+tmc	58	68625010-3e4e-4400-b503-bf381a7fd81b	Chromatic Lantern
+tmc	59	14dbce79-1fcc-4cc9-bf38-7729e44a411e	Sol Ring
+tmc	60	e8510205-4baa-4f1c-bf64-5d931e2ddf48	Ash Barrens
+tmc	61	45f13a94-c693-4a3b-a0bb-f18ae9fb1ca0	Cinder Glade
+tmc	62	c21565d0-fc40-4d89-9b27-87c03385e0af	City of Brass
+tmc	63	4d51a621-be31-4b74-8e0b-3958180a8bc5	Command Tower
+tmc	64	897976cb-a242-493e-b215-843bcdb6b44d	Dragonskull Summit
+tmc	65	a30f5555-2fbe-4c88-9e4f-1f2e81ea6cfd	Evolving Wilds
+tmc	66	ac9d97ef-a64b-43ef-8e4d-f3ebe46d9932	Exotic Orchard
+tmc	67	7c787c6b-b6c7-47a0-8f8d-761629f5568e	Fabled Passage
+tmc	68	b07eb189-559a-4cd5-95ac-f6612fd11cf1	Grand Coliseum
+tmc	69	7598a728-796b-4b82-b269-217ecca44c2c	Hinterland Harbor
+tmc	70	d4c1c9ba-d930-435c-8978-f10a2adb3d4c	Path of Ancestry
+tmc	71	70e5e700-b215-4a55-ae96-04e9f886cad1	Rain-Slicked Copse
+tmc	72	f01bb3fd-14c6-47cb-aba3-e3069da56c9f	Rootbound Crag
+tmc	73	a4746e54-974a-4743-ab9b-a9e49034b16d	Smoldering Marsh
+tmc	74	0b5e219b-28fa-40e3-8afb-355ae767326d	Sodden Verdure
+tmc	75	48444c3e-2068-4961-a9cd-9398052e5bd6	Spire Garden
+tmc	76	7ab0a5f2-5260-403d-9522-954efc91e96d	Sunken Hollow
+tmc	77	26cb32c5-83b8-4288-ae2d-788cdc4e6445	Thriving Grove
+tmc	78	90bf15bd-4167-4a66-8729-73af5c65692a	Thriving Isle
+tmc	79	b7c7d0c0-ada6-4c89-b47b-977e35e67b39	Thriving Moor
+tmc	80	f25aa8aa-e2f7-4634-8a96-2082e76c6503	Undergrowth Stadium
+tmc	81	ba8f92ec-cd84-4958-9b31-b89598cb274d	Vernal Fen
+tmc	82	b5e7cdb4-7b4d-4c6c-b016-d6cd3f9a04f2	Vibrant Cityscape
 tmc	83	514b6ffe-c887-4be5-8755-5da8e15e0cf4	Leonardo, the Balance
+tmc	84	e428acf5-056e-4212-8069-d2b2c095c9f9	April O'Neil, Live on the Scene
 tmc	85	3c9595dc-e078-4b27-bf55-89574ce154fa	Donatello, the Brains
+tmc	86	2ef22a88-14f2-4f71-86f4-56e2ac2870a8	Krang, the All-Powerful
+tmc	87	d7ed8569-7b6b-4924-aedd-4210930e3bfc	Bebop, Skull & Crossbones
 tmc	88	e11dfc36-0a70-4a7e-8395-854684a81a2c	Shredder, Shadow Master
 tmc	89	8729bd29-d525-4883-9455-6976218d28e1	Splinter, the Mentor
+tmc	90	797589b8-a419-4396-91ba-ce6695291559	Casey Jones, Back Alley Brute
 tmc	91	1821e80b-f2f6-479a-a422-237c6cc644f0	Raphael, the Muscle
 tmc	92	4c6b7f78-3882-42cc-bac5-4df33938a6f2	Michelangelo, the Heart
 tmc	93	00cf8be8-8359-4172-8e86-07ecbbf1fd58	Ninja Pizza
+tmc	94	4f40a1d3-eb94-455d-a1f3-fcfd91fd888b	Rocksteady, Mutant Marauder
+tmc	95	31375e66-6519-4131-849f-5aef1ec4c4d9	Super Combo
 tmc	96	f611ebb9-8e71-46ee-b24e-9f2404678013	Heroes in a Half Shell
+tmc	97	8f586a85-f9b7-49c4-bfb0-e348b9088841	Big Mother Mouser
 tmc	98	8f15d16e-b9cc-4edd-9792-f5d452488778	Definitely Not a Turtle
+tmc	100	30f96e3b-fa3b-4737-ad66-1876a2482f14	Hamato Ninpō
 tmc	101	b6913056-de4a-45ac-a731-b478bdad6754	Leonardo, Worldly Warrior
+tmc	102	a9498b8c-cb1c-46e2-a0b0-6c53d27d0bc9	Leo's Guidance
+tmc	103	a8959c36-068f-48fa-ab6a-9dd24ba985ce	Splinter & Leo, Father & Son
 tmc	104	9a9cd2d2-74ba-497a-828c-ba22fbb9f2b1	Splinter, Aging Champion
+tmc	105	60e9e931-6e64-439f-9513-c64cf17047f5	Triceraton Regenta
+tmc	106	4c056bc2-e33e-4e8e-ab02-d5d0a4c8a13c	Wooden Cane
 tmc	107	cd6d7bba-2de4-49fe-8e07-a7c00c6bfc96	April O'Neil, Human Element
+tmc	108	5a92ec45-3eb5-4212-bdbd-073cbd0299d7	Containment Protocol
 tmc	109	3a80b791-17e1-46be-bc65-ab96f52b23dd	Donatello, Rad Scientist
+tmc	110	d7f0365f-ec72-4472-9506-6cc3e490b2e2	Donatello's Science Lesson
 tmc	111	7b4bdb8c-e19f-46bd-9743-edc26ee5c8e2	Donnie & April, Adorkable Duo
+tmc	113	8ce6647c-343a-45e8-9b6e-0292ae01ec81	Utrom Monitor
+tmc	114	bc235c57-b263-418a-8d33-094d9ba1f5e6	Casey & Raph, Hotheads
+tmc	115	a2754751-031f-4682-86fd-ea9a60a33a05	Casey Jones, Asphalt Hooligan
+tmc	117	e27bc544-ff5f-405c-914e-b727341b776e	Monster Mashup
 tmc	118	b3bae5c7-2c4a-42a6-a108-3f23d70204b4	Raphael, Tag Team Tough
+tmc	119	cf1aa146-fa2e-4996-9b36-2262d3cdc04d	Raph's Bravado
+tmc	120	18836218-292e-4217-b040-2658cea94a29	Storm of Steel
+tmc	121	909b765a-1a2b-403b-8842-657e0d482357	Ticked Off
+tmc	122	d54cd688-8950-4a84-a74f-5f31b344b6c9	Foe-liage
 tmc	124	60a80d88-1f76-4a97-9e61-3a0d6304c9c2	Michelangelo, On the Scene
+tmc	125	fb7fdad9-8a39-4c66-b9d2-cfce8c4928a5	Mikey & Mona, Mutant Sitters
+tmc	126	41f1503b-b056-4f7c-94a1-1e6d78eb209b	Mona Lisa, Ever Adaptable
+tmc	127	bb73c782-d246-4a4c-b15c-e7d8f944221a	Prehistoric Turtlesaurus
+tmc	128	c609e1a6-3976-4d54-889d-e95ba4f25c1f	Study the Classics
 tmc	129	b7e2ece7-8182-4ad8-a266-bffcb4be4522	Turtle Tracks
+tmc	130	5eeb4a0e-20d4-461b-954e-ef65c8612f68	Manhole Cover
 tmc	131	ef9d3e48-85c2-4347-810f-a6a0725b288d	Dark Ritual
 tmc	132	fd3e5359-97c4-41ec-b18e-4abcd2205886	Waste Not
 tmc	133	5021063d-c5a1-4925-8ac6-0113b8c58dc0	Food Chain
 tmc	134	3deafdae-9083-4d64-b0bb-6204a1b6536a	Supreme Verdict
 tmc	135	4b470e1e-579f-4230-99dc-ee4a833bf5bc	Commander's Plate
 tmc	136	b35b5b3f-3daa-4091-9de4-1e6a7da27a74	Sword of Hearth and Home
-tmc	9999	ae69197a-32bd-41fc-b596-b4613ed67034	Leonardo, Cutting Edge
-tmc	99999	671f2795-9ce8-478a-be1c-5fe5995347a6	Dark Leo & Shredder
 tmp	1	81ce7e1e-ffe5-4ced-8967-9a6917245240	Advance Scout
 tmp	2	44faefbe-d5e7-48f3-ba88-833da0b19707	Angelic Protector
 tmp	3	ca65ee0f-fdd7-4a5e-a4a3-5dd9c62096ab	Anoint
@@ -97127,95 +97263,218 @@ tmp	349	6b667225-a808-43e9-955e-6c4e7ecd53f2	Forest
 tmp	350	32411c3a-da2b-4316-9848-971e90951303	Forest
 tmt	1	bc0f5ca8-47bd-4451-8fd1-a312ff7d31ec	Action News Crew
 tmt	2	9c769202-178c-442a-a9e2-aa08b5ae5c9a	Agent Bishop, Man in Black
+tmt	3	8b1982ea-686b-4acd-b677-47571430efb0	April O'Neil, Kunoichi Trainee
 tmt	4	be8d96fb-a1be-4fff-b844-e38d185884e1	Dimensional Exile
+tmt	5	c9d5b56c-ad2a-4958-8783-4eceb8733610	East Wind Avatar
+tmt	6	78c55706-4d00-4b97-965c-0b2d0963e59d	Featherbrained Filcher
+tmt	7	72388199-85fa-4eba-9a9c-c2904e6da9ed	Grounded for Life
+tmt	8	735b540b-b472-46fa-a232-d444cabf6c4c	Hamato Guardian Stance
+tmt	9	e927eb0b-1c69-421a-8acd-01e92f729ffb	High-Flying Ace
+tmt	10	a5b83101-e3ef-4ffe-a886-4fc2b57a0947	Jennika, Bad Apple Big Sister
+tmt	11	7a4f1ccc-2225-4cd0-abef-0eb7a8eae9cf	Koya, Death from Above
 tmt	12	dfb18239-d373-4795-8598-c82abae2cb62	The Last Ronin's Technique
 tmt	13	4cbcb622-1aff-460f-b8fa-4502d991e0ad	Leader's Talent
+tmt	14	e802838f-cc8c-4313-8c3b-32a6a7248e64	Leonardo, Big Brother
 tmt	15	74c11ee3-19d1-4ad5-a727-1d74c565d6a5	Leonardo, Cutting Edge
+tmt	16	d6eaae35-d513-43d8-be2d-b97c15e25937	Leonardo, Leader in Blue
 tmt	17	0e3a0a26-c163-4f31-bed8-1be52a35feea	Leonardo, Sewer Samurai
 tmt	18	405e4057-e26c-4882-89a9-706868548c37	Leonardo's Technique
+tmt	19	9fbaabb5-e981-4cbf-888c-46449412711f	Lita, Little Orphan Amphibian
+tmt	20	ed8bdd98-6377-40cf-b381-cee38b1bda2a	Make Your Move
+tmt	21	5dd5369c-174c-450b-b776-553866787f8f	Mighty Mutanimals
 tmt	22	148e6acd-a96a-4bea-8cfe-a129cd8d1003	Prehistoric Pet
+tmt	23	ef9e227e-c581-479c-a962-2f191352b07f	Quintessential Katana
 tmt	24	bcd8ee6b-7142-4548-8b7a-691a36411851	Sally Pride, Lioness Leader
 tmt	25	6445b690-71ce-4371-ae9c-bac0e70dda81	Triceraton Commander
 tmt	26	3ae61336-a4ee-40cd-9a18-392d96b873a4	Turncoat Kunoichi
 tmt	27	f0db974a-3289-4727-9aaf-e9cca9113c87	Turtles Forever
+tmt	28	5d9a4f9a-1e3a-4de8-a7c0-7158c6703b4e	Uneasy Alliance
 tmt	29	f0147f6d-b797-4d5e-aca2-a9d309896eca	April O'Neil, Hacktivist
+tmt	30	31aa943f-c9db-43dc-8a72-7ef56f9f5c8b	April, Reporter of the Weird
+tmt	31	6c517308-831b-4e41-a82c-02ddf6383a0c	Bespoke Bō
+tmt	32	7c375190-f81b-4ab1-a1b6-fe432796821f	Buzz Bots
+tmt	33	9528cc07-df4b-417f-ad65-c2fae6fc2d49	Crustacean Commando
 tmt	34	989da63a-2cbd-41a9-9bbb-99f4ad1c6a25	Does Machines
 tmt	35	8b5dd830-dab8-4628-845f-3d17973f9ffa	Donatello, Gadget Master
 tmt	36	3271b821-8efc-49e2-96fd-c48e2b2585c6	Donatello, Mutant Mechanic
+tmt	37	683cfef0-f164-4db8-b83f-79eb804e50ae	Donatello, Turtle Techie
+tmt	38	a3a5b63a-3263-4f06-a643-808c38f64c77	Donatello, Way with Machines
+tmt	39	e570082f-8129-44d2-b471-ec7f46a98dbd	Donatello's Technique
+tmt	40	50c4e65f-00dc-4fc5-bd5c-8482c2848f4c	Fugitive Droid
 tmt	41	a87a9257-4535-4286-8b59-a842ac45d05e	Kitsune, Dragon's Daughter
 tmt	42	9ca5327e-df90-483c-875f-73a23781f56d	Kitsune's Technique
 tmt	43	d27fa497-e842-4812-80fe-28517544e1c5	Krang, Master Mind
+tmt	44	3c2d8b09-8694-45ab-be01-f8dc17378cf0	Metalhead
+tmt	45	2ddfcc4d-dd5f-42f1-8f33-a8e8b5354534	Mind Transfer Protocol
 tmt	46	665e44f9-bc0d-40aa-83a4-f7fe64f2506d	Mondo Gecko
 tmt	47	52d58fe4-6070-4022-9cd7-c35a11b44525	Negate
+tmt	48	beef76b7-856e-48ab-bc73-e4f456c3a100	Ooze Spill
+tmt	49	14e0892c-a556-43c3-974f-6be44188da2e	Ray Fillet, Man Ray
 tmt	50	2ae30766-c858-4f4e-a042-14af55698cb2	Renet, Temporal Apprentice
+tmt	51	4af284ba-fa54-43c5-8c76-3e1128957452	Retro-Mutation
+tmt	52	52e99505-17dc-4051-99f6-e23559fc6c95	Return to the Sewers
+tmt	53	ab47a37b-b66d-4f70-9bf0-4d5ed6b518f3	Sewer-veillance Cam
+tmt	54	01ca65e2-898e-4150-a6bf-e61b183fd98a	Stockman, Mad Fly-entist
 tmt	55	bdb3efe7-7b12-4503-83e9-7977eb099db5	Turtles in Time
+tmt	56	6da89625-5278-49d4-813b-a1a631f114f5	Utrom Scientists
+tmt	57	44443ad2-ef8c-4106-ba1b-ee3fb6fd8b17	Anchovy & Banana Pizza
 tmt	58	5989378b-0eac-43cf-bc83-8f7765536789	Armaggon, Future Shark
+tmt	59	371ba16d-73f7-450c-8b1f-c05012a4ca93	Bebop, Warthog Warrior
 tmt	60	94449d88-2df4-4850-8ffa-d6d193835dda	The Cloning of Shredder
+tmt	61	2e4f2148-d398-4f3d-9c59-81c87b6a4588	Death in the Family
+tmt	62	600e3bc1-9777-4057-a11e-4f61582636c6	Dream Beavers
+tmt	63	61e40a18-6cc8-436d-826b-1cf8cd037df3	Foot Mystic
+tmt	64	ff26f7ff-7f70-4204-9b48-de9e21dc89ec	Insectoid Exterminator
+tmt	65	8d1a9c8a-d0b6-4d83-a168-8078de4b14c7	Lord Dregg, Insect Invader
 tmt	66	4e712d5c-d6fe-40bb-b8e5-5f50c6ea8d4f	Madame Null, Power Broker
 tmt	67	0825a28f-f60b-4f80-83e3-cad6f9b266ce	Ninja Teen
+tmt	68	e65ff1f4-a061-4c31-a78e-92af6e7bc56f	Oroku Saki, Shredder Rising
+tmt	69	a1c70bf2-b2bd-4585-ba50-304f4dad8e62	Pain 101
+tmt	70	654e2646-78ac-4b08-bed1-3c71355d55fc	Paramecia Coloniex
 tmt	71	be464d88-8933-46e8-97b0-3be05f1976a3	Rat King, Verminister
 tmt	72	01cb8ded-7f77-4b75-b799-23e9f5efb513	Savanti Romero, Time's Exile
 tmt	73	8f946b3d-7d2a-4210-a909-d16078757e3b	Shark Shredder, Killer Clone
+tmt	74	88a48867-5c65-483c-92b0-f70c53ea2a9e	Shredder, Unrelenting
+tmt	75	d2cbe512-725f-4884-ac49-a98a78e7d14e	Shredder's Armor
 tmt	76	72fadf47-2e0b-4b24-b1bc-7c86780716b6	Shredder's Revenge
 tmt	77	99a24349-7d11-421b-a161-c1edbb8f53b1	Shredder's Technique
 tmt	78	c17bc07c-7147-4c84-aa0b-8a0865fba94e	South Wind Avatar
+tmt	79	9ea9d072-aa98-405e-a475-26f93cc37e53	Splinter, Hamato Yoshi
 tmt	80	fd3a5465-074a-4688-b79b-68e232076581	Splinter's Technique
+tmt	81	be08d2b0-375b-434f-9e6d-060809e0ed34	Squirrelanoids
+tmt	82	3fdec16f-77f5-4792-9698-b9099a204028	Stomped by the Foot
 tmt	83	37a497b8-e908-4ddc-996e-a8470df72afb	Super Shredder
+tmt	84	70faf7d8-008a-454a-a21b-702aa661b8f9	Tunnel Rats
+tmt	85	08b3af61-d516-45ca-aede-2f50ba23cb07	Bot Bashing Time
 tmt	86	e640e930-0907-40f2-9015-88f8c1e8ee5c	Broadcast Takeover
 tmt	87	808a5bc0-0999-47cf-854c-30db6277efe5	Casey Jones, Jury-Rig Justiciar
 tmt	88	a6a3258d-2e9b-4862-b2e3-bbfae9bd4d33	Casey Jones, Vigilante
 tmt	89	a566ab2d-6ec8-4833-8ad6-210378b1a20e	Cool but Rude
+tmt	90	e02e971f-6008-4c82-acd2-2aed13009ccb	General Traag, Heart of Stone
 tmt	91	5d3dc219-f024-49de-b88d-dc1e9e84184c	Hard-Won Jitte
 tmt	92	003265d9-b2fc-4916-afc8-53ed2d6aa053	Improvised Arsenal
+tmt	93	df559199-c8b9-455b-aa07-0a042348de96	Jennika's Technique
+tmt	94	243e392b-48b0-4e90-ae22-9a696f45e878	Manhole Missile
+tmt	95	058490f4-0ada-45e6-b4f0-e433537f52d6	Mouser Attack!
+tmt	96	8aae3bd6-a935-44a5-aa4d-a525b00cbf50	Mouser Foundry
+tmt	97	2dbe9207-06e8-4837-8227-0f960490771b	Mutant Town Musicians
+tmt	98	eb44c134-fcd8-4ad8-841c-f1723ba93216	Null Group Biological Assets
+tmt	99	1515eed9-3b21-42f0-ab57-de5df19317af	Old Hob, Alleycat Blues
+tmt	100	bbe1d7e5-68e2-4458-aa3f-5e97fa8e7cae	Purple Dragon Punks
+tmt	101	88385a87-f931-409f-8a21-250f0866d63d	Raphael, Most Attitude
 tmt	102	eeffadda-cb71-4434-89bf-36db1a36da0b	Raphael, Ninja Destroyer
 tmt	103	6af50b50-3776-4383-b493-7c5dd732c965	Raphael, the Nightwatcher
 tmt	104	f24c90c8-ed04-4b4e-8b19-c7d07a90c6b8	Raphael, Tough Turtle
 tmt	105	7ce8b00f-5a4f-4206-8eb3-e79308e91f47	Raphael's Technique
 tmt	106	3b303ea3-9f4d-4c28-9446-285a23f841a0	Ravenous Robots
+tmt	107	0fada65d-fd8d-4be9-b2bb-ea5cac78fdd7	Rock Soldiers
 tmt	108	025aafbc-5b24-4f5b-9b4a-81f6b9cb5ef3	Slash, Reptile Rampager
 tmt	109	c4aeb45b-13ed-43ad-a366-7be10dec6222	Spicy Oatmeal Pizza
+tmt	110	40b9b1d0-b7d1-473e-b6a9-a29d527c2f35	Wingnut, Bat on the Belfry
+tmt	111	a83a70ba-448e-45f3-b23b-6f38af54811f	Zog, Triceraton Castaway
 tmt	112	53f5f704-2265-42bb-bff5-fd9d85bc2bfb	Courier of Comestibles
 tmt	113	0ffce972-bed9-445a-a9a0-4816f156d88d	Cowabunga!
+tmt	114	d1a72d09-9cfc-463a-a9ec-3359003d54da	Frog Butler
 tmt	115	1563592e-0f21-4488-a3ec-ca766386e423	Groundchuck & Dirtbag
+tmt	116	a5405de0-16c9-4e5a-8ceb-00508e212f12	Guac & Marshmallow Pizza
 tmt	117	b1f6b5b5-12ca-468d-bc53-dd0cde60e7b6	Leatherhead, Swamp Stalker
+tmt	118	2e914c3d-2eed-48bf-af9a-a8998fd5111d	Michelangelo, Game Master
 tmt	119	955848c0-5092-4e13-97c9-5978d44d5586	Michelangelo, Improviser
+tmt	120	02f7281f-b50c-4a1c-a2fc-3caeb6ab7d41	Michelangelo, Mutant BFF
 tmt	121	18477047-218d-4b2a-a086-37431b6a3025	Michelangelo, Weirdness to 11
 tmt	122	3a63c06a-7c59-4b72-b916-e5b6ad78c684	Michelangelo's Technique
+tmt	123	c2164204-120c-4dff-86ac-46ca9012ccd9	Mona Lisa, Science Geek
 tmt	124	9f9085f0-3702-462c-8c81-b4576236792d	Mutagen Man, Living Ooze
 tmt	125	8763e0ee-a48e-424f-8bce-132582d5944b	Mutant Chain Reaction
+tmt	126	f1616a07-e4a1-4574-b341-d6b31d76b3c5	New Generation's Technique
+tmt	127	f37ef012-c566-4d16-acf8-6079244907be	Novel Nunchaku
 tmt	128	d27b6f2a-84df-4097-a66a-8e463db47f58	Party Dude
+tmt	129	e1a866e6-4108-4290-9680-8f1652fbcf77	Primordial Pachyderm
+tmt	130	2edc1d40-3154-4ec0-88c7-faf35fd5e560	Ragamuffin Raptor
+tmt	131	ebbb5756-80fa-406f-8daa-be1f5a6c3c80	Rocksteady, Crash Courser
+tmt	132	f6314c7f-41dc-4bbd-99db-3a8a1d2977b2	Saved by the Shell
+tmt	133	bc19807b-09e8-4923-abc3-d4bbe8cde5fc	Tenderize
 tmt	134	de124563-205c-4f40-8c13-4ae203599912	Transdimensional Bovine
 tmt	135	4079ca90-dcc3-4184-9dfc-a626e0776332	Turtle Power!
+tmt	136	fcb59b16-3d76-478e-9306-969dd2cb1b5a	Venus, Torn Between Worlds
+tmt	137	f4b8f7e6-9bff-430b-b2f5-4308d57d1194	West Wind Avatar
+tmt	138	f57ba8ff-2f8c-4ca1-9b13-42a7cc213e99	Zoo Escapees
+tmt	139	117b1341-2cf0-466e-b3a8-7e1afa42cd4c	Baxter Stockman
 tmt	140	535461bd-f763-408b-816f-64b7bfb9210d	Bebop & Rocksteady
+tmt	141	b7ab2110-5aad-46c9-8dc4-1eac24b6f46b	Brilliance Unleashed
 tmt	142	bab93474-2f98-49a1-874f-b794bf81bd0c	Dark Leo & Shredder
 tmt	143	d239beaf-4f5b-494e-be5c-ffa8b6e28bde	Don & Leo, Problem Solvers
 tmt	144	4f38126c-26a9-4447-801f-4f19e84c4aa5	Don & Raph, Hard Science
+tmt	145	faab52c0-ce79-40af-a156-b193a62d439e	EPF Point Squad
 tmt	146	24bd571e-652a-4e7c-afc6-a45f0ccf62f6	Foot Elite
+tmt	147	abb1ab9c-b067-4b75-8e5b-a893b7948df1	Foot Ninjas
 tmt	148	7df26085-eedb-4bdd-a60a-aabfbe9c3157	Genghis Frog
+tmt	149	90e68cd8-ea76-4bd1-9199-474da9c3e8bf	Go Ninja Go
+tmt	150	66081fd3-2457-4602-96c4-3075ddfec1c2	Ice Cream Kitty
 tmt	151	0dded2d4-1640-4431-809e-403b51b27db6	Karai, Future of the Foot
+tmt	152	037fe188-3355-4724-b2eb-e2448fc55607	Karai's Technique
 tmt	153	9b5437e2-e3f4-4c19-a2aa-a75f65a001bb	Krang & Shredder
 tmt	154	72ab3ccf-3ddb-4dd1-9cfb-98802a18d954	The Last Ronin
+tmt	155	0f886117-aff3-4db7-9cf5-7cbe94c8cd02	Lessons from Life
+tmt	156	2cb65388-dc6c-4e2a-93ac-49ea484849e9	Mechanized Ninja Cavalry
 tmt	157	6353df1a-9a1b-41fd-985b-8c8acba36c23	Mikey & Don, Party Planners
 tmt	158	9cfeb2b4-937c-4bcc-bb03-467cc0effba2	Mikey & Leo, Chaos & Order
+tmt	159	608a13b4-0b94-4be5-ac4b-e939901e8419	Mouser Mark III
+tmt	160	1308dadc-08a9-40bd-98a4-fb66d792e27d	The Neutrinos
+tmt	161	0966b8ff-61d3-4394-a357-97c35f042a29	Nobody
 tmt	162	41439cfe-bb3e-42f3-9d81-de9db537ce68	North Wind Avatar
+tmt	163	b03cf0bb-3207-4e8e-bb3f-e3e4367aa86e	Pizza Face, Gastromancer
+tmt	164	375c91a3-53c4-4f2d-bf7b-2c79a219d3ae	Punk Frogs
+tmt	165	42cdb88d-675a-43bb-b85c-51c4cc526315	Putrid Pals
 tmt	166	49293f77-5d7b-4106-b485-db6ce0ed37e6	Raph & Leo, Sibling Rivals
 tmt	167	8795fba4-0ff3-4c04-a81c-60408608a00c	Raph & Mikey, Troublemakers
+tmt	168	6d35cb39-8832-4cf1-be73-8de49fbea529	Slithering Cryptid
 tmt	169	f0797466-c527-4d35-86bc-e0e90fd04073	Splinter, Radical Rat
+tmt	170	fa684608-ecd3-43e2-99a1-71318f133e29	Tainted Treats
 tmt	171	284f9012-a58d-41da-be7c-962dca052711	Tokka & Rahzar, Terrible Twos
 tmt	172	994a01eb-2689-49e7-be23-0713da9da9a8	Chrome Dome
+tmt	173	df2cdaa5-9ea0-4aa5-89d3-9edf40fa2a39	Everything Pizza
+tmt	174	d77aa46e-fa57-4427-b0a3-0a957dc994dc	Henchbots
 tmt	175	88d36c32-d6f9-46e4-9cc8-08e6c0ff05d2	Krang, Utrom Warlord
+tmt	176	f2c8397c-2014-4a43-9ed7-41795880011f	Omni-Cheese Pizza
 tmt	177	1f9bd4da-4626-40ba-95f4-14e3de36f989	The Ooze
+tmt	178	deadb6d8-3eea-4261-a07c-8536df89e85c	Skateboard
 tmt	179	287f5ab0-b15b-4507-8a24-585f9a9841ad	Technodrome
+tmt	180	6e118fc5-b0ae-4592-8292-d611856ae203	Turtle Blimp
 tmt	181	fce6a8b6-b43c-4045-9378-97b2463f9b4d	Turtle Van
 tmt	182	aaba62c1-760b-491b-8047-869bb1d3f67e	Weather Maker
+tmt	183	1c244fc2-70f0-4149-b0d2-d49fc6bac2b0	Dimension X
+tmt	184	5df90940-15ea-418c-8547-6c75d69ec6d3	Escape Tunnel
+tmt	185	45e68113-3f05-4547-947d-4cb9ebfa73c7	Foot Headquarters
+tmt	186	71597acf-1ce6-46a8-b6c0-88755c8a377c	Illegitimate Business
+tmt	187	c6eac43d-08b6-45a4-803b-10a321a241d7	Mutant Town
 tmt	188	dbca168e-095f-4fbc-88f8-3048d83caf94	Northampton Farm
+tmt	189	8817a1d6-ef39-4e7c-8277-74aea012803b	TCRI Building
+tmt	190	c50c4580-979b-4863-86b9-16e258198972	Turtle Lair
 tmt	191	1b405611-27d4-435a-8e8e-6d528626fd27	Plains
 tmt	192	be2319a6-d089-4d13-8a7b-3552e654cdc5	Island
 tmt	193	41c7688d-8155-45fd-83ba-ff9be4d414a3	Swamp
 tmt	194	6243f79f-b0e3-4fba-b899-7535e1a277e2	Mountain
 tmt	195	6194850b-d70a-4f3e-be3e-bfb23ce1170b	Forest
+tmt	196	b7f4581f-e0c1-4cc3-b94c-dd104606c4af	Leonardo, Leader in Blue
+tmt	197	14ff6944-fc47-4c90-b577-cad3a1355165	Donatello, Way with Machines
+tmt	198	ff378d21-eb8c-4e6d-9e63-5f1b6030a001	Michelangelo, Mutant BFF
+tmt	199	65c50cfe-1452-407c-a651-6fc8bcc92a98	Raphael, Most Attitude
+tmt	200	919d670a-7555-4981-afba-b7c0706458d8	Mikey & Leo, Chaos & Order
 tmt	201	5fbf2786-c591-49f8-8cfe-7137f02d0bb9	Krang & Shredder
+tmt	202	fc367cbb-1e39-475f-9611-56e9638877d3	Renet, Temporal Apprentice
+tmt	203	64c6cf57-bc43-4b36-a01c-f4b2fadc8ce2	Jennika, Bad Apple Big Sister
 tmt	204	da099bf3-786c-4c49-9a7f-3603df9c6cbc	Bebop & Rocksteady
+tmt	205	51d67bd5-b704-4e9d-9c39-c045f3c7a4e5	Don & Raph, Hard Science
+tmt	206	cbce9297-f601-4478-8865-6848700c4a42	April, Reporter of the Weird
+tmt	207	f1210cc4-b968-4454-b314-4e9af9f56946	Casey Jones, Jury-Rig Justiciar
+tmt	208	c6dc0dbf-0d41-4677-a200-62a966876c1d	Slash, Reptile Rampager
+tmt	209	fa84045f-f14a-42fc-ba07-9674239b3587	Foot Ninjas
+tmt	210	43c80d9e-0180-491a-ab08-2ba00f273604	Shredder, Unrelenting
+tmt	211	a183e8f9-f2e3-4219-9efe-839e21aad4b7	Leonardo, Cutting Edge
+tmt	212	22b2d126-ddb4-413f-94ca-1ff39291c7c1	Donatello, Gadget Master
+tmt	213	d2011f85-7ae2-423f-90b9-abbc69fd1056	Raphael, the Nightwatcher
+tmt	214	4b1f1162-9470-4dd7-94ef-83c09b50d8ae	Michelangelo, Weirdness to 11
 tmt	215	1c1b662b-3cf7-4dae-9657-927d7ea6cffc	Leonardo, Sewer Samurai
 tmt	216	b6ca4caa-0b4b-46ae-9b43-1f27f5f6a1e3	Donatello, Mutant Mechanic
 tmt	217	819798cf-f685-49b6-b1fd-6bb75fc1f050	Super Shredder
@@ -97229,6 +97488,7 @@ tmt	224	2884abe5-80f4-4beb-850a-98f91ee929e3	Leonardo's Technique
 tmt	225	e07e1c31-d6f0-491c-b231-e1df87c9ea9f	Sally Pride, Lioness Leader
 tmt	226	71ce86cc-6367-4166-82f5-7e794a9e4c5d	Triceraton Commander
 tmt	227	6ccc8ba7-d5c1-4c52-9b57-21f847215f80	April O'Neil, Hacktivist
+tmt	228	3d3d0a9a-3bde-451f-9d5a-af6c2a393953	Donatello's Technique
 tmt	229	4996c35b-892a-4e9e-8337-cc656d8cecf8	Kitsune's Technique
 tmt	230	3942f813-6241-49f5-8df3-e60e2e332410	Krang, Master Mind
 tmt	231	018e9fd1-3e7f-4909-bab1-3edb9c9e4326	Mondo Gecko
@@ -97236,12 +97496,15 @@ tmt	232	4208f96f-49ea-46d9-b6fc-2093ded1fadb	Shredder's Technique
 tmt	233	7111e3e9-7175-4231-976c-c73e7d4cb40d	Splinter's Technique
 tmt	234	c4a798f3-9adf-4748-ae87-5f44762491ff	Broadcast Takeover
 tmt	235	4b9d7244-f3db-4ec1-95c8-64321d0343f4	Casey Jones, Vigilante
+tmt	236	562395ef-fb28-4b34-b03b-5dbf0507fdc3	Jennika's Technique
 tmt	237	27619fa6-f9bf-4e9c-9d5e-bc0d050aacd6	Raphael's Technique
 tmt	238	53a7b366-f27e-4aad-a732-11b2f2c6e452	Groundchuck & Dirtbag
 tmt	239	e5f41ef3-9f3a-43ae-bb17-626788f84c01	Michelangelo's Technique
+tmt	240	081944c3-f1c8-4906-911d-a9133835218c	New Generation's Technique
 tmt	241	9c925f63-9559-4a57-b57b-56ba296042e6	Bebop & Rocksteady
 tmt	242	807ed47f-53a6-40e5-a1d2-82414299c5e1	Don & Leo, Problem Solvers
 tmt	243	3a74a878-7fc4-44a6-ac4a-0eb964a56e77	Don & Raph, Hard Science
+tmt	244	e39a0633-3f65-4ae1-aef0-99018bbfa4f2	Karai's Technique
 tmt	245	eaba0387-dbbf-4589-949c-2acbdcd6b5bd	Krang & Shredder
 tmt	246	6edb8f34-f6d2-42d8-aa3f-dc8053dfb079	Mikey & Don, Party Planners
 tmt	247	53f1ae0b-e3fd-467a-9fc2-a5d6cce47765	Mikey & Leo, Chaos & Order

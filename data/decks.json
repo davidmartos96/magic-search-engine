@@ -470595,6 +470595,164 @@
     "display": ""
   },
   {
+    "name": "Brain Dead: New Earth Mentality",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-02-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mirror Entity",
+          "count": 1,
+          "set": "SLD",
+          "number": "2514"
+        },
+        {
+          "name": "Jace's Archivist",
+          "count": 1,
+          "set": "SLD",
+          "number": "2515"
+        },
+        {
+          "name": "Stinkweed Imp",
+          "count": 1,
+          "set": "SLD",
+          "number": "2516"
+        },
+        {
+          "name": "Mogg Assassin",
+          "count": 1,
+          "set": "SLD",
+          "number": "2517"
+        },
+        {
+          "name": "Sakura-Tribe Elder",
+          "count": 1,
+          "set": "SLD",
+          "number": "2518"
+        },
+        {
+          "name": "Irrigated Farmland",
+          "count": 1,
+          "set": "SLD",
+          "number": "2519"
+        },
+        {
+          "name": "Fetid Pools",
+          "count": 1,
+          "set": "SLD",
+          "number": "2520"
+        },
+        {
+          "name": "Canyon Slough",
+          "count": 1,
+          "set": "SLD",
+          "number": "2521"
+        },
+        {
+          "name": "Sheltered Thicket",
+          "count": 1,
+          "set": "SLD",
+          "number": "2522"
+        },
+        {
+          "name": "Scattered Groves",
+          "count": 1,
+          "set": "SLD",
+          "number": "2523"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250033",
+    "display": ""
+  },
+  {
+    "name": "Brain Dead: New Earth Mentality Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-02-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mirror Entity",
+          "count": 1,
+          "set": "SLD",
+          "number": "2514",
+          "foil": true
+        },
+        {
+          "name": "Jace's Archivist",
+          "count": 1,
+          "set": "SLD",
+          "number": "2515",
+          "foil": true
+        },
+        {
+          "name": "Stinkweed Imp",
+          "count": 1,
+          "set": "SLD",
+          "number": "2516",
+          "foil": true
+        },
+        {
+          "name": "Mogg Assassin",
+          "count": 1,
+          "set": "SLD",
+          "number": "2517",
+          "foil": true
+        },
+        {
+          "name": "Sakura-Tribe Elder",
+          "count": 1,
+          "set": "SLD",
+          "number": "2518",
+          "foil": true
+        },
+        {
+          "name": "Irrigated Farmland",
+          "count": 1,
+          "set": "SLD",
+          "number": "2519",
+          "foil": true
+        },
+        {
+          "name": "Fetid Pools",
+          "count": 1,
+          "set": "SLD",
+          "number": "2520",
+          "foil": true
+        },
+        {
+          "name": "Canyon Slough",
+          "count": 1,
+          "set": "SLD",
+          "number": "2521",
+          "foil": true
+        },
+        {
+          "name": "Sheltered Thicket",
+          "count": 1,
+          "set": "SLD",
+          "number": "2522",
+          "foil": true
+        },
+        {
+          "name": "Scattered Groves",
+          "count": 1,
+          "set": "SLD",
+          "number": "2523",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250032",
+    "display": ""
+  },
+  {
     "name": "Brain Dead: Staples",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -538852,6 +539010,443 @@
     "display": ""
   },
   {
+    "name": "Turtle Power!",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Teenage Mutant Ninja Turtles Eternal",
+    "set_code": "tmc",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Heroes in a Half Shell",
+          "count": 1,
+          "set": "TMC",
+          "number": "6",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Leonardo, the Balance",
+          "count": 1,
+          "set": "TMC",
+          "number": "1",
+          "foil": true
+        },
+        {
+          "name": "Donatello, the Brains",
+          "count": 1,
+          "set": "TMC",
+          "number": "2",
+          "foil": true
+        },
+        {
+          "name": "Splinter, the Mentor",
+          "count": 1,
+          "set": "TMC",
+          "number": "3",
+          "foil": true
+        },
+        {
+          "name": "Raphael, the Muscle",
+          "count": 1,
+          "set": "TMC",
+          "number": "4",
+          "foil": true
+        },
+        {
+          "name": "Michelangelo, the Heart",
+          "count": 1,
+          "set": "TMC",
+          "number": "5",
+          "foil": true
+        },
+        {
+          "name": "Continue?",
+          "count": 1
+        },
+        {
+          "name": "Endless Foot Assault",
+          "count": 1
+        },
+        {
+          "name": "April O'Neil, Live on the Scene",
+          "count": 1,
+          "set": "TMC",
+          "number": "9"
+        },
+        {
+          "name": "Baxter, Fly in the Ointment",
+          "count": 1
+        },
+        {
+          "name": "Here Comes a New Hero!",
+          "count": 1
+        },
+        {
+          "name": "Irma, Part-Time Mutant",
+          "count": 1
+        },
+        {
+          "name": "Krang, the All-Powerful",
+          "count": 1,
+          "set": "TMC",
+          "number": "13"
+        },
+        {
+          "name": "Ray Fillet, Wave Warrior",
+          "count": 1
+        },
+        {
+          "name": "Bebop, Skull & Crossbones",
+          "count": 1,
+          "set": "TMC",
+          "number": "15"
+        },
+        {
+          "name": "Dimension X Pizzasaur",
+          "count": 1
+        },
+        {
+          "name": "Foot Chopper",
+          "count": 1
+        },
+        {
+          "name": "Game Over",
+          "count": 1
+        },
+        {
+          "name": "Rat King, Pale Piper",
+          "count": 1
+        },
+        {
+          "name": "Shredder, Shadow Master",
+          "count": 1,
+          "set": "TMC",
+          "number": "20"
+        },
+        {
+          "name": "Swift Demise",
+          "count": 1
+        },
+        {
+          "name": "Casey Jones, Back Alley Brute",
+          "count": 1,
+          "set": "TMC",
+          "number": "22"
+        },
+        {
+          "name": "Electric Seaweed",
+          "count": 1
+        },
+        {
+          "name": "Fast Forward",
+          "count": 1
+        },
+        {
+          "name": "Shellshock",
+          "count": 1
+        },
+        {
+          "name": "Special Move",
+          "count": 1
+        },
+        {
+          "name": "Tempestra, Dame of Games",
+          "count": 1
+        },
+        {
+          "name": "Tokka & Rahzar, Unsupervised",
+          "count": 1,
+          "set": "TMC",
+          "number": "28"
+        },
+        {
+          "name": "High Score",
+          "count": 1
+        },
+        {
+          "name": "Leatherhead, Iron Gator",
+          "count": 1
+        },
+        {
+          "name": "Level Up",
+          "count": 1
+        },
+        {
+          "name": "Ninja Pizza",
+          "count": 1,
+          "set": "TMC",
+          "number": "32"
+        },
+        {
+          "name": "Rocksteady, Mutant Marauder",
+          "count": 1,
+          "set": "TMC",
+          "number": "33"
+        },
+        {
+          "name": "Super Combo",
+          "count": 1,
+          "set": "TMC",
+          "number": "34"
+        },
+        {
+          "name": "Double Jump // Flying Kick",
+          "count": 1
+        },
+        {
+          "name": "Arcade Cabinet",
+          "count": 1
+        },
+        {
+          "name": "Big Mother Mouser",
+          "count": 1,
+          "set": "TMC",
+          "number": "37"
+        },
+        {
+          "name": "Coin of Mastery",
+          "count": 1
+        },
+        {
+          "name": "Exploding Barrel",
+          "count": 1
+        },
+        {
+          "name": "Mole Module",
+          "count": 1
+        },
+        {
+          "name": "Roadkill Rodney",
+          "count": 1
+        },
+        {
+          "name": "Big Apple, 3 a.m.",
+          "count": 1
+        },
+        {
+          "name": "Hidden Hideout",
+          "count": 1
+        },
+        {
+          "name": "Together Forever",
+          "count": 1
+        },
+        {
+          "name": "Vanquish the Horde",
+          "count": 1
+        },
+        {
+          "name": "Wave Goodbye",
+          "count": 1
+        },
+        {
+          "name": "Blasphemous Act",
+          "count": 1
+        },
+        {
+          "name": "Biogenic Ooze",
+          "count": 1
+        },
+        {
+          "name": "Steelbane Hydra",
+          "count": 1
+        },
+        {
+          "name": "Vigor",
+          "count": 1
+        },
+        {
+          "name": "Voracious Hydra",
+          "count": 1
+        },
+        {
+          "name": "Assassin's Trophy",
+          "count": 1
+        },
+        {
+          "name": "Corpsejack Menace",
+          "count": 1
+        },
+        {
+          "name": "Chromatic Lantern",
+          "count": 1
+        },
+        {
+          "name": "Cinder Glade",
+          "count": 1
+        },
+        {
+          "name": "City of Brass",
+          "count": 1
+        },
+        {
+          "name": "Dragonskull Summit",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Fabled Passage",
+          "count": 1
+        },
+        {
+          "name": "Grand Coliseum",
+          "count": 1
+        },
+        {
+          "name": "Hinterland Harbor",
+          "count": 1
+        },
+        {
+          "name": "Rain-Slicked Copse",
+          "count": 1
+        },
+        {
+          "name": "Rootbound Crag",
+          "count": 1
+        },
+        {
+          "name": "Smoldering Marsh",
+          "count": 1
+        },
+        {
+          "name": "Sodden Verdure",
+          "count": 1
+        },
+        {
+          "name": "Spire Garden",
+          "count": 1
+        },
+        {
+          "name": "Sunken Hollow",
+          "count": 1
+        },
+        {
+          "name": "Undergrowth Stadium",
+          "count": 1
+        },
+        {
+          "name": "Vernal Fen",
+          "count": 1
+        },
+        {
+          "name": "Lita, Little Orphan Amphibian",
+          "count": 1
+        },
+        {
+          "name": "Mona Lisa, Science Geek",
+          "count": 1
+        },
+        {
+          "name": "Lessons from Life",
+          "count": 1
+        },
+        {
+          "name": "Everything Pizza",
+          "count": 1
+        },
+        {
+          "name": "Escape Tunnel",
+          "count": 1
+        },
+        {
+          "name": "Turtle Lair",
+          "count": 1
+        },
+        {
+          "name": "Acidic Slime",
+          "count": 1
+        },
+        {
+          "name": "Cultivate",
+          "count": 1
+        },
+        {
+          "name": "Harmonize",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1
+        },
+        {
+          "name": "Ash Barrens",
+          "count": 1
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Evolving Wilds",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Thriving Grove",
+          "count": 1
+        },
+        {
+          "name": "Thriving Isle",
+          "count": 1
+        },
+        {
+          "name": "Thriving Moor",
+          "count": 1
+        },
+        {
+          "name": "Vibrant Cityscape",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "TMT",
+          "number": "315"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "TMT",
+          "number": "316"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "TMT",
+          "number": "317"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "TMT",
+          "number": "318"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "TMT",
+          "number": "319"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/teenage-mutant-ninja-turtles-commander-decklist",
+    "display": ""
+  },
+  {
     "name": "Deep Freeze",
     "type": "Theme Deck",
     "category": "deck",
@@ -539873,6 +540468,651 @@
       ]
     },
     "source": "https://www.mtggoldfish.com/deck/5774275",
+    "display": ""
+  },
+  {
+    "name": "Donatello",
+    "type": "Theme Deck",
+    "category": "deck",
+    "format": "casual",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "set_code": "tmt",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Donatello's Science Lesson",
+          "count": 2
+        },
+        {
+          "name": "Utrom Monitor",
+          "count": 3
+        },
+        {
+          "name": "Ray Fillet, Man Ray",
+          "count": 1
+        },
+        {
+          "name": "Containment Protocol",
+          "count": 4
+        },
+        {
+          "name": "Crustacean Commando",
+          "count": 3
+        },
+        {
+          "name": "Buzz Bots",
+          "count": 2
+        },
+        {
+          "name": "Utrom Scientists",
+          "count": 2
+        },
+        {
+          "name": "Mouser Mark III",
+          "count": 2
+        },
+        {
+          "name": "Donatello, Turtle Techie",
+          "count": 1
+        },
+        {
+          "name": "Donnie & April, Adorkable Duo",
+          "count": 1,
+          "set": "TMC",
+          "number": "111"
+        },
+        {
+          "name": "Definitely Not a Turtle",
+          "count": 1
+        },
+        {
+          "name": "Sewer-veillance Cam",
+          "count": 1
+        },
+        {
+          "name": "Manhole Cover",
+          "count": 2
+        },
+        {
+          "name": "Mind Transfer Protocol",
+          "count": 2
+        },
+        {
+          "name": "April O'Neil, Human Element",
+          "count": 1
+        },
+        {
+          "name": "Stockman, Mad Fly-entist",
+          "count": 2
+        },
+        {
+          "name": "Henchbots",
+          "count": 1
+        },
+        {
+          "name": "Donatello, Way with Machines",
+          "count": 1
+        },
+        {
+          "name": "Donatello, Rad Scientist",
+          "count": 1
+        },
+        {
+          "name": "Slithering Cryptid",
+          "count": 3
+        },
+        {
+          "name": "Island",
+          "count": 24,
+          "set": "TMT",
+          "number": "316"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/teenage-mutant-ninja-turtles-turtle-team-up-contents",
+    "display": ""
+  },
+  {
+    "name": "Enemy Deck",
+    "type": "Enemy Deck",
+    "category": "deck",
+    "format": "casual",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "set_code": "tmt",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Event: Villain Infiltration",
+          "count": 2,
+          "set": "TTMC",
+          "number": "26",
+          "token": true
+        },
+        {
+          "name": "Event: Villain Mayhem!",
+          "count": 3,
+          "set": "TTMC",
+          "number": "27",
+          "token": true
+        },
+        {
+          "name": "Foot Disciple",
+          "count": 5,
+          "set": "TTMC",
+          "number": "30",
+          "token": true
+        },
+        {
+          "name": "Event: Slash's Smash",
+          "count": 1,
+          "set": "TTMC",
+          "number": "25",
+          "token": true
+        },
+        {
+          "name": "Event: Savanti Romero's Curse",
+          "count": 1,
+          "set": "TTMC",
+          "number": "23",
+          "token": true
+        },
+        {
+          "name": "Event: Bebop's Rampage",
+          "count": 1,
+          "set": "TTMC",
+          "number": "16",
+          "token": true
+        },
+        {
+          "name": "Event: Leatherhead's Smackdown",
+          "count": 1,
+          "set": "TTMC",
+          "number": "20",
+          "token": true
+        },
+        {
+          "name": "Foot Skirmisher",
+          "count": 3,
+          "set": "TTMC",
+          "number": "29",
+          "token": true
+        },
+        {
+          "name": "Event: Rocksteady's Beatdown",
+          "count": 1,
+          "set": "TTMC",
+          "number": "22",
+          "token": true
+        },
+        {
+          "name": "Foot Enforcer",
+          "count": 2,
+          "set": "TTMC",
+          "number": "31",
+          "token": true
+        },
+        {
+          "name": "Event: Rat King's Revolution",
+          "count": 1,
+          "set": "TTMC",
+          "number": "21",
+          "token": true
+        },
+        {
+          "name": "Event: Villain Scheme!",
+          "count": 1,
+          "set": "TTMC",
+          "number": "28",
+          "token": true
+        },
+        {
+          "name": "Event: Karai's Planning",
+          "count": 1,
+          "set": "TTMC",
+          "number": "18",
+          "token": true
+        },
+        {
+          "name": "Event: Baxter's Experiments",
+          "count": 1,
+          "set": "TTMC",
+          "number": "15",
+          "token": true
+        },
+        {
+          "name": "Event: Shredder's Challenge",
+          "count": 1,
+          "set": "TTMC",
+          "number": "24",
+          "token": true
+        },
+        {
+          "name": "Event: Krang's Stratagem",
+          "count": 1,
+          "set": "TTMC",
+          "number": "19",
+          "token": true
+        },
+        {
+          "name": "Event: Chrome Dome's Overload",
+          "count": 1,
+          "set": "TTMC",
+          "number": "17",
+          "token": true
+        },
+        {
+          "name": "Slash, the Dark Mirror",
+          "count": 1,
+          "set": "TTMC",
+          "number": "14",
+          "token": true
+        },
+        {
+          "name": "Rat King, the Chaosbringer",
+          "count": 1,
+          "set": "TTMC",
+          "number": "10",
+          "token": true
+        },
+        {
+          "name": "Savanti Romero, Temporal Rogue",
+          "count": 1,
+          "set": "TTMC",
+          "number": "12",
+          "token": true
+        },
+        {
+          "name": "Chrome Dome, Cyber-Ninja",
+          "count": 1,
+          "set": "TTMC",
+          "number": "6",
+          "token": true
+        },
+        {
+          "name": "Baxter, Exzzperimental Zzientist",
+          "count": 1,
+          "set": "TTMC",
+          "number": "4",
+          "token": true
+        },
+        {
+          "name": "Krang, Dimension X Overlord",
+          "count": 1,
+          "set": "TTMC",
+          "number": "8",
+          "token": true
+        },
+        {
+          "name": "Leatherhead, Sewer Gator",
+          "count": 1,
+          "set": "TTMC",
+          "number": "9",
+          "token": true
+        },
+        {
+          "name": "Karai, Shadow Warrior",
+          "count": 1,
+          "set": "TTMC",
+          "number": "7",
+          "token": true
+        },
+        {
+          "name": "Rocksteady, Rowdy Rhino",
+          "count": 1,
+          "set": "TTMC",
+          "number": "11",
+          "token": true
+        },
+        {
+          "name": "Bebop, Porcine Punk",
+          "count": 1,
+          "set": "TTMC",
+          "number": "5",
+          "token": true
+        },
+        {
+          "name": "Shredder, Foot Clan Overlord",
+          "count": 1,
+          "set": "TTMC",
+          "number": "13",
+          "token": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/teenage-mutant-ninja-turtles-turtle-team-up-contents",
+    "display": ""
+  },
+  {
+    "name": "Leonardo",
+    "type": "Theme Deck",
+    "category": "deck",
+    "format": "casual",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "set_code": "tmt",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Triceraton Regenta",
+          "count": 3
+        },
+        {
+          "name": "Hamato Ninpō",
+          "count": 3,
+          "set": "TMC",
+          "number": "100"
+        },
+        {
+          "name": "Featherbrained Filcher",
+          "count": 2
+        },
+        {
+          "name": "Wooden Cane",
+          "count": 2
+        },
+        {
+          "name": "Leo's Guidance",
+          "count": 2
+        },
+        {
+          "name": "High-Flying Ace",
+          "count": 2
+        },
+        {
+          "name": "Grounded for Life",
+          "count": 2
+        },
+        {
+          "name": "East Wind Avatar",
+          "count": 2
+        },
+        {
+          "name": "Mechanized Ninja Cavalry",
+          "count": 2
+        },
+        {
+          "name": "The Last Ronin's Technique",
+          "count": 2
+        },
+        {
+          "name": "Splinter & Leo, Father & Son",
+          "count": 1,
+          "set": "TMC",
+          "number": "103"
+        },
+        {
+          "name": "Definitely Not a Turtle",
+          "count": 1
+        },
+        {
+          "name": "Action News Crew",
+          "count": 1
+        },
+        {
+          "name": "Jennika, Bad Apple Big Sister",
+          "count": 1
+        },
+        {
+          "name": "EPF Point Squad",
+          "count": 2
+        },
+        {
+          "name": "Lita, Little Orphan Amphibian",
+          "count": 1
+        },
+        {
+          "name": "Leonardo, Big Brother",
+          "count": 1
+        },
+        {
+          "name": "Mighty Mutanimals",
+          "count": 1
+        },
+        {
+          "name": "Splinter, Aging Champion",
+          "count": 1
+        },
+        {
+          "name": "Leonardo, Worldly Warrior",
+          "count": 1
+        },
+        {
+          "name": "Hamato Guardian Stance",
+          "count": 1
+        },
+        {
+          "name": "Make Your Move",
+          "count": 1
+        },
+        {
+          "name": "Quintessential Katana",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 24,
+          "set": "TMT",
+          "number": "315"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/teenage-mutant-ninja-turtles-turtle-team-up-contents",
+    "display": ""
+  },
+  {
+    "name": "Michealangelo",
+    "type": "Theme Deck",
+    "category": "deck",
+    "format": "casual",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "set_code": "tmt",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Zoo Escapees",
+          "count": 3
+        },
+        {
+          "name": "Turtle Tracks",
+          "count": 3
+        },
+        {
+          "name": "Cowabunga!",
+          "count": 3
+        },
+        {
+          "name": "Michelangelo, Mutant BFF",
+          "count": 1
+        },
+        {
+          "name": "Tenderize",
+          "count": 2
+        },
+        {
+          "name": "Guac & Marshmallow Pizza",
+          "count": 2
+        },
+        {
+          "name": "Mona Lisa, Ever Adaptable",
+          "count": 1
+        },
+        {
+          "name": "Primordial Pachyderm",
+          "count": 1
+        },
+        {
+          "name": "Ragamuffin Raptor",
+          "count": 2
+        },
+        {
+          "name": "Mona Lisa, Science Geek",
+          "count": 1
+        },
+        {
+          "name": "Study the Classics",
+          "count": 2
+        },
+        {
+          "name": "Mikey & Mona, Mutant Sitters",
+          "count": 1,
+          "set": "TMC",
+          "number": "125"
+        },
+        {
+          "name": "Prehistoric Turtlesaurus",
+          "count": 3
+        },
+        {
+          "name": "Definitely Not a Turtle",
+          "count": 1
+        },
+        {
+          "name": "Novel Nunchaku",
+          "count": 1
+        },
+        {
+          "name": "Michelangelo, Game Master",
+          "count": 1
+        },
+        {
+          "name": "Michelangelo, On the Scene",
+          "count": 1
+        },
+        {
+          "name": "Slithering Cryptid",
+          "count": 2
+        },
+        {
+          "name": "Foe-liage",
+          "count": 2
+        },
+        {
+          "name": "Frog Butler",
+          "count": 3
+        },
+        {
+          "name": "Forest",
+          "count": 24,
+          "set": "TMT",
+          "number": "319"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/teenage-mutant-ninja-turtles-turtle-team-up-contents",
+    "display": ""
+  },
+  {
+    "name": "Raphael",
+    "type": "Theme Deck",
+    "category": "deck",
+    "format": "casual",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "set_code": "tmt",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Definitely Not a Turtle",
+          "count": 1
+        },
+        {
+          "name": "Null Group Biological Assets",
+          "count": 3
+        },
+        {
+          "name": "Casey Jones, Jury-Rig Justiciar",
+          "count": 1
+        },
+        {
+          "name": "Mouser Attack!",
+          "count": 2
+        },
+        {
+          "name": "Casey & Raph, Hotheads",
+          "count": 1,
+          "set": "TMC",
+          "number": "114"
+        },
+        {
+          "name": "Monster Mashup",
+          "count": 3
+        },
+        {
+          "name": "Storm of Steel",
+          "count": 2
+        },
+        {
+          "name": "Ticked Off",
+          "count": 2
+        },
+        {
+          "name": "Zog, Triceraton Castaway",
+          "count": 2
+        },
+        {
+          "name": "Wingnut, Bat on the Belfry",
+          "count": 1
+        },
+        {
+          "name": "Skateboard",
+          "count": 1
+        },
+        {
+          "name": "Casey Jones, Asphalt Hooligan",
+          "count": 1
+        },
+        {
+          "name": "Spicy Oatmeal Pizza",
+          "count": 1
+        },
+        {
+          "name": "Raph's Bravado",
+          "count": 2
+        },
+        {
+          "name": "Raphael, Most Attitude",
+          "count": 1
+        },
+        {
+          "name": "Raphael, Tag Team Tough",
+          "count": 1
+        },
+        {
+          "name": "Mechanized Ninja Cavalry",
+          "count": 2
+        },
+        {
+          "name": "Mouser Foundry",
+          "count": 2
+        },
+        {
+          "name": "Manhole Missile",
+          "count": 3
+        },
+        {
+          "name": "General Traag, Heart of Stone",
+          "count": 1
+        },
+        {
+          "name": "Mutant Town Musicians",
+          "count": 2
+        },
+        {
+          "name": "Raphael, Tough Turtle",
+          "count": 1
+        },
+        {
+          "name": "Mountain",
+          "count": 24,
+          "set": "TMT",
+          "number": "318"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/teenage-mutant-ninja-turtles-turtle-team-up-contents",
     "display": ""
   },
   {
