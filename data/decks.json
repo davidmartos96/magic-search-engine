@@ -179945,6 +179945,228 @@
     "display": ""
   },
   {
+    "name": "Final Fantasy Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Final Fantasy",
+    "set_code": "fin",
+    "release_date": "2025-06-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "FIN",
+          "number": "294"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "FIN",
+          "number": "295"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "FIN",
+          "number": "296"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "FIN",
+          "number": "294",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "FIN",
+          "number": "295",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "FIN",
+          "number": "296",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "FIN",
+          "number": "297"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "FIN",
+          "number": "298"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "FIN",
+          "number": "299"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "FIN",
+          "number": "297",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "FIN",
+          "number": "298",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "FIN",
+          "number": "299",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "FIN",
+          "number": "300"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "FIN",
+          "number": "301"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "FIN",
+          "number": "302"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "FIN",
+          "number": "300",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "FIN",
+          "number": "301",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "FIN",
+          "number": "302",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "FIN",
+          "number": "303"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "FIN",
+          "number": "304"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "FIN",
+          "number": "305"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "FIN",
+          "number": "303",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "FIN",
+          "number": "304",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "FIN",
+          "number": "305",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "FIN",
+          "number": "306"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "FIN",
+          "number": "307"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "FIN",
+          "number": "308"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "FIN",
+          "number": "306",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "FIN",
+          "number": "307",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "FIN",
+          "number": "308",
+          "foil": true
+        },
+        {
+          "name": "Wastes",
+          "count": 1,
+          "set": "FIN",
+          "number": "309"
+        },
+        {
+          "name": "Wastes",
+          "count": 1,
+          "set": "FIN",
+          "number": "309",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-final-fantasy",
+    "display": ""
+  },
+  {
     "name": "Red-White",
     "type": "Starter Kit",
     "category": "deck",
@@ -196380,7 +196602,7 @@
           "name": "Mowu",
           "count": 1,
           "set": "GS1",
-          "number": "T1",
+          "number": "T1a",
           "foil": true,
           "token": true
         }
@@ -472313,6 +472535,193 @@
     "display": ""
   },
   {
+    "name": "Dandân Deck",
+    "type": "Dandan Deck",
+    "category": "deck",
+    "format": "dandan",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-17",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Dandân",
+          "count": 5,
+          "set": "SLD",
+          "number": "2138",
+          "foil": true
+        },
+        {
+          "name": "Dandân",
+          "count": 5,
+          "set": "SLD",
+          "number": "2139",
+          "foil": true
+        },
+        {
+          "name": "Accumulated Knowledge",
+          "count": 4,
+          "set": "SLD",
+          "number": "2140",
+          "foil": true
+        },
+        {
+          "name": "Magical Hack",
+          "count": 2,
+          "set": "SLD",
+          "number": "2141",
+          "foil": true
+        },
+        {
+          "name": "Memory Lapse",
+          "count": 8,
+          "set": "SLD",
+          "number": "2142",
+          "foil": true
+        },
+        {
+          "name": "Mystic Sanctuary",
+          "count": 2,
+          "set": "SLD",
+          "number": "2143",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 5,
+          "set": "SLD",
+          "number": "2144",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 5,
+          "set": "SLD",
+          "number": "2145",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 5,
+          "set": "SLD",
+          "number": "2146",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 5,
+          "set": "SLD",
+          "number": "2147",
+          "foil": true
+        },
+        {
+          "name": "Brainstorm",
+          "count": 2,
+          "set": "SLD",
+          "number": "2148"
+        },
+        {
+          "name": "Capture of Jingzhou",
+          "count": 2,
+          "set": "SLD",
+          "number": "2149"
+        },
+        {
+          "name": "Chart a Course",
+          "count": 2,
+          "set": "SLD",
+          "number": "2150"
+        },
+        {
+          "name": "Control Magic",
+          "count": 2,
+          "set": "SLD",
+          "number": "2151"
+        },
+        {
+          "name": "Crystal Spray",
+          "count": 2,
+          "set": "SLD",
+          "number": "2152"
+        },
+        {
+          "name": "Day's Undoing",
+          "count": 2,
+          "set": "SLD",
+          "number": "2153"
+        },
+        {
+          "name": "Mental Note",
+          "count": 2,
+          "set": "SLD",
+          "number": "2154"
+        },
+        {
+          "name": "Metamorphose",
+          "count": 2,
+          "set": "SLD",
+          "number": "2155"
+        },
+        {
+          "name": "Predict",
+          "count": 2,
+          "set": "SLD",
+          "number": "2156"
+        },
+        {
+          "name": "Telling Time",
+          "count": 2,
+          "set": "SLD",
+          "number": "2157"
+        },
+        {
+          "name": "Unsubstantiate",
+          "count": 2,
+          "set": "SLD",
+          "number": "2158"
+        },
+        {
+          "name": "Halimar Depths",
+          "count": 2,
+          "set": "SLD",
+          "number": "2159"
+        },
+        {
+          "name": "Haunted Fengraf",
+          "count": 2,
+          "set": "SLD",
+          "number": "2160"
+        },
+        {
+          "name": "Lonely Sandbar",
+          "count": 2,
+          "set": "SLD",
+          "number": "2161"
+        },
+        {
+          "name": "Remote Isle",
+          "count": 2,
+          "set": "SLD",
+          "number": "2162"
+        },
+        {
+          "name": "The Surgical Bay",
+          "count": 2,
+          "set": "SLD",
+          "number": "2163"
+        },
+        {
+          "name": "Svyelunite Temple",
+          "count": 2,
+          "set": "SLD",
+          "number": "2164"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249043",
+    "display": ""
+  },
+  {
     "name": "Death Is Temporary, Metal Is Forever",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -477454,6 +477863,166 @@
     "display": ""
   },
   {
+    "name": "Featuring: Kevin Eastman (Colors)",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Loxodon Gatekeeper",
+          "count": 1,
+          "set": "SLD",
+          "number": "2358"
+        },
+        {
+          "name": "Sakashima's Student",
+          "count": 1,
+          "set": "SLD",
+          "number": "2359"
+        },
+        {
+          "name": "Throat Slitter",
+          "count": 1,
+          "set": "SLD",
+          "number": "2360"
+        },
+        {
+          "name": "Guttersnipe",
+          "count": 1,
+          "set": "SLD",
+          "number": "2361"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249994",
+    "display": ""
+  },
+  {
+    "name": "Featuring: Kevin Eastman (Colors) Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Loxodon Gatekeeper",
+          "count": 1,
+          "set": "SLD",
+          "number": "2358",
+          "foil": true
+        },
+        {
+          "name": "Sakashima's Student",
+          "count": 1,
+          "set": "SLD",
+          "number": "2359",
+          "foil": true
+        },
+        {
+          "name": "Throat Slitter",
+          "count": 1,
+          "set": "SLD",
+          "number": "2360",
+          "foil": true
+        },
+        {
+          "name": "Guttersnipe",
+          "count": 1,
+          "set": "SLD",
+          "number": "2361",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249993",
+    "display": ""
+  },
+  {
+    "name": "Featuring: Kevin Eastman (Inks)",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Loxodon Gatekeeper",
+          "count": 1,
+          "set": "SLD",
+          "number": "2354"
+        },
+        {
+          "name": "Sakashima's Student",
+          "count": 1,
+          "set": "SLD",
+          "number": "2355"
+        },
+        {
+          "name": "Throat Slitter",
+          "count": 1,
+          "set": "SLD",
+          "number": "2356"
+        },
+        {
+          "name": "Guttersnipe",
+          "count": 1,
+          "set": "SLD",
+          "number": "2357"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249996",
+    "display": ""
+  },
+  {
+    "name": "Featuring: Kevin Eastman (Inks) Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Loxodon Gatekeeper",
+          "count": 1,
+          "set": "SLD",
+          "number": "2354",
+          "foil": true
+        },
+        {
+          "name": "Sakashima's Student",
+          "count": 1,
+          "set": "SLD",
+          "number": "2355",
+          "foil": true
+        },
+        {
+          "name": "Throat Slitter",
+          "count": 1,
+          "set": "SLD",
+          "number": "2356",
+          "foil": true
+        },
+        {
+          "name": "Guttersnipe",
+          "count": 1,
+          "set": "SLD",
+          "number": "2357",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249995",
+    "display": ""
+  },
+  {
     "name": "Featuring: Luke Pearson",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -477905,6 +478474,99 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/928728",
+    "display": ""
+  },
+  {
+    "name": "Featuring: Stan Sakai",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Baylen, the Haymaker",
+          "count": 1,
+          "set": "SLD",
+          "number": "2377"
+        },
+        {
+          "name": "Felidar Retreat",
+          "count": 1,
+          "set": "SLD",
+          "number": "2378"
+        },
+        {
+          "name": "Master of Ceremonies",
+          "count": 1,
+          "set": "SLD",
+          "number": "2379"
+        },
+        {
+          "name": "Second Harvest",
+          "count": 1,
+          "set": "SLD",
+          "number": "2380"
+        },
+        {
+          "name": "Sunforger",
+          "count": 1,
+          "set": "SLD",
+          "number": "2381"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249998",
+    "display": ""
+  },
+  {
+    "name": "Featuring: Stan Sakai Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Baylen, the Haymaker",
+          "count": 1,
+          "set": "SLD",
+          "number": "2377",
+          "foil": true
+        },
+        {
+          "name": "Felidar Retreat",
+          "count": 1,
+          "set": "SLD",
+          "number": "2378",
+          "foil": true
+        },
+        {
+          "name": "Master of Ceremonies",
+          "count": 1,
+          "set": "SLD",
+          "number": "2379",
+          "foil": true
+        },
+        {
+          "name": "Second Harvest",
+          "count": 1,
+          "set": "SLD",
+          "number": "2380",
+          "foil": true
+        },
+        {
+          "name": "Sunforger",
+          "count": 1,
+          "set": "SLD",
+          "number": "2381",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249997",
     "display": ""
   },
   {
@@ -493201,6 +493863,285 @@
     "display": ""
   },
   {
+    "name": "Teenage Mutant Ninja Turtles: The Last Ronin",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Settle the Wreckage",
+          "count": 1,
+          "set": "SLD",
+          "number": "2372"
+        },
+        {
+          "name": "Mental Misstep",
+          "count": 1,
+          "set": "SLD",
+          "number": "2373"
+        },
+        {
+          "name": "Ink-Eyes, Servant of Oni",
+          "count": 1,
+          "set": "SLD",
+          "number": "2374"
+        },
+        {
+          "name": "Anger",
+          "count": 1,
+          "set": "SLD",
+          "number": "2375"
+        },
+        {
+          "name": "Chord of Calling",
+          "count": 1,
+          "set": "SLD",
+          "number": "2376"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250000",
+    "display": ""
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles: The Last Ronin Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Settle the Wreckage",
+          "count": 1,
+          "set": "SLD",
+          "number": "2372",
+          "foil": true
+        },
+        {
+          "name": "Mental Misstep",
+          "count": 1,
+          "set": "SLD",
+          "number": "2373",
+          "foil": true
+        },
+        {
+          "name": "Ink-Eyes, Servant of Oni",
+          "count": 1,
+          "set": "SLD",
+          "number": "2374",
+          "foil": true
+        },
+        {
+          "name": "Anger",
+          "count": 1,
+          "set": "SLD",
+          "number": "2375",
+          "foil": true
+        },
+        {
+          "name": "Chord of Calling",
+          "count": 1,
+          "set": "SLD",
+          "number": "2376",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1249999",
+    "display": ""
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles: The Mighty Mutanimals",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Deepglow Skate",
+          "count": 1,
+          "set": "SLD",
+          "number": "2362"
+        },
+        {
+          "name": "Pirated Copy",
+          "count": 1,
+          "set": "SLD",
+          "number": "2363"
+        },
+        {
+          "name": "Kediss, Emberclaw Familiar",
+          "count": 1,
+          "set": "SLD",
+          "number": "2364"
+        },
+        {
+          "name": "Hardened Scales",
+          "count": 1,
+          "set": "SLD",
+          "number": "2365"
+        },
+        {
+          "name": "Triumph of the Hordes",
+          "count": 1,
+          "set": "SLD",
+          "number": "2366"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250002",
+    "display": ""
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles: The Mighty Mutanimals Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Deepglow Skate",
+          "count": 1,
+          "set": "SLD",
+          "number": "2362",
+          "foil": true
+        },
+        {
+          "name": "Pirated Copy",
+          "count": 1,
+          "set": "SLD",
+          "number": "2363",
+          "foil": true
+        },
+        {
+          "name": "Kediss, Emberclaw Familiar",
+          "count": 1,
+          "set": "SLD",
+          "number": "2364",
+          "foil": true
+        },
+        {
+          "name": "Hardened Scales",
+          "count": 1,
+          "set": "SLD",
+          "number": "2365",
+          "foil": true
+        },
+        {
+          "name": "Triumph of the Hordes",
+          "count": 1,
+          "set": "SLD",
+          "number": "2366",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250001",
+    "display": ""
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles: VHS Villains",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Delver of Secrets // Insectile Aberration",
+          "count": 1,
+          "set": "SLD",
+          "number": "2367a"
+        },
+        {
+          "name": "Higure, the Still Wind",
+          "count": 1,
+          "set": "SLD",
+          "number": "2368"
+        },
+        {
+          "name": "Species Specialist",
+          "count": 1,
+          "set": "SLD",
+          "number": "2369"
+        },
+        {
+          "name": "Rampaging Baloths",
+          "count": 1,
+          "set": "SLD",
+          "number": "2370"
+        },
+        {
+          "name": "Triskelion",
+          "count": 1,
+          "set": "SLD",
+          "number": "2371"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250004",
+    "display": ""
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles: VHS Villains Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Delver of Secrets // Insectile Aberration",
+          "count": 1,
+          "set": "SLD",
+          "number": "2367a",
+          "foil": true
+        },
+        {
+          "name": "Higure, the Still Wind",
+          "count": 1,
+          "set": "SLD",
+          "number": "2368",
+          "foil": true
+        },
+        {
+          "name": "Species Specialist",
+          "count": 1,
+          "set": "SLD",
+          "number": "2369",
+          "foil": true
+        },
+        {
+          "name": "Rampaging Baloths",
+          "count": 1,
+          "set": "SLD",
+          "number": "2370",
+          "foil": true
+        },
+        {
+          "name": "Triskelion",
+          "count": 1,
+          "set": "SLD",
+          "number": "2371",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250003",
+    "display": ""
+  },
+  {
     "name": "Teferi's Time Trouble",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -494890,7 +495831,8 @@
           "name": "Baral, Chief of Compliance",
           "count": 1,
           "set": "SLD",
-          "number": "2168"
+          "number": "2168",
+          "foil": true
         },
         {
           "name": "Garruk Relentless",

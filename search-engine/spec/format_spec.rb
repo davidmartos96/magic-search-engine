@@ -8,7 +8,7 @@ describe "Formats" do
     assert_search_results "f:extended" # Does not exist according to mtgjson
     assert_search_equal_cards "f:standard",
       %[
-        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl
+        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl,tmt
         -is:alchemy
         -(Cori-Steel Cutter)
         -(Abuelo's Awakening)
@@ -232,8 +232,8 @@ describe "Formats" do
   # We don't have all historical legality for Duel Commander yet,
   # maybe add it at some later point
   it "duel commander" do
-    assert_count_cards 'banned:"duel commander"', 229
-    assert_count_cards 'restricted:"duel commander"', 31
+    assert_count_cards 'banned:"duel commander"', 228
+    assert_count_cards 'restricted:"duel commander"', 29
   end
 
   # Used to be Lurrus

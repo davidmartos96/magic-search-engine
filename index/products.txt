@@ -1374,7 +1374,6 @@ gvl	Duel Deck Anthology Garruk Deck	deck	duel	dd07654e-776e-557e-9ad6-89d665fb22
 gvl	Duel Deck Anthology Liliana Deck	deck	duel	5a300fe2-33ef-5d13-ae65-30a1622fac21	
 jvc	Duel Deck Anthology Chandra Deck	deck	duel	981854cc-a51c-5d50-91e1-42f87a33a559	
 jvc	Duel Deck Anthology Jace Deck	deck	duel	f6c53060-0f37-5370-b05c-46ac4d080cdd	
-ugin	Ugins Fate Event Booster Pack	booster_pack	promotional	e1b62ec3-d6b0-50b0-a993-3b1ff65d0d66	
 frf	Fate Reforged Booster Box	booster_box	draft	d8c365a9-1cb7-5901-8f73-4570cac812e5	2015-01-21
 frf	Fate Reforged Booster Box Case	booster_case	draft	6ec7923f-b8b6-578b-b420-b775ac914d95	
 frf	Fate Reforged Booster Pack	booster_pack	draft	12abbe7b-f87a-5fbf-ab77-1e9edec8cf90	2015-01-21
@@ -1395,6 +1394,7 @@ frf	Fate Reforged Prerelease Kit Mardu Battle with Speed	limited_aid_tool	prerel
 frf	Fate Reforged Prerelease Kit Set of 5	subset	prerelease_kit	92b86671-3871-5e34-b244-22b14e37cf00	2015-03-02
 frf	Fate Reforged Prerelease Kit Sultai Battle with Ruthlessness	limited_aid_tool	prerelease_kit	be78b299-2a2c-5282-a97d-f75a3a71d58e	
 frf	Fate Reforged Prerelease Kit Temur Battle with Savagery	limited_aid_tool	prerelease_kit	8cd461f3-2d50-5a66-b18c-2cba4a56e3eb	
+frf	Ugins Fate Event Booster Pack	booster_pack	promotional	e1b62ec3-d6b0-50b0-a993-3b1ff65d0d66	
 ddo	Duel Deck Elspeth vs Kiora	multiple_decks	duel	610fdad6-50f4-5f1e-abbd-d94cfdf799d9	2015-01-27
 ddo	Duel Deck Elspeth vs Kiora Display	deck_box	duel	7dee71ae-cb35-544a-831d-30d06dd7badf	
 ddo	Duel Deck Elspeth vs Kiora Elspeth Deck	deck	duel	6ea4f987-e899-527d-80a1-bc96dfcef417	2015-03-25
@@ -2347,6 +2347,10 @@ sld	Secret Lair Drop Featuring Jay Howell	box_set	secret_lair	1636a7d1-b406-5345
 sld	Secret Lair Drop Featuring Jay Howell Rainbow Foil	box_set	secret_lair	ff8f58d6-6320-592d-91a8-67f187cdbd7e	2025-05-13
 sld	Secret Lair Drop Featuring Julie Bell	box_set	secret_lair	69a95367-934a-58ba-bfb1-66d2d4fe03ad	2024-07-10
 sld	Secret Lair Drop Featuring Julie Bell Rainbow Foil	box_set	secret_lair	88238416-b993-59dc-b5c4-11ea3d4b9327	2024-07-10
+sld	Secret Lair Drop Featuring Kevin Eastman (Colors)	box_set	secret_lair	3a6d2055-1f80-55e7-9fe1-460ff59afd2e	2026-03-03
+sld	Secret Lair Drop Featuring Kevin Eastman (Colors) Foil	box_set	secret_lair	c589fdbb-2eae-5f4c-8656-4d3e61d3b8e0	2026-03-03
+sld	Secret Lair Drop Featuring Kevin Eastman (Inks)	box_set	secret_lair	adbb746a-38d6-576b-8995-4beb33893ce1	2026-03-03
+sld	Secret Lair Drop Featuring Kevin Eastman (Inks) Foil	box_set	secret_lair	9fe045cd-ce51-583b-871a-989cc1aa4e91	2026-03-03
 sld	Secret Lair Drop Featuring Luke Pearson	box_set	secret_lair	440bbacf-55d8-5ade-9fe8-d3a9e8fc1ee7	2025-02-11
 sld	Secret Lair Drop Featuring Luke Pearson Rainbow Foil	box_set	secret_lair	56fb8977-bc16-54f0-baf1-f933124282d3	2025-02-11
 sld	Secret Lair Drop Featuring Mitsuhiro Arita	box_set	secret_lair	b56d463c-f886-539e-a33f-4759d910fd5d	2025-02-11
@@ -2357,6 +2361,8 @@ sld	Secret Lair Drop Featuring Peach Momoko	box_set	secret_lair	8b63b5b9-524a-5e
 sld	Secret Lair Drop Featuring Peach Momoko Rainbow Foil	box_set	secret_lair	da9faa40-1eba-5a10-8833-2936a34653aa	2024-10-01
 sld	Secret Lair Drop Featuring Phoebe Wahl	box_set	secret_lair	e1b8595c-73dc-57a0-9359-a5a816999a6a	2024-04-15
 sld	Secret Lair Drop Featuring Phoebe Wahl Rainbow Foil	box_set	secret_lair	a8c93557-65af-52fd-91f2-0af9bc468062	2024-04-15
+sld	Secret Lair Drop Featuring Stan Sakai	box_set	secret_lair	da3d2c18-2ba2-5f2f-b392-ab70b9313bf8	2026-03-03
+sld	Secret Lair Drop Featuring Stan Sakai Foil	box_set	secret_lair	06a86fa5-7665-5191-8807-dc21fe35d59e	2026-03-03
 sld	Secret Lair Drop Featuring the Mountain Goats	box_set	secret_lair	deb8d36c-1016-57ba-9bab-84e8595eab4a	2023-08-29
 sld	Secret Lair Drop Featuring the Mountain Goats Foil	box_set	secret_lair	c553fd4f-db7e-56d9-9011-f06af5ea8565	2023-08-29
 sld	Secret Lair Drop Finally Left Handed Magic Cards	box_set	secret_lair	ff960410-4355-5136-b04e-afa9ce97ccd0	2022-08-05
@@ -2722,6 +2728,12 @@ sld	Secret Lair Drop Ssssssnakessssss	box_set	secret_lair	0bbc03d7-d75e-5f70-88a
 sld	Secret Lair Drop Ssssssnakessssss Foil	box_set	secret_lair	440f8f19-eb0f-5325-b2c6-c91a12538424	2023-04-14
 sld	Secret Lair Drop Tales of the Time Stoppers	box_set	secret_lair	9ea4fbbd-1136-5a2a-85fb-d58757016ab1	2023-12-05
 sld	Secret Lair Drop Tales of the Time Stoppers Rainbow Foil	box_set	secret_lair	bd4c8468-c977-5b18-9f34-3116e2b08c76	2023-12-05
+sld	Secret Lair Drop Teenage Mutant Ninja Turtles The Last Ronin	box_set	secret_lair	ddd329ce-88d3-545e-89b0-f8187292030c	2026-03-03
+sld	Secret Lair Drop Teenage Mutant Ninja Turtles The Last Ronin Foil	box_set	secret_lair	7fcc7870-4715-54dd-a2ed-aa96b1b6fe0b	2026-03-03
+sld	Secret Lair Drop Teenage Mutant Ninja Turtles The Mighty Mutanimals	box_set	secret_lair	6a0b3042-07fd-5277-b232-8ab4166f787f	2026-03-03
+sld	Secret Lair Drop Teenage Mutant Ninja Turtles The Mighty Mutanimals Foil	box_set	secret_lair	167df863-4aa6-5206-885a-fbc14fb9f886	2026-03-03
+sld	Secret Lair Drop Teenage Mutant Ninja Turtles VHS Villains	box_set	secret_lair	e6d4efa7-7095-5286-a8a2-251c7afd57ad	2026-03-03
+sld	Secret Lair Drop Teenage Mutant Ninja Turtles VHS Villains Foil	box_set	secret_lair	4ceaa7b0-d593-5461-b964-f8ff8b2ca402	2026-03-03
 sld	Secret Lair Drop Teferis Time Trouble	box_set	secret_lair	69fdbaaa-620a-5193-8472-564e7913af35	2021-12-13
 sld	Secret Lair Drop Thalia Beyond the Helvault	box_set	secret_lair	09d6907d-f46d-5bb6-b991-92ded9ab3733	2020-03-12
 sld	Secret Lair Drop The 90s Binder Experience	box_set	secret_lair	6a11dff9-1877-5b4d-a3c2-a6d13fdd80ae	2023-04-14
@@ -3894,7 +3906,6 @@ ecl	Lorwyn Eclipsed Play Booster Pack	booster_pack	play	ce9ba52e-b03f-55ff-86c9-
 ecl	Lorwyn Eclipsed Prerelease Pack	limited_aid_tool	prerelease_kit	c10bf5ed-0f4a-5320-bb7f-95e6262916ff	2026-01-23
 tmc	Teenage Mutant Ninja Turtles Commander Deck Turtle Power	deck	commander	e783ed0c-b2b1-5969-ba90-25104b1f6e7b	2026-03-06
 tmc	Teenage Mutant Ninja Turtles Commander Deck Turtle Power Case	deck_box	commander	3d57f608-69e3-5d25-afc7-b1e9ab3177ec	2026-03-06
-tmc	Teenage Mutant Ninja Turtles Eternal Commander Deck Turtle Power!	deck	commander_deck	2dcb94b5-643e-5948-9abd-741f57855dec	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Bundle	bundle	default	68bed880-e5ca-59b8-ae08-52a3ff1ff6ef	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Bundle Case	bundle_case	default	3d141e79-16fd-5a23-8d74-d1f379fd3117	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Collector Booster Box	booster_box	collector	d398ed22-6102-57a9-90a7-67aa23957cd3	2026-03-06
@@ -3903,14 +3914,49 @@ tmt	Teenage Mutant Ninja Turtles Collector Booster Box Master Case	booster_case	
 tmt	Teenage Mutant Ninja Turtles Collector Booster Pack	booster_pack	collector	9c5a8a1e-6918-5362-90df-39a3c18739d7	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Draft Night	limited_aid_tool	draft_set	9129b057-43c3-517e-9e88-729123ed1314	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Draft Night Case	limited_aid_case	draft_set	76645e5a-72eb-5432-a785-10fae665f421	2026-03-06
+tmt	Teenage Mutant Ninja Turtles Enemy Deck	deck	default	fed3d35d-3bdf-54bd-bdcd-bb0fd9f2b1e1	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Pizza Bundle	bundle	default	179d628c-d5cd-5800-acef-6dfd8bcb5000	2026-03-27
 tmt	Teenage Mutant Ninja Turtles Pizza Bundle Case	bundle_case	default	2b795feb-fd0b-5f48-ad5f-35c1877128b2	2026-03-27
 tmt	Teenage Mutant Ninja Turtles Play Booster Box	booster_box	play	b04ea83e-f908-5130-80ad-5300700af896	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Play Booster Box Case	booster_case	play	d5b21011-cb80-5c30-b592-70d81d72cee5	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Play Booster Pack	booster_pack	play	afedd9fe-a47e-55fb-b888-eb606f3ded7c	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Prerelease Pack	limited_aid_tool	prerelease_kit	8b826e3a-b609-519e-bff6-83cab82fcc62	2026-03-06
+tmt	Teenage Mutant Ninja Turtles Theme Deck Donatello	deck	theme	918dd603-ed81-5050-be6b-a4a335d98db2	2026-03-06
+tmt	Teenage Mutant Ninja Turtles Theme Deck Leonardo	deck	theme	1f9e68c5-fd13-582c-a8a8-96e932bb233f	2026-03-06
+tmt	Teenage Mutant Ninja Turtles Theme Deck Michealangelo	deck	theme	daac7d7f-d341-59e9-bfe2-16bf0f7d3fee	2026-03-06
+tmt	Teenage Mutant Ninja Turtles Theme Deck Raphael	deck	theme	19c22e5e-4e1d-5b5b-94ce-50974f391739	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Turtle Team-Up	multiple_decks	default	a4983128-44e9-51ae-81d5-5f0eec88776a	2026-03-06
 tmt	Teenage Mutant Ninja Turtles Turtle Team-Up Case	deck_box	default	defb137a-d9ac-5979-a93b-f1069ae315d3	2026-03-06
+soc	Secrets of Strixhave Commander Deck Lorehold Spirit	deck	commander	c47e9acc-fd61-5f3d-90d7-96389253c978	
+soc	Secrets of Strixhave Commander Deck Prismari Artistry	deck	commander	f9b0640a-25eb-51e6-acee-ad8bc2e02498	
+soc	Secrets of Strixhave Commander Deck Quandrix Unlimited	deck	commander	95e7a226-cdea-577a-8b25-3265c5c0feef	
+soc	Secrets of Strixhave Commander Deck Set of 5	subset	commander	0a394fb4-df04-505d-a083-8ecb01f4f782	
+soc	Secrets of Strixhave Commander Deck Silverquill Influence	deck	commander	c8c691df-f8b4-5b3b-9f4b-2e29c7c47c68	
+soc	Secrets of Strixhave Commander Deck Witherbloom Pestilence	deck	commander	0150c5be-3006-5f9c-a168-a6e17fadf4c8	
+sos	Secrets of Strixhaven 60-Card Theme Deck Display	deck	theme	bab74ae1-40b5-5dab-b30d-994d3c1e52b3	
+sos	Secrets of Strixhaven 60-Card Theme Deck Display Case	deck	theme	4a4ca706-d3f9-5a0f-8f4f-365a4e5a83e0	
+sos	Secrets of Strixhaven 60-Card Theme Deck Eerie	deck	theme	7631ec6f-fbaa-5657-bdcd-1d9c306a25b6	
+sos	Secrets of Strixhaven 60-Card Theme Deck Lifegain	deck	theme	5ee527f5-2ff2-50ed-992b-e8a062e5cd3d	
+sos	Secrets of Strixhaven Bundle	bundle	unknown	77d67850-3a8d-5589-a611-b42fe4147146	
+sos	Secrets of Strixhaven Bundle Case	bundle	unknown	3fcb05ff-f6ad-56c9-98bb-02e9bd1b3666	
+sos	Secrets of Strixhaven Codex Bundle	bundle	unknown	ab96e968-9884-5477-9d98-58df18c888cd	
+sos	Secrets of Strixhaven Codex Bundle Case	bundle	unknown	df18975d-8c66-5a6f-ace9-5d2da053abc2	
+sos	Secrets of Strixhaven Collector Booster Box	booster_box	collector	5c665482-f352-5edd-b3a2-213a26a27249	
+sos	Secrets of Strixhaven Collector Booster Box Case	booster_case	collector	c164145a-eb91-5903-8810-d879609933ee	
+sos	Secrets of Strixhaven Collector Booster Box Master Case	booster_box	collector	10de5ce5-a44c-56db-b3b1-41f19123db70	
+sos	Secrets of Strixhaven Collector Booster Pack	booster_pack	collector	04f60957-1fb2-59dc-8a98-2cc121938c46	
+sos	Secrets of Strixhaven Draft Night	unknown	unknown	8c047751-031d-5113-8b80-682508f0af03	
+sos	Secrets of Strixhaven Draft Night Case	unknown	unknown	e1dd700a-60e7-596a-8b12-7a77963b2464	
+sos	Secrets of Strixhaven Play Booster Box	booster_box	play	9b4a3efa-c707-5963-9fd1-0116106563de	
+sos	Secrets of Strixhaven Play Booster Box Case	booster_case	play	8a92b00b-1e94-59e7-9307-1645ca6e0563	
+sos	Secrets of Strixhaven Play Booster Pack	booster_pack	play	f7f7e343-9350-5fa2-aab4-b58abe97113e	
+sos	Secrets of Strixhaven Prerelease Pack Lorehold	limited_aid_tool	prerelease_kit	dc4aeb7b-b828-5336-8010-2e31300b3cd4	
+sos	Secrets of Strixhaven Prerelease Pack Prismari	limited_aid_tool	prerelease_kit	42a9c3c3-7977-5cfc-bd99-a2c394983ad0	
+sos	Secrets of Strixhaven Prerelease Pack Quandrix	limited_aid_tool	prerelease_kit	89c3ae16-022a-5970-a537-dd3e21aa2ad6	
+sos	Secrets of Strixhaven Prerelease Pack Set of 5	subset	prerelease_kit	8bc474e3-3592-5d98-883e-8721d19ef321	
+sos	Secrets of Strixhaven Prerelease Pack Silverquill	limited_aid_tool	prerelease_kit	22d32682-94bb-587a-951c-5f7be8f90111	
+sos	Secrets of Strixhaven Prerelease Pack Witherbloom	limited_aid_tool	prerelease_kit	c0e8e13b-e139-55ad-80df-358ae90d3d96	
+sos	Secrets of Strixhaven Theme Decks Set of 2	subset	unknown	c2873789-277d-59ce-b2c9-8d91dda934c6	
 msc	Marvel Super Heroes Commander Deck Avengers Assemble	deck	commander	05ebe68c-1df0-5e31-aa20-2a898f266289	
 msc	Marvel Super Heroes Commander Deck Avengers Assemble Collectors Edition	deck	commander	1a4ea9c5-95e6-5632-95d2-0d54e0151b9d	
 msc	Marvel Super Heroes Commander Deck Collectors Edition Set of 4	subset	commander	ea639af7-7ac3-5b1c-aab9-d01f5620c944	

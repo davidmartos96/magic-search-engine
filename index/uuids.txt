@@ -67038,7 +67038,10 @@ pf25	16	ad48b63e-888b-578a-8ab5-2c91ccfc07fb	Spaghetti Junction
 pf25	17	07604a4b-adfb-506b-ab4b-5856ff83f130	J. Jonah Jameson
 pf25	18	69a0e5b8-cf35-5449-81f2-eeea1bb91826	Sokka, Bold Boomeranger
 pf26	1f	68663009-3e69-5d5a-9920-577be2894b3c	Wayfarer's Bauble
+pf26	2	a033c908-626b-5593-8c46-b7d67c9b1303	Fyndhorn Elves
+pf26	3	6352c1f7-6687-5202-bffe-20186218ef1e	Prismatic Ending
 pfdn	1	4f2c5045-ee0c-5e16-bd37-76d782e052e3	Sol Ring
+pfdn	1p	0a8ea84f-3382-5c46-885d-29235ff8bd64	Sire of Seven Deaths
 pfdn	1s	430d6d17-82da-5002-9e81-62cfad560783	Sire of Seven Deaths
 pfdn	2s	66e439e6-37c8-5dfe-871f-bddb792bce77	Arahbo, the First Fang
 pfdn	5s	46a062fd-1e23-5701-8736-3a9b8d899e31	Celestial Armor
@@ -67066,6 +67069,7 @@ pfdn	58s	88744e39-7d71-5db5-8d16-bd00d5d526b5	Bloodthirsty Conqueror
 pfdn	61s	e47c30a1-4341-5c32-b3dc-d2134388a0b1	High-Society Hunter
 pfdn	66s	8cb571cc-0588-5bcf-9ea3-810cab4faca7	Nine-Lives Familiar
 pfdn	72s	eaa69aaf-0206-561a-a047-7f70585f6e9b	Tinybones, Bauble Burglar
+pfdn	77p	d91f98a4-6c70-55c5-a900-3131132ba349	Zul Ashur, Lich Lord
 pfdn	77s	3c27e7c9-67ec-50cd-84d9-ff5abbcf2997	Zul Ashur, Lich Lord
 pfdn	81s	30e129cf-d6a0-5fd0-a830-0c66e07b96ca	Chandra, Flameshaper
 pfdn	85s	4fdba68b-e721-54b1-b1bc-1553334e613e	Electroduplicate
@@ -67074,7 +67078,9 @@ pfdn	92s	7fde4d04-0189-5ff8-8b0c-eb695fbd3594	Rite of the Dragoncaller
 pfdn	93s	50910c4d-e4ee-5032-b2e1-78f994a2c832	Searslicer Goblin
 pfdn	97p	42a0967e-d08b-578a-8d05-264c11965f42	Twinflame Tyrant
 pfdn	97s	53b40a6d-0743-5ab0-990f-b73c42265bfa	Twinflame Tyrant
+pfdn	106p	95b29594-0358-5fe5-af32-fa927fb7c398	Loot, Exuberant Explorer
 pfdn	106s	29a75ce1-3fe3-535f-b4ee-826c8e249e25	Loot, Exuberant Explorer
+pfdn	107p	c3d76404-0a73-5e80-961b-22d614762615	Mossborn Hydra
 pfdn	107s	9487d407-8ed2-5bac-986c-5a52a396f3c0	Mossborn Hydra
 pfdn	109s	67f7e942-c54a-504b-9376-afaed4f70667	Preposterous Proportions
 pfdn	111s	1ea1d442-b3b2-5143-9e69-4dcb3c701deb	Quilled Greatwurm
@@ -67097,7 +67103,9 @@ pfdn	126p	3006410d-cdf0-5580-9963-cfd2a105afaa	Zimone, Paradox Sculptor
 pfdn	126s	6dfd128d-e9da-5602-8c80-f6adeeb63bbe	Zimone, Paradox Sculptor
 pfdn	127p	2f61979d-3d74-5be4-ad14-b9d62d7dac01	Banner of Kinship
 pfdn	127s	883f129d-cf13-589d-9806-4724e995e8e8	Banner of Kinship
+pfdn	129p	157237bc-4d78-521a-b0c8-7e319eadfa26	Leyline Axe
 pfdn	129s	aae44926-e1a2-56a8-a043-7e0e9a0345d9	Leyline Axe
+pfdn	132p	15be8bcd-3e3e-5c42-aec3-fd451a30812f	Scrawling Crawler
 pfdn	132s	b249c36f-242a-5672-8cbe-7c63e9bf8961	Scrawling Crawler
 pfdn	133s	0ad26299-7d7c-5dce-9e44-e45267cfdd97	Soulstone Sanctuary
 pfdn	134s	a2788bb1-4997-58b9-84ca-7108cc4c52fd	Ajani, Caller of the Pride
@@ -67119,6 +67127,7 @@ pfdn	194s	eeeedb9b-b920-54ca-b52a-eaf5fdbe0330	Etali, Primal Storm
 pfdn	198s	d2a749bf-ec70-5141-92ba-8eca8d3fcb9f	Flamewake Phoenix
 pfdn	204s	859be103-196e-5fee-9e78-d8419ae7a1d7	Krenko, Mob Boss
 pfdn	207s	af43bf5a-5de4-56bd-9269-33cf7505fc2f	Slagstorm
+pfdn	216p	56a8860f-952d-5ec0-86e4-109566e3078d	Doubling Season
 pfdn	216s	3e8d0581-f0e6-5d68-9acd-4a50bbaf5fb4	Doubling Season
 pfdn	219s	5eb6f1e8-3097-50f1-9d3a-901aee1b3d6e	Elvish Archdruid
 pfdn	221s	7bcf8918-707a-5948-992c-21e97ed3de25	Genesis Wave
@@ -82377,6 +82386,7 @@ pspl	6	3d9d4e71-bb39-5a7c-8e64-2089f8c01a2f	Spectacular Spider-Man
 pspl	7	0b38c59e-7f67-5f21-8a7d-5c48626fa248	Day of Black Sun
 pspl	8	c669328b-bec0-5fc4-aa18-cb215d21c51e	Vendilion Clique
 pspl	9	0e734f1c-c314-5c6c-8688-1df32ad42629	Super Shredder
+pspl	10	1fc72ba6-b216-5c1e-b77f-1792cf75e660	Liliana Vess
 pspm	1s	1e947958-ec08-5271-b09f-b075b3c1731f	Anti-Venom, Horrifying Healer
 pspm	2s	19df7f0c-1c27-5ac8-9c03-c7c44ab03ace	Arachne, Psionic Weaver
 pspm	8s	e459f560-0cdc-5f40-9898-d7ca7d155fe3	Friendly Neighborhood
@@ -91282,7 +91292,21 @@ sld	7066	847bb7a9-f2d7-5dbc-8b24-63e2925b52be	Read the Bones
 sld	7067	66de903f-5291-5311-b4be-1a1917984fee	Command Tower
 sld	7068	cf00962f-7e03-590a-aa59-6d27bb9c2f73	Arcane Signet
 sld	7069	8609a0ed-15b3-5c7b-92f7-e0d8d08a4f0e	Read the Bones
+sld	7071	17aa725b-e5fb-5460-8643-336d0eb14235	Butcher of Malakir
+sld	7072	6ecc3d1d-1465-56cc-aaaf-9b5055e64b80	Butcher of Malakir
+sld	7073	1be6df0f-a2ed-5247-b9ea-2e9fecc7b59b	Possibility Storm
+sld	7074	dd8c6713-7e10-5c33-bc74-5ba71477ec17	Piper of the Swarm
+sld	7075	87ccc622-8776-5633-9e9b-96cb6c38071e	Regrowth
+sld	7076	259476bc-e328-56df-870f-92dd336d5cc8	Big Score
 sld	7083	bbe123af-4d61-581d-aac0-8884c20f6be9	Slime Against Humanity
+sld	7094	9c7245ca-2196-52e4-bd54-1bf126c67512	Academy Manufactor
+sld	7095	695153fc-25b8-5539-a237-44f9e4e8ef16	Ruin Crab
+sld	7096	ee3f0abe-d0a8-5943-b8bc-50a865fc0099	Big Score
+sld	7097	2b5d0c76-b82a-51d2-bb0b-fb74c5b36d24	Command Tower
+sld	7105	69d53052-828f-50d5-a682-28f02b229e5d	Tidal Barracuda
+sld	7106	3df5da36-edd6-5f26-aa26-77e8c0ebe917	Master of the Feast
+sld	7107	5912465d-df1e-5de7-b481-d2114d5bd249	Invasion Plans
+sld	7108	7f638983-d98c-567b-9b55-2185fd9b4b11	Miren, the Moaning Well
 sld	8001	84efcf29-d327-5693-a695-f8045c9ea4ff	Jace, the Mind Sculptor
 sld	9990	084501f1-884f-56ab-b879-bcdcde480ff1	Doom Blade
 sld	9991	2b0d0c6d-defa-5b95-9386-0974b930ba71	Massacre
@@ -91918,6 +91942,20 @@ snc	466	4dcfad27-d6c2-5470-ba76-37cd0bc570a1	Light 'Em Up
 snc	467	85706cc0-04d4-5567-8c7f-d0d0db149a6f	Courier's Briefcase
 snc	468	97be86fb-f947-5903-92bc-9be3bad43e35	Urabrask, Heretic Praetor
 snc	469	aff50d55-5c85-5871-b7b5-20f00bf6f617	Urabrask, Heretic Praetor
+soa	24	5ba07b21-66a7-5eff-a72c-b0f3634f071d	Stock Up
+soa	89	decdbdbf-2c62-5cff-bfdd-08f611d0ae28	Stock Up
+soa	154	4e4335b7-8677-5c0e-be0f-ec89a0d643c4	Stock Up
+soc	M0001	127ef9c3-0e82-5fe0-861b-407697b23ca4	Dina, Essence Brewer
+soc	4	f002aeee-ebbf-5adb-adf6-ca19fef3a8f2	Killian, Decisive Mentor
+soc	7	6644a443-bf7b-50a6-93e2-829a335aef47	Quintorius, History Chaser
+soc	8	a9703739-d235-530b-bce2-9d25178b1c87	Rootha, Mastering the Moment
+soc	10	866a4851-4362-5298-86dc-1d1016b2210d	Zimone, Infinite Analyst
+soc	427	86335989-7adf-5e98-bd31-a7aa73f26514	Sol Ring
+soc	428	7cca52cb-f12a-5e08-9af4-c48667180122	Talisman of Conviction
+soc	429	6db1adba-99ea-5ec7-9fdb-96da9ddcdf7b	Talisman of Creativity
+soc	430	51019ce0-0da1-5df9-92a1-f9e87866e2e9	Talisman of Curiosity
+soc	431	951612bf-c7ee-5482-b587-3c00339a5f29	Talisman of Hierarchy
+soc	432	f4651a99-3957-50c5-97d1-1638fc7c64b1	Talisman of Resilience
 soi	1	968190ab-528a-52cb-97ed-7732eedab72e	Always Watching
 soi	2	c97476d0-8dee-537b-86fc-0ce120e1a19b	Angel of Deliverance
 soi	3	6389c766-0830-51e3-85aa-6e8f99813fd2	Angelic Purge
@@ -92672,6 +92710,10 @@ som	246	4e454606-8a5a-56dc-95df-b4a03f5d73e1	Forest
 som	247	de7270b3-24ae-5295-9dc5-badca38244e2	Forest
 som	248	51666869-9f49-5e10-931c-eb2f57f939fa	Forest
 som	249	b6344758-6965-5112-945f-6fd73232df3a	Forest
+sos	58	909f4be0-5600-5d2f-b492-ed2921c0c8fe	Mathemagics
+sos	201	76498db7-8de3-5be8-9eaf-4e036b051b1c	Lorehold, the Historian
+sos	284	725d8cc3-d495-5d41-9c28-e6dfb1d8a9de	Lorehold, the Historian
+sos	320	e2f33ef3-b0be-58e9-94e7-351372fd038f	Mathemagics
 spe	1	49500dae-6d1e-53c0-a710-aad504ba3fdd	Amateur Hero
 spe	2	2435c3d5-11a3-51f8-87ed-ebc17111ea72	Amazing Alliance
 spe	3	dd5296d4-06fd-5fa4-8498-649f7cfc0f37	MJ, Rising Star
@@ -99753,7 +99795,7 @@ unf	103	4c9cd78b-257e-56cb-a9cd-8e95ba47c2a6	Circuits Act
 unf	104	d1d1df68-eae4-5701-a2c2-9fdff7e21860	Devil K. Nevil
 unf	105	cc8b4ad6-a9df-5150-92d2-1f883afebeb5	Don't Try This at Home
 unf	106	7958b797-2eb7-5872-9c77-3053f068225a	Eelectrocute
-unf	107	2149c489-5ddc-5aeb-bda6-b53c24e4562c	_____ Goblin
+unf	107	2149c489-5ddc-5aeb-bda6-b53c24e4562c	________ Goblin
 unf	107m	0ff99cfc-cc2d-576c-b175-34de4235c443	"Name Sticker" Goblin
 unf	108	22718764-ec13-50f4-b019-aaf94df0ee0f	Goblin Airbrusher
 unf	109	a5c0136c-1f93-50b4-99d0-0170938ece07	Goblin Blastronauts
@@ -100141,7 +100183,7 @@ unf	389	59991f44-c682-5b25-bd32-933a306e7a8f	Circuits Act
 unf	390	3574c497-dc4d-5fd8-9aab-cfa75b1efb94	Devil K. Nevil
 unf	391	2eaee88a-aaee-5770-9662-dca33d604f59	Don't Try This at Home
 unf	392	cb399ebd-c1df-586b-8ec1-5311a7af526a	Eelectrocute
-unf	393	b349cc63-1757-59eb-a1b8-e0e2cfdf4900	_____ Goblin
+unf	393	b349cc63-1757-59eb-a1b8-e0e2cfdf4900	________ Goblin
 unf	394	d53f434e-eadd-54c2-b43f-b1e02bc780ab	Goblin Airbrusher
 unf	395	0c1ba9f3-a6f6-5d6c-bab5-a1894fdcd70f	Goblin Blastronauts
 unf	396	0ca70b42-e9a1-51ae-905a-e4bb71d96c25	Goblin Cruciverbalist
@@ -100824,8 +100866,8 @@ unk	RZ10	7809b265-fe75-5e7e-97f0-69910a8d75d4	Ano'thr, Equipment Commander
 unk	RZ11a	97bb1d70-44fb-5631-b3f7-97e3b69f65d4	Awoken Nephilim
 unk	RZ11b	d991d9c8-82dd-5023-a244-730626f326ab	The Scholar of Seas
 unk	RZ11c	fed94f33-ccf2-5924-a4ff-aa9a4fbaaada	The Mystery Raceway
-unk	RZ12	78361500-ecf0-599f-abdb-7cc0f19e57ae	Eldest Dragon Highlander
 unk	RZ12b	0de7b5d1-67a1-5dc9-8c4f-cf87243815e4	Zimone's Homework
+unk	RZ12chan	78361500-ecf0-599f-abdb-7cc0f19e57ae	Eldest Dragon Highlander
 unk	RZ15a	52af4987-db2f-5040-9ae5-302292a8c395	Knowing
 unk	RZ15b	a4fcc7be-ec6a-52aa-8abf-42244383e391	Half the Battle
 unk	RZ15x	24230683-96eb-5994-afb7-3b11c602b0cd	First Stage of Magic Design

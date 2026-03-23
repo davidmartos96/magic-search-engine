@@ -79,6 +79,7 @@ describe Deck do
       ["core", "Jumpstart"], # FDN
       ["starter", "Demo Deck"],
       ["expansion", "Enemy Deck"],
+      ["sld", "Dandan Deck"],
       # Non-decks, this needs to be sorted out at some point
       ["box", "Box"],
       ["sld", "Secret Lair Drop"],
@@ -225,6 +226,8 @@ describe Deck do
         sets_found.should match_array ["eoc", "eoe"]
       when "ecc"
         sets_found.should match_array ["ecc", "ecl"]
+      when "tmc"
+        sets_found.should match_array ["tmc", "tmt"]
       else
         if set.types.include?("preview")
           # skip it, as it might not have precons data yet
@@ -348,6 +351,8 @@ describe Deck do
         next if deck.type == "Jumpstart"
         # Box not deck
         next if deck.type == "Welcome Booster"
+        # basics and commons in foil too
+        next if deck.name == "Final Fantasy Bundle Land Pack"
 
         # verified on WotC site, unusual rare foil instead of mythic, in just one deck
         next if deck.name == "Animated Army"
