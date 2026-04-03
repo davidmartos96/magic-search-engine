@@ -183164,30 +183164,32 @@
           "count": 4
         },
         {
-          "name": "Evolving Wilds",
+          "name": "Dismal Backwater",
           "count": 2
         },
         {
-          "name": "Dismal Backwater",
-          "count": 2
+          "name": "Evolving Wilds",
+          "count": 2,
+          "set": "M15",
+          "number": "243"
+        },
+        {
+          "name": "Island",
+          "count": 5,
+          "set": "KTK",
+          "number": "257"
+        },
+        {
+          "name": "Forest",
+          "count": 5,
+          "set": "KTK",
+          "number": "269"
         },
         {
           "name": "Swamp",
           "count": 7,
           "set": "FRF",
-          "number": "*"
-        },
-        {
-          "name": "Island",
-          "count": 5,
-          "set": "FRF",
-          "number": "*"
-        },
-        {
-          "name": "Forest",
-          "count": 5,
-          "set": "FRF",
-          "number": "*"
+          "number": "181"
         }
       ]
     },
@@ -183322,25 +183324,27 @@
         },
         {
           "name": "Evolving Wilds",
-          "count": 2
+          "count": 2,
+          "set": "M15",
+          "number": "243"
         },
         {
           "name": "Island",
           "count": 3,
-          "set": "FRF",
-          "number": "*"
+          "set": "KTK",
+          "number": "257"
         },
         {
           "name": "Forest",
           "count": 8,
-          "set": "FRF",
-          "number": "*"
+          "set": "KTK",
+          "number": "269"
         },
         {
           "name": "Swamp",
           "count": 5,
           "set": "FRF",
-          "number": "*"
+          "number": "181"
         }
       ],
       "Sideboard": [
@@ -183528,14 +183532,14 @@
         {
           "name": "Forest",
           "count": 12,
-          "set": "FRF",
-          "number": "*"
+          "set": "KTK",
+          "number": "269"
         },
         {
           "name": "Swamp",
           "count": 11,
           "set": "FRF",
-          "number": "*"
+          "number": "181"
         }
       ]
     },
@@ -485016,6 +485020,148 @@
     "display": ""
   },
   {
+    "name": "Marvel's Deadpool: I Fixed It (You're Welcome)",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-04-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Deadly Dispute",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-1"
+        },
+        {
+          "name": "Lightning Bolt",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-2"
+        },
+        {
+          "name": "Thrill of Possibility",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-3"
+        },
+        {
+          "name": "Lightning Greaves",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-4"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-5"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250082",
+    "display": ""
+  },
+  {
+    "name": "Marvel's Deadpool: I Fixed It (You're Welcome) Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-04-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Deadly Dispute",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-1",
+          "foil": true
+        },
+        {
+          "name": "Lightning Bolt",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-2",
+          "foil": true
+        },
+        {
+          "name": "Thrill of Possibility",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-3",
+          "foil": true
+        },
+        {
+          "name": "Lightning Greaves",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-4",
+          "foil": true
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-5",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250083",
+    "display": ""
+  },
+  {
+    "name": "Marvel's Deadpool: I Fixed It (You're Welcome) Pool Party Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-04-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Deadly Dispute",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-6",
+          "foil": true
+        },
+        {
+          "name": "Lightning Bolt",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-7",
+          "foil": true
+        },
+        {
+          "name": "Thrill of Possibility",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-8",
+          "foil": true
+        },
+        {
+          "name": "Lightning Greaves",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-9",
+          "foil": true
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "IFIYW-10",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250084",
+    "display": ""
+  },
+  {
     "name": "Marvel's Iron Man",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -495569,13 +495715,6 @@
     "cards": {
       "Main Deck": [
         {
-          "name": "Cordyceps Infected",
-          "count": 1,
-          "set": "SLD",
-          "number": "2201",
-          "token": true
-        },
-        {
           "name": "Abby, Merciless Soldier",
           "count": 1,
           "set": "SLD",
@@ -495598,6 +495737,13 @@
           "count": 1,
           "set": "SLD",
           "number": "2205"
+        },
+        {
+          "name": "Cordyceps Infected",
+          "count": 1,
+          "set": "SLD",
+          "number": "2206",
+          "token": true
         }
       ]
     },
@@ -495613,14 +495759,6 @@
     "release_date": "2025-11-06",
     "cards": {
       "Main Deck": [
-        {
-          "name": "Cordyceps Infected",
-          "count": 1,
-          "set": "SLD",
-          "number": "2201",
-          "foil": true,
-          "token": true
-        },
         {
           "name": "Abby, Merciless Soldier",
           "count": 1,
@@ -495648,6 +495786,14 @@
           "set": "SLD",
           "number": "2205",
           "foil": true
+        },
+        {
+          "name": "Cordyceps Infected",
+          "count": 1,
+          "set": "SLD",
+          "number": "2206",
+          "foil": true,
+          "token": true
         }
       ]
     },
@@ -523578,7 +523724,9 @@
         },
         {
           "name": "Breaching Dragonstorm",
-          "count": 1
+          "count": 1,
+          "set": "TDM",
+          "number": "101"
         },
         {
           "name": "Temple of the Dragon Queen",
@@ -523602,7 +523750,9 @@
         },
         {
           "name": "Encroaching Dragonstorm",
-          "count": 1
+          "count": 1,
+          "set": "TDM",
+          "number": "142"
         },
         {
           "name": "Draconic Lore",

@@ -28,7 +28,7 @@ class Indexer
     @uuids_path = INDEX_ROOT + "uuids.txt"
     @token_uuids_path = INDEX_ROOT + "token_uuids.txt"
     @scryfall_ids_path = INDEX_ROOT + "scryfall_ids.txt"
-    @products_path = INDEX_ROOT + "products.txt"
+    @products_path = INDEX_ROOT + "products.json"
     @decks_path = INDEX_ROOT + "deck_index.json"
     @verbose = verbose
     @data = CardSetsData.new
@@ -139,6 +139,9 @@ class Indexer
 
       # Deck Indexer
       PatchDecks,
+
+      # Products Indexer
+      PatchProducts,
     ]
   end
 
@@ -147,13 +150,13 @@ class Indexer
       if @verbose
         # This is very slow, and some patches are just here to verify things
         # It could still be useful for debugging
-        before = Marshal.load(Marshal.dump([@cards, @sets, @decks]))
-        patch_class.new(@cards, @sets, @decks).call
-        if before == [@cards, @sets, @decks]
+        before = Marshal.load(Marshal.dump([@cards, @sets, @decks, @products]))
+        patch_class.new(@cards, @sets, @decks, @products).call
+        if before == [@cards, @sets, @decks, @products]
           warn "Patch #{patch_class} seems to be doing nothing"
         end
       else
-        patch_class.new(@cards, @sets, @decks).call
+        patch_class.new(@cards, @sets, @decks, @products).call
       end
     end
   end
