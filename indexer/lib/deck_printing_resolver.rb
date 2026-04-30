@@ -235,9 +235,9 @@ class DeckPrintingResolver
 
     # Otherwise just get one with lowest number, but print a warning
     # Use same format as magic-preconstructed-decks for easy copypasta
-    candidates = printings.map{|c| "[#{c["set_code"].upcase}:#{c["number"]}]" }
-    candidates.each do |candidate|
-      puts "bin/resolve_card #{deck_set_code.inspect} #{deck_name.inspect} #{card_name.inspect} #{candidate.inspect}"
+    printings.each do |printing|
+      candidate = "[#{printing["set_code"].upcase}:#{printing["number"]}]"
+      puts "bin/resolve_card #{deck_set_code.inspect} #{deck_name.inspect} #{card_name.inspect} #{candidate.inspect} # #{printing["promo_types"]&.join(' ')}"
     end
     if BasicLands.include?(card_name)
       round_robin = "[#{printings[0]["set_code"].upcase}:*]"

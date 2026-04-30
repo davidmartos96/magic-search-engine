@@ -34,7 +34,7 @@ class PatchMtgjsonVersions < Patch
 
     if fcmc
       case card["layout"]
-      when "split", "aftermath", "adventure"
+      when "split", "aftermath", "adventure", "prepare"
         cmc = fcmc
       when "transform"
         # ignore because
@@ -176,6 +176,7 @@ class PatchMtgjsonVersions < Patch
             card.delete "keywords"
             # it has typo in remainder text in mtgjson
             card["text"] = "Draw three cards, then discard a card. (Then shuffle this card into its owner's library.)"
+            card["keywords"] = ["flying"]
           when "Scavenger Regent"
             card["layout"] = "adventure"
             card["names"] = ["Scavenger Regent", "Exude Toxin"]
@@ -188,6 +189,7 @@ class PatchMtgjsonVersions < Patch
             card.delete "toughness"
             card.delete "keywords"
             card["text"] = "Each non-Dragon creature gets -X/-X until end of turn. (Then shuffle this card into its owner's library.)"
+            card["keywords"] = ["flying", "ward"]
           when "Bloomvine Regent"
             card["layout"] = "adventure"
             card["names"] = ["Bloomvine Regent", "Claim Territory"]
@@ -200,6 +202,7 @@ class PatchMtgjsonVersions < Patch
             card.delete "toughness"
             card.delete "keywords"
             card["text"] = "Search your library for up to two basic Forest cards, reveal them, put one onto the battlefield tapped and the other into your hand, then shuffle. (Also shuffle this card.)"
+            card["keywords"] = ["flying"]
           else
             warn "Can't handle reversible card #{card["name"]} #{card["names"]} #{card["set"]["official_code"]} #{card["number"]}"
             card["layout"] = "normal"
@@ -442,6 +445,37 @@ class PatchMtgjsonVersions < Patch
 
       if card["name"] == "Human—Time Lord Meta-Crisis"
         card["name"] = "Human-Time Lord Meta-Crisis"
+      end
+
+      # Rename prepared spells to keep them unique
+      # only those that also exist as standalone cards need special handling
+      prepared_spells = [
+        "Ancestral Recall",
+        "Braingeyser",
+        "Brainstorm",
+        "Careful Study",
+        "Channel",
+        "Demonic Tutor",
+        "Exsanguinate",
+        "Jump",
+        "Lightning Bolt",
+        "Raise Dead",
+        "Rampant Growth",
+        "Reanimate",
+        "Regrowth",
+        "Replenish",
+        "Secret Rendezvous",
+        "Seething Song",
+        "Sign in Blood",
+        "Stream of Life",
+        "Swords to Plowshares",
+        "Wheel of Fortune",
+      ]
+      if card["layout"] == "prepare"
+        if prepared_spells.include?(card["name"])
+          card["name"] = "#{card["name"]} (Prepared)"
+        end
+        card["names"] = card["names"].map{|n| prepared_spells.include?(n) ? "#{n} (Prepared)" : n }
       end
     end
 

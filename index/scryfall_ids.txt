@@ -33236,6 +33236,47 @@ fdn	727	ea9a4d1a-79dd-4b15-8e3b-f111f16d6bfc	Maze's End
 fdn	728	534d28b7-1e56-428d-84a7-0eb6a2b5efda	Phyrexian Arena
 fdn	729	b89aae48-a783-468d-aa14-552307ec2021	Solemn Simulacrum
 fdn	730	632df69e-6377-43d0-bba5-65518a320aa5	Hinterland Sanctifier
+fdn	731	2fd0400a-ef3e-4b03-9852-63e28304da53	Crusader of Odric
+fdn	732	a0bdf4d1-576f-41b6-a077-8725be608331	Dazzling Angel
+fdn	733	b7393efb-da40-4b55-a6ff-ce774f0815f9	Exemplar of Light
+fdn	734	069cfaa5-bba4-4503-b54e-b98fa9f0a0fc	Healer's Hawk
+fdn	735	2e1705da-dc35-4bcb-82d4-b77712e79af3	Herald of Faith
+fdn	736	79016cf3-6eea-4b21-9ff3-f187d606e19a	Inspiring Overseer
+fdn	737	e0bb07cd-9b74-4ba7-8089-27a565d74197	Linden, the Steadfast Queen
+fdn	738	f9fa30b6-3a33-46fd-8b32-ac1cfa41500d	Lyra Dawnbringer
+fdn	739	8d05289c-d8de-4085-ac01-5dd8fd954d35	Prayer of Binding
+fdn	740	b8c5e74c-96e7-4a1f-93b7-14d776fe4b2d	Serra Angel
+fdn	741	9d31e3e3-f398-4c0e-a2c9-4c614a4d41de	Arcanis the Omnipotent
+fdn	742	c2bfdfb6-aa0b-4bd7-89ba-6435da730e5e	Icewind Elemental
+fdn	743	aa127602-10b2-4144-985b-38e075f1e1f7	Kitesail Corsair
+fdn	744	d52d16be-c74b-4e40-94f9-2ffa497b6337	Mocking Sprite
+fdn	745	46674bd4-5160-44b2-bd2a-2da85c1e2697	Rune-Sealed Wall
+fdn	746	5ef30b6c-0806-4bf6-9a84-c2aea8d84cf1	Spectral Sailor
+fdn	747	6071239e-0b85-4c54-bef8-d9456eb8d8fc	Sphinx of the Final Word
+fdn	748	3b0c77ab-15cd-49d8-ac5b-7b8b968d14cd	Strix Lookout
+fdn	749	3de55b97-059c-4d7b-afd0-44fd8380df4c	Tempest Djinn
+fdn	750	2815d8e6-3668-4b9d-abe6-eca6a500707d	Unsummon
+fdn	751	37931135-100d-4a23-a6e3-baf90fb259ee	Bloodtithe Collector
+fdn	752	58c45158-7858-409e-ab37-8a9a66ad8714	Gatekeeper of Malakir
+fdn	753	a3a055ed-60b0-4d35-ad58-04f324b56d65	Kalastria Highborn
+fdn	754	670a36cc-34e1-4d11-808e-1b6bc88eb5d8	Massacre Wurm
+fdn	755	7bc1441e-7d75-4a74-8733-19077dfa69b2	Pulse Tracker
+fdn	756	ac01d4eb-10ec-4bda-aa9b-04c74dabfcaf	Vampire Interloper
+fdn	757	7aff07f9-9528-4149-9af0-f4e3c66c9dc5	Vampire Nighthawk
+fdn	758	4734e3fe-7cd7-4045-983f-f89eae9396fa	Vampire Soulcaller
+fdn	759	6db2741d-2722-4eb7-b09d-0d81649c7ca2	Carnelian Orb of Dragonkind
+fdn	760	9e9b40f5-3dd0-4607-a78d-b004d57fa4ea	Drakuseth, Maw of Flames
+fdn	761	ddcc3c1b-b564-4444-9a1a-0f62f8e6b8bb	Firespitter Whelp
+fdn	762	7023129c-09f5-49cf-ae32-b9bd30e0ff63	Kargan Dragonrider
+fdn	763	702c4781-670b-49ae-b511-90ed119841b0	Shivan Dragon
+fdn	764	4047b1c3-06eb-400d-993d-69b5210977ee	Terror of Mount Velus
+fdn	765	304c635c-de4d-46ee-8ab0-e5c4d55b61b3	Pelakka Wurm
+fdn	766	69b3f7b9-9499-4883-b5c5-c5474e470b21	Primal Might
+fdn	767	17d67b88-3f76-401f-b04a-f2bcaab4aa97	Springbloom Druid
+fdn	768	deb328c7-fdda-4d63-9fe4-0482c1de6098	Surrak, the Hunt Caller
+fdn	769	14ab742a-89dc-4c01-99e3-21fc609128f2	Vizier of the Menagerie
+fdn	770	3c39b0ce-db4c-472c-b68e-07e6ba3a4588	Diamond Mare
+fdn	771	9d126c8f-a3df-497c-aad5-a448c55f51cc	Cryptic Caves
 fem	1a	9cfd96cb-03d6-4845-8595-50bf17b35726	Combat Medic
 fem	1b	2a324a98-31c2-470a-b792-96b6b098a58c	Combat Medic
 fem	1c	ee9d1eac-3ac2-4881-a984-e40d87f60784	Combat Medic
@@ -43073,7 +43114,6 @@ khm	A-385	62872f7d-26ab-40b7-96db-955e576ec110	Elderfang Ritualist (Alchemy)
 khm	A-387	5b7a57af-b44d-476d-8f11-43c54eff52b2	Thornmantle Striker (Alchemy)
 khm	A-40a	b443504e-1b25-4565-bad7-2575826c7bb9	Alrund, God of the Cosmos (Alchemy)
 khm	A-40b	b443504e-1b25-4565-bad7-2575826c7bb9	Hakka, Whispering Raven (Alchemy)
-khm	A-41	df2f81dc-2346-4bd9-aa3b-aaa2d3873415	Alrund's Epiphany (Alchemy)
 khm	A-51	4dfd73e2-1fad-46f6-90c5-ea35a380dbef	Cosmos Charger (Alchemy)
 khm	1	4de5ff64-6fe7-4fc5-be27-cdbaa14545ab	Axgard Braggart
 khm	2	fb79dc85-f85a-4846-9ac3-c75c64ea9c0a	Battershield Warrior
@@ -53118,7 +53158,6 @@ mh1	253	d2209e6f-1d9d-43bb-a314-a8fefc509e78	Snow-Covered Mountain
 mh1	254	1c59fc48-704b-4187-b9d3-2a2cff6dd54b	Snow-Covered Forest
 mh1	255	46a00405-13ad-4531-9bfb-fea0ca57f196	Flusterstorm
 mh2	A-121	ae8024ce-12c9-4139-934d-fb230103daa1	Dragon's Rage Channeler (Alchemy)
-mh2	A-145	89d5d2b5-3769-4341-b84e-03771dbb7491	Unholy Heat (Alchemy)
 mh2	1	db113c47-c403-4c7f-9fa9-212c977df8d1	Abiding Grace
 mh2	2	fe4a2cb0-4129-451e-a946-a21ea646cc28	Arcbound Javelineer
 mh2	3	9d66e724-49ee-4f08-a160-584350de1d95	Arcbound Mouser
@@ -67041,6 +67080,9 @@ pf25	18	47fa71ec-18bd-4098-983b-f9ea59a9855a	Sokka, Bold Boomeranger
 pf26	1f	728dd4a4-e449-4c62-b8f2-d45f80421e72	Wayfarer's Bauble
 pf26	2	586986d4-0782-4c73-a928-90d7e5519d05	Fyndhorn Elves
 pf26	3	8d047ce8-1efd-462a-88c3-db761fef7e16	Prismatic Ending
+pf26	4	1dc86829-9885-462e-b9dc-709be7fdf128	Consecrated Sphinx
+pf26	5	9cb2478c-1672-44eb-a9a1-a103fcdf3701	Counterspell
+pf26	6	4c7d432c-fead-4ee1-8fdf-516e882c986f	In Residence
 pfdn	1	120e2b4b-afc7-4bf0-a09f-568e08f6bd8f	Sol Ring
 pfdn	1p	aed8a937-577f-4841-9eb3-44ac3aad0654	Sire of Seven Deaths
 pfdn	1s	1ca5b4ab-a596-4d1e-8081-fe8c4ce31e0d	Sire of Seven Deaths
@@ -75821,11 +75863,13 @@ pmei	2025-3	919ff87a-ac98-4bfb-a745-8ffec7c299dd	Wrath of God
 pmei	2025-4	6f142d95-6978-4970-a853-432f9a29dfcf	Voltaic Key
 pmei	2025-7	6337d185-17cf-4c17-9bad-0265831001de	Duress
 pmei	2025-8	f9183acb-edb7-4a59-9890-ae0455d8e024	Dark Ritual
-pmei	2026-01	946d0f6d-9ecd-4b26-88c7-12528021d20f	Command Tower
-pmei	2026-02	29dd649c-86b5-40a1-94b0-5859d03be9cd	Crop Rotation
-pmei	2026-03	1a27b552-a6ad-47d4-b96e-05a8c782b4ae	Zack Fair
+pmei	2026-1	946d0f6d-9ecd-4b26-88c7-12528021d20f	Command Tower
+pmei	2026-2	29dd649c-86b5-40a1-94b0-5859d03be9cd	Crop Rotation
+pmei	2026-3	1a27b552-a6ad-47d4-b96e-05a8c782b4ae	Zack Fair
 pmei	2026-4	d7a7b791-47c4-4274-80d6-8d8815cf8e37	Swords to Plowshares
 pmei	2026-5	6ec9fce0-aa23-4c77-a2fb-c74b31d36f92	Gishath, Sun's Avatar
+pmei	2026-6	80afdcf9-728e-4514-baa7-a373360094af	Warstorm Surge
+pmei	2026-7	1f97c640-c580-420d-8454-7ea2a257d343	Counterspell
 pmh1	1p	5a089eb9-2034-423a-862c-d96e2d280972	Morophon, the Boundless
 pmh1	3	f3acc9b9-b89c-4a45-b49e-c414cfa9db48	Astral Drift
 pmh2	12s	e61ae0e2-8170-453e-93dd-f8ee82290677	Esper Sentinel
@@ -82380,6 +82424,100 @@ psom	A8	f08829de-c93e-4f2f-b008-28c7cd7bb29e	Sunblast Angel
 psom	69★	c9d74bae-0b96-4a78-b805-a0b764d0716c	Memoricide
 psom	205★	b268cd3b-af91-4c22-ac73-347babb69200	Steel Hellkite
 psom	223★	b9bdfa34-f608-40d4-b634-b260ad620f18	Wurmcoil Engine
+psos	1p	8613f27f-fc9e-4efc-93f9-3dc644e6b692	The Dawning Archaic
+psos	4p	ab9d650b-0d83-45ac-9699-48fedf8b9b4a	Together as One
+psos	7p	785d75b7-2054-47d0-8135-96ba6b4e9b78	Antiquities on the Loose
+psos	13pa	589a4f39-fdd7-43f1-9521-608ec27bd926	Emeritus of Truce
+psos	13pb	589a4f39-fdd7-43f1-9521-608ec27bd926	Swords to Plowshares (Prepared)
+psos	15p	a77c3277-a985-46b4-8036-2780a4ce16f6	Erode
+psos	20p	12933c12-d23c-4ba9-ab62-dc8cf82dc736	Informed Inkwright
+psos	23pa	24d7bf56-d547-4ca3-a1e1-900252a9fef9	Joined Researchers
+psos	23pb	24d7bf56-d547-4ca3-a1e1-900252a9fef9	Secret Rendezvous (Prepared)
+psos	25p	db5125b3-f085-4762-ae1c-f50f4cf08111	Practiced Offense
+psos	30p	048a44ee-8568-4b6a-867b-15a882b3aa34	Restoration Seminar
+psos	35p	b203ad5d-d8b7-49e6-81ca-fbbbe3fa8722	Stirring Hopesinger
+psos	44p	c0a9f624-88b6-446e-9eef-e7f2a1177596	Echocasting Symposium
+psos	45pa	84a8965c-0217-426b-8795-48c67eab4ab1	Emeritus of Ideation
+psos	45pb	84a8965c-0217-426b-8795-48c67eab4ab1	Ancestral Recall (Prepared)
+psos	48p	b5894400-a7e3-4ab8-b34c-efbf795b1a44	Exhibition Tidecaller
+psos	52pa	7bf58206-b7b6-45e7-b99a-9de1c58c5c96	Harmonized Trio
+psos	52pb	7bf58206-b7b6-45e7-b99a-9de1c58c5c96	Brainstorm (Prepared)
+psos	55pa	63008d1f-aaa6-4183-9952-5e86f5246408	Jadzi, Steward of Fate
+psos	55pb	63008d1f-aaa6-4183-9952-5e86f5246408	Oracle's Gift
+psos	57p	14099438-a75f-49b9-9f7c-40025191d1f4	Mana Sculpt
+psos	58p	fb82fa95-e2a7-412b-8dbe-051223160233	Mathemagics
+psos	63p	fac9f7fa-d265-48a1-ad00-ddcfe0ad4f31	Pensive Professor
+psos	67pa	0788c44e-82c7-44e6-8964-6b5008c5c357	Skycoach Conductor
+psos	67pb	0788c44e-82c7-44e6-8964-6b5008c5c357	All Aboard
+psos	71p	fcf3d810-a0a6-4ae2-95cd-dc0bdcd3b934	Wisdom of Ages
+psos	78p	900a94ab-5193-4884-8dcc-2735c6a44bbd	Decorum Dissertation
+psos	80pa	bc27b7a7-e9ad-4305-a6e1-863f028030eb	Emeritus of Woe
+psos	80pb	bc27b7a7-e9ad-4305-a6e1-863f028030eb	Demonic Tutor (Prepared)
+psos	85pa	f423c4ef-a8b5-4bec-9f8d-e54d5bb72c2e	Grave Researcher
+psos	85pb	f423c4ef-a8b5-4bec-9f8d-e54d5bb72c2e	Reanimate (Prepared)
+psos	91p	bc5955a7-6263-4465-a278-74f931e71645	Moseo, Vein's New Dean
+psos	93p	0bd8796f-1c77-4792-8b7c-e77acbded2cf	Postmortem Professor
+psos	94p	a55eb26f-11c0-47fb-827f-96d73e7b7925	Pox Plague
+psos	97p	4c941595-00f1-4455-8a70-b973846c789e	Ral Zarek, Guest Lecturer
+psos	99pa	b7056690-d83c-4bee-bd36-d2c6649259da	Scheming Silvertongue
+psos	99pb	b7056690-d83c-4bee-bd36-d2c6649259da	Sign in Blood (Prepared)
+psos	102p	1b4b145b-1034-4cc5-95ac-85469e926332	Tragedy Feaster
+psos	105p	a34d134e-dbee-4e47-8104-de15315fea1e	Withering Curse
+psos	111p	6459a6df-8622-40e8-ab69-3782b763d163	Choreographed Sparks
+psos	113pa	699c0207-901e-4fe9-b22d-1f6cb994a1f2	Emeritus of Conflict
+psos	113pb	699c0207-901e-4fe9-b22d-1f6cb994a1f2	Lightning Bolt (Prepared)
+psos	115p	facd7d37-4903-47de-855f-a4e0bae340e7	Flashback
+psos	120p	ba1c767c-0556-4026-826b-2933bef713a6	Improvisation Capstone
+psos	122pa	04f58460-79bd-4632-b921-9c8927976aca	Maelstrom Artisan
+psos	122pb	04f58460-79bd-4632-b921-9c8927976aca	Rocket Volley
+psos	123p	6259c7ff-4725-44d1-a003-6be583300b25	Magmablood Archaic
+psos	125p	032e452b-859d-40ec-8b54-fb3e7b535415	Molten-Core Maestro
+psos	130p	1f7b6a8d-98cc-44a7-8699-1e184a4051e9	Steal the Show
+psos	140p	8e3c7a04-f6df-4e2b-88e5-6d6a87ec294a	Ambitious Augmenter
+psos	143p	bd98db89-72be-43fd-bfbc-c67e98f54a62	Comforting Counsel
+psos	145pa	7bd4e61f-07d5-4123-b485-1caf7dae4643	Emeritus of Abundance
+psos	145pb	7bd4e61f-07d5-4123-b485-1caf7dae4643	Regrowth (Prepared)
+psos	149p	9a1d12c2-6eff-482d-abc2-859009e33da4	Germination Practicum
+psos	158p	aa718734-4e2f-4b88-abf9-46a061c6a4bd	Planar Engineering
+psos	160p	f8a90fa3-6ce4-4ee6-a739-a0b401d3ea70	Slumbering Trudge
+psos	166pa	a96e337e-a914-4a86-89e4-a231b2868571	Vastlands Scavenger
+psos	166pb	a96e337e-a914-4a86-89e4-a231b2868571	Bind to Life
+psos	168p	d1cf5878-afb5-4eaf-9fd0-3f9062183968	Wildgrowth Archaic
+psos	172p	e147bf7a-ffbe-4ea8-9c3d-0ca02a4cdea5	Applied Geometry
+psos	173p	3ce8e39b-64e3-42df-bac2-231abbe6ad75	Ark of Hunger
+psos	174p	b78578d3-0e15-4c34-8b03-07190c802ac2	Aziza, Mage Tower Captain
+psos	175p	cbe62dde-0616-4d20-a7fd-bc1b070d580b	Berta, Wise Extrapolator
+psos	176p	eba4bbeb-6d3b-48b2-b6c5-6f776877726b	Blech, Loafing Pest
+psos	179p	0d3c7f91-4a24-4c22-a0d6-04865b3ef627	Cauldron of Essence
+psos	180p	90241041-2f61-4850-8829-ec419b27993a	Colorstorm Stallion
+psos	182p	db2657ad-1ecd-442f-8a9d-4021cfb877e1	Conciliator's Duelist
+psos	184p	c2840bef-f0e0-47ef-9b69-9ef0ba0e8455	Dina's Guidance
+psos	188p	fc1c3151-28d2-401a-8e43-a6ad7eebe719	Fix What's Broken
+psos	191p	abda602d-5a45-4f16-ab24-79db6b3facbd	Geometer's Arthropod
+psos	194p	435ef3d4-ff49-4218-9735-7241b5e843d9	Hardened Academic
+psos	201p	8daf116f-0c2f-49f4-8c34-224b7d4171fc	Lorehold, the Historian
+psos	202p	3c0f2ade-0ae7-481b-86e7-d62cd11bcff5	Mind into Matter
+psos	205p	7e02637b-a3a3-44cf-9cd4-f6ad045479a7	Moment of Reckoning
+psos	206p	ed35d22c-fe80-4adc-b317-bf20c5ac48fd	Nita, Forum Conciliator
+psos	212p	b4ee3b5e-28fa-41e2-9d3e-f3485cc384bb	Prismari, the Inspiration
+psos	214p	63770dc3-c3a3-4820-a919-bc58a67d288c	Professor Dellian Fel
+psos	218p	586eed0f-a373-465a-b6b8-e78f369e7903	Quandrix, the Proof
+psos	221p	b64f41bc-0161-4c75-a8fa-7168d3259fed	Resonating Lute
+psos	226p	ca70c59a-e91d-4ffc-9249-06c945cb8b33	Silverquill, the Disputant
+psos	231p	b3602d84-8b30-4ff2-a447-f8616bdb1f91	Splatter Technique
+psos	236p	3215517a-4fe7-4da9-b549-04dffa769f40	Suspend Aggression
+psos	239p	e4b0dbef-154a-40f0-9645-bdc195de9261	Traumatic Critique
+psos	241p	60bc47ff-db7c-405e-92bc-ef14f7e9739c	Vicious Rivalry
+psos	245p	9c26f591-0cd3-4212-9f9b-8b0d21c5ae7c	Witherbloom, the Balancer
+psos	246p	080fa2f7-7acb-44f4-8fb7-161b770b7244	Zaffai and the Tempests
+psos	253p	c81381d5-64fc-42b7-beba-b0e2484b89a6	Deathcap Glade
+psos	254p	7e300540-85d5-4391-8139-2f260415e4e5	Dreamroot Cascade
+psos	257p	375b837d-3bd2-45ca-940f-a05ef84b52ee	Great Hall of the Biblioplex
+psos	259p	cb91afab-0540-42c5-bb27-2a401d7aabca	Petrified Hamlet
+psos	260p	5b340277-c5d2-4312-bcda-8ed1a28737ea	Shattered Sanctum
+psos	263p	26e53f39-f119-461e-8214-9ceea0bf5483	Stormcarved Coast
+psos	264p	5d3d4504-28c8-42b4-b161-bbc2fdac0d09	Sundown Pass
+psos	368p	c765c1a3-5bc3-46ff-9818-842815c52984	Wisdom of Ages
 pspl	1	4311bea6-a65c-4c1b-9596-797cc3410eb7	Terror of the Peaks
 pspl	2	4aaac603-6c4f-46fb-85f4-d6b51c966524	Kaldra Compleat
 pspl	3	b103e9f5-fdfd-4533-a63b-1c212dc76ba7	Sword of Forge and Frontier
@@ -88874,15 +89012,15 @@ slc	2021	63fb443a-4023-4353-8060-c0db6b2c596b	Elite Spellbinder
 slc	2022	aedf907b-7d8e-4c6d-b3da-2aae1b327ee1	Nashi, Moon Sage's Scion
 slc	2023	177685fa-77d8-4828-b438-e0e62f9147b9	Lotus Field
 sld	IFIYW-1	84c0dfa2-680e-47c5-987d-a02561d7e790	Deadly Dispute
-sld	IFIYW-1★	939e8322-e4be-48c4-9afc-90f8cc2ef802	Deadly Dispute
+sld	IFIYW-10	d75bfbe3-41a0-44e1-86ce-f56c9bcf57d7	Sol Ring
 sld	IFIYW-2	dc12105d-7536-429b-9510-4f56bfc0c497	Lightning Bolt
-sld	IFIYW-2★	bde26955-6de3-4212-9e1a-5e11f73ebf44	Lightning Bolt
 sld	IFIYW-3	3da4d946-fd93-4211-96b2-c9bd0d2b572d	Thrill of Possibility
-sld	IFIYW-3★	6905e150-4eb8-497c-98b0-439e6253871a	Thrill of Possibility
 sld	IFIYW-4	e5f3bd60-cdeb-48bc-9209-c01686938bfb	Lightning Greaves
-sld	IFIYW-4★	4eac3ed8-5f23-4244-941c-ac42e3fbe191	Lightning Greaves
 sld	IFIYW-5	3dd5ea51-68f7-4c12-a96b-8caca0d54640	Sol Ring
-sld	IFIYW-5★	d75bfbe3-41a0-44e1-86ce-f56c9bcf57d7	Sol Ring
+sld	IFIYW-6	939e8322-e4be-48c4-9afc-90f8cc2ef802	Deadly Dispute
+sld	IFIYW-7	bde26955-6de3-4212-9e1a-5e11f73ebf44	Lightning Bolt
+sld	IFIYW-8	6905e150-4eb8-497c-98b0-439e6253871a	Thrill of Possibility
+sld	IFIYW-9	4eac3ed8-5f23-4244-941c-ac42e3fbe191	Lightning Greaves
 sld	sctlr	7c3271da-cc20-48c2-ac61-b64a8e47f9e5	Counterspell
 sld	vs	dba1cf83-e13d-401e-b76f-b12a51b307f9	Viscera Seer
 sld	1	3066cc8b-7a5a-4822-a202-dd560a4fda85	Snow-Covered Plains
@@ -91158,6 +91296,10 @@ sld	2337	f8279ef6-59db-4834-824e-230f5528a509	Maddening Cacophony
 sld	2338	9a55b4e9-bbe7-4f12-909e-77082f54c1bb	Serum Visions
 sld	2339	13dac494-fa83-4d28-9870-955b531e18fb	Umbris, Fear Manifest
 sld	2340	6bbb6526-2fea-4f5d-921a-01ce870728de	Spellskite
+sld	2350	faead665-3070-4e29-9bc5-0d87708e600f	Lier, Disciple of the Drowned
+sld	2351	97d42d32-c9c8-4def-a48b-0590ea572e33	Bloodghast
+sld	2352	9a6f8a6e-cc77-41d8-b753-bb3c5a5c4f48	Storm-Kiln Artist
+sld	2353	06dcfe74-1cdd-432f-b449-4dbba6671c5f	Anhelo, the Painter
 sld	2354	63ca41b6-a4ed-4cb6-84b8-64d3f6505140	Loxodon Gatekeeper
 sld	2355	1175b8f8-859f-4930-9725-2d2afea3703d	Sakashima's Student
 sld	2356	62a351c1-4541-4b67-a441-8c0db213652e	Throat Slitter
@@ -91187,6 +91329,16 @@ sld	2378	5f8c16d5-c2ed-4e5c-8f50-d39013845f55	Felidar Retreat
 sld	2379	ac736037-113f-4e4b-8b97-7b2300b0d276	Master of Ceremonies
 sld	2380	eaf56de3-a2c5-476a-9fac-f149e8c3aa3d	Second Harvest
 sld	2381	f55ea597-fedb-443d-a242-3f161812ec11	Sunforger
+sld	2387	ddde574a-e442-42cc-a1ce-82243395de4c	Duty Beyond Death
+sld	2388	7f1c50e3-641a-4100-b6ab-9ed037d6a7ed	Spell Pierce
+sld	2389	05b50907-41e2-4613-b030-7c6556874bd2	Zombify
+sld	2390	31af49a8-e655-4670-b035-58171a6a57b9	Abrade
+sld	2391	63a74a85-b57e-46a8-a485-69f07000dfe7	Shared Roots
+sld	2396	c0397e48-7ee3-4d47-9248-f65b6cab5737	Expropriate
+sld	2397	fe5b4aaf-1d0b-43a6-b20f-45235cb53db0	Narset, Parter of Veils
+sld	2398	68fe47d3-8f35-497e-aa3e-92e92f13772e	Worst Fears
+sld	2399	aca0a5b7-fbb3-48fb-bc0a-b03b10329178	Scrawling Crawler
+sld	2400	838f66d8-4f2d-4418-958c-e79aee0ce8aa	Winter Orb
 sld	2447	2a5150ee-d177-48f5-9c93-edfaa95922ab	Lucy MacLean, Positively Armed
 sld	2448	e7ed7d2c-c49b-4786-86eb-125863e874a2	The Ghoul, Gunslinger
 sld	2449	b2caf8e8-f98f-484f-b233-54ccf71ff9b9	Maximus, Knight Apparent
@@ -91208,6 +91360,16 @@ sld	2464	e12857ca-54af-453a-a2ad-b5622e7c9b0c	Arcane Signet
 sld	2465	caba0b46-4ffd-476a-839a-625aa988f67b	Lightning Greaves
 sld	2466	8c4e1fdc-9e6c-4377-8e5b-cb4c036267ce	Patchwork Banner
 sld	2467	8f69a74a-778c-4a1d-99ad-6ca04771fb23	Sol Ring
+sld	2468	9f5a5d37-fbf7-4c3d-b0f2-f6bc139ef2cd	Abrupt Decay
+sld	2469	8e6a1cd0-4036-46d3-9708-42cbea2d3e55	Batwing Brume
+sld	2470	d5226568-9605-41bf-a025-45d2562039aa	Chance for Glory
+sld	2471	0be7f58f-c698-4a36-b7e0-33126c42be85	Counterflux
+sld	2472	71ef2271-d9fc-4444-bc47-eb4ecfd1d860	Growth Spiral
+sld	2478	71ab133d-0ce4-4f47-aafc-43955d8589e7	Rule of Law
+sld	2479	d4d7ec8d-6161-4b8d-b068-8a48b9dc1e4b	Thought Scour
+sld	2480	5bf2db8e-5364-40af-be4f-a62378a52cd5	Time Stretch
+sld	2481	26730013-b8cd-4857-b602-c76546d88bdd	Stinging Study
+sld	2482	e419afcd-c123-4ec6-b669-8240d9daea88	Notion Thief
 sld	2483	953428a0-ad0e-4061-a43c-715c26b79e9a	Shadowheart, Dark Justiciar
 sld	2484	c3a62fec-80eb-4945-80e9-37610e636bfa	Beseech the Queen
 sld	2485	c60f7be2-1c0e-4529-9bf9-c97760e05950	Black Market
@@ -91249,6 +91411,27 @@ sld	2520	87bb746a-7959-4567-87a0-09e69fc78a4c	Fetid Pools
 sld	2521	84f04ba2-efae-464c-96c1-8b929288fba6	Canyon Slough
 sld	2522	8d2f3838-26b8-41ad-af75-75c269f79a2c	Sheltered Thicket
 sld	2523	0d9b8502-0bcf-4310-95a3-a9f3320b6439	Scattered Groves
+sld	2524	e20eece9-ab5f-442a-8fd5-93b0a95cc340	Talisman of Indulgence
+sld	2525	06ab6f59-7dcb-409f-b036-cfd87d44cd83	Dark Petition
+sld	2526	96b0ee57-eb59-44dd-b7dc-bfef37ddb1a6	Lightning Greaves
+sld	2527	78d8633e-cddc-4d0a-8090-705202f87ebc	Beseech the Mirror
+sld	2528	21775491-53e7-4654-8d23-54d0acd89299	Light Up the Stage
+sld	2534	8f895e9c-9def-4516-89a8-fe580e20ed0d	Generous Gift
+sld	2535	8039b4f8-3a0e-403c-af52-76d677af7353	Reconnaissance Mission
+sld	2536	fd7a668b-d086-4212-8e64-5c42c1c32159	Radiate
+sld	2537	7500dc43-932c-457e-9d9d-1efb9dca372e	Defense of the Heart
+sld	2538	dc04f5a7-94cf-417d-a09b-972a1ca97ec8	Arcane Signet
+sld	2539	8ae6d023-2945-47f1-bc9f-f9c5ff9f5282	Sol Ring
+sld	2540	6089330b-dc26-4c35-ba58-522d5bfb963a	Plains
+sld	2541	212e84a3-e028-42a6-a639-f42b64ab7015	Island
+sld	2542	e9ca6518-aa90-4614-86aa-b972f60cce49	Swamp
+sld	2543	2a7b2779-92dd-455d-920f-684276608244	Mountain
+sld	2544	bc9f3d1b-bb3a-4a78-9031-ed439212a48b	Forest
+sld	2648	187f9ede-0f30-4f37-bf4a-dc78cbf81c9e	Secret Rendezvous
+sld	2649	c2bd51ee-5a85-4247-ae77-f8ff7b7822fe	Rune-Scarred Demon
+sld	2650	2febfa1b-5a5e-411a-a7aa-f2ca6ee66f51	Terror of the Peaks
+sld	2651	a27e08a7-018c-45a9-ab5a-a584ca17755d	Communal Brewing
+sld	2652	ada81bdf-340d-44f2-8c48-64af2f179bab	Rogue's Passage
 sld	7001	1fd9c17b-0cbb-49b7-8fb8-6a6f319f6a05	Feed the Swarm
 sld	7002	7ff1d69b-53fe-469c-945b-ecb23c426cce	Forge Anew
 sld	7003	159882aa-b596-4195-9b2e-983eee28d1bc	Silence
@@ -91316,6 +91499,8 @@ sld	7073	7b9eb4e1-7bb6-4224-a47a-051c04df98c0	Possibility Storm
 sld	7074	35ae5e3f-5541-4a92-9822-3001f47b6108	Piper of the Swarm
 sld	7075	e652ea0d-1ac8-4287-b8d7-7c9a53e5a2d6	Regrowth
 sld	7076	c09bb44b-af66-4183-826d-867299dc1b3e	Big Score
+sld	7077	ee5f4f26-01c7-42b4-85e6-1364349983f5	Slime Against Humanity
+sld	7078	20c145fd-69d9-4c21-800b-bcfa1f4089a9	Slime Against Humanity
 sld	7083	9232b03e-2f8c-4b21-88e9-6244370fab95	Slime Against Humanity
 sld	7094	c88eb33d-efba-4ad9-878f-f051079c9bce	Academy Manufactor
 sld	7095	f754499b-8b56-4be7-aecd-fdebde81fb41	Ruin Crab
@@ -91332,6 +91517,10 @@ sld	7105	229710dc-5e91-44d2-bf2a-c98a745df3b5	Tidal Barracuda
 sld	7106	2ff21a18-d655-4f2b-80db-baada1213fd7	Master of the Feast
 sld	7107	2ab5622a-c679-4083-b6b0-a414cb30f689	Invasion Plans
 sld	7108	4a64e504-e87c-4b15-b637-057c30ca9f60	Miren, the Moaning Well
+sld	7126	8418acd5-ca4b-4fe8-a1f9-44b16e6dcda7	Mountain
+sld	7127	47a59a26-e061-4b7c-b682-587c7fec67e1	Deadpool, Trading Card
+sld	7128	3f7b9b8a-77b2-4f83-b0f9-f522c165ac42	Mountain
+sld	7129	ffef4e1a-4ae8-41e7-a47a-9f23c2709e50	Deadpool, Trading Card
 sld	8001	9d20e671-9b41-4591-b1ef-2a297411beb7	Jace, the Mind Sculptor
 sld	9990	3da9358b-cfe4-4e95-9a9e-a236d6373dcf	Doom Blade
 sld	9991	c4472b2e-b47a-4bc3-992b-9f8a218594f6	Massacre
@@ -91967,36 +92156,201 @@ snc	466	5c80b3da-bda1-4d8d-ba50-7162574f4564	Light 'Em Up
 snc	467	bd325574-cdc9-48b1-bdcb-98afde83c6b9	Courier's Briefcase
 snc	468	c13670af-e266-4e19-b479-92fae2b15f4a	Urabrask, Heretic Praetor
 snc	469	ad0e4dae-1be7-430c-81a3-d1f9137a81e0	Urabrask, Heretic Praetor
+soa	1	674e08ef-5291-4465-99c0-7313698f7a93	Akroma's Will
+soa	2	de0f22af-fb85-4178-8a35-ec3ff031f4df	Angel's Grace
+soa	3	41954132-2c71-4b3a-8893-20e0df68a848	Armageddon
 soa	4	6f8f8183-d17a-41b8-b3b5-914f193fd964	Duty Beyond Death
+soa	5	da5e29a8-a8fb-452b-9973-61ad613f9907	Helping Hand
+soa	6	16fabbbf-e35b-468c-9aea-09aa6a388dee	Hop to It
+soa	7	c30342a9-9d60-4440-90fc-8df47d558be7	Prismatic Ending
+soa	8	1c2cf02f-97f3-47f0-9382-c580f3033635	Repel Calamity
 soa	9	426038f3-f21e-43a5-bea8-0cfd8658c009	Reprieve
+soa	10	6d9efae9-365d-46c8-be92-d4a3038f0414	Requisition Raid
+soa	11	cba93c84-3468-4c03-8198-87fb6c4b0968	Return to the Ranks
+soa	12	ddf7fa6e-e38c-4f3d-8d8b-6ecbccdbb8f9	Winds of Abandon
+soa	13	f403af12-6114-4121-b421-3448e084864c	Brain Freeze
+soa	14	7037f57a-ca89-41bd-bf7f-2f54593c0f48	Cyclonic Rift
+soa	15	9d9a5654-6795-4799-ae3b-5827bfdf7a97	Daze
 soa	16	a6813cd2-7151-459a-a2f1-52808584de53	Deduce
 soa	17	3a057032-6ece-4aa7-8e99-df2a07359b2b	Disdainful Stroke
+soa	18	ba8fa9db-f24f-46d4-add1-71b7f77636e2	Flusterstorm
 soa	19	7a87f8bc-1b3e-4cb2-9343-5f008e942411	Force of Will
+soa	20	5780936e-629d-4737-9005-651234f5426d	Pongify
+soa	21	8221b564-acf0-4d82-94f5-2ba1337ff5e1	Preordain
+soa	22	c837c418-2fe9-4ce8-b76d-c37241579a93	Sleight of Hand
+soa	23	bc8f80e2-dd9d-4abc-b44c-fbef4d403e6f	Spell Pierce
 soa	24	ad048b7c-588f-4c34-906f-4224f1aaaeb6	Stock Up
+soa	25	763fb195-6fd1-428a-b129-ec688f7b0066	Ad Nauseam
+soa	26	db465858-0593-4850-8f1d-400fe230a18d	Bitter Triumph
+soa	27	6c84aa77-bcb0-4a59-b94c-8cb9cbf6af76	Culling the Weak
+soa	28	94c131d2-6b55-456c-a30d-e5ffb6d5efd7	Dismember
+soa	29	a041cfe3-a02d-41e2-aea3-76bc2bacc10e	Feed the Swarm
+soa	30	77cf5316-a0bf-4dbc-a388-01d6825c85b1	Living End
+soa	31	b221e1e9-7b14-4444-ac1c-3d5174c711e9	Locust Spray
+soa	32	dca66a1b-0acd-4b79-b5fe-16f2930f9c1b	Sheoldred's Edict
 soa	33	0f6f64b9-145c-4ed2-b90c-cbcf021b353d	Smallpox
+soa	34	5c9caa7b-0268-4606-a71d-82dff16e6418	Stargaze
 soa	35	db68c546-aca8-45d0-bf45-15b951ce66e5	Vampiric Tutor
+soa	36	dfec5854-70c7-4e4b-9979-58775dd7a181	Zombify
+soa	37	c5bb5307-e874-42c4-b85d-06b9f6c474c8	Abrade
+soa	38	c7b698a1-dff1-413f-ba4f-0298c686999a	Big Score
+soa	39	98a399fa-822d-4e8c-8be0-fa929c9bbd4d	Brotherhood's End
+soa	40	e86fcad5-8150-4a76-b27e-47a9f05745c1	Bulk Up
+soa	41	f98b402a-ecdb-432f-a050-65945c8c415d	Burst Lightning
+soa	42	6d4e121d-c46c-4028-9582-3bb9c1621cbb	Crackle with Power
+soa	43	622daabf-987d-4311-b3d3-b27d62cd5e6e	Empty the Warrens
+soa	44	aa1e5db0-4cd8-4d42-bde1-3e3d0041339f	Jeska's Will
+soa	45	4b2e000b-a147-443b-9138-9ff2d16c0422	Monstrous Rage
+soa	46	e4507ef5-0d30-42ca-b305-f99c6e10432b	Pyretic Ritual
+soa	47	e968efff-635b-4780-9bbe-099e75a1841b	Return the Favor
 soa	48	02a20564-90af-4dbd-bf5c-debc49e4f391	Subterranean Tremors
+soa	49	914e582c-978f-46fd-b06b-1ff2c20e5506	Awaken the Woods
+soa	50	0fe6e7d3-7e33-4e6b-91c8-47fd4ba3cb5b	Berserk
+soa	51	d5d50e02-80c8-4b7d-9f51-7f1d79f9f263	Crop Rotation
 soa	52	62652aa9-57e7-42a7-8f2f-62e9a6aefb16	Giant Growth
+soa	53	7cb6fd05-0bd9-4f2f-b159-280aba98d3a5	Glimpse of Nature
+soa	54	42d90959-b88c-4321-b2af-78ac7aab9909	Knockout Maneuver
+soa	55	a11f1013-d747-4cf2-bbf5-0bd68a949ddf	Pick Your Poison
+soa	56	009bad41-5e96-4bb3-9f5e-66500fb8af29	Royal Treatment
+soa	57	5dc1904b-b0e6-49e5-9ef3-7ea538db202b	Shamanic Revelation
+soa	58	3aeb1fe1-3ff3-466c-9eda-b8747702734c	Shared Roots
+soa	59	5a0bc9d4-d99d-48e1-aeca-d2e5b1c99a84	Triumph of the Hordes
+soa	60	5724a4a3-dd66-4a66-af8b-5374119ecdfb	Veil of Summer
+soa	61	2b5cfc9b-90c0-4073-8584-8cf59d13fd60	Bring to Light
+soa	62	2bcd7858-7ae6-4419-bc58-a5c133c97577	Culling Ritual
+soa	63	fa80a2e6-303f-4cd4-b719-cdc030a51181	Deflecting Palm
+soa	64	5697541f-a03f-48b9-a0fd-ee0cf5357660	Expressive Iteration
+soa	65	34005b2e-6270-4ac3-9d35-021d916125ee	Fracture
+soa	66	5f0c0b37-056f-4c49-b5d7-e25534117e17	Akroma's Will
+soa	67	dcc07492-9eea-4aec-be42-a0adb9a5ff50	Angel's Grace
+soa	68	cf980fc6-84ed-4c79-ba66-ecc6146a8085	Armageddon
 soa	69	c841be3a-bcfe-4ce5-9580-26b56a675df7	Duty Beyond Death
+soa	70	f8c32407-5a49-4eec-a3ce-cfe72797a9c9	Helping Hand
+soa	71	dc7b153e-e036-42ef-8479-f9deebb6a2d6	Hop to It
+soa	72	0ecd4e81-65a9-4ffc-98f3-a2c84d84b573	Prismatic Ending
+soa	73	f562d7c8-e9c2-49df-84f5-b59344774320	Repel Calamity
 soa	74	d69ea723-fb66-4e6e-bf9f-6a457bfeec5f	Reprieve
+soa	75	46f1ecab-2e69-47cb-afe8-4d5bb51d3ebe	Requisition Raid
+soa	76	a49a4ea6-4823-4d48-a411-f3763d60f865	Return to the Ranks
+soa	77	58d879ad-8b06-4569-b3af-a280e60e4e8f	Winds of Abandon
+soa	78	3f77b203-8574-4a5f-91f1-b7caf3301739	Brain Freeze
+soa	79	65c6b4f4-2aef-4150-9a7f-70ca5f337766	Cyclonic Rift
+soa	80	d3c3964f-8449-4f5f-b24e-627511f2e6d8	Daze
 soa	81	5a8c7ae4-186b-45c5-a7b0-4b7eaf5b0f42	Deduce
 soa	82	47927ea9-19b1-46e9-a501-12ac37715071	Disdainful Stroke
+soa	83	9df19f7c-2922-4d71-999a-818ae69045c3	Flusterstorm
 soa	84	24bfbb10-409f-4885-b792-73958250a65d	Force of Will
+soa	85	89d595e6-3629-4f9b-8f55-8a91ff1d6f36	Pongify
+soa	86	f40fc56b-84ae-4797-95bf-4bdd2bc5bf75	Preordain
+soa	87	11a91b7a-108e-43b6-a08d-56f824e807dd	Sleight of Hand
+soa	88	4b22792d-8113-4fc3-9b09-90988dc52feb	Spell Pierce
 soa	89	6ec11b1a-0b42-4ecb-8f0b-81d18bf5627f	Stock Up
+soa	90	43842b53-4d63-45e7-8247-751a7f09fb35	Ad Nauseam
+soa	91	bbd32228-41dc-48d9-8394-d84b367097ae	Bitter Triumph
+soa	92	a4db7d4c-eb99-41e3-bdf1-4ecd4b877f07	Culling the Weak
+soa	93	9382c445-bc7c-4c98-b9d8-477d77a4e523	Dismember
+soa	94	712c609e-5989-4e38-898f-83e0a913c977	Feed the Swarm
+soa	95	c26e52ad-ae75-446d-9f45-a42af5e23a60	Living End
+soa	96	e779e783-e8e1-4e17-9e2f-35f0cb9b8e31	Locust Spray
+soa	97	9070d77d-4a41-4f22-9579-06a7db5a520e	Sheoldred's Edict
 soa	98	988f9e6f-4ba2-4f6f-8733-23ba838179ac	Smallpox
+soa	99	b62a8648-7f34-454d-b9e2-cc0d0d976c82	Stargaze
 soa	100	7a79190f-de60-4eb6-b925-594eb76ca8c3	Vampiric Tutor
+soa	101	02c3c983-85d5-47b8-8043-5c996c773865	Zombify
+soa	102	d1ed5b20-94f6-455f-80a5-e4ed360167be	Abrade
+soa	103	9cf2452d-17af-4bb2-8a52-348d6e5e08b9	Big Score
+soa	104	3c100b73-ce54-4022-9d42-2277089c5032	Brotherhood's End
+soa	105	39d337d2-d8c9-4e9a-9531-cfe4db769cb3	Bulk Up
+soa	106	8cfb73c4-b5ce-433d-9688-98956625c32d	Burst Lightning
+soa	107	4a0c9f23-8e8f-4e84-9551-cbca66d8f09b	Crackle with Power
+soa	108	05af8b37-6588-42dc-a5e5-e81ccd0abb91	Empty the Warrens
+soa	109	fd142004-10bd-46d7-9ea6-87f2992c10c1	Jeska's Will
+soa	110	c4eb2c2c-ea5b-416d-be6e-ded50021e2e2	Monstrous Rage
+soa	111	21b14fb0-aeeb-4c9f-9458-ef0e2b4b604e	Pyretic Ritual
+soa	112	abe555c4-2da1-47c5-9910-cd07f4256938	Return the Favor
 soa	113	155f9008-2edb-4115-84e8-237257fc4a08	Subterranean Tremors
+soa	114	5709206b-1781-4601-abdf-265d8fc91bc4	Awaken the Woods
+soa	115	f11665b3-00d6-4912-ac1a-06d6ed50a01c	Berserk
+soa	116	d62222aa-2f38-4692-b359-0c7cfc6416a9	Crop Rotation
 soa	117	64490086-2e8b-4921-ab08-68960c47277c	Giant Growth
+soa	118	8ae15f32-034c-4c10-b1b1-ba8ccec76f2c	Glimpse of Nature
+soa	119	8ae6ecb2-d062-400d-b0ee-67b54746e7fc	Knockout Maneuver
+soa	120	cb23d19b-b17a-4f0f-b8d2-164aeb6a2819	Pick Your Poison
+soa	121	8d7a631d-6354-4999-80fa-0d3008f7bc72	Royal Treatment
+soa	122	11347d20-2b14-41cb-a930-92e37fcd1b87	Shamanic Revelation
+soa	123	b5ead982-87b1-41b6-9c71-7231fc21d06b	Shared Roots
+soa	124	9907e7de-62f1-4596-a242-d811f72e9f63	Triumph of the Hordes
+soa	125	f538004e-23bc-4916-a246-365093c7fb82	Veil of Summer
+soa	126	400aa24b-870e-4a5a-8af0-060533d9cb18	Bring to Light
+soa	127	6913b32f-e0c0-4817-8e36-02325729f217	Culling Ritual
+soa	128	08e88552-fd1a-48e8-8443-73390e1f3332	Deflecting Palm
+soa	129	f3b0fbe8-6645-4e81-b8f9-5aacaa3325b1	Expressive Iteration
+soa	130	15f27332-8400-4730-8cfb-26a3b5eefb90	Fracture
+soa	131	988b5c67-1521-4bff-aff5-b3536c20aa5c	Akroma's Will
+soa	132	35dd15a9-d330-4d79-9917-1329444d6598	Angel's Grace
+soa	133	669c1805-c97a-40c8-ab36-df4e3dc88ca9	Armageddon
 soa	134	f1fc0d82-b001-403a-9ca0-7c58bafed982	Duty Beyond Death
+soa	135	cf530c7e-2be4-4afc-983c-72be4b2e6d6e	Helping Hand
+soa	136	4cc6e994-3e82-4869-9e62-f956f0d493e2	Hop to It
+soa	137	94ba4cdd-ae38-4d42-a11b-98482fc67280	Prismatic Ending
+soa	138	1c282a95-9396-4b99-8eb0-d2af55fa6828	Repel Calamity
 soa	139	c7fef194-e067-4f25-8b4a-0e37d35bb2c7	Reprieve
+soa	140	0aece8ee-8a7c-476f-bfee-be42adb7a84f	Requisition Raid
+soa	141	ce926b04-ce59-49fe-bc33-cdfcb9714342	Return to the Ranks
+soa	142	2b9cc977-6cb0-4a69-adb6-212e4fd81c58	Winds of Abandon
+soa	143	a66d7e4c-f268-4596-b2ff-f215ec162cbc	Brain Freeze
+soa	144	f779109e-331f-44ae-9dfb-e435a2bc6b7f	Cyclonic Rift
+soa	145	61968d99-6571-49ce-bcf1-2aaac3a10f45	Daze
 soa	146	0d9f7563-0c3e-4bfe-b61a-8e6a6d2411b4	Deduce
 soa	147	cc5cf8b1-935c-4624-9ca8-635eee190dd7	Disdainful Stroke
+soa	148	0f6e9e94-fcfc-4d2a-9751-347c743961d8	Flusterstorm
 soa	149	b8a31dc0-8f4a-441f-bb8a-6ebfb22e5cfd	Force of Will
+soa	150	b952b12c-5e28-4e42-b9c4-67527518b0a8	Pongify
+soa	151	98763383-da03-4355-b227-ef77475537cc	Preordain
+soa	152	b820a24b-acc9-4117-8e1b-74ab19002f77	Sleight of Hand
+soa	153	d3820242-f519-49a0-8c00-cb492b5c93ac	Spell Pierce
 soa	154	20460489-3e66-44da-8003-ca28b1f3831b	Stock Up
+soa	155	68f7db06-8a4c-4654-9209-6bc6c5d7f492	Ad Nauseam
+soa	156	7bb7a9e7-8ed9-415e-abe2-f1e1a362d569	Bitter Triumph
+soa	157	8470477f-166c-45e3-80ae-cc14ae85f2c9	Culling the Weak
+soa	158	93020a11-731d-413d-984c-f2ae217542c4	Dismember
+soa	159	446a6f55-8b25-45ff-95e2-c8ab33484551	Feed the Swarm
+soa	160	b1cee39d-5de0-45df-a041-401613531eb4	Living End
+soa	161	93ef62f6-b5f3-4ad0-94db-4e4faa66a055	Locust Spray
+soa	162	01812e27-4bb5-4e70-8c60-beb93dba4cb2	Sheoldred's Edict
 soa	163	530c6da3-628b-4c7d-9839-086b8973744a	Smallpox
+soa	164	c31a2c18-2d84-4079-baf3-6a8dfa65072e	Stargaze
 soa	165	b6e09632-0bc5-4707-8966-d69a287dde83	Vampiric Tutor
+soa	166	dc51e36c-8b5e-4a01-a17e-1a3e62122223	Zombify
+soa	167	75120201-e3bb-496f-84e2-5cab08f0b79e	Abrade
+soa	168	8721dca7-9b24-4e66-a51f-7100988310e8	Big Score
+soa	169	75712beb-f8b9-4f77-8d57-5276a12149cf	Brotherhood's End
+soa	170	aebb91d9-0dd8-4e9b-99d2-1d86ba57d6d8	Bulk Up
+soa	171	6a588a86-56df-4dd3-bb16-e36d6a311e2b	Burst Lightning
+soa	172	30250852-4580-41b5-a617-d718ec0eba41	Crackle with Power
+soa	173	9618ad79-bca0-47c7-85f5-e620a3ce6225	Empty the Warrens
+soa	174	5e80dfcb-ecd6-4d0d-adb6-cac38560ebf3	Jeska's Will
+soa	175	e89f3569-5467-4904-a28b-e95f5c93f45d	Monstrous Rage
+soa	176	ce5f9a20-9254-4d76-9230-bc9b4983566b	Pyretic Ritual
+soa	177	a47aad8f-b418-475d-ace5-d1338cb89f56	Return the Favor
 soa	178	0ff35166-1bd9-43f8-88b7-4543a1881908	Subterranean Tremors
+soa	179	b568ab94-3186-4bf2-8f03-b9e174b57729	Awaken the Woods
+soa	180	a3c671da-27a6-43a1-8294-c14cea0e5140	Berserk
+soa	181	00f97ece-f7c5-4ae9-b680-40f2cbbed22c	Crop Rotation
 soa	182	fe6060f5-d06c-4ff2-91e8-f1d836254fa6	Giant Growth
+soa	183	f06d24b8-5305-4540-800c-9642c6354529	Glimpse of Nature
+soa	184	be4673eb-f334-40a3-a47d-d7bc105ec5ba	Knockout Maneuver
+soa	185	7584e3e3-8786-408f-b3f5-9a9cdfe0f8a1	Pick Your Poison
+soa	186	3fbfc4d2-a937-4b1d-9350-3dff04f2cf10	Royal Treatment
+soa	187	12e2ee56-ff9c-4a16-8446-94735c05817a	Shamanic Revelation
+soa	188	8f815e07-0091-4eb4-ac62-1700dfebc56d	Shared Roots
+soa	189	c236853f-62fa-4bac-bdc0-295c8337fc2d	Triumph of the Hordes
+soa	190	72e59908-e02e-4ff1-ac98-6f5d1ac9f579	Veil of Summer
+soa	191	851367a6-ba83-4c91-b530-7402037c09bc	Bring to Light
+soa	192	2a2743be-3033-4ecd-9890-49b8d772fbd4	Culling Ritual
+soa	193	7454ab83-3af3-4ebb-b713-c73b77592cc2	Deflecting Palm
+soa	194	be9ab0f1-05fb-4012-ad95-2d32f10b8089	Expressive Iteration
+soa	195	f515ecc4-d378-4f68-8146-1ac32a641665	Fracture
 soc	1	9fe237b8-c02c-41ea-9fc4-b771b91d2157	Dina, Essence Brewer
 soc	2	d47ebf19-b3fa-48a2-851a-254d32b0305a	Excava, the Risen Past
 soc	3	86f97dd8-8647-4938-aee0-690bb715f88b	Gorma, the Gullet
@@ -92010,13 +92364,13 @@ soc	10	605afac4-d2e5-4e68-97d2-3ac2ead5f3a9	Zimone, Infinite Analyst
 soc	11	a0d1df84-0cb6-44fb-9916-d766d93f1519	Augusta, Order Returned
 soc	12	a0e18f74-7fa6-4e3a-bc80-390a25055205	Ceaseless Conflict
 soc	13a	09d1f048-f411-4677-a0dc-dbddd06fe694	Eiganjo Dynastorian
-soc	13b	09d1f048-f411-4677-a0dc-dbddd06fe694	Replenish
+soc	13b	09d1f048-f411-4677-a0dc-dbddd06fe694	Replenish (Prepared)
 soc	14	1c2fcf3e-63ce-45bd-afc4-2c11f54c70c4	Forum Filibuster
 soc	15	0a36fe06-225f-44c6-b608-452344e3585a	Herald of Amity
 soc	16	91211c56-b562-4889-8c5c-110c42be62c8	Vanguard of the Restless
 soc	17	2795c812-0850-4405-b968-b624deaccd55	Abstract Performance
 soc	18a	7bdabeba-0cfb-4953-b725-50a48164a044	Dirgur Focusmage
-soc	18b	7bdabeba-0cfb-4953-b725-50a48164a044	Braingeyser
+soc	18b	7bdabeba-0cfb-4953-b725-50a48164a044	Braingeyser (Prepared)
 soc	19	ef261999-1c18-46f3-bbd6-72911e14328f	Expansion Algorithm
 soc	20	2511b281-f822-427c-ac5f-d376b64fa6cf	Leitmotif Composer
 soc	21	d9ed2ef7-9433-4f2f-957b-b58d2ec391fe	Nexus Mentality
@@ -92028,12 +92382,12 @@ soc	26	d60c64aa-57a9-4082-82f4-af0d89c1a52d	Intermediate Chirography
 soc	27	d60cf719-d5ce-46c3-bf92-24682b1c53bd	Merchant of Venom
 soc	28	2271184b-08eb-4d2a-8ebf-a1807d51dd2a	Ominous Harvest
 soc	29a	909a52bc-53f6-4654-9db7-e8f48333d765	Stensian Sanguinist
-soc	29b	909a52bc-53f6-4654-9db7-e8f48333d765	Exsanguinate
+soc	29b	909a52bc-53f6-4654-9db7-e8f48333d765	Exsanguinate (Prepared)
 soc	30	cc912fec-827d-4deb-8430-79f5ea31ca9b	Advanced Reconstruction
 soc	31	96ab4d23-14d7-429f-b62e-868c13997fb8	Fateful Tempest
 soc	32	a967af7a-03ed-4858-9c26-66f2cb706b02	Furygale Flocking
 soc	33a	acca1fd4-6384-460e-905f-118f01aa76ed	Naktamun Lorespinner
-soc	33b	acca1fd4-6384-460e-905f-118f01aa76ed	Wheel of Fortune
+soc	33b	acca1fd4-6384-460e-905f-118f01aa76ed	Wheel of Fortune (Prepared)
 soc	34	7e3e5990-ad48-4be2-af8a-4ff77177758d	Prismari Pianist
 soc	35	a016463d-a0aa-44a5-97ca-17ff70c4eb95	Relic Retriever
 soc	36	aa23e922-f44b-4af8-8ce0-bc1bc1e65bad	Renegade Bull
@@ -92045,7 +92399,7 @@ soc	41	94cf1461-5e4f-4980-8ef9-293421af621f	Nev, the Practical Dean
 soc	42	1f2a066a-7bcd-4e9d-8e52-0769cd6c8124	Pest Rescuer
 soc	43	8217100d-8244-4565-97bd-6c0f38c3e2f0	Ribtruss Roaster
 soc	44a	fc962e45-ab71-47e2-b736-644901ffe7d6	Yavimaya Bloomsage
-soc	44b	fc962e45-ab71-47e2-b736-644901ffe7d6	Channel
+soc	44b	fc962e45-ab71-47e2-b736-644901ffe7d6	Channel (Prepared)
 soc	45a	c35a1c6f-1656-4619-9ab8-40044c857a7f	Defacing Duskmage
 soc	45b	c35a1c6f-1656-4619-9ab8-40044c857a7f	Vandal's Edit
 soc	46a	508e1dd7-edbd-4b76-90bc-ff58c55b58a3	Eccentric Pestfinder
@@ -92067,8 +92421,64 @@ soc	57	a25cb813-aa6d-469c-aa29-61ffa32267f2	Turbulent Springs
 soc	58	c0c73dd5-0a88-4a94-9c01-c1473433e46f	Turbulent Steppe
 soc	59	b6ca755c-4b17-450b-b995-bfec8a55396f	Turbulent Wilderness
 soc	60	15848965-01a8-48bf-aa61-8a753339c761	Umbral Expanse
+soc	61	11dee8bb-a19a-44a7-aa19-55cdd3a0bcf6	Augusta, Order Returned
+soc	62	f8d6abe4-0008-4cdd-89b5-dfbb9389a587	Ceaseless Conflict
 soc	63a	f6a504a6-2501-4384-9db9-da6abe1cf81d	Eiganjo Dynastorian
-soc	63b	f6a504a6-2501-4384-9db9-da6abe1cf81d	Replenish
+soc	63b	f6a504a6-2501-4384-9db9-da6abe1cf81d	Replenish (Prepared)
+soc	64	5e3a5d72-afc2-47e7-a3a7-039afaf6f2a2	Forum Filibuster
+soc	65	340d2dc1-645e-4574-a5dd-1306833c744f	Herald of Amity
+soc	66	c0ae86e9-d1c5-4e89-aceb-d48ace0adfea	Vanguard of the Restless
+soc	67	75fcd36e-c4b4-4f7f-8255-8909f7e0cd11	Abstract Performance
+soc	68a	baae3f8f-f282-40db-a1e0-cf6efc70bff0	Dirgur Focusmage
+soc	68b	baae3f8f-f282-40db-a1e0-cf6efc70bff0	Braingeyser (Prepared)
+soc	69	06147ee1-0fe8-4daf-962a-317dc908add5	Expansion Algorithm
+soc	70	04c9c969-4f63-4c16-a1e9-c9a9e05488b1	Leitmotif Composer
+soc	71	02d7bd37-5cb4-44ca-a386-57090ca8c725	Nexus Mentality
+soc	72	176d16bf-22a9-4b5d-8e86-b23fcf822efe	Owlin Spiralmancer
+soc	73	4260fab8-5597-45d8-8a1c-22ef96939071	Changing Loyalty
+soc	74	1e38b687-3873-454a-91a3-804c5b019d59	Coercive Impetus
+soc	75	4952c511-c4ca-42e6-a2b5-bd6dae8549be	Defiling Daemogoth
+soc	76	935e0dbb-76fd-4f4f-bcc6-d80a3061bb29	Merchant of Venom
+soc	77	9274c73b-f01b-4b91-b736-9650966c2b20	Ominous Harvest
+soc	78a	66d88104-c69d-4349-a4ae-4a3d855a3536	Stensian Sanguinist
+soc	78b	66d88104-c69d-4349-a4ae-4a3d855a3536	Exsanguinate (Prepared)
+soc	79	336ea696-43af-4efd-981a-6bf44c0a4286	Fateful Tempest
+soc	80	b5c2f968-c49d-41b3-b5de-b4777f7965f4	Furygale Flocking
+soc	81a	f562fbca-9446-4074-bf00-faf581a18c72	Naktamun Lorespinner
+soc	81b	f562fbca-9446-4074-bf00-faf581a18c72	Wheel of Fortune (Prepared)
+soc	82	6d3bfd1b-8ea8-43ad-8785-af29c807c935	Prismari Pianist
+soc	83	2866da1d-62e9-4a0d-9e6c-793d2d38c884	Relic Retriever
+soc	84	d4560128-2480-4fa1-92bd-c75ea47906c6	Renegade Bull
+soc	85	78953337-2046-4778-a8a2-93557b561d49	Spirit of Resilience
+soc	86	c6c3172f-caff-443a-a024-8d5024c0dbf0	Feral Appetite
+soc	87	543877dd-c685-46a0-b3e8-db89090c7e31	Kinetic Ooze
+soc	88	f291612f-fe70-486e-907f-950a35d23727	Lattice Library
+soc	89	93341675-0ab1-43da-b0ce-c994d8d8bbb4	Nev, the Practical Dean
+soc	90	edc0937e-c39b-4fd5-afc2-7c7f6ce7c8c2	Pest Rescuer
+soc	91	9c67874d-ddb3-41a3-8262-8edf70c6b517	Ribtruss Roaster
+soc	92a	c243c2c4-f227-42a8-8b78-5f4b761106c2	Yavimaya Bloomsage
+soc	92b	c243c2c4-f227-42a8-8b78-5f4b761106c2	Channel (Prepared)
+soc	93a	91493530-bc0a-4ed1-8a4a-9a732fcb3752	Defacing Duskmage
+soc	93b	91493530-bc0a-4ed1-8a4a-9a732fcb3752	Vandal's Edit
+soc	94a	d9e6b777-e0f6-47e1-808e-81850039d891	Eccentric Pestfinder
+soc	94b	d9e6b777-e0f6-47e1-808e-81850039d891	Turn Stones
+soc	95	9d475a98-4561-4cbc-bd60-c3bfc33725be	Immoral Bargain
+soc	96a	29d2186c-c5fb-4439-95c6-ffe46b6dded9	Inspired Skypainter
+soc	96b	29d2186c-c5fb-4439-95c6-ffe46b6dded9	Maestro's Gift
+soc	97a	e6498b64-7178-43e1-b317-0ad03f894db3	Lorehold Archivist
+soc	97b	e6498b64-7178-43e1-b317-0ad03f894db3	Restore Relic
+soc	98a	34303632-6062-4f6e-aeb4-bea74b7da0d7	Striding Shotcaller
+soc	98b	34303632-6062-4f6e-aeb4-bea74b7da0d7	Run the Play
+soc	99	549f89a5-1558-4ce5-a579-329e89eeb8aa	Brass Infiniscope
+soc	100	494034a4-581a-45fe-8e87-0b0cbf339052	Coastal Peak
+soc	101	93ca39ae-0173-44ba-8c66-9f52f468983d	Eclipsed Steppe
+soc	102	5648788e-af46-4e95-9295-62c0fc2e5105	Scorched Geyser
+soc	103	fa1f9d1d-f749-4a33-b6dc-52f97b416b3c	Turbulent Fen
+soc	104	7e96f1dd-71e7-48c0-80aa-c7f49588af9c	Turbulent Moor
+soc	105	526d3add-b87f-42ba-957b-879fb8fea792	Turbulent Springs
+soc	106	a138b2e9-9665-4544-866a-8672ddab79fc	Turbulent Steppe
+soc	107	aa9c37ec-7f03-44b7-b973-9ae5edff3149	Turbulent Wilderness
+soc	108	eac5e1e1-110f-4e51-8b42-9d993ada08de	Umbral Expanse
 soc	109	23fcd6a8-be83-4304-ae32-d3dfc855f596	Flickering Ward
 soc	110	ca90d382-7e13-4637-a624-2a1b82abe56c	Moonshaker Cavalry
 soc	111	67083aca-b077-4b12-8218-876e22476f85	Staff of the Storyteller
@@ -93145,81 +93555,299 @@ som	248	798b4f41-1e33-4da6-99c1-de926297c073	Forest
 som	249	edb2bf35-efe6-4ad4-bf6e-55848ba71dfe	Forest
 sos	1	7a451985-37e1-44d8-839b-dc1e88df5c96	The Dawning Archaic
 sos	2	2565e16a-ed31-4867-adb8-f1633d580397	Rancorous Archaic
+sos	3	c35b57e4-2358-46c0-8f09-cd27c10eaf2d	Sundering Archaic
 sos	4	ac2a8a66-e38c-42ab-83e1-d2d99ee48861	Together as One
+sos	5	1624c680-502b-474a-b9b2-888fe3ca008c	Transcendent Archaic
+sos	6	9cd1417a-badc-4abd-a8ca-5b31f85c1072	Ajani's Response
+sos	7	68ee92cd-51af-4de5-bcc8-34d0bb2fd398	Antiquities on the Loose
+sos	8	de3de40b-a7ac-455e-add2-4e451b602d17	Ascendant Dustspeaker
+sos	9	e2b16cb2-b8b2-45df-9695-3c16e9d89e28	Daydream
+sos	10	e52464ee-df8b-41ec-af93-4b0eb004383e	Dig Site Inventory
+sos	11	bf736de9-9bc4-49df-ae60-672ed4f83f32	Eager Glyphmage
+sos	12a	2970683e-e69c-42cb-a067-34abd56fb42b	Elite Interceptor
+sos	12b	2970683e-e69c-42cb-a067-34abd56fb42b	Rejoinder
+sos	13a	9869a753-5e41-4098-ab41-e75b4396ec50	Emeritus of Truce
+sos	13b	9869a753-5e41-4098-ab41-e75b4396ec50	Swords to Plowshares (Prepared)
+sos	14	d2ef31b4-24fa-4443-9f05-c8e99c3522e5	Ennis, Debate Moderator
+sos	15	32e670da-7563-4f6a-a7db-4c126a440eb8	Erode
 sos	16	db1cea01-123e-4b23-8b98-f94cabce3912	Graduation Day
+sos	17	e8abc1eb-6225-4b18-8502-b5324b818aed	Group Project
+sos	18	e07a8fc7-c11c-4469-a31d-0abf40e57bbf	Harsh Annotation
+sos	19a	79a70863-860f-4a7b-9cb2-d3546b689d44	Honorbound Page
+sos	19b	79a70863-860f-4a7b-9cb2-d3546b689d44	Forum's Favor
+sos	20	5defb2d1-d0fb-4e7f-a5c7-3df99fe675d6	Informed Inkwright
+sos	21	bcfac992-9984-4529-b9ff-a42d58832b34	Inkshape Demonstrator
+sos	22	0534cff6-299c-4155-b318-eb7581989e8a	Interjection
 sos	23a	1ebaafe0-3a9a-424c-8698-d26e7be45343	Joined Researchers
-sos	23b	1ebaafe0-3a9a-424c-8698-d26e7be45343	Secret Rendezvous
+sos	23b	1ebaafe0-3a9a-424c-8698-d26e7be45343	Secret Rendezvous (Prepared)
+sos	24	5fe99be0-e1ec-485e-82f8-02eba7b82441	Owlin Historian
+sos	25	79c7cf94-c0a1-432d-90d7-7f0599c2e7a8	Practiced Offense
 sos	26	f6fdb814-45c6-4d14-afff-7f5bd1bd10a1	Primary Research
+sos	27a	62a47835-5719-48c4-a740-a0c5f00dce11	Quill-Blade Laureate
+sos	27b	62a47835-5719-48c4-a740-a0c5f00dce11	Twofold Intent
+sos	28	97b50521-5a0f-4dbd-8e15-f0f0d059c258	Rapier Wit
+sos	29	fc6a1425-6733-42a2-94d9-605966398092	Rehearsed Debater
+sos	30	9ebc4ecf-2fa2-4ab8-afde-3b91cf5eadb6	Restoration Seminar
 sos	31	dc0517ca-b271-49a1-a286-c20f4e5b9309	Shattered Acolyte
+sos	32	2fbe446b-60fd-43da-8358-985392293af8	Soaring Stoneglider
+sos	33a	c0b85569-2cb3-4b64-b0fe-418195c4dab0	Spiritcall Enthusiast
+sos	33b	c0b85569-2cb3-4b64-b0fe-418195c4dab0	Scrollboost
+sos	34	b756ca13-b904-4510-9bbb-5bc2864abfbd	Stand Up for Yourself
+sos	35	21375667-b318-47f8-a482-9c8c2b5b14c0	Stirring Hopesinger
+sos	36	c2abfffb-bf36-44af-9a27-6e109e4d77dd	Stone Docent
+sos	37	44d0277c-ca82-4334-a15a-cd67a9db0d02	Summoned Dromedary
 sos	38	1ae9d2f3-7a9f-433a-aa1f-14337ae6f9d4	Banishing Betrayal
+sos	39	151eab82-d20f-433b-b3bb-1d44e2871d5c	Brush Off
+sos	40a	fac8ac39-ecb4-4142-bf37-131c65660a9b	Campus Composer
+sos	40b	fac8ac39-ecb4-4142-bf37-131c65660a9b	Aqueous Aria
+sos	41	06f9f257-c7ef-44b7-8b2b-f038fba900af	Chase Inspiration
+sos	42	2e3b16ed-8727-48fd-8b1f-c0cbd329385e	Deluge Virtuoso
+sos	43	26295e25-f1bf-4665-ba00-dad35c49bbc2	Divergent Equation
+sos	44	5d7086a7-dc42-468a-a2cf-a6f89030f947	Echocasting Symposium
 sos	45a	75961d36-acf6-425f-9698-0bf52af74f31	Emeritus of Ideation
-sos	45b	75961d36-acf6-425f-9698-0bf52af74f31	Ancestral Recall
+sos	45b	75961d36-acf6-425f-9698-0bf52af74f31	Ancestral Recall (Prepared)
+sos	46a	72654b84-9902-41db-92ab-a3499c31221c	Encouraging Aviator
+sos	46b	72654b84-9902-41db-92ab-a3499c31221c	Jump (Prepared)
+sos	47	32840097-0531-4c43-b6a8-e76c17420b04	Essence Scatter
 sos	48	a58c364e-d0c5-41b9-8c8b-2e5a99468cc7	Exhibition Tidecaller
+sos	49	47d6093b-b1b6-4956-8bfd-02cce899f832	Flow State
+sos	50	e1975a61-aef0-49a6-a6d6-c3a37e2e2b22	Fractal Anomaly
+sos	51	e3c3b19b-01b6-4f5a-b428-513b778c5d89	Fractalize
+sos	52a	617208ff-dd9b-44fd-a740-d3188081e5cc	Harmonized Trio
+sos	52b	617208ff-dd9b-44fd-a740-d3188081e5cc	Brainstorm (Prepared)
+sos	53	6e4a1f82-b0b1-4608-91f8-130bee731435	Homesickness
+sos	54	099f8400-d70a-48ef-8ff6-645eae97e072	Hydro-Channeler
+sos	55a	a95b6baf-01e6-49c3-9a26-394b127d53c3	Jadzi, Steward of Fate
+sos	55b	a95b6baf-01e6-49c3-9a26-394b127d53c3	Oracle's Gift
+sos	56a	c0bd30c4-3cdf-4eda-8be5-0fb5e5ddddbf	Landscape Painter
+sos	56b	c0bd30c4-3cdf-4eda-8be5-0fb5e5ddddbf	Vibrant Idea
+sos	57	200c8e3d-c53b-40c7-a29a-fccc1281bfc6	Mana Sculpt
 sos	58	cd3cc172-5609-4bc8-9d84-50680fed6df9	Mathemagics
+sos	59	460c6afd-cddf-4fea-925f-b27517ff250a	Matterbending Mage
+sos	60	71cb4a6b-b500-4b28-bcdb-ec4188242f39	Muse Seeker
+sos	61	c59e0004-1d6a-42a1-8ce4-31da2af2e1bf	Muse's Encouragement
+sos	62	010ed379-63f5-452c-9cd4-00d51647c0e3	Orysa, Tide Choreographer
 sos	63	66d47940-84f9-4479-8562-45e5148435d4	Pensive Professor
 sos	64	1edb449d-620f-4e21-9d76-2c840635eb9d	Procrastinate
+sos	65	2d4f0bc7-da7c-4749-a24c-b01f3eb5860c	Quick Study
+sos	66	40ecc34b-4cd0-4998-bbf4-7faa6fd3d7e0	Run Behind
+sos	67a	4ecbca71-9a1d-44c5-b709-d6f565941d5e	Skycoach Conductor
+sos	67b	4ecbca71-9a1d-44c5-b709-d6f565941d5e	All Aboard
+sos	68a	cc44eaa4-59a4-419e-b1d1-d92f354ff588	Spellbook Seeker
+sos	68b	cc44eaa4-59a4-419e-b1d1-d92f354ff588	Careful Study (Prepared)
+sos	69	bbd708ec-eef4-4f45-99dd-60e1cec4b991	Tester of the Tangential
+sos	70	56f54fee-b48d-4582-8982-ca4c7b8ef553	Textbook Tabulator
 sos	71	b227ef04-33e4-44e8-a357-0ea3dfe5d49b	Wisdom of Ages
+sos	72a	d40cc7da-c731-418e-8547-7033d1939450	Adventurous Eater
+sos	72b	d40cc7da-c731-418e-8547-7033d1939450	Have a Bite
 sos	73	d357d997-9d4e-4ade-81f2-37629853f13a	Arcane Omens
+sos	74	6168b472-0930-4db5-9920-407340b99050	Arnyn, Deathbloom Botanist
+sos	75	3e4f9d23-1a17-4188-ac91-f8ddea46a1c4	Burrog Banemaker
+sos	76a	3c34660c-25e3-4ff5-9b2b-5554ded2bcc3	Cheerful Osteomancer
+sos	76b	3c34660c-25e3-4ff5-9b2b-5554ded2bcc3	Raise Dead (Prepared)
+sos	77	3a46816b-9f75-4c72-9ec6-cded6a4a0d01	Cost of Brilliance
+sos	78	f4ab2d9b-c73d-478d-aac7-4d3bb24296d2	Decorum Dissertation
+sos	79	ddbf1242-6832-475e-9a77-65dd9b4bb32a	Dissection Practice
+sos	80a	7eb9e83d-515d-4911-a06b-9982200277b2	Emeritus of Woe
+sos	80b	7eb9e83d-515d-4911-a06b-9982200277b2	Demonic Tutor (Prepared)
+sos	81	0809b51a-6a05-4f18-9bf4-1b8382da648f	End of the Hunt
+sos	82	f97fac69-3e77-4150-9702-cc726daa6d21	Eternal Student
+sos	83	d278f4c9-d20b-4a76-8c5c-4d3e985948b9	Foolish Fate
+sos	84	67504a12-7414-4209-bf1c-624b4db19d52	Forum Necroscribe
 sos	85a	8b1e10e8-ea14-4761-910b-4072e2a18456	Grave Researcher
-sos	85b	8b1e10e8-ea14-4761-910b-4072e2a18456	Reanimate
+sos	85b	8b1e10e8-ea14-4761-910b-4072e2a18456	Reanimate (Prepared)
+sos	86	da5f3729-6ec7-4482-90cb-83b973edeae4	Last Gasp
+sos	87	ad07091e-8c24-43af-8ce8-031847bcaf30	Lecturing Scornmage
+sos	88a	c715fe4c-c0e7-4342-811f-b74687851097	Leech Collector
+sos	88b	c715fe4c-c0e7-4342-811f-b74687851097	Bloodletting
+sos	89	8d93d14d-7760-4af2-a237-2df326dd28d3	Masterful Flourish
+sos	90	d8309815-7035-47a5-acf2-2b2ac1e65037	Melancholic Poet
+sos	91	6877180c-22a1-4c4d-9178-316f4c34661b	Moseo, Vein's New Dean
+sos	92	3755a2e9-af55-4625-a006-2a86c7893a96	Poisoner's Apprentice
+sos	93	174f5d7e-5d36-4d13-96bf-9b12cd644716	Postmortem Professor
+sos	94	9c99c17b-ad3a-4859-97e8-469718b81cd9	Pox Plague
 sos	95	d73612fe-8992-4650-a7e3-c7b662da6a03	Pull from the Grave
+sos	96	f5e67560-3135-4b27-a344-5859edf8bcd9	Rabid Attack
 sos	97	8fbad757-4081-42f7-a460-68ac03e77510	Ral Zarek, Guest Lecturer
+sos	98a	03e664cd-c3a6-4263-b2d8-dd99058fb8ec	Scathing Shadelock
+sos	98b	03e664cd-c3a6-4263-b2d8-dd99058fb8ec	Venomous Words
+sos	99a	fe85a124-0d8b-4a29-8df1-65888a39147f	Scheming Silvertongue
+sos	99b	fe85a124-0d8b-4a29-8df1-65888a39147f	Sign in Blood (Prepared)
+sos	100	283b508b-89f0-4c23-9686-b049e402b73c	Send in the Pest
+sos	101	4b4c120e-abe9-4f11-a7e4-bc3f723da4b2	Sneering Shadewriter
+sos	102	b93cbaad-8ed8-4a1d-b95a-20a616dfedc9	Tragedy Feaster
+sos	103	c25e1ae5-f17c-4eee-98f1-5681981af31c	Ulna Alley Shopkeep
+sos	104	3d409512-50b9-4a38-91b0-19ba25227992	Wander Off
 sos	105	50aaf618-dddb-4cbe-8231-d634b4498563	Withering Curse
+sos	106	6c5a93d6-d4ab-4062-bb3c-1b5330bf15ad	Ancestral Anger
 sos	107	8d99f8b2-5c1c-4059-bf68-c6b2e9e5b275	Archaic's Agony
+sos	108	bce9d933-be58-4301-beb4-07b04d0b69f0	Artistic Process
+sos	109a	3ba971e7-0b7a-4750-896f-7cf063e66b2a	Blazing Firesinger
+sos	109b	3ba971e7-0b7a-4750-896f-7cf063e66b2a	Seething Song (Prepared)
+sos	110	9940d992-1ba1-40ec-9b93-17d773452c4b	Charging Strifeknight
+sos	111	0cda4235-4dce-48fe-a8a5-2a952dedbe25	Choreographed Sparks
 sos	112	8f3a1675-0cc7-4dfd-a12e-4740a2cf81e8	Duel Tactics
+sos	113a	f58dba4f-1abb-47a3-a684-29c32bab95c0	Emeritus of Conflict
+sos	113b	f58dba4f-1abb-47a3-a684-29c32bab95c0	Lightning Bolt (Prepared)
+sos	114	259b8c45-6241-4206-a34e-34c7f401f47b	Expressive Firedancer
+sos	115	1b832fda-d7c4-4566-884c-2a8b6da15488	Flashback
+sos	116	f11d2846-f181-4751-82ac-1e1ced6f46c7	Garrison Excavator
+sos	117a	c85c5f06-dd31-4e2c-97be-2f64d65069ea	Goblin Glasswright
+sos	117b	c85c5f06-dd31-4e2c-97be-2f64d65069ea	Craft with Pride
 sos	118	0038d212-3d95-4f98-8c2e-7b2404d0ced7	Heated Argument
+sos	119	39a816b4-39b8-421c-b828-68db901d34b7	Impractical Joke
 sos	120	d01fe6e9-49ee-4708-833e-75cd5a9f167c	Improvisation Capstone
+sos	121	2028792c-fd60-40d4-bff7-3b82dbe1ffb5	Living History
+sos	122a	5c88391d-271f-4021-a5d9-158ebc1e6357	Maelstrom Artisan
+sos	122b	5c88391d-271f-4021-a5d9-158ebc1e6357	Rocket Volley
+sos	123	4d611278-9948-4345-b4dd-aa6eaf21b233	Magmablood Archaic
+sos	124	949ad3ff-9e80-493c-a3ae-146b919bfcd7	Mica, Reader of Ruins
 sos	125	326dfe32-3674-4a11-acd8-5ba62371235a	Molten-Core Maestro
+sos	126a	c2faf4cf-c4b6-4721-ac06-0e045dd9704a	Pigment Wrangler
+sos	126b	c2faf4cf-c4b6-4721-ac06-0e045dd9704a	Striking Palette
+sos	127	06dd56bd-de92-4202-af31-7e881c34d799	Rearing Embermare
+sos	128	afe61957-a9bb-42b0-98e8-b5fa418cbaff	Rubble Rouser
 sos	129	4ddf4e34-a1f9-4636-942d-0a08e9f94320	Seize the Spoils
+sos	130	7ac6649f-980e-4404-9c05-458c30578ecc	Steal the Show
+sos	131a	8de79312-2046-425e-9919-49afe19be81b	Strife Scholar
+sos	131b	8de79312-2046-425e-9919-49afe19be81b	Awaken the Ages
+sos	132	13059664-a940-4a66-8100-0c90b884bab4	Tablet of Discovery
+sos	133	b87e2474-98c1-4c1a-91ed-340b72d31653	Tackle Artist
+sos	134	590d1d95-ed13-4121-899f-f5a2d8a6617a	Thunderdrum Soloist
+sos	135	72a3b17d-1e00-48e9-8402-c81bacd595a7	Tome Blast
+sos	136	2b7cb1a3-761e-470e-a164-6e29dd9448cd	Unsubtle Mockery
+sos	137	36ab2130-9f21-4d30-873a-aa72d3d15fa8	Zealous Lorecaster
+sos	138	797131cf-d80d-4050-bebd-2ce1d7fae5d0	Aberrant Manawurm
+sos	139	b44ec684-d558-45eb-bcd6-8119428634c2	Additive Evolution
+sos	140	85629088-2007-4db5-9397-bac12a3d7498	Ambitious Augmenter
+sos	141	95d5b0a8-2b66-418e-9e5e-ecf7b304c31e	Burrog Barrage
+sos	142	a82a4d8c-4105-4923-85a2-ef58241f725c	Chelonian Tackle
+sos	143	5223a04f-6b47-4379-80ce-8489c4a91734	Comforting Counsel
+sos	144	79b9ace7-eceb-4f97-9ee7-d5ee3e0b3515	Efflorescence
+sos	145a	ac095763-6f4e-4d4e-9c99-414646368f8d	Emeritus of Abundance
+sos	145b	ac095763-6f4e-4d4e-9c99-414646368f8d	Regrowth (Prepared)
+sos	146	3654416d-8558-4af2-9e10-18dbc8f2b376	Emil, Vastlands Roamer
+sos	147	f2bf6b36-43e4-49d9-98b2-cbb4304c248b	Environmental Scientist
+sos	148	f9488480-2b6c-40bc-a93e-29fb1292a2e4	Follow the Lumarets
+sos	149	abe8332f-c76e-44e2-9427-d1228453abec	Germination Practicum
+sos	150	a335f396-1004-4fee-842a-a35ff6ba17f2	Glorious Decay
+sos	151	030b1272-5990-4bc9-8fc1-82cc05602060	Hungry Graffalon
+sos	152a	911442e3-3003-4683-a766-e791e9553667	Infirmary Healer
+sos	152b	911442e3-3003-4683-a766-e791e9553667	Stream of Life (Prepared)
 sos	153	c5e7c856-8b71-44e6-8998-0b0b3ff0ef99	Lumaret's Favor
+sos	154	2c3a6eb8-ce0c-4dc8-9ed6-d2a9223eef53	Mindful Biomancer
+sos	155	3a028306-c5d7-4f8f-b6f4-0d103fd47000	Noxious Newt
 sos	156	0863a19d-4511-4a78-98dd-d194afd1c39b	Oracle's Restoration
+sos	157	c1251ae6-2f19-4f84-ab02-6a6cc7ce6056	Pestbrood Sloth
+sos	158	c83b96a3-ddfd-4d11-8a85-5bf62087cbb9	Planar Engineering
+sos	159	97f7fbb9-228c-4a74-975b-38d3b6cecb32	Shopkeeper's Bane
+sos	160	3a925370-58ac-4181-9acc-db7b0e0abf17	Slumbering Trudge
+sos	161	fc4c7fa2-aebb-4636-9afd-f1010c923316	Snarl Song
 sos	162a	24f888dd-785c-4089-a89c-03f9080130ed	Studious First-Year
-sos	162b	24f888dd-785c-4089-a89c-03f9080130ed	Rampant Growth
+sos	162b	24f888dd-785c-4089-a89c-03f9080130ed	Rampant Growth (Prepared)
+sos	163	376c8b7d-1c90-47e1-bd01-e4c67f3fc4fc	Tenured Concocter
+sos	164	f6cb838e-a06a-46ae-a30f-e5192178c1cc	Thornfist Striker
+sos	165	4f16a1c2-0a80-45e4-b025-3aa0c0b03812	Topiary Lecturer
+sos	166a	476b6a4d-cc05-4e98-8a45-a5c6582ec514	Vastlands Scavenger
+sos	166b	476b6a4d-cc05-4e98-8a45-a5c6582ec514	Bind to Life
+sos	167	04fdfabc-c247-4384-a5bb-f49035f8aae0	Wild Hypothesis
+sos	168	0e6e2188-7203-4d10-a838-27233f283cd5	Wildgrowth Archaic
+sos	169	a6597852-4267-4ea6-a391-f927e4833be2	Zimone's Experiment
 sos	170a	77285d12-e658-4eb3-ba13-ff202afab9c8	Abigale, Poet Laureate
 sos	170b	77285d12-e658-4eb3-ba13-ff202afab9c8	Heroic Stanza
+sos	171	ea008094-d995-4740-9b39-c61049356c55	Abstract Paintmage
+sos	172	f109f2eb-895b-44a6-b6b5-81bf3831ccd5	Applied Geometry
+sos	173	79d01c19-162b-4a12-9e27-18366d95eaa0	Ark of Hunger
+sos	174	6261e89a-dbf1-481a-823e-6bb00be57195	Aziza, Mage Tower Captain
 sos	175	75f89c36-c81d-4580-9a5c-218fed0c5c9a	Berta, Wise Extrapolator
+sos	176	f588fa50-7cc5-41ba-90df-2d252eb5c785	Blech, Loafing Pest
 sos	177	7a42f51a-3377-47bb-b6fb-c0515bf1dcfb	Bogwater Lumaret
+sos	178	a3226e14-554d-47c9-b8b6-dfeb53cc41ba	Borrowed Knowledge
+sos	179	b7091740-e70c-4cf2-8d3d-b8e1ac1fbbdd	Cauldron of Essence
 sos	180	f5b54d46-2caf-4d1b-8be1-dbd9e9dce058	Colorstorm Stallion
+sos	181	bfa7f0a4-6b65-4e53-ba00-848df260d8e3	Colossus of the Blood Age
 sos	182	e225929b-6197-4550-969e-3c4a97206a68	Conciliator's Duelist
 sos	183	6384d135-7780-4d75-9e95-71bce506948e	Cuboid Colony
+sos	184	775c1e50-08a4-413f-ab0f-f1c2a79cfe94	Dina's Guidance
 sos	185	c507eb1c-48e9-4d28-bb2d-71f2a9df9ab0	Elemental Mascot
+sos	186	c0cf5e0f-3668-46f2-850d-d91a538e8ead	Embrace the Paradox
+sos	187	2a3cba55-3fae-4d45-ae03-4d662ec13718	Essenceknit Scholar
+sos	188	c0cd1d71-8e4a-4e00-80cd-83aec231fa57	Fix What's Broken
 sos	189	cf5b19e3-eed1-4b36-9756-660ffb3baa08	Fractal Mascot
+sos	190	ea7f5262-4ddb-410a-be72-4bac6af9b4ec	Fractal Tender
+sos	191	ec0f3613-1edc-40e8-8f26-2e5ef13be55e	Geometer's Arthropod
 sos	192	62842fb4-8bd3-4d80-b4f9-5bc3c5cebd3a	Grapple with Death
+sos	193	1675a445-86ae-413b-b95a-a1c254a7f252	Growth Curve
 sos	194	06c9e8a7-2840-4cff-90af-c6636e598f78	Hardened Academic
+sos	195	d5df1c3f-2536-4476-b8cd-34b026c38366	Imperious Inkmage
 sos	196	6d4a2f39-0e1e-4076-815a-2676a09a1aab	Inkling Mascot
+sos	197	55ff776a-fc3b-4338-8864-d57a85b3f123	Killian's Confidence
 sos	198a	676ba521-66e4-42cf-a315-70d03cb7334e	Kirol, History Buff
 sos	198b	676ba521-66e4-42cf-a315-70d03cb7334e	Pack a Punch
 sos	199a	a0bcb638-c3c8-4973-9537-5c471f43f34f	Lluwen, Exchange Student
 sos	199b	a0bcb638-c3c8-4973-9537-5c471f43f34f	Pest Friend
 sos	200	5fe70295-e550-4577-a341-dab6c25aabfd	Lorehold Charm
 sos	201	71a6701f-40f1-43ef-bff5-a5907fd67cd6	Lorehold, the Historian
+sos	202	0a7f0fdf-1d4b-4458-a19c-274611e8a59a	Mind into Matter
+sos	203	9d5fdbda-ebbe-45d6-a668-5ddee057a063	Mind Roots
 sos	204	506f69aa-7dc4-4dd7-990a-7371fc1762c0	Molten Note
+sos	205	577d9dc8-7720-4dc9-b650-64b4729b309b	Moment of Reckoning
+sos	206	fd80a87d-35d3-4ad1-8172-c85e93032d1d	Nita, Forum Conciliator
 sos	207	eb7e858a-9b85-49b2-a379-ee656b64935a	Old-Growth Educator
+sos	208	d7cb1af2-0302-46ff-8303-ae9d07541a01	Paradox Surveyor
 sos	209	d882beb9-6766-4818-afbb-f6fd7a2d5b70	Pest Mascot
+sos	210	40075e3f-58b3-47fd-8fbe-4b301e9ce7a1	Practiced Scrollsmith
 sos	211	8f6c2a5e-fe13-407c-aadd-c9caf2884ff1	Prismari Charm
 sos	212	767ff9fa-4e7f-421a-b911-45186b520ae1	Prismari, the Inspiration
+sos	213	b127d543-0a90-4af6-9410-94d5cd30389e	Proctor's Gaze
 sos	214	6ff3b4d8-1271-4c5d-8834-7662244f173d	Professor Dellian Fel
+sos	215	ecd33152-e290-4505-addd-a8d08cefdddd	Pterafractyl
+sos	216	4584d5f7-b1f1-4c8e-80c5-ad35e44a968e	Pursue the Past
 sos	217	318486e0-f255-40f5-8150-dc272eec9d7d	Quandrix Charm
 sos	218	015afe31-af3c-4c9b-9997-d7c33b915a33	Quandrix, the Proof
+sos	219	21afe19d-881a-48cb-863e-22942bea5ebe	Rapturous Moment
+sos	220	25bbb1c7-14e8-444f-ab98-e95f50927460	Render Speechless
+sos	221	6ef168d6-28f2-4c24-9bfa-82c35663b729	Resonating Lute
+sos	222	5390a79c-bc4b-4edb-a845-0d3514986401	Root Manipulation
 sos	223a	173157aa-712d-44f2-89ba-dd2511a07f26	Sanar, Unfinished Genius
 sos	223b	173157aa-712d-44f2-89ba-dd2511a07f26	Wild Idea
+sos	224	69757177-aefa-44a6-81db-5ae9b5d2f117	Scolding Administrator
 sos	225	3eb73579-f1c6-4762-81d2-9568ab501fac	Silverquill Charm
 sos	226	1742c9cd-5ba0-4335-9999-acc7f9d4f73c	Silverquill, the Disputant
+sos	227	73d06987-8686-461b-b260-9a4fee6a3b32	Snooping Page
+sos	228	a04b6900-0436-4920-a0d4-c0186d605ae3	Social Snub
+sos	229	c90366d5-b4ba-4772-a3c5-f138bbe7f305	Spectacular Skywhale
 sos	230	123f1fde-d8de-4640-baa1-bb3781713168	Spirit Mascot
+sos	231	969b6657-c3b9-47e1-a42e-95bbcccf452d	Splatter Technique
+sos	232	a689289e-7141-4950-8a87-82e9bd6846fe	Stadium Tidalmage
+sos	233	f143fd41-58c3-45a0-bef8-e9e4b4a502a5	Startled Relic Sloth
+sos	234	ee84b04d-78fc-416f-9166-72e5417c3e17	Stirring Honormancer
 sos	235	1ec40a1b-51e7-4a35-966c-ab2a10f21a80	Stress Dream
+sos	236	135c0696-d86d-4e48-988c-5c218de451fc	Suspend Aggression
 sos	237a	7120e71b-2976-451b-89a7-a1665dc6fb6b	Tam, Observant Sequencer
 sos	237b	7120e71b-2976-451b-89a7-a1665dc6fb6b	Deep Sight
 sos	238	eaa358ac-761d-4507-aa15-3d4684027207	Teacher's Pest
+sos	239	2a812fa7-4599-4e25-97db-20ffc6bc0b26	Traumatic Critique
+sos	240	f9ba68ef-6efc-4249-8b74-e33f47173902	Vibrant Outburst
+sos	241	6fa9cd18-3181-4373-ab65-49bf9de9487f	Vicious Rivalry
+sos	242	846a0e79-a530-429e-8f7f-4b87f1b0156e	Visionary's Dance
+sos	243	f63f7209-fc0f-400c-8076-125f3131cb32	Wilt in the Heat
 sos	244	254437f7-7a8a-4b11-9cea-e8e7ea23c59e	Witherbloom Charm
 sos	245	ed7b2361-97c6-49e2-bf0b-4770f4ffe2f0	Witherbloom, the Balancer
+sos	246	5bdbf507-6fd7-49f6-b437-8f2ce2d0eb0f	Zaffai and the Tempests
 sos	247	bf2efdd9-d2b4-4bea-a5b9-dbb2eee4dfba	Biblioplex Tomekeeper
 sos	248	ee1e0a96-af80-444e-a456-5b256cf60625	Diary of Dreams
+sos	249	1ceb704a-97a8-49f9-b799-30f001404144	Mage Tower Referee
+sos	250	8c6fecfd-8241-4cf0-b1eb-19472b99e0ed	Page, Loose Leaf
+sos	251	2123b349-4649-4a15-a8b5-b54414d2b1b7	Potioner's Trove
+sos	252	87741fbb-b426-4f83-a358-587b0907f081	Strixhaven Skycoach
 sos	253	78897104-80e1-4d8a-9958-145b40f679e8	Deathcap Glade
 sos	254	ef662b92-5a7f-48c9-bcc1-14b55e091aef	Dreamroot Cascade
 sos	255	3dc7a4c3-c356-4fba-bea0-e8788da3eb57	Fields of Strife
 sos	256	1de6c6cc-0c55-4997-8623-d7f796bd9ab8	Forum of Amity
-sos	257	42d92674-2664-411c-b9c5-b04da7c845f4	"Big Book Building"
+sos	257	42d92674-2664-411c-b9c5-b04da7c845f4	Great Hall of the Biblioplex
 sos	258	dbc3447e-1329-4ea1-b4ca-b321b0ffec8f	Paradox Gardens
+sos	259	355dd460-b0e9-41f2-a058-b7f7e39ac387	Petrified Hamlet
 sos	260	5aa0c810-3b7d-4661-979e-e84fb327742d	Shattered Sanctum
 sos	261	6747657b-5ce4-4dbd-b924-ca1f7119faf7	Skycoach Waypoint
 sos	262	a0a66f7b-eab4-45da-8895-c2c2c7eb05f8	Spectacle Summit
@@ -93250,31 +93878,93 @@ sos	286	17dff19f-e732-44a3-907d-fa2982389653	Quandrix, the Proof
 sos	287	9477f2f4-2d82-412c-9af8-df66a3c457be	Silverquill, the Disputant
 sos	288	cc22696c-a9ef-48b7-a74a-7dd0a9c3d1bb	Witherbloom, the Balancer
 sos	289	d3605e6f-ea75-4c86-9ffa-79355a4695e5	The Dawning Archaic
+sos	290	83a32ec6-8322-4e4d-a4ff-5470adb05fda	Restoration Seminar
+sos	291	72a21e89-5988-4b8b-8e67-a915e74a54e2	Echocasting Symposium
+sos	292	6040e27f-ed10-410c-8ae5-cfcba35c0d4c	Decorum Dissertation
+sos	293	ae9009fa-4b52-422d-8ff3-f699089249d8	Tragedy Feaster
 sos	294	36985a8e-dcc0-4349-93d7-071370a75615	Improvisation Capstone
+sos	295	30f2d6a5-1e21-4d12-bd51-6e40683b0e72	Magmablood Archaic
+sos	296	df144bff-cdc8-46df-bbd2-6fdc93f04f04	Germination Practicum
+sos	297	d1861bc6-93d5-4b09-a5dd-94c0a0629e5f	Wildgrowth Archaic
+sos	298	df4fa3ab-30e3-4e82-a8b8-4fbaeab7870b	Blech, Loafing Pest
 sos	299	e8800c58-574f-4a77-bed9-2d99e8f5813c	Colorstorm Stallion
+sos	300	9278cfc3-7dcb-4b84-8646-4fb745fece9e	Geometer's Arthropod
 sos	301	dca82673-3788-4b92-8605-bedda45e5b16	Deathcap Glade
 sos	302	bb911ec9-4354-46af-8750-6920555eb1e7	Dreamroot Cascade
 sos	303	cfc3f81d-333f-4ac9-8374-082675e07ac1	Shattered Sanctum
 sos	304	36f6c636-3539-494f-abf9-62ea00fcedfd	Stormcarved Coast
 sos	305	ac70c9ae-5115-46db-9ef8-05c475c88154	Sundown Pass
 sos	306a	ef371352-ec8f-4da4-9085-67195068fb79	Emeritus of Ideation
-sos	306b	ef371352-ec8f-4da4-9085-67195068fb79	Ancestral Recall
+sos	306b	ef371352-ec8f-4da4-9085-67195068fb79	Ancestral Recall (Prepared)
 sos	307	82e4948e-5f2b-498f-8864-d46870910d83	Together as One
+sos	308	fbeda63a-ce34-4d84-8306-cb48353a52f8	Antiquities on the Loose
+sos	309a	bfd607c0-7ed7-4a4e-abdd-508080f40ef2	Emeritus of Truce
+sos	309b	bfd607c0-7ed7-4a4e-abdd-508080f40ef2	Swords to Plowshares (Prepared)
+sos	310	67af20f7-666f-48fb-863b-15bc5b17ab09	Erode
+sos	311	fe5d2001-0c56-44fc-92cb-dd250669f3b9	Informed Inkwright
 sos	312a	15d99a75-939e-4584-9b4a-8afd115bab2c	Joined Researchers
-sos	312b	15d99a75-939e-4584-9b4a-8afd115bab2c	Secret Rendezvous
+sos	312b	15d99a75-939e-4584-9b4a-8afd115bab2c	Secret Rendezvous (Prepared)
+sos	313	e22c20cf-69c2-4225-8011-00cd27ac4103	Practiced Offense
+sos	314	47eba7ac-d01c-4d17-a191-c6869cc5c3d2	Stirring Hopesinger
 sos	315a	d8e1e20c-03b9-446b-84d4-466377e50310	Emeritus of Ideation
-sos	315b	d8e1e20c-03b9-446b-84d4-466377e50310	Ancestral Recall
+sos	315b	d8e1e20c-03b9-446b-84d4-466377e50310	Ancestral Recall (Prepared)
 sos	316	44304d28-94da-4226-b713-b2c3a4b67e49	Exhibition Tidecaller
+sos	317a	c8f1baae-dd81-4e10-841e-15531ea1ffaa	Harmonized Trio
+sos	317b	c8f1baae-dd81-4e10-841e-15531ea1ffaa	Brainstorm (Prepared)
+sos	318a	92fcf155-41ae-4275-8791-27ee95a2f7c0	Jadzi, Steward of Fate
+sos	318b	92fcf155-41ae-4275-8791-27ee95a2f7c0	Oracle's Gift
+sos	319	fc6f7f7b-8a1e-4fe0-8a56-22c1c537aad9	Mana Sculpt
 sos	320	102d4882-9774-4370-aff3-370f7729d7dd	Mathemagics
 sos	321	f1c1cf3f-fbd6-45d9-9f74-b811cb489fa1	Pensive Professor
+sos	322a	f9092a09-78a8-421c-868b-115175f4c252	Skycoach Conductor
+sos	322b	f9092a09-78a8-421c-868b-115175f4c252	All Aboard
 sos	323	8fcd092c-c317-4b17-8d72-5232b4802b96	Wisdom of Ages
+sos	324a	26156da4-1ec3-4702-bded-9868af3026b5	Emeritus of Woe
+sos	324b	26156da4-1ec3-4702-bded-9868af3026b5	Demonic Tutor (Prepared)
 sos	325a	1d12804c-dda0-4dae-9eb8-f670e72c17e7	Grave Researcher
-sos	325b	1d12804c-dda0-4dae-9eb8-f670e72c17e7	Reanimate
+sos	325b	1d12804c-dda0-4dae-9eb8-f670e72c17e7	Reanimate (Prepared)
+sos	326	b5f7cc28-ab95-4880-ade6-b28245cf12af	Moseo, Vein's New Dean
+sos	327	96fbf6dc-f9f9-4568-a1a3-c65b7a9b455b	Postmortem Professor
+sos	328	cb66cb9b-9877-4146-901c-5f2cbfe86c73	Pox Plague
+sos	329a	1c4c2765-2fb0-43f2-9e50-934405d108d2	Scheming Silvertongue
+sos	329b	1c4c2765-2fb0-43f2-9e50-934405d108d2	Sign in Blood (Prepared)
 sos	330	e17f07de-7409-446d-8f21-09228f752bee	Withering Curse
+sos	331	bc3151db-7d49-4945-9c50-91f0e28f803d	Choreographed Sparks
+sos	332a	f11b8d24-375d-40dc-8497-c1ee779e156a	Emeritus of Conflict
+sos	332b	f11b8d24-375d-40dc-8497-c1ee779e156a	Lightning Bolt (Prepared)
+sos	333	6b7eb857-6617-4672-85e4-f1f5e661db50	Flashback
+sos	334a	8463c38a-0441-404e-b183-1f871f61f250	Maelstrom Artisan
+sos	334b	8463c38a-0441-404e-b183-1f871f61f250	Rocket Volley
 sos	335	cb23a7c0-126a-4ed9-b46d-11cfe371c381	Molten-Core Maestro
+sos	336	eeee78ed-5cb9-4768-87d3-567f1b0ba305	Steal the Show
+sos	337	0319c982-e257-42fc-bb85-79da3a6dd6c1	Ambitious Augmenter
+sos	338	2ffdf0cc-aa53-4ec0-bed5-e3a04bbabdc6	Comforting Counsel
+sos	339a	2b7e8e07-b3ff-496e-923f-42d703f20a1e	Emeritus of Abundance
+sos	339b	2b7e8e07-b3ff-496e-923f-42d703f20a1e	Regrowth (Prepared)
+sos	340	b1a2df2a-4578-46cd-8b6c-802a5af8d082	Planar Engineering
+sos	341	5c16cb0f-9e3f-4176-9939-f418cdf4e6fb	Slumbering Trudge
+sos	342a	91db5c3d-45ab-440f-8568-a2837aee1fca	Vastlands Scavenger
+sos	342b	91db5c3d-45ab-440f-8568-a2837aee1fca	Bind to Life
+sos	343	03b07915-1d88-4f11-ad35-a0cd849de977	Applied Geometry
+sos	344	33669848-23ce-4738-9401-469b03f0fd6e	Ark of Hunger
+sos	345	ddc2c9fa-c2e4-460f-b043-84e09055421b	Aziza, Mage Tower Captain
 sos	346	5bead52e-862e-47aa-916c-79585eb2e7ab	Berta, Wise Extrapolator
+sos	347	96c53f07-b34c-4cc7-a054-f0bdfa48b975	Cauldron of Essence
 sos	348	b654da8c-8e93-4d2b-9b10-4b55241bcfbc	Conciliator's Duelist
+sos	349	f6d3a29c-e698-4af3-897e-5e00e0b55ef5	Dina's Guidance
+sos	350	0e91ece4-1e22-4b24-86c7-23d105df1abc	Fix What's Broken
 sos	351	da72de84-ba2d-4f75-adcd-241d9751c8e4	Hardened Academic
+sos	352	e5886a17-e1ed-4d3f-b12f-392a7b5e7d7d	Mind into Matter
+sos	353	bf7fd85e-efdf-4627-997e-02c073683bac	Moment of Reckoning
+sos	354	3e0c2dec-7649-495c-b2a7-2465c9e7fedb	Nita, Forum Conciliator
+sos	355	7151c183-24e4-4748-a513-0f2652fdd6ef	Resonating Lute
+sos	356	266b881f-a0a8-4058-bbfe-cc46518f839d	Splatter Technique
+sos	357	004fdcbe-6dc9-40ad-9467-b89b72a4a8ca	Suspend Aggression
+sos	358	0b79a6ac-85e7-4941-b7d6-e8a6fbbdded8	Traumatic Critique
+sos	359	532abbc7-017d-4081-87fc-b0e8bfd804a1	Vicious Rivalry
+sos	360	3f0fff0a-51be-4c3e-b9f5-6bc6999475d1	Zaffai and the Tempests
+sos	361	a4344235-8598-4a3b-89fe-bd68372b3b2b	Great Hall of the Biblioplex
+sos	362	ed72d052-d287-448a-bbc5-969ebb1fcb68	Petrified Hamlet
 sos	363	6686e584-d8ad-430f-a654-3d74a355c1d1	Lorehold Charm
 sos	364	dad9d807-316a-4707-949c-9b826b971a83	Prismari Charm
 sos	365	97fe8ef0-6de1-4074-b5b5-99c23a31a11b	Quandrix Charm
@@ -108368,7 +109058,6 @@ znr	A-198	52abea40-2736-49a8-a372-16b7b93d510a	Oran-Rief Ooze (Alchemy)
 znr	A-224	13d44c40-cdd0-42d5-a250-e7d95ae926c0	Kargan Warleader (Alchemy)
 znr	A-228	dd748df0-b7af-4438-b567-5fabe0731438	Moss-Pit Skeleton (Alchemy)
 znr	A-230	02e33233-fc29-489b-bcf4-fa7d771db0cc	Nahiri, Heir of the Ancients (Alchemy)
-znr	A-232	b5f5fbd5-b045-4da7-a996-54f163b35b8d	Omnath, Locus of Creation (Alchemy)
 znr	A-234	e0c4a2f5-b942-4c94-b28c-e04d0609cfb3	Phylath, World Sculptor (Alchemy)
 znr	A-238	559ebc64-3412-413f-8ef3-f058a0d60f33	Umara Mystic (Alchemy)
 znr	A-257	b56f7e2a-150c-4daa-811c-a0347ff850bf	Base Camp (Alchemy)

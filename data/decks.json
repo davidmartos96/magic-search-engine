@@ -23497,6 +23497,75 @@
     "display": ""
   },
   {
+    "name": "Sampler Booster",
+    "type": "Welcome Booster",
+    "category": "box",
+    "set_name": "Eighth Edition",
+    "set_code": "8ed",
+    "release_date": "2003-07-28",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Aven Flock",
+          "count": 1,
+          "set": "8ED"
+        },
+        {
+          "name": "Remove Soul",
+          "count": 1,
+          "set": "8ED"
+        },
+        {
+          "name": "Gravedigger",
+          "count": 1,
+          "set": "8ED"
+        },
+        {
+          "name": "Volcanic Hammer",
+          "count": 1,
+          "set": "8ED"
+        },
+        {
+          "name": "Craw Wurm",
+          "count": 1,
+          "set": "8ED"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "8ED",
+          "number": "333"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "8ED",
+          "number": "336"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "8ED",
+          "number": "341"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "8ED",
+          "number": "346"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "8ED",
+          "number": "347"
+        }
+      ]
+    },
+    "source": "https://www.magiclibrarities.net/1339-rarities-mtg-demo-game-boosters-and-samplers-english-cards-index.html",
+    "display": ""
+  },
+  {
     "name": "Silver Deck",
     "type": "Starter Deck",
     "category": "deck",
@@ -158697,7 +158766,9 @@
       "Main Deck": [
         {
           "name": "Lyra Dawnbringer",
-          "count": 2
+          "count": 2,
+          "set": "FDN",
+          "number": "707"
         },
         {
           "name": "Lightstall Inquisitor",
@@ -158721,7 +158792,9 @@
         },
         {
           "name": "Exemplar of Light",
-          "count": 3
+          "count": 3,
+          "set": "FDN",
+          "number": "11"
         },
         {
           "name": "Llanowar Elves",
@@ -158737,7 +158810,9 @@
         },
         {
           "name": "Inspiring Overseer",
-          "count": 4
+          "count": 4,
+          "set": "FDN",
+          "number": "496"
         },
         {
           "name": "Chomping Changeling",
@@ -158770,6 +158845,1658 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/feature/lorwyn-eclipsed-60-card-theme-deck-contents-and-guide",
+    "display": ""
+  },
+  {
+    "name": "Lorwyn Eclipsed Redemption",
+    "type": "MTGO Redemption",
+    "category": "box",
+    "set_name": "Lorwyn Eclipsed",
+    "set_code": "ecl",
+    "release_date": "2026-02-11",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Abigale, Eloquent First-Year",
+          "count": 1,
+          "set": "ECL",
+          "number": "204"
+        },
+        {
+          "name": "Adept Watershaper",
+          "count": 1,
+          "set": "ECL",
+          "number": "3"
+        },
+        {
+          "name": "Ajani, Outland Chaperone",
+          "count": 1,
+          "set": "ECL",
+          "number": "4"
+        },
+        {
+          "name": "Appeal to Eirdu",
+          "count": 1,
+          "set": "ECL",
+          "number": "5"
+        },
+        {
+          "name": "Aquitect's Defenses",
+          "count": 1,
+          "set": "ECL",
+          "number": "44"
+        },
+        {
+          "name": "Ashling's Command",
+          "count": 1,
+          "set": "ECL",
+          "number": "205"
+        },
+        {
+          "name": "Ashling, Rekindled",
+          "count": 1,
+          "set": "ECL",
+          "number": "124a"
+        },
+        {
+          "name": "Assert Perfection",
+          "count": 1,
+          "set": "ECL",
+          "number": "164"
+        },
+        {
+          "name": "Auntie's Sentence",
+          "count": 1,
+          "set": "ECL",
+          "number": "85"
+        },
+        {
+          "name": "Aurora Awakener",
+          "count": 1,
+          "set": "ECL",
+          "number": "165"
+        },
+        {
+          "name": "Barbed Bloodletter",
+          "count": 1,
+          "set": "ECL",
+          "number": "86"
+        },
+        {
+          "name": "Bark of Doran",
+          "count": 1,
+          "set": "ECL",
+          "number": "6"
+        },
+        {
+          "name": "Bile-Vial Boggart",
+          "count": 1,
+          "set": "ECL",
+          "number": "87"
+        },
+        {
+          "name": "Bitterbloom Bearer",
+          "count": 1,
+          "set": "ECL",
+          "number": "88"
+        },
+        {
+          "name": "Blight Rot",
+          "count": 1,
+          "set": "ECL",
+          "number": "89"
+        },
+        {
+          "name": "Blighted Blackthorn",
+          "count": 1,
+          "set": "ECL",
+          "number": "90"
+        },
+        {
+          "name": "Blood Crypt",
+          "count": 1,
+          "set": "ECL",
+          "number": "262"
+        },
+        {
+          "name": "Bloodline Bidding",
+          "count": 1,
+          "set": "ECL",
+          "number": "91"
+        },
+        {
+          "name": "Bloom Tender",
+          "count": 1,
+          "set": "ECL",
+          "number": "166"
+        },
+        {
+          "name": "Blossombind",
+          "count": 1,
+          "set": "ECL",
+          "number": "45"
+        },
+        {
+          "name": "Blossoming Defense",
+          "count": 1,
+          "set": "ECL",
+          "number": "167"
+        },
+        {
+          "name": "Boggart Cursecrafter",
+          "count": 1,
+          "set": "ECL",
+          "number": "206"
+        },
+        {
+          "name": "Boggart Mischief",
+          "count": 1,
+          "set": "ECL",
+          "number": "92"
+        },
+        {
+          "name": "Boggart Prankster",
+          "count": 1,
+          "set": "ECL",
+          "number": "93"
+        },
+        {
+          "name": "Bogslither's Embrace",
+          "count": 1,
+          "set": "ECL",
+          "number": "94"
+        },
+        {
+          "name": "Boldwyr Aggressor",
+          "count": 1,
+          "set": "ECL",
+          "number": "125"
+        },
+        {
+          "name": "Boneclub Berserker",
+          "count": 1,
+          "set": "ECL",
+          "number": "126"
+        },
+        {
+          "name": "Boulder Dash",
+          "count": 1,
+          "set": "ECL",
+          "number": "127"
+        },
+        {
+          "name": "Brambleback Brute",
+          "count": 1,
+          "set": "ECL",
+          "number": "128"
+        },
+        {
+          "name": "Bre of Clan Stoutarm",
+          "count": 1,
+          "set": "ECL",
+          "number": "207"
+        },
+        {
+          "name": "Brigid's Command",
+          "count": 1,
+          "set": "ECL",
+          "number": "208"
+        },
+        {
+          "name": "Brigid, Clachan's Heart",
+          "count": 1,
+          "set": "ECL",
+          "number": "7a"
+        },
+        {
+          "name": "Bristlebane Battler",
+          "count": 1,
+          "set": "ECL",
+          "number": "168"
+        },
+        {
+          "name": "Bristlebane Outrider",
+          "count": 1,
+          "set": "ECL",
+          "number": "169"
+        },
+        {
+          "name": "Burdened Stoneback",
+          "count": 1,
+          "set": "ECL",
+          "number": "8"
+        },
+        {
+          "name": "Burning Curiosity",
+          "count": 1,
+          "set": "ECL",
+          "number": "129"
+        },
+        {
+          "name": "Catharsis",
+          "count": 1,
+          "set": "ECL",
+          "number": "209"
+        },
+        {
+          "name": "Celestial Reunion",
+          "count": 1,
+          "set": "ECL",
+          "number": "170"
+        },
+        {
+          "name": "Champion of the Clachan",
+          "count": 1,
+          "set": "ECL",
+          "number": "9"
+        },
+        {
+          "name": "Champion of the Path",
+          "count": 1,
+          "set": "ECL",
+          "number": "130"
+        },
+        {
+          "name": "Champion of the Weird",
+          "count": 1,
+          "set": "ECL",
+          "number": "95"
+        },
+        {
+          "name": "Champions of the Perfect",
+          "count": 1,
+          "set": "ECL",
+          "number": "171"
+        },
+        {
+          "name": "Champions of the Shoal",
+          "count": 1,
+          "set": "ECL",
+          "number": "46"
+        },
+        {
+          "name": "Changeling Wayfinder",
+          "count": 1,
+          "set": "ECL",
+          "number": "1"
+        },
+        {
+          "name": "Chaos Spewer",
+          "count": 1,
+          "set": "ECL",
+          "number": "210"
+        },
+        {
+          "name": "Chitinous Graspling",
+          "count": 1,
+          "set": "ECL",
+          "number": "211"
+        },
+        {
+          "name": "Chomping Changeling",
+          "count": 1,
+          "set": "ECL",
+          "number": "172"
+        },
+        {
+          "name": "Chronicle of Victory",
+          "count": 1,
+          "set": "ECL",
+          "number": "253"
+        },
+        {
+          "name": "Cinder Strike",
+          "count": 1,
+          "set": "ECL",
+          "number": "131"
+        },
+        {
+          "name": "Clachan Festival",
+          "count": 1,
+          "set": "ECL",
+          "number": "10"
+        },
+        {
+          "name": "Collective Inferno",
+          "count": 1,
+          "set": "ECL",
+          "number": "132"
+        },
+        {
+          "name": "Creakwood Safewright",
+          "count": 1,
+          "set": "ECL",
+          "number": "96"
+        },
+        {
+          "name": "Crib Swap",
+          "count": 1,
+          "set": "ECL",
+          "number": "11"
+        },
+        {
+          "name": "Crossroads Watcher",
+          "count": 1,
+          "set": "ECL",
+          "number": "173"
+        },
+        {
+          "name": "Curious Colossus",
+          "count": 1,
+          "set": "ECL",
+          "number": "12"
+        },
+        {
+          "name": "Darkness Descends",
+          "count": 1,
+          "set": "ECL",
+          "number": "97"
+        },
+        {
+          "name": "Dawn's Light Archer",
+          "count": 1,
+          "set": "ECL",
+          "number": "174"
+        },
+        {
+          "name": "Dawn-Blessed Pennant",
+          "count": 1,
+          "set": "ECL",
+          "number": "254"
+        },
+        {
+          "name": "Dawnhand Dissident",
+          "count": 1,
+          "set": "ECL",
+          "number": "98"
+        },
+        {
+          "name": "Dawnhand Eulogist",
+          "count": 1,
+          "set": "ECL",
+          "number": "99"
+        },
+        {
+          "name": "Deceit",
+          "count": 1,
+          "set": "ECL",
+          "number": "212"
+        },
+        {
+          "name": "Deepchannel Duelist",
+          "count": 1,
+          "set": "ECL",
+          "number": "213"
+        },
+        {
+          "name": "Deepway Navigator",
+          "count": 1,
+          "set": "ECL",
+          "number": "214"
+        },
+        {
+          "name": "Disruptor of Currents",
+          "count": 1,
+          "set": "ECL",
+          "number": "47"
+        },
+        {
+          "name": "Doran, Besieged by Time",
+          "count": 1,
+          "set": "ECL",
+          "number": "215"
+        },
+        {
+          "name": "Dose of Dawnglow",
+          "count": 1,
+          "set": "ECL",
+          "number": "100"
+        },
+        {
+          "name": "Dream Harvest",
+          "count": 1,
+          "set": "ECL",
+          "number": "216"
+        },
+        {
+          "name": "Dream Seizer",
+          "count": 1,
+          "set": "ECL",
+          "number": "101"
+        },
+        {
+          "name": "Dundoolin Weaver",
+          "count": 1,
+          "set": "ECL",
+          "number": "175"
+        },
+        {
+          "name": "Eclipsed Boggart",
+          "count": 1,
+          "set": "ECL",
+          "number": "217"
+        },
+        {
+          "name": "Eclipsed Elf",
+          "count": 1,
+          "set": "ECL",
+          "number": "218"
+        },
+        {
+          "name": "Eclipsed Flamekin",
+          "count": 1,
+          "set": "ECL",
+          "number": "219"
+        },
+        {
+          "name": "Eclipsed Kithkin",
+          "count": 1,
+          "set": "ECL",
+          "number": "220"
+        },
+        {
+          "name": "Eclipsed Merrow",
+          "count": 1,
+          "set": "ECL",
+          "number": "221"
+        },
+        {
+          "name": "Eclipsed Realms",
+          "count": 1,
+          "set": "ECL",
+          "number": "263"
+        },
+        {
+          "name": "Eirdu, Carrier of Dawn",
+          "count": 1,
+          "set": "ECL",
+          "number": "13a"
+        },
+        {
+          "name": "Elder Auntie",
+          "count": 1,
+          "set": "ECL",
+          "number": "133"
+        },
+        {
+          "name": "Emptiness",
+          "count": 1,
+          "set": "ECL",
+          "number": "222"
+        },
+        {
+          "name": "Encumbered Reejerey",
+          "count": 1,
+          "set": "ECL",
+          "number": "14"
+        },
+        {
+          "name": "End-Blaze Epiphany",
+          "count": 1,
+          "set": "ECL",
+          "number": "134"
+        },
+        {
+          "name": "Enraged Flamecaster",
+          "count": 1,
+          "set": "ECL",
+          "number": "135"
+        },
+        {
+          "name": "Evershrike's Gift",
+          "count": 1,
+          "set": "ECL",
+          "number": "15"
+        },
+        {
+          "name": "Evolving Wilds",
+          "count": 1,
+          "set": "ECL",
+          "number": "264"
+        },
+        {
+          "name": "Explosive Prodigy",
+          "count": 1,
+          "set": "ECL",
+          "number": "136"
+        },
+        {
+          "name": "Feed the Flames",
+          "count": 1,
+          "set": "ECL",
+          "number": "137"
+        },
+        {
+          "name": "Feisty Spikeling",
+          "count": 1,
+          "set": "ECL",
+          "number": "223"
+        },
+        {
+          "name": "Figure of Fable",
+          "count": 1,
+          "set": "ECL",
+          "number": "224"
+        },
+        {
+          "name": "Firdoch Core",
+          "count": 1,
+          "set": "ECL",
+          "number": "255"
+        },
+        {
+          "name": "Flame-Chain Mauler",
+          "count": 1,
+          "set": "ECL",
+          "number": "138"
+        },
+        {
+          "name": "Flamebraider",
+          "count": 1,
+          "set": "ECL",
+          "number": "139"
+        },
+        {
+          "name": "Flamekin Gildweaver",
+          "count": 1,
+          "set": "ECL",
+          "number": "140"
+        },
+        {
+          "name": "Flaring Cinder",
+          "count": 1,
+          "set": "ECL",
+          "number": "225"
+        },
+        {
+          "name": "Flitterwing Nuisance",
+          "count": 1,
+          "set": "ECL",
+          "number": "48"
+        },
+        {
+          "name": "Flock Impostor",
+          "count": 1,
+          "set": "ECL",
+          "number": "16"
+        },
+        {
+          "name": "Foraging Wickermaw",
+          "count": 1,
+          "set": "ECL",
+          "number": "256"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "ECL",
+          "number": "273"
+        },
+        {
+          "name": "Formidable Speaker",
+          "count": 1,
+          "set": "ECL",
+          "number": "176"
+        },
+        {
+          "name": "Gallant Fowlknight",
+          "count": 1,
+          "set": "ECL",
+          "number": "17"
+        },
+        {
+          "name": "Gangly Stompling",
+          "count": 1,
+          "set": "ECL",
+          "number": "226"
+        },
+        {
+          "name": "Gathering Stone",
+          "count": 1,
+          "set": "ECL",
+          "number": "257"
+        },
+        {
+          "name": "Giantfall",
+          "count": 1,
+          "set": "ECL",
+          "number": "141"
+        },
+        {
+          "name": "Gilt-Leaf's Embrace",
+          "count": 1,
+          "set": "ECL",
+          "number": "177"
+        },
+        {
+          "name": "Glamer Gifter",
+          "count": 1,
+          "set": "ECL",
+          "number": "49"
+        },
+        {
+          "name": "Glamermite",
+          "count": 1,
+          "set": "ECL",
+          "number": "50"
+        },
+        {
+          "name": "Glen Elendra Guardian",
+          "count": 1,
+          "set": "ECL",
+          "number": "51"
+        },
+        {
+          "name": "Glen Elendra's Answer",
+          "count": 1,
+          "set": "ECL",
+          "number": "52"
+        },
+        {
+          "name": "Glister Bairn",
+          "count": 1,
+          "set": "ECL",
+          "number": "227"
+        },
+        {
+          "name": "Gloom Ripper",
+          "count": 1,
+          "set": "ECL",
+          "number": "102"
+        },
+        {
+          "name": "Gnarlbark Elm",
+          "count": 1,
+          "set": "ECL",
+          "number": "103"
+        },
+        {
+          "name": "Goatnap",
+          "count": 1,
+          "set": "ECL",
+          "number": "142"
+        },
+        {
+          "name": "Goldmeadow Nomad",
+          "count": 1,
+          "set": "ECL",
+          "number": "18"
+        },
+        {
+          "name": "Goliath Daydreamer",
+          "count": 1,
+          "set": "ECL",
+          "number": "143"
+        },
+        {
+          "name": "Gravelgill Scoundrel",
+          "count": 1,
+          "set": "ECL",
+          "number": "53"
+        },
+        {
+          "name": "Graveshifter",
+          "count": 1,
+          "set": "ECL",
+          "number": "104"
+        },
+        {
+          "name": "Great Forest Druid",
+          "count": 1,
+          "set": "ECL",
+          "number": "178"
+        },
+        {
+          "name": "Gristle Glutton",
+          "count": 1,
+          "set": "ECL",
+          "number": "144"
+        },
+        {
+          "name": "Grub's Command",
+          "count": 1,
+          "set": "ECL",
+          "number": "228"
+        },
+        {
+          "name": "Grub, Storied Matriarch",
+          "count": 1,
+          "set": "ECL",
+          "number": "105a"
+        },
+        {
+          "name": "Gutsplitter Gang",
+          "count": 1,
+          "set": "ECL",
+          "number": "106"
+        },
+        {
+          "name": "Hallowed Fountain",
+          "count": 1,
+          "set": "ECL",
+          "number": "265"
+        },
+        {
+          "name": "Harmonized Crescendo",
+          "count": 1,
+          "set": "ECL",
+          "number": "54"
+        },
+        {
+          "name": "Heirloom Auntie",
+          "count": 1,
+          "set": "ECL",
+          "number": "107"
+        },
+        {
+          "name": "Hexing Squelcher",
+          "count": 1,
+          "set": "ECL",
+          "number": "145"
+        },
+        {
+          "name": "High Perfect Morcant",
+          "count": 1,
+          "set": "ECL",
+          "number": "229"
+        },
+        {
+          "name": "Hovel Hurler",
+          "count": 1,
+          "set": "ECL",
+          "number": "230"
+        },
+        {
+          "name": "Illusion Spinners",
+          "count": 1,
+          "set": "ECL",
+          "number": "55"
+        },
+        {
+          "name": "Impolite Entrance",
+          "count": 1,
+          "set": "ECL",
+          "number": "146"
+        },
+        {
+          "name": "Iron-Shield Elf",
+          "count": 1,
+          "set": "ECL",
+          "number": "108"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "ECL",
+          "number": "270"
+        },
+        {
+          "name": "Keep Out",
+          "count": 1,
+          "set": "ECL",
+          "number": "19"
+        },
+        {
+          "name": "Kinbinding",
+          "count": 1,
+          "set": "ECL",
+          "number": "20"
+        },
+        {
+          "name": "Kindle the Inner Flame",
+          "count": 1,
+          "set": "ECL",
+          "number": "147"
+        },
+        {
+          "name": "Kinsbaile Aspirant",
+          "count": 1,
+          "set": "ECL",
+          "number": "21"
+        },
+        {
+          "name": "Kinscaer Sentry",
+          "count": 1,
+          "set": "ECL",
+          "number": "22"
+        },
+        {
+          "name": "Kirol, Attentive First-Year",
+          "count": 1,
+          "set": "ECL",
+          "number": "231"
+        },
+        {
+          "name": "Kithkeeper",
+          "count": 1,
+          "set": "ECL",
+          "number": "23"
+        },
+        {
+          "name": "Kulrath Mystic",
+          "count": 1,
+          "set": "ECL",
+          "number": "56"
+        },
+        {
+          "name": "Kulrath Zealot",
+          "count": 1,
+          "set": "ECL",
+          "number": "148"
+        },
+        {
+          "name": "Lasting Tarfire",
+          "count": 1,
+          "set": "ECL",
+          "number": "149"
+        },
+        {
+          "name": "Lavaleaper",
+          "count": 1,
+          "set": "ECL",
+          "number": "150"
+        },
+        {
+          "name": "Liminal Hold",
+          "count": 1,
+          "set": "ECL",
+          "number": "24"
+        },
+        {
+          "name": "Lluwen, Imperfect Naturalist",
+          "count": 1,
+          "set": "ECL",
+          "number": "232"
+        },
+        {
+          "name": "Loch Mare",
+          "count": 1,
+          "set": "ECL",
+          "number": "57"
+        },
+        {
+          "name": "Lofty Dreams",
+          "count": 1,
+          "set": "ECL",
+          "number": "58"
+        },
+        {
+          "name": "Luminollusk",
+          "count": 1,
+          "set": "ECL",
+          "number": "179"
+        },
+        {
+          "name": "Lys Alana Dignitary",
+          "count": 1,
+          "set": "ECL",
+          "number": "180"
+        },
+        {
+          "name": "Lys Alana Informant",
+          "count": 1,
+          "set": "ECL",
+          "number": "181"
+        },
+        {
+          "name": "Maralen, Fae Ascendant",
+          "count": 1,
+          "set": "ECL",
+          "number": "233"
+        },
+        {
+          "name": "Meanders Guide",
+          "count": 1,
+          "set": "ECL",
+          "number": "25"
+        },
+        {
+          "name": "Meek Attack",
+          "count": 1,
+          "set": "ECL",
+          "number": "151"
+        },
+        {
+          "name": "Merrow Skyswimmer",
+          "count": 1,
+          "set": "ECL",
+          "number": "234"
+        },
+        {
+          "name": "Midnight Tilling",
+          "count": 1,
+          "set": "ECL",
+          "number": "182"
+        },
+        {
+          "name": "Mirrorform",
+          "count": 1,
+          "set": "ECL",
+          "number": "59"
+        },
+        {
+          "name": "Mirrormind Crown",
+          "count": 1,
+          "set": "ECL",
+          "number": "258"
+        },
+        {
+          "name": "Mischievous Sneakling",
+          "count": 1,
+          "set": "ECL",
+          "number": "235"
+        },
+        {
+          "name": "Mistmeadow Council",
+          "count": 1,
+          "set": "ECL",
+          "number": "183"
+        },
+        {
+          "name": "Moon-Vigil Adherents",
+          "count": 1,
+          "set": "ECL",
+          "number": "184"
+        },
+        {
+          "name": "Moonglove Extractor",
+          "count": 1,
+          "set": "ECL",
+          "number": "109"
+        },
+        {
+          "name": "Moonlit Lamenter",
+          "count": 1,
+          "set": "ECL",
+          "number": "26"
+        },
+        {
+          "name": "Moonshadow",
+          "count": 1,
+          "set": "ECL",
+          "number": "110"
+        },
+        {
+          "name": "Morcant's Eyes",
+          "count": 1,
+          "set": "ECL",
+          "number": "185"
+        },
+        {
+          "name": "Morcant's Loyalist",
+          "count": 1,
+          "set": "ECL",
+          "number": "236"
+        },
+        {
+          "name": "Morningtide's Light",
+          "count": 1,
+          "set": "ECL",
+          "number": "27"
+        },
+        {
+          "name": "Mornsong Aria",
+          "count": 1,
+          "set": "ECL",
+          "number": "111"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "ECL",
+          "number": "272"
+        },
+        {
+          "name": "Mudbutton Cursetosser",
+          "count": 1,
+          "set": "ECL",
+          "number": "112"
+        },
+        {
+          "name": "Mutable Explorer",
+          "count": 1,
+          "set": "ECL",
+          "number": "186"
+        },
+        {
+          "name": "Nameless Inversion",
+          "count": 1,
+          "set": "ECL",
+          "number": "113"
+        },
+        {
+          "name": "Nightmare Sower",
+          "count": 1,
+          "set": "ECL",
+          "number": "114"
+        },
+        {
+          "name": "Noggle Robber",
+          "count": 1,
+          "set": "ECL",
+          "number": "237"
+        },
+        {
+          "name": "Noggle the Mind",
+          "count": 1,
+          "set": "ECL",
+          "number": "60"
+        },
+        {
+          "name": "Oko, Lorwyn Liege",
+          "count": 1,
+          "set": "ECL",
+          "number": "61a"
+        },
+        {
+          "name": "Omni-Changeling",
+          "count": 1,
+          "set": "ECL",
+          "number": "62"
+        },
+        {
+          "name": "Overgrown Tomb",
+          "count": 1,
+          "set": "ECL",
+          "number": "266"
+        },
+        {
+          "name": "Perfect Intimidation",
+          "count": 1,
+          "set": "ECL",
+          "number": "115"
+        },
+        {
+          "name": "Personify",
+          "count": 1,
+          "set": "ECL",
+          "number": "28"
+        },
+        {
+          "name": "Pestered Wellguard",
+          "count": 1,
+          "set": "ECL",
+          "number": "63"
+        },
+        {
+          "name": "Pitiless Fists",
+          "count": 1,
+          "set": "ECL",
+          "number": "187"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "ECL",
+          "number": "269"
+        },
+        {
+          "name": "Prideful Feastling",
+          "count": 1,
+          "set": "ECL",
+          "number": "238"
+        },
+        {
+          "name": "Prismabasher",
+          "count": 1,
+          "set": "ECL",
+          "number": "188"
+        },
+        {
+          "name": "Prismatic Undercurrents",
+          "count": 1,
+          "set": "ECL",
+          "number": "189"
+        },
+        {
+          "name": "Protective Response",
+          "count": 1,
+          "set": "ECL",
+          "number": "29"
+        },
+        {
+          "name": "Puca's Eye",
+          "count": 1,
+          "set": "ECL",
+          "number": "259"
+        },
+        {
+          "name": "Pummeler for Hire",
+          "count": 1,
+          "set": "ECL",
+          "number": "190"
+        },
+        {
+          "name": "Pyrrhic Strike",
+          "count": 1,
+          "set": "ECL",
+          "number": "30"
+        },
+        {
+          "name": "Raiding Schemes",
+          "count": 1,
+          "set": "ECL",
+          "number": "239"
+        },
+        {
+          "name": "Reaping Willow",
+          "count": 1,
+          "set": "ECL",
+          "number": "240"
+        },
+        {
+          "name": "Reckless Ransacking",
+          "count": 1,
+          "set": "ECL",
+          "number": "152"
+        },
+        {
+          "name": "Reluctant Dounguard",
+          "count": 1,
+          "set": "ECL",
+          "number": "31"
+        },
+        {
+          "name": "Requiting Hex",
+          "count": 1,
+          "set": "ECL",
+          "number": "116"
+        },
+        {
+          "name": "Retched Wretch",
+          "count": 1,
+          "set": "ECL",
+          "number": "117"
+        },
+        {
+          "name": "Rhys, the Evermore",
+          "count": 1,
+          "set": "ECL",
+          "number": "32"
+        },
+        {
+          "name": "Rime Chill",
+          "count": 1,
+          "set": "ECL",
+          "number": "64"
+        },
+        {
+          "name": "Rimefire Torque",
+          "count": 1,
+          "set": "ECL",
+          "number": "65"
+        },
+        {
+          "name": "Rimekin Recluse",
+          "count": 1,
+          "set": "ECL",
+          "number": "66"
+        },
+        {
+          "name": "Riverguard's Reflexes",
+          "count": 1,
+          "set": "ECL",
+          "number": "33"
+        },
+        {
+          "name": "Rooftop Percher",
+          "count": 1,
+          "set": "ECL",
+          "number": "2"
+        },
+        {
+          "name": "Run Away Together",
+          "count": 1,
+          "set": "ECL",
+          "number": "67"
+        },
+        {
+          "name": "Safewright Cavalry",
+          "count": 1,
+          "set": "ECL",
+          "number": "191"
+        },
+        {
+          "name": "Sanar, Innovative First-Year",
+          "count": 1,
+          "set": "ECL",
+          "number": "241"
+        },
+        {
+          "name": "Sapling Nursery",
+          "count": 1,
+          "set": "ECL",
+          "number": "192"
+        },
+        {
+          "name": "Scarblade Scout",
+          "count": 1,
+          "set": "ECL",
+          "number": "118"
+        },
+        {
+          "name": "Scarblade's Malice",
+          "count": 1,
+          "set": "ECL",
+          "number": "119"
+        },
+        {
+          "name": "Scuzzback Scrounger",
+          "count": 1,
+          "set": "ECL",
+          "number": "153"
+        },
+        {
+          "name": "Sear",
+          "count": 1,
+          "set": "ECL",
+          "number": "154"
+        },
+        {
+          "name": "Selfless Safewright",
+          "count": 1,
+          "set": "ECL",
+          "number": "193"
+        },
+        {
+          "name": "Shadow Urchin",
+          "count": 1,
+          "set": "ECL",
+          "number": "242"
+        },
+        {
+          "name": "Shimmercreep",
+          "count": 1,
+          "set": "ECL",
+          "number": "120"
+        },
+        {
+          "name": "Shimmerwilds Growth",
+          "count": 1,
+          "set": "ECL",
+          "number": "194"
+        },
+        {
+          "name": "Shinestriker",
+          "count": 1,
+          "set": "ECL",
+          "number": "68"
+        },
+        {
+          "name": "Shore Lurker",
+          "count": 1,
+          "set": "ECL",
+          "number": "34"
+        },
+        {
+          "name": "Silvergill Mentor",
+          "count": 1,
+          "set": "ECL",
+          "number": "69"
+        },
+        {
+          "name": "Silvergill Peddler",
+          "count": 1,
+          "set": "ECL",
+          "number": "70"
+        },
+        {
+          "name": "Sizzling Changeling",
+          "count": 1,
+          "set": "ECL",
+          "number": "155"
+        },
+        {
+          "name": "Slumbering Walker",
+          "count": 1,
+          "set": "ECL",
+          "number": "35"
+        },
+        {
+          "name": "Soul Immolation",
+          "count": 1,
+          "set": "ECL",
+          "number": "156"
+        },
+        {
+          "name": "Soulbright Seeker",
+          "count": 1,
+          "set": "ECL",
+          "number": "157"
+        },
+        {
+          "name": "Sourbread Auntie",
+          "count": 1,
+          "set": "ECL",
+          "number": "158"
+        },
+        {
+          "name": "Spell Snare",
+          "count": 1,
+          "set": "ECL",
+          "number": "71"
+        },
+        {
+          "name": "Spinerock Tyrant",
+          "count": 1,
+          "set": "ECL",
+          "number": "159"
+        },
+        {
+          "name": "Spiral into Solitude",
+          "count": 1,
+          "set": "ECL",
+          "number": "36"
+        },
+        {
+          "name": "Springleaf Drum",
+          "count": 1,
+          "set": "ECL",
+          "number": "260"
+        },
+        {
+          "name": "Spry and Mighty",
+          "count": 1,
+          "set": "ECL",
+          "number": "195"
+        },
+        {
+          "name": "Squawkroaster",
+          "count": 1,
+          "set": "ECL",
+          "number": "160"
+        },
+        {
+          "name": "Stalactite Dagger",
+          "count": 1,
+          "set": "ECL",
+          "number": "261"
+        },
+        {
+          "name": "Steam Vents",
+          "count": 1,
+          "set": "ECL",
+          "number": "267"
+        },
+        {
+          "name": "Sting-Slinger",
+          "count": 1,
+          "set": "ECL",
+          "number": "161"
+        },
+        {
+          "name": "Stoic Grove-Guide",
+          "count": 1,
+          "set": "ECL",
+          "number": "243"
+        },
+        {
+          "name": "Stratosoarer",
+          "count": 1,
+          "set": "ECL",
+          "number": "72"
+        },
+        {
+          "name": "Summit Sentinel",
+          "count": 1,
+          "set": "ECL",
+          "number": "73"
+        },
+        {
+          "name": "Sun-Dappled Celebrant",
+          "count": 1,
+          "set": "ECL",
+          "number": "37"
+        },
+        {
+          "name": "Sunderflock",
+          "count": 1,
+          "set": "ECL",
+          "number": "74"
+        },
+        {
+          "name": "Surly Farrier",
+          "count": 1,
+          "set": "ECL",
+          "number": "196"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "ECL",
+          "number": "271"
+        },
+        {
+          "name": "Swat Away",
+          "count": 1,
+          "set": "ECL",
+          "number": "75"
+        },
+        {
+          "name": "Sygg's Command",
+          "count": 1,
+          "set": "ECL",
+          "number": "244"
+        },
+        {
+          "name": "Sygg, Wanderwine Wisdom",
+          "count": 1,
+          "set": "ECL",
+          "number": "76a"
+        },
+        {
+          "name": "Tam, Mindful First-Year",
+          "count": 1,
+          "set": "ECL",
+          "number": "245"
+        },
+        {
+          "name": "Tanufel Rimespeaker",
+          "count": 1,
+          "set": "ECL",
+          "number": "77"
+        },
+        {
+          "name": "Taster of Wares",
+          "count": 1,
+          "set": "ECL",
+          "number": "121"
+        },
+        {
+          "name": "Temple Garden",
+          "count": 1,
+          "set": "ECL",
+          "number": "268"
+        },
+        {
+          "name": "Temporal Cleansing",
+          "count": 1,
+          "set": "ECL",
+          "number": "78"
+        },
+        {
+          "name": "Tend the Sprigs",
+          "count": 1,
+          "set": "ECL",
+          "number": "197"
+        },
+        {
+          "name": "Thirst for Identity",
+          "count": 1,
+          "set": "ECL",
+          "number": "79"
+        },
+        {
+          "name": "Thoughtweft Charge",
+          "count": 1,
+          "set": "ECL",
+          "number": "198"
+        },
+        {
+          "name": "Thoughtweft Imbuer",
+          "count": 1,
+          "set": "ECL",
+          "number": "38"
+        },
+        {
+          "name": "Thoughtweft Lieutenant",
+          "count": 1,
+          "set": "ECL",
+          "number": "246"
+        },
+        {
+          "name": "Timid Shieldbearer",
+          "count": 1,
+          "set": "ECL",
+          "number": "39"
+        },
+        {
+          "name": "Tributary Vaulter",
+          "count": 1,
+          "set": "ECL",
+          "number": "40"
+        },
+        {
+          "name": "Trystan's Command",
+          "count": 1,
+          "set": "ECL",
+          "number": "247"
+        },
+        {
+          "name": "Trystan, Callous Cultivator",
+          "count": 1,
+          "set": "ECL",
+          "number": "199a"
+        },
+        {
+          "name": "Tweeze",
+          "count": 1,
+          "set": "ECL",
+          "number": "162"
+        },
+        {
+          "name": "Twilight Diviner",
+          "count": 1,
+          "set": "ECL",
+          "number": "122"
+        },
+        {
+          "name": "Twinflame Travelers",
+          "count": 1,
+          "set": "ECL",
+          "number": "248"
+        },
+        {
+          "name": "Unbury",
+          "count": 1,
+          "set": "ECL",
+          "number": "123"
+        },
+        {
+          "name": "Unexpected Assistance",
+          "count": 1,
+          "set": "ECL",
+          "number": "80"
+        },
+        {
+          "name": "Unforgiving Aim",
+          "count": 1,
+          "set": "ECL",
+          "number": "200"
+        },
+        {
+          "name": "Unwelcome Sprite",
+          "count": 1,
+          "set": "ECL",
+          "number": "81"
+        },
+        {
+          "name": "Vibrance",
+          "count": 1,
+          "set": "ECL",
+          "number": "249"
+        },
+        {
+          "name": "Vinebred Brawler",
+          "count": 1,
+          "set": "ECL",
+          "number": "201"
+        },
+        {
+          "name": "Virulent Emissary",
+          "count": 1,
+          "set": "ECL",
+          "number": "202"
+        },
+        {
+          "name": "Voracious Tome-Skimmer",
+          "count": 1,
+          "set": "ECL",
+          "number": "250"
+        },
+        {
+          "name": "Wanderbrine Preacher",
+          "count": 1,
+          "set": "ECL",
+          "number": "41"
+        },
+        {
+          "name": "Wanderbrine Trapper",
+          "count": 1,
+          "set": "ECL",
+          "number": "42"
+        },
+        {
+          "name": "Wanderwine Distracter",
+          "count": 1,
+          "set": "ECL",
+          "number": "82"
+        },
+        {
+          "name": "Wanderwine Farewell",
+          "count": 1,
+          "set": "ECL",
+          "number": "83"
+        },
+        {
+          "name": "Warren Torchmaster",
+          "count": 1,
+          "set": "ECL",
+          "number": "163"
+        },
+        {
+          "name": "Wary Farmer",
+          "count": 1,
+          "set": "ECL",
+          "number": "251"
+        },
+        {
+          "name": "Wild Unraveling",
+          "count": 1,
+          "set": "ECL",
+          "number": "84"
+        },
+        {
+          "name": "Wildvine Pummeler",
+          "count": 1,
+          "set": "ECL",
+          "number": "203"
+        },
+        {
+          "name": "Winnowing",
+          "count": 1,
+          "set": "ECL",
+          "number": "43"
+        },
+        {
+          "name": "Wistfulness",
+          "count": 1,
+          "set": "ECL",
+          "number": "252"
+        }
+      ]
+    },
+    "source": "default database query; https://www.mtgo.com/news/lorwyn-eclipsed-on-mtgo",
     "display": ""
   },
   {
@@ -173681,7 +175408,9 @@
         },
         {
           "name": "Dazzling Angel",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "9"
         },
         {
           "name": "Quick-Draw Katana",
@@ -173705,15 +175434,21 @@
         },
         {
           "name": "Herald of Faith",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "494"
         },
         {
           "name": "Inspiring Overseer",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "496"
         },
         {
           "name": "Prayer of Binding",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "502"
         },
         {
           "name": "Twinblade Paladin",
@@ -173750,7 +175485,9 @@
       "Main Deck": [
         {
           "name": "Terror of Mount Velus",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "549"
         },
         {
           "name": "Fiery Annihilation",
@@ -173758,11 +175495,15 @@
         },
         {
           "name": "Firespitter Whelp",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "197"
         },
         {
           "name": "Carnelian Orb of Dragonkind",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "534"
         },
         {
           "name": "Dragonlord's Servant",
@@ -173774,7 +175515,9 @@
         },
         {
           "name": "Kargan Dragonrider",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "541"
         },
         {
           "name": "Rapacious Dragon",
@@ -173835,7 +175578,9 @@
         },
         {
           "name": "Spectral Sailor",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "164"
         },
         {
           "name": "Tolarian Terror",
@@ -173851,7 +175596,9 @@
         },
         {
           "name": "Kitesail Corsair",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "510"
         },
         {
           "name": "Opt",
@@ -173961,6 +175708,8 @@
         {
           "name": "Lyra Dawnbringer",
           "count": 1,
+          "set": "FDN",
+          "number": "707",
           "foil": true
         },
         {
@@ -174001,7 +175750,9 @@
         },
         {
           "name": "Linden, the Steadfast Queen",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "577"
         },
         {
           "name": "Mentor of the Meek",
@@ -174049,7 +175800,9 @@
         },
         {
           "name": "Inspiring Overseer",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "496"
         },
         {
           "name": "Archway Angel",
@@ -174061,7 +175814,9 @@
         },
         {
           "name": "Crusader of Odric",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "569"
         },
         {
           "name": "Dawnwing Marshal",
@@ -174365,6 +176120,8 @@
         {
           "name": "Pelakka Wurm",
           "count": 1,
+          "set": "FDN",
+          "number": "720",
           "foil": true
         },
         {
@@ -174383,7 +176140,9 @@
         },
         {
           "name": "Primal Might",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "643"
         },
         {
           "name": "Primeval Bounty",
@@ -174395,11 +176154,15 @@
         },
         {
           "name": "Surrak, the Hunt Caller",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "647"
         },
         {
           "name": "Vizier of the Menagerie",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "649"
         },
         {
           "name": "Wildborn Preserver",
@@ -174483,7 +176246,9 @@
         },
         {
           "name": "Springbloom Druid",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "646"
         },
         {
           "name": "Venom Connoisseur",
@@ -174658,7 +176423,9 @@
         },
         {
           "name": "Diamond Mare",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "672"
         },
         {
           "name": "Feldon's Cane",
@@ -174694,7 +176461,9 @@
         },
         {
           "name": "Cryptic Caves",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "686"
         },
         {
           "name": "Demolition Field",
@@ -174776,7 +176545,9 @@
         },
         {
           "name": "Arcanis the Omnipotent",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "585"
         },
         {
           "name": "Dictate of Kruphix",
@@ -174796,11 +176567,15 @@
         },
         {
           "name": "Sphinx of the Final Word",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "597"
         },
         {
           "name": "Tempest Djinn",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "598"
         },
         {
           "name": "Voracious Greatshark",
@@ -174832,11 +176607,15 @@
         },
         {
           "name": "Mocking Sprite",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "159"
         },
         {
           "name": "Spectral Sailor",
-          "count": 2
+          "count": 2,
+          "set": "FDN",
+          "number": "164"
         },
         {
           "name": "Think Twice",
@@ -174888,11 +176667,15 @@
         },
         {
           "name": "Unsummon",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "599"
         },
         {
           "name": "Massacre Wurm",
           "count": 1,
+          "set": "FDN",
+          "number": "714",
           "foil": true
         },
         {
@@ -174903,6 +176686,8 @@
         {
           "name": "Gatekeeper of Malakir",
           "count": 1,
+          "set": "FDN",
+          "number": "713",
           "foil": true
         },
         {
@@ -174929,7 +176714,9 @@
         },
         {
           "name": "Kalastria Highborn",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "607"
         },
         {
           "name": "Midnight Reaper",
@@ -174981,7 +176768,9 @@
         },
         {
           "name": "Vampire Nighthawk",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "186"
         },
         {
           "name": "Zombify",
@@ -175017,7 +176806,9 @@
         },
         {
           "name": "Pulse Tracker",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "612"
         },
         {
           "name": "Sanguine Indulgence",
@@ -175221,7 +177012,9 @@
         },
         {
           "name": "Vampire Interloper",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "530"
         },
         {
           "name": "Vampire Spawn",
@@ -175241,7 +177034,9 @@
         },
         {
           "name": "Bloodtithe Collector",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "516"
         },
         {
           "name": "Crossway Troublemakers",
@@ -175304,7 +177099,9 @@
         },
         {
           "name": "Icewind Elemental",
-          "count": 1
+          "count": 1,
+          "set": "FDN",
+          "number": "42"
         },
         {
           "name": "Mischievous Mystic",
@@ -474746,6 +476543,99 @@
     "display": ""
   },
   {
+    "name": "Dwarf Fortress: Create New World",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Secret Rendezvous",
+          "count": 1,
+          "set": "SLD",
+          "number": "2648"
+        },
+        {
+          "name": "Rune-Scarred Demon",
+          "count": 1,
+          "set": "SLD",
+          "number": "2649"
+        },
+        {
+          "name": "Terror of the Peaks",
+          "count": 1,
+          "set": "SLD",
+          "number": "2650"
+        },
+        {
+          "name": "Communal Brewing",
+          "count": 1,
+          "set": "SLD",
+          "number": "2651"
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1,
+          "set": "SLD",
+          "number": "2652"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250417",
+    "display": ""
+  },
+  {
+    "name": "Dwarf Fortress: Create New World Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Secret Rendezvous",
+          "count": 1,
+          "set": "SLD",
+          "number": "2648",
+          "foil": true
+        },
+        {
+          "name": "Rune-Scarred Demon",
+          "count": 1,
+          "set": "SLD",
+          "number": "2649",
+          "foil": true
+        },
+        {
+          "name": "Terror of the Peaks",
+          "count": 1,
+          "set": "SLD",
+          "number": "2650",
+          "foil": true
+        },
+        {
+          "name": "Communal Brewing",
+          "count": 1,
+          "set": "SLD",
+          "number": "2651",
+          "foil": true
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1,
+          "set": "SLD",
+          "number": "2652",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250416",
+    "display": ""
+  },
+  {
     "name": "EVERYTHING IS ON FIRE",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -484726,6 +486616,99 @@
     "display": ""
   },
   {
+    "name": "Mahō Gakuin Seishun Hakusho — 魔法学院青春白書",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Rule of Law",
+          "count": 1,
+          "set": "SLD",
+          "number": "2478"
+        },
+        {
+          "name": "Thought Scour",
+          "count": 1,
+          "set": "SLD",
+          "number": "2479"
+        },
+        {
+          "name": "Time Stretch",
+          "count": 1,
+          "set": "SLD",
+          "number": "2480"
+        },
+        {
+          "name": "Stinging Study",
+          "count": 1,
+          "set": "SLD",
+          "number": "2481"
+        },
+        {
+          "name": "Notion Thief",
+          "count": 1,
+          "set": "SLD",
+          "number": "2482"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250411",
+    "display": ""
+  },
+  {
+    "name": "Mahō Gakuin Seishun Hakusho — 魔法学院青春白書 Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Rule of Law",
+          "count": 1,
+          "set": "SLD",
+          "number": "2478",
+          "foil": true
+        },
+        {
+          "name": "Thought Scour",
+          "count": 1,
+          "set": "SLD",
+          "number": "2479",
+          "foil": true
+        },
+        {
+          "name": "Time Stretch",
+          "count": 1,
+          "set": "SLD",
+          "number": "2480",
+          "foil": true
+        },
+        {
+          "name": "Stinging Study",
+          "count": 1,
+          "set": "SLD",
+          "number": "2481",
+          "foil": true
+        },
+        {
+          "name": "Notion Thief",
+          "count": 1,
+          "set": "SLD",
+          "number": "2482",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250410",
+    "display": ""
+  },
+  {
     "name": "Marvel's Black Panther",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -486939,6 +488922,205 @@
     "display": ""
   },
   {
+    "name": "My Little Pony: Friendship is Magic",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Generous Gift",
+          "count": 1,
+          "set": "SLD",
+          "number": "2534"
+        },
+        {
+          "name": "Reconnaissance Mission",
+          "count": 1,
+          "set": "SLD",
+          "number": "2535"
+        },
+        {
+          "name": "Radiate",
+          "count": 1,
+          "set": "SLD",
+          "number": "2536"
+        },
+        {
+          "name": "Defense of the Heart",
+          "count": 1,
+          "set": "SLD",
+          "number": "2537"
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "SLD",
+          "number": "2538"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "2539"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250419",
+    "display": ""
+  },
+  {
+    "name": "My Little Pony: Friendship is Magic Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Generous Gift",
+          "count": 1,
+          "set": "SLD",
+          "number": "2534",
+          "foil": true
+        },
+        {
+          "name": "Reconnaissance Mission",
+          "count": 1,
+          "set": "SLD",
+          "number": "2535",
+          "foil": true
+        },
+        {
+          "name": "Radiate",
+          "count": 1,
+          "set": "SLD",
+          "number": "2536",
+          "foil": true
+        },
+        {
+          "name": "Defense of the Heart",
+          "count": 1,
+          "set": "SLD",
+          "number": "2537",
+          "foil": true
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "SLD",
+          "number": "2538",
+          "foil": true
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "2539",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250418",
+    "display": ""
+  },
+  {
+    "name": "My Little Pony: The Lands of Equestria",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "SLD",
+          "number": "2540"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "SLD",
+          "number": "2541"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "SLD",
+          "number": "2542"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "SLD",
+          "number": "2543"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "SLD",
+          "number": "2544"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250421",
+    "display": ""
+  },
+  {
+    "name": "My Little Pony: The Lands of Equestria Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "SLD",
+          "number": "2540",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "SLD",
+          "number": "2541",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "SLD",
+          "number": "2542",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "SLD",
+          "number": "2543",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "SLD",
+          "number": "2544",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250420",
+    "display": ""
+  },
+  {
     "name": "Mycosynthwave",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -487084,6 +489266,86 @@
     },
     "source": "https://secretlair.wizards.com/us/product/813932",
     "display": "Also includes one foil extended art sliver [SLD:610-667] or foil borderless Shadowborn Apostles [SLD:681-688]"
+  },
+  {
+    "name": "Notebook Genius",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Lier, Disciple of the Drowned",
+          "count": 1,
+          "set": "SLD",
+          "number": "2350"
+        },
+        {
+          "name": "Bloodghast",
+          "count": 1,
+          "set": "SLD",
+          "number": "2351"
+        },
+        {
+          "name": "Storm-Kiln Artist",
+          "count": 1,
+          "set": "SLD",
+          "number": "2352"
+        },
+        {
+          "name": "Anhelo, the Painter",
+          "count": 1,
+          "set": "SLD",
+          "number": "2353"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250413",
+    "display": ""
+  },
+  {
+    "name": "Notebook Genius Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Lier, Disciple of the Drowned",
+          "count": 1,
+          "set": "SLD",
+          "number": "2350",
+          "foil": true
+        },
+        {
+          "name": "Bloodghast",
+          "count": 1,
+          "set": "SLD",
+          "number": "2351",
+          "foil": true
+        },
+        {
+          "name": "Storm-Kiln Artist",
+          "count": 1,
+          "set": "SLD",
+          "number": "2352",
+          "foil": true
+        },
+        {
+          "name": "Anhelo, the Painter",
+          "count": 1,
+          "set": "SLD",
+          "number": "2353",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250412",
+    "display": ""
   },
   {
     "name": "Now on VHS!",
@@ -487463,6 +489725,97 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/1151224",
+    "display": ""
+  },
+  {
+    "name": "Omens of Chaos",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Batwing Brume",
+          "count": 1,
+          "set": "SLD"
+        },
+        {
+          "name": "Abrupt Decay",
+          "count": 1,
+          "set": "SLD",
+          "number": "2468"
+        },
+        {
+          "name": "Chance for Glory",
+          "count": 1,
+          "set": "SLD",
+          "number": "2470"
+        },
+        {
+          "name": "Counterflux",
+          "count": 1,
+          "set": "SLD",
+          "number": "2471"
+        },
+        {
+          "name": "Growth Spiral",
+          "count": 1,
+          "set": "SLD",
+          "number": "2472"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250294",
+    "display": ""
+  },
+  {
+    "name": "Omens of Chaos Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Batwing Brume",
+          "count": 1,
+          "set": "SLD",
+          "foil": true
+        },
+        {
+          "name": "Abrupt Decay",
+          "count": 1,
+          "set": "SLD",
+          "number": "2468",
+          "foil": true
+        },
+        {
+          "name": "Chance for Glory",
+          "count": 1,
+          "set": "SLD",
+          "number": "2470",
+          "foil": true
+        },
+        {
+          "name": "Counterflux",
+          "count": 1,
+          "set": "SLD",
+          "number": "2471",
+          "foil": true
+        },
+        {
+          "name": "Growth Spiral",
+          "count": 1,
+          "set": "SLD",
+          "number": "2472",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250293",
     "display": ""
   },
   {
@@ -490284,6 +492637,99 @@
     },
     "source": "https://secretlair.wizards.com/us/product/594779",
     "display": "Also includes one foil stained-glass planeswalker: [SLD:506] Jace, [SLD:524] Sorin, [SLD:525] Tamiyo, or [SLD:528] Ashiok"
+  },
+  {
+    "name": "Return to Mystical Archive",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Duty Beyond Death",
+          "count": 1,
+          "set": "SLD",
+          "number": "2387"
+        },
+        {
+          "name": "Spell Pierce",
+          "count": 1,
+          "set": "SLD",
+          "number": "2388"
+        },
+        {
+          "name": "Zombify",
+          "count": 1,
+          "set": "SLD",
+          "number": "2389"
+        },
+        {
+          "name": "Abrade",
+          "count": 1,
+          "set": "SLD",
+          "number": "2390"
+        },
+        {
+          "name": "Shared Roots",
+          "count": 1,
+          "set": "SLD",
+          "number": "2391"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250415",
+    "display": ""
+  },
+  {
+    "name": "Return to Mystical Archive Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Duty Beyond Death",
+          "count": 1,
+          "set": "SLD",
+          "number": "2387",
+          "foil": true
+        },
+        {
+          "name": "Spell Pierce",
+          "count": 1,
+          "set": "SLD",
+          "number": "2388",
+          "foil": true
+        },
+        {
+          "name": "Zombify",
+          "count": 1,
+          "set": "SLD",
+          "number": "2389",
+          "foil": true
+        },
+        {
+          "name": "Abrade",
+          "count": 1,
+          "set": "SLD",
+          "number": "2390",
+          "foil": true
+        },
+        {
+          "name": "Shared Roots",
+          "count": 1,
+          "set": "SLD",
+          "number": "2391",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1250414",
+    "display": ""
   },
   {
     "name": "Rule the Room",
@@ -495424,6 +497870,99 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/en/product/872676",
+    "display": ""
+  },
+  {
+    "name": "The Eyes Have It",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Counterbalance",
+          "count": 1,
+          "set": "SLD",
+          "number": "2066"
+        },
+        {
+          "name": "Gitaxian Probe",
+          "count": 1,
+          "set": "SLD",
+          "number": "2067"
+        },
+        {
+          "name": "Opt",
+          "count": 1,
+          "set": "SLD",
+          "number": "2068"
+        },
+        {
+          "name": "Otherworldly Gaze",
+          "count": 1,
+          "set": "SLD",
+          "number": "2069"
+        },
+        {
+          "name": "Baleful Strix",
+          "count": 1,
+          "set": "SLD",
+          "number": "2070"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1245628",
+    "display": ""
+  },
+  {
+    "name": "The Eyes Have It Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Counterbalance",
+          "count": 1,
+          "set": "SLD",
+          "number": "2066",
+          "foil": true
+        },
+        {
+          "name": "Gitaxian Probe",
+          "count": 1,
+          "set": "SLD",
+          "number": "2067",
+          "foil": true
+        },
+        {
+          "name": "Opt",
+          "count": 1,
+          "set": "SLD",
+          "number": "2068",
+          "foil": true
+        },
+        {
+          "name": "Otherworldly Gaze",
+          "count": 1,
+          "set": "SLD",
+          "number": "2069",
+          "foil": true
+        },
+        {
+          "name": "Baleful Strix",
+          "count": 1,
+          "set": "SLD",
+          "number": "2070",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1245627",
     "display": ""
   },
   {
@@ -504459,6 +506998,1965 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/magic-the-gathering-2022-starter-kit",
+    "display": ""
+  },
+  {
+    "name": "Lorehold Spirit",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Secrets of Strixhaven Commander",
+    "set_code": "soc",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Quintorius, History Chaser",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Excava, the Risen Past",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Lorehold Archivist",
+          "count": 1
+        },
+        {
+          "name": "Augusta, Order Returned",
+          "count": 1
+        },
+        {
+          "name": "Ceaseless Conflict",
+          "count": 1
+        },
+        {
+          "name": "Vanguard of the Restless",
+          "count": 1
+        },
+        {
+          "name": "Advanced Reconstruction",
+          "count": 1
+        },
+        {
+          "name": "Fateful Tempest",
+          "count": 1
+        },
+        {
+          "name": "Naktamun Lorespinner",
+          "count": 1
+        },
+        {
+          "name": "Relic Retriever",
+          "count": 1
+        },
+        {
+          "name": "Spirit of Resilience",
+          "count": 1
+        },
+        {
+          "name": "Turbulent Steppe",
+          "count": 1
+        },
+        {
+          "name": "Moonshaker Cavalry",
+          "count": 1
+        },
+        {
+          "name": "Staff of the Storyteller",
+          "count": 1
+        },
+        {
+          "name": "Wave of Reckoning",
+          "count": 1
+        },
+        {
+          "name": "Fabled Passage",
+          "count": 1
+        },
+        {
+          "name": "Angel of Indemnity",
+          "count": 1
+        },
+        {
+          "name": "Ao, the Dawn Sky",
+          "count": 1
+        },
+        {
+          "name": "Archaeomancer's Map",
+          "count": 1
+        },
+        {
+          "name": "Claim Jumper",
+          "count": 1
+        },
+        {
+          "name": "Drumbellower",
+          "count": 1
+        },
+        {
+          "name": "Guardian of Faith",
+          "count": 1
+        },
+        {
+          "name": "Guardian Scalelord",
+          "count": 1
+        },
+        {
+          "name": "Karmic Guide",
+          "count": 1
+        },
+        {
+          "name": "Monologue Tax",
+          "count": 1
+        },
+        {
+          "name": "Remorseful Cleric",
+          "count": 1
+        },
+        {
+          "name": "Selfless Spirit",
+          "count": 1
+        },
+        {
+          "name": "Serra Paragon",
+          "count": 1
+        },
+        {
+          "name": "Sevinne's Reclamation",
+          "count": 1
+        },
+        {
+          "name": "Skyclave Apparition",
+          "count": 1
+        },
+        {
+          "name": "Sun Titan",
+          "count": 1
+        },
+        {
+          "name": "Tocasia's Welcome",
+          "count": 1
+        },
+        {
+          "name": "Tragic Arrogance",
+          "count": 1
+        },
+        {
+          "name": "White Orchid Phantom",
+          "count": 1
+        },
+        {
+          "name": "Atsushi, the Blazing Sky",
+          "count": 1
+        },
+        {
+          "name": "Conspiracy Theorist",
+          "count": 1
+        },
+        {
+          "name": "Laelia, the Blade Reforged",
+          "count": 1
+        },
+        {
+          "name": "Balefire Liege",
+          "count": 1
+        },
+        {
+          "name": "Hofri Ghostforge",
+          "count": 1
+        },
+        {
+          "name": "Quintorius, Loremaster",
+          "count": 1
+        },
+        {
+          "name": "Venerable Warsinger",
+          "count": 1
+        },
+        {
+          "name": "Bitterthorn, Nissa's Animus",
+          "count": 1
+        },
+        {
+          "name": "Currency Converter",
+          "count": 1
+        },
+        {
+          "name": "Battlefield Forge",
+          "count": 1
+        },
+        {
+          "name": "Clifftop Retreat",
+          "count": 1
+        },
+        {
+          "name": "Emeria, the Sky Ruin",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Furycalm Snarl",
+          "count": 1
+        },
+        {
+          "name": "Glittering Massif",
+          "count": 1
+        },
+        {
+          "name": "Lotus Field",
+          "count": 1
+        },
+        {
+          "name": "Radiant Summit",
+          "count": 1
+        },
+        {
+          "name": "Rugged Prairie",
+          "count": 1
+        },
+        {
+          "name": "Sunscorched Divide",
+          "count": 1
+        },
+        {
+          "name": "Temple of Triumph",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SOC",
+          "number": "128"
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Primary Research",
+          "count": 1,
+          "set": "SOS",
+          "number": "26"
+        },
+        {
+          "name": "Seize the Spoils",
+          "count": 1,
+          "set": "SOS",
+          "number": "129"
+        },
+        {
+          "name": "Kirol, History Buff",
+          "count": 1,
+          "set": "SOS",
+          "number": "198a"
+        },
+        {
+          "name": "Lorehold Charm",
+          "count": 1,
+          "set": "SOS",
+          "number": "200"
+        },
+        {
+          "name": "Fields of Strife",
+          "count": 1,
+          "set": "SOS",
+          "number": "255"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1,
+          "set": "SOS",
+          "number": "265"
+        },
+        {
+          "name": "Kami of Ancient Law",
+          "count": 1
+        },
+        {
+          "name": "Path to Exile",
+          "count": 1
+        },
+        {
+          "name": "Secret Rendezvous",
+          "count": 1
+        },
+        {
+          "name": "Swords to Plowshares",
+          "count": 1
+        },
+        {
+          "name": "Teshar, Ancestor's Apostle",
+          "count": 1
+        },
+        {
+          "name": "Anger",
+          "count": 1
+        },
+        {
+          "name": "Faithless Looting",
+          "count": 1
+        },
+        {
+          "name": "Squee, Goblin Nabob",
+          "count": 1
+        },
+        {
+          "name": "Quintorius, Field Historian",
+          "count": 1
+        },
+        {
+          "name": "Rip Apart",
+          "count": 1
+        },
+        {
+          "name": "Containment Construct",
+          "count": 1
+        },
+        {
+          "name": "Fellwar Stone",
+          "count": 1
+        },
+        {
+          "name": "Millikin",
+          "count": 1
+        },
+        {
+          "name": "Mind Stone",
+          "count": 1
+        },
+        {
+          "name": "Patchwork Banner",
+          "count": 1
+        },
+        {
+          "name": "Perpetual Timepiece",
+          "count": 1
+        },
+        {
+          "name": "Lorehold Campus",
+          "count": 1
+        },
+        {
+          "name": "Mistveil Plains",
+          "count": 1
+        },
+        {
+          "name": "Sacred Peaks",
+          "count": 1
+        },
+        {
+          "name": "Study Hall",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 6,
+          "set": "SOS",
+          "number": "272"
+        },
+        {
+          "name": "Plains",
+          "count": 5,
+          "set": "SOS",
+          "number": "273"
+        },
+        {
+          "name": "Mountain",
+          "count": 3,
+          "set": "SOS",
+          "number": "278"
+        },
+        {
+          "name": "Mountain",
+          "count": 3,
+          "set": "SOS",
+          "number": "279"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/secrets-of-strixhaven-commander-decklists",
+    "display": ""
+  },
+  {
+    "name": "Prismari Artistry",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Secrets of Strixhaven Commander",
+    "set_code": "soc",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Rootha, Mastering the Moment",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Muddle, the Ever-Changing",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Inspired Skypainter",
+          "count": 1
+        },
+        {
+          "name": "Abstract Performance",
+          "count": 1
+        },
+        {
+          "name": "Dirgur Focusmage",
+          "count": 1
+        },
+        {
+          "name": "Leitmotif Composer",
+          "count": 1
+        },
+        {
+          "name": "Furygale Flocking",
+          "count": 1
+        },
+        {
+          "name": "Prismari Pianist",
+          "count": 1
+        },
+        {
+          "name": "Renegade Bull",
+          "count": 1
+        },
+        {
+          "name": "Coastal Peak",
+          "count": 1
+        },
+        {
+          "name": "Scorched Geyser",
+          "count": 1
+        },
+        {
+          "name": "Turbulent Springs",
+          "count": 1
+        },
+        {
+          "name": "Faerie Mastermind",
+          "count": 1
+        },
+        {
+          "name": "Chain Reaction",
+          "count": 1
+        },
+        {
+          "name": "Determined Iteration",
+          "count": 1
+        },
+        {
+          "name": "Harmonic Prodigy",
+          "count": 1
+        },
+        {
+          "name": "Fabled Passage",
+          "count": 1
+        },
+        {
+          "name": "Archmage Emeritus",
+          "count": 1
+        },
+        {
+          "name": "Brazen Borrower",
+          "count": 1
+        },
+        {
+          "name": "Curiosity Crafter",
+          "count": 1
+        },
+        {
+          "name": "Dig Through Time",
+          "count": 1
+        },
+        {
+          "name": "Replication Technique",
+          "count": 1
+        },
+        {
+          "name": "Rite of Replication",
+          "count": 1
+        },
+        {
+          "name": "Thunderclap Drake",
+          "count": 1
+        },
+        {
+          "name": "Blasphemous Act",
+          "count": 1
+        },
+        {
+          "name": "Chaos Warp",
+          "count": 1
+        },
+        {
+          "name": "Creative Technique",
+          "count": 1
+        },
+        {
+          "name": "Cursed Mirror",
+          "count": 1
+        },
+        {
+          "name": "Dance with Calamity",
+          "count": 1
+        },
+        {
+          "name": "Goldspan Dragon",
+          "count": 1
+        },
+        {
+          "name": "Manaform Hellkite",
+          "count": 1
+        },
+        {
+          "name": "Mirrorwing Dragon",
+          "count": 1
+        },
+        {
+          "name": "Plargg and Nassari",
+          "count": 1
+        },
+        {
+          "name": "Redoubled Stormsinger",
+          "count": 1
+        },
+        {
+          "name": "Rionya, Fire Dancer",
+          "count": 1
+        },
+        {
+          "name": "Rousing Refrain",
+          "count": 1
+        },
+        {
+          "name": "Surge to Victory",
+          "count": 1
+        },
+        {
+          "name": "Twinflame",
+          "count": 1
+        },
+        {
+          "name": "Volcanic Salvo",
+          "count": 1
+        },
+        {
+          "name": "Brudiclad, Telchor Engineer",
+          "count": 1
+        },
+        {
+          "name": "Galazeth Prismari",
+          "count": 1
+        },
+        {
+          "name": "Magma Opus",
+          "count": 1
+        },
+        {
+          "name": "Prismari Command",
+          "count": 1
+        },
+        {
+          "name": "Veyran, Voice of Duality",
+          "count": 1
+        },
+        {
+          "name": "Solemn Simulacrum",
+          "count": 1
+        },
+        {
+          "name": "Cascade Bluffs",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Ferrous Lake",
+          "count": 1
+        },
+        {
+          "name": "Frostboil Snarl",
+          "count": 1
+        },
+        {
+          "name": "Hall of Oracles",
+          "count": 1
+        },
+        {
+          "name": "Restless Spire",
+          "count": 1
+        },
+        {
+          "name": "Shivan Reef",
+          "count": 1
+        },
+        {
+          "name": "Sulfur Falls",
+          "count": 1
+        },
+        {
+          "name": "Temple of Epiphany",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SOC",
+          "number": "128"
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Prismari Charm",
+          "count": 1,
+          "set": "SOS",
+          "number": "211"
+        },
+        {
+          "name": "Spectacle Summit",
+          "count": 1,
+          "set": "SOS",
+          "number": "262"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1,
+          "set": "SOS",
+          "number": "265"
+        },
+        {
+          "name": "Aether Gale",
+          "count": 1
+        },
+        {
+          "name": "Arcane Denial",
+          "count": 1
+        },
+        {
+          "name": "Deep Analysis",
+          "count": 1
+        },
+        {
+          "name": "Reality Shift",
+          "count": 1
+        },
+        {
+          "name": "Resculpt",
+          "count": 1
+        },
+        {
+          "name": "Treasure Cruise",
+          "count": 1
+        },
+        {
+          "name": "Abrade",
+          "count": 1
+        },
+        {
+          "name": "Big Score",
+          "count": 1
+        },
+        {
+          "name": "Mana Geyser",
+          "count": 1
+        },
+        {
+          "name": "Storm-Kiln Artist",
+          "count": 1
+        },
+        {
+          "name": "Throes of Chaos",
+          "count": 1
+        },
+        {
+          "name": "Volcanic Torrent",
+          "count": 1
+        },
+        {
+          "name": "Expressive Iteration",
+          "count": 1
+        },
+        {
+          "name": "Rootha, Mercurial Artist",
+          "count": 1
+        },
+        {
+          "name": "Stormcatch Mentor",
+          "count": 1
+        },
+        {
+          "name": "Fellwar Stone",
+          "count": 1
+        },
+        {
+          "name": "Lightning Greaves",
+          "count": 1
+        },
+        {
+          "name": "Talisman of Creativity",
+          "count": 1,
+          "set": "SOC",
+          "number": "357"
+        },
+        {
+          "name": "Molten Tributary",
+          "count": 1
+        },
+        {
+          "name": "Mystic Sanctuary",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Prismari Campus",
+          "count": 1
+        },
+        {
+          "name": "Reliquary Tower",
+          "count": 1
+        },
+        {
+          "name": "Study Hall",
+          "count": 1
+        },
+        {
+          "name": "Temple of the False God",
+          "count": 1
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "SOS",
+          "number": "274"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "SOS",
+          "number": "275"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "SOS",
+          "number": "278"
+        },
+        {
+          "name": "Mountain",
+          "count": 3,
+          "set": "SOS",
+          "number": "279"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/secrets-of-strixhaven-commander-decklists",
+    "display": ""
+  },
+  {
+    "name": "Quandrix Unlimited",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Secrets of Strixhaven Commander",
+    "set_code": "soc",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Zimone, Infinite Analyst",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Primo, the Unbounded",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Owlin Spiralmancer",
+          "count": 1
+        },
+        {
+          "name": "Expansion Algorithm",
+          "count": 1
+        },
+        {
+          "name": "Nexus Mentality",
+          "count": 1
+        },
+        {
+          "name": "Kinetic Ooze",
+          "count": 1
+        },
+        {
+          "name": "Lattice Library",
+          "count": 1
+        },
+        {
+          "name": "Nev, the Practical Dean",
+          "count": 1
+        },
+        {
+          "name": "Yavimaya Bloomsage",
+          "count": 1
+        },
+        {
+          "name": "Striding Shotcaller",
+          "count": 1
+        },
+        {
+          "name": "Brass Infiniscope",
+          "count": 1
+        },
+        {
+          "name": "Turbulent Wilderness",
+          "count": 1
+        },
+        {
+          "name": "Commander's Insight",
+          "count": 1
+        },
+        {
+          "name": "Ingenious Prodigy",
+          "count": 1
+        },
+        {
+          "name": "Pull from Tomorrow",
+          "count": 1
+        },
+        {
+          "name": "Benevolent Hydra",
+          "count": 1
+        },
+        {
+          "name": "Unbound Flourishing",
+          "count": 1
+        },
+        {
+          "name": "Fabled Passage",
+          "count": 1
+        },
+        {
+          "name": "Curse of the Swine",
+          "count": 1
+        },
+        {
+          "name": "Deekah, Fractal Theorist",
+          "count": 1
+        },
+        {
+          "name": "Entrancing Melody",
+          "count": 1
+        },
+        {
+          "name": "Perplexing Test",
+          "count": 1
+        },
+        {
+          "name": "Stroke of Genius",
+          "count": 1
+        },
+        {
+          "name": "Zimone's Hypothesis",
+          "count": 1
+        },
+        {
+          "name": "Animist's Awakening",
+          "count": 1
+        },
+        {
+          "name": "Forgotten Ancient",
+          "count": 1
+        },
+        {
+          "name": "Fractal Harness",
+          "count": 1
+        },
+        {
+          "name": "Goldvein Hydra",
+          "count": 1
+        },
+        {
+          "name": "Guardian Augmenter",
+          "count": 1
+        },
+        {
+          "name": "Hardened Scales",
+          "count": 1
+        },
+        {
+          "name": "Lifeblood Hydra",
+          "count": 1
+        },
+        {
+          "name": "Mana Bloom",
+          "count": 1
+        },
+        {
+          "name": "Open the Way",
+          "count": 1
+        },
+        {
+          "name": "Ozolith, the Shattered Spire",
+          "count": 1
+        },
+        {
+          "name": "Primal Might",
+          "count": 1
+        },
+        {
+          "name": "Primordial Hydra",
+          "count": 1
+        },
+        {
+          "name": "Silkguard",
+          "count": 1
+        },
+        {
+          "name": "Steelbane Hydra",
+          "count": 1
+        },
+        {
+          "name": "Altered Ego",
+          "count": 1
+        },
+        {
+          "name": "Biomass Mutation",
+          "count": 1
+        },
+        {
+          "name": "Elusive Otter",
+          "count": 1
+        },
+        {
+          "name": "The Goose Mother",
+          "count": 1
+        },
+        {
+          "name": "Hydroid Krasis",
+          "count": 1
+        },
+        {
+          "name": "Oversimplify",
+          "count": 1
+        },
+        {
+          "name": "Quandrix Command",
+          "count": 1
+        },
+        {
+          "name": "Tanazir Quandrix",
+          "count": 1
+        },
+        {
+          "name": "Zimone, All-Questioning",
+          "count": 1
+        },
+        {
+          "name": "Astral Cornucopia",
+          "count": 1
+        },
+        {
+          "name": "Elementalist's Palette",
+          "count": 1
+        },
+        {
+          "name": "Hangarback Walker",
+          "count": 1
+        },
+        {
+          "name": "Stonecoil Serpent",
+          "count": 1
+        },
+        {
+          "name": "Alchemist's Refuge",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Flooded Grove",
+          "count": 1
+        },
+        {
+          "name": "Hinterland Harbor",
+          "count": 1
+        },
+        {
+          "name": "Oran-Rief, the Vastwood",
+          "count": 1
+        },
+        {
+          "name": "Overflowing Basin",
+          "count": 1
+        },
+        {
+          "name": "Rain-Slicked Copse",
+          "count": 1
+        },
+        {
+          "name": "Sodden Verdure",
+          "count": 1
+        },
+        {
+          "name": "Temple of Mystery",
+          "count": 1
+        },
+        {
+          "name": "Vineglimmer Snarl",
+          "count": 1
+        },
+        {
+          "name": "Yavimaya Coast",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SOC",
+          "number": "128"
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Quandrix Charm",
+          "count": 1,
+          "set": "SOS",
+          "number": "217"
+        },
+        {
+          "name": "Paradox Gardens",
+          "count": 1,
+          "set": "SOS",
+          "number": "258"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1,
+          "set": "SOS",
+          "number": "265"
+        },
+        {
+          "name": "Rapid Hybridization",
+          "count": 1
+        },
+        {
+          "name": "Beast Within",
+          "count": 1
+        },
+        {
+          "name": "Kami of Whispered Hopes",
+          "count": 1
+        },
+        {
+          "name": "Nature's Lore",
+          "count": 1
+        },
+        {
+          "name": "Three Visits",
+          "count": 1
+        },
+        {
+          "name": "Tyvar's Stand",
+          "count": 1
+        },
+        {
+          "name": "Decisive Denial",
+          "count": 1
+        },
+        {
+          "name": "Eureka Moment",
+          "count": 1
+        },
+        {
+          "name": "Quandrix Apprentice",
+          "count": 1
+        },
+        {
+          "name": "Troyan, Gutsy Explorer",
+          "count": 1
+        },
+        {
+          "name": "Zimone, Quandrix Prodigy",
+          "count": 1
+        },
+        {
+          "name": "Opal Palace",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Quandrix Campus",
+          "count": 1
+        },
+        {
+          "name": "Reliquary Tower",
+          "count": 1
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1
+        },
+        {
+          "name": "Study Hall",
+          "count": 1
+        },
+        {
+          "name": "Tangled Islet",
+          "count": 1
+        },
+        {
+          "name": "Temple of the False God",
+          "count": 1
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "SOS",
+          "number": "274"
+        },
+        {
+          "name": "Island",
+          "count": 3,
+          "set": "SOS",
+          "number": "275"
+        },
+        {
+          "name": "Forest",
+          "count": 3,
+          "set": "SOS",
+          "number": "280"
+        },
+        {
+          "name": "Forest",
+          "count": 3,
+          "set": "SOS",
+          "number": "281"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/secrets-of-strixhaven-commander-decklists",
+    "display": ""
+  },
+  {
+    "name": "Silverquill Influence",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Secrets of Strixhaven Commander",
+    "set_code": "soc",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Killian, Decisive Mentor",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Scriv, the Obligator",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Eiganjo Dynastorian",
+          "count": 1,
+          "set": "SOC",
+          "number": "13a"
+        },
+        {
+          "name": "Forum Filibuster",
+          "count": 1
+        },
+        {
+          "name": "Herald of Amity",
+          "count": 1
+        },
+        {
+          "name": "Changing Loyalty",
+          "count": 1
+        },
+        {
+          "name": "Coercive Impetus",
+          "count": 1
+        },
+        {
+          "name": "Intermediate Chirography",
+          "count": 1
+        },
+        {
+          "name": "Defacing Duskmage",
+          "count": 1
+        },
+        {
+          "name": "Eclipsed Steppe",
+          "count": 1
+        },
+        {
+          "name": "Turbulent Moor",
+          "count": 1
+        },
+        {
+          "name": "Umbral Expanse",
+          "count": 1
+        },
+        {
+          "name": "Fabled Passage",
+          "count": 1
+        },
+        {
+          "name": "Eldrazi Conscription",
+          "count": 1
+        },
+        {
+          "name": "Ajani's Chosen",
+          "count": 1
+        },
+        {
+          "name": "Angelic Destiny",
+          "count": 1
+        },
+        {
+          "name": "Archon of Sun's Grace",
+          "count": 1
+        },
+        {
+          "name": "Armored Skyhunter",
+          "count": 1
+        },
+        {
+          "name": "Combat Calligrapher",
+          "count": 1
+        },
+        {
+          "name": "Eidolon of Countless Battles",
+          "count": 1
+        },
+        {
+          "name": "Firemane Commando",
+          "count": 1
+        },
+        {
+          "name": "Gift of Immortality",
+          "count": 1
+        },
+        {
+          "name": "Kor Spiritdancer",
+          "count": 1
+        },
+        {
+          "name": "Land Tax",
+          "count": 1
+        },
+        {
+          "name": "Mangara, the Diplomat",
+          "count": 1
+        },
+        {
+          "name": "Nils, Discipline Enforcer",
+          "count": 1
+        },
+        {
+          "name": "Pearl-Ear, Imperial Advisor",
+          "count": 1
+        },
+        {
+          "name": "Promise of Loyalty",
+          "count": 1
+        },
+        {
+          "name": "Redemption Arc",
+          "count": 1
+        },
+        {
+          "name": "Shielded by Faith",
+          "count": 1
+        },
+        {
+          "name": "Songbirds' Blessing",
+          "count": 1
+        },
+        {
+          "name": "Sram, Senior Edificer",
+          "count": 1
+        },
+        {
+          "name": "Starfield Mystic",
+          "count": 1
+        },
+        {
+          "name": "Winds of Rath",
+          "count": 1
+        },
+        {
+          "name": "Doomwake Giant",
+          "count": 1
+        },
+        {
+          "name": "Ghoulish Impetus",
+          "count": 1
+        },
+        {
+          "name": "Keen Duelist",
+          "count": 1
+        },
+        {
+          "name": "Anguished Unmaking",
+          "count": 1
+        },
+        {
+          "name": "Breena, the Demagogue",
+          "count": 1
+        },
+        {
+          "name": "Eriette of the Charmed Apple",
+          "count": 1
+        },
+        {
+          "name": "Inkshield",
+          "count": 1
+        },
+        {
+          "name": "Shadrix Silverquill",
+          "count": 1
+        },
+        {
+          "name": "Tomik, Wielder of Law",
+          "count": 1
+        },
+        {
+          "name": "Vanishing Verse",
+          "count": 1
+        },
+        {
+          "name": "Caves of Koilos",
+          "count": 1
+        },
+        {
+          "name": "Desolate Mire",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Fetid Heath",
+          "count": 1
+        },
+        {
+          "name": "Isolated Chapel",
+          "count": 1
+        },
+        {
+          "name": "Shineshadow Snarl",
+          "count": 1
+        },
+        {
+          "name": "Temple of Silence",
+          "count": 1
+        },
+        {
+          "name": "War Room",
+          "count": 1
+        },
+        {
+          "name": "Flickering Ward",
+          "count": 1
+        },
+        {
+          "name": "Fallen Ideal",
+          "count": 1
+        },
+        {
+          "name": "Screams from Within",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SOC",
+          "number": "128"
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Forum of Amity",
+          "count": 1,
+          "set": "SOS",
+          "number": "256"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1,
+          "set": "SOS",
+          "number": "265"
+        },
+        {
+          "name": "Chains of Custody",
+          "count": 1
+        },
+        {
+          "name": "Darksteel Mutation",
+          "count": 1
+        },
+        {
+          "name": "Ghostly Prison",
+          "count": 1
+        },
+        {
+          "name": "Martial Impetus",
+          "count": 1
+        },
+        {
+          "name": "Raffine's Guidance",
+          "count": 1
+        },
+        {
+          "name": "Sage's Reverie",
+          "count": 1
+        },
+        {
+          "name": "Secret Rendezvous",
+          "count": 1
+        },
+        {
+          "name": "Sentinel's Eyes",
+          "count": 1
+        },
+        {
+          "name": "Sheltered by Ghosts",
+          "count": 1
+        },
+        {
+          "name": "Spirit Mantle",
+          "count": 1
+        },
+        {
+          "name": "Transcendent Envoy",
+          "count": 1
+        },
+        {
+          "name": "Animate Dead",
+          "count": 1
+        },
+        {
+          "name": "Hateful Eidolon",
+          "count": 1
+        },
+        {
+          "name": "Parasitic Impetus",
+          "count": 1
+        },
+        {
+          "name": "Fracture",
+          "count": 1
+        },
+        {
+          "name": "Killian, Ink Duelist",
+          "count": 1
+        },
+        {
+          "name": "Fellwar Stone",
+          "count": 1
+        },
+        {
+          "name": "Talisman of Hierarchy",
+          "count": 1,
+          "set": "SOC",
+          "number": "358"
+        },
+        {
+          "name": "Arcane Lighthouse",
+          "count": 1
+        },
+        {
+          "name": "Bojuka Bog",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Silverquill Campus",
+          "count": 1
+        },
+        {
+          "name": "Study Hall",
+          "count": 1
+        },
+        {
+          "name": "Sunlit Marsh",
+          "count": 1
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "SOS",
+          "number": "272"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "SOS",
+          "number": "273"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "SOS",
+          "number": "276"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "SOS",
+          "number": "277"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/secrets-of-strixhaven-commander-decklists",
+    "display": ""
+  },
+  {
+    "name": "Witherbloom Pestilence",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Secrets of Strixhaven Commander",
+    "set_code": "soc",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Dina, Essence Brewer",
+          "count": 1,
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Gorma, the Gullet",
+          "count": 1,
+          "foil": true
+        },
+        {
+          "name": "Merchant of Venom",
+          "count": 1
+        },
+        {
+          "name": "Defiling Daemogoth",
+          "count": 1
+        },
+        {
+          "name": "Ominous Harvest",
+          "count": 1
+        },
+        {
+          "name": "Stensian Sanguinist",
+          "count": 1
+        },
+        {
+          "name": "Feral Appetite",
+          "count": 1
+        },
+        {
+          "name": "Pest Rescuer",
+          "count": 1
+        },
+        {
+          "name": "Ribtruss Roaster",
+          "count": 1
+        },
+        {
+          "name": "Eccentric Pestfinder",
+          "count": 1
+        },
+        {
+          "name": "Immoral Bargain",
+          "count": 1
+        },
+        {
+          "name": "Turbulent Fen",
+          "count": 1
+        },
+        {
+          "name": "Ophiomancer",
+          "count": 1
+        },
+        {
+          "name": "Toxic Deluge",
+          "count": 1
+        },
+        {
+          "name": "Tendershoot Dryad",
+          "count": 1
+        },
+        {
+          "name": "Fabled Passage",
+          "count": 1
+        },
+        {
+          "name": "Blight Mound",
+          "count": 1
+        },
+        {
+          "name": "Bloodghast",
+          "count": 1
+        },
+        {
+          "name": "Final Act",
+          "count": 1
+        },
+        {
+          "name": "Jadar, Ghoulcaller of Nephalia",
+          "count": 1
+        },
+        {
+          "name": "Nether Traitor",
+          "count": 1
+        },
+        {
+          "name": "Priest of Forgotten Gods",
+          "count": 1
+        },
+        {
+          "name": "Smothering Abomination",
+          "count": 1
+        },
+        {
+          "name": "Veinwitch Coven",
+          "count": 1
+        },
+        {
+          "name": "Witch of the Moors",
+          "count": 1
+        },
+        {
+          "name": "Woe Strider",
+          "count": 1
+        },
+        {
+          "name": "Yahenni, Undying Partisan",
+          "count": 1
+        },
+        {
+          "name": "Awakening Zone",
+          "count": 1
+        },
+        {
+          "name": "Blossoming Bogbeast",
+          "count": 1
+        },
+        {
+          "name": "Gilded Goose",
+          "count": 1
+        },
+        {
+          "name": "Mycoloth",
+          "count": 1
+        },
+        {
+          "name": "Ohran Frostfang",
+          "count": 1
+        },
+        {
+          "name": "Pest Infestation",
+          "count": 1
+        },
+        {
+          "name": "Trudge Garden",
+          "count": 1
+        },
+        {
+          "name": "Assassin's Trophy",
+          "count": 1
+        },
+        {
+          "name": "Beledros Witherbloom",
+          "count": 1
+        },
+        {
+          "name": "Casualties of War",
+          "count": 1
+        },
+        {
+          "name": "Creakwood Liege",
+          "count": 1
+        },
+        {
+          "name": "Culling Ritual",
+          "count": 1
+        },
+        {
+          "name": "Gyome, Master Chef",
+          "count": 1
+        },
+        {
+          "name": "Mazirek, Kraul Death Priest",
+          "count": 1
+        },
+        {
+          "name": "Wight of the Reliquary",
+          "count": 1
+        },
+        {
+          "name": "Witherbloom Command",
+          "count": 1
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1
+        },
+        {
+          "name": "Festering Thicket",
+          "count": 1
+        },
+        {
+          "name": "Grim Backwoods",
+          "count": 1
+        },
+        {
+          "name": "High Market",
+          "count": 1
+        },
+        {
+          "name": "Llanowar Wastes",
+          "count": 1
+        },
+        {
+          "name": "Necroblossom Snarl",
+          "count": 1
+        },
+        {
+          "name": "Temple of Malady",
+          "count": 1
+        },
+        {
+          "name": "Twilight Mire",
+          "count": 1
+        },
+        {
+          "name": "Vernal Fen",
+          "count": 1
+        },
+        {
+          "name": "Viridescent Bog",
+          "count": 1
+        },
+        {
+          "name": "Woodland Cemetery",
+          "count": 1
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SOC",
+          "number": "128"
+        },
+        {
+          "name": "Command Tower",
+          "count": 1
+        },
+        {
+          "name": "Teacher's Pest",
+          "count": 1,
+          "set": "SOS",
+          "number": "238"
+        },
+        {
+          "name": "Witherbloom Charm",
+          "count": 1,
+          "set": "SOS",
+          "number": "244"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1,
+          "set": "SOS",
+          "number": "265"
+        },
+        {
+          "name": "Titan's Grave",
+          "count": 1,
+          "set": "SOS",
+          "number": "266"
+        },
+        {
+          "name": "Blood Artist",
+          "count": 1
+        },
+        {
+          "name": "Infernal Grasp",
+          "count": 1
+        },
+        {
+          "name": "Morbid Opportunist",
+          "count": 1
+        },
+        {
+          "name": "Night's Whisper",
+          "count": 1
+        },
+        {
+          "name": "Pawn of Ulamog",
+          "count": 1
+        },
+        {
+          "name": "Plumb the Forbidden",
+          "count": 1
+        },
+        {
+          "name": "Umbral Collar Zealot",
+          "count": 1
+        },
+        {
+          "name": "Viscera Seer",
+          "count": 1
+        },
+        {
+          "name": "Zulaport Cutthroat",
+          "count": 1
+        },
+        {
+          "name": "Cultivate",
+          "count": 1
+        },
+        {
+          "name": "Elvish Mystic",
+          "count": 1
+        },
+        {
+          "name": "Sakura-Tribe Elder",
+          "count": 1
+        },
+        {
+          "name": "Springbloom Druid",
+          "count": 1
+        },
+        {
+          "name": "Deadly Brew",
+          "count": 1
+        },
+        {
+          "name": "Dina, Soul Steeper",
+          "count": 1
+        },
+        {
+          "name": "Moldervine Reclamation",
+          "count": 1
+        },
+        {
+          "name": "Mortality Spear",
+          "count": 1
+        },
+        {
+          "name": "Haywire Mite",
+          "count": 1
+        },
+        {
+          "name": "Bojuka Bog",
+          "count": 1
+        },
+        {
+          "name": "Haunted Mire",
+          "count": 1
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1
+        },
+        {
+          "name": "Study Hall",
+          "count": 1
+        },
+        {
+          "name": "Witherbloom Campus",
+          "count": 1
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "SOS",
+          "number": "276"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "SOS",
+          "number": "277"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "SOS",
+          "number": "280"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "SOS",
+          "number": "281"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/secrets-of-strixhaven-commander-decklists",
     "display": ""
   },
   {
@@ -515469,6 +519967,194 @@
     "display": ""
   },
   {
+    "name": "Eerie",
+    "type": "Theme Deck",
+    "category": "deck",
+    "format": "standard",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Angelic Destiny",
+          "count": 2
+        },
+        {
+          "name": "Entity Tracker",
+          "count": 3,
+          "set": "DSK",
+          "number": "53"
+        },
+        {
+          "name": "Silent Hallcreeper",
+          "count": 2
+        },
+        {
+          "name": "Enduring Innocence",
+          "count": 2,
+          "set": "DSK",
+          "number": "6"
+        },
+        {
+          "name": "Lost in the Maze",
+          "count": 2
+        },
+        {
+          "name": "Valgavoth's Lair",
+          "count": 2
+        },
+        {
+          "name": "Temple of Enlightenment",
+          "count": 2
+        },
+        {
+          "name": "Quill-Blade Laureate",
+          "count": 2
+        },
+        {
+          "name": "Sheltered by Ghosts",
+          "count": 4
+        },
+        {
+          "name": "Gremlin Tamer",
+          "count": 3
+        },
+        {
+          "name": "Ethereal Armor",
+          "count": 4
+        },
+        {
+          "name": "Feather of Flight",
+          "count": 2
+        },
+        {
+          "name": "Banishing Light",
+          "count": 3
+        },
+        {
+          "name": "Optimistic Scavenger",
+          "count": 4,
+          "set": "DSK",
+          "number": "21"
+        },
+        {
+          "name": "Shardmage's Rescue",
+          "count": 3
+        },
+        {
+          "name": "Tranquil Cove",
+          "count": 4
+        },
+        {
+          "name": "Plains",
+          "count": 9,
+          "set": "SOS",
+          "number": "*"
+        },
+        {
+          "name": "Island",
+          "count": 7,
+          "set": "SOS",
+          "number": "*"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-60-card-theme-deck-contents-and-guide",
+    "display": ""
+  },
+  {
+    "name": "Lifegain",
+    "type": "Theme Deck",
+    "category": "deck",
+    "format": "standard",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Zoraline, Cosmos Caller",
+          "count": 3
+        },
+        {
+          "name": "Essence Channeler",
+          "count": 3
+        },
+        {
+          "name": "Amalia Benavides Aguirre",
+          "count": 3
+        },
+        {
+          "name": "Case of the Uneaten Feast",
+          "count": 3
+        },
+        {
+          "name": "Haliya, Guided by Light",
+          "count": 2
+        },
+        {
+          "name": "Temple of Silence",
+          "count": 2
+        },
+        {
+          "name": "Deep-Cavern Bat",
+          "count": 4
+        },
+        {
+          "name": "Nowhere to Run",
+          "count": 2
+        },
+        {
+          "name": "Fiendish Panda",
+          "count": 2
+        },
+        {
+          "name": "Starscape Cleric",
+          "count": 3
+        },
+        {
+          "name": "Requiting Hex",
+          "count": 2
+        },
+        {
+          "name": "Mudflat Village",
+          "count": 1
+        },
+        {
+          "name": "Silverquill Charm",
+          "count": 2
+        },
+        {
+          "name": "Foolish Fate",
+          "count": 3
+        },
+        {
+          "name": "Hinterland Sanctifier",
+          "count": 4
+        },
+        {
+          "name": "Scoured Barrens",
+          "count": 4
+        },
+        {
+          "name": "Plains",
+          "count": 9,
+          "set": "SOS",
+          "number": "*"
+        },
+        {
+          "name": "Swamp",
+          "count": 8,
+          "set": "SOS",
+          "number": "*"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-60-card-theme-deck-contents-and-guide",
+    "display": ""
+  },
+  {
     "name": "Scene Box",
     "type": "Box Set",
     "category": "box",
@@ -515970,7 +520656,7 @@
     "display": "Also contains 1 foil version of any card"
   },
   {
-    "name": "Signature Spellbook Gideon",
+    "name": "Signature Spellbook: Gideon",
     "type": "Box Set",
     "category": "box",
     "set_name": "Signature Spellbook: Gideon",
@@ -516016,7 +520702,7 @@
     "display": "Also contains 1 foil version of any card"
   },
   {
-    "name": "Signature Spellbook Chandra",
+    "name": "Signature Spellbook: Chandra",
     "type": "Box Set",
     "category": "box",
     "set_name": "Signature Spellbook: Chandra",

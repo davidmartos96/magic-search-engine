@@ -20346,6 +20346,7 @@ csp	Wilderness Elemental	134
 csp	Woolly Razorback	25
 csp	Zombie Musher	75
 csp	Zur the Enchanter	135
+cst	Arcum's Weathervane	310
 cst	Ashen Ghoul	114
 cst	Aurochs	225
 cst	Balduvian Dead	43
@@ -25911,8 +25912,12 @@ dsk	Cackling Slasher	85
 dsk	Cadaver Lab	91
 dsk	Cathartic Parting	171
 dsk	Cautious Survivor	172
+dsk	Central Elevator	336
+dsk	Central Elevator	44
 dsk	Chainsaw	128
 dsk	Chainsaw	314
+dsk	Charred Foyer	129
+dsk	Charred Foyer	340
 dsk	Clammy Prowler	45
 dsk	Clockwork Percussionist	130
 dsk	Clockwork Percussionist	295
@@ -26173,6 +26178,8 @@ dsk	Popular Egotist	114
 dsk	Porcelain Gallery	335
 dsk	Porcelain Gallery	4
 dsk	Possessed Goat	25
+dsk	Promising Stairs	336
+dsk	Promising Stairs	44
 dsk	Prop Room	3
 dsk	Prop Room	334
 dsk	Pyroclasm	149
@@ -26311,6 +26318,8 @@ dsk	Walk-In Closet	205
 dsk	Walk-In Closet	341
 dsk	Waltz of Rage	165
 dsk	Waltz of Rage	318
+dsk	Warped Space	129
+dsk	Warped Space	340
 dsk	Wary Watchdog	206
 dsk	Weight Room	190
 dsk	Wickerfolk Thresher	207
@@ -34414,6 +34423,7 @@ ice	Altar of Bone	281
 ice	Anarchy	170
 ice	Arctic Foxes	2
 ice	Arcum's Sleigh	309
+ice	Arcum's Weathervane	310
 ice	Arenson's Aura	3
 ice	Armor of Faith	4
 ice	Arnjlot's Ascent	57
@@ -34434,6 +34444,7 @@ ice	Blessed Wine	7
 ice	Blinking Spirit	8
 ice	Blizzard	227
 ice	Blue Scarab	9
+ice	Bone Shaman	176
 ice	Brainstorm	61
 ice	Brand of Ill Omen	177
 ice	Breath of Dreams	62
@@ -60102,6 +60113,10 @@ pf25	The Ur-Dragon	15
 pf25	Tifa Lockhart	9
 pf25	Ugin, the Spirit Dragon	6
 pf25	Yoshimaru, Ever Faithful	5
+pf26	Consecrated Sphinx	4
+pf26	Counterspell	5
+pf26	Fyndhorn Elves	2
+pf26	Prismatic Ending	3
 pf26	Wayfarer's Bauble	1F
 pfrf	Alesha, Who Smiles at Death	90s
 pfrf	Arcbond	91s
@@ -62666,6 +62681,7 @@ pmbs	Glissa, the Traitor	96*
 pmbs	Hero of Bladehold	8*
 pmbs	Mirran Crusader	14*
 pmbs	Thopter Assembly	140*
+pmei	Aang, Air Nomad	2025-25
 pmei	Ajani, Mentor of Heroes	2024-3
 pmei	Ancestral Mask	2025-2
 pmei	Archangel	2000-4
@@ -62679,11 +62695,14 @@ pmei	Chandra's Spitfire	2010-4
 pmei	Chrome Host Seedshark	2025-20
 pmei	Cloud, Midgar Mercenary	2025-21
 pmei	Cloud, Planet's Champion	2025-13
+pmei	Command Tower	2026-01
 pmei	Counterspell	2021-1
 pmei	Crop Rotation	2020-7
+pmei	Crop Rotation	2026-02
 pmei	Culling the Weak	2023-8
 pmei	Cunning Sparkmage	2010-2
 pmei	Dark Ritual	2020-4
+pmei	Dark Ritual	2025-8
 pmei	Darksteel Juggernaut	2010-1
 pmei	Daxos, Blessed by the Sun	2020-2
 pmei	Diabolic Edict	2019-2
@@ -62694,10 +62713,12 @@ pmei	Duress	2025-7
 pmei	Fireball	1995-1
 pmei	Frantic Search	2022-4
 pmei	Gingerbrute	2023-3
+pmei	Gishath, Sun's Avatar	2026-5
 pmei	Gush	2024-4
 pmei	Harald, King of Skemfar	2021-3
 pmei	Heliod's Pilgrim	2020-6
 pmei	Hypnotic Sprite	2019-5
+pmei	Iroh, Grand Lotus	2025-24
 pmei	Jace Beleren	2009-1
 pmei	Jace, Memory Adept	2024-2
 pmei	Jamuraan Lion	1996-3
@@ -62711,6 +62732,7 @@ pmei	Mental Misstep	2023-1
 pmei	Nicol Bolas, Planeswalker	2025-10
 pmei	Parallax Dementia	2000-6
 pmei	Patchwork Banner	2024-7
+pmei	Peter Parker	2025-22
 pmei	Phantasmal Dragon	2011-1
 pmei	Phyrexian Rager	2000-5
 pmei	Pyromancer's Gauntlet	2023-6
@@ -62725,22 +62747,26 @@ pmei	Shock	2025-1
 pmei	Shrieking Drake	1997-2
 pmei	Silver Drake	2000-2
 pmei	Snuff Out	2024-1
+pmei	Spider-Man, Miles Morales	2025-23
 pmei	Spined Wurm	2001-1
 pmei	Sprite Dragon	2020-5
 pmei	Staggering Insight	2020-3
 pmei	Stream of Life	1997-4
+pmei	Swords to Plowshares	2026-4
 pmei	Talruum Champion	1997-1
 pmei	Tangled Florahedron	2020-8
 pmei	Thorn Elemental	2000-3
 pmei	Ultimecia, Temporal Threat	2025-11
 pmei	Usher of the Fallen	2022-3
 pmei	Voltaic Key	2020-1
-pmei	Voltaic Key	2024-6
+pmei	Voltaic Key	2025-4
 pmei	Warmonger	1999-2
+pmei	Warstorm Surge	2026-6
 pmei	Wild Growth	2022-2
 pmei	Winged Boots	2023-7
 pmei	Worn Powerstone	2023-2
 pmei	Wrath of God	2025-3
+pmei	Zack Fair	2026-03
 pmei	Zhalfirin Knight	1996-2
 pmh1	Astral Drift	3
 pnat	Flooded Strand	2018
@@ -67389,9 +67415,11 @@ pw25	Ultimate Green Goblin	12
 pw25	Unlucky Cabbage Merchant	15
 pw25	Yuna, Grand Summoner	16
 pw25	Zidane, Tantalus Thief	5
+pw26	Access Tunnel	9
 pw26	Courier of Comestibles	6
 pw26	Farhaven Elf	2
 pw26	Gilded Lotus	3
+pw26	Into the Flood Maw	8
 pw26	Lightning Bolt	5
 pw26	Nowhere to Run	1
 pw26	Spicy Oatmeal Pizza	7
@@ -71784,9 +71812,12 @@ slc	Zo-Zu the Punisher	26
 sld	Abby, Merciless Soldier	2202
 sld	Abrade	1425
 sld	Abrade	2179
+sld	Abrade	2390
+sld	Abrupt Decay	2468
 sld	Abundant Growth	1135
 sld	Abundant Growth	870
 sld	Academy Manufactor	2195
+sld	Academy Manufactor	7094
 sld	Academy Ruins	1506
 sld	Accumulated Knowledge	2140
 sld	Acererak the Archlich	1784
@@ -71853,6 +71884,7 @@ sld	Angrath, the Flame-Chained	398
 sld	Anguished Unmaking	138
 sld	Anguished Unmaking	1800
 sld	Anguished Unmaking	2298
+sld	Anhelo, the Painter	2353
 sld	Animar, Soul of Elements	1891
 sld	Animate Dead	2189
 sld	Anje Falkenrath	1874
@@ -71877,6 +71909,7 @@ sld	Arcane Signet	1919
 sld	Arcane Signet	1924
 sld	Arcane Signet	201
 sld	Arcane Signet	2464
+sld	Arcane Signet	2538
 sld	Arcane Signet	589
 sld	Arcane Signet	7065
 sld	Arcane Signet	7068
@@ -71938,6 +71971,7 @@ sld	Batterskull	1206
 sld	Battle Angels of Tyr	875
 sld	Battle of Wits	1446
 sld	Battlefield Forge	669
+sld	Batwing Brume	2469
 sld	Baylen, the Haymaker	2377
 sld	Beacon of Tomorrows	1497
 sld	Beacon of Tomorrows	1497*
@@ -71951,8 +71985,11 @@ sld	Beloved Princess	804
 sld	Benevolent Hydra	1889
 sld	Berserk	1003
 sld	Berserk	1738
+sld	Beseech the Mirror	2527
 sld	Beseech the Queen	2484
 sld	Big Score	1955
+sld	Big Score	7076
+sld	Big Score	7096
 sld	Birds of Paradise	1147
 sld	Birds of Paradise	1148
 sld	Birds of Paradise	1675
@@ -71983,10 +72020,12 @@ sld	Blood Crypt	125
 sld	Blood Money	1789
 sld	Blood Moon	2288
 sld	Blood Moon	366
+sld	Bloodghast	2351
 sld	Bloodghast	6
 sld	Bloodletter of Aclazotz	2502
 sld	Bloodline Keeper	1157
 sld	Bloodline Keeper	1210
+sld	Bloody Betrayal	7102
 sld	Bloom Tender	284
 sld	Blooming Marsh	1374
 sld	Blur Sliver	637
@@ -72038,6 +72077,8 @@ sld	Bruvac the Grandiloquent	2181
 sld	Burgeoning	408
 sld	Buried Alive	1673
 sld	Burnt Offering	7047
+sld	Butcher of Malakir	7071
+sld	Butcher of Malakir	7072
 sld	By Force	1086
 sld	Cabal Ritual	2199
 sld	Caged Sun	2461
@@ -72066,6 +72107,7 @@ sld	Chain Reaction	2219
 sld	Chain of Vapor	2295
 sld	Champion of Lambholt	2245
 sld	Champion of the Perished	837
+sld	Chance for Glory	2470
 sld	Chandra Nalaar	1456
 sld	Chandra Nalaar	1456b
 sld	Chandra Nalaar	748
@@ -72130,6 +72172,7 @@ sld	Command Tower	7030
 sld	Command Tower	7063
 sld	Command Tower	7064
 sld	Command Tower	7067
+sld	Command Tower	7097
 sld	Command Tower	710
 sld	Command Tower	744
 sld	Command Tower	758
@@ -72139,6 +72182,7 @@ sld	Commander's Plate	1339
 sld	Commander's Plate	1733
 sld	Commander's Sphere	203
 sld	Commander's Sphere	315
+sld	Communal Brewing	2651
 sld	Compost	1047
 sld	Concealed Courtyard	1372
 sld	Concordant Crossroads	2073
@@ -72159,6 +72203,7 @@ sld	Council's Judgment	1635*
 sld	Council's Judgment	7041
 sld	Counterbalance	1220
 sld	Counterbalance	2066
+sld	Counterflux	2471
 sld	Counterflux	482
 sld	Counterspell	1589
 sld	Counterspell	175
@@ -72203,6 +72248,7 @@ sld	Daretti, Ingenious Iconoclast	1422
 sld	Daretti, Ingenious Iconoclast	1422*
 sld	Dark Deal	873
 sld	Dark Depths	1680
+sld	Dark Petition	2525
 sld	Dark Ritual	1170
 sld	Dark Ritual	2001
 sld	Dark Ritual	2020
@@ -72222,7 +72268,9 @@ sld	Daze	1934
 sld	Deadeye Navigator	902
 sld	Deadly Dispute	1980
 sld	Deadly Dispute	1985
+sld	Deadly Dispute	1IFIYW
 sld	Deadly Dispute	2091
+sld	Deadly Dispute	6IFIYW
 sld	Deadly Rollick	1754
 sld	Deafening Silence	1219
 sld	Death Baron	1458
@@ -72234,6 +72282,7 @@ sld	Decree of Pain	187
 sld	Deepglow Skate	1093
 sld	Deepglow Skate	2362
 sld	Defense of the Heart	1039
+sld	Defense of the Heart	2537
 sld	Defile	1793
 sld	Deflecting Swat	1552
 sld	Delay	1788
@@ -72313,7 +72362,9 @@ sld	Drowned Catacomb	457
 sld	Druid of Purification	877
 sld	Dryad Arbor	2281
 sld	Dryad of the Ilysian Grove	191
+sld	Dungeon Delver	7103
 sld	Duress	479
+sld	Duty Beyond Death	2387
 sld	Ebondeath, Dracolich	1014
 sld	Echo of Eons	821
 sld	Eidolon of the Great Revel	422
@@ -72387,6 +72438,7 @@ sld	Explore	2312
 sld	Explore	2327
 sld	Expressive Iteration	2060
 sld	Expressive Iteration	2305
+sld	Expropriate	2396
 sld	Exquisite Blood	1798
 sld	Exquisite Blood	206
 sld	Fabled Passage	1534
@@ -72468,6 +72520,7 @@ sld	Forest	1954
 sld	Forest	2080
 sld	Forest	243
 sld	Forest	2513
+sld	Forest	2544
 sld	Forest	258
 sld	Forest	363
 sld	Forest	388
@@ -72523,6 +72576,7 @@ sld	Gavony Township	357
 sld	Geier Reach Sanitarium	1408
 sld	Gemhide Sliver	648
 sld	Generous Gift	2088
+sld	Generous Gift	2534
 sld	Generous Gift	369
 sld	Generous Patron	768
 sld	Genesis Chamber	1811
@@ -72630,6 +72684,7 @@ sld	Griselbrand	160
 sld	Griselbrand	160*
 sld	Griselbrand	1620
 sld	Grist, the Hunger Tide	1417
+sld	Growth Spiral	2472
 sld	Growth Spiral	7054
 sld	Gruul Signet	288
 sld	Guardian Project	2172
@@ -72729,6 +72784,7 @@ sld	Inspiring Vantage	1375
 sld	Inspiring Vantage	1605
 sld	Inspiring Vantage	1605*
 sld	Intruder Alarm	229
+sld	Invasion Plans	7107
 sld	Inventors' Fair	1735
 sld	Iroas, God of Victory	2215
 sld	Iroas, God of Victory	70
@@ -72756,6 +72812,7 @@ sld	Island	2146
 sld	Island	2147
 sld	Island	240
 sld	Island	2510
+sld	Island	2541
 sld	Island	255
 sld	Island	360
 sld	Island	385
@@ -72901,8 +72958,10 @@ sld	Leonin Warleader	22
 sld	Leshrac's Sigil	1188
 sld	Lethal Scheme	2187
 sld	Liberator, Urza's Battlethopter	2286
+sld	Lier, Disciple of the Drowned	2350
 sld	Liesa, Shroud of Dusk	1961
 sld	Life from the Loam	8
+sld	Light Up the Stage	2528
 sld	Light-Paws, Emperor's Voice	1877
 sld	Lightning Bolt	1638
 sld	Lightning Bolt	1638*
@@ -72911,7 +72970,9 @@ sld	Lightning Bolt	1822
 sld	Lightning Bolt	1871
 sld	Lightning Bolt	1879
 sld	Lightning Bolt	2289
+sld	Lightning Bolt	2IFIYW
 sld	Lightning Bolt	675
+sld	Lightning Bolt	7IFIYW
 sld	Lightning Bolt	83
 sld	Lightning Bolt	84
 sld	Lightning Bolt	85
@@ -72925,7 +72986,10 @@ sld	Lightning Greaves	1992
 sld	Lightning Greaves	2062
 sld	Lightning Greaves	2099
 sld	Lightning Greaves	2465
+sld	Lightning Greaves	2526
+sld	Lightning Greaves	4IFIYW
 sld	Lightning Greaves	99
+sld	Lightning Greaves	9IFIYW
 sld	Lightning Strike	724
 sld	Lignify	1847
 sld	Lignify	2192
@@ -72996,6 +73060,7 @@ sld	Massacre Girl	1233
 sld	Master of Ceremonies	2379
 sld	Master of Cruelties	1565
 sld	Master of Waves	1278
+sld	Master of the Feast	7106
 sld	Master of the Wild Hunt	1249
 sld	Masterwork of Ingenuity	863
 sld	Mathise, Surge Channeler	1238
@@ -73046,6 +73111,7 @@ sld	Minds Aglow	7028
 sld	Minsc & Boo, Timeless Heroes	879
 sld	Mirage Mirror	2030
 sld	Mirage Mirror	7025
+sld	Miren, the Moaning Well	7108
 sld	Mirri, Weatherlight Duelist	26
 sld	Mirror Entity	2514
 sld	Mirror of Galadriel	1295
@@ -73106,6 +73172,7 @@ sld	Mountain	1953
 sld	Mountain	2079
 sld	Mountain	242
 sld	Mountain	2512
+sld	Mountain	2543
 sld	Mountain	257
 sld	Mountain	362
 sld	Mountain	387
@@ -73124,6 +73191,8 @@ sld	Mountain	570
 sld	Mountain	571
 sld	Mountain	66
 sld	Mountain	674
+sld	Mountain	7126
+sld	Mountain	7128
 sld	Mountain	891
 sld	Mountain Goat	737
 sld	Mox Opal	1072
@@ -73158,6 +73227,7 @@ sld	Najeela, the Blade-Blossom	1557
 sld	Narset, Enlightened Master	53
 sld	Narset, Parter of Veils	1041
 sld	Narset, Parter of Veils	1141
+sld	Narset, Parter of Veils	2397
 sld	Narset, Parter of Veils	508
 sld	Nathan Drake, Treasure Hunter	2216
 sld	Nature's Claim	2297
@@ -73199,6 +73269,7 @@ sld	Nomad Outpost	465
 sld	Norin the Wary	827
 sld	Norin the Wary	827b
 sld	Northern Paladin	1855
+sld	Notion Thief	2482
 sld	Noxious Ghoul	1459
 sld	Noxious Ghoul	1459b
 sld	Noxious Revival	1416
@@ -73288,6 +73359,7 @@ sld	Phyrexian Reclamation	1808
 sld	Phyrexian Tower	208
 sld	Phyrexian Unlife	1213
 sld	Pilgrim's Eye	692
+sld	Piper of the Swarm	7074
 sld	Pir, Imaginative Rascal	1050
 sld	Pirated Copy	2363
 sld	Pithing Needle	44
@@ -73319,6 +73391,7 @@ sld	Plains	2076
 sld	Plains	239
 sld	Plains	2509
 sld	Plains	254
+sld	Plains	2540
 sld	Plains	359
 sld	Plains	390
 sld	Plains	391
@@ -73349,6 +73422,7 @@ sld	Ponder	1783
 sld	Ponder	2292
 sld	Ponder	245
 sld	Pontiff of Blight	848
+sld	Possibility Storm	7073
 sld	Praetor's Grasp	1023
 sld	Praetor's Grasp	1861
 sld	Pre-War Formalwear	2450
@@ -73360,6 +73434,7 @@ sld	Preordain	2301
 sld	Price of Glory	1525
 sld	Price of Progress	1521
 sld	Price of Progress	1521*
+sld	Pride of the Perfect	7098
 sld	Priest of Forgotten Gods	2006
 sld	Primal Vigor	1749
 sld	Primal Vigor	314
@@ -73400,6 +73475,7 @@ sld	Questing Phelddagrif	672
 sld	Quick Sliver	655
 sld	Radha, Heart of Keld	1876
 sld	Radha, Heart of Keld	1876b
+sld	Radiate	2536
 sld	Rain of Filth	1547
 sld	Rain of Filth	1547*
 sld	Raise the Palisade	1897
@@ -73436,12 +73512,14 @@ sld	Reckoner Bankbuster	1967b
 sld	Reclamation Sage	777
 sld	Reconnaissance	1575
 sld	Reconnaissance	1575*
+sld	Reconnaissance Mission	2535
 sld	Reflecting Pool	1535
 sld	Reflecting Pool	1535*
 sld	Reflector Mage	1108
 sld	Regal Caracal	23
 sld	Regisaur Alpha	1393
 sld	Regisaur Alpha	1393*
+sld	Regrowth	7075
 sld	Regrowth	866
 sld	Reki, the History of Kamigawa	263
 sld	Relentless Dead	850
@@ -73453,6 +73531,7 @@ sld	Relentless Rats	757
 sld	Reliquary Tower	1536
 sld	Reliquary Tower	1536*
 sld	Reliquary Tower	695
+sld	Reliquary Tower	7104
 sld	Remote Isle	2162
 sld	Repercussion	1065
 sld	Reprocess	2107
@@ -73485,6 +73564,7 @@ sld	Rite of Flame	2209
 sld	Rite of Passage	1739
 sld	Rites of Flourishing	2074
 sld	Rograkh, Son of Rohgahh	9996
+sld	Rogue's Passage	2652
 sld	Rogue's Passage	607
 sld	Roil Elemental	155
 sld	Roiling Vortex	1958
@@ -73495,7 +73575,10 @@ sld	Rose Noble	1580
 sld	Rot Hulk	851
 sld	Rotting Regisaur	852
 sld	Ruhan of the Fomori	1695
+sld	Ruin Crab	7095
 sld	Ruination	9993
+sld	Rule of Law	2478
+sld	Rune-Scarred Demon	2649
 sld	Sacred Foundry	131
 sld	Saheeli, Sublime Artificer	1143
 sld	Saheeli, Sublime Artificer	534
@@ -73519,6 +73602,7 @@ sld	Satoru Umezawa	2283
 sld	Savor the Moment	1006
 sld	Savra, Queen of the Golgari	500
 sld	Saw in Half	1755
+sld	Scaled Nurturer	7101
 sld	Scattered Groves	2523
 sld	Scavenging Ooze	135
 sld	Scheming Symmetry	1520
@@ -73530,6 +73614,7 @@ sld	Scion of the Ur-Dragon	1531
 sld	Scourge of Valkas	1490
 sld	Scourge of Valkas	1490*
 sld	Scourge of the Throne	1033
+sld	Scrawling Crawler	2399
 sld	Screeching Sliver	622
 sld	Scrying Sheets	1606
 sld	Sculpting Steel	864
@@ -73542,6 +73627,8 @@ sld	Secluded Glen	1323
 sld	Second Harvest	1611
 sld	Second Harvest	2380
 sld	Secret Rendezvous	1892
+sld	Secret Rendezvous	2648
+sld	Secrets of the Dead	7099
 sld	Secure the Wastes	1748
 sld	Sedge Sliver	642
 sld	Seedborn Muse	907
@@ -73600,6 +73687,7 @@ sld	Shapeshifter	1906
 sld	Shapeshifter	1907
 sld	Shapeshifter	1908
 sld	Shapeshifter	1909
+sld	Shared Roots	2391
 sld	Shared Summons	1308
 sld	Shattergang Brothers	1315
 sld	Shattergang Brothers	1315*
@@ -73640,6 +73728,9 @@ sld	Skyline Despot	1529
 sld	Skyshroud Claim	2279
 sld	Skysovereign, Consul Flagship	1029
 sld	Slayers' Stronghold	356
+sld	Slime Against Humanity	7077
+sld	Slime Against Humanity	7078
+sld	Slime Against Humanity	7083
 sld	Slimefoot, the Stowaway	1138
 sld	Slip On the Ring	1293
 sld	Sliver Hive	668
@@ -73679,6 +73770,7 @@ sld	Snow-Covered Swamp	327
 sld	Snuff Out	1792
 sld	Sol Ring	1011
 sld	Sol Ring	1074
+sld	Sol Ring	10IFIYW
 sld	Sol Ring	1494
 sld	Sol Ring	1494*
 sld	Sol Ring	1512
@@ -73697,6 +73789,8 @@ sld	Sol Ring	2315
 sld	Sol Ring	2330
 sld	Sol Ring	2467
 sld	Sol Ring	249
+sld	Sol Ring	2539
+sld	Sol Ring	5IFIYW
 sld	Sol Ring	910
 sld	Solemn Simulacrum	1113
 sld	Solemn Simulacrum	1725
@@ -73723,6 +73817,7 @@ sld	Soul-Scar Mage	2044
 sld	Soulherder	2174
 sld	Sower of Temptation	120
 sld	Species Specialist	2369
+sld	Spell Pierce	2388
 sld	Spell Pierce	41
 sld	Spell Queller	193
 sld	Spellseeker	1165
@@ -73760,6 +73855,7 @@ sld	Steely Resolve	1326
 sld	Steely Resolve	1326b
 sld	Stensia Bloodhall	353
 sld	Stifle	1787
+sld	Stinging Study	2481
 sld	Stinkweed Imp	2516
 sld	Stitch in Time	382
 sld	Stitch in Time	382b
@@ -73770,6 +73866,7 @@ sld	Stonecoil Serpent	1226
 sld	Stoneforge Mystic	1253
 sld	Storm Crow	60
 sld	Storm, Force of Nature	1742
+sld	Storm-Kiln Artist	2352
 sld	Stranglehold	1804
 sld	Strefan, Maurer Progenitor	2501
 sld	Striking Sliver	644
@@ -73804,6 +73901,7 @@ sld	Swamp	1952
 sld	Swamp	2078
 sld	Swamp	241
 sld	Swamp	2511
+sld	Swamp	2542
 sld	Swamp	256
 sld	Swamp	361
 sld	Swamp	384
@@ -73857,6 +73955,7 @@ sld	Talisman of Dominance	1053
 sld	Talisman of Hierarchy	1057
 sld	Talisman of Impulse	1055
 sld	Talisman of Indulgence	1054
+sld	Talisman of Indulgence	2524
 sld	Talisman of Progress	1052
 sld	Talisman of Resilience	1059
 sld	Talisman of Unity	1056
@@ -73897,6 +73996,7 @@ sld	Terminate	1427
 sld	Terramorphic Expanse	585
 sld	Terror	750
 sld	Terror	750b
+sld	Terror of the Peaks	2650
 sld	Test of Endurance	1840
 sld	Tetsuko Umezawa, Fugitive	7055
 sld	Tevesh Szat, Doom of Fools	1199
@@ -73938,6 +74038,7 @@ sld	Themberchaud	728
 sld	Thespian's Stage	1607
 sld	Thespian's Stage	2310
 sld	Thorncaster Sliver	645
+sld	Thought Scour	2479
 sld	Thought Vessel	1495
 sld	Thought Vessel	1495*
 sld	Thought Vessel	1665
@@ -73950,6 +74051,8 @@ sld	Thraximundar	142
 sld	Three Visits	1676
 sld	Three Visits	1991
 sld	Thrill of Possibility	1805
+sld	Thrill of Possibility	3IFIYW
+sld	Thrill of Possibility	8IFIYW
 sld	Throat Slitter	2356
 sld	Throat Slitter	2360
 sld	Thrun, the Last Troll	810
@@ -73957,12 +74060,14 @@ sld	Tiamat	1017
 sld	Tibalt's Trickery	7027
 sld	Tibalt, Rakish Instigator	515
 sld	Tibalt, the Fiend-Blooded	537
+sld	Tidal Barracuda	7105
 sld	Timberwatch Elf	780
 sld	Time Reversal	1499
 sld	Time Reversal	1499*
 sld	Time Sieve	1671
 sld	Time Stop	1500
 sld	Time Stop	1500*
+sld	Time Stretch	2480
 sld	Tinybones, Trinket Thief	1407
 sld	Tinybones, Trinket Thief	2458
 sld	Tireless Provisioner	2057
@@ -74132,6 +74237,7 @@ sld	Winds of Change	1128
 sld	Winged Sliver	628
 sld	Winter Orb	1486
 sld	Winter Orb	1486*
+sld	Winter Orb	2400
 sld	Wirewood Symbiote	785
 sld	Witch of the Moors	1722
 sld	Witch's Oven	1762
@@ -74142,6 +74248,7 @@ sld	Woodland Cemetery	738
 sld	World Shaper	2017
 sld	World at War	2208
 sld	Worldspine Wurm	1305
+sld	Worst Fears	2398
 sld	Wrath of God	185
 sld	Wrath of God	441
 sld	Wrexial, the Risen Deep	584
@@ -74161,6 +74268,7 @@ sld	Yidris, Maelstrom Wielder	455
 sld	Yisan, the Wanderer Bard	1196
 sld	Yoshimaru, Ever Faithful	2463
 sld	Yoshimaru, Ever Faithful	794
+sld	You Find Some Prisoners	7100
 sld	Young Wolf	1820
 sld	Young Wolf	885
 sld	Youthful Valkyrie	1588
@@ -74174,6 +74282,7 @@ sld	Zndrsplt, Eye of Wisdom	379b
 sld	Zombie Apocalypse	1354
 sld	Zombie Master	1460
 sld	Zombie Master	1460b
+sld	Zombify	2389
 sld	Zulaport Cutthroat	156
 sld	Zulaport Cutthroat	1982
 sld	Zur the Enchanter	726
@@ -74743,7 +74852,203 @@ snc	Ziatora's Proving Ground	359
 snc	Ziatora, the Incinerator	231
 snc	Ziatora, the Incinerator	339
 snc	Ziatora, the Incinerator	404
+soa	Abrade	102
+soa	Abrade	167
+soa	Abrade	37
+soa	Ad Nauseam	155
+soa	Ad Nauseam	25
+soa	Ad Nauseam	90
+soa	Akroma's Will	1
+soa	Akroma's Will	131
+soa	Akroma's Will	66
+soa	Angel's Grace	132
+soa	Angel's Grace	2
+soa	Angel's Grace	67
+soa	Armageddon	133
+soa	Armageddon	3
+soa	Armageddon	68
+soa	Awaken the Woods	114
+soa	Awaken the Woods	179
+soa	Awaken the Woods	49
+soa	Berserk	115
+soa	Berserk	180
+soa	Berserk	50
+soa	Big Score	103
+soa	Big Score	168
+soa	Big Score	38
+soa	Bitter Triumph	156
+soa	Bitter Triumph	26
+soa	Bitter Triumph	91
+soa	Brain Freeze	13
+soa	Brain Freeze	143
+soa	Brain Freeze	78
+soa	Bring to Light	126
+soa	Bring to Light	191
+soa	Bring to Light	61
+soa	Brotherhood's End	104
+soa	Brotherhood's End	169
+soa	Brotherhood's End	39
+soa	Bulk Up	105
+soa	Bulk Up	170
+soa	Bulk Up	40
+soa	Burst Lightning	106
+soa	Burst Lightning	171
+soa	Burst Lightning	41
+soa	Crackle with Power	107
+soa	Crackle with Power	172
+soa	Crackle with Power	42
+soa	Crop Rotation	116
+soa	Crop Rotation	181
+soa	Crop Rotation	51
+soa	Culling Ritual	127
+soa	Culling Ritual	192
+soa	Culling Ritual	62
+soa	Culling the Weak	157
+soa	Culling the Weak	27
+soa	Culling the Weak	92
+soa	Cyclonic Rift	14
+soa	Cyclonic Rift	144
+soa	Cyclonic Rift	79
+soa	Daze	145
+soa	Daze	15
+soa	Daze	80
+soa	Deduce	146
+soa	Deduce	16
+soa	Deduce	81
+soa	Deflecting Palm	128
+soa	Deflecting Palm	193
+soa	Deflecting Palm	63
+soa	Disdainful Stroke	147
+soa	Disdainful Stroke	17
+soa	Disdainful Stroke	82
+soa	Dismember	158
+soa	Dismember	28
+soa	Dismember	93
+soa	Duty Beyond Death	134
+soa	Duty Beyond Death	4
+soa	Duty Beyond Death	69
+soa	Empty the Warrens	108
+soa	Empty the Warrens	173
+soa	Empty the Warrens	43
+soa	Expressive Iteration	129
+soa	Expressive Iteration	194
+soa	Expressive Iteration	64
+soa	Feed the Swarm	159
+soa	Feed the Swarm	29
+soa	Feed the Swarm	94
+soa	Flusterstorm	148
+soa	Flusterstorm	18
+soa	Flusterstorm	83
+soa	Force of Will	149
+soa	Force of Will	19
+soa	Force of Will	84
+soa	Fracture	130
+soa	Fracture	195
+soa	Fracture	65
+soa	Giant Growth	117
+soa	Giant Growth	182
+soa	Giant Growth	52
+soa	Glimpse of Nature	118
+soa	Glimpse of Nature	183
+soa	Glimpse of Nature	53
+soa	Helping Hand	135
+soa	Helping Hand	5
+soa	Helping Hand	70
+soa	Hop to It	136
+soa	Hop to It	6
+soa	Hop to It	71
+soa	Jeska's Will	109
+soa	Jeska's Will	174
+soa	Jeska's Will	44
+soa	Knockout Maneuver	119
+soa	Knockout Maneuver	184
+soa	Knockout Maneuver	54
+soa	Living End	160
+soa	Living End	30
+soa	Living End	95
+soa	Locust Spray	161
+soa	Locust Spray	31
+soa	Locust Spray	96
+soa	Monstrous Rage	110
+soa	Monstrous Rage	175
+soa	Monstrous Rage	45
+soa	Pick Your Poison	120
+soa	Pick Your Poison	185
+soa	Pick Your Poison	55
+soa	Pongify	150
+soa	Pongify	20
+soa	Pongify	85
+soa	Preordain	151
+soa	Preordain	21
+soa	Preordain	86
+soa	Prismatic Ending	137
+soa	Prismatic Ending	7
+soa	Prismatic Ending	72
+soa	Pyretic Ritual	111
+soa	Pyretic Ritual	176
+soa	Pyretic Ritual	46
+soa	Repel Calamity	138
+soa	Repel Calamity	73
+soa	Repel Calamity	8
+soa	Reprieve	139
+soa	Reprieve	74
+soa	Reprieve	9
+soa	Requisition Raid	10
+soa	Requisition Raid	140
+soa	Requisition Raid	75
+soa	Return the Favor	112
+soa	Return the Favor	177
+soa	Return the Favor	47
+soa	Return to the Ranks	11
+soa	Return to the Ranks	141
+soa	Return to the Ranks	76
+soa	Royal Treatment	121
+soa	Royal Treatment	186
+soa	Royal Treatment	56
+soa	Shamanic Revelation	122
+soa	Shamanic Revelation	187
+soa	Shamanic Revelation	57
+soa	Shared Roots	123
+soa	Shared Roots	188
+soa	Shared Roots	58
+soa	Sheoldred's Edict	162
+soa	Sheoldred's Edict	32
+soa	Sheoldred's Edict	97
+soa	Sleight of Hand	152
+soa	Sleight of Hand	22
+soa	Sleight of Hand	87
+soa	Smallpox	163
+soa	Smallpox	33
+soa	Smallpox	98
+soa	Spell Pierce	153
+soa	Spell Pierce	23
+soa	Spell Pierce	88
+soa	Stargaze	164
+soa	Stargaze	34
+soa	Stargaze	99
+soa	Stock Up	154
+soa	Stock Up	24
+soa	Stock Up	89
+soa	Subterranean Tremors	113
+soa	Subterranean Tremors	178
+soa	Subterranean Tremors	48
+soa	Triumph of the Hordes	124
+soa	Triumph of the Hordes	189
+soa	Triumph of the Hordes	59
+soa	Vampiric Tutor	100
+soa	Vampiric Tutor	165
+soa	Vampiric Tutor	35
+soa	Veil of Summer	125
+soa	Veil of Summer	190
+soa	Veil of Summer	60
+soa	Winds of Abandon	12
+soa	Winds of Abandon	142
+soa	Winds of Abandon	77
+soa	Zombify	101
+soa	Zombify	166
+soa	Zombify	36
 soc	Abrade	234
+soc	Advanced Reconstruction	30
 soc	Aether Gale	186
 soc	Ajani's Chosen	132
 soc	Alchemist's Refuge	360
@@ -74788,9 +75093,15 @@ soc	Casualties of War	300
 soc	Caves of Koilos	365
 soc	Chain Reaction	121
 soc	Chains of Custody	139
+soc	Changing Loyalty	23
+soc	Changing Loyalty	73
 soc	Chaos Warp	239
 soc	Claim Jumper	140
 soc	Clifftop Retreat	366
+soc	Coastal Peak	100
+soc	Coastal Peak	52
+soc	Coercive Impetus	24
+soc	Coercive Impetus	74
 soc	Combat Calligrapher	141
 soc	Command Tower	129
 soc	Commander's Insight	113
@@ -74810,12 +75121,21 @@ soc	Deadly Brew	303
 soc	Decisive Denial	304
 soc	Deekah, Fractal Theorist	193
 soc	Deep Analysis	194
+soc	Defacing Duskmage	45
+soc	Defacing Duskmage	93
+soc	Defiling Daemogoth	25
+soc	Defiling Daemogoth	75
 soc	Desolate Mire	367
 soc	Determined Iteration	122
 soc	Dig Through Time	195
+soc	Dina, Essence Brewer	1
 soc	Dina, Soul Steeper	305
+soc	Dirgur Focusmage	18
+soc	Dirgur Focusmage	68
 soc	Doomwake Giant	212
 soc	Drumbellower	143
+soc	Eclipsed Steppe	101
+soc	Eclipsed Steppe	53
 soc	Eidolon of Countless Battles	144
 soc	Eldrazi Conscription	131
 soc	Elementalist's Palette	346
@@ -74825,14 +75145,18 @@ soc	Emeria, the Sky Ruin	368
 soc	Entrancing Melody	196
 soc	Eriette of the Charmed Apple	307
 soc	Eureka Moment	308
+soc	Excava, the Risen Past	2
 soc	Exotic Orchard	369
 soc	Expansion Algorithm	19
+soc	Expansion Algorithm	69
 soc	Expressive Iteration	309
 soc	Fabled Passage	130
 soc	Faerie Mastermind	114
 soc	Faithless Looting	244
 soc	Fallen Ideal	117
 soc	Fellwar Stone	347
+soc	Feral Appetite	38
+soc	Feral Appetite	86
 soc	Ferrous Lake	370
 soc	Festering Thicket	371
 soc	Fetid Heath	372
@@ -74869,6 +75193,8 @@ soc	High Market	380
 soc	Hinterland Harbor	381
 soc	Hofri Ghostforge	314
 soc	Hydroid Krasis	315
+soc	Immoral Bargain	47
+soc	Immoral Bargain	95
 soc	Infernal Grasp	216
 soc	Ingenious Prodigy	115
 soc	Inkshield	316
@@ -74878,11 +75204,13 @@ soc	Kami of Ancient Law	150
 soc	Kami of Whispered Hopes	273
 soc	Karmic Guide	151
 soc	Keen Duelist	218
+soc	Killian, Decisive Mentor	4
 soc	Killian, Ink Duelist	317
 soc	Kor Spiritdancer	152
 soc	Laelia, the Blade Reforged	246
 soc	Land Tax	153
 soc	Leitmotif Composer	20
+soc	Leitmotif Composer	70
 soc	Lifeblood Hydra	274
 soc	Lightning Greaves	350
 soc	Llanowar Wastes	383
@@ -74895,6 +75223,8 @@ soc	Manaform Hellkite	248
 soc	Mangara, the Diplomat	155
 soc	Martial Impetus	156
 soc	Mazirek, Kraul Death Priest	319
+soc	Merchant of Venom	27
+soc	Merchant of Venom	76
 soc	Millikin	351
 soc	Mind Stone	352
 soc	Mirrorwing Dragon	249
@@ -74907,6 +75237,8 @@ soc	Morbid Opportunist	219
 soc	Mortality Spear	321
 soc	Mycoloth	276
 soc	Mystic Sanctuary	388
+soc	Naktamun Lorespinner	33
+soc	Naktamun Lorespinner	81
 soc	Nature's Lore	278
 soc	Necroblossom Snarl	389
 soc	Nether Traitor	220
@@ -74914,6 +75246,7 @@ soc	Night's Whisper	221
 soc	Nils, Discipline Enforcer	158
 soc	Ohran Frostfang	279
 soc	Ominous Harvest	28
+soc	Ominous Harvest	77
 soc	Opal Palace	390
 soc	Open the Way	280
 soc	Ophiomancer	118
@@ -74931,6 +75264,7 @@ soc	Perpetual Timepiece	354
 soc	Perplexing Test	197
 soc	Pest Infestation	282
 soc	Pest Rescuer	42
+soc	Pest Rescuer	90
 soc	Plargg and Nassari	250
 soc	Plumb the Forbidden	224
 soc	Priest of Forgotten Gods	225
@@ -74938,12 +75272,15 @@ soc	Primal Might	283
 soc	Primordial Hydra	284
 soc	Prismari Campus	394
 soc	Prismari Command	323
+soc	Prismari Pianist	34
+soc	Prismari Pianist	82
 soc	Promise of Loyalty	161
 soc	Pull from Tomorrow	116
 soc	Quandrix Apprentice	324
 soc	Quandrix Campus	395
 soc	Quandrix Command	325
 soc	Quintorius, Field Historian	326
+soc	Quintorius, History Chaser	7
 soc	Quintorius, Loremaster	327
 soc	Radiant Summit	396
 soc	Raffine's Guidance	162
@@ -74952,21 +75289,28 @@ soc	Rapid Hybridization	198
 soc	Reality Shift	199
 soc	Redemption Arc	163
 soc	Redoubled Stormsinger	251
+soc	Relic Retriever	35
+soc	Relic Retriever	83
 soc	Reliquary Tower	398
 soc	Remorseful Cleric	164
 soc	Replication Technique	200
 soc	Resculpt	201
 soc	Restless Spire	399
+soc	Ribtruss Roaster	43
+soc	Ribtruss Roaster	91
 soc	Rionya, Fire Dancer	252
 soc	Rip Apart	328
 soc	Rite of Replication	202
 soc	Rogue's Passage	400
+soc	Rootha, Mastering the Moment	8
 soc	Rootha, Mercurial Artist	329
 soc	Rousing Refrain	253
 soc	Rugged Prairie	401
 soc	Sacred Peaks	402
 soc	Sage's Reverie	165
 soc	Sakura-Tribe Elder	285
+soc	Scorched Geyser	102
+soc	Scorched Geyser	54
 soc	Screams from Within	119
 soc	Secret Rendezvous	166
 soc	Selfless Spirit	167
@@ -74997,6 +75341,8 @@ soc	Steelbane Hydra	288
 soc	Stonecoil Serpent	356
 soc	Storm-Kiln Artist	255
 soc	Stormcatch Mentor	331
+soc	Striding Shotcaller	50
+soc	Striding Shotcaller	98
 soc	Stroke of Genius	203
 soc	Study Hall	407
 soc	Sulfur Falls	408
@@ -75034,10 +75380,22 @@ soc	Transcendent Envoy	183
 soc	Treasure Cruise	205
 soc	Troyan, Gutsy Explorer	334
 soc	Trudge Garden	290
+soc	Turbulent Fen	103
+soc	Turbulent Fen	55
+soc	Turbulent Moor	104
+soc	Turbulent Moor	56
+soc	Turbulent Springs	105
+soc	Turbulent Springs	57
+soc	Turbulent Steppe	106
+soc	Turbulent Steppe	58
+soc	Turbulent Wilderness	107
+soc	Turbulent Wilderness	59
 soc	Twilight Mire	418
 soc	Twinflame	258
 soc	Tyvar's Stand	291
 soc	Umbral Collar Zealot	227
+soc	Umbral Expanse	108
+soc	Umbral Expanse	60
 soc	Unbound Flourishing	126
 soc	Vanishing Verse	335
 soc	Veinwitch Coven	228
@@ -75781,110 +76139,358 @@ som	Whitesun's Passage	27
 som	Wing Puncture	133
 som	Withstand Death	134
 som	Wurmcoil Engine	223
+sos	Aberrant Manawurm	138
 sos	Abigale, Poet Laureate	170
+sos	Abstract Paintmage	171
+sos	Additive Evolution	139
+sos	Adventurous Eater	72
+sos	Ajani's Response	6
+sos	Ambitious Augmenter	140
+sos	Ambitious Augmenter	337
+sos	Ancestral Anger	106
+sos	Applied Geometry	172
+sos	Applied Geometry	343
 sos	Arcane Omens	73
 sos	Archaic's Agony	107
+sos	Ark of Hunger	173
+sos	Ark of Hunger	344
+sos	Arnyn, Deathbloom Botanist	74
+sos	Artistic Process	108
+sos	Ascendant Dustspeaker	8
+sos	Aziza, Mage Tower Captain	174
+sos	Aziza, Mage Tower Captain	345
 sos	Banishing Betrayal	38
 sos	Berta, Wise Extrapolator	175
 sos	Berta, Wise Extrapolator	346
 sos	Biblioplex Tomekeeper	247
+sos	Blazing Firesinger	109
+sos	Blech, Loafing Pest	176
+sos	Blech, Loafing Pest	298
 sos	Bogwater Lumaret	177
+sos	Borrowed Knowledge	178
+sos	Brush Off	39
+sos	Burrog Banemaker	75
+sos	Burrog Barrage	141
+sos	Campus Composer	40
+sos	Cauldron of Essence	179
+sos	Cauldron of Essence	347
+sos	Charging Strifeknight	110
+sos	Chase Inspiration	41
+sos	Cheerful Osteomancer	76
+sos	Chelonian Tackle	142
+sos	Choreographed Sparks	111
+sos	Choreographed Sparks	331
 sos	Colorstorm Stallion	180
 sos	Colorstorm Stallion	299
+sos	Colossus of the Blood Age	181
+sos	Comforting Counsel	143
+sos	Comforting Counsel	338
 sos	Conciliator's Duelist	182
 sos	Conciliator's Duelist	348
+sos	Cost of Brilliance	77
 sos	Cuboid Colony	183
+sos	Daydream	9
 sos	Deathcap Glade	253
 sos	Deathcap Glade	301
+sos	Decorum Dissertation	292
+sos	Decorum Dissertation	78
+sos	Deluge Virtuoso	42
 sos	Diary of Dreams	248
+sos	Dig Site Inventory	10
+sos	Dina's Guidance	184
+sos	Dina's Guidance	349
+sos	Dissection Practice	79
+sos	Divergent Equation	43
 sos	Dreamroot Cascade	254
 sos	Dreamroot Cascade	302
 sos	Duel Tactics	112
+sos	Eager Glyphmage	11
+sos	Echocasting Symposium	291
+sos	Echocasting Symposium	44
+sos	Efflorescence	144
 sos	Elemental Mascot	185
+sos	Embrace the Paradox	186
+sos	Emeritus of Abundance	145
+sos	Emeritus of Abundance	339
 sos	Emeritus of Ideation	306
 sos	Emeritus of Ideation	315
 sos	Emeritus of Ideation	45
+sos	Emeritus of Woe	324
+sos	Emeritus of Woe	80
+sos	Emil, Vastlands Roamer	146
+sos	Encouraging Aviator	46
+sos	End of the Hunt	81
+sos	Ennis, Debate Moderator	14
+sos	Environmental Scientist	147
+sos	Erode	15
+sos	Erode	310
+sos	Essence Scatter	47
+sos	Essenceknit Scholar	187
+sos	Eternal Student	82
 sos	Exhibition Tidecaller	316
 sos	Exhibition Tidecaller	48
+sos	Expressive Firedancer	114
 sos	Fields of Strife	255
+sos	Fix What's Broken	188
+sos	Fix What's Broken	350
+sos	Flashback	115
+sos	Flashback	333
+sos	Flow State	49
+sos	Follow the Lumarets	148
+sos	Foolish Fate	83
 sos	Forest	271
 sos	Forest	280
 sos	Forest	281
+sos	Forum Necroscribe	84
 sos	Forum of Amity	256
+sos	Fractal Anomaly	50
 sos	Fractal Mascot	189
+sos	Fractal Tender	190
+sos	Fractalize	51
+sos	Garrison Excavator	116
+sos	Germination Practicum	149
+sos	Germination Practicum	296
+sos	Glorious Decay	150
+sos	Goblin Glasswright	117
 sos	Graduation Day	16
 sos	Grapple with Death	192
+sos	Grave Researcher	325
+sos	Grave Researcher	85
+sos	Great Hall of the Biblioplex	257
+sos	Great Hall of the Biblioplex	361
+sos	Group Project	17
+sos	Growth Curve	193
 sos	Hardened Academic	194
 sos	Hardened Academic	351
+sos	Harmonized Trio	317
+sos	Harmonized Trio	52
+sos	Harsh Annotation	18
 sos	Heated Argument	118
+sos	Homesickness	53
+sos	Hungry Graffalon	151
+sos	Hydro-Channeler	54
+sos	Imperious Inkmage	195
+sos	Impractical Joke	119
+sos	Improvisation Capstone	120
+sos	Improvisation Capstone	294
+sos	Infirmary Healer	152
+sos	Informed Inkwright	20
+sos	Informed Inkwright	311
 sos	Inkling Mascot	196
+sos	Inkshape Demonstrator	21
+sos	Interjection	22
 sos	Island	268
 sos	Island	274
 sos	Island	275
+sos	Jadzi, Steward of Fate	318
+sos	Jadzi, Steward of Fate	55
 sos	Joined Researchers	23
 sos	Joined Researchers	312
+sos	Killian's Confidence	197
+sos	Kirol, History Buff	198
 sos	Landscape Painter	56
+sos	Last Gasp	86
+sos	Lecturing Scornmage	87
+sos	Leech Collector	88
+sos	Living History	121
 sos	Lluwen, Exchange Student	199
 sos	Lorehold Charm	200
 sos	Lorehold Charm	363
 sos	Lumaret's Favor	153
+sos	Maelstrom Artisan	122
+sos	Maelstrom Artisan	334
+sos	Mage Tower Referee	249
+sos	Magmablood Archaic	123
+sos	Magmablood Archaic	295
+sos	Mana Sculpt	319
+sos	Mana Sculpt	57
+sos	Masterful Flourish	89
 sos	Mathemagics	320
 sos	Mathemagics	58
+sos	Matterbending Mage	59
+sos	Melancholic Poet	90
+sos	Mica, Reader of Ruins	124
+sos	Mind Roots	203
+sos	Mind into Matter	202
+sos	Mind into Matter	352
+sos	Mindful Biomancer	154
 sos	Molten Note	204
 sos	Molten-Core Maestro	125
 sos	Molten-Core Maestro	335
+sos	Moment of Reckoning	205
+sos	Moment of Reckoning	353
+sos	Moseo, Vein's New Dean	326
+sos	Moseo, Vein's New Dean	91
 sos	Mountain	270
 sos	Mountain	278
 sos	Mountain	279
+sos	Muse Seeker	60
+sos	Muse's Encouragement	61
+sos	Nita, Forum Conciliator	206
+sos	Nita, Forum Conciliator	354
+sos	Noxious Newt	155
 sos	Old-Growth Educator	207
 sos	Oracle's Restoration	156
+sos	Orysa, Tide Choreographer	62
+sos	Owlin Historian	24
+sos	Page, Loose Leaf	250
 sos	Paradox Gardens	258
+sos	Paradox Surveyor	208
 sos	Pensive Professor	321
 sos	Pensive Professor	63
 sos	Pest Mascot	209
+sos	Pestbrood Sloth	157
+sos	Petrified Hamlet	259
+sos	Petrified Hamlet	362
+sos	Pigment Wrangler	126
 sos	Plains	267
 sos	Plains	272
 sos	Plains	273
+sos	Planar Engineering	158
+sos	Planar Engineering	340
+sos	Poisoner's Apprentice	92
+sos	Postmortem Professor	327
+sos	Postmortem Professor	93
+sos	Potioner's Trove	251
+sos	Pox Plague	328
+sos	Pox Plague	94
+sos	Practiced Offense	25
+sos	Practiced Offense	313
+sos	Practiced Scrollsmith	210
+sos	Primary Research	26
 sos	Prismari Charm	211
 sos	Prismari Charm	364
 sos	Prismari, the Inspiration	212
 sos	Prismari, the Inspiration	285
 sos	Procrastinate	64
+sos	Proctor's Gaze	213
 sos	Professor Dellian Fel	214
 sos	Professor Dellian Fel	283
+sos	Pterafractyl	215
 sos	Pull from the Grave	95
+sos	Pursue the Past	216
+sos	Quandrix Charm	217
+sos	Quandrix Charm	365
+sos	Quandrix, the Proof	218
+sos	Quandrix, the Proof	286
+sos	Quick Study	65
+sos	Quill-Blade Laureate	27
+sos	Rabid Attack	96
+sos	Ral Zarek, Guest Lecturer	282
+sos	Ral Zarek, Guest Lecturer	97
 sos	Rancorous Archaic	2
+sos	Rapier Wit	28
+sos	Rapturous Moment	219
+sos	Rearing Embermare	127
+sos	Rehearsed Debater	29
+sos	Render Speechless	220
+sos	Resonating Lute	221
+sos	Resonating Lute	355
+sos	Restoration Seminar	290
+sos	Restoration Seminar	30
+sos	Root Manipulation	222
+sos	Rubble Rouser	128
+sos	Run Behind	66
+sos	Scolding Administrator	224
 sos	Seize the Spoils	129
+sos	Send in the Pest	100
 sos	Shattered Acolyte	31
 sos	Shattered Sanctum	260
 sos	Shattered Sanctum	303
+sos	Shopkeeper's Bane	159
 sos	Silverquill Charm	225
 sos	Silverquill Charm	366
+sos	Silverquill, the Disputant	226
+sos	Silverquill, the Disputant	287
+sos	Skycoach Conductor	322
+sos	Skycoach Conductor	67
 sos	Skycoach Waypoint	261
+sos	Slumbering Trudge	160
+sos	Slumbering Trudge	341
+sos	Snarl Song	161
+sos	Sneering Shadewriter	101
+sos	Snooping Page	227
+sos	Soaring Stoneglider	32
+sos	Social Snub	228
 sos	Spectacle Summit	262
+sos	Spectacular Skywhale	229
+sos	Spellbook Seeker	68
 sos	Spirit Mascot	230
+sos	Spiritcall Enthusiast	33
+sos	Splatter Technique	231
+sos	Splatter Technique	356
+sos	Stadium Tidalmage	232
+sos	Stand Up for Yourself	34
+sos	Startled Relic Sloth	233
+sos	Steal the Show	130
+sos	Steal the Show	336
+sos	Stirring Honormancer	234
+sos	Stirring Hopesinger	314
+sos	Stirring Hopesinger	35
+sos	Stone Docent	36
 sos	Stormcarved Coast	263
 sos	Stormcarved Coast	304
 sos	Stress Dream	235
+sos	Strife Scholar	131
+sos	Strixhaven Skycoach	252
 sos	Studious First-Year	162
+sos	Summoned Dromedary	37
+sos	Sundering Archaic	3
 sos	Sundown Pass	264
 sos	Sundown Pass	305
+sos	Suspend Aggression	236
+sos	Suspend Aggression	357
 sos	Swamp	269
 sos	Swamp	276
 sos	Swamp	277
+sos	Tablet of Discovery	132
+sos	Tackle Artist	133
 sos	Tam, Observant Sequencer	237
 sos	Teacher's Pest	238
+sos	Tenured Concocter	163
 sos	Terramorphic Expanse	265
+sos	Tester of the Tangential	69
+sos	Textbook Tabulator	70
+sos	The Dawning Archaic	1
+sos	The Dawning Archaic	289
+sos	Thornfist Striker	164
+sos	Thunderdrum Soloist	134
 sos	Titan's Grave	266
 sos	Together as One	307
 sos	Together as One	4
+sos	Tome Blast	135
+sos	Topiary Lecturer	165
+sos	Tragedy Feaster	102
+sos	Tragedy Feaster	293
+sos	Transcendent Archaic	5
+sos	Traumatic Critique	239
+sos	Traumatic Critique	358
+sos	Ulna Alley Shopkeep	103
+sos	Unsubtle Mockery	136
+sos	Vastlands Scavenger	166
+sos	Vastlands Scavenger	342
+sos	Vibrant Outburst	240
+sos	Vicious Rivalry	241
+sos	Vicious Rivalry	359
+sos	Visionary's Dance	242
+sos	Wander Off	104
+sos	Wild Hypothesis	167
+sos	Wildgrowth Archaic	168
+sos	Wildgrowth Archaic	297
+sos	Wilt in the Heat	243
 sos	Wisdom of Ages	323
 sos	Wisdom of Ages	368
 sos	Wisdom of Ages	71
 sos	Witherbloom Charm	244
 sos	Witherbloom Charm	367
+sos	Witherbloom, the Balancer	245
+sos	Witherbloom, the Balancer	288
 sos	Withering Curse	105
 sos	Withering Curse	330
+sos	Zaffai and the Tempests	246
+sos	Zaffai and the Tempests	360
+sos	Zealous Lorecaster	137
+sos	Zimone's Experiment	169
 spe	Alchemax Slayer-Bots	5
 spe	Amateur Hero	1
 spe	Amazing Alliance	2
@@ -75911,7 +76517,10 @@ spe	Twisted Spider-Clone	19
 spe	Venom Blast	20
 spe	Venom, Deadly Devourer	22
 spe	Venom, Eddie Brock	12
+spg	Adrix and Nev, Twincasters	156
 spg	Akroma's Memorial	81
+spg	Archaeomancer	149
+spg	Archmage Emeritus	150
 spg	Arid Mesa	109
 spg	Arid Mesa	114
 spg	Bitterblossom	133
@@ -75929,6 +76538,7 @@ spg	Chandra's Ignition	89
 spg	Chandra's Ignition	99
 spg	Chrome Mox	102
 spg	Chrome Mox	92
+spg	Codie, Vociferous Codex	157
 spg	Collected Company	72
 spg	Condemn	74
 spg	Crashing Footfalls	25
@@ -75943,6 +76553,7 @@ spg	Dismember	41
 spg	Dolmen Gate	145
 spg	Door of Destinies	146
 spg	Drown in the Loch	27
+spg	Dualcaster Mage	153
 spg	Eerie Ultimatum	104
 spg	Embercleave	77
 spg	Emergent Ultimatum	105
@@ -75969,6 +76580,7 @@ spg	Goblin Sharpshooter	136
 spg	Green Sun's Zenith	127
 spg	Grief	46
 spg	Grief	51
+spg	Grim Haruspex	152
 spg	Grim Tutor	76
 spg	Hallowed Haunting	64
 spg	Heat Shimmer	137
@@ -75980,11 +76592,14 @@ spg	Kindred Charge	58
 spg	Kinsbaile Cavalier	130
 spg	Leaf-Crowned Visionary	140
 spg	Ledger Shredder	55
+spg	Library of Alexandria	158a
+spg	Library of Leng	158
 spg	Lord Windgrace	14
 spg	Lord of Atlantis	1
 spg	Lord of the Undead	88
 spg	Lord of the Undead	98
 spg	Maddening Hex	70
+spg	Magus of the Library	154
 spg	Magus of the Moon	125
 spg	Malcolm, Keen-Eyed Navigator	2
 spg	Mana Crypt	17
@@ -76003,6 +76618,7 @@ spg	Mistbind Clique	131
 spg	Misty Rainforest	111
 spg	Misty Rainforest	116
 spg	Morbid Opportunist	32
+spg	Murmuring Mystic	151
 spg	Mystic Snake	35
 spg	Nexus of Fate	122
 spg	Notion Thief	36
@@ -76045,6 +76661,7 @@ spg	Subtlety	45
 spg	Subtlety	50
 spg	Sword of Fire and Ice	62
 spg	Swords to Plowshares	54
+spg	Sylvan Library	155
 spg	Sylvan Tutor	59
 spg	Temporal Manipulation	82
 spg	Thought-Knot Seer	39
@@ -79787,6 +80404,8 @@ tmc	Big Mother Mouser	97
 tmc	Biogenic Ooze	49
 tmc	Blasphemous Act	47
 tmc	Casey Jones, Asphalt Hooligan	115
+tmc	Casey Jones, Back Alley Brute	22
+tmc	Casey Jones, Back Alley Brute	90
 tmc	Chromatic Lantern	58
 tmc	Cinder Glade	61
 tmc	City of Brass	62
@@ -79804,6 +80423,7 @@ tmc	Donatello, Rad Scientist	109
 tmc	Donatello, the Brains	2
 tmc	Donatello, the Brains	85
 tmc	Donnie & April, Adorkable Duo	111
+tmc	Double Jump	35
 tmc	Dragonskull Summit	64
 tmc	Electric Seaweed	23
 tmc	Endless Foot Assault	8
@@ -79811,6 +80431,7 @@ tmc	Evolving Wilds	65
 tmc	Exotic Orchard	66
 tmc	Exploding Barrel	39
 tmc	Fabled Passage	67
+tmc	Flying Kick	35
 tmc	Foe-liage	122
 tmc	Food Chain	133
 tmc	Grand Coliseum	68
@@ -79821,11 +80442,14 @@ tmc	Heroes in a Half Shell	96
 tmc	Hidden Hideout	43
 tmc	High Score	29
 tmc	Hinterland Harbor	69
+tmc	Krang, the All-Powerful	13
+tmc	Krang, the All-Powerful	86
 tmc	Leatherhead, Iron Gator	30
 tmc	Leo's Guidance	102
 tmc	Leonardo, Worldly Warrior	101
 tmc	Leonardo, the Balance	1
 tmc	Leonardo, the Balance	83
+tmc	Level Up	31
 tmc	Manhole Cover	130
 tmc	Michelangelo, On the Scene	124
 tmc	Michelangelo, the Heart	5
@@ -79846,10 +80470,13 @@ tmc	Roadkill Rodney	41
 tmc	Rocksteady, Mutant Marauder	33
 tmc	Rocksteady, Mutant Marauder	94
 tmc	Rootbound Crag	72
+tmc	Shredder, Shadow Master	20
+tmc	Shredder, Shadow Master	88
 tmc	Smoldering Marsh	73
 tmc	Sodden Verdure	74
 tmc	Sol Ring	59
 tmc	Spire Garden	75
+tmc	Splinter & Leo, Father & Son	103
 tmc	Splinter, Aging Champion	104
 tmc	Splinter, the Mentor	3
 tmc	Splinter, the Mentor	89
@@ -79862,12 +80489,15 @@ tmc	Super Combo	95
 tmc	Supreme Verdict	134
 tmc	Swift Demise	21
 tmc	Sword of Hearth and Home	136
+tmc	Tempestra, Dame of Games	27
 tmc	Thriving Grove	77
 tmc	Thriving Isle	78
 tmc	Thriving Moor	79
 tmc	Ticked Off	121
 tmc	Together Forever	44
+tmc	Tokka & Rahzar, Unsupervised	28
 tmc	Triceraton Regenta	105
+tmc	Turtle Tracks	129
 tmc	Undergrowth Stadium	80
 tmc	Utrom Monitor	113
 tmc	Vanquish the Horde	45
@@ -80329,10 +80959,12 @@ tmt	Jennika, Bad Apple Big Sister	10
 tmt	Jennika, Bad Apple Big Sister	203
 tmt	Karai's Technique	152
 tmt	Karai's Technique	244
+tmt	Karai, Future of the Foot	151
 tmt	Kitsune's Technique	229
 tmt	Kitsune's Technique	42
 tmt	Kitsune, Dragon's Daughter	262
 tmt	Kitsune, Dragon's Daughter	41
+tmt	Koya, Death from Above	11
 tmt	Krang & Shredder	153
 tmt	Krang & Shredder	201
 tmt	Krang & Shredder	245
@@ -80503,6 +81135,7 @@ tmt	The Cloning of Shredder	60
 tmt	The Last Ronin	154
 tmt	The Last Ronin's Technique	12
 tmt	The Last Ronin's Technique	223
+tmt	The Neutrinos	160
 tmt	The Ooze	177
 tmt	The Ooze	277
 tmt	Tokka & Rahzar, Terrible Twos	171

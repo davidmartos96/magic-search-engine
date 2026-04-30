@@ -24216,7 +24216,7 @@
     "set_code": "dft"
   },
   {
-    "category": "booster_box",
+    "category": "booster_case",
     "contents": [
       [
         6,
@@ -29309,7 +29309,7 @@
     "release_date": "2026-01-23"
   },
   {
-    "category": "unknown",
+    "category": "deck_box",
     "contents": [
       [
         4,
@@ -29324,7 +29324,7 @@
     "set_code": "ecl"
   },
   {
-    "category": "unknown",
+    "category": "deck_box",
     "contents": [
       [
         4,
@@ -29435,7 +29435,7 @@
     "release_date": "2026-01-23"
   },
   {
-    "category": "bundle",
+    "category": "bundle_case",
     "contents": [
       [
         6,
@@ -29466,7 +29466,7 @@
     "release_date": "2026-01-23"
   },
   {
-    "category": "unknown",
+    "category": "booster_case",
     "contents": [
       [
         6,
@@ -29476,7 +29476,7 @@
       ]
     ],
     "name": "Lorwyn Eclipsed Collector Booster Box Case",
-    "subtype": "unknown",
+    "subtype": "collector",
     "uuid": "42f47cd4-3d88-5ef0-b403-04ef63789a24",
     "set_code": "ecl"
   },
@@ -29496,7 +29496,7 @@
     "release_date": "2026-01-23"
   },
   {
-    "category": "bundle",
+    "category": "limited_aid_tool",
     "contents": [
       [
         1,
@@ -29527,13 +29527,13 @@
       ]
     ],
     "name": "Lorwyn Eclipsed Draft Night",
-    "subtype": "default",
+    "subtype": "draft",
     "uuid": "8f293765-7a60-5082-8dcc-6320e4ae754f",
     "set_code": "ecl",
     "release_date": "2026-01-23"
   },
   {
-    "category": "unknown",
+    "category": "limited_aid_case",
     "contents": [
       [
         6,
@@ -29543,7 +29543,7 @@
       ]
     ],
     "name": "Lorwyn Eclipsed Draft Night Case",
-    "subtype": "unknown",
+    "subtype": "draft",
     "uuid": "a22f68b1-6b02-5d3a-a617-5b41909a6539",
     "set_code": "ecl"
   },
@@ -29578,7 +29578,7 @@
     "release_date": "2026-01-23"
   },
   {
-    "category": "unknown",
+    "category": "booster_case",
     "contents": [
       [
         6,
@@ -29588,7 +29588,7 @@
       ]
     ],
     "name": "Lorwyn Eclipsed Play Booster Box Case",
-    "subtype": "unknown",
+    "subtype": "play",
     "uuid": "f36cff4a-409e-5a26-9cfa-8ae4acc8e7ee",
     "set_code": "ecl"
   },
@@ -30899,7 +30899,7 @@
     "set_code": "eoe"
   },
   {
-    "category": "booster_box",
+    "category": "booster_case",
     "contents": [
       [
         6,
@@ -87429,7 +87429,7 @@
       ]
     ],
     "name": "March of the Machine The Aftermath Collector Booster Box Case",
-    "subtype": "other",
+    "subtype": "collector",
     "uuid": "d234e5d2-2bf4-56a5-a52b-b7ba8d19aaf2",
     "set_code": "mat",
     "release_date": "2023-05-12"
@@ -91325,9 +91325,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "name": "Marvel Super Heroes Beginner Box",
-    "subtype": "unknown",
+    "subtype": "starter_deck",
     "uuid": "9d5d5c72-7aba-52ed-b950-d29b3ee605da",
     "set_code": "msh",
     "contents": [
@@ -91338,9 +91338,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "name": "Marvel Super Heroes Beginner Box Case",
-    "subtype": "unknown",
+    "subtype": "starter_deck",
     "uuid": "486dd805-243d-500a-8ded-ceafb2417a5c",
     "set_code": "msh",
     "contents": [
@@ -91353,7 +91353,7 @@
   {
     "category": "bundle",
     "name": "Marvel Super Heroes Bundle",
-    "subtype": "unknown",
+    "subtype": "default",
     "uuid": "c57e137a-a96a-5f0d-8e6a-629fd4d130a1",
     "set_code": "msh",
     "contents": [
@@ -91364,9 +91364,9 @@
     ]
   },
   {
-    "category": "bundle",
+    "category": "bundle_case",
     "name": "Marvel Super Heroes Bundle Case",
-    "subtype": "unknown",
+    "subtype": "default",
     "uuid": "2beeb642-24f6-5d21-86ea-96e684bd72ff",
     "set_code": "msh",
     "contents": [
@@ -91429,9 +91429,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "limited_aid_tool",
     "name": "Marvel Super Heroes Draft Night",
-    "subtype": "unknown",
+    "subtype": "draft",
     "uuid": "82f49f59-6092-5413-a625-64bfb65cc85a",
     "set_code": "msh",
     "contents": [
@@ -91442,9 +91442,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "limited_aid_case",
     "name": "Marvel Super Heroes Draft Night Case",
-    "subtype": "unknown",
+    "subtype": "draft",
     "uuid": "7695e6c4-dd21-592c-8a99-fa75453cc16a",
     "set_code": "msh",
     "contents": [
@@ -91457,7 +91457,7 @@
   {
     "category": "bundle",
     "name": "Marvel Super Heroes Gift Bundle",
-    "subtype": "unknown",
+    "subtype": "gift_bundle",
     "uuid": "b9ab9fe7-fdab-5050-9245-17e93f68aa3f",
     "set_code": "msh",
     "contents": [
@@ -91468,9 +91468,9 @@
     ]
   },
   {
-    "category": "bundle",
+    "category": "bundle_case",
     "name": "Marvel Super Heroes Gift Bundle Case",
-    "subtype": "unknown",
+    "subtype": "gift_bundle",
     "uuid": "ec8a6792-ba74-51fd-835a-48a8a0551c56",
     "set_code": "msh",
     "contents": [
@@ -91483,7 +91483,7 @@
   {
     "category": "booster_box",
     "name": "Marvel Super Heroes Jumpstart Booster Box",
-    "subtype": "unknown",
+    "subtype": "jumpstart",
     "uuid": "fc92f5e4-94af-520a-b635-9403f7d8c26a",
     "set_code": "msh",
     "contents": [
@@ -91496,7 +91496,7 @@
   {
     "category": "booster_case",
     "name": "Marvel Super Heroes Jumpstart Booster Box Case",
-    "subtype": "unknown",
+    "subtype": "jumpstart",
     "uuid": "06698f17-0a8a-5635-9729-2146b8b1a23e",
     "set_code": "msh",
     "contents": [
@@ -91509,7 +91509,7 @@
   {
     "category": "booster_pack",
     "name": "Marvel Super Heroes Jumpstart Booster Pack",
-    "subtype": "unknown",
+    "subtype": "jumpstart",
     "uuid": "0bb5957b-8ad9-5c83-a653-c37a18bf23fa",
     "set_code": "msh",
     "contents": [
@@ -91572,7 +91572,7 @@
     ]
   },
   {
-    "category": "limited_aid_tool",
+    "category": "limited_aid_case",
     "name": "Marvel Super Heroes Prerelease Pack Case",
     "subtype": "prerelease_kit",
     "uuid": "aa23cc01-c91d-55f3-b165-d56311c4afe7",
@@ -91585,9 +91585,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "name": "Marvel Super Heroes Scene Box Case",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "3ca4fbb4-66fe-5911-9c8a-f49312b788ff",
     "set_code": "msh",
     "contents": [
@@ -91598,9 +91598,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "name": "Marvel Super Heroes Scene Box Heroes United",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "26d0ffd4-cce5-50f9-a98c-af8c31080bbc",
     "set_code": "msh",
     "contents": [
@@ -91611,9 +91611,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "name": "Marvel Super Heroes Scene Box Villains Unleashed",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "a66c0716-c63f-554e-9ffe-f8a37670b945",
     "set_code": "msh",
     "contents": [
@@ -112924,6 +112924,48 @@
         1,
         "deck",
         "sld",
+        "Dwarf Fortress: Create New World"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Dwarf Fortress Create New World",
+    "subtype": "secret_lair",
+    "uuid": "1a8288da-db46-50e7-a06f-a79c1a0885af",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Dwarf Fortress: Create New World Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Dwarf Fortress Create New World Foil",
+    "subtype": "secret_lair",
+    "uuid": "4023d305-560b-5410-a72c-5ce423f16b2c",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "EVERYTHING IS ON FIRE"
       ],
       [
@@ -116548,6 +116590,111 @@
         1,
         "deck",
         "sld",
+        "Mahō Gakuin Seishun Hakusho — 魔法学院青春白書"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Mahō Gakuin Seishun Hakusho — 魔法学院青春白書",
+    "subtype": "secret_lair",
+    "uuid": "a04caaca-d480-5a95-a468-5b05e5bb7c69",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Mahō Gakuin Seishun Hakusho — 魔法学院青春白書 Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Mahō Gakuin Seishun Hakusho — 魔法学院青春白書 Foil",
+    "subtype": "secret_lair",
+    "uuid": "700fb3a9-a92e-5163-b774-b7b01ecb0b0e",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Marvel's Deadpool: I Fixed It (You're Welcome)"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome)",
+    "subtype": "secret_lair",
+    "uuid": "9de6acfb-ac29-57a9-a8f7-9c964e1054c0",
+    "set_code": "sld",
+    "release_date": "2026-04-06"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Marvel's Deadpool: I Fixed It (You're Welcome) Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Foil",
+    "subtype": "secret_lair",
+    "uuid": "2d234c40-16fe-56b2-b51b-0b0d5355aa3c",
+    "set_code": "sld",
+    "release_date": "2026-04-06"
+  },
+  {
+    "category": "unknown",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Marvel's Deadpool: I Fixed It (You're Welcome) Pool Party Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Marvels Deadpool I Fixed It (Youre Welcome) Pool Party Dazzle Foil",
+    "subtype": "secret_lair",
+    "uuid": "08049dbc-9cf7-57d8-8120-c2fad2f93152",
+    "set_code": "sld",
+    "release_date": "2026-04-06"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "Math Is For Blockers"
       ],
       [
@@ -117037,6 +117184,90 @@
         1,
         "deck",
         "sld",
+        "My Little Pony: Friendship is Magic"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop My Little Pony Friendship is Magic",
+    "subtype": "secret_lair",
+    "uuid": "9b347d0e-5358-5875-8121-83f22e2da8a4",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "My Little Pony: Friendship is Magic Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop My Little Pony Friendship is Magic Foil",
+    "subtype": "secret_lair",
+    "uuid": "09033bd3-1f5d-54f0-96fd-6ef7e798c19d",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "My Little Pony: The Lands of Equestria"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop My Little Pony The Lands of Equestria",
+    "subtype": "secret_lair",
+    "uuid": "76711f73-6146-5643-8ce3-785a75cb6a15",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "My Little Pony: The Lands of Equestria Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop My Little Pony The Lands of Equestria Foil",
+    "subtype": "secret_lair",
+    "uuid": "f5395a42-29ea-534f-b2dd-608a275c3a94",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "Mycosynthwave"
       ],
       [
@@ -117113,6 +117344,48 @@
     "uuid": "b54626bc-d083-5f0b-9f10-92cae21b1d9b",
     "set_code": "sld",
     "release_date": "2023-04-28"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Notebook Genius"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Notebook Genius",
+    "subtype": "secret_lair",
+    "uuid": "8f1d1759-0bd5-5ce1-a001-e5726780f6fb",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Notebook Genius Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Notebook Genius Foil",
+    "subtype": "secret_lair",
+    "uuid": "f32230f4-e9c0-5617-9e84-b4bed29eab85",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
   },
   {
     "category": "box_set",
@@ -117268,6 +117541,48 @@
     "uuid": "e6368858-fdb8-5c72-b599-081f20951d4f",
     "set_code": "sld",
     "release_date": "2025-03-27"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Omens of Chaos"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Omens of Chaos",
+    "subtype": "secret_lair",
+    "uuid": "0390972b-593a-505e-9e20-b4ce44d00ae0",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Omens of Chaos Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Omens of Chaos Foil",
+    "subtype": "secret_lair",
+    "uuid": "c1fcd0da-f2eb-5dc0-b424-ddb3c304cfc4",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
   },
   {
     "category": "box_set",
@@ -118259,6 +118574,48 @@
     "uuid": "c11bf074-7229-53df-942f-56a43b858195",
     "set_code": "sld",
     "release_date": "2019-12-05"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Return to Mystical Archive"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Return to Mystical Archive",
+    "subtype": "secret_lair",
+    "uuid": "3a346369-ed7e-548d-88a9-47bac64b1ff2",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Return to Mystical Archive Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Return to Mystical Archive Foil",
+    "subtype": "secret_lair",
+    "uuid": "a298adf3-f17d-5b90-b5e1-b511501d3918",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
   },
   {
     "category": "box_set",
@@ -126282,6 +126639,48 @@
         1,
         "deck",
         "sld",
+        "The Eyes Have It"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop The Eyes Have It",
+    "subtype": "secret_lair",
+    "uuid": "c8066b43-10d0-526c-90bd-b99569f408e0",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "The Eyes Have It Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop The Eyes Have It Foil",
+    "subtype": "secret_lair",
+    "uuid": "5713d8b9-bf4e-52b7-be17-5201ffc7f726",
+    "set_code": "sld",
+    "release_date": "2026-05-12"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "The Fairest Drop of All Foil Edition"
       ],
       [
@@ -129050,6 +129449,20 @@
   },
   {
     "category": "box_set",
+    "name": "Secret Lair Festival in a Box Las Vegas 2026 Bundle",
+    "subtype": "secret_lair_bundle",
+    "uuid": "c5b42d17-7483-56a5-8676-d5cf70fef1a6",
+    "set_code": "sld",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ],
+    "release_date": "2026-05-01"
+  },
+  {
+    "category": "box_set",
     "contents": [
       [
         1,
@@ -130042,42 +130455,51 @@
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "soc",
+        "Lorehold Spirit"
+      ]
+    ],
     "name": "Secrets of Strixhaven Commander Deck Lorehold Spirit",
     "subtype": "commander",
     "uuid": "16ff4252-b699-5ffd-8f3e-af5ae2d2e6e7",
     "set_code": "soc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-04-24"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "soc",
+        "Prismari Artistry"
+      ]
+    ],
     "name": "Secrets of Strixhaven Commander Deck Prismari Artistry",
     "subtype": "commander",
     "uuid": "2618b785-3cfa-562e-b35a-a17239c52a4e",
     "set_code": "soc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-04-24"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "soc",
+        "Quandrix Unlimited"
+      ]
+    ],
     "name": "Secrets of Strixhaven Commander Deck Quandrix Unlimited",
     "subtype": "commander",
     "uuid": "493b3cdb-0fd8-5237-8daf-e18399fc0d21",
     "set_code": "soc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-04-24"
   },
   {
     "category": "subset",
@@ -130094,29 +130516,35 @@
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "soc",
+        "Silverquill Influence"
+      ]
+    ],
     "name": "Secrets of Strixhaven Commander Deck Silverquill Influence",
     "subtype": "commander",
     "uuid": "9ee95ffd-73c3-51d1-a780-f7f875751ac8",
     "set_code": "soc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-04-24"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "soc",
+        "Witherbloom Pestilence"
+      ]
+    ],
     "name": "Secrets of Strixhaven Commander Deck Witherbloom Pestilence",
     "subtype": "commander",
     "uuid": "02582628-cad4-5ea8-b046-b39fad411ba6",
     "set_code": "soc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-04-24"
   },
   {
     "category": "booster_box",
@@ -130990,134 +131418,237 @@
     "set_code": "som"
   },
   {
-    "category": "deck",
+    "category": "deck_box",
+    "contents": [
+      [
+        4,
+        "product",
+        "sos",
+        "Secrets of Strixhaven 60-Card Theme Deck Set of 2"
+      ]
+    ],
     "name": "Secrets of Strixhaven 60-Card Theme Deck Display",
     "subtype": "theme",
     "uuid": "bab74ae1-40b5-5dab-b30d-994d3c1e52b3",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
-    "category": "deck",
+    "category": "deck_box",
+    "contents": [
+      [
+        4,
+        "product",
+        "sos",
+        "Secrets of Strixhaven 60-Card Theme Deck Display"
+      ]
+    ],
     "name": "Secrets of Strixhaven 60-Card Theme Deck Display Case",
     "subtype": "theme",
     "uuid": "4a4ca706-d3f9-5a0f-8f4f-365a4e5a83e0",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sos",
+        "Eerie"
+      ],
+      [
+        1,
+        "other",
+        "5 Non-foil double-sided tokens"
+      ],
+      [
+        1,
+        "other",
+        "1 Double-sided reference card"
+      ],
+      [
+        1,
+        "other",
+        "1 Strategy insert"
+      ],
+      [
+        1,
+        "other",
+        "1 Deck box"
+      ]
+    ],
     "name": "Secrets of Strixhaven 60-Card Theme Deck Eerie",
     "subtype": "theme",
     "uuid": "7631ec6f-fbaa-5657-bdcd-1d9c306a25b6",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sos",
+        "Lifegain"
+      ],
+      [
+        1,
+        "other",
+        "5 Non-foil double-sided tokens"
+      ],
+      [
+        1,
+        "other",
+        "1 Double-sided reference card"
+      ],
+      [
+        1,
+        "other",
+        "1 Strategy insert"
+      ],
+      [
+        1,
+        "other",
+        "1 Deck box"
+      ]
+    ],
     "name": "Secrets of Strixhaven 60-Card Theme Deck Lifegain",
     "subtype": "theme",
     "uuid": "5ee527f5-2ff2-50ed-992b-e8a062e5cd3d",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "bundle",
+    "contents": [
+      [
+        1,
+        "other",
+        "1 Spindown die"
+      ],
+      [
+        1,
+        "other",
+        "1 Card-storage box"
+      ],
+      [
+        1,
+        "pack",
+        "sos-bundle-promo"
+      ],
+      [
+        9,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Bundle",
-    "subtype": "unknown",
+    "subtype": "default",
     "uuid": "77d67850-3a8d-5589-a611-b42fe4147146",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
-    "category": "bundle",
+    "category": "bundle_case",
+    "contents": [
+      [
+        6,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Bundle"
+      ]
+    ],
     "name": "Secrets of Strixhaven Bundle Case",
-    "subtype": "unknown",
+    "subtype": "default",
     "uuid": "3fcb05ff-f6ad-56c9-98bb-02e9bd1b3666",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "bundle",
+    "contents": [
+      [
+        1,
+        "other",
+        "1 Spindown die"
+      ],
+      [
+        1,
+        "other",
+        "20 Foil basic lands"
+      ],
+      [
+        1,
+        "other",
+        "1 Codex Booster"
+      ],
+      [
+        1,
+        "pack",
+        "sos-codex-bundle"
+      ],
+      [
+        6,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ],
+      [
+        2,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Collector Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Codex Bundle",
     "subtype": "unknown",
     "uuid": "ab96e968-9884-5477-9d98-58df18c888cd",
     "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-05-15"
   },
   {
-    "category": "bundle",
+    "category": "bundle_case",
+    "contents": [
+      [
+        6,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Codex Bundle"
+      ]
+    ],
     "name": "Secrets of Strixhaven Codex Bundle Case",
     "subtype": "unknown",
     "uuid": "df18975d-8c66-5a6f-ace9-5d2da053abc2",
     "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-05-15"
   },
   {
     "category": "booster_box",
+    "contents": [
+      [
+        12,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Collector Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Collector Booster Box",
     "subtype": "collector",
     "uuid": "5c665482-f352-5edd-b3a2-213a26a27249",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "booster_case",
+    "contents": [
+      [
+        6,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Collector Booster Box"
+      ]
+    ],
     "name": "Secrets of Strixhaven Collector Booster Box Case",
     "subtype": "collector",
     "uuid": "c164145a-eb91-5903-8810-d879609933ee",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "booster_box",
@@ -131134,152 +131665,323 @@
   },
   {
     "category": "booster_pack",
+    "contents": [
+      [
+        1,
+        "pack",
+        "sos-collector"
+      ]
+    ],
     "name": "Secrets of Strixhaven Collector Booster Pack",
     "subtype": "collector",
     "uuid": "04f60957-1fb2-59dc-8a98-2cc121938c46",
-    "set_code": "sos",
+    "set_code": "sos"
+  },
+  {
+    "category": "limited_aid_tool",
     "contents": [
       [
         1,
-        "unknown"
+        "other",
+        "90 Non-foil basic lands"
+      ],
+      [
+        1,
+        "other",
+        "1 Draft insert"
+      ],
+      [
+        12,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ],
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Collector Booster Pack"
       ]
-    ]
-  },
-  {
-    "category": "unknown",
+    ],
     "name": "Secrets of Strixhaven Draft Night",
-    "subtype": "unknown",
+    "subtype": "draft",
     "uuid": "8c047751-031d-5113-8b80-682508f0af03",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
-    "category": "unknown",
-    "name": "Secrets of Strixhaven Draft Night Case",
-    "subtype": "unknown",
-    "uuid": "e1dd700a-60e7-596a-8b12-7a77963b2464",
-    "set_code": "sos",
+    "category": "limited_aid_case",
     "contents": [
       [
-        1,
-        "unknown"
+        6,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Draft Night"
       ]
-    ]
+    ],
+    "name": "Secrets of Strixhaven Draft Night Case",
+    "subtype": "draft",
+    "uuid": "e1dd700a-60e7-596a-8b12-7a77963b2464",
+    "set_code": "sos"
   },
   {
     "category": "booster_box",
+    "contents": [
+      [
+        30,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Play Booster Box",
     "subtype": "play",
     "uuid": "9b4a3efa-c707-5963-9fd1-0116106563de",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "booster_case",
+    "contents": [
+      [
+        6,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Box"
+      ]
+    ],
     "name": "Secrets of Strixhaven Play Booster Box Case",
     "subtype": "play",
     "uuid": "8a92b00b-1e94-59e7-9307-1645ca6e0563",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "booster_pack",
+    "contents": [
+      [
+        1,
+        "pack",
+        "sos-play"
+      ]
+    ],
     "name": "Secrets of Strixhaven Play Booster Pack",
     "subtype": "play",
     "uuid": "f7f7e343-9350-5fa2-aab4-b58abe97113e",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "limited_aid_tool",
+    "contents": [
+      [
+        1,
+        "other",
+        "Deck box"
+      ],
+      [
+        1,
+        "other",
+        "Spindown die"
+      ],
+      [
+        1,
+        "pack",
+        "sos-prerelease-lorehold"
+      ],
+      [
+        5,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Prerelease Pack Lorehold",
     "subtype": "prerelease_kit",
     "uuid": "dc4aeb7b-b828-5336-8010-2e31300b3cd4",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "limited_aid_tool",
+    "contents": [
+      [
+        1,
+        "other",
+        "Deck box"
+      ],
+      [
+        1,
+        "other",
+        "Spindown die"
+      ],
+      [
+        1,
+        "pack",
+        "sos-prerelease-prismari"
+      ],
+      [
+        5,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Prerelease Pack Prismari",
     "subtype": "prerelease_kit",
     "uuid": "42a9c3c3-7977-5cfc-bd99-a2c394983ad0",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "limited_aid_tool",
+    "contents": [
+      [
+        1,
+        "other",
+        "Deck box"
+      ],
+      [
+        1,
+        "other",
+        "Spindown die"
+      ],
+      [
+        1,
+        "pack",
+        "sos-prerelease-quandrix"
+      ],
+      [
+        5,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Prerelease Pack Quandrix",
     "subtype": "prerelease_kit",
     "uuid": "89c3ae16-022a-5970-a537-dd3e21aa2ad6",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "subset",
+    "contents": [
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Prerelease Pack Silverquill"
+      ],
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Prerelease Pack Witherbloom"
+      ],
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Prerelease Pack Quandrix"
+      ],
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Prerelease Pack Lorehold"
+      ],
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Prerelease Pack Prismari"
+      ]
+    ],
     "name": "Secrets of Strixhaven Prerelease Pack Set of 5",
     "subtype": "prerelease_kit",
     "uuid": "8bc474e3-3592-5d98-883e-8721d19ef321",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "limited_aid_tool",
+    "contents": [
+      [
+        1,
+        "other",
+        "Deck box"
+      ],
+      [
+        1,
+        "other",
+        "Spindown die"
+      ],
+      [
+        1,
+        "pack",
+        "sos-prerelease-silverquill"
+      ],
+      [
+        5,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Prerelease Pack Silverquill",
     "subtype": "prerelease_kit",
     "uuid": "22d32682-94bb-587a-951c-5f7be8f90111",
-    "set_code": "sos",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "sos"
   },
   {
     "category": "limited_aid_tool",
+    "contents": [
+      [
+        1,
+        "other",
+        "Deck box"
+      ],
+      [
+        1,
+        "other",
+        "Spindown die"
+      ],
+      [
+        1,
+        "pack",
+        "sos-prerelease-witherbloom"
+      ],
+      [
+        5,
+        "product",
+        "sos",
+        "Secrets of Strixhaven Play Booster Pack"
+      ]
+    ],
     "name": "Secrets of Strixhaven Prerelease Pack Witherbloom",
     "subtype": "prerelease_kit",
     "uuid": "c0e8e13b-e139-55ad-80df-358ae90d3d96",
+    "set_code": "sos"
+  },
+  {
+    "category": "subset",
+    "contents": [
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven 60-Card Theme Deck Eerie"
+      ],
+      [
+        1,
+        "product",
+        "sos",
+        "Secrets of Strixhaven 60-Card Theme Deck Lifegain"
+      ]
+    ],
+    "name": "Secrets of Strixhaven Theme Decks Set of 2",
+    "subtype": "theme",
+    "uuid": "c2873789-277d-59ce-b2c9-8d91dda934c6",
+    "set_code": "sos"
+  },
+  {
+    "category": "deck",
+    "name": "Welcome Deck 2026 Black Deck",
+    "subtype": "welcome",
+    "uuid": "c82a76bd-724f-5de0-ae15-6ff580b005bf",
     "set_code": "sos",
     "contents": [
       [
@@ -131289,10 +131991,62 @@
     ]
   },
   {
-    "category": "subset",
-    "name": "Secrets of Strixhaven Theme Decks Set of 2",
-    "subtype": "unknown",
-    "uuid": "c2873789-277d-59ce-b2c9-8d91dda934c6",
+    "category": "deck",
+    "name": "Welcome Deck 2026 Blue Deck",
+    "subtype": "welcome",
+    "uuid": "0013ffba-835f-535f-8b61-e8546b264669",
+    "set_code": "sos",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Welcome Deck 2026 Green Deck",
+    "subtype": "welcome",
+    "uuid": "ea378ca0-c472-582a-b1ed-cd93d4bd6d79",
+    "set_code": "sos",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Welcome Deck 2026 Red Deck",
+    "subtype": "welcome",
+    "uuid": "327b7749-926e-5543-a492-8e76c003ac47",
+    "set_code": "sos",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Welcome Deck 2026 Set of 5",
+    "subtype": "welcome",
+    "uuid": "859cc373-2859-529a-8dda-6f535b4fc770",
+    "set_code": "sos",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Welcome Deck 2026 White Deck",
+    "subtype": "welcome",
+    "uuid": "839c8849-22df-5af8-96e0-159f4af526c1",
     "set_code": "sos",
     "contents": [
       [
@@ -131489,7 +132243,7 @@
         6,
         "product",
         "spm",
-        "Marvels Spider Man Collector Booster Box"
+        "Marvels Spider Man Play Booster Box"
       ]
     ],
     "name": "Marvels Spider Man Play Booster Box Case",
@@ -132053,6 +132807,22 @@
       [
         1,
         "deck",
+        "ss2",
+        "Signature Spellbook: Gideon"
+      ]
+    ],
+    "name": "Signature Spellbook: Gideon Box Set Signature Spellbook: Gideon",
+    "subtype": "other",
+    "uuid": "c8e2d208-83e8-55cb-b32f-5f2d8aa7ffc8",
+    "set_code": "ss2",
+    "release_date": "2019-06-28"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
         "ss3",
         "Signature Spellbook Chandra"
       ],
@@ -132178,6 +132948,22 @@
     "name": "Signature Spellbook Chandra",
     "subtype": "spellbook",
     "uuid": "08543966-6649-5610-9897-2e6ad3075440",
+    "set_code": "ss3",
+    "release_date": "2020-06-26"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "ss3",
+        "Signature Spellbook: Chandra"
+      ]
+    ],
+    "name": "Signature Spellbook: Chandra Box Set Signature Spellbook: Chandra",
+    "subtype": "other",
+    "uuid": "5108a44d-e533-5198-ad2e-b36d2a61ab8d",
     "set_code": "ss3",
     "release_date": "2020-06-26"
   },
@@ -134366,9 +135152,9 @@
     ]
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "name": "Avatar The Last Airbender Beginner Box Case",
-    "subtype": "unknown",
+    "subtype": "starter_deck",
     "uuid": "ada10d57-7928-5e0f-8997-e1ccfe4455d1",
     "set_code": "tla",
     "contents": [
@@ -135115,30 +135901,34 @@
   },
   {
     "category": "booster_box",
+    "contents": [
+      [
+        12,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Collector Booster Pack"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Collector Booster Box",
     "subtype": "collector",
     "uuid": "d398ed22-6102-57a9-90a7-67aa23957cd3",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
     "category": "booster_case",
+    "contents": [
+      [
+        6,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Collector Booster Box"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Collector Booster Box Case",
     "subtype": "collector",
     "uuid": "bb23ba3f-e83e-58c0-afc7-37e18400c66e",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
@@ -135157,57 +135947,79 @@
   },
   {
     "category": "booster_pack",
+    "contents": [
+      [
+        1,
+        "pack",
+        "tmt-collector"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Collector Booster Pack",
     "subtype": "collector",
     "uuid": "9c5a8a1e-6918-5362-90df-39a3c18739d7",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
     "category": "booster_pack",
+    "contents": [
+      [
+        1,
+        "pack",
+        "tmt-collector"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Collector Booster Pack Minimal Packaging",
     "subtype": "collector",
     "uuid": "8cf40473-f67f-5baf-85f3-afc31e3ea840",
-    "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "set_code": "tmt"
   },
   {
     "category": "limited_aid_tool",
-    "name": "Teenage Mutant Ninja Turtles Draft Night",
-    "subtype": "draft_set",
-    "uuid": "9129b057-43c3-517e-9e88-729123ed1314",
-    "set_code": "tmt",
     "contents": [
       [
         1,
-        "unknown"
+        "other",
+        "90 Non-foil basic lands"
+      ],
+      [
+        1,
+        "other",
+        "1 Draft insert"
+      ],
+      [
+        12,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Play Booster Pack"
+      ],
+      [
+        1,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Collector Booster Pack"
       ]
     ],
+    "name": "Teenage Mutant Ninja Turtles Draft Night",
+    "subtype": "draft",
+    "uuid": "9129b057-43c3-517e-9e88-729123ed1314",
+    "set_code": "tmt",
     "release_date": "2026-03-06"
   },
   {
     "category": "limited_aid_case",
-    "name": "Teenage Mutant Ninja Turtles Draft Night Case",
-    "subtype": "draft_set",
-    "uuid": "76645e5a-72eb-5432-a785-10fae665f421",
-    "set_code": "tmt",
     "contents": [
       [
-        1,
-        "unknown"
+        6,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Draft Night"
       ]
     ],
+    "name": "Teenage Mutant Ninja Turtles Draft Night Case",
+    "subtype": "draft",
+    "uuid": "76645e5a-72eb-5432-a785-10fae665f421",
+    "set_code": "tmt",
     "release_date": "2026-03-06"
   },
   {
@@ -135256,58 +136068,75 @@
   },
   {
     "category": "booster_box",
+    "contents": [
+      [
+        30,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Play Booster Pack"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Play Booster Box",
     "subtype": "play",
     "uuid": "b04ea83e-f908-5130-80ad-5300700af896",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
     "category": "booster_case",
+    "contents": [
+      [
+        6,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Play Booster Box"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Play Booster Box Case",
     "subtype": "play",
     "uuid": "d5b21011-cb80-5c30-b592-70d81d72cee5",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
     "category": "booster_pack",
+    "contents": [
+      [
+        1,
+        "pack",
+        "tmt-play"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Play Booster Pack",
     "subtype": "play",
     "uuid": "afedd9fe-a47e-55fb-b888-eb606f3ded7c",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
     "category": "limited_aid_tool",
+    "contents": [
+      [
+        1,
+        "other",
+        "Deck box"
+      ],
+      [
+        1,
+        "other",
+        "Spindown die"
+      ],
+      [
+        6,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Play Booster Pack"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Prerelease Pack",
     "subtype": "prerelease_kit",
     "uuid": "8b826e3a-b609-519e-bff6-83cab82fcc62",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
@@ -135375,7 +136204,7 @@
     "release_date": "2026-03-06"
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "contents": [
       [
         1,
@@ -135390,12 +136219,12 @@
       ]
     ],
     "name": "Teenage Mutant Ninja Turtles Tin Donatello",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "c6ffd68c-86c2-582a-9086-ad9f14a76969",
     "set_code": "tmt"
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "contents": [
       [
         1,
@@ -135410,12 +136239,12 @@
       ]
     ],
     "name": "Teenage Mutant Ninja Turtles Tin Leonardo",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "831a1c09-d04f-559d-beda-eefd4347a9cd",
     "set_code": "tmt"
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "contents": [
       [
         1,
@@ -135430,12 +136259,12 @@
       ]
     ],
     "name": "Teenage Mutant Ninja Turtles Tin Michelangelo",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "0f28177b-bdb3-5fb6-b17e-bc7b91338156",
     "set_code": "tmt"
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "contents": [
       [
         1,
@@ -135450,7 +136279,7 @@
       ]
     ],
     "name": "Teenage Mutant Ninja Turtles Tin Raphael",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "f40833fa-c7b5-599b-bc80-fdd86fd05713",
     "set_code": "tmt"
   },
@@ -135489,12 +136318,12 @@
       ]
     ],
     "name": "Teenage Mutant Ninja Turtles Tin Set of 5",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "f95345f9-288a-5ff9-9a3e-867f6b546c13",
     "set_code": "tmt"
   },
   {
-    "category": "unknown",
+    "category": "box_set",
     "contents": [
       [
         1,
@@ -135509,36 +136338,70 @@
       ]
     ],
     "name": "Teenage Mutant Ninja Turtles Tin Shredder",
-    "subtype": "unknown",
+    "subtype": "other",
     "uuid": "dc6a7a54-452b-5aec-a2c9-288737973b60",
     "set_code": "tmt"
   },
   {
     "category": "multiple_decks",
+    "contents": [
+      [
+        1,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Theme Deck Donatello"
+      ],
+      [
+        1,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Theme Deck Leonardo"
+      ],
+      [
+        1,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Theme Deck Michealangelo"
+      ],
+      [
+        1,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Theme Deck Raphael"
+      ],
+      [
+        1,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Enemy Deck"
+      ],
+      [
+        4,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Play Booster Pack"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Turtle Team-Up",
     "subtype": "default",
     "uuid": "a4983128-44e9-51ae-81d5-5f0eec88776a",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {
     "category": "deck_box",
+    "contents": [
+      [
+        4,
+        "product",
+        "tmt",
+        "Teenage Mutant Ninja Turtles Turtle Team-Up"
+      ]
+    ],
     "name": "Teenage Mutant Ninja Turtles Turtle Team-Up Case",
     "subtype": "default",
     "uuid": "defb137a-d9ac-5979-a93b-f1069ae315d3",
     "set_code": "tmt",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-03-06"
   },
   {

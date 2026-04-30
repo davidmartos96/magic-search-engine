@@ -8,7 +8,7 @@ describe "Formats" do
     assert_search_results "f:extended" # Does not exist according to mtgjson
     assert_search_equal_cards "f:standard",
       %[
-        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl,tmt
+        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl,tmt,sos
         -is:alchemy
         -(Cori-Steel Cutter)
         -(Abuelo's Awakening)
@@ -245,7 +245,7 @@ describe "Formats" do
   it "historic" do
     # including STA pre-banned
     # this is extra fun as some conjurable cards will be not banned
-    assert_count_cards "banned:historic", 62
+    assert_count_cards "banned:historic", 69
     assert_legality "historic", Date.parse("2023-08-01"), "Alora, Cheerful Assassin", "restricted"
     assert_legality "historic", Date.parse("2023-08-01"), "Black Lotus", "restricted"
     assert_legality "historic", Date.parse("2023-08-01"), "Lightning Bolt", "restricted"
