@@ -31642,6 +31642,71 @@
     "set_code": "exo"
   },
   {
+    "category": "deck",
+    "name": "Foundations Commander Deck Calling All Angels",
+    "subtype": "commander",
+    "uuid": "525c5366-77fe-558a-bc1b-a2b53b37e7fa",
+    "set_code": "fdc",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Foundations Commander Deck Keen Engineering",
+    "subtype": "commander",
+    "uuid": "92eb7d6f-e3b9-54b5-bbb7-6176a0d8beb1",
+    "set_code": "fdc",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Foundations Commander Deck Reign of Dragons",
+    "subtype": "commander",
+    "uuid": "aafde380-75e8-5568-b34e-8047884db4a3",
+    "set_code": "fdc",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Foundations Commander Deck Tramplesaurus Rex",
+    "subtype": "commander",
+    "uuid": "d102cb3f-2323-5f24-bd40-25af8bbf20b6",
+    "set_code": "fdc",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Foundations Commander Deck Wretched Ranks",
+    "subtype": "commander",
+    "uuid": "06cc8c14-42aa-5f97-a141-e2cd1f86879a",
+    "set_code": "fdc",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
     "category": "box_set",
     "contents": [
       [
@@ -32500,7 +32565,7 @@
       [
         1,
         "pack",
-        "fin-chocobo-scene-bundle"
+        "fin-chocobo-bundle-scene"
       ],
       [
         10,
@@ -108026,6 +108091,30 @@
     "contents": [
       [
         1,
+        "card",
+        "sld",
+        "7081",
+        "Moggcatcher",
+        true
+      ],
+      [
+        1,
+        "deck",
+        "sld",
+        "Goblin Storm"
+      ]
+    ],
+    "name": "Secret Lair Commander Deck Goblin Storm",
+    "subtype": "commander",
+    "uuid": "c1933766-25fa-56fc-8555-295f5aae60f5",
+    "set_code": "sld",
+    "release_date": "2026-05-22"
+  },
+  {
+    "category": "deck",
+    "contents": [
+      [
+        1,
         "deck",
         "sld",
         "Heads I Win, Tails You Lose"
@@ -110755,6 +110844,48 @@
     "uuid": "528d1011-5b94-51eb-859b-c2886d6e5de9",
     "set_code": "sld",
     "release_date": "2025-11-18"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Back in My Day!"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Back in My Day!",
+    "subtype": "secret_lair",
+    "uuid": "c47a96dd-99f3-5caf-8d54-11d041d78a76",
+    "set_code": "sld",
+    "release_date": "2026-05-29"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Back in My Day! Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Back in My Day! Foil",
+    "subtype": "secret_lair",
+    "uuid": "a82623b1-3591-5b86-a4d9-54fe7a880118",
+    "set_code": "sld",
+    "release_date": "2026-05-29"
   },
   {
     "category": "box_set",
@@ -115519,6 +115650,48 @@
     "uuid": "fa27e35c-9820-5862-9f7c-422a020ecd57",
     "set_code": "sld",
     "release_date": "2022-10-25"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Inked"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Inked",
+    "subtype": "secret_lair",
+    "uuid": "899ce8f8-bcc0-5bae-8dbb-df579285635d",
+    "set_code": "sld",
+    "release_date": "2026-05-29"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Inked Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Inked Foil",
+    "subtype": "secret_lair",
+    "uuid": "081c6145-2501-57e5-9695-b7c554617842",
+    "set_code": "sld",
+    "release_date": "2026-05-29"
   },
   {
     "category": "box_set",
@@ -125084,6 +125257,27 @@
         1,
         "deck",
         "sld",
+        "So Salty"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop So Salty",
+    "subtype": "secret_lair",
+    "uuid": "7d4117f3-9fcf-58ed-b2a9-a19fce449fe3",
+    "set_code": "sld",
+    "release_date": "2025-04-22"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "Special Guest: Fiona Staples"
       ],
       [
@@ -128529,6 +128723,27 @@
         1,
         "deck",
         "sld",
+        "Viva Las Rakdos"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Viva Las Rakdos",
+    "subtype": "secret_lair",
+    "uuid": "5bf5ae11-d73d-5ff8-a515-ac102261df5a",
+    "set_code": "sld",
+    "release_date": "2025-05-13"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "We Hope You Like Squirrels"
       ],
       [
@@ -129449,16 +129664,48 @@
   },
   {
     "category": "box_set",
+    "contents": [
+      [
+        1,
+        "card",
+        "pf26",
+        "4",
+        "Consecrated Sphinx",
+        true
+      ],
+      [
+        1,
+        "card",
+        "pf26",
+        "5",
+        "Counterspell",
+        true
+      ],
+      [
+        1,
+        "card",
+        "pf26",
+        "6",
+        "In Residence",
+        false
+      ],
+      [
+        1,
+        "product",
+        "mb2",
+        "Mystery Booster 2 Booster Box"
+      ],
+      [
+        1,
+        "product",
+        "sld",
+        "Secret Lair Drop Viva Las Rakdos"
+      ]
+    ],
     "name": "Secret Lair Festival in a Box Las Vegas 2026 Bundle",
     "subtype": "secret_lair_bundle",
     "uuid": "c5b42d17-7483-56a5-8676-d5cf70fef1a6",
     "set_code": "sld",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ],
     "release_date": "2026-05-01"
   },
   {
@@ -134018,7 +134265,7 @@
         6,
         "product",
         "tdm",
-        "Tarkir Dragonstorm Collector Booster Box"
+        "Tarkir Dragonstorm Play Booster Box"
       ]
     ],
     "name": "Tarkir Dragonstorm Play Booster Box Case",

@@ -51182,18 +51182,53 @@ mar	37	fd829a91-5512-5ce6-84b7-24f9d1e103dd	Silkguard
 mar	38	40c65a6b-b046-554e-afbf-1da4fc51b36a	Tangle
 mar	39	f5ff9751-0073-5aed-9927-d80717eb8cb3	Alibou, Ancient Witness
 mar	40	cb7670c9-82f0-579c-8288-c7dc9ad7ec13	Terminate
+mar	42	37cd1a3d-43bf-59c2-adfa-9567f7c6e52f	Concerted Effort
 mar	44	418172e2-930c-57c2-948f-4652e57f7eec	Ephemerate
+mar	45	7424ea6e-0ce3-592d-81dc-fd9020a62864	Final Showdown
+mar	46	0a115c22-6597-595a-9453-852819fb9913	Light of Promise
+mar	48	60b99d6d-fc5c-5074-a258-0443a19fb883	Return to the Ranks
+mar	50	6a4b404c-4aa8-5228-b0d2-a0ebf8599cc4	Steelshaper's Gift
+mar	51	51dd4859-f5f1-5eff-af39-63c5994daa5b	Teferi's Protection
+mar	52	415c4c61-bdbb-5a3e-9670-612c672fc358	Counterspell
 mar	54	a61b61ae-331f-58c6-94fc-ec6242cd690f	Dig Through Time
 mar	55	65325b4d-4fbf-56cb-8120-83c800e368e1	Harbinger of the Seas
 mar	56	2234755a-ced4-5fab-acee-e1b3b2dbcdeb	Lord of Atlantis
+mar	57	8d3ab965-d331-58ff-a792-a0265203277a	Mechanized Production
+mar	59	783908c8-9b71-5043-b3d7-8eea66192ef9	Reconnaissance Mission
+mar	60	9899a0e6-12d7-586d-945e-cf491e897a7f	Show and Tell
+mar	61	44b9b1d8-1ae6-5289-9307-70a71bfa28e7	Simulacrum Synthesizer
 mar	63	fee0f1c1-f552-5887-9819-8e670ed9704d	Dauthi Voidwalker
+mar	64	f72630ec-9fa3-5a65-869f-31e460cfc98d	Deadly Dispute
 mar	65	5f1ce48d-596e-583a-89f4-96152b5872a3	Extinction Event
+mar	66	1ed4b95c-1312-505b-a85a-626a93dd6542	Final Act
 mar	67	a467a6c7-b570-5e87-b9e0-8374a1fd31ba	Massacre Girl
+mar	68	95447e93-dcea-50e5-a79e-6799045898cb	No Mercy
 mar	69	fcd15ac7-78d6-502b-98ba-4a47206ab5b2	Chaos Warp
+mar	70	89c84ec6-c23a-55ee-a69e-5dba001ddd4d	Fiery Emancipation
+mar	72	cab0a226-d5bc-5378-907c-4f8a37091a58	Monstrous Rage
+mar	73	da876663-a6c0-5781-bb5a-352c5e4fe9b3	Seize the Day
+mar	74	441f462e-edcc-54ac-985d-c1f63003432e	Bedlam
+mar	75	2b42ec65-e101-5946-ab09-468c57a2575a	Beast Within
+mar	76	7c0d08e8-9be3-5027-a3d4-50237ba6d04f	Defense of the Heart
 mar	77	2101e286-92ff-5e60-bd80-441a03ea1958	Force of Vigor
 mar	78	0b60f17f-2266-5252-a357-8988fc2f228a	Heroic Intervention
 mar	79	9c6d81b2-4636-5feb-bef6-c8d304088ef4	Heroic Intervention
 mar	80	69959916-d41c-5461-a6a2-bddf59dfde55	Heroic Intervention
+mar	81	b2163645-69f5-5884-a6c7-7bc79b2c1086	Primal Vigor
+mar	83	14a736ac-404c-56bc-90bd-684da0d49494	Steely Resolve
+mar	84	0f57d284-7329-5a7e-92c2-5365844bdb85	Unnatural Growth
+mar	85	184400fe-b9e5-5c6a-a417-a9b2f3de31e6	Anthem of Champions
+mar	87	f273d090-d1f4-5e8b-bffe-8c3f1858243b	Black Panther, Wakandan King
+mar	88	236af180-708a-50d3-b685-2888d3effc52	Captain America, First Avenger
+mar	89	3f46efc7-c0b0-527d-ab20-177c78055656	Escape to the Wilds
+mar	90	ef302643-69c4-508c-b71c-1d42b04878e0	Fight to the Death
+mar	91	cd44b9c4-95ce-5abc-96b2-faf81aed64fd	Iron Man, Titan of Innovation
+mar	92	af3c0053-9567-5356-bb07-0b78df3588f3	Privileged Position
+mar	93	3ab17c02-a0db-52ef-a18b-69ad8770ffd5	Ravenous Tyrannosaurus
+mar	94	99db0b19-5bd8-5776-b047-ba07124ea7c7	Storm, Force of Nature
+mar	95	1dec8119-a400-5041-8c50-278dad2c4521	Sundering Growth
+mar	96	d096e197-7975-5f8c-91ce-ec5cd8117ef2	Warleader's Call
+mar	97	16f39913-84c4-59ad-8fce-3bf6f2e8d6af	Wolverine, Best There Is
 mar	98	4bdbd9d9-dc87-5489-9d44-ed03d8702fea	Horn of Greed
 mat	1	5a5da967-1730-5e78-a2ce-fc0d078a2317	Coppercoat Vanguard
 mat	2	588c17e9-2bc5-57af-9923-ebb0abd42f35	Deification
@@ -58693,34 +58728,216 @@ msc	4	c9889f63-3065-5b14-befa-b6206a27dfdd	The Thing
 msc	5	46ae959c-8476-5f27-afad-1a6bf3686476	Captain America, Team Leader
 msc	6	2c4ce3d6-64bd-56c0-8063-064360d19e3f	Doctor Doom, King of Latveria
 msc	7	87ede7ad-df84-5a46-b4ef-83beb838a100	T'Challa, the Black Panther
+msc	33	f31fe6ab-061d-5bec-b312-ef22347b51c7	Iron Man, Armored Avenger
+msc	54	2089aad6-68ae-5db1-bd98-c3c2726a8bb9	Lady Loki, Agent of Chaos
+msc	78	f2cf815f-5bc3-5166-b9d2-895b313b5aa8	Captain Marvel, Apex Avenger
+msc	81	e89fc2b4-660f-5797-87b5-5124e47cf978	Director Nick Fury
+msc	85	1f85e138-a964-56bb-9187-2ced479a0650	Kang Prime
+msc	86	0c153aa3-d6fd-5ccc-87e6-a6714e642364	Loki, the Deceiver
+msc	89	edfef2ea-c88b-50bb-82a1-4b12f5eeb0d3	Okoye, Mighty and Adored
+msc	95	1490fa42-1559-5590-b360-47efb19df5d2	Shuri, the Black Panther
+msc	97	f5c109ab-a216-5008-8e32-5c95290c5d60	Storm, Queen of Wakanda
+msc	105	8c3dc8f5-fe4a-5d34-9574-de1ac3416f8d	Heart-Shaped Herb
 msc	119	56ae6435-1fbf-5759-be9b-94e7418d83c3	Vision, Synthezoid Avenger
+msc	460	b0994523-51fc-588a-b345-ad0b48ac5a0f	Vision, Synthezoid Avenger
+msc	626	71ff25a6-fe94-54de-9108-874f7884cf99	Iron Man, Bleeding Edge
+msc	723	813e3169-94fc-5980-9c36-93637e410150	Hit-Monkey
 msc	726	96bb9526-5c24-55ab-80bb-cd65124e90d3	Lucky the Pizza Dog
+msc	741	cbce9983-ecef-5d39-be52-a9e357b328db	The Fantastic Four
+msc	793	4f8daf03-1763-5f13-9a20-bc0ecb1c197d	Dark Ritual
+msc	875	a5d5ed50-6e42-5cbf-8d73-73d4dce9d778	Invisible Woman
+msc	876	6364fd52-7242-55be-b575-2f58097b1e1a	Mister Fantastic
+msc	877	ddcd6421-1993-5f44-a8b5-3fd869d76d7b	Human Torch
+msc	878	418f8b7a-6c5b-51fc-85f2-c40d44364468	The Thing
+msc	879	5094e77f-d3c3-5dc7-9598-4f2626390c24	Captain America, Team Leader
+msc	880	fab25967-179b-5fe5-8915-dc76db1a81d6	Doctor Doom, King of Latveria
+msc	881	0078f7de-bedc-59bf-b82c-5d5e40295384	T'Challa, the Black Panther
+msh	4	01c46784-b6b9-5402-9014-fa98771975e9	Agent Phil Coulson
+msh	6	49341ffd-83ad-5859-8aa9-579976ffa22f	Avengers Assemble!
 msh	9	69629c9e-ed92-546c-abdf-56bbcd71f15e	Captain America, Super-Soldier
+msh	11	75e34d08-2b4a-5f8c-8b2c-00a69215fc29	Captain Marvel, Earth's Protector
+msh	17	747eb5e1-cbd4-5193-9c40-eb45189c5bd4	Invisible Woman, Sue Storm
 msh	21	9428d422-d6b7-5cb9-9eae-0719c22feeca	The Mind Stone
+msh	23a	fe1fba87-1b71-5997-8d92-bebe77312845	Monica Rambeau
+msh	23b	69016c21-d73c-50ac-b1ec-9c8d9246363c	Photon, Living Light
+msh	24	bff49e2f-11db-544f-b4a4-9988d26fdbee	Murdock's Crusade
 msh	35	254a0e14-4447-597a-b537-676206040a97	The Sentry, Golden Guardian
 msh	47	e0ded79d-a6d2-579b-beba-a3ebf8fb5d26	Attuma, Atlantean Warlord
 msh	49a	928d8f52-fab9-5546-8dfb-e4e180648980	Bruce Banner
 msh	49b	0124c211-c09c-5266-9863-aa59ce5f0443	The Incredible Hulk
+msh	51	472b7450-eb96-551d-bdc1-f6a7e52899f9	Echo, Perceptive Prodigy
+msh	62	b9516220-24b3-5d05-8adc-e07360bc060a	Kang the Conqueror
+msh	64	0cbb4b86-b181-55d0-b7a7-95e28c070041	Leader, Super-Genius
+msh	65	1e962a1c-8348-5624-a586-43868ee6f729	Loki, God of Mischief
+msh	66	8d88f74e-9d9e-5431-a6a1-2d2371e45de0	Mister Fantastic, Reed Richards
+msh	68	f4033ab7-66bd-58bc-8543-4513a151aaf6	Multiversal Incursion
 msh	69	f47688c7-8e8b-5f07-9163-2a8c02934f5b	Namor the Sub-Mariner
+msh	72	007ac439-1479-5a76-a45b-3cb7f83d1586	Secret Invasion
+msh	75	2cf60341-2890-5483-b058-486f53674c45	Shuri, Wakandan Inventor
+msh	80a	f43924f1-9201-58c7-a320-4071b1898aed	Tony Stark
+msh	80b	4c8586c6-0e31-5e55-8c89-295d94394c87	The Invincible Iron Man
 msh	87	ddbeab29-2074-5b3e-9e98-72f7968e984b	Baron Helmut Zemo
+msh	90	bddca6a0-3265-5cbe-8ad3-474dfcddf0f1	Construct a Cosmic Cube
+msh	93	792d54a3-6677-5f43-9599-bba5db069f10	Dark Deed
 msh	95	b295e867-9d6a-5014-aef9-94f6a2999241	Doctor Doom
 msh	96	5adce06d-51b3-5dee-bb59-3be79acbd89c	Doom Reigns Supreme
+msh	97	c277c4fa-0e0b-5d0c-84b2-35463e2c1505	Elektra, Daughter of the Hand
+msh	105	707acda3-e753-5f89-9f81-c76cc9534e80	The Masters of Evil
+msh	106	3b570132-c92c-5968-810c-988448cf0d49	M.O.D.O.K.
 msh	115	5975aa45-db88-5ade-99b8-069fd1e7e6df	Super-Skrull
 msh	117	cd26d8b5-7a30-5eca-80ac-21ee3bf3ed5c	Thunderbolts Conspiracy
+msh	135	5c7d556a-228d-5178-8350-6935e186bb44	HULK SMASH!
+msh	136	9aeaf39f-bdef-547f-98ce-94cbad4cc749	Human Torch, Johnny Storm
+msh	138	fc2a5d8f-568c-5aa8-a893-8ffe9661c0b0	Iron Fist, Living Weapon
+msh	146	fddc5724-721e-5075-a211-255299ca25a8	Mjölnir, Hammer of Thor
+msh	147	413be4c3-d43f-5243-9911-813793e93cb9	Photon Blast Barrage
 msh	148	9aad7290-0166-5a63-b0f4-5a485143a4fd	Quicksilver, Brash Blur
+msh	151	c891d6a1-024d-54ad-87b1-818a1b44718d	The Scarlet Witch
+msh	156	ee107678-2e3f-53f3-b3c9-b92a831565bb	Thor, God of Thunder
+msh	168	f27187f6-2124-5407-ac4f-f26d564d9171	Go Nuts!
+msh	170	66cac773-6688-59ac-b0f1-4533451ced87	Hellcat, Undying Vigilante
+msh	190	8598ec33-3649-5059-ac6f-e68f764deaa3	The Thing, Ben Grimm
+msh	191	10addd72-a1bc-5b49-9615-3a6069339225	Tigra, Feline Fury
+msh	193	489293af-8321-5b98-84df-e912ec2a844c	The Unbeatable Squirrel Girl
 msh	197	2cc396de-d29d-5187-8977-d5f29d90c4bd	World War Hulk
+msh	201	b98f5f21-4813-506c-be51-5e6c368224b4	Ant-Man, Colony Commander
+msh	203	03595529-78d6-5db5-848d-99d82d67c051	Armor Wars
+msh	207	61b5e12d-c8cc-53b0-912e-566802a85e56	Black Panther, Vanguard
+msh	208	e14489d4-5696-52f1-8333-04b8bee38596	Black Widow, Double Agent
+msh	210	17041f5e-ea77-5be2-8940-3f21fdf2a549	Captain America, Living Legend
 msh	212	8e0e9188-0b55-5f16-8054-482a28226230	The Coming of Galactus
+msh	215	6a83519c-1591-544b-bfad-6bacfd32aaf4	Hulk, Gamma Goliath
+msh	216	f1dfbd74-cf71-5d46-ab69-880a59f33a49	Iron Man, Master of Machines
+msh	217	d7baaa23-df55-5a54-9362-fed32b2eb8cb	Kang, Temporal Tyrant
+msh	218	812ab588-9494-5c97-aa94-d6c6b98f6978	Killmonger, Scourge of Wakanda
+msh	219a	3854a309-1842-54b3-8248-e29af03246ec	King T'Challa
+msh	219b	cd9e84a3-d7a9-5ca8-88a5-840b8c761b0b	Black Panther, Hope Enduring
+msh	220	00590cb8-3737-5002-8827-6b319035b730	The Kingpin of Crime
+msh	221	3f45ae42-dc18-5a23-8c0e-df62f6005d95	Madame Hydra
 msh	223	9cd7d75a-5e77-54eb-b586-5cd43783d8e9	Moon Girl and Devil Dinosaur
+msh	229	06afe063-f145-5e65-acd0-0b27c1a3519c	Spider-Woman, Secret Agent
+msh	233	3894528d-c599-5808-bbe8-c19247d28b54	Thanos, the Mad Titan
+msh	234	60acc3ce-5b93-5421-b04b-50bf68ad6247	Thor Odinson
+msh	240	2e5a2561-267a-5c1e-a64b-331322f7d9c8	Wolverine, Fierce Fighter
+msh	241	d1da4349-9005-57e4-b412-f942dae318ac	Worlds Within Worlds
+msh	243	e0e65ab1-18cc-5e23-a6a6-fbfd13edf38a	Arc Reactor
+msh	251	47836e61-dbe0-5998-8d87-218ae00ae632	The Ten Rings
 msh	255	ba9594c4-70b5-5034-84da-106e8c94a356	The Vision
+msh	277	f03eafd2-477a-5fff-b0ec-d2cda9ccafcc	Plains
+msh	278	811a28c7-a222-5a2b-8597-60ab0f60e37d	Plains
+msh	279	e1afd32e-2aa0-5d04-a3a8-b4376531d0d4	Island
+msh	280	b340486f-f3fa-532f-9593-c920b130de03	Island
+msh	281	32d5da2e-96e3-55b2-9bd9-a7ae7d99be8f	Swamp
+msh	282	9f3de54e-3467-5de4-8c3a-1f02e0bda3bb	Swamp
+msh	283	0a465570-61c3-5249-8a14-940e6706c174	Mountain
+msh	284	e1d6481a-641d-5b09-ae9d-5d193f45330c	Mountain
+msh	285	296002c7-1898-5a49-a419-57f77b72ab48	Forest
+msh	286	2a4d68bf-9e2e-5f2b-b0cc-24c12e0b1330	Forest
+msh	287	56d8b407-8b23-5ec6-87fe-b34542e04279	Plains
+msh	288	4a983210-952c-5384-a039-2c6d37c4a8b4	Plains
+msh	289	1d8ebe6e-ad82-5f1a-a49e-10b11fcf2fb4	Island
+msh	290	508a0555-a900-518f-b5a0-f278f713062b	Island
+msh	291	2711896a-f1f0-5fb5-a424-b57d8602c638	Swamp
+msh	292	35d07084-7e87-5d28-b6b2-d7f87172c69f	Swamp
+msh	293	be431a70-ae18-5042-ac94-b49d82712342	Mountain
+msh	294	23e25436-ae19-5ae1-a175-779b0f214707	Mountain
+msh	295	ae29e830-890f-5112-87de-b32bedfb428f	Forest
+msh	296	5c403198-6a75-5994-9404-dcd9772e88a7	Forest
+msh	297	28b86bbf-be42-5d95-9a2f-6e564cebde2c	Avengers Assemble!
+msh	300	cadc5fb3-b7d0-529c-bb69-d6fa734c6a73	Multiversal Incursion
+msh	301	8616ee31-11b6-531e-8dee-d304a4892c93	Secret Invasion
+msh	303	5aa74fe1-2ad9-5fae-bb2e-efc1c168c07a	Mjölnir, Hammer of Thor
 msh	304	1fb9ab66-de4d-559d-93b2-8063191a1faa	World War Hulk
+msh	305	a08ad290-d5ee-5603-af0b-2dbe99735de6	Armor Wars
 msh	307	82106884-52b8-5ba7-a6f4-fbbd38c76d0a	The Coming of Galactus
+msh	310	b0e7bcc0-efb8-5e87-a65f-51d1de071ab4	Arc Reactor
+msh	313	e2604435-065f-5fe3-9d25-b3b1843394b8	The Ten Rings
+msh	316	8a974b23-2fea-5c70-93e0-c24761fa84c4	Captain America, Super-Soldier
+msh	318	f8c9e0a7-c1fd-5f03-84c5-a911675874d8	Madame Hydra
+msh	320	923b7302-5226-50ac-b308-79e74841ca92	Mister Fantastic, Reed Richards
+msh	321	a31cb824-ea13-5f1c-b73b-3c98a6921ef4	Human Torch, Johnny Storm
+msh	322	462129a4-9116-5e1b-9a6b-58970b3bcdc4	The Thing, Ben Grimm
+msh	323	cb50521b-1f6c-506f-a2f6-b77e407190d6	Invisible Woman, Sue Storm
+msh	326	cbdf7e39-2af7-5b58-a3a5-a7668353a036	Elektra, Daughter of the Hand
+msh	327	cdd8243b-1527-558d-a479-971c2d17ba3e	The Kingpin of Crime
+msh	330	5197f9d1-da1e-5b2d-b7ea-cb8a2284f4b5	Leader, Super-Genius
+msh	331a	bb7abe51-190b-5753-a515-0e4464938a6c	Bruce Banner
+msh	331b	7d00bac8-0549-59b5-8d13-aeb66a0d80de	The Incredible Hulk
+msh	332	1571551e-8742-5d42-a099-d17544289b72	HULK SMASH!
+msh	336	ac9aed00-89c9-5f3b-9e6d-39460e058630	Doctor Doom
+msh	338	88a2673e-4381-58c4-adb3-7504fb530421	Thor, God of Thunder
+msh	339	7be6dcd0-d0e8-59da-ba36-214a71a7c5f4	Mjölnir, Hammer of Thor
+msh	341	72f9b314-a0ae-54b1-9bcd-d8d7929469dc	Avengers Assemble!
+msh	342	85acb6ff-7dcd-5d27-a80e-df7c3de27e2d	Captain Marvel, Earth's Protector
+msh	343	6f1ee489-fecf-5b7a-a0bd-5e8f201b2e4a	Loki, God of Mischief
+msh	345a	9233d357-9149-5b34-b81f-412137ce1487	Monica Rambeau
+msh	345b	1e45ff83-3cd6-5624-bbe8-dfb7c5ea21e7	Photon, Living Light
+msh	346a	9e036954-911b-520c-9aa0-fd4d1785a87b	King T'Challa
+msh	346b	390cbc2e-3c69-5f72-8b63-caecbd80f9f8	Black Panther, Hope Enduring
+msh	350a	c4916c60-9458-5c14-bdcf-096193cf4271	Tony Stark
+msh	350b	85fc4c69-ea6e-540c-bfd3-ffd164dc4758	The Invincible Iron Man
+msh	352	dcdd6d08-e703-5096-9f5b-5f494294aad4	Captain America, Super-Soldier
+msh	354	1f42ad83-1dfe-56f1-be81-9ee9d7b5a29b	Captain Marvel, Earth's Protector
+msh	356a	0caa3dd2-ee25-5a24-811f-3daf5e0594f0	Monica Rambeau
+msh	356b	ae4d4320-d07e-5a92-ac9d-b5d9ab4f213c	Photon, Living Light
+msh	358	51b9d702-37d4-5b48-b336-6e4eb6522172	The Sentry, Golden Guardian
+msh	359a	ad8a5ddc-b985-52fb-8260-283307d7c1ac	Bruce Banner
+msh	359b	bb7c4eea-e316-5f4a-b8df-1e804d0f906c	The Incredible Hulk
+msh	362	b0db57f7-ec99-5cc4-b62f-b6c552489784	Namor the Sub-Mariner
+msh	363a	63cdc067-7cc9-5966-8962-7944be866d68	Tony Stark
+msh	363b	b2e22038-584f-535b-8036-656cb92eb9cf	The Invincible Iron Man
+msh	365	7232e12f-000d-545d-8091-bf5a7f312957	Doctor Doom
+msh	366	19484227-1d94-5280-89a3-c36f440c5c23	Elektra, Daughter of the Hand
+msh	368	baeef729-b0d0-5b6b-8871-a9c92aafc4bc	The Scarlet Witch
+msh	369	2c0a2042-46ab-5603-be9f-8e606e3080e8	Thor, God of Thunder
+msh	371	7683f094-588e-584f-ae26-98faee1f8220	The Unbeatable Squirrel Girl
+msh	373a	c1236789-4eb8-50ef-be09-34c27392fe1a	King T'Challa
+msh	373b	dd89c0a6-82fc-5d25-bdbd-d9f5d3b5aff9	Black Panther, Hope Enduring
+msh	374	b016a8e5-aa51-5a2a-a7a5-9ac45c2fbc47	The Kingpin of Crime
+msh	376	c4f1e3be-5472-5608-88ae-b71bdecc1e3b	Thanos, the Mad Titan
+msh	378	93ac8563-f4c2-514c-88d3-d323d9b78b50	Wolverine, Fierce Fighter
+msh	379	66a7f9d5-ee4c-5ea5-b5dc-44a001b4f2cd	The Vision
 msh	385	e329e284-f677-5bce-a17b-999548feb57c	The Mind Stone
 msh	386	45cda03c-1aba-57f0-8d1d-bc8d3700a170	The Mind Stone
 msh	387	1fbb99ba-5d89-510c-a454-974c3371f00e	Captain America, Super-Soldier
 msh	390a	2be58272-c5b9-5e37-a512-6eb3ae96f280	Bruce Banner
 msh	390b	d7220aa0-aefe-5c6c-9154-b620753c6a7e	The Incredible Hulk
 msh	391	aa2d4a8b-e0cf-54d5-9bcc-2a5639074400	Namor the Sub-Mariner
+msh	392a	fba0e0b8-ebb4-56a5-8db3-b18a5ae641f8	Tony Stark
+msh	392b	16d9934f-7bc6-5d17-99d6-36fa489310ed	The Invincible Iron Man
 msh	394	4e2a3197-59a7-5432-8711-e755bfbd2b8e	Doctor Doom
+msh	395	868a9fed-ce86-5181-8914-1f5ca6059978	Elektra, Daughter of the Hand
+msh	399a	eae9e079-8430-5b34-a170-ab6bf58b2fe1	King T'Challa
+msh	399b	a6ee2017-76d0-5a08-bc2f-6746fadb5d3a	Black Panther, Hope Enduring
+msh	400	5b97a906-5430-5ecf-b63f-a388329dec07	Thanos, the Mad Titan
+msh	402	fdfa0c8a-db04-5f52-aa2f-33ed2965d05c	Agent Phil Coulson
+msh	403	752ccee7-d874-585a-9774-5816df25a15e	Kang the Conqueror
+msh	405	b3b56ccc-5f00-5b2b-a464-f7ed209302f0	Baron Helmut Zemo
+msh	406	1ec71349-642b-59ed-b32c-704bf80bf8b3	Construct a Cosmic Cube
+msh	407	ff4a6aed-b725-5c48-887e-7dd05a4846b0	Doom Reigns Supreme
+msh	408	18bbd30a-6c56-50c7-823f-f157ff5f3922	M.O.D.O.K.
+msh	409	70f19b72-4dbb-5784-8d1f-27b9aa400e74	Super-Skrull
+msh	410	9b1de41a-b993-507a-b11a-560f4c07c7bb	Thunderbolts Conspiracy
+msh	412	f55b8e59-7d2a-5098-93d7-127c8c255c74	Quicksilver, Brash Blur
+msh	421	62952525-4b34-54e3-82d4-d46d4f6a8197	Moon Girl and Devil Dinosaur
+msh	426	0a24a49c-1e5f-5e36-952e-39e5fa4ab45a	Worlds Within Worlds
+msh	431	d7d252e6-01a1-55f3-95bd-78713504985b	The Scarlet Witch
+msh	432	76e8f2a1-d897-5b25-a61a-4d3ee0f8b4de	Daredevil, Man Without Fear
+msh	433	4e9379d8-2c68-5346-841d-30c4a2028c27	Plains
+msh	434	014cf6ed-c727-5743-b6bd-7b0709c686bc	Plains
+msh	435	53848490-0039-5f3b-bf41-6ef3fff712ca	Island
+msh	436	4efbbd08-a5f8-5ccd-9404-88e56028be84	Island
+msh	437	4a0c4121-54a6-52c4-bd4a-8a2700a11c3c	Swamp
+msh	438	899d9eea-a1fc-5ac1-a09a-8b0a825bb886	Swamp
+msh	439	88eedd12-136a-50f9-91b4-2aa058e2566b	Mountain
+msh	440	cd8b60bb-1e72-5b60-b55e-646e1f6d77e1	Mountain
+msh	441	5fd6a9a8-c70e-5b08-84e0-dd1d2c6217e2	Forest
+msh	442	0dec8e7c-43ef-553b-b938-50cab0ed9951	Forest
+msh	445	cdac527b-f20d-59bf-9149-b08a9be58ad5	Mister Fantastic, Reed Richards
+msh	449	b06f2f77-3428-52a2-b8dc-c268d67ecaec	Captain America, Living Legend
+msh	450	648410dd-5a5c-514b-b58b-813ea8ae72be	Kang, Temporal Tyrant
+msh	451	f7e3a102-9037-54bd-921a-28d89143465b	Madame Hydra
+msh	9999	eb1d42bc-3c56-5092-90e6-507142ecbd9f	The Mind Stone
 mul	A-120	3b03c507-a8e1-5a4a-a136-85807581a3ab	Radha, Coalition Warlord (Alchemy)
 mul	1	7496ad08-1898-5a29-8a52-5db8956d6186	Anafenza, Kin-Tree Spirit
 mul	2	bc335fdd-a4f2-5660-98d2-302c40a11ba1	Daxos, Blessed by the Sun
@@ -69435,8 +69652,8 @@ pjou	126★	c8675b62-3fcf-56e5-a5e8-c1bcb6ba3f55	Heroes' Bane
 pjou	162	4690d6a8-63e9-5923-b446-3db2becc8426	Hall of Triumph
 pjsc	2025-1	da38a1b1-febd-597b-95ac-a48255ccc62c	Tishana's Tidebinder
 pjsc	2025-2	07c5f0e8-8581-5eff-9b1e-58a44152bcf5	Brotherhood's End
-pjsc	2026-1	d6d3137f-281b-5cbe-94fd-b6f8e0c641e0	Sheltered by Ghosts
-pjsc	2026-2	ed0f64d2-5a36-5395-8a4c-b015f58f6f26	Unstoppable Slasher
+pjsc	2026-1	4b687d90-93d5-52f3-bf44-2ebfd0731468	Sheltered by Ghosts
+pjsc	2026-2	999153e0-013a-5d22-b2f8-0f9e8ba7529b	Unstoppable Slasher
 pjse	1E05	54f4b724-34b2-5a65-954c-5bdbc335a5ea	Slith Firewalker
 pjse	1E06	d89c1fd3-c643-5b3b-bee4-636423ae5d43	Sakura-Tribe Elder
 pjse	1E07	7c685511-66f4-5273-bfca-4b462a9bedcc	Soltari Priest
@@ -75952,6 +76169,8 @@ pmei	2025-8	4a7a4daf-264d-5db2-b115-610f1515d987	Dark Ritual
 pmei	2026-08	d299295d-46ef-536b-bd16-7bda138cd091	Appa, Aang's Companion
 pmei	2026-1	5048c684-b47e-5a8e-b572-4928b63c349e	Command Tower
 pmei	2026-10	0ea8b01e-b7db-54f4-ba6f-1b63ea41c5e2	The Goose Mother
+pmei	2026-11	01bc8fe8-4644-5ff0-a2e3-3beb93bd3f1d	Zetalpa, Primal Dawn
+pmei	2026-12	34129d8d-bfcf-5fea-9fbc-315718fbcdd8	Turtle Lair
 pmei	2026-2	b2469002-bde4-59b9-b356-701abbecc564	Crop Rotation
 pmei	2026-3	b57f750e-727b-50b9-a881-7853c63a2759	Zack Fair
 pmei	2026-4	062d75ae-db25-5b08-8d77-07d34da02ea6	Swords to Plowshares
@@ -89281,6 +89500,11 @@ sld	164	f5016e90-917e-5a9a-9740-60e4775e811b	Teferi's Protection
 sld	165	ffda0b30-2c36-57bc-a0b3-951a9c178e78	Consecrated Sphinx
 sld	166	b91834a6-59ff-5774-bc56-25c3b0e2c050	Collected Company
 sld	167	15d2153c-840b-54b3-a740-faa289453e81	Amulet of Vigor
+sld	168	b8aadfce-f44a-5f0c-9aff-2cf9e1f0095f	Mulldrifter
+sld	169	707d965e-6327-519d-a7a9-77b8b1ea7f56	Crypt Ghast
+sld	170	a5eb28bb-9d18-52de-b89d-0bfcf71dd817	Deathrite Shaman
+sld	171	9a2e49bb-9a7a-5ecd-96ee-b84e65b57324	Ice-Fang Coatl
+sld	172	f654ef7c-ddc3-557a-a956-c2e133261060	Burnished Hart
 sld	173	afddf66d-0d75-5ab4-8bab-1026877a5fa2	Balance
 sld	174	85041861-3d64-544b-8aa2-97619186a8d0	Brainstorm
 sld	175	b2860b41-ceb3-5ea8-b9ca-17b49b167c2e	Counterspell
@@ -91394,6 +91618,10 @@ sld	2337	d8e3cbeb-2e1b-5d98-92b8-1bb170fea66d	Maddening Cacophony
 sld	2338	0e95b3d3-b7db-50ab-ac55-460154d38e38	Serum Visions
 sld	2339	daf50c62-40ca-5469-965e-623564271c8a	Umbris, Fear Manifest
 sld	2340	2504ab56-a70b-578b-8559-d27d13c73f1e	Spellskite
+sld	2346	76e0bfed-391e-5ed6-95e3-54b96c3ccb18	Battle Hymn
+sld	2347	626f7ee1-2b98-5343-a566-3e6c33369e93	Breath of Fury
+sld	2348	a6e86726-7fd2-5422-81d3-3a12fb1e59ac	Veil of Summer
+sld	2349	54eb2c1e-fe23-5c85-ad6c-6cbd81200afc	Birthing Pod
 sld	2350	39b39fd2-fe21-5c22-ac21-7cf61c253544	Lier, Disciple of the Drowned
 sld	2351	3005fa64-d4f7-5c4f-866b-dd96b8019428	Bloodghast
 sld	2352	86f87765-7c35-52cb-b820-d08075cfae28	Storm-Kiln Artist
@@ -91452,6 +91680,7 @@ sld	2417	d7afcac7-3399-5fb2-b6cc-4501df697486	Sol Ring
 sld	2418	3f77fbb3-bd70-512b-8cde-ee75876be5ab	Mountain
 sld	2419	53ef3e4e-645c-5593-9886-6988edbb221b	Mountain
 sld	2420	fc75b390-281f-5612-ad8e-4c36231ebd07	Mountain
+sld	2423	d14fc437-a475-583d-a497-69ed0e3d2832	Zada, Hedron Grinder
 sld	2424	b893b7e9-ba9c-548c-b9c3-b3108721548d	Goblin Chieftain
 sld	2425	9b322b24-d1df-52a1-a977-ca2ed150d0e8	Goblin Lackey
 sld	2426	cb10ad38-c72e-5ee4-95e7-1c1fc9fe2a47	Vandalblast
@@ -91548,6 +91777,37 @@ sld	2649	d1ed9df1-b96e-590e-863c-efb4b6e69d47	Rune-Scarred Demon
 sld	2650	625c1daf-208b-5666-ac78-2a9acd65ab96	Terror of the Peaks
 sld	2651	e530e0a2-0b1a-593b-a342-ac1c6c5c7808	Communal Brewing
 sld	2652	6a381321-2021-5a0a-920d-2810752e11b6	Rogue's Passage
+sld	2653	177a6c2d-1f9a-54fa-bb64-a025415e658d	Sheltered by Ghosts
+sld	2654	6e4d946e-05ad-525f-8b6b-7f9c76ddf819	Spirit of the Hearth
+sld	2655a	ef1b6f75-71c6-56d0-9b9a-bdf582c2ad7d	Witch Enchanter
+sld	2655b	6a4a9c6c-03e4-50b3-8bc9-630ebfbd541b	Witch-Blessed Meadow
+sld	2656	0b137f07-1b96-5ccb-9a5f-b519b1f27311	Wayfarer's Bauble
+sld	2657	77f53433-e3e4-5c0b-a8bb-1361523bf408	Boseiju, Who Shelters All
+sld	2663	c6595586-d749-52e5-b872-51b953cd677d	Swords to Plowshares
+sld	2664	61128a5c-452c-5d56-902d-7d8e6770515f	Counterspell
+sld	2665	aef5ab46-1b5f-554d-a12f-d76a0ae15567	Dark Ritual
+sld	2666	e52a4823-33cb-5784-87ee-28548125443c	Earthquake
+sld	2667	a590e63e-2f02-5fd1-a617-d188574e6276	Fog
+sld	2668	d2f99a56-e6fd-5e1d-94cc-5cd62c81be80	Rin and Seri, Inseparable
+sld	2669	2b43667a-e056-50c5-9363-13549fbe49fc	Orim's Chant
+sld	2670	b9643112-a450-56a8-9f40-a481c7b1412c	Ponder
+sld	2671	5a550f2a-7c37-533f-8117-f771b11e43ea	Beast Within
+sld	2672	874019bf-9333-543b-9faf-b5508a9ab1d1	Sol Ring
+sld	2673	43af4968-0efb-51c0-87b4-5d6a2c15c59b	It That Betrays
+sld	2674	caf57445-3ada-5fe0-a043-21c1675882b9	Maddening Cacophony
+sld	2675	6322ad71-b2a3-5847-8401-5fbc263c94d4	Maddening Hex
+sld	2676	2be4291e-4c2a-5d52-8a5f-f00cd3b0f601	Hunter's Insight
+sld	2677	09f0efb7-2d32-56e8-b75c-7fa9e9b31115	Molten Collapse
+sld	2685	db5c5a00-df75-5750-b232-85415882d361	Court of Grace
+sld	2686	b24a87f5-58a1-57c6-b917-9643b18c595c	Reverent Mantra
+sld	2687	2ecd71de-40cc-5948-8c36-c3ae4f2cadbf	Windborn Muse
+sld	2688	c292dc37-e48c-5f0c-81a4-046b79401edc	Queen Marchesa
+sld	2689	027326e8-aaeb-514b-b016-095538a2f45c	Ruinous Ultimatum
+sld	2700	e11b3b9a-3bb5-5af8-b9ed-6cf5a9a55984	Future Sight
+sld	2701	349fc71a-b6f6-5302-91f5-cafbaad3160d	Time Stretch
+sld	2702	fa75f726-5a28-536e-b431-218770f6935d	Barrowgoyf
+sld	2703	674ff0e5-9b5e-51a0-afe9-b5579afda34b	Throes of Chaos
+sld	2704	4899ec7f-1525-5d25-a46d-b29d0735ee5d	Mind's Eye
 sld	7001	f18f51ab-ae4d-5d6e-abfe-6347d4fdc4f2	Feed the Swarm
 sld	7002	29756b2c-e363-5ceb-836f-1b8ae2bddd79	Forge Anew
 sld	7003	5e99b07c-5218-5c3a-a520-4705726f9b2e	Silence
@@ -91609,6 +91869,7 @@ sld	7066	847bb7a9-f2d7-5dbc-8b24-63e2925b52be	Read the Bones
 sld	7067	66de903f-5291-5311-b4be-1a1917984fee	Command Tower
 sld	7068	cf00962f-7e03-590a-aa59-6d27bb9c2f73	Arcane Signet
 sld	7069	8609a0ed-15b3-5c7b-92f7-e0d8d08a4f0e	Read the Bones
+sld	7070	f8fbcf53-d78b-5dbe-b697-9bca2e364bbd	Utopia Sprawl
 sld	7071	17aa725b-e5fb-5460-8643-336d0eb14235	Butcher of Malakir
 sld	7072	6ecc3d1d-1465-56cc-aaaf-9b5055e64b80	Butcher of Malakir
 sld	7073	1be6df0f-a2ed-5247-b9ea-2e9fecc7b59b	Possibility Storm
@@ -91617,6 +91878,7 @@ sld	7075	87ccc622-8776-5633-9e9b-96cb6c38071e	Regrowth
 sld	7076	259476bc-e328-56df-870f-92dd336d5cc8	Big Score
 sld	7077	1ad05c08-f3d6-58ef-9696-63d27e09167d	Slime Against Humanity
 sld	7078	e6142b93-8a31-5b65-9608-db63cf590729	Slime Against Humanity
+sld	7081	0c19a76f-8515-59b1-bd2d-94f90d3779f9	Moggcatcher
 sld	7083	bbe123af-4d61-581d-aac0-8884c20f6be9	Slime Against Humanity
 sld	7094	9c7245ca-2196-52e4-bd54-1bf126c67512	Academy Manufactor
 sld	7095	695153fc-25b8-5539-a237-44f9e4e8ef16	Ruin Crab
@@ -91706,6 +91968,9 @@ slp	49a	7c7abccc-acc3-54e1-aca0-496fe750db07	Tamiyo, Inquisitive Student
 slp	49b	eea07a3d-b1bd-53c6-ac54-a0d75be42575	Tamiyo, Seasoned Scholar
 slp	50	90691bcc-6dbf-5556-8e61-38cff3a2a5bf	Ancient Stirrings
 slp	51	efa8cdee-cc19-5f66-b8bb-6fa9fb739cdf	Sowing Mycospawn
+slp	52	315dc1e7-ca5a-5b6b-a0dc-96000e61f66b	Kozilek's Command
+slp	53	c6803b6b-3266-562b-afb8-12f1fa92e0c0	Sunpearl Kirin
+slp	54	e39e3b56-ee15-53c9-bc99-76fbd534737a	Pinnacle Starcage
 slu	1	21bbd333-bb1a-5d88-93aa-657f3ca5c6a5	Marsh Flats
 slu	2	580098e8-7398-58f1-bce0-025245291e68	Scalding Tarn
 slu	3	f236cb8f-0a36-5d68-82c8-859536f270d4	Verdant Catacombs
@@ -99424,6 +99689,7 @@ tpr	266	c83c5f43-4b94-5c15-b171-cd728ef5714c	Forest
 tpr	267	28ea34d3-d5cd-5eb3-88b7-ecccef5c7200	Forest
 tpr	268	b8a2d051-b0fc-5b71-99af-614912bdf569	Forest
 tpr	269	bf693575-8930-5567-b1cd-27123182875c	Forest
+trc	85	1637a86e-8518-5086-8137-721dbc68897a	Captain Kirk, Boldly Going
 tsb	1	b7125666-013e-5e20-a169-6ff29be11067	Akroma, Angel of Wrath
 tsb	2	5d6c13f5-1da7-54e6-ad88-9c76853d73a1	Auratog
 tsb	3	6a73faec-653f-50cd-87c0-78881f10d6fc	Celestial Dawn
@@ -108699,6 +108965,39 @@ ysnc	27	0fd47828-c34a-5de8-92e4-1f12ec11768b	Rope Line Attendant
 ysnc	28	d5b11783-6198-5570-bf30-13e20b08286f	Spara's Bodyguard
 ysnc	29	9fe657d6-5f18-517c-97e9-54158f0c6a83	Spelldrain Assassin
 ysnc	30	272bf7c1-6b2d-58c5-b367-4d5453ccf199	Syndicate Recruiter
+ysos	1	930a563d-d365-5584-b277-74d6f466754d	Honor the Past
+ysos	2	17186403-0dcf-5123-84fd-44c8d3ff28f5	Unbreakable Remnant
+ysos	3a	938bc503-8bc5-5098-9cdb-6a13ad1c13c9	Galathul Galecaller
+ysos	3b	1654a9c4-1312-5130-8ee3-aa132e88f3b0	Corvid Squall
+ysos	4	71e99f7f-640c-561e-877b-075f2548e558	Interdisciplinary Studies
+ysos	5	43d14d07-dab9-5e10-9c2f-c18deb38549a	Corpseweaver Prodigy
+ysos	6	e8ca6e81-73c2-5ed2-ac17-11626e829012	Feed the Bog
+ysos	7	cb9e68b5-cf2c-5976-98fa-c638084793ac	Impose Hierarchy
+ysos	8	7fa20a31-230e-5de4-88fa-6e96c71434cd	Consumed by History
+ysos	9a	8e5f4384-3089-5701-959f-b89eb9671e8d	Crescendo Conductor
+ysos	9b	cf4142ee-1f8c-52fd-a9c2-95d27e3e03f8	Boltwave (Prepared)
+ysos	10	186e9fcc-c9c4-5fac-9fd0-c74cc9641192	Algorithmic Ferocity
+ysos	11a	4196d2cd-93b3-5d12-a703-d83cf81b833e	Ursine Guide
+ysos	11b	591e3692-6a62-5492-a9bb-e587594e064e	Ranger's Merit
+ysos	12	063bbaf3-ca2c-54f3-8e81-dc608d5e1cdd	Variable Solutions
+ysos	13	a0e98c05-8bb0-5a3d-8e53-4bc59332bca9	Advanced Floral Invocations
+ysos	14	ecde3cc4-2f4a-5b16-ae9b-db1aa7f9baa6	Anina, Natural Parallelist
+ysos	15	d9848448-c1c3-5d84-8369-449812fd4ad3	Archaeomancer's Spade
+ysos	16	051544f2-69a4-5c1f-9bb6-0d69bc7dde30	Blood Age Muster
+ysos	17	742789ca-2265-5164-bf6e-8d5d64faed99	Distracted Botanist
+ysos	18	2aca356d-265e-5b40-9e0b-ea74c51ada5b	Expansive Reapplication
+ysos	19	baae6a63-a6c5-5787-acd3-2709265256c2	Glorifying Verse
+ysos	20	0fe45910-a0fd-5ad5-a8d4-f895138dc4da	Grave Studies
+ysos	21	40be28ac-44ed-580a-a651-48855acfb3ad	Head of the Class
+ysos	22	d2bee8cf-6649-5293-885f-f434edf18a76	Inspiring Easel
+ysos	23	cc16b87f-0fe8-58c9-8574-ba22ab6b48a0	Paradigm Shifter
+ysos	24	f12b3013-3925-579c-a595-3ab27a04dea2	Phoenix of Iteration
+ysos	25	39b810c8-fbcc-5e76-85b3-7e7d4ebe9813	Scalar Scholar
+ysos	26	88061efd-ce73-5a68-b85c-99714c46b37f	Scintillating Encore
+ysos	27	a3086b4e-8dac-5f49-8c96-893d954c9479	Soovril, Patient Antiquarian
+ysos	28	1222f905-eeb0-5d5f-b0d5-d353c3c16df4	Summitfest Closing Ceremony
+ysos	29	c48073c0-b229-5399-8d34-319e793d0036	Sundering Sentinel
+ysos	30	2fa6c92e-6abf-5266-8fcc-d79ae72687cc	The Mystical Archive
 ytdm	1	81c9bc92-e9d1-5a93-b7e4-de4b09a88d59	Lam, Storm Crane Elder
 ytdm	2	9a9b81b3-e99b-5784-abab-b7c3d6a4697c	Thunderbond Vanguard
 ytdm	3	67e843db-433d-57f3-9c7a-8c0bb797d935	Waystone's Guidance

@@ -472001,6 +472001,86 @@
     "display": ""
   },
   {
+    "name": "Back in My Day!",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Battle Hymn",
+          "count": 1,
+          "set": "SLD",
+          "number": "2346"
+        },
+        {
+          "name": "Breath of Fury",
+          "count": 1,
+          "set": "SLD",
+          "number": "2347"
+        },
+        {
+          "name": "Veil of Summer",
+          "count": 1,
+          "set": "SLD",
+          "number": "2348"
+        },
+        {
+          "name": "Birthing Pod",
+          "count": 1,
+          "set": "SLD",
+          "number": "2349"
+        }
+      ]
+    },
+    "source": "https://www.reddit.com/r/magicTCG/comments/1ta5y16/sld_back_in_my_day/",
+    "display": ""
+  },
+  {
+    "name": "Back in My Day! Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Battle Hymn",
+          "count": 1,
+          "set": "SLD",
+          "number": "2346",
+          "foil": true
+        },
+        {
+          "name": "Breath of Fury",
+          "count": 1,
+          "set": "SLD",
+          "number": "2347",
+          "foil": true
+        },
+        {
+          "name": "Veil of Summer",
+          "count": 1,
+          "set": "SLD",
+          "number": "2348",
+          "foil": true
+        },
+        {
+          "name": "Birthing Pod",
+          "count": 1,
+          "set": "SLD",
+          "number": "2349",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://www.reddit.com/r/magicTCG/comments/1ta5y16/sld_back_in_my_day/",
+    "display": ""
+  },
+  {
     "name": "Bad to the Bones",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -482490,6 +482570,542 @@
     "display": ""
   },
   {
+    "name": "Goblin Storm",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-18",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Zada, Hedron Grinder",
+          "count": 1,
+          "set": "SLD",
+          "number": "2406",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Krenko, Mob Boss",
+          "count": 1,
+          "set": "SLD",
+          "number": "2407",
+          "foil": true
+        },
+        {
+          "name": "Pashalik Mons",
+          "count": 1,
+          "set": "SLD",
+          "number": "2408",
+          "foil": true
+        },
+        {
+          "name": "Brightstone Ritual",
+          "count": 1,
+          "set": "SLD",
+          "number": "2409",
+          "foil": true
+        },
+        {
+          "name": "Broadside Bombardiers",
+          "count": 1,
+          "set": "SLD",
+          "number": "2410",
+          "foil": true
+        },
+        {
+          "name": "Conspicuous Snoop",
+          "count": 1,
+          "set": "SLD",
+          "number": "2411",
+          "foil": true
+        },
+        {
+          "name": "Empty the Warrens",
+          "count": 1,
+          "set": "SLD",
+          "number": "2412",
+          "foil": true
+        },
+        {
+          "name": "Grapeshot",
+          "count": 1,
+          "set": "SLD",
+          "number": "2413",
+          "foil": true
+        },
+        {
+          "name": "Skirk Prospector",
+          "count": 1,
+          "set": "SLD",
+          "number": "2414",
+          "foil": true
+        },
+        {
+          "name": "Roaming Throne",
+          "count": 1,
+          "set": "SLD",
+          "number": "2415",
+          "foil": true
+        },
+        {
+          "name": "Skullclamp",
+          "count": 1,
+          "set": "SLD",
+          "number": "2416",
+          "foil": true
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "2417",
+          "foil": true
+        },
+        {
+          "name": "Blasphemous Act",
+          "count": 1,
+          "set": "PLST",
+          "number": "DRC-101"
+        },
+        {
+          "name": "Chaos Warp",
+          "count": 1,
+          "set": "PLST",
+          "number": "DRC-48"
+        },
+        {
+          "name": "Frontline Heroism",
+          "count": 1,
+          "set": "PLST",
+          "number": "J25-15"
+        },
+        {
+          "name": "Goblin Bombardment",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH2-279"
+        },
+        {
+          "name": "Goblin Chieftain",
+          "count": 1,
+          "set": "SLD",
+          "number": "2424"
+        },
+        {
+          "name": "Goblin Dark-Dwellers",
+          "count": 1,
+          "set": "PLST",
+          "number": "J25-556"
+        },
+        {
+          "name": "Goblin Lackey",
+          "count": 1,
+          "set": "SLD",
+          "number": "2425"
+        },
+        {
+          "name": "Goblin Trashmaster",
+          "count": 1,
+          "set": "PLST",
+          "number": "M19-144"
+        },
+        {
+          "name": "Great Train Heist",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTJ-125"
+        },
+        {
+          "name": "Grenzo, Havoc Raiser",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-213"
+        },
+        {
+          "name": "Howlsquad Heavy",
+          "count": 1,
+          "set": "PLST",
+          "number": "DFT-134"
+        },
+        {
+          "name": "Past in Flames",
+          "count": 1,
+          "set": "PLST",
+          "number": "MM3-105"
+        },
+        {
+          "name": "Redcap Gutter-Dweller",
+          "count": 1,
+          "set": "PLST",
+          "number": "WOE-146"
+        },
+        {
+          "name": "Rundvelt Hordemaster",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMU-142"
+        },
+        {
+          "name": "Searslicer Goblin",
+          "count": 1,
+          "set": "PLST",
+          "number": "FDN-93"
+        },
+        {
+          "name": "Siege-Gang Commander",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMR-136"
+        },
+        {
+          "name": "Siege-Gang Lieutenant",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-61"
+        },
+        {
+          "name": "Idol of Oblivion",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-277"
+        },
+        {
+          "name": "Ruby Medallion",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH3-295"
+        },
+        {
+          "name": "Throne of Eldraine",
+          "count": 1,
+          "set": "PLST",
+          "number": "WOC-28"
+        },
+        {
+          "name": "Arena of Glory",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH3-215"
+        },
+        {
+          "name": "Castle Embereth",
+          "count": 1,
+          "set": "PLST",
+          "number": "ONC-150"
+        },
+        {
+          "name": "Den of the Bugbear",
+          "count": 1,
+          "set": "PLST",
+          "number": "AFR-254"
+        },
+        {
+          "name": "Fountainport",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLB-253"
+        },
+        {
+          "name": "Kher Keep",
+          "count": 1,
+          "set": "PLST",
+          "number": "MKC-270"
+        },
+        {
+          "name": "Spinerock Knoll",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-300"
+        },
+        {
+          "name": "War Room",
+          "count": 1,
+          "set": "PLST",
+          "number": "MKC-310"
+        },
+        {
+          "name": "Shinka, the Bloodsoaked Keep",
+          "count": 1,
+          "set": "PLST",
+          "number": "CHK-282"
+        },
+        {
+          "name": "Ancestors' Aid",
+          "count": 1,
+          "set": "PLST",
+          "number": "LCI-132"
+        },
+        {
+          "name": "Battle Hymn",
+          "count": 1,
+          "set": "PLST",
+          "number": "AVR-128"
+        },
+        {
+          "name": "Boggart Shenanigans",
+          "count": 1,
+          "set": "PLST",
+          "number": "EVG-54"
+        },
+        {
+          "name": "Crimson Wisps",
+          "count": 1,
+          "set": "PLST",
+          "number": "J25-533"
+        },
+        {
+          "name": "Daring Discovery",
+          "count": 1,
+          "set": "PLST",
+          "number": "LCI-142"
+        },
+        {
+          "name": "Dragon Fodder",
+          "count": 1,
+          "set": "PLST",
+          "number": "FDN-535"
+        },
+        {
+          "name": "Expedite",
+          "count": 1,
+          "set": "PLST",
+          "number": "CMR-413"
+        },
+        {
+          "name": "Faithless Looting",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-165"
+        },
+        {
+          "name": "Fists of Flame",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH1-123"
+        },
+        {
+          "name": "Gempalm Incinerator",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMR-122"
+        },
+        {
+          "name": "General Kreat, the Boltbringer",
+          "count": 1,
+          "set": "PLST",
+          "number": "J25-48"
+        },
+        {
+          "name": "Glimpse the Impossible",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH3-124"
+        },
+        {
+          "name": "Goblin Bushwhacker",
+          "count": 1,
+          "set": "PLST",
+          "number": "ZEN-125"
+        },
+        {
+          "name": "Goblin Matron",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMR-123"
+        },
+        {
+          "name": "Goblin Negotiation",
+          "count": 1,
+          "set": "PLST",
+          "number": "FDN-88"
+        },
+        {
+          "name": "Goblin Warchief",
+          "count": 1,
+          "set": "PLST",
+          "number": "J22-548"
+        },
+        {
+          "name": "Haze of Rage",
+          "count": 1,
+          "set": "PLST",
+          "number": "TSR-169"
+        },
+        {
+          "name": "Impact Tremors",
+          "count": 1,
+          "set": "PLST",
+          "number": "MOC-285"
+        },
+        {
+          "name": "Impulsive Pilferer",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-171"
+        },
+        {
+          "name": "Krenko's Command",
+          "count": 1,
+          "set": "PLST",
+          "number": "J25-140"
+        },
+        {
+          "name": "Mana Geyser",
+          "count": 1,
+          "set": "PLST",
+          "number": "C21-176"
+        },
+        {
+          "name": "Mogg War Marshal",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMR-131"
+        },
+        {
+          "name": "Quest for the Goblin Lord",
+          "count": 1,
+          "set": "PLST",
+          "number": "WWK-86"
+        },
+        {
+          "name": "Renegade Tactics",
+          "count": 1,
+          "set": "PLST",
+          "number": "J25-590"
+        },
+        {
+          "name": "Sazacap's Brew",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLB-151"
+        },
+        {
+          "name": "Seething Song",
+          "count": 1,
+          "set": "PLST",
+          "number": "C21-179"
+        },
+        {
+          "name": "Spreading Insurrection",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH2-142"
+        },
+        {
+          "name": "Storm-Kiln Artist",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-181"
+        },
+        {
+          "name": "Vandalblast",
+          "count": 1,
+          "set": "SLD",
+          "number": "2426"
+        },
+        {
+          "name": "Wild Ride",
+          "count": 1,
+          "set": "PLST",
+          "number": "TDM-132"
+        },
+        {
+          "name": "Witch's Mark",
+          "count": 1,
+          "set": "PLST",
+          "number": "WOE-158"
+        },
+        {
+          "name": "Swiftfoot Boots",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-286"
+        },
+        {
+          "name": "Dwarven Mine",
+          "count": 1,
+          "set": "PLST",
+          "number": "ELD-243"
+        },
+        {
+          "name": "Forgotten Cave",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-343"
+        },
+        {
+          "name": "Goblin Burrows",
+          "count": 1,
+          "set": "PLST",
+          "number": "EVG-58"
+        },
+        {
+          "name": "Hidden Volcano",
+          "count": 1,
+          "set": "PLST",
+          "number": "LCI-277"
+        },
+        {
+          "name": "Reliquary Tower",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-368"
+        },
+        {
+          "name": "Smoldering Crater",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMR-257"
+        },
+        {
+          "name": "Mountain",
+          "count": 7,
+          "set": "SLD",
+          "number": "2418",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 8,
+          "set": "SLD",
+          "number": "2419",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 7,
+          "set": "SLD",
+          "number": "2420",
+          "foil": true
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Goblin",
+          "count": 4,
+          "set": "SLD",
+          "number": "2421",
+          "foil": true,
+          "token": true
+        },
+        {
+          "name": "Storm Counter",
+          "count": 1,
+          "set": "SLD",
+          "number": "2422",
+          "foil": true,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/secret-lair-commander-deck-goblin-storm-decklist",
+    "display": ""
+  },
+  {
     "name": "Goblingram",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -484509,6 +485125,99 @@
     },
     "source": "https://secretlair.wizards.com/us/product/766564",
     "display": "Also includes one random foil extended art sliver [SLD:610-667]."
+  },
+  {
+    "name": "Inked",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mulldrifter",
+          "count": 1,
+          "set": "SLD",
+          "number": "168"
+        },
+        {
+          "name": "Crypt Ghast",
+          "count": 1,
+          "set": "SLD",
+          "number": "169"
+        },
+        {
+          "name": "Deathrite Shaman",
+          "count": 1,
+          "set": "SLD",
+          "number": "170"
+        },
+        {
+          "name": "Ice-Fang Coatl",
+          "count": 1,
+          "set": "SLD",
+          "number": "171"
+        },
+        {
+          "name": "Burnished Hart",
+          "count": 1,
+          "set": "SLD",
+          "number": "172"
+        }
+      ]
+    },
+    "source": "https://www.reddit.com/r/SecretLairMTG/comments/1sm5tr3/inked_secret_lair_drop_mfg_2025_scrapped_or_still/",
+    "display": ""
+  },
+  {
+    "name": "Inked Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-05-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mulldrifter",
+          "count": 1,
+          "set": "SLD",
+          "number": "168",
+          "foil": true
+        },
+        {
+          "name": "Crypt Ghast",
+          "count": 1,
+          "set": "SLD",
+          "number": "169",
+          "foil": true
+        },
+        {
+          "name": "Deathrite Shaman",
+          "count": 1,
+          "set": "SLD",
+          "number": "170",
+          "foil": true
+        },
+        {
+          "name": "Ice-Fang Coatl",
+          "count": 1,
+          "set": "SLD",
+          "number": "171",
+          "foil": true
+        },
+        {
+          "name": "Burnished Hart",
+          "count": 1,
+          "set": "SLD",
+          "number": "172",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://www.reddit.com/r/SecretLairMTG/comments/1sm5tr3/inked_secret_lair_drop_mfg_2025_scrapped_or_still/",
+    "display": ""
   },
   {
     "name": "International Women's Day 2020",
@@ -489737,15 +490446,16 @@
     "cards": {
       "Main Deck": [
         {
-          "name": "Batwing Brume",
-          "count": 1,
-          "set": "SLD"
-        },
-        {
           "name": "Abrupt Decay",
           "count": 1,
           "set": "SLD",
           "number": "2468"
+        },
+        {
+          "name": "Batwing Brume",
+          "count": 1,
+          "set": "SLD",
+          "number": "2469"
         },
         {
           "name": "Chance for Glory",
@@ -489780,16 +490490,17 @@
     "cards": {
       "Main Deck": [
         {
-          "name": "Batwing Brume",
-          "count": 1,
-          "set": "SLD",
-          "foil": true
-        },
-        {
           "name": "Abrupt Decay",
           "count": 1,
           "set": "SLD",
           "number": "2468",
+          "foil": true
+        },
+        {
+          "name": "Batwing Brume",
+          "count": 1,
+          "set": "SLD",
+          "number": "2469",
           "foil": true
         },
         {
@@ -494543,6 +495254,55 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/en/product/1245182/festival-in-a-box-las-vegas-2025",
+    "display": ""
+  },
+  {
+    "name": "So Salty",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2025-04-22",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Expropriate",
+          "count": 1,
+          "set": "SLD",
+          "number": "2396",
+          "foil": true
+        },
+        {
+          "name": "Narset, Parter of Veils",
+          "count": 1,
+          "set": "SLD",
+          "number": "2397",
+          "foil": true
+        },
+        {
+          "name": "Scrawling Crawler",
+          "count": 1,
+          "set": "SLD",
+          "number": "2399",
+          "foil": true
+        },
+        {
+          "name": "Worst Fears",
+          "count": 1,
+          "set": "SLD",
+          "number": "2398",
+          "foil": true
+        },
+        {
+          "name": "Winter Orb",
+          "count": 1,
+          "set": "SLD",
+          "number": "2400",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://www.reddit.com/r/SecretLairMTG/comments/1s4c30k/new_so_salty_roadshow_secret_lair_unveiled_at_pax/",
     "display": ""
   },
   {
@@ -500928,6 +501688,55 @@
     },
     "source": "https://secretlair.wizards.com/us/product/629371",
     "display": "Due to a technical issue, this secret lair drop was shipped without [SLD:214] Heliod, Sun-Crowned. The card was shipped after-the-fact to all affected customers along with 5 additional goblin tokens."
+  },
+  {
+    "name": "Viva Las Rakdos",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2025-05-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Talisman of Indulgence",
+          "count": 1,
+          "set": "SLD",
+          "number": "2524",
+          "foil": true
+        },
+        {
+          "name": "Dark Petition",
+          "count": 1,
+          "set": "SLD",
+          "number": "2525",
+          "foil": true
+        },
+        {
+          "name": "Lightning Greaves",
+          "count": 1,
+          "set": "SLD",
+          "number": "2526",
+          "foil": true
+        },
+        {
+          "name": "Beseech the Mirror",
+          "count": 1,
+          "set": "SLD",
+          "number": "2527",
+          "foil": true
+        },
+        {
+          "name": "Light Up the Stage",
+          "count": 1,
+          "set": "SLD",
+          "number": "2528",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/festival-in-a-box-is-headed-to-vegas-baby",
+    "display": ""
   },
   {
     "name": "Warhammer 40,000: Orks",

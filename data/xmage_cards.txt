@@ -16037,6 +16037,8 @@ clb	Greater Gargadon	796
 clb	Greatsword of Tyr	22
 clb	Green Slime	636
 clb	Green Slime	680
+clb	Grell Philosopher	616
+clb	Grell Philosopher	666
 clb	Grim Haruspex	754
 clb	Grim Hireling	755
 clb	Grumgully, the Generous	847
@@ -34640,6 +34642,7 @@ ice	Malachite Talisman	328
 ice	Marton Stromgald	199
 ice	Melee	200
 ice	Melting	201
+ice	Mercenaries	44
 ice	Merieke Ri Berit	297
 ice	Mesmeric Trance	83
 ice	Meteor Shower	202
@@ -34829,6 +34832,9 @@ iko	Boneyard Lurker	298
 iko	Boon of the Wish-Giver	43
 iko	Boot Nipper	76
 iko	Bristling Boar	146
+iko	Brokkos, Apex of Forever	179
+iko	Brokkos, Apex of Forever	299
+iko	Brokkos, Apex of Forever	378
 iko	Bushmeat Poacher	77
 iko	Call of the Death-Dweller	78
 iko	Capture Sphere	44
@@ -40921,18 +40927,24 @@ ktk	Woolly Loxodon	158
 ktk	Zurgo Helmsmasher	214
 lcc	Admiral Beckett Brass	264
 lcc	Admiral Brass, Unsinkable	1
+lcc	Admiral Brass, Unsinkable	121
+lcc	Admiral Brass, Unsinkable	17
+lcc	Admiral Brass, Unsinkable	25
 lcc	Aetherize	142
 lcc	Akroma's Will	125
 lcc	Alchemist's Refuge	318
 lcc	Altar of the Wretched	10
+lcc	Altar of the Wretched	22
 lcc	Amphin Mutineer	143
 lcc	Amulet of Vigor	103
 lcc	Angrath's Marauders	215
 lcc	Apex Altisaur	232
 lcc	Arcane Signet	104
+lcc	Arcane Signet	299
 lcc	Arch of Orazca	319
 lcc	Archaeomancer's Map	101
 lcc	Arm-Mounted Anchor	67
+lcc	Arm-Mounted Anchor	99
 lcc	Atzocan Seer	265
 lcc	Austere Command	126
 lcc	Azure Fleet Admiral	144
@@ -40951,24 +40963,32 @@ lcc	Bloodtracker	186
 lcc	Bojuka Bog	320
 lcc	Branching Evolution	234
 lcc	Breeches, Brazen Plunderer	217
+lcc	Broadside Bombardiers	54
 lcc	Broadside Bombardiers	86
+lcc	Bronzebeak Foragers	37
 lcc	Bronzebeak Foragers	69
 lcc	Butcher of Malakir	187
+lcc	Bygone Marvels	57
 lcc	Bygone Marvels	89
 lcc	Canopy Vista	321
 lcc	Captain Lannery Storm	218
 lcc	Captivating Crew	219
+lcc	Carmen, Cruel Skymarcher	26
 lcc	Carmen, Cruel Skymarcher	5
 lcc	Chalice of the Void	105
 lcc	Champion of Dusk	188
 lcc	Chandra's Ignition	220
 lcc	Chaos Warp	221
+lcc	Charismatic Conqueror	38
 lcc	Charismatic Conqueror	70
 lcc	Chimil, the Inner Sun	106
 lcc	Choked Estuary	322
 lcc	Chromatic Orrery	107
 lcc	Cinder Glade	323
+lcc	Clavileño, First of the Blessed	122
+lcc	Clavileño, First of the Blessed	18
 lcc	Clavileño, First of the Blessed	2
+lcc	Clavileño, First of the Blessed	27
 lcc	Clifftop Retreat	324
 lcc	Coat of Arms	108
 lcc	Coercive Portal	109
@@ -40979,6 +40999,7 @@ lcc	Command Tower	325
 lcc	Commander's Sphere	301
 lcc	Commit	147
 lcc	Contest of Claws	12
+lcc	Contest of Claws	24
 lcc	Coralhelm Commander	148
 lcc	Cordial Vampire	189
 lcc	Corsair Captain	149
@@ -40986,27 +41007,33 @@ lcc	Crossway Troublemakers	190
 lcc	Cruel Celebrant	267
 lcc	Crumbling Necropolis	326
 lcc	Cultivate	235
+lcc	Curious Altisaur	58
 lcc	Curious Altisaur	90
 lcc	Curse of the Swine	150
 lcc	Damn	191
 lcc	Daring Saboteur	151
 lcc	Deathgorge Scavenger	236
 lcc	Deeproot Elite	237
+lcc	Deeproot Historian	59
 lcc	Deeproot Historian	91
 lcc	Deeproot Waters	152
 lcc	Departed Deckhand	153
 lcc	Descendants' Path	238
 lcc	Desolate Lighthouse	327
 lcc	Dimir Signet	302
+lcc	Dinosaur Egg	60
 lcc	Dinosaur Egg	92
 lcc	Dire Fleet Daredevil	223
 lcc	Dire Fleet Ravager	192
 lcc	Distant Melody	154
+lcc	Don Andres, the Renegade	28
 lcc	Don Andres, the Renegade	6
 lcc	Drana, Liberator of Malakir	193
 lcc	Drover of the Mighty	239
+lcc	Dusk Legion Sergeant	48
 lcc	Dusk Legion Sergeant	80
 lcc	Dusk Legion Zealot	194
+lcc	Elenda's Hierophant	39
 lcc	Elenda's Hierophant	71
 lcc	Elenda, the Dusk Rose	268
 lcc	Emperor Mihail II	155
@@ -41021,6 +41048,7 @@ lcc	Expedition Map	112
 lcc	Explore	241
 lcc	Exquisite Blood	195
 lcc	Eye of Ojer Taq	15
+lcc	Eye of Ojer Taq	35
 lcc	Faithless Looting	225
 lcc	Falkenrath Noble	196
 lcc	Farseek	242
@@ -41031,16 +41059,22 @@ lcc	Fist of Suns	113
 lcc	Foreboding Ruins	330
 lcc	Fortified Village	331
 lcc	Francisco, Fowl Marauder	49
+lcc	Francisco, Fowl Marauder	81
+lcc	From the Rubble	40
 lcc	From the Rubble	72
 lcc	Frostboil Snarl	332
 lcc	Furycalm Snarl	333
 lcc	Game Trail	334
 lcc	Geier Reach Sanitarium	335
 lcc	Gemcutter Buccaneer	55
+lcc	Gemcutter Buccaneer	87
 lcc	Generous Gift	128
 lcc	Ghost of Ramirez DePietro	157
 lcc	Glass-Cast Heart	199
 lcc	Growth Spiral	270
+lcc	Hakbal of the Surging Soul	123
+lcc	Hakbal of the Surging Soul	19
+lcc	Hakbal of the Surging Soul	29
 lcc	Hakbal of the Surging Soul	3
 lcc	Hardened Scales	243
 lcc	Heirloom Blade	303
@@ -41049,6 +41083,7 @@ lcc	Herald's Horn	304
 lcc	Hinterland Harbor	336
 lcc	Hostage Taker	271
 lcc	Icon of Ancestry	305
+lcc	Illustrious Wanderglyph	21
 lcc	Illustrious Wanderglyph	9
 lcc	Indulgent Aristocrat	200
 lcc	Inspiring Call	244
@@ -41074,8 +41109,10 @@ lcc	Llanowar Reborn	341
 lcc	Majestic Heliopterus	131
 lcc	Malcolm, Keen-Eyed Navigator	161
 lcc	Marauding Raptor	228
+lcc	March of the Canonized	41
 lcc	March of the Canonized	73
 lcc	Martyr of Dusk	132
+lcc	Master of Dark Rites	51
 lcc	Master of Dark Rites	83
 lcc	Master of the Pearl Trident	162
 lcc	Mavren Fein, Dusk Apostle	133
@@ -41089,6 +41126,7 @@ lcc	Metallic Mimic	308
 lcc	Migration Path	246
 lcc	Mimic Vat	115
 lcc	Mind Stone	309
+lcc	Mist Dancer	44
 lcc	Mist Dancer	76
 lcc	Mosswort Bridge	342
 lcc	Myriad Landscape	343
@@ -41097,12 +41135,19 @@ lcc	New Blood	202
 lcc	Nighthawk Scavenger	203
 lcc	Oathsworn Vampire	204
 lcc	Olivia's Wrath	205
+lcc	Order of Sacred Dusk	65
 lcc	Order of Sacred Dusk	97
 lcc	Ore-Rich Stalactite	11
+lcc	Ore-Rich Stalactite	23
 lcc	Orzhov Basilica	345
 lcc	Orzhov Signet	310
 lcc	Otepec Huntmaster	229
 lcc	Pact of the Serpent	206
+lcc	Paleontologist's Pick-Axe	16
+lcc	Paleontologist's Pick-Axe	36
+lcc	Pantlaza, Sun-Favored	124
+lcc	Pantlaza, Sun-Favored	20
+lcc	Pantlaza, Sun-Favored	30
 lcc	Pantlaza, Sun-Favored	4
 lcc	Path of Ancestry	346
 lcc	Path to Exile	134
@@ -41113,6 +41158,8 @@ lcc	Port of Karfell	347
 lcc	Prime Speaker Zegana	278
 lcc	Prismari Command	279
 lcc	Progenitor's Icon	100
+lcc	Progenitor's Icon	68
+lcc	Promise of Aclazotz	52
 lcc	Promise of Aclazotz	84
 lcc	Quandrix Command	280
 lcc	Quartzwood Crasher	281
@@ -41128,6 +41175,7 @@ lcc	Ranging Raptors	249
 lcc	Rapid Hybridization	166
 lcc	Ravenform	167
 lcc	Realmwalker	250
+lcc	Redemption Choir	42
 lcc	Redemption Choir	74
 lcc	Reflections of Littjara	168
 lcc	Regal Behemoth	251
@@ -41137,6 +41185,7 @@ lcc	Return of the Wildspeaker	252
 lcc	Return to Dust	136
 lcc	Rhythm of the Wild	287
 lcc	Ripjaw Raptor	253
+lcc	Ripples of Potential	45
 lcc	Ripples of Potential	77
 lcc	Rishkar's Expertise	254
 lcc	Rogue's Passage	349
@@ -41145,6 +41194,7 @@ lcc	Runic Armasaur	256
 lcc	Sage of Fables	169
 lcc	Sanctum Seeker	209
 lcc	Savage Stomp	257
+lcc	Scion of Calamity	61
 lcc	Scion of Calamity	93
 lcc	Seafloor Oracle	170
 lcc	Secluded Courtyard	350
@@ -41154,17 +41204,21 @@ lcc	Shineshadow Snarl	351
 lcc	Simic Ascendancy	288
 lcc	Simic Growth Chamber	352
 lcc	Simic Signet	312
+lcc	Singer of Swift Rivers	66
 lcc	Singer of Swift Rivers	98
 lcc	Siren Stormtamer	171
+lcc	Skeleton Crew	53
 lcc	Skeleton Crew	85
 lcc	Smoldering Marsh	353
 lcc	Sol Ring	313
 lcc	Sorin, Lord of Innistrad	289
 lcc	Spectral Sailor	172
 lcc	Stonybrook Banneret	173
+lcc	Storm Fleet Negotiator	46
 lcc	Storm Fleet Negotiator	78
 lcc	Strionic Resonator	116
 lcc	Sulfur Falls	354
+lcc	Sunfrill Imitator	62
 lcc	Sunfrill Imitator	94
 lcc	Sunken Hollow	355
 lcc	Surgespanner	174
@@ -41181,8 +41235,10 @@ lcc	Temple of Silence	358
 lcc	Temple of the False God	359
 lcc	Terramorphic Expanse	360
 lcc	Tetzin, Gnome Champion	13
+lcc	Tetzin, Gnome Champion	31
 lcc	Thassa, God of the Sea	176
 lcc	The Grim Captain's Locker	50
+lcc	The Grim Captain's Locker	82
 lcc	The Indomitable	43
 lcc	The Indomitable	75
 lcc	Thieving Skydiver	177
@@ -41198,7 +41254,9 @@ lcc	Timestream Navigator	178
 lcc	Timothar, Baron of Bats	210
 lcc	Tishana, Voice of Thunder	291
 lcc	Topiary Stomper	261
+lcc	Topography Tracker	63
 lcc	Topography Tracker	95
+lcc	Tributary Instructor	64
 lcc	Tributary Instructor	96
 lcc	Twilight Prophet	211
 lcc	Unclaimed Territory	366
@@ -41214,8 +41272,10 @@ lcc	Vona, Butcher of Magan	293
 lcc	Vorel of the Hull Clade	294
 lcc	Wakening Sun's Avatar	139
 lcc	Warkite Marauder	179
+lcc	Wave Goodbye	47
 lcc	Wave Goodbye	79
 lcc	Wayfarer's Bauble	317
+lcc	Wayta, Trainer Prodigy	32
 lcc	Wayta, Trainer Prodigy	7
 lcc	Wayward Swordtooth	263
 lcc	Wedding Ring	102
@@ -41224,9 +41284,12 @@ lcc	Whispersilk Cloak	119
 lcc	Windbrisk Heights	370
 lcc	Windfall	180
 lcc	Worn Powerstone	120
+lcc	Wrathful Raptors	56
 lcc	Wrathful Raptors	88
 lcc	Xavier Sal, Infested Captain	14
+lcc	Xavier Sal, Infested Captain	33
 lcc	Xenagos, God of Revels	295
+lcc	Xolatoyac, the Smiling Flood	34
 lcc	Xolatoyac, the Smiling Flood	8
 lcc	Yahenni, Undying Partisan	214
 lcc	Zacama, Primal Calamity	296
@@ -46885,6 +46948,8 @@ m3c	Hidden Nursery	349
 m3c	Hideous Taskmaster	57
 m3c	Horizon of Progress	78
 m3c	Hour of Promise	232
+m3c	Hourglass of the Lost	40
+m3c	Hourglass of the Lost	92
 m3c	Hydra Broodmaster	233
 m3c	Hydroid Krasis	266
 m3c	Idol of Oblivion	297
@@ -46995,6 +47060,7 @@ m3c	Stone Idol Generator	77
 m3c	Suffer the Past	205
 m3c	Sulfurous Springs	381
 m3c	Summary Dismissal	193
+m3c	Sunken Palace	81
 m3c	Swords to Plowshares	173
 m3c	Sylvan Scrying	248
 m3c	Syphon Mind	206
@@ -50689,6 +50755,7 @@ mir	Crypt Cobra	114
 mir	Crystal Golem	298
 mir	Crystal Vein	325
 mir	Cursed Totem	299
+mir	Cycle of Life	211
 mir	Daring Apprentice	60
 mir	Dark Banishing	115
 mir	Dark Ritual	116
@@ -54128,13 +54195,22 @@ mrd	Worldslayer	276
 mrd	Wrench Mind	84
 mrd	Wurmskin Forger	140
 mrd	Yotian Soldier	277
+msc	Abomination, Irradiated Brute	XXX1
 msc	Captain America, Team Leader	5
+msc	Dark Ritual	793
+msc	Doctor Doom, King of Latveria	6
+msc	Hit-Monkey	723
 msc	Human Torch	3
 msc	Invisible Woman	1
+msc	Loki, God of Lies	XXX2
 msc	Lucky the Pizza Dog	726
+msc	M.O.D.O.K., Evil Intellect	XXX3
 msc	Mister Fantastic	2
 msc	T'Challa, the Black Panther	7
+msc	Thanos, Death's Consort	XXX4
+msc	The Fantastic Four	741
 msc	The Thing	4
+msc	Ultron, Machine Overlord	XXX5
 msc	Vision, Synthezoid Avenger	460
 msh	Attuma, Atlantean Warlord	47
 msh	Baron Helmut Zemo	87
@@ -54146,6 +54222,9 @@ msh	Doctor Doom	394
 msh	Doctor Doom	95
 msh	Doom Reigns Supreme	96
 msh	Iron Man, Master of Machines	216
+msh	Madame Hydra	221
+msh	Madame Hydra	318
+msh	Madame Hydra	451
 msh	Moon Girl and Devil Dinosaur	223
 msh	Namor the Sub-Mariner	391
 msh	Namor the Sub-Mariner	69
@@ -54161,6 +54240,7 @@ msh	The Sentry, Golden Guardian	35
 msh	The Vision	255
 msh	Thor Odinson	234
 msh	Thunderbolts Conspiracy	117
+msh	Wolverine, Fierce Fighter	240
 msh	World War Hulk	197
 msh	World War Hulk	304
 mul	Aegar, the Freezing Flame	161
@@ -60900,6 +60980,10 @@ pip	Animal Friend	397
 pip	Animal Friend	600
 pip	Animal Friend	72
 pip	Animal Friend	925
+pip	Aradesh, the Founder	362
+pip	Aradesh, the Founder	537
+pip	Aradesh, the Founder	890
+pip	Aradesh, the Founder	9
 pip	Arcade Gannon	407
 pip	Arcade Gannon	620
 pip	Arcade Gannon	92
@@ -61021,6 +61105,10 @@ pip	Captain of the Watch	157
 pip	Captain of the Watch	448
 pip	Captain of the Watch	685
 pip	Captain of the Watch	976
+pip	Cass, Hand of Vengeance	410
+pip	Cass, Hand of Vengeance	625
+pip	Cass, Hand of Vengeance	938
+pip	Cass, Hand of Vengeance	97
 pip	Casualties of War	1004
 pip	Casualties of War	213
 pip	Casualties of War	476
@@ -61231,6 +61319,10 @@ pip	Hardened Scales	728
 pip	Hardened Scales	998
 pip	Harmonize	201
 pip	Harmonize	729
+pip	Harold and Bob, First Numens	398
+pip	Harold and Bob, First Numens	606
+pip	Harold and Bob, First Numens	78
+pip	Harold and Bob, First Numens	926
 pip	Heroic Intervention	202
 pip	Heroic Intervention	471
 pip	Heroic Intervention	730
@@ -61671,6 +61763,10 @@ pip	Stolen Strategy	995
 pip	Strength Bobblehead	1057
 pip	Strength Bobblehead	143
 pip	Strength Bobblehead	671
+pip	Strong Back	402
+pip	Strong Back	611
+pip	Strong Back	83
+pip	Strong Back	930
 pip	Strong, the Brutish Thespian	403
 pip	Strong, the Brutish Thespian	612
 pip	Strong, the Brutish Thespian	84
@@ -62729,6 +62825,7 @@ pmbs	Thopter Assembly	140*
 pmei	Aang, Air Nomad	2025-25
 pmei	Ajani, Mentor of Heroes	2024-3
 pmei	Ancestral Mask	2025-2
+pmei	Appa, Aang's Companion	2026-08
 pmei	Archangel	2000-4
 pmei	Ascendant Evincar	2000-7
 pmei	Avalanche Riders	2023-5
@@ -62740,11 +62837,11 @@ pmei	Chandra's Spitfire	2010-4
 pmei	Chrome Host Seedshark	2025-20
 pmei	Cloud, Midgar Mercenary	2025-21
 pmei	Cloud, Planet's Champion	2025-13
-pmei	Command Tower	2026-01
+pmei	Command Tower	2026-1
 pmei	Counterspell	2021-1
 pmei	Counterspell	2026-7
 pmei	Crop Rotation	2020-7
-pmei	Crop Rotation	2026-02
+pmei	Crop Rotation	2026-2
 pmei	Culling the Weak	2023-8
 pmei	Cunning Sparkmage	2010-2
 pmei	Dark Ritual	2020-4
@@ -62763,6 +62860,7 @@ pmei	Gishath, Sun's Avatar	2026-5
 pmei	Gush	2024-4
 pmei	Harald, King of Skemfar	2021-3
 pmei	Heliod's Pilgrim	2020-6
+pmei	Hulking Raptor	2026-9
 pmei	Hypnotic Sprite	2019-5
 pmei	Iroh, Grand Lotus	2025-24
 pmei	Jace Beleren	2009-1
@@ -62801,6 +62899,7 @@ pmei	Stream of Life	1997-4
 pmei	Swords to Plowshares	2026-4
 pmei	Talruum Champion	1997-1
 pmei	Tangled Florahedron	2020-8
+pmei	The Goose Mother	2026-10
 pmei	Thorn Elemental	2000-3
 pmei	Ultimecia, Temporal Threat	2025-11
 pmei	Usher of the Fallen	2022-3
@@ -62812,7 +62911,7 @@ pmei	Wild Growth	2022-2
 pmei	Winged Boots	2023-7
 pmei	Worn Powerstone	2023-2
 pmei	Wrath of God	2025-3
-pmei	Zack Fair	2026-03
+pmei	Zack Fair	2026-3
 pmei	Zhalfirin Knight	1996-2
 pmh1	Astral Drift	3
 pnat	Flooded Strand	2018
@@ -67474,6 +67573,7 @@ pw26	Lightning Bolt	5
 pw26	Nowhere to Run	1
 pw26	Spicy Oatmeal Pizza	7
 pw26	The Eternal Wanderer	4
+pw26	Wood Elves	13
 pwar	Ajani, the Greathearted	184p
 pwar	Ajani, the Greathearted	184s
 pwar	Ajani, the Greathearted	184s*
@@ -72026,6 +72126,7 @@ sld	Basilisk Collar	1920
 sld	Basilisk Collar	1925
 sld	Batterskull	1206
 sld	Battle Angels of Tyr	875
+sld	Battle Hymn	2346
 sld	Battle of Wits	1446
 sld	Battlefield Forge	669
 sld	Batwing Brume	2469
@@ -72035,6 +72136,7 @@ sld	Beacon of Tomorrows	1497*
 sld	Bear Umbra	1723
 sld	Bearscape	1008
 sld	Beast Whisperer	1099
+sld	Beast Within	2671
 sld	Beast Within	323
 sld	Beastmaster Ascension	1609
 sld	Belligerent Sliver	636
@@ -72053,6 +72155,7 @@ sld	Birds of Paradise	1675
 sld	Birds of Paradise	1675b
 sld	Birds of Paradise	176
 sld	Birds of Paradise	92
+sld	Birthing Pod	2349
 sld	Bitterblossom	12
 sld	Bitterblossom	1898
 sld	Bjorna, Nightfall Alchemist	344
@@ -72096,6 +72199,7 @@ sld	Borne Upon a Wind	2228
 sld	Boros Charm	1771
 sld	Boros Charm	217
 sld	Boros Signet	291
+sld	Boseiju, Who Shelters All	2657
 sld	Boseiju, Who Shelters All	426
 sld	Botanical Sanctum	1376
 sld	Bottomless Pit	1404
@@ -72116,6 +72220,7 @@ sld	Brainstorm	7019
 sld	Brainstorm	723
 sld	Brash Taunter	1614
 sld	Brazen Borrower	234
+sld	Breath of Fury	2347
 sld	Breathkeeper Seraph	1345
 sld	Breeches, Eager Pillager	1551
 sld	Breeding Pool	132
@@ -72135,6 +72240,7 @@ sld	Bruna, the Fading Light	1388
 sld	Bruvac the Grandiloquent	2181
 sld	Burgeoning	408
 sld	Buried Alive	1673
+sld	Burnished Hart	172
 sld	Burnt Offering	7047
 sld	Butcher of Malakir	7071
 sld	Butcher of Malakir	7072
@@ -72269,10 +72375,12 @@ sld	Counterspell	1589
 sld	Counterspell	175
 sld	Counterspell	1933
 sld	Counterspell	2497
+sld	Counterspell	2664
 sld	Counterspell	331
 sld	Counterspell	7010
 sld	Counterspell	99999SCTLR
 sld	Court of Grace	1338
+sld	Court of Grace	2685
 sld	Coveted Jewel	799
 sld	Crash Through	591
 sld	Craterhoof Behemoth	375
@@ -72280,6 +72388,7 @@ sld	Craterhoof Behemoth	376
 sld	Crested Sunmare	1228
 sld	Crib Swap	1850
 sld	Crucible of Worlds	2110
+sld	Crypt Ghast	169
 sld	Cryptbreaker	839
 sld	Cryptic Command	905
 sld	Cryptolith Rite	2293
@@ -72312,6 +72421,7 @@ sld	Dark Petition	2525
 sld	Dark Ritual	1170
 sld	Dark Ritual	2001
 sld	Dark Ritual	2020
+sld	Dark Ritual	2665
 sld	Darksteel Citadel	608
 sld	Darksteel Colossus	1081
 sld	Darksteel Colossus	1081b
@@ -72337,6 +72447,7 @@ sld	Death Baron	1458
 sld	Death Baron	1458b
 sld	Death's Shadow	474
 sld	Deathrender	1573
+sld	Deathrite Shaman	170
 sld	Decimate	140
 sld	Decree of Pain	187
 sld	Deepglow Skate	1093
@@ -72425,6 +72536,7 @@ sld	Dryad of the Ilysian Grove	191
 sld	Dungeon Delver	7103
 sld	Duress	479
 sld	Duty Beyond Death	2387
+sld	Earthquake	2666
 sld	Ebondeath, Dracolich	1014
 sld	Echo of Eons	821
 sld	Eidolon of the Great Revel	422
@@ -72558,6 +72670,7 @@ sld	Fleshbag Marauder	725
 sld	Fleshbag Marauder	841
 sld	Fling	1038
 sld	Fling	1795
+sld	Fog	2667
 sld	Folio of Fancies	2072
 sld	Font of Mythos	2075
 sld	Food Chain	1369
@@ -72812,11 +72925,13 @@ sld	Huatli, Radiant Champion	1699
 sld	Huatli, the Sun's Heart	530
 sld	Hullbreaker Horror	2321
 sld	Hullbreaker Horror	2336
+sld	Hunter's Insight	2676
 sld	Huntmaster of the Fells	495
 sld	Huntmaster of the Fells	700
 sld	Hydroid Krasis	1332
 sld	Ice Storm	1745
 sld	Ice-Fang Coatl	1225
+sld	Ice-Fang Coatl	171
 sld	Icingdeath, Frost Tyrant	1012b
 sld	Idyllic Tutor	1020
 sld	Idyllic Tutor	1636
@@ -72902,6 +73017,7 @@ sld	Island	889
 sld	Isolated Chapel	739
 sld	Isshin, Two Heavens as One	2459
 sld	It That Betrays	1176
+sld	It That Betrays	2673
 sld	Ivy Lane Denizen	769
 sld	Iymrith, Desert Doom	1013
 sld	Izzet Signet	293
@@ -73100,6 +73216,8 @@ sld	Lys Alana Huntmaster	772
 sld	Maarika, Brutal Gladiator	435
 sld	Maddening Cacophony	2322
 sld	Maddening Cacophony	2337
+sld	Maddening Cacophony	2674
+sld	Maddening Hex	2675
 sld	Maelstrom Wanderer	1319
 sld	Magda, Brazen Outlaw	1688
 sld	Magma Sliver	641
@@ -73190,9 +73308,11 @@ sld	Mistbind Clique	116
 sld	Mizzium Mortars	2249
 sld	Mogg Assassin	2517
 sld	Mogg War Marshal	1618
+sld	Moggcatcher	7081
 sld	Mogis, God of Slaughter	78
 sld	Mogis, God of Slaughter	9994
 sld	Moldervine Reclamation	1716
+sld	Molten Collapse	2677
 sld	Moment's Peace	1466
 sld	Moment's Peace	1466*
 sld	Monastery Swiftspear	2038
@@ -73268,6 +73388,7 @@ sld	Mox Opal	1072
 sld	Mox Tantalite	1073
 sld	Muddle the Mixture	1254
 sld	Mudhole	62
+sld	Mulldrifter	168
 sld	Mulldrifter	1887
 sld	Mulldrifter	373
 sld	Mulldrifter	374
@@ -73369,6 +73490,7 @@ sld	Oppression	1424
 sld	Opt	111
 sld	Opt	2068
 sld	Orcish Lumberjack	2025
+sld	Orim's Chant	2669
 sld	Ornithopter	604
 sld	Orvar, the All-Form	1683
 sld	Orzhov Signet	294
@@ -73491,6 +73613,7 @@ sld	Polyraptor	2194
 sld	Ponder	1783
 sld	Ponder	2292
 sld	Ponder	245
+sld	Ponder	2670
 sld	Pontiff of Blight	848
 sld	Possibility Storm	7073
 sld	Praetor's Grasp	1023
@@ -73538,6 +73661,7 @@ sld	Pyrohemia	2211
 sld	Pyromancer's Goggles	1066
 sld	Qasali Slingers	24
 sld	Queen Marchesa	1559
+sld	Queen Marchesa	2688
 sld	Queen Marchesa	499
 sld	Questing Beast	1263
 sld	Questing Phelddagrif	671
@@ -73611,6 +73735,7 @@ sld	Rest in Peace	96
 sld	Restoration Angel	1380
 sld	Retreat to Coralhelm	407
 sld	Revel in Riches	1830
+sld	Reverent Mantra	2686
 sld	Rewind	1036
 sld	Rewind	1368
 sld	Reya Dawnbringer	1682
@@ -73625,6 +73750,7 @@ sld	Rin and Seri, Inseparable	1508b
 sld	Rin and Seri, Inseparable	1554
 sld	Rin and Seri, Inseparable	1554b
 sld	Rin and Seri, Inseparable	1910
+sld	Rin and Seri, Inseparable	2668
 sld	Rip Apart	1917
 sld	Rip Apart	1922
 sld	Ripples of Potential	2453
@@ -73648,6 +73774,7 @@ sld	Rotting Regisaur	852
 sld	Ruhan of the Fomori	1695
 sld	Ruin Crab	7095
 sld	Ruination	9993
+sld	Ruinous Ultimatum	2689
 sld	Rule of Law	2478
 sld	Rune-Scarred Demon	2649
 sld	Sacred Foundry	131
@@ -73694,6 +73821,7 @@ sld	Scute Swarm	7048
 sld	Scuttling Sliver	623
 sld	Search for Azcanta	1502
 sld	Seasoned Dungeoneer	2505
+sld	Seasoned Dungeoneer	7144
 sld	Seat of the Synod	301
 sld	Secluded Glen	1323
 sld	Second Harvest	1611
@@ -73768,6 +73896,7 @@ sld	Shelldock Isle	437
 sld	Shelter	1587
 sld	Shelter	1587*
 sld	Sheltered Thicket	2522
+sld	Sheltered by Ghosts	2653
 sld	Sheoldred, Whispering One	211
 sld	Shiny Impetus	1845
 sld	Shire Terrace	1296
@@ -73865,6 +73994,7 @@ sld	Sol Ring	2417
 sld	Sol Ring	2467
 sld	Sol Ring	249
 sld	Sol Ring	2539
+sld	Sol Ring	2672
 sld	Sol Ring	5IFIYW
 sld	Sol Ring	910
 sld	Solemn Simulacrum	1113
@@ -73912,6 +74042,7 @@ sld	Sphinx of the Second Sun	1720
 sld	Spinerock Knoll	439
 sld	Spirebluff Canal	1373
 sld	Spirit Mantle	2451
+sld	Spirit of the Hearth	2654
 sld	Spirited Companion	896
 sld	Spiteful Prankster	801
 sld	Spiteful Sliver	643
@@ -74012,6 +74143,7 @@ sld	Swords to Plowshares	110
 sld	Swords to Plowshares	1627
 sld	Swords to Plowshares	1627*
 sld	Swords to Plowshares	2167
+sld	Swords to Plowshares	2663
 sld	Swords to Plowshares	364
 sld	Swords to Plowshares	713
 sld	Sylvan Library	2058
@@ -74217,6 +74349,7 @@ sld	Urabrask the Hidden	212
 sld	Uril, the Miststalker	1767
 sld	Uro, Titan of Nature's Wrath	222
 sld	Utopia Sprawl	409
+sld	Utopia Sprawl	7070
 sld	Utvara Hellkite	1273
 sld	Vaevictis Asmadi	1070
 sld	Vaevictis Asmadi, the Dire	2239
@@ -74231,6 +74364,7 @@ sld	Varragoth, Bloodsky Sire	1809
 sld	Vault of Whispers	302
 sld	Vault of the Archangel	350
 sld	Veil of Summer	1024
+sld	Veil of Summer	2348
 sld	Vendilion Clique	118
 sld	Vengevine	1078
 sld	Venser, the Sojourner	1423
@@ -74284,6 +74418,7 @@ sld	Wastes	705
 sld	Wastes	706
 sld	Wastes	795*
 sld	Watery Grave	124
+sld	Wayfarer's Bauble	2656
 sld	Wayward Swordtooth	1392
 sld	Wayward Swordtooth	1392*
 sld	Weatherlight	2100
@@ -74304,6 +74439,7 @@ sld	Wild Growth	7049
 sld	Wild-Magic Sorcerer	2494
 sld	Wilhelt, the Rotcleaver	2285
 sld	Wilhelt, the Rotcleaver	862
+sld	Windborn Muse	2687
 sld	Windbrisk Heights	436
 sld	Windfall	1775
 sld	Windfall	2182
@@ -74316,6 +74452,7 @@ sld	Winter Orb	1486
 sld	Winter Orb	1486*
 sld	Winter Orb	2400
 sld	Wirewood Symbiote	785
+sld	Witch Enchanter	2655
 sld	Witch of the Moors	1722
 sld	Witch's Oven	1762
 sld	Wolverine, Best There Is	1737
@@ -74386,6 +74523,7 @@ slp	Goblin Guide	23
 slp	Innkeeper's Talent	45
 slp	Island	32
 slp	Karn Liberated	36
+slp	Kozilek's Command	52
 slp	Laughing Jasper Flint	44
 slp	Lightning Bolt	21
 slp	Lightning Bolt	37
@@ -74395,6 +74533,7 @@ slp	Mayhem Devil	28
 slp	Mountain	34
 slp	Murktide Regent	17
 slp	Nexus of Fate	27
+slp	Pinnacle Starcage	54
 slp	Plains	31
 slp	Ponder	19
 slp	Prosperous Innkeeper	40
@@ -74409,6 +74548,7 @@ slp	Sowing Mycospawn	51
 slp	Spell Pierce	18
 slp	Springleaf Drum	22
 slp	Sudden Edict	39
+slp	Sunpearl Kirin	53
 slp	Supreme Verdict	26
 slp	Swamp	33
 slp	Swords to Plowshares	20
@@ -75126,6 +75266,8 @@ soa	Zombify	101
 soa	Zombify	166
 soa	Zombify	36
 soc	Abrade	234
+soc	Abstract Performance	17
+soc	Abstract Performance	67
 soc	Advanced Reconstruction	30
 soc	Aether Gale	186
 soc	Ajani's Chosen	132
@@ -75255,10 +75397,14 @@ soc	Firemane Commando	145
 soc	Flickering Ward	109
 soc	Flooded Grove	373
 soc	Forgotten Ancient	267
+soc	Forum Filibuster	14
+soc	Forum Filibuster	64
 soc	Fractal Harness	268
 soc	Fracture	310
 soc	Frostboil Snarl	374
 soc	Furycalm Snarl	375
+soc	Furygale Flocking	32
+soc	Furygale Flocking	80
 soc	Galazeth Prismari	311
 soc	Ghostly Prison	146
 soc	Ghoulish Impetus	214
@@ -75280,6 +75426,8 @@ soc	Harmonic Prodigy	123
 soc	Hateful Eidolon	215
 soc	Haunted Mire	379
 soc	Haywire Mite	349
+soc	Herald of Amity	15
+soc	Herald of Amity	65
 soc	High Market	380
 soc	Hinterland Harbor	381
 soc	Hofri Ghostforge	314
@@ -75289,6 +75437,8 @@ soc	Immoral Bargain	95
 soc	Infernal Grasp	216
 soc	Ingenious Prodigy	115
 soc	Inkshield	316
+soc	Inspired Skypainter	48
+soc	Inspired Skypainter	96
 soc	Intermediate Chirography	26
 soc	Isolated Chapel	382
 soc	Jadar, Ghoulcaller of Nephalia	217
@@ -75441,6 +75591,8 @@ soc	Sol Ring	427
 soc	Solemn Simulacrum	355
 soc	Songbirds' Blessing	174
 soc	Spirit Mantle	175
+soc	Spirit of Resilience	37
+soc	Spirit of Resilience	85
 soc	Springbloom Druid	287
 soc	Squee, Goblin Nabob	254
 soc	Sram, Senior Edificer	176
@@ -80575,6 +80727,7 @@ tmc	Heroes in a Half Shell	96
 tmc	Hidden Hideout	43
 tmc	High Score	29
 tmc	Hinterland Harbor	69
+tmc	Irma, Part-Time Mutant	12
 tmc	Krang, the All-Powerful	13
 tmc	Krang, the All-Powerful	86
 tmc	Leatherhead, Iron Gator	30
@@ -80842,6 +80995,7 @@ tmp	Muscle Sliver	238
 tmp	Natural Spring	239
 tmp	Nature's Revolt	240
 tmp	Needle Storm	241
+tmp	No Quarter	193
 tmp	Nurturing Licid	242
 tmp	Opportunist	194
 tmp	Oracle en-Vec	31
@@ -81011,6 +81165,7 @@ tmt	Bebop & Rocksteady	241
 tmt	Bebop, Warthog Warrior	59
 tmt	Bespoke Bō	31
 tmt	Bot Bashing Time	85
+tmt	Brilliance Unleashed	141
 tmt	Broadcast Takeover	234
 tmt	Broadcast Takeover	86
 tmt	Buzz Bots	32
@@ -81179,6 +81334,7 @@ tmt	North Wind Avatar	162
 tmt	North Wind Avatar	248
 tmt	Northampton Farm	188
 tmt	Northampton Farm	280
+tmt	Novel Nunchaku	127
 tmt	Null Group Biological Assets	98
 tmt	Old Hob, Alleycat Blues	99
 tmt	Omni-Cheese Pizza	176
@@ -81294,6 +81450,8 @@ tmt	Turtle Power!	135
 tmt	Turtle Power!	275
 tmt	Turtle Van	181
 tmt	Turtle Van	278
+tmt	Turtles Forever	261
+tmt	Turtles Forever	27
 tmt	Turtles in Time	263
 tmt	Turtles in Time	284
 tmt	Turtles in Time	294
@@ -83288,6 +83446,7 @@ unh	Wordmail	22
 unh	World-Bottling Kit	133
 unh	Zzzyxas's Abyss	70
 unk	More of That Strange Oil...	CU13
+unk	The Ice Dancer	RZ03t
 usg	Absolute Grace	1
 usg	Absolute Law	2
 usg	Abundance	229
@@ -88642,6 +88801,10 @@ yneo	Experimental Pilot	6
 yneo	Jukai Liberator	27
 yneo	Kami of Bamboo Groves	24
 yneo	Swarm Saboteur	13
+ysos	Corpseweaver Prodigy	5
+ysos	Glorifying Verse	19
+ysos	Grave Studies	20
+ysos	Interdisciplinary Studies	4
 zen	Adventuring Gear	195
 zen	Aether Figment	40
 zen	Akoum Refuge	210
