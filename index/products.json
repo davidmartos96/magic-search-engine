@@ -22363,6 +22363,21 @@
     "set_code": "con"
   },
   {
+    "category": "booster_box",
+    "contents": [
+      [
+        100,
+        "product",
+        "con",
+        "Conflux Six Card Booster Pack"
+      ]
+    ],
+    "name": "Conflux Six Card Booster Box",
+    "subtype": "six-card",
+    "uuid": "9e209f7a-195d-5be5-a9e7-f35b0b5932e0",
+    "set_code": "con"
+  },
+  {
     "category": "booster_pack",
     "contents": [
       [
@@ -29714,7 +29729,7 @@
         1,
         "deck",
         "eld",
-        "Savage Hunter"
+        "Savage Hunger"
       ],
       [
         1,
@@ -29723,7 +29738,7 @@
       ]
     ],
     "name": "Throne of Eldraine Brawl Deck Savage Hunger",
-    "subtype": "brawl",
+    "subtype": "brawl_deck",
     "uuid": "df6d1607-26c5-5b88-98e1-e89571d43a2e",
     "set_code": "eld",
     "release_date": "2019-10-04"
@@ -91261,133 +91276,197 @@
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "msc",
+        "Avengers Assemble"
+      ]
+    ],
     "name": "Marvel Super Heroes Commander Deck Avengers Assemble",
     "subtype": "commander",
     "uuid": "05ebe68c-1df0-5e31-aa20-2a898f266289",
     "set_code": "msc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-06-26"
   },
   {
     "category": "deck",
-    "name": "Marvel Super Heroes Commander Deck Avengers Assemble Collectors Edition",
-    "subtype": "commander",
-    "uuid": "1a4ea9c5-95e6-5632-95d2-0d54e0151b9d",
-    "set_code": "msc",
     "contents": [
       [
         1,
-        "unknown"
+        "deck",
+        "msc",
+        "Avengers Assemble Collector's Edition"
       ]
-    ]
+    ],
+    "name": "Marvel Super Heroes Commander Deck Avengers Assemble Collector's Edition",
+    "subtype": "commander",
+    "uuid": "d308be8a-b2c5-5a3f-8896-3bf1cb5bbdb1",
+    "set_code": "msc",
+    "release_date": "2026-06-26"
   },
   {
     "category": "subset",
-    "name": "Marvel Super Heroes Commander Deck Collectors Edition Set of 4",
-    "subtype": "commander",
-    "uuid": "ea639af7-7ac3-5b1c-aab9-d01f5620c944",
-    "set_code": "msc",
     "contents": [
       [
         1,
-        "unknown"
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck Avengers Assemble Collector's Edition"
+      ],
+      [
+        1,
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck Doom Prevails Collector's Edition"
+      ],
+      [
+        1,
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck The Fantastic Four Collector's Edition"
+      ],
+      [
+        1,
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck Wakanda Forever Collector's Edition"
       ]
-    ]
+    ],
+    "name": "Marvel Super Heroes Commander Deck Collector's Edition Set of 4",
+    "subtype": "commander",
+    "uuid": "7466a783-9b46-5093-a259-b75480b4d8c7",
+    "set_code": "msc"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "msc",
+        "Doom Prevails"
+      ]
+    ],
     "name": "Marvel Super Heroes Commander Deck Doom Prevails",
     "subtype": "commander",
     "uuid": "aa82de23-8dbe-563f-a5b7-e401d445b1cf",
     "set_code": "msc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-06-26"
   },
   {
     "category": "deck",
-    "name": "Marvel Super Heroes Commander Deck Doom Prevails Collectors Edition",
-    "subtype": "commander",
-    "uuid": "54ae096d-e527-5e16-ba06-703120dffa6c",
-    "set_code": "msc",
     "contents": [
       [
         1,
-        "unknown"
+        "deck",
+        "msc",
+        "Doom Prevails Collector's Edition"
       ]
-    ]
+    ],
+    "name": "Marvel Super Heroes Commander Deck Doom Prevails Collector's Edition",
+    "subtype": "commander",
+    "uuid": "de76444b-1e67-58ce-a186-747cbb631046",
+    "set_code": "msc",
+    "release_date": "2026-06-26"
   },
   {
     "category": "subset",
-    "name": "Marvel Super Heroes Commander Deck Set of 4",
-    "subtype": "commander",
-    "uuid": "609ec241-65c1-5801-936b-4cd901526214",
-    "set_code": "msc",
     "contents": [
       [
         1,
-        "unknown"
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck Avengers Assemble"
+      ],
+      [
+        1,
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck Doom Prevails"
+      ],
+      [
+        1,
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck The Fantastic Four"
+      ],
+      [
+        1,
+        "product",
+        "msc",
+        "Marvel Super Heroes Commander Deck Wakanda Forever"
       ]
-    ]
+    ],
+    "name": "Marvel Super Heroes Commander Deck Set of 4",
+    "subtype": "commander",
+    "uuid": "609ec241-65c1-5801-936b-4cd901526214",
+    "set_code": "msc"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "msc",
+        "The Fantastic Four"
+      ]
+    ],
     "name": "Marvel Super Heroes Commander Deck The Fantastic Four",
     "subtype": "commander",
     "uuid": "6c97f171-b139-5365-a4e2-51ee652f10c7",
     "set_code": "msc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-06-26"
   },
   {
     "category": "deck",
-    "name": "Marvel Super Heroes Commander Deck The Fantastic Four Collectors Edition",
+    "contents": [
+      [
+        1,
+        "deck",
+        "msc",
+        "The Fantastic Four Collector's Edition"
+      ]
+    ],
+    "name": "Marvel Super Heroes Commander Deck The Fantastic Four Collector's Edition",
     "subtype": "commander",
-    "uuid": "2e32deab-00c3-56fb-84fa-f9d4f213f5aa",
+    "uuid": "8df7848c-9899-5bab-88cd-73c21659095b",
     "set_code": "msc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-06-26"
   },
   {
     "category": "deck",
+    "contents": [
+      [
+        1,
+        "deck",
+        "msc",
+        "Wakanda Forever"
+      ]
+    ],
     "name": "Marvel Super Heroes Commander Deck Wakanda Forever",
     "subtype": "commander",
     "uuid": "393e3767-0029-53b0-96c1-c2c9d3e79ce7",
     "set_code": "msc",
-    "contents": [
-      [
-        1,
-        "unknown"
-      ]
-    ]
+    "release_date": "2026-06-26"
   },
   {
     "category": "deck",
-    "name": "Marvel Super Heroes Commander Deck Wakanda Forever Collectors Edition",
-    "subtype": "commander",
-    "uuid": "9e57b9f1-707f-534d-85c2-c1f6428f6bf8",
-    "set_code": "msc",
     "contents": [
       [
         1,
-        "unknown"
+        "deck",
+        "msc",
+        "Wakanda Forever Collector's Edition"
       ]
-    ]
+    ],
+    "name": "Marvel Super Heroes Commander Deck Wakanda Forever Collector's Edition",
+    "subtype": "commander",
+    "uuid": "ed6578ff-0ad5-5024-aeda-98a153b832ed",
+    "set_code": "msc",
+    "release_date": "2026-06-26"
   },
   {
     "category": "box_set",
@@ -91680,6 +91759,71 @@
     "name": "Marvel Super Heroes Scene Box Villains Unleashed",
     "subtype": "other",
     "uuid": "a66c0716-c63f-554e-9ffe-f8a37670b945",
+    "set_code": "msh",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Marvel Super Heroes Welcome Deck Black",
+    "subtype": "welcome",
+    "uuid": "ba5abb45-3d31-5906-ac94-5ebf2b440729",
+    "set_code": "msh",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Marvel Super Heroes Welcome Deck Blue",
+    "subtype": "welcome",
+    "uuid": "c9749464-e855-50d9-85f9-a097a919c6b3",
+    "set_code": "msh",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Marvel Super Heroes Welcome Deck Green",
+    "subtype": "welcome",
+    "uuid": "13f59959-138b-5fcc-b072-6aaabdb45f3f",
+    "set_code": "msh",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Marvel Super Heroes Welcome Deck Red",
+    "subtype": "welcome",
+    "uuid": "031a0106-545c-564b-9d4b-4645049a4dec",
+    "set_code": "msh",
+    "contents": [
+      [
+        1,
+        "unknown"
+      ]
+    ]
+  },
+  {
+    "category": "deck",
+    "name": "Marvel Super Heroes Welcome Deck White",
+    "subtype": "welcome",
+    "uuid": "e5e428cb-56ec-5279-b4aa-a19aa769502a",
     "set_code": "msh",
     "contents": [
       [
@@ -111504,6 +111648,48 @@
         1,
         "deck",
         "sld",
+        "Cats of Chaos"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Cats of Chaos",
+    "subtype": "secret_lair",
+    "uuid": "98c03eb3-e69b-5d2b-a4fb-7cd3e89159f0",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Cats of Chaos Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Cats of Chaos Foil",
+    "subtype": "secret_lair",
+    "uuid": "e3bbebb3-d632-5d92-af0c-7e4340d65c5f",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "City Styles"
       ],
       [
@@ -114702,6 +114888,48 @@
     "contents": [
       [
         1,
+        "deck",
+        "sld",
+        "Felix the Cat: Magic Bag of Tricks"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Felix the Cat Magic Bag of Tricks",
+    "subtype": "secret_lair",
+    "uuid": "9b850640-536b-5c49-a85c-59a4e9faf931",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Felix the Cat: Magic Bag of Tricks Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Felix the Cat Magic Bag of Tricks Foil",
+    "subtype": "secret_lair",
+    "uuid": "76625074-7d9d-52eb-b151-34f0eb9496e6",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
         "card",
         "sld",
         "698",
@@ -115023,6 +115251,132 @@
     "uuid": "7982ecf9-14a3-5271-9ca3-6b211127d8fa",
     "set_code": "sld",
     "release_date": "2025-03-25"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Garfield: As Intended"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Garfield As Intended",
+    "subtype": "secret_lair",
+    "uuid": "c09d2b63-673e-5ef2-b541-1fb764263973",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Garfield: As Intended Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Garfield As Intended Foil",
+    "subtype": "secret_lair",
+    "uuid": "94bc2b2b-732f-5253-bf95-604b44ec1405",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Garfield: Motivationally Challenged"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Garfield Motivationally Challenged",
+    "subtype": "secret_lair",
+    "uuid": "675617c9-8792-53d9-8ddd-555b4462c8d3",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Garfield: Motivationally Challenged Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Garfield Motivationally Challenged Foil",
+    "subtype": "secret_lair",
+    "uuid": "c5922d20-6b1a-5d1b-b314-5b9c78a5f2a8",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Garfield: Our Only Thought is to Entertain You"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Garfield Our Only Thought is to Entertain You",
+    "subtype": "secret_lair",
+    "uuid": "dc92edf9-4ed5-5382-b15f-477c3f0a474b",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Garfield: Our Only Thought is to Entertain You Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Garfield Our Only Thought is to Entertain You Foil",
+    "subtype": "secret_lair",
+    "uuid": "3e92e97c-d735-5efc-a999-614da951b98e",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
   },
   {
     "category": "box_set",
@@ -118627,6 +118981,48 @@
     "uuid": "6ced221f-2dc4-5713-a3ba-81334d32e536",
     "set_code": "sld",
     "release_date": "2024-02-23"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Purr Majesty"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Purr Majesty",
+    "subtype": "secret_lair",
+    "uuid": "ee13b339-3ce8-5faf-80d4-673caa67ebf8",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Purr Majesty Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Purr Majesty Foil",
+    "subtype": "secret_lair",
+    "uuid": "d730ba61-88c6-5951-a9da-192a9686d09e",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
   },
   {
     "category": "box_set",
@@ -128106,6 +128502,48 @@
         1,
         "deck",
         "sld",
+        "Toby's Journey by Gary Baseman"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Tobys Journey by Gary Baseman",
+    "subtype": "secret_lair",
+    "uuid": "0b92d7b0-2245-59e2-9db4-6313b387f6b5",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Toby's Journey by Gary Baseman Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Tobys Journey by Gary Baseman Foil",
+    "subtype": "secret_lair",
+    "uuid": "13095146-659e-5506-9a19-dd0e00abfdef",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
         "Tome of the Astral Sorceress"
       ],
       [
@@ -128904,6 +129342,48 @@
     "uuid": "d5a55a52-a921-5a6f-b46d-40b4643b7516",
     "set_code": "sld",
     "release_date": "2022-12-19"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Witch's Familiar"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Witchs Familiar",
+    "subtype": "secret_lair",
+    "uuid": "a2eb8b62-5eb9-5fb6-8c80-c036099704b2",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
+  },
+  {
+    "category": "box_set",
+    "contents": [
+      [
+        1,
+        "deck",
+        "sld",
+        "Witch's Familiar Foil Edition"
+      ],
+      [
+        1,
+        "other",
+        "Bonus card unknown"
+      ]
+    ],
+    "name": "Secret Lair Drop Witchs Familiar Foil",
+    "subtype": "secret_lair",
+    "uuid": "4a61f10b-72a4-5cea-90f5-a9e8e13890b5",
+    "set_code": "sld",
+    "release_date": "2026-06-16"
   },
   {
     "category": "box_set",
@@ -132921,7 +133401,7 @@
         1,
         "deck",
         "ss2",
-        "Signature Spellbook Gideon"
+        "Signature Spellbook: Gideon"
       ],
       [
         1,
@@ -133071,7 +133551,7 @@
         1,
         "deck",
         "ss3",
-        "Signature Spellbook Chandra"
+        "Signature Spellbook: Chandra"
       ],
       [
         1,

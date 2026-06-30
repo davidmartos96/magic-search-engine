@@ -233,6 +233,8 @@ describe Deck do
         sets_found.should match_array ["tmc", "tmt"]
       when "soc"
         sets_found.should match_array ["soc", "sos"]
+      when "msh", "msc"
+        sets_found.should match_array ["msh", "msc"]
       else
         if set.types.include?("preview")
           # skip it, as it might not have precons data yet
@@ -430,7 +432,7 @@ describe Deck do
   end
 
   describe "#cards_in_all_zones adds up mainboard and sideboard and commander" do
-    let(:deck) { db.sets["eld"].deck_named("Savage Hunter") }
+    let(:deck) { db.sets["eld"].deck_named("Savage Hunger") }
     let(:main) { deck.cards }
     let(:side) { deck.sideboard }
     let(:commander) { deck.commander }

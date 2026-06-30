@@ -34033,6 +34033,40 @@ hml	Willow Faerie	99b
 hml	Willow Priestess	100
 hml	Winter Sky	80
 hml	Wizards' School	115
+hob	An Unexpected Party	289
+hob	An Unexpected Party	29
+hob	Bilbo, Luckwearer	32
+hob	Bilbo, Thief in the Night	219
+hob	Bilbo, Thief in the Night	255
+hob	Bilbo, Thief in the Night	33
+hob	Forest	198
+hob	Island	195
+hob	Mountain	197
+hob	My Precious	176
+hob	My Precious	235
+hob	My Precious	271
+hob	Plains	194
+hob	Plains	313
+hob	Plains	314
+hob	Plains	315
+hob	Plains	316
+hob	Plains	317
+hob	Plains	318
+hob	Plains	319
+hob	Plains	320
+hob	Smaug the Magnificent	110
+hob	Smaug the Magnificent	229
+hob	Smaug the Magnificent	249
+hob	Smaug the Magnificent	265
+hob	Swamp	196
+hob	The Arkenstone	170
+hob	The Arkenstone	234
+hob	The Arkenstone	247
+hob	The Arkenstone	270
+hob	The Arkenstone	283
+hob	Tom, Bert, and William	169
+hob	Tom, Bert, and William	312
+hob	Wood Elves	142
 hoc	Arcane Signet	95
 hoc	Sauron, the Dark Lord	36
 hoc	Sauron, the Dark Lord	76
@@ -47136,6 +47170,8 @@ mar	Alibou, Ancient Witness	39
 mar	Anthem of Champions	85
 mar	Arachnogenesis	31
 mar	Arasta of the Endless Web	32
+mar	Archangel of Thune	41
+mar	Aurelia the Warleader	86
 mar	Beast Within	33
 mar	Beast Within	75
 mar	Bedlam	74
@@ -47147,10 +47183,12 @@ mar	Comeuppance	1
 mar	Concerted Effort	42
 mar	Counterspell	52
 mar	Counterspell	9
+mar	Cyberdrive Awakener	53
 mar	Dauthi Voidwalker	63
 mar	Deadly Dispute	64
 mar	Defense of the Heart	76
 mar	Dig Through Time	54
+mar	Don't Move	43
 mar	Ephemerate	44
 mar	Escape to the Wilds	89
 mar	Extinction Event	65
@@ -47160,6 +47198,7 @@ mar	Fight to the Death	90
 mar	Final Act	66
 mar	Final Showdown	45
 mar	Force of Vigor	77
+mar	Fury of the Horde	71
 mar	Goblin Bombardment	23
 mar	Harbinger of the Seas	55
 mar	Heroic Intervention	34
@@ -47191,6 +47230,7 @@ mar	Path to Exile	47
 mar	Ponder	13
 mar	Primal Vigor	81
 mar	Privileged Position	92
+mar	Rancor	82
 mar	Ravenous Tyrannosaurus	93
 mar	Reanimate	20
 mar	Reconnaissance Mission	59
@@ -47200,6 +47240,7 @@ mar	Rest in Peace	6
 mar	Return to the Ranks	48
 mar	Righteous Fury	49
 mar	Rite of Replication	14
+mar	Roaming Throne	99
 mar	Savage Beating	26
 mar	Saw in Half	21
 mar	Seize the Day	73
@@ -47216,6 +47257,7 @@ mar	Sword of Fire and Ice	100
 mar	Tangle	38
 mar	Teferi's Protection	51
 mar	Terminate	40
+mar	Three Steps Ahead	62
 mar	Thrill of Possibility	28
 mar	Traumatize	15
 mar	Unexpected Windfall	29
@@ -54235,110 +54277,939 @@ mrd	Worldslayer	276
 mrd	Wrench Mind	84
 mrd	Wurmskin Forger	140
 mrd	Yotian Soldier	277
-msc	Abomination, Irradiated Brute	XXX1
+msc	A.I.M. Bot	529
+msc	Abomination, Irradiated Brute	511
+msc	Abomination, World Ravager	355
+msc	Abomination, World Ravager	47
+msc	Absorbing Man and Titania	510
+msc	Accelerated Evolution	711
+msc	Age of Ultron	41
+msc	Alien Symbiosis	791
+msc	Amazing Spider-Girl	583
+msc	Ancestral Communion	376
+msc	Ancestral Communion	64
+msc	Annie Joins Up	281
+msc	Annie Joins Up	403
+msc	Ant-Man's Air Force	759
+msc	Ant-Man, Elusive Avenger	390
+msc	Ant-Man, Elusive Avenger	73
+msc	Ant-Man, Reformed Rogue	739
+msc	Ant-Man, Scott Lang	834
+msc	Arcane Denial	147
+msc	Arcane Signet	191
+msc	Arcane Signet	192
+msc	Arcane Signet	193
+msc	Arcane Signet	194
+msc	Armed Assailant	647
+msc	Astonishing Spider-Man	740
+msc	Atlantean Skirmisher	616
+msc	Aunt May	768
+msc	Austere Command	121
+msc	Austere Command	294
+msc	Bastion Protector	122
+msc	Bastion Protector	296
+msc	Beast Within	169
+msc	Bedevil	182
+msc	Bedevil	393
+msc	Big Bertha	714
+msc	Big Score	802
+msc	Big Wheel	679
+msc	Bionic Blow	680
+msc	Birds of Paradise	170
+msc	Birds of Paradise	377
+msc	Black Market Connections	155
+msc	Black Market Connections	346
+msc	Black Tom Cassidy	715
+msc	Black Widow, Agile Avenger	395
+msc	Black Widow, Agile Avenger	77
+msc	Black Widow, Deadly Hunter	648
+msc	Black Widow, Intel Expert	504
+msc	Black Widow, Natasha Romanoff	846
+msc	Blasphemous Act	163
+msc	Blasphemous Act	358
+msc	Blue Marvel, Adam Brashear	530
+msc	Blur of Heroism	585
+msc	Boomerang, Blade Flinger	534
+msc	Bountiful Promenade	226
+msc	Bountiful Promenade	461
+msc	Bovine Intervention	123
+msc	Bushmaster, Coiled Henchman	716
+msc	Canopy Vista	227
+msc	Canopy Vista	462
+msc	Canyon Slough	228
+msc	Canyon Slough	463
+msc	Captain America's Motorcycle	681
+msc	Captain America, Steve Rogers	835
 msc	Captain America, Team Leader	5
+msc	Captain America, Team Leader	879
+msc	Captain America, Unbowed	505
+msc	Captain Marvel, Apex Avenger	396
 msc	Captain Marvel, Apex Avenger	78
+msc	Captain's Defense	836
+msc	Chameleon, Master of Disguise	148
+msc	Chaos Warp	164
+msc	Chaos Warp	359
+msc	Chase Stein, Runaway	682
+msc	Choked Estuary	229
+msc	Choked Estuary	464
+msc	Chromatic Lantern	195
+msc	Chromatic Lantern	428
+msc	Cinder Glade	230
+msc	Cinder Glade	465
+msc	Citizen V, Helmut Zemo	650
+msc	City Pigeon	769
+msc	Cleansing Nova	124
+msc	Cleansing Nova	297
+msc	Clever Concealment	125
+msc	Clever Concealment	298
+msc	Clifftop Retreat	231
+msc	Clifftop Retreat	466
+msc	Coastal Peak	232
+msc	Coastal Peak	467
+msc	Collective Effort	126
+msc	Collective Effort	299
+msc	Collector's Case	617
+msc	Colossal Collision	558
+msc	Colossus, Steel Stalwart	717
+msc	Command Tower	233
+msc	Command Tower	234
+msc	Command Tower	235
+msc	Command Tower	236
+msc	Common Crook	792
+msc	Commune with Dinosaurs	814
+msc	Concentrated Fire	847
+msc	Conduit of Worlds	171
+msc	Conduit of Worlds	378
+msc	Containment Construct	284
+msc	Contract Hero	683
+msc	Costume Closet	770
+msc	Count Nefaria	651
+msc	Coveted Jewel	196
+msc	Coveted Jewel	429
+msc	Criminal Enterprise	652
+msc	Crimson Cowl, Master of Evil	653
+msc	Crimson Operative	848
+msc	Crumbling Necropolis	237
+msc	Cultivate	172
+msc	Currency Converter	197
+msc	Currency Converter	430
+msc	Cut a Deal	127
+msc	Daily Bugle Newspaper	749
+msc	Daily Bugle Reporters	771
+msc	Daredevil's Billy Club	686
 msc	Dark Ritual	793
+msc	Darwin, Adaptive Mutant	718
+msc	Daughter of the Deep	618
+msc	Deadly Dispute	794
+msc	Deep Analysis	149
+msc	Destroy Evil	128
+msc	Devil Dinosaur	719
+msc	Director Nick Fury	399
 msc	Director Nick Fury	81
+msc	Dismantling Wave	129
+msc	Dismantling Wave	300
+msc	Dismissive Denial	619
+msc	Dispatch	130
+msc	Divine Visitation	131
+msc	Divine Visitation	301
+msc	Doc Ock's Henchmen	784
+msc	Doc Ock, Sinister Scientist	783
 msc	Doctor Doom, King of Latveria	6
+msc	Doctor Doom, King of Latveria	880
+msc	Doctor Doom, Unrivaled	654
+msc	Doctor Spectrum	590
+msc	Doctor Strange, Surgeon	591
+msc	Doom Blade	576
+msc	Doom's Servo-Guards	535
+msc	Doomfall	795
+msc	Doomsday	796
+msc	Door of Destinies	198
+msc	Door of Destinies	432
+msc	Doorman	720
+msc	Dora Milaje Elite	12
+msc	Dora Milaje Elite	302
+msc	Dragonskull Summit	238
+msc	Dragonskull Summit	468
+msc	Drowned Catacomb	239
+msc	Drowned Catacomb	469
+msc	Eerie Gravestone	824
+msc	Everett K. Ross, Hapless Attache	13
+msc	Everett K. Ross, Hapless Attache	303
+msc	Evolving Wilds	240
+msc	Exotic Orchard	241
+msc	Exotic Orchard	470
+msc	Experimental Armor	543
+msc	Expressive Iteration	183
+msc	Extremis Elite	763
+msc	Fabled Passage	242
+msc	Fabled Passage	471
+msc	Falcon and Redwing	14
+msc	Falcon and Redwing	304
+msc	Falcon, Joaquin Torres	593
+msc	Fall to Earth	517
+msc	Fantastic Bounce	620
+msc	Fantastic Elasticity	30
+msc	Fantastic Elasticity	329
+msc	Farseek	173
+msc	Farseek	815
+msc	Fellwar Stone	285
+msc	Feral Ferocity	560
+msc	Fetid Pools	243
+msc	Fetid Pools	472
+msc	Firebird, Blazing Ranger	360
+msc	Firebird, Blazing Ranger	50
+msc	Flash Thompson, Spider-Fan	772
+msc	Flatman	721
+msc	Fleecemane Lion	282
+msc	Fleecemane Lion	423
+msc	Flora Colossus	561
+msc	Flying Octobot	785
+msc	Foggy Nelson, On Retainer	594
+msc	Fogwell's Gym	754
+msc	Folk Hero	132
+msc	Folk Hero	305
+msc	Foreboding Ruins	244
+msc	Foreboding Ruins	473
+msc	Fortified Village	245
+msc	Fortified Village	474
+msc	Franklin Richards, Ascendant	362
+msc	Franklin Richards, Ascendant	52
+msc	Frostboil Snarl	246
+msc	Frostboil Snarl	475
+msc	Furious Strength	544
+msc	Furycalm Snarl	247
+msc	Furycalm Snarl	476
+msc	Gallant Citizen	820
+msc	Galvanic Iteration	184
+msc	Galvanic Iteration	404
+msc	General Thunderbolt Ross	595
+msc	Generous Gift	133
+msc	Genesis Ultimatum	283
+msc	Genesis Ultimatum	402
+msc	Gert and Old Lace, Runaways	568
+msc	Giant-Man, Gargantuan Genius	722
+msc	Gift of Immortality	134
+msc	Gift of Immortality	306
+msc	Gilded Lotus	199
+msc	Gilded Lotus	434
+msc	Glacial Fortress	248
+msc	Glacial Fortress	477
+msc	Glamorous Grapplers	536
+msc	Glittering Massif	249
+msc	Glittering Massif	478
+msc	Goliath, Mass Manipulator	766
+msc	Grapeshot	803
+msc	Graviton, Fundamental Force	531
+msc	Greater Good	174
+msc	Greater Good	380
+msc	Green Goblin, Back for More	657
+msc	Grim Reaper's Scythe	658
+msc	HYDRA Disintegrator	660
+msc	Hammer of Nazahn	286
+msc	Hammer of Nazahn	427
+msc	Hammerhead, Maggia Boss	659
+msc	Happy Hogan, Bodyguard	622
+msc	Happy Hogan, Dauntless Driver	545
+msc	Happy Hogan, Dauntless Driver	849
+msc	Harmonize	175
+msc	Hawkeye's Shot	839
+msc	Hawkeye, Clint Barton	518
+msc	Hawkeye, Clint Barton	838
+msc	Hawkeye, Trick Shot	506
+msc	Helm of the Host	200
+msc	Helm of the Host	437
+msc	Herald's Horn	287
+msc	Hero in Training	840
+msc	Hero's Blade	201
+msc	Heroes' Hangout	804
+msc	Hinterland Harbor	250
+msc	Hinterland Harbor	480
 msc	Hit-Monkey	723
+msc	Hobgoblin, Mantled Marauder	805
+msc	Hulk, Always Angry	502
+msc	Hulk, Bruce Banner	850
+msc	Hulk, Brutal Brawler	833
+msc	Hulk, Strongest There Is	724
+msc	Hulkbuster Armor	107
+msc	Hulkbuster Armor	438
+msc	Hull Breach	185
 msc	Human Torch	3
+msc	Human Torch	877
+msc	Hyperion, Supreme Hero	599
+msc	Iceman and Firestar	742
+msc	Iconic Shield	520
+msc	Imperial Cosmographer	624
+msc	Infernal Rebirth	537
+msc	Infinity Formula	601
+msc	Ingenious Smith	135
+msc	Inner Demons Gangsters	797
+msc	Inspired Fire	690
+msc	Into the Time Vortex	165
+msc	Into the Time Vortex	363
+msc	Invisible Force Field	19
+msc	Invisible Force Field	311
 msc	Invisible Woman	1
+msc	Invisible Woman	875
+msc	Iron Lad, Young Avenger	569
 msc	Iron Man, Armored Avenger	33
+msc	Iron Man, Armored Avenger	332
 msc	Iron Man, Bleeding Edge	626
-msc	Loki, God of Lies	XXX2
+msc	Iron Man, Futurist Paragon	501
+msc	Iron Man, Modern Marvel	830
+msc	Iron Man, Tony Stark	851
+msc	Iron Suitcase	750
+msc	Irrigated Farmland	251
+msc	Irrigated Farmland	481
+msc	It's Clobberin' Time!	381
+msc	It's Clobberin' Time!	66
+msc	Jack of Hearts, Volatile Hero	693
+msc	Jarvis, Earth's Mightiest Butler	333
+msc	Jarvis, Earth's Mightiest Butler	34
+msc	Kindred Discovery	150
+msc	Kindred Discovery	334
+msc	Kindred Dominance	156
+msc	Kindred Dominance	351
+msc	Kingpin, Wilson Fisk	661
+msc	Lady Spider, Maybelle Reilly	695
+msc	Lethal Scheme	157
+msc	Lethal Scheme	353
+msc	Lightning Bolt	806
+msc	Lightning Greaves	202
+msc	Living Lies of Loki	627
+msc	Living Lightning, Charged Up	764
+msc	Loki, God of Lies	512
+msc	Loyal Guardian	176
+msc	Loyal Retainers	136
+msc	Loyal Retainers	313
 msc	Lucky the Pizza Dog	726
-msc	M.O.D.O.K., Evil Intellect	XXX3
+msc	Luke Cage, Hero for Hire	696
+msc	Lurking Lizards	816
+msc	Luxury Suite	252
+msc	Luxury Suite	482
+msc	MJ, Rising Star	773
+msc	Machine Man, Model X-51	751
+msc	Madame Hydra, Reanimated	538
+msc	Make Your Move	137
+msc	Mandroid Squadron	841
+msc	Martial Coup	138
+msc	Martial Coup	314
+msc	Marvelous Melee	549
+msc	Masked Meower	807
+msc	Medusa, Inhuman Queen	383
+msc	Medusa, Inhuman Queen	68
+msc	Metallic Mimic	203
+msc	Metallic Mimic	441
+msc	Metalwork Colossus	204
+msc	Metalwork Colossus	442
+msc	Meteor Golem	205
+msc	Methods of the Mighty	21
+msc	Methods of the Mighty	315
+msc	Midnight Angel Armor	22
+msc	Midnight Angel Armor	316
+msc	Mind's Dilation	277
+msc	Mind's Dilation	344
+msc	Mind's Eye	288
+msc	Mind's Eye	447
+msc	Minion Missile	663
+msc	Minotaur, Roxxon CEO	539
+msc	Mirage Mirror	206
+msc	Mirage Mirror	443
+msc	Mist-Cloaked Herald	760
 msc	Mister Fantastic	2
+msc	Mister Fantastic	876
+msc	Mjolnir's Might	697
+msc	Mob Lookout	821
+msc	Mockingbird, Bobbi Morse	522
+msc	Mockingbird, Bobbi Morse	842
+msc	Molly Hayes, Runaway	698
+msc	Monologue Tax	139
+msc	Monologue Tax	317
+msc	Moon-Boy, Dino Rider	563
+msc	Mountain	858
+msc	Mountain	859
+msc	Mountain	860
+msc	Mountain	861
+msc	Mountain	862
+msc	Mountain	863
+msc	Mountain	864
+msc	Mountain	865
+msc	Multiversal Recruitment	629
+msc	Mysterio's Mirage	630
+msc	Mystic Monastery	253
+msc	Nakia, Wakandan Operative	384
+msc	Nakia, Wakandan Operative	69
+msc	Namor, Scourge of the Seas	631
+msc	Namora, the Sea Queen	632
+msc	Nature's Lore	177
+msc	Night's Whisper	158
+msc	Nighthawk, Dark Defender	604
+msc	Nova Flame	368
+msc	Nova Flame	57
+msc	Overwhelming Stampede	178
+msc	Overwhelming Stampede	385
+msc	Pacifism	575
+msc	Palace Jailer	140
+msc	Panther Robot	113
+msc	Panther Robot	448
+msc	Patchwork Banner	207
+msc	Path of Ancestry	254
+msc	Path of Discovery	179
+msc	Path of Discovery	386
+msc	Path to Exile	141
+msc	Patriot, Young Avenger	570
+msc	Peggy Carter, Secret Agent	523
+msc	Pharaoh Rama-Tut	634
+msc	Photon, Lady of Light	606
+msc	Plains	866
+msc	Plains	867
+msc	Plains	868
+msc	Plains	869
+msc	Plains	870
+msc	Plains	871
+msc	Plains	872
+msc	Plains	873
+msc	Plaza of Heroes	255
+msc	Plaza of Heroes	483
+msc	Port Town	256
+msc	Port Town	484
+msc	Power Boost	852
+msc	Prairie Stream	257
+msc	Prairie Stream	485
+msc	Professor Hulk	37
+msc	Progenitor's Icon	208
+msc	Progenitor's Icon	449
+msc	Promise of Loyalty	142
+msc	Promise of Loyalty	319
+msc	Propaganda	151
+msc	Prowler, Clawed Thief	186
+msc	Pumpkin Bombardment	822
+msc	Quantum Entanglement	607
+msc	Quantum Misalignment	152
+msc	Quantum Misalignment	339
+msc	Queen Mother Ramonda	23
+msc	Queen Mother Ramonda	320
+msc	Quicksilver, Pietro Maximoff	551
+msc	Quicksilver, Pietro Maximoff	853
+msc	Quinjet Technician	703
+msc	Radiant Summit	258
+msc	Radiant Summit	486
+msc	Radioactive Man	665
+msc	Raise the Palisade	278
+msc	Raise the Palisade	340
+msc	Razorverge Thicket	259
+msc	Razorverge Thicket	487
+msc	Reconnaissance Mission	153
+msc	Recurring Insight	154
+msc	Recurring Insight	341
+msc	Red Ghost, Intangible Genius	413
+msc	Red Ghost, Intangible Genius	92
+msc	Rejuvenating Springs	260
+msc	Rejuvenating Springs	488
+msc	Relic of Legends	209
+msc	Repulsor Bots	532
+msc	Repulsor Rays	854
+msc	Rescue, Pepper Potts	755
+msc	Rescue, Pepper Potts	882
+msc	Return of the Mole Man	729
+msc	Rhino's Rampage	823
+msc	Rip Apart	187
+msc	Robotics Mastery	786
+msc	Rocket-Powered Goblin Glider	825
+msc	Romantic Rendezvous	808
+msc	Rootbound Crag	261
+msc	Rootbound Crag	489
+msc	Royal Talon Fighter Jet	24
+msc	Royal Talon Fighter Jet	321
+msc	Sadistic Slash	666
+msc	Savage Lands	827
+msc	Scarlet Witch, Wanda Maximoff	855
+msc	Scattered Groves	262
+msc	Scattered Groves	490
+msc	Scavenger Grounds	263
+msc	Scavenger Grounds	491
+msc	Scorched Geyser	264
+msc	Scorched Geyser	492
+msc	Scourglass	276
+msc	Scourglass	318
+msc	Scout the City	817
+msc	Secluded Courtyard	265
+msc	Secure Detention	608
+msc	Seize the Day	166
+msc	Seize the Day	371
+msc	Selfless Police Captain	774
+msc	Shang-Chi and the Ten Rings	415
+msc	Shang-Chi and the Ten Rings	94
+msc	Shang-Chi, Martial Mentor	732
+msc	She-Hulk, Attorney-at-Law	745
+msc	She-Hulk, Jennifer Walters	554
+msc	Shi'ar Soldier	637
+msc	Shipwreck Patrol	638
+msc	Shock	809
+msc	Shuri's Fabricator	114
+msc	Shuri's Fabricator	450
+msc	Shuri, Vibranium Technologist	746
+msc	Sif's Spearmaster	765
+msc	Skullclamp	210
+msc	Skullclamp	451
+msc	Smashing Spree	555
+msc	Smashing Spree	856
+msc	Smoldering Marsh	266
+msc	Smoldering Marsh	493
+msc	Sodden Verdure	267
+msc	Sodden Verdure	494
+msc	Sol Ring	211
+msc	Sol Ring	212
+msc	Sol Ring	213
+msc	Sol Ring	214
+msc	Soldier On	843
+msc	Solemn Simulacrum	215
+msc	Solemn Simulacrum	453
+msc	Songbird, Sonic Screamer	762
+msc	Spaceshift	640
+msc	Spark Double	279
+msc	Spark Double	337
+msc	Spectacular Tactics	775
+msc	Spectator Seating	268
+msc	Spectator Seating	495
+msc	Spider-Gwen, Free Spirit	874
+msc	Spider-Man, Hometown Hero	857
+msc	Spider-Man, New Champion	705
+msc	Spider-Man, Web-Slinger	776
+msc	Spider-Man, Web-Spinner	832
+msc	Spider-Mobile	826
+msc	Spider-Rex, Daring Dino	818
+msc	Spider-UK	777
+msc	Starling, Aerial Ally	778
+msc	Stature, Young Avenger	571
+msc	Stegron the Dinosaur Man	810
+msc	Storm, Shaker of Skies	733
+msc	Sudden Strike	779
+msc	Sulfur Falls	269
+msc	Sulfur Falls	496
+msc	Sungrass Prairie	270
+msc	Sungrass Prairie	497
+msc	Sunken Hollow	271
+msc	Sunken Hollow	498
+msc	Sunpetal Grove	272
+msc	Sunpetal Grove	499
+msc	Superior Foes of Spider-Man	167
+msc	Swarm, Being of Bees	799
+msc	Swiftfoot Boots	216
+msc	Sword of the Animist	289
+msc	Sword of the Animist	452
+msc	Swords to Plowshares	143
+msc	Syphon Mind	159
 msc	T'Challa, the Black Panther	7
-msc	Thanos, Death's Consort	XXX4
+msc	T'Challa, the Black Panther	881
+msc	TVA Bureaucrat	761
+msc	Talisman of Conviction	217
+msc	Talisman of Creativity	218
+msc	Talisman of Dominance	219
+msc	Talisman of Indulgence	220
+msc	Talisman of Progress	221
+msc	Taunt from the Rampart	188
+msc	Taunt from the Rampart	420
+msc	Taxi Driver	811
+msc	Team Transmitter	573
+msc	Terminate	189
+msc	Terramorph	180
+msc	Terramorphic Expanse	273
+msc	Terramorphic Expanse	828
+msc	Terrific Team-Up	819
+msc	Thanos, Death's Consort	508
+msc	The Clone Saga	782
+msc	The Fabulous Frog-Man	559
+msc	The Falcon, Sam Wilson	837
 msc	The Fantastic Four	741
+msc	The Fantasticar	104
+msc	The Great Mound	120
+msc	The Great Mound	479
+msc	The Howling Commandos	598
+msc	The Immortal Weapons	547
+msc	The Spot's Portal	798
+msc	The Squadron Sinister	417
+msc	The Squadron Sinister	96
 msc	The Thing	4
-msc	Ultron, Machine Overlord	XXX5
+msc	The Thing	878
+msc	The Vision and Scarlet Witch	707
+msc	The Wasp, Janet Van Dyne	844
+msc	The Wasp, Winsome Avenger	343
+msc	The Wasp, Winsome Avenger	39
+msc	The Whizzer, Classic Speedster	710
+msc	Think Twice	787
+msc	Thor, Guardian of Midgard	503
+msc	Thought Vessel	222
+msc	Thran Dynamo	290
+msc	Three Visits	181
+msc	Thriving Bluff	578
+msc	Thriving Grove	579
+msc	Thriving Heath	580
+msc	Thriving Isle	581
+msc	Thriving Moor	582
+msc	Throne of the High City	274
+msc	Throne of the High City	500
+msc	Tiger Shark, Abyssal Hunter	747
+msc	Time Warp	788
+msc	Tippy-Toe, Terrific Partner	734
+msc	Titan of Littjara	280
+msc	Titan of Littjara	335
+msc	Titania, Proud Pummeler	374
+msc	Titania, Proud Pummeler	62
+msc	Titanium Man	667
+msc	Tombstone, Career Criminal	160
+msc	Tombstone, Career Criminal	577
+msc	Tome of Legends	223
+msc	Tome of Legends	454
+msc	Toxic Deluge	161
+msc	Trading Post	224
+msc	Trading Post	455
+msc	Tragic Arrogance	144
+msc	Tragic Arrogance	323
+msc	Ultimate Alliance	611
+msc	Ultimo, Civilization's End	540
+msc	Ultron, Machine Overlord	507
+msc	Unclaimed Territory	275
+msc	Undead Hand Ninja	670
+msc	Unlucky Witness	812
+msc	Unstable Experiment	789
+msc	Unstable Molecule Suit	116
+msc	Unstable Molecule Suit	457
+msc	Valentina Allegra de Fontaine	671
+msc	Valeria Richards, Precocious	342
+msc	Valeria Richards, Precocious	38
+msc	Valkyrior Skyrider	525
+msc	Valorous Stance	145
+msc	Vandalblast	168
+msc	Vanquish the Horde	146
+msc	Vanquish the Horde	325
+msc	Vault Guardsman	612
+msc	Venom, Evil Unleashed	800
+msc	Venomized Cat	801
+msc	Vibranium Mining Mech	117
+msc	Vibranium Mining Mech	458
+msc	Virtuous Variant	758
+msc	Vision, Synthezoid Avenger	119
 msc	Vision, Synthezoid Avenger	460
+msc	Void Helix	674
+msc	Wakandan Shield Guard	613
+msc	Wakandan Tusker	748
+msc	Wall Off	614
+msc	War Machine, James Rhodes	572
+msc	Warriors of Wakanda	565
+msc	Whirlwind of Thought	190
+msc	Whirlwind of Thought	424
+msc	Whispersilk Cloak	225
+msc	Wiccan, Young Avenger	557
+msc	Wild Pack Squad	781
+msc	Winter Soldier, Bucky Barnes	845
+msc	Wisecrack	813
+msc	Withering Torment	162
+msc	Wolfsbane, Highland Hero	767
+msc	Wondrous Revival	528
+msc	X-23, Deadly Weapon	738
+msc	Zarda, the Power Princess	615
+msc	Zuri, Warrior of Wakanda	389
+msc	Zuri, Warrior of Wakanda	72
+msh	A.I.M. Labs	257
+msh	A.I.M. Scientists	44
+msh	A.I.M. Synthoids	242
 msh	Abomination, Terrifying Titan	198
+msh	Abomination, Terrifying Titan	333
+msh	Absorbing Man	199
+msh	Absorbing Man	416
+msh	Aerial Doombot	43
+msh	Agent 13, Sharon Carter	1
+msh	Agent Maria Hill	2
 msh	Agent Phil Coulson	4
 msh	Agent Phil Coulson	402
+msh	Agent of Atlas	3
+msh	Agents of HYDRA	85
+msh	Agents of S.H.I.E.L.D.	5
+msh	Alien Invasion	200
+msh	Alien Invasion	417
+msh	Ant-Man's Army	161
+msh	Ant-Man, Colony Commander	201
 msh	Arc Reactor	243
 msh	Arc Reactor	310
 msh	Armor Wars	203
 msh	Armor Wars	305
+msh	Arnim Zola, Bio-Fanatic	319
+msh	Arnim Zola, Bio-Fanatic	86
+msh	Asgardian Citadel	258
+msh	Atlantean Cavalry	45
+msh	Atlantis Attacks	46
 msh	Attuma, Atlantean Warlord	47
 msh	Avengers Assemble!	297
 msh	Avengers Assemble!	341
 msh	Avengers Assemble!	6
+msh	Avengers Disassembled	124
+msh	Avengers Disassembled	302
+msh	Avengers Hangar	259
+msh	Avengers Tower	260
+msh	Avengers Tower	334
+msh	Avengers Tower	452
+msh	Avengers: Under Siege	205
+msh	Avengers: Under Siege	306
+msh	Baron Helmut Zemo	405
 msh	Baron Helmut Zemo	87
+msh	Baron Strucker, HYDRA Overlord	315
+msh	Baron Strucker, HYDRA Overlord	446
+msh	Baron Strucker, HYDRA Overlord	88
 msh	Baxter Building	261
 msh	Baxter Building	453
+msh	Beast, Erudite Aerialist	206
+msh	Birnin Zana Plaza	262
 msh	Black Panther, Vanguard	207
 msh	Black Widow, Double Agent	208
+msh	Blazing Crescendo	125
+msh	Blazing Crescendo	340
+msh	Bold Biochemist	48
+msh	Borough Backup	7
+msh	Brave Brawler	8
+msh	Bruce Banner	331
+msh	Bruce Banner	359
 msh	Bruce Banner	390
 msh	Bruce Banner	49
+msh	Bullseye, Death Dealer	209
+msh	Bullseye, Death Dealer	325
+msh	Call Damage Control	162
 msh	Captain America's Shield	244
+msh	Captain America's Shield	311
 msh	Captain America's Shield	317
+msh	Captain America, Living Legend	210
+msh	Captain America, Living Legend	449
+msh	Captain America, Super-Soldier	316
+msh	Captain America, Super-Soldier	352
 msh	Captain America, Super-Soldier	387
 msh	Captain America, Super-Soldier	9
+msh	Captain America, Wings of Freedom	10
+msh	Captain America, Wings of Freedom	353
 msh	Captain Marvel, Earth's Protector	11
 msh	Captain Marvel, Earth's Protector	342
 msh	Captain Marvel, Earth's Protector	354
+msh	Castle Doom	263
+msh	Castle Doom	429
+msh	Claim the Kingdom	163
+msh	Colleen Wing, Street Samurai	13
 msh	Construct a Cosmic Cube	406
 msh	Construct a Cosmic Cube	90
+msh	Crimson Operative	126
 msh	Crossbones, Malicious Mercenary	91
+msh	Crowd of True Believers	14
 msh	Dark Deed	93
+msh	Dark Fortress	264
+msh	Dark Fortress	380
+msh	Death to Our Enemies	127
+msh	Decoy Ploy	94
+msh	Dependable Quinjet	246
+msh	Depower	50
+msh	Doc Samson, Super Psychiatrist	164
+msh	Doctor Doom	336
+msh	Doctor Doom	365
 msh	Doctor Doom	394
 msh	Doctor Doom	95
+msh	Doom Reigns Supreme	407
 msh	Doom Reigns Supreme	96
+msh	Echo, Perceptive Prodigy	51
 msh	Elektra, Daughter of the Hand	326
 msh	Elektra, Daughter of the Hand	366
 msh	Elektra, Daughter of the Hand	395
 msh	Elektra, Daughter of the Hand	97
+msh	Epic Fight	166
+msh	Epic Fight	351
+msh	Falcon's Wing Harness	53
+msh	Falcon, Winged Wonder	52
+msh	Fin Fang Foom	129
+msh	Fin Fang Foom	411
+msh	Fisk Tower	265
 msh	Forest	285
 msh	Forest	286
 msh	Forest	295
 msh	Forest	296
+msh	Forest	441
+msh	Forest	442
+msh	Frozen in Ice	54
+msh	Futurist Forge	55
+msh	Gathering Place	266
+msh	Gathering Place	381
+msh	Ghost, Spectral Saboteur	214
+msh	Giant Growth	167
+msh	Giant-Sized Flying Ant	56
+msh	Gleaming Bastion	267
+msh	Gleaming Bastion	382
+msh	Go Nuts!	168
+msh	Grim Reaper, Lethal Legionnaire	98
+msh	Guerrilla Gorilla	169
+msh	H.E.R.B.I.E. Scout Unit	247
+msh	HULK SMASH!	135
+msh	HULK SMASH!	332
+msh	HYDRA Assault Robot	137
+msh	HYDRA Infiltration	100
+msh	Hawkeye's Bow	132
+msh	Hell's Kitchen	268
+msh	Hercules, Prince of Power	171
+msh	Hero in Training	16
+msh	Hidden Lair	269
+msh	Hidden Lair	383
+msh	Hire a Crew	134
+msh	Hour of Defeat	99
+msh	Hulk, Gamma Goliath	215
 msh	Human Torch, Johnny Storm	136
 msh	Human Torch, Johnny Storm	321
+msh	I Am Iron Man	58
 msh	Invisible Woman, Sue Storm	17
 msh	Invisible Woman, Sue Storm	323
+msh	Iron Fist, Living Weapon	138
+msh	Iron Lad, Diverging Destiny	59
 msh	Iron Man, Master of Machines	216
+msh	Ironheart, Clever Champion	360
+msh	Ironheart, Clever Champion	60
+msh	Island	279
 msh	Island	280
 msh	Island	289
 msh	Island	290
+msh	Island	435
+msh	Island	436
+msh	Jennifer Walters	18
+msh	Jennifer Walters	328
+msh	Jennifer Walters	355
+msh	Jennifer Walters	388
+msh	Jessica Jones, Private Eye	139
+msh	K'un-Lun Warrior	140
+msh	Ka-Zar of the Savage Land	174
 msh	Kang, Temporal Tyrant	217
 msh	Kang, Temporal Tyrant	450
+msh	Killmonger, Scourge of Wakanda	218
+msh	King T'Challa	219
+msh	King T'Challa	346
+msh	King T'Challa	373
+msh	King T'Challa	399
+msh	Kingpin's Enforcers	102
+msh	Kree Commandos	19
+msh	Kree Sentinel	141
+msh	Lightning Strike	142
+msh	Los Diablos Missile Base	270
+msh	Luke Cage, Power Man	20
 msh	M.O.D.O.K.	106
 msh	M.O.D.O.K.	408
+msh	Machinesmith Automaton	144
 msh	Madame Hydra	221
 msh	Madame Hydra	318
 msh	Madame Hydra	451
+msh	Madame Masque	104
 msh	Mister Fantastic, Reed Richards	320
 msh	Mister Fantastic, Reed Richards	445
 msh	Mister Fantastic, Reed Richards	66
+msh	Misty Knight, Hero for Hire	145
+msh	Mockingbird, Ace Agent	22
+msh	Mole Man, Moloid Master	177
+msh	Mole Man, Moloid Master	415
+msh	Monica Rambeau	23
+msh	Monica Rambeau	345
+msh	Monica Rambeau	356
 msh	Moon Girl and Devil Dinosaur	223
+msh	Moon Girl and Devil Dinosaur	421
+msh	Mountain	283
 msh	Mountain	284
 msh	Mountain	293
 msh	Mountain	294
+msh	Mountain	439
+msh	Mountain	440
+msh	Namor the Sub-Mariner	362
 msh	Namor the Sub-Mariner	391
 msh	Namor the Sub-Mariner	69
+msh	Ninja of the Hand	108
+msh	Okoye, Dora Milaje Leader	27
+msh	Panther Pounce	29
+msh	Patriot, Shield Wielder	30
+msh	Patriot, Shield Wielder	444
+msh	Pet Avengers	178
+msh	Plains	277
 msh	Plains	278
 msh	Plains	287
+msh	Plains	288
+msh	Plains	433
+msh	Plains	434
+msh	Project Deathlok Soldier	109
+msh	Pym Particles	70
+msh	Pym Technologies	271
+msh	Quake, Agent of S.H.I.E.L.D.	32
 msh	Quicksilver, Brash Blur	148
+msh	Quicksilver, Brash Blur	412
+msh	Rapid Rescue	181
+msh	Red Room Recruit	110
+msh	Reptil, Dinomorpher	182
+msh	Repulsor Blast	150
+msh	Restorative Technique	183
+msh	Rewrite History	71
+msh	Rick Jones, Destined Sidekick	184
 msh	Ronin, Shadow Stalker	112
+msh	Roxxon Brutes	113
+msh	S.H.I.E.L.D. Deployment Drone	73
 msh	S.H.I.E.L.D. Flying Car	404
 msh	S.H.I.E.L.D. Flying Car	74
+msh	S.H.I.E.L.D. Helicarrier	249
+msh	S.H.I.E.L.D. Spy Kit	36
+msh	Savage Land Dinosaur	185
+msh	Scientist Supreme of A.I.M.	225
+msh	Scientist Supreme of A.I.M.	423
+msh	Serpent Specialist	186
+msh	Shang-Chi, Master of Kung Fu	187
+msh	Shang-Chi, Master of Kung Fu	370
+msh	Shang-Chi, Master of Kung Fu	396
+msh	She-Hulk, Jade Defender	188
+msh	Shuri, Wakandan Inventor	75
+msh	Speed, Young Avenger	152
+msh	Speed, Young Avenger	448
+msh	Spider-Woman, Secret Agent	229
+msh	Stark Industries	272
+msh	Stark Industries Executive	153
+msh	Stature, Size Shifter	76
+msh	Stolen Stark Tech	114
+msh	Subterranean Cavern	273
+msh	Super Speed	154
+msh	Super Strength	189
+msh	Super Suit	78
+msh	Super Villain Lockup	37
 msh	Super-Skrull	115
+msh	Super-Skrull	409
+msh	Super-Soldier Serum	299
+msh	Super-Soldier Serum	38
+msh	Surveillance Room	274
+msh	Swamp	281
 msh	Swamp	282
+msh	Swamp	291
 msh	Swamp	292
+msh	Swamp	437
+msh	Swamp	438
+msh	Swordsman, Sharp Scoundrel	116
+msh	Take Up the Shield	348
+msh	Take Up the Shield	39
+msh	Team Tactics	155
+msh	Thanos, the Mad Titan	233
+msh	Thanos, the Mad Titan	376
+msh	Thanos, the Mad Titan	400
+msh	The Astonishing Ant-Man	204
 msh	The Coming of Galactus	212
 msh	The Coming of Galactus	307
+msh	The Kingpin of Crime	220
+msh	The Kingpin of Crime	327
+msh	The Kingpin of Crime	374
 msh	The Masters of Evil	105
+msh	The Mighty Thor, Jane Foster	222
+msh	The Mighty Thor, Jane Foster	420
 msh	The Mind Stone	21
 msh	The Mind Stone	385
 msh	The Mind Stone	386
+msh	The Ruinous Wrecking Crew	224
+msh	The Ruinous Wrecking Crew	422
 msh	The Scarlet Witch	151
 msh	The Scarlet Witch	368
 msh	The Scarlet Witch	431
 msh	The Sentry, Golden Guardian	35
+msh	The Sentry, Golden Guardian	358
+msh	The Serpent Society	226
+msh	The Serpent Society	424
 msh	The Ten Rings	251
 msh	The Ten Rings	313
 msh	The Thing, Ben Grimm	190
@@ -54346,12 +55217,56 @@ msh	The Thing, Ben Grimm	322
 msh	The Unbeatable Squirrel Girl	193
 msh	The Unbeatable Squirrel Girl	371
 msh	The Vision	255
+msh	The Vision	379
+msh	The Wondrous Wasp	84
+msh	Thirst for Knowledge	79
 msh	Thor Odinson	234
+msh	Thor, God of Thunder	156
+msh	Thor, God of Thunder	338
+msh	Thor, God of Thunder	369
 msh	Thunderbolts Conspiracy	117
+msh	Thunderbolts Conspiracy	410
 msh	Tigra, Feline Fury	191
+msh	Titania, Rugged Rumbler	235
+msh	Tony Stark	350
+msh	Tony Stark	363
+msh	Tony Stark	392
+msh	Tony Stark	80
+msh	Training Compound	275
+msh	Training Compound	384
+msh	Training Regimen	192
+msh	Trickster's Stratagem	81
+msh	Truck Toss	157
+msh	U.S.Agent, John Walker	236
+msh	Ultron Drone	253
+msh	Undercover Skrull	194
+msh	Unliving Legionnaire	119
+msh	Vibranium Energy Daggers	254
+msh	Villainous Hideout	276
+msh	Villainous Hideout	454
+msh	Vision Quest	237
+msh	Vision Quest	309
+msh	Vision of Love	158
+msh	Visions of Villainy	120
+msh	Viv Vision, Teen Synthezoid	256
+msh	Volcanic Villain	159
+msh	Wakandan Drone Flock	40
+msh	Wakandan Royal Guard	195
+msh	War Machine, Legacy of Iron	238
+msh	We Say Thee Nay!	82
+msh	Web Up	41
+msh	Whiplash, Vengeful Engineer	121
+msh	White Tiger, Ava Ayala	196
+msh	White Widow, Free Agent	42
+msh	Wiccan, Rising Magician	83
+msh	Widow's Bite	122
+msh	Winter Soldier, Icy Assassin	239
+msh	Winter Soldier, Icy Assassin	377
 msh	Wolverine, Fierce Fighter	240
+msh	Wolverine, Fierce Fighter	378
 msh	World War Hulk	197
 msh	World War Hulk	304
+msh	Yellowjacket, Heartless Marauder	123
 mul	Aegar, the Freezing Flame	161
 mul	Aegar, the Freezing Flame	31
 mul	Aegar, the Freezing Flame	96
@@ -67674,6 +68589,8 @@ pw25	Unlucky Cabbage Merchant	15
 pw25	Yuna, Grand Summoner	16
 pw25	Zidane, Tantalus Thief	5
 pw26	Access Tunnel	9
+pw26	An Unexpected Party	10
+pw26	Bilbo, Luckwearer	11
 pw26	Courier of Comestibles	6
 pw26	Farhaven Elf	2
 pw26	Gilded Lotus	3
@@ -67682,6 +68599,7 @@ pw26	Lightning Bolt	5
 pw26	Nowhere to Run	1
 pw26	Spicy Oatmeal Pizza	7
 pw26	The Eternal Wanderer	4
+pw26	Tom, Bert, and William	14
 pw26	Wood Elves	13
 pwar	Ajani, the Greathearted	184p
 pwar	Ajani, the Greathearted	184s
@@ -72103,6 +73021,7 @@ sld	Aetherize	1667
 sld	Agent of Treachery	2005
 sld	Aggravated Assault	1026
 sld	Aggravated Assault	1983
+sld	Aggravated Assault	2691
 sld	Aggressive Mining	2108
 sld	Aisha of Sparks and Smoke	430
 sld	Ajani Goldmane	1453
@@ -72212,6 +73131,7 @@ sld	Atreus, Impulsive Son	2212
 sld	Auntie's Hovel	1321
 sld	Aura Shards	1644
 sld	Aura Shards	1644*
+sld	Aura Shards	2694
 sld	Avabruck Caretaker	1608
 sld	Avenger of Zendikar	158
 sld	Avenger of Zendikar	1900
@@ -72230,6 +73150,7 @@ sld	Baral, Chief of Compliance	1164
 sld	Baral, Chief of Compliance	1447
 sld	Baral, Chief of Compliance	2168
 sld	Barktooth Warbeard	1931
+sld	Barrowgoyf	2702
 sld	Basal Sliver	629
 sld	Basilisk Collar	1920
 sld	Basilisk Collar	1925
@@ -72239,6 +73160,7 @@ sld	Battle Hymn	2346
 sld	Battle of Wits	1446
 sld	Battlefield Forge	669
 sld	Batwing Brume	2469
+sld	Baxter Building	2626
 sld	Baylen, the Haymaker	2377
 sld	Beacon of Tomorrows	1497
 sld	Beacon of Tomorrows	1497*
@@ -72393,6 +73315,7 @@ sld	Chandra, Flame's Catalyst	1420
 sld	Chandra, Flame's Catalyst	1420*
 sld	Chandra, Flamecaller	807
 sld	Changeling Outcast	894
+sld	Chaos Warp	2692
 sld	Chaos Warp	741
 sld	Chaos Warp	741*
 sld	Chaos Warp	823
@@ -72416,6 +73339,7 @@ sld	Cleansing Nova	1251
 sld	Cleansing Nova	730
 sld	Cleaver Skaab	834
 sld	Clever Impersonator	1429
+sld	Clone	7164
 sld	Cloudshredder Sliver	660
 sld	Coat of Arms	1712
 sld	Coat of Arms	1903
@@ -72487,7 +73411,7 @@ sld	Counterspell	2497
 sld	Counterspell	2664
 sld	Counterspell	331
 sld	Counterspell	7010
-sld	Counterspell	99999SCTLR
+sld	Counterspell	SCTLR
 sld	Court of Grace	1338
 sld	Court of Grace	2685
 sld	Coveted Jewel	799
@@ -72497,6 +73421,7 @@ sld	Craterhoof Behemoth	376
 sld	Crested Sunmare	1228
 sld	Crib Swap	1850
 sld	Crucible of Worlds	2110
+sld	Crucible of Worlds	7162
 sld	Crypt Ghast	169
 sld	Cryptbreaker	839
 sld	Cryptic Command	905
@@ -72524,6 +73449,7 @@ sld	Dandan	2139
 sld	Danitha Capashen, Paragon	1031
 sld	Daretti, Ingenious Iconoclast	1422
 sld	Daretti, Ingenious Iconoclast	1422*
+sld	Darien, King of Kjeldor	7135
 sld	Dark Deal	873
 sld	Dark Depths	1680
 sld	Dark Petition	2525
@@ -72547,9 +73473,9 @@ sld	Daze	1934
 sld	Deadeye Navigator	902
 sld	Deadly Dispute	1980
 sld	Deadly Dispute	1985
-sld	Deadly Dispute	1IFIYW
 sld	Deadly Dispute	2091
-sld	Deadly Dispute	6IFIYW
+sld	Deadly Dispute	IFIYW-1
+sld	Deadly Dispute	IFIYW-6
 sld	Deadly Rollick	1754
 sld	Deafening Silence	1219
 sld	Death Baron	1458
@@ -72730,6 +73656,7 @@ sld	Fabled Passage	727
 sld	Fabricate	1084
 sld	Fabricate	2090
 sld	Fabricate	332
+sld	Fabricate	7124
 sld	Fact or Fiction	1995
 sld	Fact or Fiction	333
 sld	Faeburrow Elder	1173
@@ -72738,6 +73665,7 @@ sld	Faerie Artisans	1628*
 sld	Faithless Looting	1779
 sld	Farhaven Elf	766
 sld	Farseek	2222
+sld	Farseek	2698
 sld	Fatal Push	112
 sld	Fatal Push	1819
 sld	Fatal Push	7014
@@ -72756,6 +73684,7 @@ sld	Felidar Retreat	2378
 sld	Felidar Sovereign	1182
 sld	Felidar Sovereign	1827
 sld	Fell the Mighty	1778
+sld	Fell the Mighty	2690
 sld	Fellwar Stone	1040
 sld	Fellwar Stone	7062
 sld	Fellwar Stone	708
@@ -72840,6 +73769,7 @@ sld	Frost Titan	220
 sld	Fury	7007
 sld	Fury Sliver	638
 sld	Future Sight	1178
+sld	Future Sight	2700
 sld	Fynn, the Fangbearer	1449
 sld	Gaea's Blessing	1303
 sld	Gaea's Blessing	735
@@ -72859,6 +73789,7 @@ sld	Garruk, Caller of Beasts	9995
 sld	Gavony Township	357
 sld	Geier Reach Sanitarium	1408
 sld	Gemhide Sliver	648
+sld	General's Enforcer	7152
 sld	Generous Gift	2088
 sld	Generous Gift	2534
 sld	Generous Gift	369
@@ -72898,6 +73829,8 @@ sld	Glen Elendra Archmage	2171
 sld	Glissa Sunseeker	491
 sld	Glissa, the Traitor	1217
 sld	Glistener Elf	1205
+sld	Glorious End	7161
+sld	Glowrider	7138
 sld	Go for the Throat	1986
 sld	Go-Shintai of Life's Origin	1825
 sld	Go-Shintai of Life's Origin	1853
@@ -72982,6 +73915,7 @@ sld	Halimar Depths	2159
 sld	Hall of the Bandit Lord	427
 sld	Hallowed Fountain	123
 sld	Hammer of Nazahn	2098
+sld	Hammerhead, Maggia Boss	2622
 sld	Hansk, Slayer Zealot	144
 sld	Happily Ever After	1828
 sld	Hardened Scales	2365
@@ -73010,6 +73944,7 @@ sld	Heliod, God of the Sun	68
 sld	Heliod, Sun-Crowned	214
 sld	Heliod, Sun-Crowned	2165
 sld	Helix Pinnacle	1831
+sld	Hellish Rebuke	7171
 sld	Helpful Hunter	895
 sld	Hero's Downfall	312
 sld	Heroic Intervention	1750
@@ -73206,6 +74141,7 @@ sld	Klauth, Unrivaled Ancient	2499
 sld	Knight Exemplar	1044
 sld	Knight Exemplar	707
 sld	Knight of the White Orchid	1045
+sld	Knight of the White Orchid	7139
 sld	Knuckles the Echidna	2082
 sld	Kodama's Reach	2294
 sld	Kodama's Reach	371
@@ -73261,14 +74197,14 @@ sld	Lightning Bolt	1822
 sld	Lightning Bolt	1871
 sld	Lightning Bolt	1879
 sld	Lightning Bolt	2289
-sld	Lightning Bolt	2IFIYW
 sld	Lightning Bolt	675
-sld	Lightning Bolt	7IFIYW
 sld	Lightning Bolt	83
 sld	Lightning Bolt	84
 sld	Lightning Bolt	85
 sld	Lightning Bolt	86
 sld	Lightning Bolt	901
+sld	Lightning Bolt	IFIYW-2
+sld	Lightning Bolt	IFIYW-7
 sld	Lightning Greaves	1493
 sld	Lightning Greaves	1493*
 sld	Lightning Greaves	1662
@@ -73278,9 +74214,9 @@ sld	Lightning Greaves	2062
 sld	Lightning Greaves	2099
 sld	Lightning Greaves	2465
 sld	Lightning Greaves	2526
-sld	Lightning Greaves	4IFIYW
 sld	Lightning Greaves	99
-sld	Lightning Greaves	9IFIYW
+sld	Lightning Greaves	IFIYW-4
+sld	Lightning Greaves	IFIYW-9
 sld	Lightning Strike	724
 sld	Lignify	1847
 sld	Lignify	2192
@@ -73304,9 +74240,11 @@ sld	Llanowar Elves	800
 sld	Llanowar Visionary	771
 sld	Llawan, Cephalid Empress	1277
 sld	Lonely Sandbar	2161
+sld	Long Goodbye	2697
 sld	Lord Windgrace	1184
 sld	Lord of the Pit	1857
 sld	Lord of the Pit	715
+sld	Lord of the Pit	893
 sld	Lord of the Undead	1046
 sld	Lotus Cobra	1223
 sld	Lotus Petal	7031
@@ -73398,10 +74336,10 @@ sld	Mikaeus, the Unhallowed	846
 sld	Miles "Tails" Prower	2085
 sld	Mina and Denn, Wildborn	1270
 sld	Mind's Dilation	1180
+sld	Mind's Eye	2704
 sld	Mindcrank	2186
 sld	Mindcrank	2456
 sld	Minds Aglow	7028
-sld	Minsc & Boo, Timeless Heroes	879
 sld	Mirage Mirror	2030
 sld	Mirage Mirror	7025
 sld	Miren, the Moaning Well	7108
@@ -73556,6 +74494,7 @@ sld	Nicol Bolas, the Ravager	1158
 sld	Nicol Bolas, the Ravager	1211
 sld	Night's Whisper	1937
 sld	Night's Whisper	207
+sld	Night's Whisper	7110
 sld	Nightscape Familiar	1546
 sld	Nightscape Familiar	1546*
 sld	Nine Lives	793
@@ -73747,6 +74686,7 @@ sld	Prince of Thralls	1549
 sld	Prince of Thralls	1549*
 sld	Prismatic Ending	1868
 sld	Prismatic Omen	1104
+sld	Prismatic Vista	2699
 sld	Prodigal Sorcerer	1672
 sld	Professional Face-Breaker	1706
 sld	Progenitus	1163
@@ -73831,6 +74771,7 @@ sld	Relentless Rats	754
 sld	Relentless Rats	755
 sld	Relentless Rats	756
 sld	Relentless Rats	757
+sld	Relic of Legends	7109
 sld	Reliquary Tower	1536
 sld	Reliquary Tower	1536*
 sld	Reliquary Tower	695
@@ -73843,6 +74784,7 @@ sld	Resculpt	7024
 sld	Rest in Peace	96
 sld	Restoration Angel	1380
 sld	Retreat to Coralhelm	407
+sld	Return the Favor	7080
 sld	Revel in Riches	1830
 sld	Reverent Mantra	2686
 sld	Rewind	1036
@@ -73960,6 +74902,7 @@ sld	Serpent of Yawning Depths	1489*
 sld	Serra Angel	1161
 sld	Serra Ascendant	1125
 sld	Serra Ascendant	2291
+sld	Serra Ascendant	7145
 sld	Serra the Benevolent	1252
 sld	Serum Visions	2323
 sld	Serum Visions	2338
@@ -73975,6 +74918,7 @@ sld	Seven Dwarves	815
 sld	Seven Dwarves	816
 sld	Seven Dwarves	817
 sld	Seven Dwarves	818
+sld	Seven Dwarves	819
 sld	Shadow Sliver	624
 sld	Shadow of Doubt	414
 sld	Shadow the Hedgehog	2086
@@ -73992,10 +74936,6 @@ sld	Shadowheart, Dark Justiciar	2483
 sld	Shadowspear	1505
 sld	Shalai, Voice of Plenty	244
 sld	Shaman of the Pack	789
-sld	Shapeshifter	1906
-sld	Shapeshifter	1907
-sld	Shapeshifter	1908
-sld	Shapeshifter	1909
 sld	Shared Roots	2391
 sld	Shared Summons	1308
 sld	Shattergang Brothers	1315
@@ -74008,9 +74948,11 @@ sld	Sheltered Thicket	2522
 sld	Sheltered by Ghosts	2653
 sld	Sheoldred, Whispering One	211
 sld	Shiny Impetus	1845
+sld	Shiny Impetus	7165
 sld	Shire Terrace	1296
 sld	Shivan Dragon	1709
 sld	Shivan Dragon	716
+sld	Shoot the Sheriff	7166
 sld	Shorikai, Genesis Engine	1880
 sld	Sidewinder Sliver	615
 sld	Sigarda's Aid	1727
@@ -74020,6 +74962,7 @@ sld	Silence	1816
 sld	Silence	2300
 sld	Silence	7003
 sld	Silence	881
+sld	Silver Shroud Costume	915
 sld	Simian Spirit Guide	1548
 sld	Simian Spirit Guide	1548*
 sld	Simic Ascendancy	1832
@@ -74082,7 +75025,6 @@ sld	Snow-Covered Swamp	327
 sld	Snuff Out	1792
 sld	Sol Ring	1011
 sld	Sol Ring	1074
-sld	Sol Ring	10IFIYW
 sld	Sol Ring	1494
 sld	Sol Ring	1494*
 sld	Sol Ring	1512
@@ -74104,8 +75046,11 @@ sld	Sol Ring	2467
 sld	Sol Ring	249
 sld	Sol Ring	2539
 sld	Sol Ring	2672
-sld	Sol Ring	5IFIYW
 sld	Sol Ring	910
+sld	Sol Ring	912
+sld	Sol Ring	913
+sld	Sol Ring	IFIYW-10
+sld	Sol Ring	IFIYW-5
 sld	Solemn Simulacrum	1113
 sld	Solemn Simulacrum	1725
 sld	Solemn Simulacrum	791
@@ -74130,6 +75075,7 @@ sld	Soul-Scar Mage	190
 sld	Soul-Scar Mage	2039
 sld	Soul-Scar Mage	2044
 sld	Soulherder	2174
+sld	Sovereign Okinec Ahau	2695
 sld	Sower of Temptation	120
 sld	Species Specialist	2369
 sld	Spell Pierce	2388
@@ -74368,10 +75314,11 @@ sld	Thraximundar	142
 sld	Three Visits	1676
 sld	Three Visits	1991
 sld	Thrill of Possibility	1805
-sld	Thrill of Possibility	3IFIYW
-sld	Thrill of Possibility	8IFIYW
+sld	Thrill of Possibility	IFIYW-3
+sld	Thrill of Possibility	IFIYW-8
 sld	Throat Slitter	2356
 sld	Throat Slitter	2360
+sld	Throes of Chaos	2703
 sld	Thrun, the Last Troll	810
 sld	Tiamat	1017
 sld	Tibalt's Trickery	7027
@@ -74385,8 +75332,10 @@ sld	Time Sieve	1671
 sld	Time Stop	1500
 sld	Time Stop	1500*
 sld	Time Stretch	2480
+sld	Time Stretch	2701
 sld	Tinybones, Trinket Thief	1407
 sld	Tinybones, Trinket Thief	2458
+sld	Tippy-Toe, Terrific Partner	2625
 sld	Tireless Provisioner	2057
 sld	Tireless Tracker	1094
 sld	Tireless Tracker	711
@@ -74412,6 +75361,7 @@ sld	Toxin Sliver	635Ph
 sld	Toxrill, the Corrosive	1929
 sld	Trace of Abundance	1849
 sld	Tragic Slip	7043
+sld	Trailblazer's Boots	2696
 sld	Treasonous Ogre	2007
 sld	Tree of Tales	304
 sld	Trickbind	1774
@@ -74442,6 +75392,7 @@ sld	Unbreakable Formation	310
 sld	Unbreakable Formation	7052
 sld	Uncivil Unrest	2008
 sld	Undead Alchemist	836
+sld	Undead Hand Ninja	2623
 sld	Underworld Breach	2040
 sld	Underworld Breach	2045
 sld	Underworld Dreams	1298
@@ -74457,6 +75408,7 @@ sld	Unsubstantiate	2158
 sld	Urabrask the Hidden	212
 sld	Uril, the Miststalker	1767
 sld	Uro, Titan of Nature's Wrath	222
+sld	Utopia Sprawl	2693
 sld	Utopia Sprawl	409
 sld	Utopia Sprawl	7070
 sld	Utvara Hellkite	1273
@@ -74492,7 +75444,7 @@ sld	Violent Outburst	1185
 sld	Viridian Shaman	782
 sld	Virulent Sliver	659
 sld	Virulent Sliver	659Ph
-sld	Viscera Seer	99999VS
+sld	Viscera Seer	VS
 sld	Vision Charm	7040
 sld	Visions of Beyond	1670
 sld	Vito, Thorn of the Dusk Rose	2282
@@ -74518,6 +75470,7 @@ sld	Wall of Omens	1518
 sld	Wall of Omens	1518*
 sld	Wanderwine Hub	1324
 sld	Ward Sliver	617
+sld	Warp World	7172
 sld	Warren Instigator	157
 sld	Wasitora, Nekoru Queen	2253
 sld	Waste Not	1299
@@ -74596,6 +75549,7 @@ sld	Young Wolf	1820
 sld	Young Wolf	885
 sld	Youthful Valkyrie	1588
 sld	Zada, Hedron Grinder	2406
+sld	Zada, Hedron Grinder	2423
 sld	Zaxara, the Exemplary	1333
 sld	Zethi, Arcane Blademaster	432
 sld	Ziatora, the Incinerator	2238
