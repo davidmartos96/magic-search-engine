@@ -1,4 +1,5 @@
 # data from https://www.lethe.xyz/mtg/collation/thb.html
+# Collecting article: https://magic.wizards.com/en/news/feature/theros-beyond-death-collector-booster-contents-2019-12-13
 # Assumptions:
 # No data for distribution of commons/uncommons
 # - assumed to follow distribution of Set boosters in https://mtg.wiki/wiki/Set_Booster
@@ -31,6 +32,7 @@ pack:
     foil_uncommon: 7
     chance: 20
   showcase: 1
+  foil_showcase: 1
   ancillary: 1
   rm_extended: 1
   foil_rare_mythic: 1
@@ -39,15 +41,24 @@ sheets:
     # U/R/M rates guessed to be at 4x/2x/1x multiples
     any:
     - query: "r:u t:saga"
+      count: 5
       rate: 4
     - use: uncommon_showcase
       rate: 4
     - query: "r:r t:saga"
+      count: 4
       rate: 2
     - use: mythic_showcase
       rate: 1
     - query: "r:m t:saga"
+      count: 1
       rate: 1
+  foil_showcase:
+    # 15th Collector slot: a traditional-foil constellation/showcase card
+    # (article: foil showcase demigods/rares/borderless PWs). Same pool as
+    # the non-foil showcase slot, foil.
+    foil: true
+    use: showcase
   ancillary:
     # C/U/R/M rates guessed to be at 8x/4x/2x/1x multiples
     filter: "e:thb -promo:boosterfun number:269-297"
@@ -59,10 +70,14 @@ sheets:
     foil: true
     any:
     - rawquery: "e:thb r:r promo:boosterfun"
+      count: 49
       rate: 2
     - query: "r:r"
+      count: 53
       rate: 4
     - rawquery: "e:thb r:m promo:boosterfun"
+      count: 14
       rate: 1
     - query: "r:m"
+      count: 15
       rate: 2

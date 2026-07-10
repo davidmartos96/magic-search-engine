@@ -1106,6 +1106,140 @@
     "display": ""
   },
   {
+    "name": "Tenth Edition Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Tenth Edition",
+    "set_code": "10e",
+    "release_date": "2007-07-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "10E",
+          "number": "364"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "10E",
+          "number": "365"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "10E",
+          "number": "366"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "10E",
+          "number": "367"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "10E",
+          "number": "368"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "10E",
+          "number": "369"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "10E",
+          "number": "370"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "10E",
+          "number": "371"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "10E",
+          "number": "372"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "10E",
+          "number": "373"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "10E",
+          "number": "374"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "10E",
+          "number": "375"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "10E",
+          "number": "376"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "10E",
+          "number": "377"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "10E",
+          "number": "378"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "10E",
+          "number": "379"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "10E",
+          "number": "380"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "10E",
+          "number": "381"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "10E",
+          "number": "382"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "10E",
+          "number": "383"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
+    "display": ""
+  },
+  {
     "name": "Tenth Edition Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -24444,6 +24578,140 @@
     "display": ""
   },
   {
+    "name": "Ninth Edition Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Ninth Edition",
+    "set_code": "9ed",
+    "release_date": "2005-07-29",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "9ED",
+          "number": "331"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "9ED",
+          "number": "332"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "9ED",
+          "number": "333"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "9ED",
+          "number": "334"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "9ED",
+          "number": "335"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "9ED",
+          "number": "336"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "9ED",
+          "number": "337"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "9ED",
+          "number": "338"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "9ED",
+          "number": "339"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "9ED",
+          "number": "340"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "9ED",
+          "number": "341"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "9ED",
+          "number": "342"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "9ED",
+          "number": "343"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "9ED",
+          "number": "344"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "9ED",
+          "number": "345"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "9ED",
+          "number": "346"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "9ED",
+          "number": "347"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "9ED",
+          "number": "348"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "9ED",
+          "number": "349"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "9ED",
+          "number": "350"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
+    "display": ""
+  },
+  {
     "name": "Ninth Edition Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -33563,6 +33831,280 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/news/adventures-forgotten-realms-commander-decklists-2021-07-09",
+    "display": ""
+  },
+  {
+    "name": "Adventures in the Forgotten Realms Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Adventures in the Forgotten Realms",
+    "set_code": "afr",
+    "release_date": "2021-07-23",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "262"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "262",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "263"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "263",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "264"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "264",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "265"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "AFR",
+          "number": "265",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "266"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "266",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "267"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "267",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "268"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "268",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "269"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "AFR",
+          "number": "269",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "270"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "270",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "271"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "271",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "272"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "272",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "273"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "AFR",
+          "number": "273",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "274"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "274",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "275"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "275",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "276"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "276",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "277"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "AFR",
+          "number": "277",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "278"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "278",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "279"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "279",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "280"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "280",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "281"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "AFR",
+          "number": "281",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
     "display": ""
   },
   {
@@ -113666,6 +114208,50 @@
     "display": ""
   },
   {
+    "name": "Coldsnap Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Coldsnap",
+    "set_code": "csp",
+    "release_date": "2006-07-21",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Snow-Covered Plains",
+          "count": 8,
+          "set": "CSP",
+          "number": "151"
+        },
+        {
+          "name": "Snow-Covered Island",
+          "count": 8,
+          "set": "CSP",
+          "number": "152"
+        },
+        {
+          "name": "Snow-Covered Swamp",
+          "count": 8,
+          "set": "CSP",
+          "number": "153"
+        },
+        {
+          "name": "Snow-Covered Mountain",
+          "count": 8,
+          "set": "CSP",
+          "number": "154"
+        },
+        {
+          "name": "Snow-Covered Forest",
+          "count": 8,
+          "set": "CSP",
+          "number": "155"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
+    "display": ""
+  },
+  {
     "name": "Coldsnap Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -181742,6 +182328,118 @@
     "display": ""
   },
   {
+    "name": "Camp Comrades",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Final Fantasy",
+    "set_code": "fin",
+    "release_date": "2025-06-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Noctis, Heir Apparent",
+          "count": 1,
+          "set": "FIC",
+          "number": "460",
+          "foil": true
+        },
+        {
+          "name": "Fishing Gear",
+          "count": 1,
+          "set": "FIC",
+          "number": "461",
+          "foil": true
+        },
+        {
+          "name": "Chocobo Camp",
+          "count": 1,
+          "set": "FIC",
+          "number": "462",
+          "foil": true
+        },
+        {
+          "name": "Flash Photography",
+          "count": 1,
+          "set": "FIC",
+          "number": "463",
+          "foil": true
+        },
+        {
+          "name": "Campsite Cuisine",
+          "count": 1,
+          "set": "FIC",
+          "number": "464",
+          "foil": true
+        },
+        {
+          "name": "Warrior's Resolve",
+          "count": 1,
+          "set": "FIC",
+          "number": "465",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-final-fantasy",
+    "display": "FINAL FANTASY XV Scene Box - 6 traditional foil borderless scene cards"
+  },
+  {
+    "name": "Children of Fate",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Final Fantasy",
+    "set_code": "fin",
+    "release_date": "2025-06-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Edea, Possessed Sorceress",
+          "count": 1,
+          "set": "FIC",
+          "number": "448",
+          "foil": true
+        },
+        {
+          "name": "Fated Clash",
+          "count": 1,
+          "set": "FIC",
+          "number": "449",
+          "foil": true
+        },
+        {
+          "name": "Rinoa, Angel Wing",
+          "count": 1,
+          "set": "FIC",
+          "number": "450",
+          "foil": true
+        },
+        {
+          "name": "Seifer, Balamb Rival",
+          "count": 1,
+          "set": "FIC",
+          "number": "451",
+          "foil": true
+        },
+        {
+          "name": "Duelist's Flame",
+          "count": 1,
+          "set": "FIC",
+          "number": "452",
+          "foil": true
+        },
+        {
+          "name": "Squall, Gunblade Duelist",
+          "count": 1,
+          "set": "FIC",
+          "number": "453",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-final-fantasy",
+    "display": "FINAL FANTASY VIII Scene Box - 6 traditional foil borderless scene cards"
+  },
+  {
     "name": "Final Fantasy Bundle Land Pack",
     "type": "Bundle Land Pack",
     "category": "deck",
@@ -181964,6 +182662,62 @@
     "display": ""
   },
   {
+    "name": "Garland at the Chaos Shrine",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Final Fantasy",
+    "set_code": "fin",
+    "release_date": "2025-06-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Garland, Royal Kidnapper",
+          "count": 1,
+          "set": "FIC",
+          "number": "442",
+          "foil": true
+        },
+        {
+          "name": "The Destined Warrior",
+          "count": 1,
+          "set": "FIC",
+          "number": "443",
+          "foil": true
+        },
+        {
+          "name": "The Destined White Mage",
+          "count": 1,
+          "set": "FIC",
+          "number": "444",
+          "foil": true
+        },
+        {
+          "name": "Chaos Shrine's Black Crystal",
+          "count": 1,
+          "set": "FIC",
+          "number": "445",
+          "foil": true
+        },
+        {
+          "name": "The Destined Thief",
+          "count": 1,
+          "set": "FIC",
+          "number": "446",
+          "foil": true
+        },
+        {
+          "name": "The Destined Black Mage",
+          "count": 1,
+          "set": "FIC",
+          "number": "447",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-final-fantasy",
+    "display": "FINAL FANTASY I Scene Box - 6 traditional foil borderless scene cards"
+  },
+  {
     "name": "Red-White",
     "type": "Starter Kit",
     "category": "deck",
@@ -182126,6 +182880,62 @@
     },
     "source": "https://magic.wizards.com/en/news/announcements/final-fantasy-starter-kit-decklists",
     "display": ""
+  },
+  {
+    "name": "The Siege of Alexandria",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "Final Fantasy",
+    "set_code": "fin",
+    "release_date": "2025-06-13",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Brilliant Wings",
+          "count": 1,
+          "set": "FIC",
+          "number": "454",
+          "foil": true
+        },
+        {
+          "name": "Judgment of Alexander",
+          "count": 1,
+          "set": "FIC",
+          "number": "455",
+          "foil": true
+        },
+        {
+          "name": "Mega Flare",
+          "count": 1,
+          "set": "FIC",
+          "number": "456",
+          "foil": true
+        },
+        {
+          "name": "Amarant Coral",
+          "count": 1,
+          "set": "FIC",
+          "number": "457",
+          "foil": true
+        },
+        {
+          "name": "Vivi's Persistence",
+          "count": 1,
+          "set": "FIC",
+          "number": "458",
+          "foil": true
+        },
+        {
+          "name": "Search for Dagger",
+          "count": 1,
+          "set": "FIC",
+          "number": "459",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-final-fantasy",
+    "display": "FINAL FANTASY IX Scene Box - 6 traditional foil borderless scene cards"
   },
   {
     "name": "Cunning Plan",
@@ -194581,6 +195391,85 @@
     "display": ""
   },
   {
+    "name": "Guilds of Ravnica Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Guilds of Ravnica",
+    "set_code": "grn",
+    "release_date": "2018-10-05",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "GRN",
+          "number": "260"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "GRN",
+          "number": "260",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "GRN",
+          "number": "261"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "GRN",
+          "number": "261",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "GRN",
+          "number": "262"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "GRN",
+          "number": "262",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "GRN",
+          "number": "263"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "GRN",
+          "number": "263",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "GRN",
+          "number": "264"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "GRN",
+          "number": "264",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/page/Guilds_of_Ravnica",
+    "display": ""
+  },
+  {
     "name": "Guilds of Ravnica Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -203599,6 +204488,165 @@
       ]
     },
     "source": "https://mtg.wiki/wiki/HASCON",
+    "display": ""
+  },
+  {
+    "name": "The Hobbit Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "The Hobbit",
+    "set_code": "hob",
+    "release_date": "2026-01-23",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "HOB",
+          "number": "194"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "HOB",
+          "number": "194",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "HOB",
+          "number": "195"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "HOB",
+          "number": "195",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "HOB",
+          "number": "196"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "HOB",
+          "number": "196",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "HOB",
+          "number": "197"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "HOB",
+          "number": "197",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "HOB",
+          "number": "198"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "HOB",
+          "number": "198",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "313"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "313",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "314"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "314",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "315"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "315",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "316"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "316",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "317",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "318",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "319",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "320",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-the-hobbit",
     "display": ""
   },
   {
@@ -254378,6 +255426,85 @@
     "display": ""
   },
   {
+    "name": "Kaldheim Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Kaldheim",
+    "set_code": "khm",
+    "release_date": "2021-02-05",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "KHM",
+          "number": "394"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "KHM",
+          "number": "394",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "KHM",
+          "number": "395"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "KHM",
+          "number": "395",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "KHM",
+          "number": "396"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "KHM",
+          "number": "396",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "KHM",
+          "number": "397"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "KHM",
+          "number": "397",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "KHM",
+          "number": "398"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "KHM",
+          "number": "398",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/page/Kaldheim",
+    "display": ""
+  },
+  {
     "name": "Kaldheim Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -275489,6 +276616,140 @@
     "display": ""
   },
   {
+    "name": "Lorwyn Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Lorwyn",
+    "set_code": "lrw",
+    "release_date": "2007-10-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "LRW",
+          "number": "282"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "LRW",
+          "number": "283"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "LRW",
+          "number": "284"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "LRW",
+          "number": "285"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "LRW",
+          "number": "286"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "LRW",
+          "number": "287"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "LRW",
+          "number": "288"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "LRW",
+          "number": "289"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "LRW",
+          "number": "290"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "LRW",
+          "number": "291"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "LRW",
+          "number": "292"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "LRW",
+          "number": "293"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "LRW",
+          "number": "294"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "LRW",
+          "number": "295"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "LRW",
+          "number": "296"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "LRW",
+          "number": "297"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "LRW",
+          "number": "298"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "LRW",
+          "number": "299"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "LRW",
+          "number": "300"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "LRW",
+          "number": "301"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
+    "display": ""
+  },
+  {
     "name": "Lorwyn Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -284645,6 +285906,140 @@
     "display": ""
   },
   {
+    "name": "Magic 2010 Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Magic 2010",
+    "set_code": "m10",
+    "release_date": "2009-07-17",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M10",
+          "number": "230"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M10",
+          "number": "231"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M10",
+          "number": "232"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M10",
+          "number": "233"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M10",
+          "number": "234"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M10",
+          "number": "235"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M10",
+          "number": "236"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M10",
+          "number": "237"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M10",
+          "number": "238"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M10",
+          "number": "239"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M10",
+          "number": "240"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M10",
+          "number": "241"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M10",
+          "number": "242"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M10",
+          "number": "243"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M10",
+          "number": "244"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M10",
+          "number": "245"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M10",
+          "number": "246"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M10",
+          "number": "247"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M10",
+          "number": "248"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M10",
+          "number": "249"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
+    "display": ""
+  },
+  {
     "name": "Magic 2010 Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -289025,6 +290420,140 @@
       ]
     },
     "source": "https://mtg.wiki/wiki/Magic_2011/Sample_decks",
+    "display": ""
+  },
+  {
+    "name": "Magic 2011 Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Magic 2011",
+    "set_code": "m11",
+    "release_date": "2010-07-16",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M11",
+          "number": "230"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M11",
+          "number": "231"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M11",
+          "number": "232"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "M11",
+          "number": "233"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M11",
+          "number": "234"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M11",
+          "number": "235"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M11",
+          "number": "236"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "M11",
+          "number": "237"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M11",
+          "number": "238"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M11",
+          "number": "239"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M11",
+          "number": "240"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "M11",
+          "number": "241"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M11",
+          "number": "242"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M11",
+          "number": "243"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M11",
+          "number": "244"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "M11",
+          "number": "245"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M11",
+          "number": "246"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M11",
+          "number": "247"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M11",
+          "number": "248"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "M11",
+          "number": "249"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
     "display": ""
   },
   {
@@ -320343,6 +321872,280 @@
     "display": ""
   },
   {
+    "name": "Core Set 2020 Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Core Set 2020",
+    "set_code": "m20",
+    "release_date": "2019-07-12",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "261"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "261",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "262"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "262",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "263"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "263",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "264"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "M20",
+          "number": "264",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "265"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "265",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "266"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "266",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "267"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "267",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "268"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "M20",
+          "number": "268",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "269"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "269",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "270"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "270",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "271"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "271",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "272"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "M20",
+          "number": "272",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "273"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "273",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "274"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "274",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "275"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "275",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "276"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "M20",
+          "number": "276",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "277"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "277",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "278"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "278",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "279"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "279",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "280"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "M20",
+          "number": "280",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
+    "display": ""
+  },
+  {
     "name": "Core Set 2020 Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -339995,6 +341798,215 @@
     "display": ""
   },
   {
+    "name": "Modern Horizons 3 Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Modern Horizons 3",
+    "set_code": "mh3",
+    "release_date": "2024-06-14",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MH3",
+          "number": "304"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MH3",
+          "number": "304",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MH3",
+          "number": "305"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MH3",
+          "number": "305",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MH3",
+          "number": "306"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MH3",
+          "number": "306",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MH3",
+          "number": "307"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MH3",
+          "number": "307",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MH3",
+          "number": "308"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MH3",
+          "number": "308",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MH3",
+          "number": "310"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MH3",
+          "number": "310",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MH3",
+          "number": "311"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MH3",
+          "number": "311",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MH3",
+          "number": "312"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MH3",
+          "number": "312",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MH3",
+          "number": "313"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MH3",
+          "number": "313",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MH3",
+          "number": "314"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MH3",
+          "number": "314",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MH3",
+          "number": "315"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MH3",
+          "number": "315",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MH3",
+          "number": "316"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MH3",
+          "number": "316",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MH3",
+          "number": "317"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MH3",
+          "number": "317",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MH3",
+          "number": "318"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MH3",
+          "number": "318",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MH3",
+          "number": "319"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MH3",
+          "number": "319",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-modern-horizons-3",
+    "display": ""
+  },
+  {
     "name": "Coven Counters",
     "type": "Commander Deck",
     "category": "deck",
@@ -340668,6 +342680,85 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/news/innistrad-midnight-hunt-commander-decklists-2021-09-13",
+    "display": ""
+  },
+  {
+    "name": "Innistrad: Midnight Hunt Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Innistrad: Midnight Hunt",
+    "set_code": "mid",
+    "release_date": "2021-09-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "MID",
+          "number": "380"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "MID",
+          "number": "380",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "MID",
+          "number": "381"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "MID",
+          "number": "381",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "MID",
+          "number": "382"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "MID",
+          "number": "382",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "MID",
+          "number": "383"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "MID",
+          "number": "383",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "MID",
+          "number": "384"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "MID",
+          "number": "384",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/page/Innistrad:_Midnight_Hunt",
     "display": ""
   },
   {
@@ -346496,6 +348587,215 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/murders-at-karlov-manor-commander-decklists",
+    "display": ""
+  },
+  {
+    "name": "Murders at Karlov Manor Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Murders at Karlov Manor",
+    "set_code": "mkm",
+    "release_date": "2024-02-09",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MKM",
+          "number": "272"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MKM",
+          "number": "272",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MKM",
+          "number": "273"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MKM",
+          "number": "273",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MKM",
+          "number": "274"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MKM",
+          "number": "274",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MKM",
+          "number": "275"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MKM",
+          "number": "275",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MKM",
+          "number": "276"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MKM",
+          "number": "276",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MKM",
+          "number": "277"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MKM",
+          "number": "277",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MKM",
+          "number": "278"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MKM",
+          "number": "278",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MKM",
+          "number": "279"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MKM",
+          "number": "279",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MKM",
+          "number": "280"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MKM",
+          "number": "280",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MKM",
+          "number": "281"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MKM",
+          "number": "281",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MKM",
+          "number": "282"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MKM",
+          "number": "282",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MKM",
+          "number": "283"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MKM",
+          "number": "283",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MKM",
+          "number": "284"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MKM",
+          "number": "284",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MKM",
+          "number": "285"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MKM",
+          "number": "285",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MKM",
+          "number": "286"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MKM",
+          "number": "286",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-murders-at-karlov-manor",
     "display": ""
   },
   {
@@ -370246,7 +372546,7 @@
           "name": "Arcane Signet",
           "count": 1,
           "set": "MSC",
-          "number": "191"
+          "number": "192"
         },
         {
           "name": "Lightning Greaves",
@@ -370258,13 +372558,13 @@
           "name": "Sol Ring",
           "count": 1,
           "set": "MSC",
-          "number": "211"
+          "number": "212"
         },
         {
           "name": "Command Tower",
           "count": 1,
           "set": "MSC",
-          "number": "233"
+          "number": "234"
         },
         {
           "name": "Evolving Wilds",
@@ -370862,7 +373162,7 @@
           "name": "Arcane Signet",
           "count": 1,
           "set": "MSC",
-          "number": "191",
+          "number": "192",
           "foil": true
         },
         {
@@ -370876,14 +373176,14 @@
           "name": "Sol Ring",
           "count": 1,
           "set": "MSC",
-          "number": "211",
+          "number": "212",
           "foil": true
         },
         {
           "name": "Command Tower",
           "count": 1,
           "set": "MSC",
-          "number": "233",
+          "number": "234",
           "foil": true
         },
         {
@@ -373641,6 +375941,215 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/marvel-super-heroes-jumpstart-booster-themes",
+    "display": ""
+  },
+  {
+    "name": "Marvel Super Heroes Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Marvel Super Heroes",
+    "set_code": "msh",
+    "release_date": "2025-09-26",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "277"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "278"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "287"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "288",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "433",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "434",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "279"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "280"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "289"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "290",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "435",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "436",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "281"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "282"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "291"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "292",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "437",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "438",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "283"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "284"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "293"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "294",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "439",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "440",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "285"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "286"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "295"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "296",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "441",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "442",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-marvel-super-heroes",
     "display": ""
   },
   {
@@ -412622,6 +415131,215 @@
     "display": ""
   },
   {
+    "name": "Outlaws of Thunder Junction Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Outlaws of Thunder Junction",
+    "set_code": "otj",
+    "release_date": "2024-04-19",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "OTJ",
+          "number": "272"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "OTJ",
+          "number": "272",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "OTJ",
+          "number": "273"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "OTJ",
+          "number": "273",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "OTJ",
+          "number": "274"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "OTJ",
+          "number": "274",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "OTJ",
+          "number": "275"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "OTJ",
+          "number": "275",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "OTJ",
+          "number": "276"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "OTJ",
+          "number": "276",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "OTJ",
+          "number": "277"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "OTJ",
+          "number": "277",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "OTJ",
+          "number": "278"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "OTJ",
+          "number": "278",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "OTJ",
+          "number": "279"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "OTJ",
+          "number": "279",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "OTJ",
+          "number": "280"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "OTJ",
+          "number": "280",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "OTJ",
+          "number": "281"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "OTJ",
+          "number": "281",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "OTJ",
+          "number": "282"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "OTJ",
+          "number": "282",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "OTJ",
+          "number": "283"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "OTJ",
+          "number": "283",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "OTJ",
+          "number": "284"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "OTJ",
+          "number": "284",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "OTJ",
+          "number": "285"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "OTJ",
+          "number": "285",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "OTJ",
+          "number": "286"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "OTJ",
+          "number": "286",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-outlaws-of-thunder-junction",
+    "display": ""
+  },
+  {
     "name": "Outlaws of Thunder Junction Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -445729,6 +448447,140 @@
     "display": ""
   },
   {
+    "name": "Ravnica Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Ravnica: City of Guilds",
+    "set_code": "rav",
+    "release_date": "2005-10-07",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "RAV",
+          "number": "287"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "RAV",
+          "number": "288"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "RAV",
+          "number": "289"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "RAV",
+          "number": "290"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "RAV",
+          "number": "291"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "RAV",
+          "number": "292"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "RAV",
+          "number": "293"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "RAV",
+          "number": "294"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "RAV",
+          "number": "295"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "RAV",
+          "number": "296"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "RAV",
+          "number": "297"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "RAV",
+          "number": "298"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "RAV",
+          "number": "299"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "RAV",
+          "number": "300"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "RAV",
+          "number": "301"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "RAV",
+          "number": "302"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "RAV",
+          "number": "303"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "RAV",
+          "number": "304"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "RAV",
+          "number": "305"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "RAV",
+          "number": "306"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
+    "display": ""
+  },
+  {
     "name": "Ravnica: City of Guilds Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -452866,6 +455718,85 @@
     "display": ""
   },
   {
+    "name": "Ravnica Allegiance Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Ravnica Allegiance",
+    "set_code": "rna",
+    "release_date": "2019-01-25",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "RNA",
+          "number": "260"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "RNA",
+          "number": "260",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "RNA",
+          "number": "261"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "RNA",
+          "number": "261",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "RNA",
+          "number": "262"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "RNA",
+          "number": "262",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "RNA",
+          "number": "263"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "RNA",
+          "number": "263",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "RNA",
+          "number": "264"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "RNA",
+          "number": "264",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/page/Ravnica_Allegiance",
+    "display": ""
+  },
+  {
     "name": "Ravnica Allegiance Foil Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -457524,6 +460455,140 @@
       ]
     },
     "source": "https://mtg.wiki/wiki/Deck_Builder%27s_Toolkit",
+    "display": ""
+  },
+  {
+    "name": "Rise of the Eldrazi Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Rise of the Eldrazi",
+    "set_code": "roe",
+    "release_date": "2010-04-23",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "ROE",
+          "number": "229"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "ROE",
+          "number": "230"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "ROE",
+          "number": "231"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "ROE",
+          "number": "232"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "ROE",
+          "number": "233"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "ROE",
+          "number": "234"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "ROE",
+          "number": "235"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "ROE",
+          "number": "236"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "ROE",
+          "number": "237"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "ROE",
+          "number": "238"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "ROE",
+          "number": "239"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "ROE",
+          "number": "240"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "ROE",
+          "number": "241"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "ROE",
+          "number": "242"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "ROE",
+          "number": "243"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "ROE",
+          "number": "244"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "ROE",
+          "number": "245"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "ROE",
+          "number": "246"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "ROE",
+          "number": "247"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "ROE",
+          "number": "248"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
     "display": ""
   },
   {
@@ -471196,6 +474261,140 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/shadowmoor-theme-deck-contents-2008-04-21",
+    "display": ""
+  },
+  {
+    "name": "Shadowmoor Fat Pack Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Shadowmoor",
+    "set_code": "shm",
+    "release_date": "2008-05-02",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "SHM",
+          "number": "282"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "SHM",
+          "number": "283"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "SHM",
+          "number": "284"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "SHM",
+          "number": "285"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "SHM",
+          "number": "286"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "SHM",
+          "number": "287"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "SHM",
+          "number": "288"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "SHM",
+          "number": "289"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "SHM",
+          "number": "290"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "SHM",
+          "number": "291"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "SHM",
+          "number": "292"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "SHM",
+          "number": "293"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "SHM",
+          "number": "294"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "SHM",
+          "number": "295"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "SHM",
+          "number": "296"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "SHM",
+          "number": "297"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "SHM",
+          "number": "298"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "SHM",
+          "number": "299"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "SHM",
+          "number": "300"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "SHM",
+          "number": "301"
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
     "display": ""
   },
   {
@@ -529742,6 +532941,294 @@
     "display": ""
   },
   {
+    "name": "Black Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Vampire Interloper",
+          "count": 1,
+          "set": "FDN",
+          "number": "756"
+        },
+        {
+          "name": "Gutless Plunderer",
+          "count": 2,
+          "set": "FDN",
+          "number": "60"
+        },
+        {
+          "name": "Eaten Alive",
+          "count": 2,
+          "set": "FDN",
+          "number": "172"
+        },
+        {
+          "name": "Vampire Neonate",
+          "count": 1,
+          "set": "FDN",
+          "number": "531"
+        },
+        {
+          "name": "Vampire Gourmand",
+          "count": 1,
+          "set": "FDN",
+          "number": "74"
+        },
+        {
+          "name": "Hero's Downfall",
+          "count": 2,
+          "set": "FDN",
+          "number": "175"
+        },
+        {
+          "name": "Stromkirk Bloodthief",
+          "count": 1,
+          "set": "FDN",
+          "number": "185"
+        },
+        {
+          "name": "Vampire Soulcaller",
+          "count": 1,
+          "set": "FDN",
+          "number": "758"
+        },
+        {
+          "name": "Crossway Troublemakers",
+          "count": 1,
+          "set": "FDN",
+          "number": "518"
+        },
+        {
+          "name": "Vampire Nighthawk",
+          "count": 1,
+          "set": "FDN",
+          "number": "757"
+        },
+        {
+          "name": "Kalastria Highborn",
+          "count": 1,
+          "set": "FDN",
+          "number": "753"
+        },
+        {
+          "name": "Zombify",
+          "count": 1,
+          "set": "FDN",
+          "number": "187"
+        },
+        {
+          "name": "Macabre Waltz",
+          "count": 1,
+          "set": "FDN",
+          "number": "177"
+        },
+        {
+          "name": "Vengeful Bloodwitch",
+          "count": 1,
+          "set": "FDN",
+          "number": "76"
+        },
+        {
+          "name": "Vampire Spawn",
+          "count": 1,
+          "set": "FDN",
+          "number": "532"
+        },
+        {
+          "name": "Massacre Wurm",
+          "count": 1,
+          "set": "FDN",
+          "number": "754"
+        },
+        {
+          "name": "Bloodtithe Collector",
+          "count": 1,
+          "set": "FDN",
+          "number": "751"
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1,
+          "set": "FDN",
+          "number": "264"
+        },
+        {
+          "name": "Gatekeeper of Malakir",
+          "count": 1,
+          "set": "FDN",
+          "number": "752"
+        },
+        {
+          "name": "Sanguine Syphoner",
+          "count": 1,
+          "set": "FDN",
+          "number": "68"
+        },
+        {
+          "name": "Pulse Tracker",
+          "count": 1,
+          "set": "FDN",
+          "number": "755"
+        },
+        {
+          "name": "Swamp",
+          "count": 16,
+          "set": "FDN",
+          "number": "276"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/new-welcome-decks-arrive-with-secrets-of-strixhaven",
+    "display": ""
+  },
+  {
+    "name": "Blue Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Kitesail Corsair",
+          "count": 2,
+          "set": "FDN",
+          "number": "743"
+        },
+        {
+          "name": "Spectral Sailor",
+          "count": 1,
+          "set": "FDN",
+          "number": "746"
+        },
+        {
+          "name": "Starlight Snare",
+          "count": 2,
+          "set": "FDN",
+          "number": "514"
+        },
+        {
+          "name": "Refute",
+          "count": 2,
+          "set": "FDN",
+          "number": "48"
+        },
+        {
+          "name": "Think Twice",
+          "count": 1,
+          "set": "FDN",
+          "number": "165"
+        },
+        {
+          "name": "Uncharted Voyage",
+          "count": 1,
+          "set": "FDN",
+          "number": "53"
+        },
+        {
+          "name": "Sphinx of the Final Word",
+          "count": 1,
+          "set": "FDN",
+          "number": "747"
+        },
+        {
+          "name": "Icewind Elemental",
+          "count": 2,
+          "set": "FDN",
+          "number": "742"
+        },
+        {
+          "name": "Storm Fleet Spy",
+          "count": 1,
+          "set": "FDN",
+          "number": "515"
+        },
+        {
+          "name": "Aetherize",
+          "count": 1,
+          "set": "FDN",
+          "number": "151"
+        },
+        {
+          "name": "Bigfin Bouncer",
+          "count": 1,
+          "set": "FDN",
+          "number": "31"
+        },
+        {
+          "name": "Rune-Sealed Wall",
+          "count": 1,
+          "set": "FDN",
+          "number": "745"
+        },
+        {
+          "name": "Tempest Djinn",
+          "count": 1,
+          "set": "FDN",
+          "number": "749"
+        },
+        {
+          "name": "Cryptic Caves",
+          "count": 1,
+          "set": "FDN",
+          "number": "771"
+        },
+        {
+          "name": "Arcanis the Omnipotent",
+          "count": 1,
+          "set": "FDN",
+          "number": "741"
+        },
+        {
+          "name": "Unsummon",
+          "count": 1,
+          "set": "FDN",
+          "number": "750"
+        },
+        {
+          "name": "Mocking Sprite",
+          "count": 1,
+          "set": "FDN",
+          "number": "744"
+        },
+        {
+          "name": "Quick Study",
+          "count": 1,
+          "set": "FDN",
+          "number": "513"
+        },
+        {
+          "name": "Strix Lookout",
+          "count": 1,
+          "set": "FDN",
+          "number": "748"
+        },
+        {
+          "name": "Aegis Turtle",
+          "count": 1,
+          "set": "FDN",
+          "number": "150"
+        },
+        {
+          "name": "Island",
+          "count": 16,
+          "set": "FDN",
+          "number": "274"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/new-welcome-decks-arrive-with-secrets-of-strixhaven",
+    "display": ""
+  },
+  {
     "name": "Eerie",
     "type": "Theme Deck",
     "category": "deck",
@@ -529839,6 +533326,147 @@
     "display": ""
   },
   {
+    "name": "Green Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Llanowar Elves",
+          "count": 2,
+          "set": "FDN",
+          "number": "227"
+        },
+        {
+          "name": "Thrashing Brontodon",
+          "count": 2,
+          "set": "FDN",
+          "number": "560"
+        },
+        {
+          "name": "Mild-Mannered Librarian",
+          "count": 1,
+          "set": "FDN",
+          "number": "228"
+        },
+        {
+          "name": "Bite Down",
+          "count": 2,
+          "set": "FDN",
+          "number": "212"
+        },
+        {
+          "name": "Wary Thespian",
+          "count": 1,
+          "set": "FDN",
+          "number": "235"
+        },
+        {
+          "name": "Magnigoth Sentry",
+          "count": 1,
+          "set": "FDN",
+          "number": "556"
+        },
+        {
+          "name": "Springbloom Druid",
+          "count": 1,
+          "set": "FDN",
+          "number": "767"
+        },
+        {
+          "name": "Pelakka Wurm",
+          "count": 1,
+          "set": "FDN",
+          "number": "765"
+        },
+        {
+          "name": "Elvish Regrower",
+          "count": 1,
+          "set": "FDN",
+          "number": "104"
+        },
+        {
+          "name": "Blanchwood Armor",
+          "count": 1,
+          "set": "FDN",
+          "number": "213"
+        },
+        {
+          "name": "Primal Might",
+          "count": 1,
+          "set": "FDN",
+          "number": "766"
+        },
+        {
+          "name": "Broken Wings",
+          "count": 1,
+          "set": "FDN",
+          "number": "214"
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1,
+          "set": "FDN",
+          "number": "264"
+        },
+        {
+          "name": "Wildheart Invoker",
+          "count": 1,
+          "set": "FDN",
+          "number": "561"
+        },
+        {
+          "name": "Thornweald Archer",
+          "count": 1,
+          "set": "FDN",
+          "number": "559"
+        },
+        {
+          "name": "Vizier of the Menagerie",
+          "count": 1,
+          "set": "FDN",
+          "number": "769"
+        },
+        {
+          "name": "Surrak, the Hunt Caller",
+          "count": 1,
+          "set": "FDN",
+          "number": "768"
+        },
+        {
+          "name": "Affectionate Indrik",
+          "count": 1,
+          "set": "FDN",
+          "number": "211"
+        },
+        {
+          "name": "Bushwhack",
+          "count": 1,
+          "set": "FDN",
+          "number": "215"
+        },
+        {
+          "name": "Treetop Snarespinner",
+          "count": 1,
+          "set": "FDN",
+          "number": "114"
+        },
+        {
+          "name": "Forest",
+          "count": 17,
+          "set": "FDN",
+          "number": "280"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/new-welcome-decks-arrive-with-secrets-of-strixhaven",
+    "display": ""
+  },
+  {
     "name": "Lifegain",
     "type": "Theme Deck",
     "category": "deck",
@@ -529927,6 +533555,282 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/feature/secrets-of-strixhaven-60-card-theme-deck-contents-and-guide",
+    "display": ""
+  },
+  {
+    "name": "Red Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Burst Lightning",
+          "count": 2,
+          "set": "FDN",
+          "number": "192"
+        },
+        {
+          "name": "Carnelian Orb of Dragonkind",
+          "count": 1,
+          "set": "FDN",
+          "number": "759"
+        },
+        {
+          "name": "Firespitter Whelp",
+          "count": 2,
+          "set": "FDN",
+          "number": "761"
+        },
+        {
+          "name": "Kargan Dragonrider",
+          "count": 2,
+          "set": "FDN",
+          "number": "762"
+        },
+        {
+          "name": "Drakuseth, Maw of Flames",
+          "count": 1,
+          "set": "FDN",
+          "number": "760"
+        },
+        {
+          "name": "Scorching Dragonfire",
+          "count": 2,
+          "set": "FDN",
+          "number": "545"
+        },
+        {
+          "name": "Spitfire Lagac",
+          "count": 1,
+          "set": "FDN",
+          "number": "208"
+        },
+        {
+          "name": "Incinerating Blast",
+          "count": 2,
+          "set": "FDN",
+          "number": "90"
+        },
+        {
+          "name": "Dragonlord's Servant",
+          "count": 2,
+          "set": "FDN",
+          "number": "536"
+        },
+        {
+          "name": "Cryptic Caves",
+          "count": 1,
+          "set": "FDN",
+          "number": "771"
+        },
+        {
+          "name": "Axgard Cavalry",
+          "count": 1,
+          "set": "FDN",
+          "number": "189"
+        },
+        {
+          "name": "Terror of Mount Velus",
+          "count": 1,
+          "set": "FDN",
+          "number": "764"
+        },
+        {
+          "name": "Brazen Scourge",
+          "count": 1,
+          "set": "FDN",
+          "number": "191"
+        },
+        {
+          "name": "Etali, Primal Storm",
+          "count": 1,
+          "set": "FDN",
+          "number": "194"
+        },
+        {
+          "name": "Skyraker Giant",
+          "count": 1,
+          "set": "FDN",
+          "number": "547"
+        },
+        {
+          "name": "Shivan Dragon",
+          "count": 1,
+          "set": "FDN",
+          "number": "763"
+        },
+        {
+          "name": "Fanatical Firebrand",
+          "count": 1,
+          "set": "FDN",
+          "number": "195"
+        },
+        {
+          "name": "Mountain",
+          "count": 17,
+          "set": "FDN",
+          "number": "278"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/new-welcome-decks-arrive-with-secrets-of-strixhaven",
+    "display": ""
+  },
+  {
+    "name": "White Deck",
+    "type": "Welcome Deck",
+    "category": "deck",
+    "format": "casual standard",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Healer's Hawk",
+          "count": 2,
+          "set": "FDN",
+          "number": "734"
+        },
+        {
+          "name": "Ajani's Pridemate",
+          "count": 1,
+          "set": "FDN",
+          "number": "135"
+        },
+        {
+          "name": "Joust Through",
+          "count": 1,
+          "set": "FDN",
+          "number": "19"
+        },
+        {
+          "name": "Prayer of Binding",
+          "count": 1,
+          "set": "FDN",
+          "number": "739"
+        },
+        {
+          "name": "Helpful Hunter",
+          "count": 2,
+          "set": "FDN",
+          "number": "16"
+        },
+        {
+          "name": "Bishop's Soldier",
+          "count": 1,
+          "set": "FDN",
+          "number": "491"
+        },
+        {
+          "name": "Serra Angel",
+          "count": 1,
+          "set": "FDN",
+          "number": "740"
+        },
+        {
+          "name": "Herald of Faith",
+          "count": 1,
+          "set": "FDN",
+          "number": "735"
+        },
+        {
+          "name": "Pacifism",
+          "count": 1,
+          "set": "FDN",
+          "number": "501"
+        },
+        {
+          "name": "Cathar Commando",
+          "count": 1,
+          "set": "FDN",
+          "number": "139"
+        },
+        {
+          "name": "Inspiring Overseer",
+          "count": 1,
+          "set": "FDN",
+          "number": "736"
+        },
+        {
+          "name": "Crusader of Odric",
+          "count": 1,
+          "set": "FDN",
+          "number": "731"
+        },
+        {
+          "name": "Dazzling Angel",
+          "count": 1,
+          "set": "FDN",
+          "number": "732"
+        },
+        {
+          "name": "Exemplar of Light",
+          "count": 1,
+          "set": "FDN",
+          "number": "733"
+        },
+        {
+          "name": "Cryptic Caves",
+          "count": 1,
+          "set": "FDN",
+          "number": "771"
+        },
+        {
+          "name": "Lyra Dawnbringer",
+          "count": 1,
+          "set": "FDN",
+          "number": "738"
+        },
+        {
+          "name": "Linden, the Steadfast Queen",
+          "count": 1,
+          "set": "FDN",
+          "number": "737"
+        },
+        {
+          "name": "Dauntless Veteran",
+          "count": 1,
+          "set": "FDN",
+          "number": "8"
+        },
+        {
+          "name": "Moment of Triumph",
+          "count": 1,
+          "set": "FDN",
+          "number": "500"
+        },
+        {
+          "name": "Banishing Light",
+          "count": 1,
+          "set": "FDN",
+          "number": "138"
+        },
+        {
+          "name": "Diamond Mare",
+          "count": 1,
+          "set": "FDN",
+          "number": "770"
+        },
+        {
+          "name": "Hinterland Sanctifier",
+          "count": 1,
+          "set": "FDN",
+          "number": "730"
+        },
+        {
+          "name": "Plains",
+          "count": 16,
+          "set": "FDN",
+          "number": "272"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/new-welcome-decks-arrive-with-secrets-of-strixhaven",
     "display": ""
   },
   {
@@ -531506,6 +535410,150 @@
       ]
     },
     "source": "https://www.mtggoldfish.com/deck/5774298",
+    "display": ""
+  },
+  {
+    "name": "Strixhaven Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Strixhaven: School of Mages",
+    "set_code": "stx",
+    "release_date": "2021-04-23",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "STX",
+          "number": "366"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "STX",
+          "number": "366",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "STX",
+          "number": "367"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "STX",
+          "number": "367",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "STX",
+          "number": "368"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "STX",
+          "number": "368",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "STX",
+          "number": "369"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "STX",
+          "number": "369",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "STX",
+          "number": "370"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "STX",
+          "number": "370",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "STX",
+          "number": "371"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "STX",
+          "number": "371",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "STX",
+          "number": "372"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "STX",
+          "number": "372",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "STX",
+          "number": "373"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "STX",
+          "number": "373",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "STX",
+          "number": "374"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "STX",
+          "number": "374",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "STX",
+          "number": "375"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "STX",
+          "number": "375",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/wiki/Bundle",
     "display": ""
   },
   {
@@ -540242,6 +544290,150 @@
       ]
     },
     "source": "https://mtg.wiki/wiki/Theros_Beyond_Death/Planeswalker_decks",
+    "display": ""
+  },
+  {
+    "name": "Theros Beyond Death Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Theros Beyond Death",
+    "set_code": "thb",
+    "release_date": "2020-01-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "THB",
+          "number": "278"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "THB",
+          "number": "279"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "THB",
+          "number": "278",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "THB",
+          "number": "279",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "THB",
+          "number": "280"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "THB",
+          "number": "281"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "THB",
+          "number": "280",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "THB",
+          "number": "281",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "THB",
+          "number": "282"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "THB",
+          "number": "283"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "THB",
+          "number": "282",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "THB",
+          "number": "283",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "THB",
+          "number": "284"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "THB",
+          "number": "285"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "THB",
+          "number": "284",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "THB",
+          "number": "285",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "THB",
+          "number": "286"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "THB",
+          "number": "287"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "THB",
+          "number": "286",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "THB",
+          "number": "287",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/page/Theros_Beyond_Death",
     "display": ""
   },
   {
@@ -556669,6 +560861,215 @@
     "display": ""
   },
   {
+    "name": "Teenage Mutant Ninja Turtles Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "set_code": "tmt",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "TMT",
+          "number": "191"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "TMT",
+          "number": "191",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "TMT",
+          "number": "192"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "TMT",
+          "number": "192",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "TMT",
+          "number": "193"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "TMT",
+          "number": "193",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "TMT",
+          "number": "194"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "TMT",
+          "number": "194",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "TMT",
+          "number": "195"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "TMT",
+          "number": "195",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "TMT",
+          "number": "253"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "TMT",
+          "number": "253",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "TMT",
+          "number": "254"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "TMT",
+          "number": "254",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "TMT",
+          "number": "255"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "TMT",
+          "number": "255",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "TMT",
+          "number": "256"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "TMT",
+          "number": "256",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "TMT",
+          "number": "257"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "TMT",
+          "number": "257",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "TMT",
+          "number": "315"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "TMT",
+          "number": "315",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "TMT",
+          "number": "316"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "TMT",
+          "number": "316",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "TMT",
+          "number": "317"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "TMT",
+          "number": "317",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "TMT",
+          "number": "318"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "TMT",
+          "number": "318",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "TMT",
+          "number": "319"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "TMT",
+          "number": "319",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-teenage-mutant-ninja-turtles",
+    "display": ""
+  },
+  {
     "name": "Grave Danger",
     "type": "Theme Deck",
     "category": "deck",
@@ -570714,6 +575115,85 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/feature/innistrad-crimson-vow-commander-decklists-2021-11-08",
+    "display": ""
+  },
+  {
+    "name": "Innistrad: Crimson Vow Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Innistrad: Crimson Vow",
+    "set_code": "vow",
+    "release_date": "2021-11-19",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "VOW",
+          "number": "398"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "VOW",
+          "number": "398",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "VOW",
+          "number": "399"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "VOW",
+          "number": "399",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "VOW",
+          "number": "400"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "VOW",
+          "number": "400",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "VOW",
+          "number": "401"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "VOW",
+          "number": "401",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "VOW",
+          "number": "402"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "VOW",
+          "number": "402",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://mtg.wiki/page/Innistrad:_Crimson_Vow",
     "display": ""
   },
   {
@@ -602223,6 +606703,85 @@
       ]
     },
     "source": "https://magic.wizards.com/en/articles/archive/card-preview/zendikar-rising-commander-decklists-2020-09-09",
+    "display": ""
+  },
+  {
+    "name": "Zendikar Rising Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Zendikar Rising",
+    "set_code": "znr",
+    "release_date": "2020-09-25",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "ZNR",
+          "number": "380"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "ZNR",
+          "number": "380",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "ZNR",
+          "number": "381"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "ZNR",
+          "number": "381",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "ZNR",
+          "number": "382"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "ZNR",
+          "number": "382",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "ZNR",
+          "number": "383"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "ZNR",
+          "number": "383",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "ZNR",
+          "number": "384"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "ZNR",
+          "number": "384",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-zendikar-rising-2020-09-01",
     "display": ""
   },
   {

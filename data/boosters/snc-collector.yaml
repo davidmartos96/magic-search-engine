@@ -11,8 +11,9 @@ pack:
   extended_commander: 1
   rare_mythic_showcase: 1
   foil_showcase_cu_slot:
+  # Article: gilded common/uncommon in 25% of Collector Boosters (75:25).
   - foil_common_uncommon_showcase: 1
-    chance: 35
+    chance: 75
   - gilded_common_uncommon_showcase: 1
     chance: 25
   foil_showcase_rm_slot:
@@ -26,6 +27,7 @@ sheets:
   foil_fullart_basic:
     foil: true
     query: "r:b is:fullart"
+    count: 10
   foil_rare_mythic:
     foil: true
     use: rare_mythic
@@ -38,12 +40,16 @@ sheets:
   rare_mythic_showcase:
     any:
     - rawquery: "e:{set} r:r promo:boosterfun -is:foilonly -frame:extendedart is:paper is:triome"
+      count: 10
       rate: 2
     - rawquery: "e:{set} r:r promo:boosterfun -is:foilonly -frame:extendedart is:paper -is:triome"
+      count: 26
       rate: 4
     - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper (t:planeswalker or Urabrask) number<=360"
+      count: 8
       rate: 1
     - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper -t:planeswalker -Urabrask"
+      count: 10
       rate: 2
   gilded_common_uncommon_showcase:
     foil: true
@@ -65,10 +71,14 @@ sheets:
     foil: true
     any:
     - rawquery: "e:{set} r:r promo:boosterfun -is:foilonly is:paper is:triome"
+      count: 10
       rate: 2
     - rawquery: "e:{set} r:r promo:boosterfun -is:foilonly is:paper -is:triome"
+      count: 55
       rate: 4
     - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly is:paper (t:planeswalker or Urabrask) number<=360"
+      count: 8
       rate: 1
     - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly is:paper -t:planeswalker -Urabrask"
+      count: 16
       rate: 2

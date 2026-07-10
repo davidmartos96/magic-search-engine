@@ -2,7 +2,7 @@
 pack:
   foil_full_art_land: 1
   foil_common: 4
-  foil_uncommon: 4
+  foil_uncommon: 3
   enchanting_tales_uncommon: 1
   foil_enchanting_tales_uncommon: 1
   foil_rare_mythic: 1
@@ -18,11 +18,14 @@ sheets:
   foil_full_art_land:
     foil: true
     query: "r:b number:262-266"
+    count: 5
   enchanting_tales_uncommon:
     rawquery: "e:wot r:u number<=63"
+    count: 18
   foil_enchanting_tales_uncommon:
     foil: true
     rawquery: "e:wot r:u number<=63"
+    count: 18
   foil_rare_mythic:
     foil: true
     use: rare_mythic
@@ -31,55 +34,83 @@ sheets:
     use: rare_mythic
   foil_extended_art:
     foil: true
-    use: extended_art
+    # The traditional-foil version of this slot also carries the new-to-Magic
+    # Commander cards (woc #21-28) in regular frame, not just extended-art: the
+    # article says it includes "the new Commander content found in Set Boosters".
+    # Without number:21-28 their foils are productless.
+    filter: "((e:woe or e:woc) frame:extendedart -number:381) or (e:woc number:21-28)"
+    use: rare_mythic
   enchanting_tales_rare_mythic:
     any:
     - rawquery: "e:wot r:r -alt:(e:wot number:64-83) number<64"
+      count: 25
       rate: 8
     - rawquery: "e:wot r:r alt:(e:wot number:64-83) number<64"
+      count: 5
       rate: 6
     - rawquery: "e:wot r:r number:64-83"
+      count: 5
       rate: 2
     - rawquery: "e:wot r:m -alt:(e:wot number:64-83) number<64"
       rate: 4
     - rawquery: "e:wot r:m alt:(e:wot number:64-83) number<64"
+      count: 15
       rate: 3
     - rawquery: "e:wot r:m number:64-83"
+      count: 15
       rate: 1
   alt_frame_foil:
     foil: true
+    # Per the article, 2.8% of this slot is confetti foil (the 20 anime borderless
+    # Enchanting Tales cards, wot #84-103: 5 rares = 1.1% + 15 mythics = 1.7%);
+    # every other treatment in the slot appears in traditional foil (97.2%).
     any:
-    - use: rare_showcase
-      rate: 12
-    - rawquery: "(e:woe or e:woc) r:r frame:extendedart"
-      rate: 12
-    - rawquery: "e:wot r:r -alt:(e:wot number:64-83) number<64"
-      rate: 12
-    - rawquery: "e:wot r:r alt:(e:wot number:64-83) number<64"
-      rate: 8
-    - rawquery: "e:wot r:r number:64-83"
-      rate: 4
+    - any:
+      - use: rare_showcase
+        rate: 12
+      - rawquery: "(e:woe or e:woc) r:r frame:extendedart"
+        count: 46
+        rate: 12
+      - rawquery: "e:wot r:r -alt:(e:wot number:64-83) number<64"
+        count: 25
+        rate: 12
+      - rawquery: "e:wot r:r alt:(e:wot number:64-83) number<64"
+        count: 5
+        rate: 8
+      - rawquery: "e:wot r:r number:64-83"
+        count: 5
+        rate: 4
+      - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper (Kellan)"
+        count: 2
+        rate: 3
+      - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper -(Kellan or Birthright)"
+        count: 11
+        rate: 6
+      - rawquery: "(e:woe or e:woc) r:m frame:extendedart"
+        count: 14
+        rate: 6
+      - rawquery: "e:wot r:m -alt:(e:wot number:64-83) number<64"
+        rate: 6
+      - rawquery: "e:wot r:m alt:(e:wot number:64-83) number<64"
+        count: 15
+        rate: 4
+      - rawquery: "e:wot r:m number:64-83"
+        count: 15
+        rate: 2
+      chance: 972
     - rawquery: "e:wot r:r number:84-103"
-      rate: 4
-    - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper (Kellan)"
-      rate: 3
-    - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper -(Kellan or Birthright)"
-      rate: 6
-    - rawquery: "(e:woe or e:woc) r:m frame:extendedart"
-      rate: 6
-    - rawquery: "e:wot r:m -alt:(e:wot number:64-83) number<64"
-      rate: 6
-    - rawquery: "e:wot r:m alt:(e:wot number:64-83) number<64"
-      rate: 4
-    - rawquery: "e:wot r:m number:64-83"
-      rate: 2
+      count: 5
+      chance: 11
     - rawquery: "e:wot r:m number:84-103"
-      rate: 2
+      count: 15
+      chance: 17
   rare_mythic_showcase:
     any:
     - use: rare_showcase
       rate: 4
     - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper (Kellan)"
+      count: 2
       rate: 1
     - rawquery: "e:{set} r:m promo:boosterfun -is:foilonly -frame:extendedart is:paper -(Kellan or Birthright)"
+      count: 11
       rate: 2
