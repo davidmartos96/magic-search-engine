@@ -92,7 +92,6 @@ class Indexer
       # Calculate extra fields
       PatchAlchemy,
       PatchBlocks,
-      PatchHasBoosters,
       PatchSecondary,
       PatchVariantMisprint,
       PatchVariantForeign,
@@ -113,6 +112,7 @@ class Indexer
       PatchUnfinity, # before Unstable
       PatchUnstable,
       PatchShandalar,
+      PatchIsDreamcast,
       PatchXmage,
       PatchCommander,
       PatchMultipart,
@@ -133,6 +133,9 @@ class Indexer
 
       # Not bugs, more like different judgment calls than mtgjson
       PatchUrza,
+
+      # Needs final reconciled text
+      PatchShortName,
 
       # One more round of normalization, it throws away some information
       PatchNormalizeNames,

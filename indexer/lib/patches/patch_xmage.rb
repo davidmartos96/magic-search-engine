@@ -1,6 +1,18 @@
 class PatchXmage < Patch
+  # Known XMage typos / spoiler entries that never match a real card.
+  # These are stable long-term problems, so we silence the warning for them
+  # rather than reporting them on every index build.
+  KNOWN_ISSUES = Set[
+    ["atc", "Blinding Radiance"],
+    ["atc", "Goblin Bruiser"],
+    ["atc", "Ogre Painbringer"],
+    ["atc", "Titanic Pelagosaur"],
+    ["atc", "Treetop Recluse"],
+    ["calc", "C-Pillar of the Paruns"],
+  ]
+
   def xmage_cards_path
-    Pathname(__dir__) + "../../../data/xmage_cards.txt"
+    Indexer::ROOT + "xmage_cards.txt"
   end
 
   def xmage_cards
@@ -9,21 +21,29 @@ class PatchXmage < Patch
         .readlines
         .map(&:chomp)
         .map{|line| line.split("\t",3)[0,2]}
+        .map{|set, name| [set, normalize_name(name)] }
         .to_set
     end
   end
 
-  def strip_accents(str)
-    str.tr("äàáââééíöóûûúÉ", "aaaaaeeioouuuE")
+  # Normalize a card name so equivalent XMage / mtgjson spellings match:
+  # - Decompose to NFD and drop combining marks, so any diacritic is stripped
+  #   (the old hand-maintained tr list missed some, e.g. ï).
+  # - Collapse ellipsis spacing, so XMage's "Foo . . ." matches mtgjson's "Foo..."
+  #   without per-card overrides.
+  # Both the card names and the XMage names are run through this.
+  def normalize_name(str)
+    str = str.unicode_normalize(:nfd).gsub(/\p{Mn}/, "")
+    str.gsub(/\s*\.(?:\s*\.)+/) { |run| run.gsub(/\s+/, "") }
   end
 
   def card_names(card)
     names = card["names"] || [card["name"]]
-    names.map{|n| strip_accents(n) }
+    names.map{|n| normalize_name(n) }
   end
 
   def all_card_names
-    @all_card_names ||= @cards.keys.map{|n| strip_accents(n)}
+    @all_card_names ||= @cards.keys.map{|n| normalize_name(n)}
   end
 
   def xmage_card_name_to_sets
@@ -50,7 +70,9 @@ class PatchXmage < Patch
     likely_typos = missed_cards.map(&:last) - all_card_names
     unless likely_typos.empty?
       likely_typos.each do |name|
-        puts "Likely typo or spoiler card in XMage card list: #{name} (#{xmage_card_name_to_sets[name].join(", ")})"
+        sets = xmage_card_name_to_sets[name]
+        next if sets.all?{|set| KNOWN_ISSUES.include?([set, name]) }
+        puts "Likely typo or spoiler card in XMage card list: #{name} (#{sets.join(", ")})"
       end
     end
   end

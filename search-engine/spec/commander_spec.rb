@@ -29,8 +29,8 @@ describe "is:commander" do
   end
 
   it "is:commander" do
-    # Some C14 commanders got reprited
-    # Why "Minsc Boo, Timeless Heroes (Alchemy)" doesnt't have "Minsc & Boo, Timeless Heroes can be your commander."? No idea
+    # Some C14 commanders got reprinted
+    # Why "Minsc Boo, Timeless Heroes (Alchemy)" doesn't have "Minsc & Boo, Timeless Heroes can be your commander."? No idea
     assert_search_equal_cards "is:commander (is:primary t:legendary t:creature)", "is:primary t:legendary, t:creature"
     assert_search_equal_cards "is:commander -(is:primary t:legendary t:creature)",
       "(is:primary t:legendary t:vehicle) OR (is:primary t:legendary t:spacecraft tou>0) OR (t:planeswalker e:c14,c18,bbd,cmr,dmc) OR (t:saga e:htr18) OR (Grand Calcutron) OR (Grist Hunger Tide) OR (Shorikai, Genesis Engine) OR (Tasha, the Witch Queen) OR (Minsc Boo, Timeless Heroes -is:alchemy) OR (Elminster t:planeswalker) OR (Byode, Inverse Sun) OR (Ersta, Friend to All) OR (The Legend of Arena) OR (Commodore Guff) OR (Heroes of Kamigawa) or (Svega, the Unconventional) or (Wizard from Beyond) OR (The Vegetable Car) OR (The Waffle Restaurant) or (Quintorius, History Chaser) or (The Goblin Sparring Grounds)"
@@ -43,5 +43,35 @@ describe "is:commander" do
   it "Grist" do
     assert_search_include "is:commander", "Grist, the Hunger Tide", "The Legend of Arena", "The Grand Calcutron"
     assert_search_include "is:brawler", "Grist, the Hunger Tide", "The Legend of Arena", "The Grand Calcutron"
+  end
+
+  # The list is maintained by WotC and changes every now and then,
+  # so these tests only check a few cards which are unlikely to move
+  it "is:gamechanger" do
+    assert_search_include "is:gamechanger",
+      "Ancient Tomb",
+      "Cyclonic Rift",
+      "Demonic Tutor",
+      "Mana Vault",
+      "Rhystic Study",
+      "The One Ring",
+      "Thassa's Oracle"
+  end
+
+  it "not:gamechanger" do
+    assert_search_exclude "is:gamechanger",
+      "Black Lotus",
+      "Grizzly Bears",
+      "Sol Ring",
+      "Sensei's Divining Top"
+    assert_search_include "not:gamechanger", "Black Lotus", "Sol Ring"
+  end
+
+  it "both sides of a double-faced game changer" do
+    assert_search_include "is:gamechanger", "Tergrid, God of Fright", "Tergrid's Lantern"
+  end
+
+  it "any:gamechanger" do
+    assert_search_include "any:gamechanger", "Rhystic Study"
   end
 end

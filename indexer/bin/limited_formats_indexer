@@ -1,0 +1,177 @@
+#!/usr/bin/env ruby
+
+require "json"
+require "yaml"
+require "pathname"
+
+class LimitedFormatsIndexer
+  def input_path
+    Pathname(__dir__) + "../../data/limited_formats.yaml"
+  end
+
+  def output_path
+    Pathname(__dir__) + "../../index/limited_formats.json"
+  end
+
+  def data
+    @data ||= YAML.load_file(input_path)
+  end
+
+  # Sealed pools are unordered, so "6x isd-draft" collapses to a count
+  def parse_boosters(lines)
+    boosters = Hash.new{|ht,k| ht[k] = 0}
+    lines.each do |line|
+      if line =~ /\A(\d+)x\s+(\S+)\z/
+        boosters[$2] += $1.to_i
+      elsif line =~ /\A(\S+)\z/
+        boosters[$1] += 1
+      else
+        raise "Unknown booster line #{line}"
+      end
+    end
+    boosters
+  end
+
+  # "Sheoldred, Whispering One [PNPH:73★] [foil]"
+  # The `[foil]` tag is there iff the card was handed out foil
+  def parse_promo(entry)
+    unless entry =~ /\A(.+?)\s*\[([^\[\]:]+):([^\[\]]+)\](?:\s*\[([^\[\]]+)\])?\z/
+      raise "Unknown promo card #{entry}"
+    end
+    if $4 and $4 != "foil"
+      raise "Unknown promo tag [#{$4}] in #{entry}"
+    end
+    {
+      name: $1,
+      set_code: $2.downcase,
+      number: $3,
+      foil: !!$4,
+    }
+  end
+
+  def parse_promos(pool_data, key)
+    (pool_data[key] || []).map{|entry| parse_promo(entry)}
+  end
+
+  # Dragon's Maze handed out one guild booster picked at random out of a few,
+  # on top of the fixed boosters
+  def parse_random_boosters(pool_data)
+    (pool_data["random-boosters"] || []).map do |entry|
+      unless entry["pick"] and entry["from"]
+        raise "Random boosters need pick and from"
+      end
+      {
+        pick: entry["pick"],
+        from: entry["from"],
+      }
+    end
+  end
+
+  # Either a bare booster list, or a Hash with boosters plus promo cards
+  def index_sealed_pool(pool_data)
+    if pool_data.is_a?(Array)
+      pool_data = {"boosters" => pool_data}
+    end
+    unless pool_data["boosters"]
+      raise "Sealed pool has no boosters"
+    end
+    {
+      boosters: parse_boosters(pool_data["boosters"]),
+      random_boosters: parse_random_boosters(pool_data),
+      playable_promo_cards: parse_promos(pool_data, "playable-promo"),
+      unplayable_promo_cards: parse_promos(pool_data, "unplayable-promo"),
+    }
+  end
+
+  # A draft is usually just the list of boosters it opens. Formats which need
+  # a title and an explanation of their own - a set whose Arena boosters
+  # changed between runs has one numbered format per run - are a Hash with the
+  # boosters plus that text.
+  def index_draft(set_code, format, format_data)
+    if format_data.is_a?(Array)
+      format_data = {"boosters" => format_data}
+    end
+    unless format_data["boosters"]
+      raise "Draft #{set_code} #{format} has no boosters"
+    end
+    {
+      format_name: format,
+      format_type: "draft",
+      name: format_data["name"],
+      description: format_data["description"],
+      booster_order: format_data["boosters"],
+    }.compact
+  end
+
+  # Prereleases where you pick a faction/hunt/planeswalker are one format
+  # with several alternative pools, as the choice affects packs and promos
+  def index_sealed(set_code, format, format_data)
+    if format_data.is_a?(Hash) and format_data["variants"]
+      {
+        format_name: format,
+        format_type: "sealed",
+        choice: format_data["choice"],
+        variants: format_data["variants"].to_h{|variant, variant_data|
+          [variant, index_sealed_pool(variant_data)]
+        },
+      }
+    else
+      {
+        format_name: format,
+        format_type: "sealed",
+      }.merge(index_sealed_pool(format_data))
+    end
+  end
+
+  def index_format(set_code, format, format_data)
+    case format
+    # "mtgo-draft" and "arena-draft" are ordinary drafts which happened on
+    # Magic Online or Magic Arena, out of that client's own boosters.
+    # A numbered "arena-draft-1" is one run of a set whose Arena boosters
+    # changed from run to run, as its bonus sheet rotated.
+    when "draft", "mtgo-draft", /\Aarena-draft(-\d+)?\z/
+      index_draft(set_code, format, format_data)
+    when "sealed", "prerelease-sealed"
+      index_sealed(set_code, format, format_data)
+    else
+      raise "Unknown format #{format}"
+    end
+  end
+
+  PLAY_VARIANTS = ["multiplayer", "two-headed-giant", "commander"]
+
+  # Conspiracy, Battlebond, and the Commander Legends line are not played like
+  # normal limited. The tag is set-level, as it covers every format of the set,
+  # but it is copied onto each format, as that is what anything reading the
+  # index actually has in hand.
+  def parse_play_variant(set_code, set_data)
+    play_variant = set_data["play-variant"]
+    return unless play_variant
+    unless PLAY_VARIANTS.include?(play_variant)
+      raise "Unknown play variant #{play_variant} for #{set_code}"
+    end
+    play_variant
+  end
+
+  def index_set(set_code, set_data)
+    # no processing yet
+    if set_data["use"]
+      raise "TODO: support use"
+    end
+    play_variant = parse_play_variant(set_code, set_data)
+    set_data.except("play-variant").to_h{|format, format_data|
+      format_index = index_format(set_code, format, format_data)
+      format_index[:play_variant] = play_variant if play_variant
+      [format, format_index]
+    }
+  end
+
+  def call
+    export_data = data.to_h do |set_code, set_data|
+      [set_code, index_set(set_code, set_data)]
+    end
+    output_path.write(export_data.to_json)
+  end
+end
+
+LimitedFormatsIndexer.new.call

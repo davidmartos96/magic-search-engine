@@ -1,22 +1,8 @@
 # ActiveRecord FTW
+# Shims for Ruby versions older than the newest we support.
+# Guard each so newer Ruby uses the fast C builtin.
 class Hash
-  def slice(*keys)
-    keys.map! { |key| convert_key(key) } if respond_to?(:convert_key, true)
-    keys.each_with_object(self.class.new) { |k, hash| hash[k] = self[k] if has_key?(k) }
-  end
-
-  def compact
-    reject{|k,v| v.nil?}
-  end
-
-  def transform_values
-    result = {}
-    each do |k, v|
-      result[k] = yield(v)
-    end
-    result
-  end
-
+  # Builtin since Ruby 3.0; needed for 2.6 and 2.7.
   unless method_defined?(:except)
     def except(*keys)
       reject { |k, _| keys.include?(k) }

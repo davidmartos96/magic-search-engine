@@ -6,7 +6,7 @@ class ConditionBlock < Condition
   # For sets and blocks:
   # "in" is code for "Invasion", don't substring match "Innistrad" etc.
   # "Mirrodin" is name for "Mirrodin", don't substring match "Scars of Mirrodin"
-  def search(db)
+  def search_all(db)
     merge_into_set matching_sets(db).map(&:printings)
   end
 
@@ -22,11 +22,11 @@ class ConditionBlock < Condition
       if db.blocks[block]
         sets += db.blocks[block]
       else
-        matching = db.blocks.select{|name, sets| name.include?(block) }.values.sum(Set[])
-        if matching
-          sets += matching
-        else
+        matching = db.blocks.select{|name, _| name.include?(block) }.values.sum(Set[])
+        if matching.empty?
           warning %[Unknown block "#{block}"]
+        else
+          sets += matching
         end
       end
     end

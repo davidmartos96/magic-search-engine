@@ -35,6 +35,35 @@ module ApplicationHelper
     link_to(controller: "pack", action: "show", id: pack.code, &blk)
   end
 
+  def link_to_limited_format(limited_format, &blk)
+    link_to(controller: "limited_format", action: "show", set: limited_format.set_code, id: limited_format.slug, &blk)
+  end
+
+  # Not every limited format has a page yet
+  def limited_format_page?(limited_format)
+    LimitedFormatController.supported_type?(limited_format.type)
+  end
+
+  # Sealed simulator opens the packs of the pool, and hands out the promo cards
+  # for free. It has no notion of promos not being part of deck construction.
+  def link_to_sealed_simulator(pool, &blk)
+    boosters = pool.boosters
+    link_to(
+      {
+        controller: "sealed",
+        action: "index",
+        count: boosters.map{|count, pack| count},
+        set: boosters.map{|count, pack| pack.code},
+        fixed: pool.promo_cards.map{|card| fixed_card_line(card)}.join("\n").presence,
+      },
+      &blk)
+  end
+
+  # Format the sealed simulator's "fixed cards" box understands
+  def fixed_card_line(card)
+    "1x #{card.set_code}:#{card.number}#{card.foil ? ":foil" : ""}"
+  end
+
   def link_to_product(product, &blk)
     link_to(controller: "product", action: "show", set: product.set_code, id: product.slug, &blk)
   end
@@ -120,16 +149,19 @@ module ApplicationHelper
     %[<span class="sr-only">[#{usymbol}]</span>]
   end
 
-  def card_picture_path(card)
-    ApplicationHelper.card_picture_path(card)
-  end
-
+  # Helpers specifically for HQ and LQ image sets are only used by verify_scans page
   def card_picture_path_hq(card)
-    ApplicationHelper.card_picture_path_hq(card)
+    url_hq = "/cards_hq/#{card.set_code}/#{card.number}.png"
+    path_hq = Pathname(__dir__) + "../../public#{url_hq}"
+    return url_hq if path_hq.exist?
+    nil
   end
 
   def card_picture_path_lq(card)
-    ApplicationHelper.card_picture_path_lq(card)
+    url_lq = "/cards/#{card.set_code}/#{card.number}.png"
+    path_lq = Pathname(__dir__) + "../../public#{url_lq}"
+    return url_lq if path_lq.exist?
+    nil
   end
 
   def card_gallery_path(card)
@@ -173,30 +205,6 @@ module ApplicationHelper
       .group_by{|type, cp| [cp.set_name, cp.rarity] }
       .to_a
       .reverse
-  end
-
-  def self.card_picture_path(card)
-    url_hq = "/cards_hq/#{card.set_code}/#{card.number}.png"
-    url_lq = "/cards/#{card.set_code}/#{card.number}.png"
-    path_hq = Pathname(__dir__) + "../../public#{url_hq}"
-    path_lq = Pathname(__dir__) + "../../public#{url_lq}"
-    return url_hq if path_hq.exist?
-    return url_lq if path_lq.exist?
-    nil
-  end
-
-  def self.card_picture_path_hq(card)
-    url_hq = "/cards_hq/#{card.set_code}/#{card.number}.png"
-    path_hq = Pathname(__dir__) + "../../public#{url_hq}"
-    return url_hq if path_hq.exist?
-    nil
-  end
-
-  def self.card_picture_path_lq(card)
-    url_lq = "/cards/#{card.set_code}/#{card.number}.png"
-    path_lq = Pathname(__dir__) + "../../public#{url_lq}"
-    return url_lq if path_lq.exist?
-    nil
   end
 
   private

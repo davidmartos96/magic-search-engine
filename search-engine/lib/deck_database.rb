@@ -1,16 +1,18 @@
 class DeckDatabase
+  DECK_INDEX_PATH = Pathname(__dir__) + "../../index/deck_index.json"
+
   def initialize(db)
     @db = db
   end
 
   def resolve_card(count, set_code, card_number, foil=false, etched=false)
     set = @db.sets[set_code] or raise "Set not found #{set_code}"
-    printing = set.printings.find{|cp| cp.number == card_number}
+    printing = set.printing_by_number[card_number]
     raise "Card not found #{set_code}/#{card_number}" unless printing
     [count, PhysicalCard.for(printing, !!foil, !!etched)]
   end
 
-  def load!(path=Pathname("#{__dir__}/../../index/deck_index.json"))
+  def load!(path=DECK_INDEX_PATH)
     JSON.parse(path.read).each do |deck|
       set_code = deck["set_code"]
       set = @db.sets[set_code] or raise "Set not found #{set_code}"

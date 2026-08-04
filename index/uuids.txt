@@ -34656,16 +34656,59 @@ fnm	9	a65335fd-6179-58d7-a8b4-4ca1194f69fc	Prodigal Sorcerer
 fnm	10	7a750425-2a79-509c-ba98-3cfd7f3513ec	Stone Rain
 fnm	11	20d0f270-13e0-5a7d-af6c-3a8374c7995d	Llanowar Elves
 fnm	12	8d6b18b7-65e7-5322-88ae-8205293f78cd	Staunch Defenders
+fra	5	be447428-eebd-5747-b3e8-9042bf87a4fd	Enlightened Confidant
+fra	43	49dbbf8b-5a8a-51fe-92c1-633977608b5a	The Theorist, Jace Beleren
 fra	49a	58a330cd-683c-5da3-a709-08cff709961b	Bloodline Recollector
 fra	49b	4e3fb849-cd3b-59ae-9208-ff45bb52d7fe	Ancestral Craving
+fra	78	59bc31a8-9699-5398-af19-0961fcbefc8f	Craterclaw Colossus
+fra	93	a9a309dd-57ac-599b-8091-e3ef5c8b3150	Stingcaster Mage
+fra	143a	ce34e752-1e8b-5917-9f9c-5ef3564e4917	Paradox Shaper
+fra	143b	aadd516e-ef7f-5f63-9bff-608d811b24e4	Omit Variables
+fra	146a	4ddd87d1-3632-5c91-bdca-9773db212efc	Prudent Fateseer
+fra	146b	fbd519f9-4351-560d-a70a-a704caa2d7a7	Peer Review
+fra	151a	dff3bfcc-42d0-57db-916d-ead71210bee2	Stingerquill Voxmancer
+fra	151b	a46c9b37-977e-55be-a3ce-201c37e8d6c2	Vicious Verse
+fra	161a	4573b226-18f6-59f2-b503-0ec128223a95	Vigorbloom Vanguard
+fra	161b	67463d39-ec94-53a0-8c5b-38e46c2ab4bc	Seed Suture
+fra	165a	9db3a617-6ea0-5b55-9c60-881fb91ad1e0	Woodwork Prodigy
+fra	165b	b1fcf681-43d6-5d23-bfc7-99cdf9edda16	Soul Tether
+fra	195	e6a745ff-2f8f-5607-976a-d7968e2d85b2	Ajani Resolute
+fra	200	dff533cf-32a6-5d1a-a76a-1fd0332531cd	Liliana the Faultless
 fra	212	9dc88f93-5139-5a2d-b7a5-ccf1c4d73f16	Chandra, Chill of Compliance
+fra	229	351165c8-308f-59ea-867a-e7819ab84053	Garruk, Veiled Butcher
+fra	231	05d3214f-b4e7-5770-98bd-f6b0491283b3	Liliana the Repentant
+fra	237	5e0e9bf2-5d50-5b12-8b0e-22aaedd682c7	Tinybones, Pocket Nuisance
+fra	242	a2f7a868-3091-5f50-99f8-25dacdbb20bd	Ajani Unrelenting
 fra	244	773b53b9-92b4-578a-b471-1a77191dc1bd	Chandra, Torch of Defiance
+fra	259	de3bd2fc-7fcb-586e-b3c3-adf209e966bf	Garruk, Curse Breaker
+fra	266	654b5849-80db-57f4-a25d-09424c6aa867	Titanbones, Towering Heart
+fra	291	9c5ddbcf-a767-514f-908d-7cbda3be6291	Ajani Resolute
+fra	293	76e8bbe7-8578-5124-bca8-5a3a51ccee3f	Liliana the Faultless
+fra	297	efa9d7d4-d0a7-50b4-8c47-dea3a8e3349a	Chandra, Chill of Compliance
+fra	303	2304c403-17bb-5ea4-974f-e5ed8150be33	Garruk, Veiled Butcher
+fra	305	260d989b-e49a-5af2-8caf-a2c27eaee9e1	Liliana the Repentant
+fra	308	a437c2f8-9802-50f3-9dbd-c1c25289a22d	Ajani Unrelenting
+fra	309	fcdd3453-d8c1-53ff-97c4-48deac72362f	Chandra, Torch of Defiance
+fra	314	9a355380-a060-5a7b-a1c5-71a54b992763	Garruk, Curse Breaker
+fra	321	3310b7c4-8cc1-5188-8121-aee55dc0f473	Enlightened Confidant
+fra	327	7c568f18-585a-534c-888d-47cb3b166884	Craterclaw Colossus
 fra	329	8ca75e65-c86e-533f-b3ae-d9c444ecbf2b	Stingcaster Mage
+fra	363	647239f8-c3fe-5173-a34f-f7e9fc9c3d5f	The Theorist, Jace Beleren
 fra	402a	e56dd6de-90e0-51be-9e05-53cb3a33b844	Bloodline Recollector
 fra	402b	270b5cce-dd3c-5085-8bf2-9b02624838a4	Ancestral Craving
+fra	405	7011421f-98ce-5225-b84e-468538e356b6	The Theorist, Jace Beleren
+fra	415	45f2aea4-568d-548c-8be0-7d635d033e05	The Theorist, Jace Beleren
 fra	427a	77b92ffb-d975-53a1-aad9-f6c24761d1c1	Bloodline Recollector
 fra	427b	34d6c0ad-c71c-568c-88ca-987fb345efab	Ancestral Craving
+fra	439	7f470caf-855e-5395-af3b-acf479bd10e1	Enlightened Confidant
+fra	443	aa18a038-4707-5354-b9f4-784e3c31fc2c	The Theorist, Jace Beleren
+fra	446	2b2692e7-c023-545b-8fa7-6e9a3f2ab206	Craterclaw Colossus
+fra	447	f5510584-2f90-513b-b836-e1719e85a2b8	Stingcaster Mage
+fra	449	9b770cc0-5584-5550-b73a-9702c5fe3e8e	Enlightened Confidant
+fra	455	58d934c9-0fa9-51ff-af07-debb9e94eb7c	Craterclaw Colossus
 fra	457	b89c30e6-aa43-51c4-8c55-1307d89bf939	Stingcaster Mage
+frc	13	9bd47a1f-56ff-503d-99e3-3d7dbc058762	Darksteel Angel
+frc	98	ceca1063-d632-523d-b0b3-b25baf91b179	Darksteel Angel
 frf	1	6c42141e-0304-57b5-a1fc-d5b10ca09ed4	Ugin, the Spirit Dragon
 frf	2	80b708f8-4715-5270-83d6-904e09d5e0be	Abzan Advantage
 frf	3	be7dd08e-7787-5d28-a938-1eacc2bc31ad	Abzan Runemark
@@ -37336,47 +37379,356 @@ hml	112	82b2543f-8aaa-5fdc-85e3-686bcd03b903	Aysen Abbey
 hml	113	efa14e7d-f7bc-5e13-84ed-6945b6e98916	Castle Sengir
 hml	114	32b84f4e-c4b7-5b41-b230-9af50f247efc	Koskun Keep
 hml	115	c848f0c5-5857-5189-9c59-4485134ffbd0	Wizards' School
+hob	1	ceec57cf-042d-514f-997c-54b47fc678d1	Long-Bodied Grey Dog
+hob	2	2c07880d-f8c0-51d2-8343-6abf4c247a2a	Old Thrush
+hob	3	1eeca773-7fe6-5c19-9855-741290c72858	Troop of Ponies
+hob	4	d02d2d72-7dc8-542c-a053-2964a9a8796f	Belladonna Took
+hob	5	adbe4019-7151-5472-9979-87d407421d67	Bilbo's Gambit
+hob	6a	35e30596-c99b-58d2-be1c-8db8711bde9d	Bofur, Reliable Guardian
+hob	6b	5322a796-30a2-5d21-af57-bf613285eda0	Concerted Care
+hob	7	b85ae523-34bc-59f6-9a2e-3589af7f2e52	Celebrate the Mountain-king
+hob	8	491a88da-2ef2-59ee-a64e-51cd08c52a8f	Dáin, Lord of the Iron Hills
+hob	9	f62e4864-f3d4-55dc-aa46-e0b017b91ea0	Dwarven Provisioner
+hob	10	4de9eb17-dc45-5245-a245-c8a197b2f874	Dwarven Shortsword
+hob	11	27c479ba-e827-514f-81d6-dd84ce557586	Eagle of the Great Shelf
+hob	12	c0e116b1-3544-52a1-ac35-a6644fd8b2d7	The Eagles Are Coming!
+hob	13	1372bf2f-ba54-5914-ba09-f35e25546009	Esgaroth Garrison
+hob	14	38971afb-776b-5341-835b-052a4498529e	Fíli the Pathfinder
+hob	15	6526fff4-8c29-5b8e-b9d8-a81c369109e8	Gleaming Splendor
+hob	16	1170e7cd-e6c7-5505-8cf3-42e1afe67b1c	Iron Hills Blacksmith
+hob	17	8154b8d9-a65e-5104-b5d1-a8f815f13602	Kíli the Resourceful
+hob	18	12ba7057-fb6b-5d3b-9686-a999d24e71a8	Lake-town Lookout
+hob	19	b9a0164e-23f8-5535-8fcd-dc1d6e18b70b	Lake-town Toymaker
+hob	20	3378e8a4-04c2-5488-b186-95430cfeaf59	Magnificent End
+hob	21	49630f28-ad37-57bf-aeac-9e4247ad9700	Moment of Glory
+hob	22	e876be68-ff43-5b8f-a972-85d987aa8ebc	The Mountain-king's Return
+hob	23	a4b09763-833a-50ed-b575-4ed8610bca21	Ori, Keeper of Songs
+hob	24	608da9fb-54a6-58cf-b7f9-ff135851da88	The Queen of Dale
+hob	25	aa5adf2f-8576-5d28-a547-45da22874784	Roads Go Ever, Ever On
+hob	26	bb945660-2210-5e6a-8cd5-c29e2a2eeff1	Settle the Wreckage
+hob	27	0a98cd22-07fe-5f3d-87ec-839df5fad9a3	Stone by Sunlight
+hob	28	3f4bb90b-84c9-513a-93c1-19f077be3627	Thorin's Last Stand
 hob	29a	613f0e77-c52f-574a-916c-f5a9bacdc84d	An Unexpected Party
 hob	29b	7b9326d1-a50c-53ab-8a4b-a624197d9e4e	At the Door
+hob	30a	23ae166a-4bbe-5482-b217-f270654b4a86	Velvetwing Butterflies
+hob	30b	76b0b851-cd59-5e88-9be0-ef1f4f339c9c	Gaze in Wonder
+hob	31	c14dfce0-c782-527e-94c2-382b89b0d360	Vow to Erebor
 hob	32a	46807564-907b-5b0d-b00e-e9b8e00d2ab5	Bilbo, Luckwearer
 hob	32b	e3513e33-18b3-5a0c-8866-902349ab5a7e	Burglar's Plot
 hob	33	55198bbd-6747-54ba-b493-6e25c58bcc73	Bilbo, Thief in the Night
+hob	34a	7cd78638-2bfa-5f0b-b1b0-4aae3d96c397	Bilbo Baggins, Burglar
+hob	34b	8a086f36-79e2-56b4-bc84-e16d050be1b5	Take a Glance
+hob	35	6b9699b2-a99d-567f-b075-b1147e9e4218	Confusticate and Bebother
+hob	36	ae6c61c9-3e81-54fd-8796-3cd423a69a9e	Elrond, Moon-Reader
+hob	37	22b41ccd-6859-5264-aada-38dbf8dfb6d0	Elven Raft-Steerer
+hob	38	e6d1c4d0-9fe7-5050-84d1-2678552aa7d6	Elvenking's Harper
+hob	39	70ef7d9c-d48a-5f6d-86d7-315180c06d9b	Enchanted River's Grasp
+hob	40	22532157-4534-5dda-b82b-e5dabc48e339	Fateful Discovery
+hob	41	045e6f26-28a8-5a56-b921-ddb0ffcc4355	Gandalf, Wandering Wizard
+hob	42	a204b7a0-cbec-5add-9156-736837172999	Great Gilded Boat
+hob	43	de052a92-983b-5a0e-840e-471688ebebd5	Lakeshore Apothecary
+hob	44a	4198fb3f-15dd-5e75-88cd-7c1274f2a75c	Lake-town Mariners
+hob	44b	493b0c1b-c287-59b0-a1cf-142510571773	Gone Fishing
+hob	45	f084fc50-8a80-5560-9823-65993bc2c8c3	Long Lake Nuisance
+hob	46	52460fc1-fda4-5eb4-bb36-aedd44e72b42	The Lord of the Eagles
+hob	47	4b0d74cf-8bca-5285-a8cd-b4136fe65fcc	Master's Councillors
+hob	48	4e774397-bda7-5691-8342-d61623862e7e	Mirkwood Meditator
+hob	49a	e701893f-3c4d-5d49-888e-613a5109ad9a	Most Decrepit Old Bird
+hob	49b	efb74f1a-45ae-5922-9c88-17a7caae75df	Speak Secrets
+hob	50	1c71db2f-32ce-595f-9334-e36d4d00ffbf	Old Fat Spider Can't See Me
+hob	51	0a51f428-ada8-5c90-9252-b320e9efbcde	Plunder the Trollshaws
+hob	52	cd7a98a1-848f-56f8-bbfd-d5a0f7cfd657	Ravenhill Flock
 hob	53	70c5ca10-46dd-518a-8332-a132b3df9445	Riddles in the Dark
+hob	54	224d09bf-c3d8-5479-8fb2-535ada224fe9	Roll-Roll-Roll-Roll
+hob	55	ee8a0c3b-6385-581f-8d94-8868903e0abe	Sound the Trumpets
+hob	56	ae200b5c-f077-5761-8ac3-66ad4c97970f	Thranduil's Decree
+hob	57	687a48c8-dbe8-5414-9d61-16ba9560dcdf	Uncover the Moon-Letters
+hob	58	7f37529d-3f59-5573-bafe-8b603c47f375	Uneasy Partings
+hob	59	0de00ab7-2a16-5a06-bd76-f9028c91e01a	Wizard's Staff
+hob	60	ab17d4c3-cc5d-55a2-9653-167319c5ed8b	Along the Crooked Way
+hob	61	76d24058-b806-5fd9-ad8d-668b174e3ad7	Azog, Moria's Ruin
+hob	62	86343892-f8e7-51c5-a906-b3db4fce1dc2	Bilbo's Deadly Slice
+hob	63	cba9553f-9dd2-576b-b63d-56428f1ed6dd	Crude Bent Blade
+hob	64	eb7f3960-4c6b-5fbb-a796-cb843962c8ca	Desolation Prowler
+hob	65	b53729b3-94c3-5fd8-8e20-e760259488e6	Down, Down to Goblin-town
+hob	66	6ee514e7-39bf-524c-8694-c80962fb8f3c	Dreaded Bat-Cloud
+hob	67	11b872f6-0e3f-5362-9a9a-a6c845473a9f	Front Porch Sentries
+hob	68	b48299b6-3257-5b1c-9707-51e928fa79c0	Gathering of Darkness
+hob	69	38ab3ae5-e4b2-598e-bb01-b56f9324afb3	Gnashing of Teeth
+hob	70	9b89ae95-1765-5657-8db4-b09ee9347dcf	Gollum, Riddle Master
+hob	71a	746226a8-8abe-5886-b689-dc37e8a5e83a	Gollum, Silent Slinker
+hob	71b	d70e0a91-6e10-500e-85ec-e444b7a47bd4	Meager Meal
+hob	72	66a6c936-ac10-5dfc-b365-c7c4039d599c	Gollum the Abandoned
+hob	73	8dd18c99-5c61-58ae-89a9-a83f3aad7743	Great Fierce Bee
+hob	74a	4119a3f6-2ca3-57da-acb7-c1fc2e3242a2	Great Ugly-Looking Goblin
+hob	74b	23ee7817-915b-58b9-8284-3b612320f1e2	Clap! Snap!
+hob	75	9f89795e-bc80-5f4b-b6bc-1ce3605b3972	Head of the Hunt
+hob	76	546cd940-ab6b-59e2-ba75-7589b4499bde	Inside Information
+hob	77	dad5e25a-5abf-581d-b3e3-843071dc82d4	The Master of Lake-town
+hob	78	1a102092-05d1-5791-b2f7-2ec885a74c47	Nighthowl Pursuer
+hob	79	216e160e-62cd-5b53-9f40-23b3acecd560	Rage into the Valley
+hob	80	533e75ea-86fd-5f2b-9f94-ccb6fd8ea4e1	Ravening Warg
+hob	81	363daf9a-5d7d-58e6-9a95-6ba57a6b67a9	Reverent Howl
+hob	82	2dad5da1-6a87-5290-990f-40d894639247	Rhovanion Rampager
+hob	83	5ffcef2f-6662-555b-8e98-8a0e36ca846b	The Sackville-Bagginses
+hob	84	28454ed2-9fb8-5c92-b3aa-6a120c751a57	Stir Up Trouble
+hob	85	f7c07104-6ed8-51c0-b235-d6d3bf7161a0	Stony-Voiced Goblins
+hob	86	73d7785d-cd58-527c-95ba-f7842c8cee35	Supper for Spiders
+hob	87	58754952-1262-548e-aab6-81319458058e	Balin, Loremaster
+hob	88	05883a40-3ef0-57a3-b8be-69f4c63fe223	Bombur, Gentle Dreamer
+hob	89	75413725-0883-5641-8d68-b55d51aeb84c	Bothersome Noisemaker
+hob	90	1c8bac80-e739-5ee0-9779-1ca968e6fe8f	Burn, Burn, Tree and Fern
+hob	91	6c67200f-b300-5a7c-9967-eaa1c3aa1b3c	Dáin Ironfoot
+hob	92	a01ed753-bac6-5938-90c9-d74015c5acc2	Desert Were-Worm
+hob	93	759f6a6b-8523-5e85-aa62-4aa5f81c5f27	Desolation of Smaug
+hob	94	1dfbb755-0b3f-5392-a5a5-fd7d135a02b0	Dori, Bearer of Friends
+hob	95	e1f11232-514e-53a1-8c81-110a4fdf40db	Dwarven Mauler
+hob	96a	de00f52c-83f1-5762-8d4e-f3acbec1e2d3	Gandalf, Goblins' Bane
+hob	96b	7cf2e16b-8fb2-5261-bbf2-ab214dd7225e	Flameshape
+hob	97	422d106e-3d7f-5616-878a-690fafa9a52d	Gandalf, Spark Starter
+hob	98	4b9af139-208b-5bd5-9f6d-38261889bc05	Getaway Barrel
+hob	99a	b9025cf2-889c-5718-a92b-ccdec9ae21d5	Glóin the Mighty
+hob	99b	812c1bf3-6030-5ba6-9acb-d8925f519c6f	Easy Pickings
+hob	100	99e24183-93e1-5af7-96fb-e2c7b3f97774	Goblin-town Flunkies
+hob	101	bdafc238-0699-56f6-b30c-47aaf09509e1	Gundabad Opportunist
+hob	102	2fc65848-efcc-5fb3-aa80-c0b787afea40	Iron Hills Stalwart
+hob	103	a8d9b39f-0aae-50e9-8fb6-41241440f193	Last Light of Durin's Day
+hob	104	cb13d1ed-bcea-5ac1-89db-db42b8acce58	The Misty Mountains Cold
+hob	105	e43b6694-22aa-582f-bb1d-1c39d758a75d	Misty Mountains Raider
+hob	106	bfb410e9-20eb-5755-8ff3-6d0593a6219e	Óin the Brave
+hob	107	df022d3f-2e9f-5203-a50c-14c6069a7307	Pinecone Strike
+hob	108	692f4038-932c-5006-b706-021280cb2efa	Ragged Short Spear
+hob	109a	a8ca1a01-7af0-5917-811b-9189aebf4bb0	Smaug, the Great Calamity
+hob	109b	8e30d72d-2f82-54dd-9f93-6a2115c85ae7	Spew Flame
 hob	110	74d6ca88-5a66-550f-8563-3246ead869c3	Smaug the Magnificent
+hob	111	6c8ce1df-4f2c-56e3-a0b1-4db7c0e79fe3	Smaug's Fury
+hob	112	c066d6da-6691-580f-a766-cd29f05ec09b	Snowslope Hunter
+hob	113	b205512f-9d67-59ff-b3b1-4b0db3937969	Stone-Giant of High Pass
 hob	114	6db6074c-d7e6-52f6-b508-97ee97f9b2a5	Thorin, Mountain-king
+hob	115	4fd50abb-4841-56aa-8de7-92819708b05b	Tidings of War
+hob	116	d840a337-fbb9-5f39-a71a-69bbd2cb9275	Attercop
+hob	117	8c949c40-626b-5b85-83b0-dbd3f34f9957	Bejeweled Warg
+hob	118a	d57d93b3-172f-5c24-bb29-3b69f413db39	Beorn, Reluctant Host
+hob	118b	93d3bc5f-fa0a-5011-a9a1-655bc9d3e154	Till and Tend
+hob	119	2167d0cb-c59b-5110-8ba3-4be49b5b23ae	Beorn the Fierce
+hob	120	6065a97e-1431-5c53-a683-222c9aed6740	Beorn's Hospitality
+hob	121	63c72526-d6e8-5e3e-9737-005b84e93c2c	Boughside Wanderers
+hob	122	45f84633-468a-5c4a-855f-e681f84504a6	Cantankerous Keepers
+hob	123	b1cd25f2-896c-517d-8e42-68e1e6a721ca	Dancing from Dark to Dawn
+hob	124	1641dd0f-2cd7-5a92-a74f-eb3ea5fc9cf5	Down in the Valley
+hob	125	e5b7255a-a874-5176-aa0a-a2b7f9132744	Galion, Elvenking's Butler
+hob	126	4a7db0e2-8d1a-532e-ac5f-ae694c642a5a	Gigantic Big Bear
+hob	127	5b54ae89-3c7c-51af-a5e1-6f4f71cfe6c5	Guardian of the Halls
+hob	128	49e510f2-5cfb-5e82-8efe-9de6c825a3f7	Little Bear
+hob	129	10661835-7fcb-512f-89a6-142826f65a3c	Mirkwood Pathmaker
+hob	130	078bcf39-af21-52cf-9d2c-6c82299960b8	Nasty Little Rabbit
+hob	131	4af6c5db-b727-51b2-9a3e-4c96ecfef433	The Notary Hobbits
+hob	132	3fe42b3d-56bc-5606-b041-05b2317661b9	Old Fat Spider
+hob	133	b146b340-d8f0-5963-a519-b034d5223b5d	Ordinary Bear
+hob	134	52ac8bfa-a57c-552d-8cce-403b7577f8ab	Part in Friendship
+hob	135	86ee1c2c-6ab9-54e8-91e8-116ccd68ca1e	Quarrel
+hob	136	b961a255-9a19-51a6-98f3-bf11765d3706	Radagast of Rhosgobel
+hob	137	784df3b5-97ae-57f8-b11a-8dd00d20d6ed	Through the Forest Gate
+hob	138	795bb7c0-7cee-569d-b383-cb7beecdc7e1	Troll Negotiations
+hob	139	188b0eda-54ef-508d-840d-6cb1bf158fea	Warg Tactics
+hob	140	81aadc07-d22e-52ef-a926-404d6219ac78	Wargling
+hob	141	507089bb-b8a5-5d52-a343-b4c394199ab8	Wilderland Scrounger
 hob	142	a5d7e3f3-d1c9-59ea-8809-7c57972a12db	Wood Elves
+hob	143	0ea1ba13-ab27-59a2-9194-b3493c1760bc	Woodland Weavemaster
+hob	144	4ecbfddd-c48a-5f84-9463-6dea0b69f09e	Bard, King of Dale
+hob	145	dbca80e8-1057-5fae-b1be-dad92f93575f	Bard the Bowman
+hob	146	0e8b128d-151a-569e-9afe-0d4c5315fb4e	Bard's Company
+hob	147	6f5641c6-427a-5ebb-a673-2b4cc9285d62	Bifur, Melodic Rider
+hob	148	34d854d7-fe98-50a2-9a02-1498acf91d30	Bolg of the North
+hob	149	e2574660-4288-51b9-80df-d4352fbfd08a	Bolg's Company
+hob	150	fd143043-d55b-5404-bb37-4368e6cd12a6	The Chief Warg
+hob	151	324d6f86-4bc0-5c98-839e-f576b52ce361	Chief Warg's Company
+hob	152	d9702fde-7a92-52c6-82f2-458daf899586	Dáin's Company
+hob	153	f90b785d-fb1e-5d3b-9fb0-a1dc3ea1b48b	Duskwatch Hunter
+hob	154	8ce7c6e9-0208-5e38-a9a3-07d3359c363c	Dwalin, Weaponmaster
+hob	155	ff6f1f46-210f-521b-96c4-30af8a0ea847	Eagle's Rescue
+hob	156	a32d166b-537f-5530-b285-cb8f1f936e22	Fearsome Goblin Pair
+hob	157	6012948c-efa3-57e9-9c21-51221e9cb3b7	Goblin Plate Mail
+hob	158	04a6b3dc-e997-5488-ad7d-30471cb956de	The Great Goblin
+hob	159	67d3972b-1c8e-596e-a9cd-c3d89f11472a	Large Bear
+hob	160	fa11ff26-dbf5-5c4f-8a91-cf458ffce60d	Mirkwood Nurturer
+hob	161	ae80f84d-8cf2-5000-96fb-348500e9a797	Nori, Teller of Tales
+hob	162	fec247ec-0dd8-5daf-9221-535133a48c20	Patient Instructor
+hob	163	ab3c5865-1a7f-572d-a981-1f48d567d1ae	Silvan Reveler
+hob	164	96893f2a-4639-5895-816b-04f78d8e6c0f	Smaug, Wicked Worm
+hob	165	9322da4d-bebf-5dcd-815e-dcfd08770c28	Thorin Oakenshield
+hob	166a	3d689d70-8cd3-571a-9c5d-0f9b5ac511e7	Thranduil, Sindarin Liege
+hob	166b	64aa8cd4-ac39-5b72-b8f3-64a7b57149c3	Silvan Rally
+hob	167	6cc6a210-95ea-570f-9642-a4f8c310027f	Thranduil, the Elvenking
+hob	168	709646c7-787a-5d63-8b35-7114e7b829b4	Thranduil's Company
 hob	169	04f4060a-449a-5679-9061-f9faee49808c	Tom, Bert, and William
 hob	170a	ff94b9fe-f281-5476-b6d0-90736adf9836	The Arkenstone
 hob	170b	957b4569-66a8-55bf-b3e9-55b409adafc1	Seek the Heart
+hob	171	39158f77-fcf5-5bc4-9b04-9e767f54e17a	The Black Arrow
+hob	172	a42f3350-b171-5b46-bf2c-0e279fb6653f	Dwarven Mattock
+hob	173	14a6f41d-9c02-52f5-8795-6f9f19f1fcbe	Giant's Boulder
+hob	174a	386743b8-8350-5fa5-82a7-782c67487ebe	Glamdring, Foe-hammer
+hob	174b	4b0a1c24-a5fe-5c1b-954a-f715bf389b68	Gleam of Death
+hob	175	33c75bc6-101f-5ce9-93a7-d13990fffd09	Key to the Side-Door
 hob	176a	61bc58cc-ea78-530c-aa51-7fdcbff77f84	My Precious
 hob	176b	eaf67f66-b98e-554f-a0d2-7d5037e69d8c	Allure of Power
+hob	177	856f6712-7a18-501c-a5be-109a619e488c	Orcrist, Goblin-cleaver
+hob	178	c3d53ab9-a39e-5841-b4bf-866db7dc2107	Sting, Bilbo's Sword
+hob	179	eabbc4ad-3593-527a-bac4-23abfc8b852b	Thrór's Map
+hob	180	8214956e-5642-50b0-a632-2d3b4993cf31	Well-Worn Spatula
+hob	181	f098129c-b226-54e2-9317-ea484c7b1054	Elven Passage
+hob	182	0f7d05fb-b3b5-5313-bf01-74a766f5452f	Elvenking's Halls
+hob	183	d874f530-64fc-5e84-b638-c41fbf98644e	Goblin-town
+hob	184	57e680cb-1dd2-5179-8312-973c095a93c6	Hobbit Hole
+hob	185	3dd67821-0c1b-527d-92a6-a3967f96974b	Iron Hills
+hob	186	9472a614-4f9f-59bb-a74c-7c4bc2e08b86	Lake-town
+hob	187	071284a2-c63f-5b89-9b04-f125c05fe5a7	The Lonely Mountain
+hob	188	352f0b27-989d-578f-903b-15229e97c200	Mirkwood
+hob	189	72d849c9-f2fa-5059-8031-1b9f453dd854	Plains
+hob	190	f15ac2cc-6f82-57a5-895f-38c0fb6302eb	Island
+hob	191	7d9b75a0-f1db-5bdd-b708-6e71ce35f500	Swamp
+hob	192	1298f8bd-0ea0-5cb1-830b-4f8045097ac3	Mountain
+hob	193	09b117e2-2c2c-522c-9c72-6e302d770f76	Forest
 hob	194	c5db3128-91c0-598a-a2b9-07f236999136	Plains
 hob	195	d66d0178-65d5-566a-a2cb-9579911fd932	Island
 hob	196	def87f32-1c08-5bda-9661-48268a1fa4af	Swamp
 hob	197	20cd0b90-d094-5d5b-b6f7-63c582d26a7e	Mountain
 hob	198	58ede794-5b49-5d9a-93f2-ce99ef2c9723	Forest
+hob	199	3d440759-d423-5210-8bb9-ae6f08c897cd	Troop of Ponies
+hob	200	042e52e7-12cc-5da8-a321-4508be0eb29d	Rage into the Valley
+hob	201	3f68f69a-63f3-5605-94ff-22dcf49f2566	The Great Goblin
+hob	202	358dd4bd-7ec0-5675-a65e-1e702f72e437	Thorin Oakenshield
+hob	203	d2d3d4da-514e-5d84-bc5c-17d66e6376a3	Gandalf, Spark Starter
+hob	204a	063a6f4e-173a-5c93-8df6-69f50c865747	Glamdring, Foe-hammer
+hob	204b	d6c8ccb2-0dee-5d2c-a8f8-8c48fab2bb3b	Gleam of Death
+hob	205	5c73cd09-547a-5084-b081-e4938f7c92a4	The Eagles Are Coming!
+hob	206	ad23b22d-98d7-53b0-9718-cae10abfb98c	Dreaded Bat-Cloud
+hob	207	36b0f247-5100-5319-82d2-adc65ca3d79b	The Lonely Mountain
+hob	208	42653e50-7754-577f-8c9f-ea2cc0a13072	Chief Warg's Company
+hob	209	e9b7095e-ec9c-5ac1-b255-06ea6d7e1b70	Thorin's Last Stand
+hob	210	df4d1dc8-265f-599e-add9-edf77e36157b	Bard's Company
+hob	211	e976dc97-d14b-5110-8ca3-226d3cfca0b5	Bolg's Company
+hob	212	30ce1910-50d0-587d-b263-507dfd2a10eb	Dáin's Company
+hob	213	3c0a008f-f4a7-57f9-8f90-528d5b60c5a4	Thranduil's Company
+hob	214	bedf0f8e-a7b0-5f3f-a633-d3183e6e9f7d	Belladonna Took
+hob	215a	b9458427-d3ae-501a-a309-703df3495f72	Bofur, Reliable Guardian
+hob	215b	eae64f3c-59f2-549b-bfd7-c677efe6ce1b	Concerted Care
+hob	216	5fc96605-11e8-5ad6-b4e4-3260de4bc159	Iron Hills Blacksmith
+hob	217	5e8c0a12-bb2c-5a10-a49d-c918bcbe9800	The Queen of Dale
+hob	218a	f6245272-50e4-5e95-88a9-7e4e7e12808d	Bilbo, Luckwearer
+hob	218b	7c67f763-f136-56e6-9399-e513348b5143	Burglar's Plot
 hob	219	91d2e819-3ac7-5d5c-beeb-402b642a0134	Bilbo, Thief in the Night
+hob	220	58f881d1-6001-5bb9-95ad-548c1864d591	Fateful Discovery
+hob	221a	322b1f36-c8e4-5459-9d41-59f4af24cda8	Most Decrepit Old Bird
+hob	221b	13b7eacc-be87-518a-badb-0d45112b4d54	Speak Secrets
+hob	222	3a6205d2-7bf1-5464-9413-5410a25b14f9	Azog, Moria's Ruin
+hob	223a	e11587b6-ba97-5de5-875c-bbe7101f5982	Great Ugly-Looking Goblin
+hob	223b	63d24fd9-bc3e-52fe-b940-43c396b4806c	Clap! Snap!
+hob	224	52d11ffb-e9c3-5f71-92b1-b09fd69933d8	Head of the Hunt
+hob	225	81d90e81-597c-5bcc-bdb2-b803b5c1f08c	Desert Were-Worm
+hob	226	cea11ce0-5e64-559b-b1c6-8961b1525424	Desolation of Smaug
+hob	227a	1971debc-e875-5e13-980c-fc16c2d9b16b	Glóin the Mighty
+hob	227b	25490dee-5324-5a91-8164-92d1fce914ed	Easy Pickings
+hob	228	0222b71a-bca1-59f7-a14c-61c7981b8310	Last Light of Durin's Day
 hob	229	121c8e6f-8dc3-5af7-8f78-4ad8e2923b36	Smaug the Magnificent
+hob	230	2a9a1616-5522-5fbf-be80-40429ae0f0dd	Beorn the Fierce
+hob	231	435e4fec-da43-5326-abe9-d3ab3d556769	Dancing from Dark to Dawn
+hob	232	191c89af-bc18-5824-82fd-1b54f66124c7	The Notary Hobbits
+hob	233a	abc9664c-1895-5ecc-bb1a-d1b15d5e6915	Thranduil, Sindarin Liege
+hob	233b	e543fe3c-a3fb-5dc5-90f0-6c80097b9c6a	Silvan Rally
 hob	234a	bfb9874c-4a2f-5c46-9937-bcd30f3eb9a2	The Arkenstone
 hob	234b	3db7a3a8-1a5c-5803-97cb-32b4894af125	Seek the Heart
 hob	235a	e87d3998-86d6-5442-8d9c-005013978ee9	My Precious
 hob	235b	891747e6-a267-531d-90ed-8efa0fb735a6	Allure of Power
+hob	236	d0d46834-8d2a-50dc-a8ac-346ca274b3b1	Orcrist, Goblin-cleaver
+hob	237	104f0bed-8d10-53fc-9d6a-e50f77cd83b0	Sting, Bilbo's Sword
+hob	238	2eefb4d2-3a4e-5b01-a8b4-50e538d0d3bd	Elven Passage
+hob	239	b44d95e0-9dc3-59d2-b309-454e35d6f35c	Gleaming Splendor
+hob	240	0bdac602-b3e8-5ceb-9746-27bb7b439d1d	The Lord of the Eagles
+hob	241	f5e4b13c-538d-5e11-be0f-c24e3363f736	Gollum, Riddle Master
+hob	242a	3c321d10-e340-511e-a1d8-93ec13177ce8	Gandalf, Goblins' Bane
+hob	242b	29df3755-3d40-521f-bb8f-a50510ad5789	Flameshape
 hob	243	d323ec8a-e19c-5a37-9ea3-64e7023ce2ca	Thorin, Mountain-king
+hob	244	92c1667e-2ed6-5fe6-b03c-6d9099e81493	Bard, King of Dale
+hob	245	bc3a41e0-8d70-53b7-b3ec-363e31f87081	Smaug, Wicked Worm
+hob	246	cadc8979-3360-5db5-8dfa-dc79dbd3bbf0	Thranduil, the Elvenking
 hob	247a	ab69ea75-28b5-5ebb-97e8-79452c91c523	The Arkenstone
 hob	247b	dffa0a2d-583e-51bd-b2cb-7a0a693b8f03	Seek the Heart
+hob	248	2afb95c4-fb76-5723-86dd-afe540d6a899	The Lonely Mountain
 hob	249	d97ff7e2-e1b1-5e2a-972e-3e6f34ec68c4	Smaug the Magnificent
+hob	250	9335d47e-69a0-5349-81ff-a0e92e03a687	Belladonna Took
+hob	251a	d63e2d0a-add0-51f4-8b53-7892e369012a	Bofur, Reliable Guardian
+hob	251b	a02b7edc-4c12-5abb-9618-0cd6219cbcbf	Concerted Care
+hob	252	ed5bf7fc-3bb5-50cc-9d62-0fd4d23525ff	Iron Hills Blacksmith
+hob	253	b80e9719-61b0-59e0-81e4-b43dac18b9d9	The Queen of Dale
+hob	254a	f78786fe-cbfc-561e-abc0-bd431f967f62	Bilbo, Luckwearer
+hob	254b	08ec0d7c-9190-5eca-8b93-0c1d448a48ad	Burglar's Plot
 hob	255	56b7accd-d66a-5cdd-a080-9fa8992d983e	Bilbo, Thief in the Night
+hob	256	9379b48c-477d-52f2-99d0-966f8267fcb0	Fateful Discovery
+hob	257a	6f636f0e-f068-5e02-badd-9cdb36532784	Most Decrepit Old Bird
+hob	257b	03fb15fc-e063-54ab-8a46-5044afcccfeb	Speak Secrets
+hob	258	ad4399f4-0235-556d-ac09-49d0569c8900	Azog, Moria's Ruin
+hob	259a	a7297528-c983-5b9a-8f03-2c1a6028d607	Great Ugly-Looking Goblin
+hob	259b	c8f4e087-9ce7-52ab-baba-4445f2909fc6	Clap! Snap!
+hob	260	8ec3fb19-eaff-5d62-802e-e0db1287a77b	Head of the Hunt
+hob	261	e9ff95d6-af32-5b54-944f-e6ebd4eb98a8	Desert Were-Worm
+hob	262	910c95cb-cae1-5af4-9379-450c042b8596	Desolation of Smaug
+hob	263a	2d0febf1-8346-5944-bfe4-8134a7e54475	Glóin the Mighty
+hob	263b	4c1e88e1-9167-55ac-87a2-ed32936c3f04	Easy Pickings
+hob	264	6c0013f2-0b80-57e8-a690-e0fa73b516d3	Last Light of Durin's Day
 hob	265	6e5ef6d5-78f3-5150-90d3-98307fa11920	Smaug the Magnificent
+hob	266	267b0256-161e-5171-88cd-a70aee48c66e	Beorn the Fierce
+hob	267	84731e96-b366-5e9c-997c-aa5fee5516bf	Dancing from Dark to Dawn
+hob	268	6d13a394-fb43-5582-a11b-e0de4f8c54ca	The Notary Hobbits
+hob	269a	0423307a-2004-5d71-9ff4-117f43d18fc4	Thranduil, Sindarin Liege
+hob	269b	0e293b29-726b-5955-8f0a-c8426f414921	Silvan Rally
 hob	270a	881ff59e-fd24-5c1f-8078-e857dede0bb1	The Arkenstone
 hob	270b	c95e224b-8e6d-5d7e-bb30-0e5aeaf7b6b4	Seek the Heart
 hob	271a	09ebc36c-9ecb-5216-84f0-751e5df2de21	My Precious
 hob	271b	6bb65fa8-77d6-556e-8a3a-08057cc19b1a	Allure of Power
+hob	272	67515618-e479-5f30-88d8-8d8f036067a3	Orcrist, Goblin-cleaver
+hob	273	8d4af52c-fa2f-55f9-bb98-0caa15ea7802	Sting, Bilbo's Sword
+hob	274	5036e2dd-e8f8-5a5b-b488-c72ff2b52a16	Elven Passage
+hob	275	94fb5356-9ee2-50d2-88f9-0d91c4db9bcf	Gleaming Splendor
+hob	276	c735f109-96d5-5d71-a293-fb41d2a1d4b5	The Lord of the Eagles
+hob	277	f2e34573-4dd3-5541-b961-2c7b13fa8a03	Gollum, Riddle Master
+hob	278a	e19ae36d-0204-5397-95fc-6f50cc9db3fc	Gandalf, Goblins' Bane
+hob	278b	3a620a14-cc54-53a7-b68f-52db23b30c24	Flameshape
 hob	279	47d91c55-26cc-5177-8d96-54a568a33e3e	Thorin, Mountain-king
+hob	280	1b7e5259-215c-53be-abbb-097fcc84378a	Bard, King of Dale
+hob	281	40326b30-3079-59d5-83b4-221bd38c165d	Smaug, Wicked Worm
+hob	282	cb513d9f-3fcb-5af5-873c-6a7686c2ff85	Thranduil, the Elvenking
 hob	283a	7d4bccca-6ef5-5608-a75c-c80a4cf46c8b	The Arkenstone
 hob	283b	fbab102c-3016-5921-9bfc-7dbe6dd6f57c	Seek the Heart
+hob	284	0b753ee6-4fee-5cbf-ada0-ee5dd28c2bc7	The Lonely Mountain
+hob	285	59b14861-6cb6-5a05-a57b-088ec4bd4c4e	Bilbo's Gambit
+hob	286	b5f0eac0-0c12-5503-b69f-b32a8fe18825	Fíli the Pathfinder
+hob	287	e7238625-c66f-558b-b15a-0516a405ab31	Kíli the Resourceful
+hob	288	195b20de-8aa2-56f9-94ec-b8a3634c364a	Settle the Wreckage
 hob	289a	ae51019e-fd49-529e-b357-af7f8ab92c75	An Unexpected Party
 hob	289b	45950258-d350-5986-b833-1bfba5cd28d4	At the Door
+hob	290	06f5564c-e98f-5748-abb7-89843b853979	Elrond, Moon-Reader
+hob	291	d044db90-d336-509d-9a9c-fe63250e7b83	Great Gilded Boat
 hob	292	0e51fd98-8b2e-522c-89a9-1a9016fd31b0	Riddles in the Dark
+hob	293	176ab5c0-0587-55f4-a780-df6c6947cdca	Uncover the Moon-Letters
+hob	294	53abac52-9e56-5ff1-8530-de7d3ba6c12b	Wizard's Staff
+hob	295	40873690-686f-53fa-9a8b-8d8b642f75c3	Along the Crooked Way
+hob	296	c55b17be-84d0-5e8c-9525-01020b5d4cee	Inside Information
+hob	297	eb0e30cf-1ee9-5816-912e-24b257107025	The Master of Lake-town
+hob	298	ab0b0a88-b4ab-5f94-b006-fb67ae5e51d0	Rhovanion Rampager
+hob	299	fd956cdd-8d0d-5ba9-bb89-718b2e8caf93	The Sackville-Bagginses
+hob	300	b9ee6230-97e7-5385-b9e4-82d8e1e0569a	Supper for Spiders
+hob	301	15f9202e-56d9-51a2-a11c-21548cdb25b3	Balin, Loremaster
+hob	302	3a6b7f0f-57a1-5594-bcb8-40a4cf0ae8af	Dáin Ironfoot
+hob	303	bea1aa6d-4d6e-5e24-a8ae-58d40ba22133	Getaway Barrel
+hob	304	a341293f-38e6-5652-8803-e4b25225cbbd	Stone-Giant of High Pass
+hob	305	30c6f3f3-18e7-5ba4-befc-7bfd81df3c85	Bejeweled Warg
+hob	306	5687e98f-0467-53ab-9828-2d95cae14d3d	Cantankerous Keepers
+hob	307	a66561dd-ff11-5464-8857-388c6ad2de97	Gigantic Big Bear
+hob	308	0c55c465-2df5-5778-8c18-dc575078a810	Part in Friendship
+hob	309	12955b28-a389-5bf4-bc12-91827068fa5d	Radagast of Rhosgobel
+hob	310	987703fd-df36-5de4-9ef4-222c32400a39	Through the Forest Gate
+hob	311	bdc70dad-826e-5423-9b55-e1f7b02f93a0	Dwalin, Weaponmaster
 hob	312	45e0b06b-6947-5aed-ac51-779720d9fade	Tom, Bert, and William
 hob	313	0ff66df3-9092-58ca-b179-913f8cbca5d3	Plains
 hob	314	568e67a5-b05e-56b5-b66f-0e1818e28a44	Plains
@@ -37386,13 +37738,165 @@ hob	317	34797056-4b61-59c0-ac2a-8046111318a8	Plains
 hob	318	dab62f88-e102-5c16-91bd-dd6cdf782a35	Plains
 hob	319	6cbdba29-1d43-541a-9d99-c86f9f560210	Plains
 hob	320	95bab782-a15d-5bd1-8460-2b8fe8a8210c	Plains
+hob	321	571cd282-a34d-5899-9d6b-7ab46b8da7de	The Misty Mountains Cold
+hoc	1	7511b0d9-ec99-5c0f-974f-f1fb641f231b	Fíli and Kíli, Joyous
+hoc	2	2de4ad08-75a4-5970-b2a9-0018ca6999cd	Gandalf, Party Guest
+hoc	3	507a63c5-afc5-578b-a561-fc06f63f5413	Thorin, King of Durin's Folk
+hoc	4	cec2c8fa-9262-516e-b61b-31f29e7b0316	Bilbo, Fellow Conspirator
+hoc	5	de65fb19-1177-5876-8229-302770339477	Bag End Banquet
+hoc	6	221166f7-5484-552f-8b98-2001b69b81ad	Ori, Plate Stacker
+hoc	7	f769bbaf-414f-570e-92b6-d0358281f4b6	Long-Lost Lances
+hoc	8	e920da81-a486-50e9-803e-8bc1abe436b1	Dragon-Cursed Halls
+hoc	9	d24dfa51-fada-53dd-a220-3c9be9e4386a	Smaug the Impenetrable
+hoc	10	bd70b8de-fe4f-511d-8e51-bee7d717df20	Bilbo's Burglaring
+hoc	11	0f3738f9-4a86-5ae0-9810-bfb7e54b3a36	Dragon's Desire
+hoc	12	8b78a4a3-b8a4-54e8-9ef6-1ea915d90086	Necklace of Girion
+hoc	13	10f65fbe-eb77-5505-90e8-05108dd7b3c8	Dawn of a New Age
+hoc	14	f1590fa4-d603-5eea-a5a7-4baba428a5fd	Flowering of the White Tree
+hoc	15	f93cd14a-8cf3-5776-9c97-664ad9ff67e6	The Gaffer
+hoc	16	1a3e6107-52e3-5c75-9435-ae20d73dbcd8	Galadriel's Dismissal
+hoc	17	3f7cfde9-9b28-5149-9985-71369f6a64b0	Reprieve
+hoc	18	01d7147f-6a30-5445-9403-3780fe85f378	Raise the Palisade
+hoc	19	05abd602-24de-58ea-9634-1b581ed69624	Orcish Bowmasters
+hoc	20	77b84dcf-7777-5745-9cfe-cb19119e4cf9	Witch-king of Angmar
+hoc	21	e3916118-73b7-595d-9bc6-74d7a17ce4d7	Witch-king, Bringer of Ruin
+hoc	22	45dcb2c9-0ac7-5ac4-91f3-095029e6289d	Call Forth the Tempest
+hoc	23	57f5f806-fca5-5551-a491-79ae1b5e43a9	Cavern-Hoard Dragon
+hoc	24	647e73b8-ed6d-5ec1-938a-6a2a49ac4019	Arwen, Weaver of Hope
+hoc	25	11e51251-1d60-5abf-a995-7c89ed80f6ac	Delighted Halfling
+hoc	26	66421889-1982-5db2-b7f8-5182b4f2eaee	Elven Chorus
+hoc	27	8d668a34-ded1-5537-9a6f-1b1e20a4ce5a	Last March of the Ents
+hoc	28	a216115f-ef66-57f8-83c7-5e8a23d9bd47	Aragorn and Arwen, Wed
+hoc	29	c4f829f6-60c8-5dca-af40-4c5bcbf66d4e	Aragorn, the Uniter
+hoc	30	026bdad7-5143-5f79-a996-4fab6fcd1925	Arwen, Mortal Queen
+hoc	31	a90348a8-9105-5ff9-a50e-344e52ba1ccb	Flame of Anor
+hoc	32	acddf174-481c-5a45-a2c8-925871b14587	Galadriel, Light of Valinor
+hoc	33	73ca2833-49be-5d73-b2f5-cc796283ecf7	Gríma, Saruman's Footman
+hoc	34	9af4a995-5209-5930-b354-e1923944e746	Lotho, Corrupt Shirriff
+hoc	35	a7f98384-312b-5e56-b3a8-643d5d3fd592	Saruman of Many Colors
 hoc	36	b975d6aa-3cf9-5e3c-b398-edd8534d0fe1	Sauron, the Dark Lord
+hoc	37	79e65069-0eba-5a98-a9c6-08517a0ce654	Sauron, the Lidless Eye
 hoc	38	e6204871-c387-5315-a079-b44fecfbf573	Tom Bombadil
+hoc	39	7c6a78a9-76eb-56dd-a689-888601070b9a	Andúril, Flame of the West
+hoc	40	9b4472a4-aecc-5763-a0e4-b377220ee232	Andúril, Narsil Reforged
+hoc	41	8a677472-6671-5215-a61d-ba0d0d502b8a	Bilbo's Ring
+hoc	42	85790927-3cb2-58b9-9422-38a8bd9454ca	Glamdring
+hoc	43	e739b14e-34a4-50eb-be37-87110870a46e	Mithril Coat
 hoc	44	d9b48ba2-174e-5707-a6c2-0ee7048dd572	The One Ring
+hoc	45	01076a99-1f01-5c40-bbef-e9fe5dc4dd5e	Palantír of Orthanc
+hoc	46	e937b01e-2874-58fb-951c-72ef386f7b14	Relic of Sauron
+hoc	47	38a046f1-9ede-53ee-8b53-3d26431c6196	The Black Gate
+hoc	48	eacf31ba-837a-5c5f-be3b-830d4ef37e11	Minas Morgul, Dark Fortress
+hoc	49	ff14b891-c382-5f70-8399-f76680dfbc44	Minas Tirith
+hoc	50	50c470bd-cbaa-545a-be96-8885df540b09	Mount Doom
+hoc	51	15f4b9ca-2aed-50f2-b33e-92aeeda6191f	Rivendell
+hoc	52	b946af54-23b7-51fb-9944-2a7bd7654b04	The Shire
+hoc	53	896086a2-8b1a-54a9-b971-5fefb0429728	Dawn of a New Age
+hoc	54	b1d90361-aace-54a6-871d-e237bd153a31	Flowering of the White Tree
+hoc	55	dc36536c-7a0b-5ae7-9a9b-abfd47f566b5	The Gaffer
+hoc	56	36babd87-901d-5a49-bc19-2bad5adc5774	Galadriel's Dismissal
+hoc	57	98c6acb5-3bc6-5a5c-8169-f8eaf6eef0bc	Reprieve
+hoc	58	e6a1c635-510e-5dda-95fb-db3eba008aaf	Raise the Palisade
+hoc	59	083c8db8-0d76-5efe-a961-c9847877b54b	Orcish Bowmasters
+hoc	60	0888c0cb-0be4-59cb-a05d-40a56e1956f0	Witch-king of Angmar
+hoc	61	24823405-2070-5d09-b90a-ec49dea8d4ad	Witch-king, Bringer of Ruin
+hoc	62	28f5338f-3baa-5ea9-bdea-6b07d7727359	Call Forth the Tempest
+hoc	63	0c43252d-9f7b-5eb0-a8de-f06ea97cdc12	Cavern-Hoard Dragon
+hoc	64	b090d3a7-cb36-5d72-83df-cd76baba549c	Arwen, Weaver of Hope
+hoc	65	c1b2ac14-984b-5d6f-bea1-e2f449943a06	Delighted Halfling
+hoc	66	9d2bde21-cc43-557e-941b-4bd6ec4a0e45	Elven Chorus
+hoc	67	b6a80758-9863-5c04-a6f2-5189a25a1c6f	Last March of the Ents
+hoc	68	3b3c6fd8-d5ea-53c0-8605-8863e131c393	Aragorn and Arwen, Wed
+hoc	69	c3431e29-8a89-5b92-ad57-d1d1f781a965	Aragorn, the Uniter
+hoc	70	c1ea325b-847e-5250-abed-7a1e5cff64ac	Arwen, Mortal Queen
+hoc	71	ca2dc6ba-1fa7-51c0-bcb0-5051d2c40d9e	Flame of Anor
+hoc	72	d5031b5c-2228-50bd-83ea-7298a0644b4f	Galadriel, Light of Valinor
+hoc	73	47e7e283-51c4-5a13-8bb5-07b7ee52cf71	Gríma, Saruman's Footman
+hoc	74	23bc3478-1356-53da-916a-acc7f3011cf9	Lotho, Corrupt Shirriff
+hoc	75	9bc40042-90c9-5e69-b2a5-0ed75e3421b4	Saruman of Many Colors
 hoc	76	c6602424-7335-5996-a232-f47327298229	Sauron, the Dark Lord
+hoc	77	fd28056b-cb08-55c3-8d3d-357088c3b6d5	Sauron, the Lidless Eye
 hoc	78	b3008e76-4d11-5f21-8b51-32cb81bd7a36	Tom Bombadil
+hoc	79	5d0abb1a-f2ae-5996-9e79-d3b5fcfb8ddc	Andúril, Flame of the West
+hoc	80	3f3451f3-3b68-5265-8c76-4b59c0c96e13	Andúril, Narsil Reforged
+hoc	81	5949bb29-ce41-5d84-a69c-f2880f095f71	Bilbo's Ring
+hoc	82	a5bb11ff-b6d0-52a8-bca4-1a09db3cebd2	Glamdring
+hoc	83	37687b10-6694-5901-a591-95bc55f7da62	Mithril Coat
 hoc	84	afe28140-839c-5c6f-941d-b44c05b14e5a	The One Ring
+hoc	85	1f636e77-7f20-5c64-b90f-f4de73807d17	Palantír of Orthanc
+hoc	86	038e1257-603a-5beb-9ef9-5c8c48a6739e	Relic of Sauron
+hoc	87	60c5c8b8-13af-50fa-a9de-91c07f11d46a	The Black Gate
+hoc	88	a418ab0b-6212-54f5-9eba-67a8140dc290	Minas Morgul, Dark Fortress
+hoc	89	12ec6520-c653-5485-a83f-3647a8639dbb	Minas Tirith
+hoc	90	5c712935-ccf8-5b12-aef8-5ed56b92c6a4	Mount Doom
+hoc	91	ec8b035a-eec6-55e6-ac6d-6479f17d2235	Rivendell
+hoc	92	10d7c93f-bb99-5e73-a047-f790a83f5fda	The Shire
+hoc	93	943111c2-ded8-515b-90d5-947eb729e932	Dwarven Warriors
+hoc	94	06934693-cfe2-5140-87b2-ec0a9dc19a9c	The Reaver Cleaver
 hoc	95	12951c9c-6e71-5022-998a-5e0fdbbc6127	Arcane Signet
+hoc	96	84bf5a8e-c86c-58cb-b7f4-56b39a0bae30	Mox Amber
+hoc	97	11c1bfc1-44db-5850-9827-bfc7e5fe581d	Treasure Vault
+hoc	98	4c0b6dac-c6a5-5e6e-b3fa-64b6cd14bc3e	Bilbo, Unexpected Adventurer
+hoc	99	3e50bc0e-c863-5ae3-929b-b30b22c6f2b5	Gandalf, Shadow's Foe
+hoc	100	880c6cdd-31fe-5892-afd2-09dab0945257	Thorin, Company's Leader
+hoc	101	233d5a4f-1588-580b-83ed-fb7550674950	Bard, Heir of Girion
+hoc	102	10be6d6e-42c4-5fb3-a339-c722ef1d4c49	Bolg, Erebor's Reckoning
+hoc	103	18d1cb7c-69f1-5232-a027-89a52db465e4	Chief of the Wilds
+hoc	104	8c8e06c4-9a85-5004-8d73-65c02a7dceee	Dáin of the Ancient Halls
+hoc	105	8bfa04b9-24cc-5d9c-95ee-f58cc2d019b8	Great Goblin, Foul-Hearted
+hoc	106	4827afaf-92ac-521e-8568-b02f4c622fc1	Thranduil the Strategist
+hoc	161	da6e97f4-3a10-5274-90b7-2920e49faf44	Banishing Light
+hoc	162	60f17b82-01ad-57c3-8ac5-cc86779fa9f6	Dawn of a New Age
+hoc	163	1a131ab5-3f28-59c4-94f4-71bb7dcae24b	Dúnedain Blade
+hoc	164	a21ae056-2ded-5d4a-a1ad-47c6f7aa5df8	Eagles of the North
+hoc	165	c0657754-efbf-5de3-97ee-415f5decac24	Errand-Rider of Gondor
+hoc	166	85e3968e-ea6c-5548-a35b-b941476bbf25	Esquire of the King
+hoc	167	20c51faf-eefb-562f-a76f-7b20012439bf	Fiend Hunter
+hoc	168	ae95d60c-b040-5f8a-85c3-c6335e42039f	Fog on the Barrow-Downs
+hoc	169	5fd36916-1860-5d6c-a431-10e8a84d6911	Landroval, Horizon Witness
+hoc	170	36a2efc8-1864-53b3-8a65-cdb1cd91b6c2	Mentor of the Meek
+hoc	171	63a8b417-e911-541e-93b8-d4106d14b675	Soldier of the Grey Host
+hoc	172	93e688ef-7591-59fd-a2d3-18803fa61e50	Westfold Rider
+hoc	173	1fe93225-fb24-5a4b-bcb0-bf539fc3a76b	Captain of Umbar
+hoc	174	03067836-0efa-5170-8a0e-927a7e0c4ee6	Colossal Whale
+hoc	175	142048cc-16aa-5a35-adbb-083c5d0f3ee2	Grey Havens Navigator
+hoc	176	c5eb0f0e-3d43-5f91-b091-f8c56a2d5e10	Hithlain Knots
+hoc	177	eb4e3eef-9929-537f-8dc8-58c08b463ddc	Ithilien Kingfisher
+hoc	178	acc99da9-b699-5579-8cf8-f42f61e60b2f	Knights of Dol Amroth
+hoc	179	59b03f3d-76a6-55e3-90c8-e838617f57fa	Lórien Revealed
+hoc	180	fc311975-52a8-5843-99fe-669bd2b63c06	Minas Tirith Garrison
+hoc	181	fb88498d-cef9-545a-8d9a-95aa55c43696	Nimrodel Watcher
+hoc	182	870cb24e-02d7-5935-a6f6-0e8b4bf35412	Pelargir Survivor
+hoc	183	762292ed-4948-5c84-9707-730c2efee395	Stern Scolding
+hoc	184	80481ab7-aa39-5487-860c-0fbb2bc6146a	Willow-Wind
+hoc	185	86c88d15-759e-54d2-9b64-32d7d36e21dc	Bitter Downfall
+hoc	186	cc9b5c1b-55dc-58f4-a9b1-99b0897cceb8	Haunt of the Dead Marshes
+hoc	187	8a5487de-7c72-5b9b-bf1c-f2189548c16a	Languish
+hoc	188	ac73c169-3a3d-5559-bca8-e01fe15d2918	Merciless Executioner
+hoc	189	3e32f159-30c1-5de4-91c5-d3d8f674e2d2	Night's Whisper
+hoc	190	c880219b-88e4-5a22-b428-3b73d325d41a	Shadow of the Enemy
+hoc	191	21fb8755-85ce-54ad-b6df-ea8f216e9b35	Troll of Khazad-dûm
+hoc	192	566cdf7a-2e88-54ae-bc65-9dc4e9f99396	Battle-Scarred Goblin
+hoc	193	cf345719-8e3e-583b-8d22-3432331ca644	Fire of Orthanc
+hoc	194	2f3fa811-682c-59cd-b4c2-2ad674db4064	Goblin Cratermaker
+hoc	195	7828bde9-f2d6-5745-8c62-da465736d78e	Goblin Fireleaper
+hoc	196	5ca3b72e-b5f8-541a-9c92-189fd08eab5f	Guttersnipe
+hoc	197	67432842-a17b-59ca-a54b-6cced8a11542	Improvised Club
+hoc	198	88a520b8-485d-5084-8188-8ffbf0b0c604	Inferno Titan
+hoc	199	c580b6b7-433c-526e-8602-14c0f773b5ca	Oliphaunt
+hoc	200	f60d7760-8f03-514d-a75c-b7dff73fa726	Olog-hai Crusher
+hoc	201	22ff7d07-8cad-554f-b7de-24872adf1d08	Orcish Siegemaster
+hoc	202	13ff6a39-94db-5a7c-b60e-12dfa18563d0	Smite the Deathless
+hoc	203	1610c0d5-94dc-55aa-b5c9-e6a6aaf9ca26	Celeborn the Wise
+hoc	204	1f9824fc-ce70-5001-9568-af8cb617a00e	Elvish Archdruid
+hoc	205	a79b70f1-1be0-5b74-b760-cf1df8a2f974	Elvish Mystic
+hoc	206	be6e8121-1726-5417-bef7-cece63099917	Elvish Visionary
+hoc	207	179174ea-36ca-5eda-a84a-d587dcf7150e	Galadhrim Guide
+hoc	208	44275c6c-27c2-5563-beec-94c7eca9599f	Gift of Strands
+hoc	209	81e56a5f-7455-5a8f-95ec-260aac959913	Lothlórien Lookout
+hoc	210	bb929e94-c1ec-5941-a097-b6c3adb8d995	Mirkwood Elk
+hoc	211	eca16225-13fe-5bab-9a0e-8b1dd0c48ecd	Wayfarer's Bauble
+hoc	212	9905289e-ac02-5718-a9b3-ff358f0992f4	Rogue's Passage
 hop	1	5d873fab-c088-5be0-9604-e4e518e97332	Akroma's Vengeance
 hop	2	a45852ff-2eda-5481-9e07-e22da56dd107	Congregate
 hop	3	f9391b18-f094-52ec-ac47-fb36fe492aa6	Kor Sanctifiers
@@ -51862,6 +52366,8 @@ mb2	619	c83edbdc-c4cd-531a-ae97-28abb9e5a384	Temur Elevator
 mb2	620	b59961a8-6f5e-5c98-9a86-58a56598c219	Under-Construction Skyscraper
 mb2	621a	17257bba-6765-5872-96ae-595d6776d5bd	Value Town
 mb2	621b	134540ce-7eb0-5544-a3aa-dd260eff928d	Take a Trip to...
+mbc	12	c573d71b-2a57-534e-8632-7efab2120033	Tolabow, Loch Rascal
+mbc	24	6e88e450-3e9c-575e-96b2-6b0ac6a9434d	Joven and Chandler
 mbs	1	c6e259b6-498f-5d1e-81d5-a67e9e2a075b	Accorder Paladin
 mbs	2	14d7ae7a-83b8-548e-b16b-f1990cde026b	Ardent Recruit
 mbs	3	6fb2027e-6261-565b-82d1-5d97f572657a	Banishment Decree
@@ -68509,6 +69015,8 @@ pf26	8	2a908053-a1a0-5df9-b46c-a1f99af934b2	Llanowar Elves
 pf26	9	da34a449-a545-5a36-b2bf-6d98b0cde599	Utopia Sprawl
 pf26	10	832a4763-68e6-5eb2-af92-a03ad130f565	Atraxa, Praetors' Voice
 pf26	11	d2742595-200e-58cd-864b-76134cca66b3	Bicycle Elemental
+pf26	12	a749124b-ce29-56fd-85b5-b4316f4f836c	Fact or Fiction
+pf26	13	9e6c3f78-2df6-5eb0-a3df-6802c8d62fe0	Explore
 pfdn	1	4f2c5045-ee0c-5e16-bd37-76d782e052e3	Sol Ring
 pfdn	1p	0a8ea84f-3382-5c46-885d-29235ff8bd64	Sire of Seven Deaths
 pfdn	1s	430d6d17-82da-5002-9e81-62cfad560783	Sire of Seven Deaths
@@ -77357,6 +77865,7 @@ pmei	2025-4	71dccba1-437f-500f-912b-20fa0d52fb1c	Voltaic Key
 pmei	2025-7	eb00784d-aff1-5c26-a30d-ff64ef98f5dd	Duress
 pmei	2025-8	4a7a4daf-264d-5db2-b115-610f1515d987	Dark Ritual
 pmei	2026-08	d299295d-46ef-536b-bd16-7bda138cd091	Appa, Aang's Companion
+pmei	2026-09	78fb360b-540c-5826-b8ef-33e0b4db520a	Spider-Man, Peter Parker
 pmei	2026-1	5048c684-b47e-5a8e-b572-4928b63c349e	Command Tower
 pmei	2026-10	0ea8b01e-b7db-54f4-ba6f-1b63ea41c5e2	The Goose Mother
 pmei	2026-11	01bc8fe8-4644-5ff0-a2e3-3beb93bd3f1d	Zetalpa, Primal Dawn
@@ -84000,6 +84509,7 @@ pspl	9	0e734f1c-c314-5c6c-8688-1df32ad42629	Super Shredder
 pspl	10	1fc72ba6-b216-5c1e-b77f-1792cf75e660	Liliana Vess
 pspl	11	4a909cc6-c5a8-500c-b640-f00af4cee60a	Riddles in the Dark
 pspl	12	8d8e876b-bba2-57a2-892b-0d06f3cd7d53	Elektra, Daughter of the Hand
+pspl	13	3606fb42-6907-5d8e-8ec6-6e11659c7b33	Jace Beleren
 pspm	1s	1e947958-ec08-5271-b09f-b075b3c1731f	Anti-Venom, Horrifying Healer
 pspm	2s	19df7f0c-1c27-5ac8-9c03-c7c44ab03ace	Arachne, Psionic Weaver
 pspm	8s	e459f560-0cdc-5f40-9898-d7ca7d155fe3	Friendly Neighborhood
@@ -85326,6 +85836,8 @@ purl	2025-3	a5c936dd-badc-5586-bfd7-c242c63e3c7c	Katara, the Fearless
 purl	2025-4	58e04584-3211-5a29-be57-e300c05de903	Behold the Sinister Six!
 purl	2025-5	1837741d-adc0-5416-ab6f-bbd3c0b43aec	Unbreakable Formation
 purl	2026-1	7fe28de2-46a6-598b-9915-c2258a370638	Tom, Bert, and William
+purl	2026-2	699f5224-7e46-587c-ad5a-1b03a2380bfc	Kirk, Enterprising Captain
+purl	2026-3	6309310a-bfc0-5c1f-adb6-546d901a8dc8	Borg Queen, Perfection Manifest
 pusg	202	ab4398ac-160f-5b5e-9c16-a5e44b950e5e	Lightning Dragon
 pust	108	180727de-6673-5851-accd-bf73832db14a	Earl of Squirrel
 pvan	101	58caf11c-8564-5675-89db-2d56952be804	Ertai
@@ -85578,6 +86090,13 @@ pw26	14b	4cdc2378-b5f8-5929-9113-714285427aa3	At the Door
 pw26	15a	6b5b4fd5-5da2-5bad-a8a5-e48975fb443a	Bilbo, Luckwearer
 pw26	15b	11c07afe-db25-5fa6-8489-5597ffe5d110	Burglar's Plot
 pw26	16	58d6ace6-aa7e-5777-913c-8416af65b01d	Wood Elves
+pw26	17	f6822144-3061-53bd-aae9-4fd3d934abbc	Highly Illogical
+pw26	18	406b10f0-e854-574f-962a-74eb3bec6ba6	Munitions Enthusiast
+pw26	19	1554d6ae-839b-5de1-ba12-88d2c66f28c3	Solemn Simulacrum
+pw26	20	944843e2-0c5d-5c33-b9f3-a8173e6b675f	Burst Lightning
+pw26	21	d2df678c-1115-5cca-9d32-44201470f943	Crystal Ball
+pw26	22	15ce743b-b106-53ec-997c-f051c1fc51a2	Tragic Trajectory
+pw26	23	806b598f-4222-5fc5-94d8-5d0ff66160a2	Leyline of Anticipation
 pwar	1p	65d388f5-7746-5cd7-ab10-d10dea776894	Karn, the Great Creator
 pwar	1s	5daffc7a-4f98-5511-96da-2589925dfd82	Karn, the Great Creator
 pwar	1s★	457b0514-710a-5adf-b38d-cae51b0594a6	Karn, the Great Creator
@@ -89709,6 +90228,7 @@ sch	47	46ffeeaa-5981-5d25-9f79-9be863e5cceb	Ocelot Pride
 sch	48	bb8f4bb9-2922-5531-b405-f95606bf6a66	Unearth
 sch	49	966e5301-9156-5c8f-9346-5c805651fdab	Psychic Frog
 sch	50	8429769c-6f25-5ee5-86ff-117d38254736	Abhorrent Oculus
+sds	11	a1841f27-6d15-5828-9c90-68cbc2293086	Sheoldred, the Apocalypse
 shm	1	46b19147-5715-5059-a455-c5f62e88d98e	Apothecary Initiate
 shm	2	bee80027-536b-59e7-a2e0-8cbbdda497a7	Armored Ascension
 shm	3	73825ec0-56bd-50ac-8529-8686bf8dd507	Ballynock Cohort
@@ -91398,6 +91918,7 @@ sld	912	0792aec6-22ff-5de7-9cd5-e8aff4f7c576	Sol Ring
 sld	913	bb2f8f8c-b19c-58f6-9e4d-a1ea2b0bea77	Sol Ring
 sld	914	35977e3b-8318-5eb4-8f5a-3445fd5bf991	Path of Ancestry
 sld	915	ffca4da2-7144-5515-8a9f-69d6fd806859	Silver Shroud Costume
+sld	923	66ebde80-1c1a-5f4f-85c4-2a88380c9320	Puca's Mischief
 sld	1001	608517b6-5dc0-5c20-b90a-9642ffd4aa25	Elspeth, Knight-Errant
 sld	1002	2a1857df-95fb-5af0-94fb-1bb6a589f772	Patron Wizard
 sld	1003	1e10289a-c9a9-54d9-a7e6-699208ed6738	Berserk
@@ -92940,6 +93461,16 @@ sld	2541	cfd7c908-d19f-584b-9059-e38862dc39eb	Island
 sld	2542	cbedf044-fba3-58d7-b426-0ee6f54ac14a	Swamp
 sld	2543	2df07c7e-9e85-5e65-b662-22756fed9bce	Mountain
 sld	2544	b22bbcea-2876-5b75-a8b1-ba19fe57f073	Forest
+sld	2552	c1fec426-c75d-5cac-a14b-e296903758b1	Cloudshift
+sld	2553	e5758e8e-d071-5d24-b1f5-434f1d3b899e	Tocasia's Welcome
+sld	2554	48507554-18c8-51ec-bd5e-f0206816686c	Stony Silence
+sld	2555	d2b6cb14-04f8-52f2-bb06-2d4f18548262	Imp's Mischief
+sld	2556	1273bdde-f67d-5709-9ff5-4931f4020d00	Seize the Spoils
+sld	2557	5dab120e-312b-5f4b-859d-57d80203cb2c	Fellwar Stone
+sld	2558	022fa4a4-060e-5686-8289-e74377a4e464	Lightning Greaves
+sld	2559	7df59ca6-26f2-58d4-974b-bbdb27891a7e	Liquimetal Torque
+sld	2560	945493fb-f81d-5631-96bf-22a8acea3d23	Sol Ring
+sld	2561	e8ad546f-1034-5368-b840-2d37f871c78f	Thought Vessel
 sld	2622	d0ce8364-372d-5969-9303-2c78e910954f	Hammerhead, Maggia Boss
 sld	2623	e93593d8-1fb2-59b9-91ff-d02cdaac6957	Undead Hand Ninja
 sld	2624	72868525-bf0a-5bb4-8956-7057963f950d	Hex Magic
@@ -93003,6 +93534,23 @@ sld	2701	349fc71a-b6f6-5302-91f5-cafbaad3160d	Time Stretch
 sld	2702	fa75f726-5a28-536e-b431-218770f6935d	Barrowgoyf
 sld	2703	674ff0e5-9b5e-51a0-afe9-b5579afda34b	Throes of Chaos
 sld	2704	4899ec7f-1525-5d25-a46d-b29d0735ee5d	Mind's Eye
+sld	2801	eeb1f9b5-1a4a-534b-88e4-5fbe4785bde0	Stardew Valley
+sld	2802	71382d18-6d8e-5567-a91d-0049b0ae5044	Wedding Ring
+sld	2803	115b8ea3-0ddd-5341-a235-ae61139b223d	Dawn's Truce
+sld	2804	80f09f14-6a88-5e5d-be22-d268c29f3955	Swords to Plowshares
+sld	2805	f7b1eb4b-e608-58b9-a84c-9549e920b972	Rites of Flourishing
+sld	2806	9832e7cf-ead7-5611-8da6-b8ec9bd050d4	Kynaios and Tiro of Meletis
+sld	2807	b353c045-e01c-5054-b9fb-f711af74ebdc	Sol Ring
+sld	2809	a1a57f0b-0311-5ad5-a44d-589d74b6d47f	Crop Rotation
+sld	2810	dbdf60d1-cdac-5078-86d6-3277e4908f1f	Fountainport
+sld	2811	d1e95402-44ea-5fc5-956c-0b6850882300	Homeward Path
+sld	2812	349a88da-bd02-53d7-a711-3e4a0140e49b	Command Tower
+sld	2813	bde78ccf-b6a3-591c-b630-00b4eb8dfc19	Yavimaya, Cradle of Growth
+sld	2814	1cdb7bb7-48e1-5658-9e9b-0dfbcd62f8d8	Atsushi, the Blazing Sky
+sld	2815	389bee42-93d6-583b-a000-72e0f3b7fe24	Mitotic Slime
+sld	2816	64c37401-5c16-5ec0-9df3-8a4c46c04a49	Arcane Signet
+sld	2817	fb1d4f8f-78ab-522e-9463-19f2c5eeb773	Sword of Forge and Frontier
+sld	2818	f0327f1f-2738-50c4-8922-826b9325a3fa	Treasure Vault
 sld	7001	f18f51ab-ae4d-5d6e-abfe-6347d4fdc4f2	Feed the Swarm
 sld	7002	29756b2c-e363-5ceb-836f-1b8ae2bddd79	Forge Anew
 sld	7003	5e99b07c-5218-5c3a-a520-4705726f9b2e	Silence
@@ -93093,6 +93641,7 @@ sld	7107	5912465d-df1e-5de7-b481-d2114d5bd249	Invasion Plans
 sld	7108	7f638983-d98c-567b-9b55-2185fd9b4b11	Miren, the Moaning Well
 sld	7109	6ede9caf-3f0d-5913-b506-24b31df14de3	Relic of Legends
 sld	7110	5fcd9ab8-bee3-5189-9e75-06dc07b5b699	Night's Whisper
+sld	7121	cb66ffc1-4c58-5279-8d7f-3b1d40aa1c7c	Fabricate
 sld	7124	cff31a66-75ed-5002-9dd7-7f74a48b8f2c	Fabricate
 sld	7126	86c311c7-89bb-5d88-bf33-db4be8515a06	Mountain
 sld	7127	15b5ccb2-7185-57de-9665-033bd062a402	Deadpool, Trading Card
@@ -93113,6 +93662,7 @@ sld	7162	7392843e-a96f-5284-a3db-2ef675f66f5e	Crucible of Worlds
 sld	7164	313b2854-3abd-598d-b6a2-f7e6ddfc6fec	Clone
 sld	7165	0e491c76-7f71-5124-8fa8-b2c42337fd3e	Shiny Impetus
 sld	7166	cc899b68-7200-57be-a5b8-0e37403c7ebe	Shoot the Sheriff
+sld	7167	6e2d80b2-75cb-5ee3-947c-34d75411513f	Llanowar Elves
 sld	7171	74096560-bee7-5d2c-be3f-980cc057089e	Hellish Rebuke
 sld	7172	a085e2d8-64fe-55cb-99cd-637570e15af6	Warp World
 sld	8001	84efcf29-d327-5693-a695-f8045c9ea4ff	Jace, the Mind Sculptor
@@ -97137,6 +97687,11 @@ sunf	48	24fbb788-c8ca-5783-99c9-d18be3b01b47	Werewolf Lightning Mage
 tafr	20	aa281821-2a70-5b23-8a0d-a5874c753e6c	Dungeon of the Mad Mage
 tafr	21	deb0e4bd-0431-526c-8ad7-d10716d4d58f	Lost Mine of Phandelver
 tafr	22	a7f3efba-4ee7-57b3-94c3-8bc4e91ae75d	Tomb of Annihilation
+tbth	1	351b0402-fe12-5372-8e58-7af4315b3976	Minotaur Goreseeker
+tbth	2	185e1483-432b-5222-b28d-5a75119a250a	Minotaur Younghorn
+tbth	3	64c963b4-b358-5659-b9e6-4af70c0af10a	Mogis's Chosen
+tbth	4	785ed565-18e1-5dad-bd74-457e23a1a3f3	Phoberos Reaver
+tbth	5	a0182e45-4b6c-56e4-8835-1365d62b148a	Reckless Minotaur
 tbth	6	6386e658-c82b-57f8-ac07-c8af7ece1593	Consuming Rage
 tbth	7	3df137ad-d644-572c-b485-86fa5694ad36	Descend on the Prey
 tbth	8	e982d3c7-217e-5da7-ade3-0a8a92d23762	Intervention of Keranos
@@ -97436,6 +97991,13 @@ td2	85	8fb238a5-8fde-5461-8958-cef8244b3fb7	Swamp
 td2	86	87b5b688-20ed-53da-ae12-f4f42e3925cd	Forest
 td2	87	15fd8c40-3dd5-5672-902f-e8a81629c39e	Forest
 td2	88	3fd6bd9e-b51e-563e-847a-0451fdd278f0	Forest
+tdag	1	5515f775-7637-5a35-ad6c-5441bcbbbfaf	Xenagos Ascended
+tdag	2	91845d89-52e8-5361-87c9-3db68bfbdf8e	Rollicking Throng
+tdag	3	ccc8b611-0a27-51c2-8b9d-a41d79b572d4	Ecstatic Piper
+tdag	4	a7fb7e61-b29f-59cf-b3f1-8ef3b1904c40	Maddened Oread
+tdag	5	989f2115-546f-5be4-83d4-64a6b87b822c	Pheres-Band Revelers
+tdag	6	34c4f497-084e-5169-99a0-87fe7dff1df4	Serpent Dancers
+tdag	7	ca53b63a-87ab-5c9f-897c-56588518eb38	Wild Maenads
 tdag	8	d584d51c-3ec2-541f-9b9c-f0a614cb50d9	Impulsive Charge
 tdag	9	50e0953a-5b6c-50c3-8d27-7cd358bfe3d2	Impulsive Destruction
 tdag	10	659e505a-460d-55e7-afc0-45b3c62fe685	Impulsive Return
@@ -98314,6 +98876,11 @@ tdm	423	c3712143-38ec-5566-b060-254d5675d74c	Channeled Dragonfire
 tdm	424	e29b2af3-2234-5f59-a29c-9881140805df	Encroaching Dragonstorm
 tdm	425	2a6157b9-f349-574e-942a-f039b8e78b93	Temur Battlecrier
 tdm	426	5aa634bb-b8b5-5190-bc3e-be77dc92b46a	Qarsi Revenant
+tfth	1	6011878b-5a14-590c-8b07-562c1d139cc0	Hydra Head
+tfth	2	1bccdf42-2306-5331-acb2-532007b15e4a	Ravenous Brute Head
+tfth	3	224096d9-f96a-5785-8b36-aa6e8402502a	Savage Vigor Head
+tfth	4	34ddf52f-33e5-5ddc-850e-05b917550552	Shrieking Titan Head
+tfth	5	6cb626db-ed5e-5cd3-9f29-35fa8eb31b8c	Snapping Fang Head
 tfth	6	26e866f6-d375-5673-baf2-4237ee136878	Disorienting Glower
 tfth	7	34209b99-4ad2-53a3-a20a-6a251cf074d0	Distract the Hydra
 tfth	8	277f025b-bb60-59ff-bf33-8630eac622bf	Grown from the Stump
@@ -100901,6 +101468,77 @@ tpr	267	28ea34d3-d5cd-5eb3-88b7-ecccef5c7200	Forest
 tpr	268	b8a2d051-b0fc-5b71-99af-614912bdf569	Forest
 tpr	269	bf693575-8930-5567-b1cd-27123182875c	Forest
 trc	85	1637a86e-8518-5086-8137-721dbc68897a	Captain Kirk, Boldly Going
+trc	192	4dc8d9c2-0abc-50a2-a83b-8cce947db5b8	Operations Officer
+trc	193	0e02f714-1a9d-5bb7-969f-9e0ee8a5f24c	Picard, Steadfast Captain
+trc	194	a7fd3418-bf52-510c-ba50-3b6303c853b1	Spock, Logical Choice
+trc	195	bcd7b5b5-5266-5c1b-8309-2cec83b8988d	Trelane, Squire of Gothos
+trc	196	44aec1e2-dbe7-5eb7-83fc-cdaa2f918ea7	Bio-Asset Allocator
+trc	197	216fb8de-3dda-5fc4-8227-f60d276f3536	Borg Queen, Perfection Manifest
+trc	198	d1336495-5092-5c95-94d3-a5836fb95549	Kirk, Enterprising Captain
+trc	199	03d4a9a0-c0e5-57fe-9312-80ef6ce72574	Klingon Strike Force
+trc	200	ea330cb8-0904-5ee0-af0a-4fa25fd1bac1	Benjamin Sisko, Besieged
+trc	201	5e2cd9ec-1902-5d4a-a3bf-701c07e3529b	Tenacious Tosk
+trk	5	36a28dc5-ca41-5cf5-9724-03cc441fd470	Brad Boimler, Eager Ensign
+trk	13	4847f35b-6289-5f75-b242-3e74da5f1371	Dr. Beverly Crusher
+trk	34	4cd0558e-83be-5a9a-bd17-1b2c0c528597	Set Phasers to . . .
+trk	51	f0b8f68c-5f99-56f6-b89e-0be682d103c0	Consider the Prime Directive
+trk	62	85122060-bbb6-5d15-b052-6895afd2d13f	Highly Illogical
+trk	64	05601653-af1d-5e35-8ed5-dd5cbc068709	Hoshi Sato, Exolinguist
+trk	117	09a6d65c-791c-5396-a575-c479b5e7eed3	In the Pale Moonlight
+trk	127	b791480f-dae5-5ad3-bcda-af9ba051a9fa	Salt Vampire
+trk	138	578538ad-8388-5464-bec9-02584eea733a	Beckett Mariner, Impetuous Ensign
+trk	142	7bb531f1-963b-5df0-98cc-189f95e8e26e	Captain James T. Kirk
+trk	183	a11c0da8-9a74-5f33-b7ca-dc32122bb1a7	Amok Time
+trk	187	d09b34ff-4c2d-5dd3-8da0-b76b62302a90	Captain Kathryn Janeway
+trk	228	b05e6220-4e95-5250-9803-b87f2b858e01	The City on the Edge of Forever
+trk	252	05f4d165-c482-5621-9d33-7a2a0e8112fa	Seven of Nine
+trk	261	dfc8f30f-f730-57de-9e93-059bfd8a20e6	Crystalline Entity
+trk	273	19961f41-a22e-5fc5-bf94-9bd2f17e7370	U.S.S. Enterprise-D, Galaxy-Class
+trk	278	bf5c449e-586b-5b9b-9659-838cc37fdbf6	Blood Crypt
+trk	279	4393cca5-bf6c-59ed-8116-deba2aa399c1	Breeding Pool
+trk	285	c9e56324-a56f-5c7e-b31f-395883a1eede	Godless Shrine
+trk	286	dae2e383-f4bd-522a-83b7-5772f169ac96	Hallowed Fountain
+trk	289	7f5e8653-8819-5d77-8d73-776f142eaf72	Overgrown Tomb
+trk	295	25277931-59af-5c66-b356-80701b087fec	Sacred Foundry
+trk	298	c5b6d682-8b5b-5ce0-ae15-39e7127a8a70	Steam Vents
+trk	299	70bb90db-2fb8-5b88-983e-295aad140991	Stomping Ground
+trk	301	55a8dc91-16cd-50c2-b200-0d8c298ced59	Temple Garden
+trk	306	a3bb8103-05a2-5341-b965-d6c7b4ba2d59	Watery Grave
+trk	340	375dad3d-b040-55d0-958a-6b141f76375c	Captain Kathryn Janeway
+trk	343	d20a7449-5f3c-5f51-bb22-ce756e34ff67	Seven of Nine
+trk	366	7085f87b-81bc-5422-b45b-8f29c917d145	Dr. Beverly Crusher
+trk	386	665a3b13-cd3e-5faa-9877-71417a74d364	Captain Kathryn Janeway
+trk	392	af4b9b5c-3f7a-5689-9a11-96e5fe0b0e2d	Hallowed Fountain
+trk	393	26bff161-3819-57a4-8223-ff9c93d57dce	Watery Grave
+trk	394	634aba0d-a5db-5b80-92b6-267a1d7d90dd	Blood Crypt
+trk	395	00cf70ec-98f3-5e3e-928a-a7866a1d0c54	Stomping Ground
+trk	396	fb080136-692f-5095-b13c-f125d480ee9d	Temple Garden
+trk	397	f5e88ec5-9746-50de-91e1-c455c78b1f43	Godless Shrine
+trk	398	0799c285-3d5f-5714-9753-55619de79e26	Steam Vents
+trk	399	5fcd4450-16c6-5920-9ea4-56c0417cd583	Overgrown Tomb
+trk	400	e3f01bd7-8b48-5a86-b5ee-021e2654a584	Sacred Foundry
+trk	401	3b190ae0-5935-5fc3-813a-0669497baedf	Breeding Pool
+trk	417	1d483efa-e89f-55f9-a46b-9325be9bac7d	Salt Vampire
+trk	418	6fba9746-531f-5cda-b8ac-ea1d17d9524b	Captain James T. Kirk
+trk	478	fa55abff-ff01-5b33-9e84-bc8b684f9ce8	Crystalline Entity
+trk	481	45184d1c-80ca-55ea-987b-1ac42782ba60	U.S.S. Enterprise-D, Galaxy-Class
+trk	487	e6b74f43-9470-5d20-9eaf-dc0cdfb46b76	Hallowed Fountain
+trk	488	1484ec43-d273-5bd5-9ecb-e4ece77c51af	Watery Grave
+trk	489	61f4243d-052b-5094-ad75-aa3d203e66fc	Blood Crypt
+trk	490	f3ec0c3a-add6-5a61-bed1-aa84fbf57bdc	Stomping Ground
+trk	491	c0f4bb3e-cdf0-5945-b566-b58e2cc82361	Temple Garden
+trk	492	dd61a3d3-ebdc-543b-a32a-fefdcf537222	Godless Shrine
+trk	493	f85ddacb-3db6-549a-8aa9-32ebc6298e73	Steam Vents
+trk	494	86289624-599f-5c3f-b58e-528cd6d7d346	Overgrown Tomb
+trk	495	4f6ab1f9-4f77-5d12-8115-270ed326e389	Sacred Foundry
+trk	496	fd490670-53df-5e5b-ae57-20df42bd4ba8	Breeding Pool
+trk	500	178dbf17-da19-5735-abad-52436ae905b2	Dr. Beverly Crusher
+trk	520	272a30be-3509-5807-93c9-287ca7eecfc6	Captain Kathryn Janeway
+trk	541	74e100e4-4258-558d-a294-0246873a54a1	Salt Vampire
+trk	542	45eacb32-bb1b-56e9-a008-fcf71eb7d1d9	Captain James T. Kirk
+trk	557	3eeb0b7e-76be-5c24-811f-ed020063b423	U.S.S. Enterprise-D, Galaxy-Class
+trk	1701	2419ff3a-7614-5973-919a-e4b5b01f5708	Captain James T. Kirk
+trk	1704	4ff0ef56-dcee-5f29-be5a-52e3dbd50bf1	Captain Kathryn Janeway
 tsb	1	b7125666-013e-5e20-a169-6ff29be11067	Akroma, Angel of Wrath
 tsb	2	5d6c13f5-1da7-54e6-ad88-9c76853d73a1	Auratog
 tsb	3	6a73faec-653f-50cd-87c0-78881f10d6fc	Celestial Dawn
@@ -102661,7 +103299,7 @@ unf	103	4c9cd78b-257e-56cb-a9cd-8e95ba47c2a6	Circuits Act
 unf	104	d1d1df68-eae4-5701-a2c2-9fdff7e21860	Devil K. Nevil
 unf	105	cc8b4ad6-a9df-5150-92d2-1f883afebeb5	Don't Try This at Home
 unf	106	7958b797-2eb7-5872-9c77-3053f068225a	Eelectrocute
-unf	107	2149c489-5ddc-5aeb-bda6-b53c24e4562c	________ Goblin
+unf	107	2149c489-5ddc-5aeb-bda6-b53c24e4562c	_____ Goblin
 unf	107m	0ff99cfc-cc2d-576c-b175-34de4235c443	"Name Sticker" Goblin
 unf	108	22718764-ec13-50f4-b019-aaf94df0ee0f	Goblin Airbrusher
 unf	109	a5c0136c-1f93-50b4-99d0-0170938ece07	Goblin Blastronauts
@@ -103049,7 +103687,7 @@ unf	389	59991f44-c682-5b25-bd32-933a306e7a8f	Circuits Act
 unf	390	3574c497-dc4d-5fd8-9aab-cfa75b1efb94	Devil K. Nevil
 unf	391	2eaee88a-aaee-5770-9662-dca33d604f59	Don't Try This at Home
 unf	392	cb399ebd-c1df-586b-8ec1-5311a7af526a	Eelectrocute
-unf	393	b349cc63-1757-59eb-a1b8-e0e2cfdf4900	________ Goblin
+unf	393	b349cc63-1757-59eb-a1b8-e0e2cfdf4900	_____ Goblin
 unf	394	d53f434e-eadd-54c2-b43f-b1e02bc780ab	Goblin Airbrusher
 unf	395	0c1ba9f3-a6f6-5d6c-bab5-a1894fdcd70f	Goblin Blastronauts
 unf	396	0ca70b42-e9a1-51ae-905a-e4bb71d96c25	Goblin Cruciverbalist
@@ -103383,7 +104021,7 @@ unk	CA12	3ca907b9-48dc-5978-b813-e3c1692c689a	Melira's Snacks
 unk	CB02	43b84ed9-503c-5e53-b337-5da26f60dfdf	Reverse Ninja
 unk	CB02a	159fa99a-71b1-5009-95ec-46165c267148	Demon Detective
 unk	CB02b	a403b580-57d5-5c44-a35d-f444689e2d0e	Syr Konrad's Squire
-unk	CB02ca	1bf16213-261e-5aa5-8a1a-8c19631cc9fb	Fear (Not the Alpha One)
+unk	CB02ca	1bf16213-261e-5aa5-8a1a-8c19631cc9fb	Fear (split card)
 unk	CB02cb	b3673320-1689-5b6d-9599-39601834146a	Loathing
 unk	CB03	9099bd67-6aeb-5337-b729-ef0cc6d5d292	May of the Machine
 unk	CB05	819d0feb-139b-561c-855b-3da709549b3d	Shedding Snake
@@ -103840,7 +104478,7 @@ unk	UR03	481650ef-cafe-55c1-8d18-4dfa6fca653a	Devoted Temur
 unk	UR04a	b05a7d48-a4c3-5bc4-9fa9-4926152758a4	Guess Who it Is!
 unk	UR04b	de0565b0-6db5-55cf-b6c4-c313c856ea69	Jeska and Kamahl
 unk	UR04c	2a1812e3-e710-59ec-b5cb-62b8e7d8b954	Tarkir Charm
-unk	UR05	96882386-b248-5c1c-819e-db8d69e7dac8	Joven and Chandler
+unk	UR05	96882386-b248-5c1c-819e-db8d69e7dac8	Joven and Chandler (Playtest)
 unk	UR11a	8da8fd3d-dd2e-5796-82d6-f17306b3b9ad	Nevermind
 unk	UR11b	5e64c291-ffdf-5a79-b4dc-255e5d6c39eb	Tax Bolt
 unk	UR13	68fbdb9e-d8dc-5bd0-b358-67a1e7088933	Furnace Oriflamme

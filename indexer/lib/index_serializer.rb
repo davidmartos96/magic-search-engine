@@ -1,3 +1,5 @@
+require_relative "../../search-engine/lib/index_format"
+
 class IndexSerializer
   def initialize(sets, cards, products)
     @sets = sets
@@ -11,10 +13,10 @@ class IndexSerializer
     index_data = {
       "sets" => sets_h,
       "cards" => @cards.map{|name, card_data|
-        [name, index_card(card_data, set_order)]
+        [name, index_card(name, card_data, set_order)]
       }.sort.to_h,
     }
-    # Keep set index order as is, normalize eveything else
+    # Keep set index order as is, normalize everything else
     index_data["cards"] = json_normalize(index_data["cards"])
     index_data["sets"].each do |set_code, set|
       index_data["sets"][set_code] = set
@@ -56,8 +58,6 @@ class IndexSerializer
       "custom",
       "foiling",
       "funny",
-      "has_boosters",
-      "in_other_boosters",
       "languages",
       "name",
       "online_only",
@@ -70,7 +70,41 @@ class IndexSerializer
     ).compact
   end
 
-  def index_card(card, set_order)
+  # `default` (if given) is dropped from the index,
+  # CardDatabase substitutes it back when the key is missing.
+  def index_enum(value, list, name, default: false)
+    return nil if value.nil?
+    index = list.index(value) or raise "Unknown #{name} #{value.inspect}, add it to IndexFormat::#{name.upcase}"
+    return nil if default and index == 0
+    index
+  end
+
+  # Rulings share a date far more often than not, so group by it
+  def index_rulings(rulings)
+    return nil unless rulings
+    rulings.each_with_object({}) do |ruling, result|
+      (result[ruling["date"]] ||= []) << ruling["text"]
+    end
+  end
+
+  # Nearly every card has exactly one name per language
+  def index_foreign_names(foreign_names)
+    return nil unless foreign_names
+    foreign_names.transform_values{|names| names.size == 1 ? names[0] : names}
+  end
+
+  def index_flags(printing)
+    flags = +""
+    IndexFormat::FLAGS.each do |field, char|
+      flags << char if printing[field]
+    end
+    IndexFormat::NEGATED_FLAGS.each do |field, char|
+      flags << char unless printing[field]
+    end
+    flags.empty? ? nil : flags
+  end
+
+  def index_card(name, card, set_order)
     common_card_data = []
     printing_data = []
     card.each do |printing|
@@ -84,8 +118,9 @@ class IndexSerializer
         "dl" => printing["decklimit"],
         "dp" => printing["display_power"],
         "dt" => printing["display_toughness"],
-        "f" => printing["foreign_names"],
+        "f" => index_foreign_names(printing["foreign_names"]),
         "fu" => printing["funny"],
+        "gc" => printing["game_changer"],
         "ha" => printing["has_alchemy"],
         "hd" => printing["hand"], # vanguard
         "hm" => printing["hide_mana_cost"],
@@ -99,14 +134,15 @@ class IndexSerializer
         "n" => printing["name"],
         "ns" => printing["names"],
         "o" => printing["text"],
+        "p" => printing["power"],
         "pr" => printing["produces"],
-        "pw" => printing["power"],
-        "r" => printing["rulings"]&.map{|r| [r["date"], r["text"]]},
+        "r" => index_rulings(printing["rulings"]),
         "rl" => printing["related"],
         "rs" => printing["reserved"],
         "s" => printing["secondary"],
         "sb" => printing["spellbook"],
         "sd" => printing["specialized"],
+        "sn" => printing["short_name"],
         "ss" => printing["specializes"],
         "t" => printing["types"],
         "tb" => printing["subtypes"],
@@ -116,61 +152,49 @@ class IndexSerializer
       }.compact
 
       rarity = printing["rarity"]
-      rarity_code = %W[basic common uncommon rare mythic special].index(rarity) or raise "Unknown rarity #{rarity}"
+      rarity_code = IndexFormat::RARITIES.index(rarity) or raise "Unknown rarity #{rarity}"
 
       printing_data << [
         printing["set_code"],
         {
+          "!" => index_flags(printing),
           "a" => printing["artist"],
           "al" => printing["attraction_lights"],
-          "ar" => printing["arena"],
-          "b" => printing["border"],
+          "b" => index_enum(printing["border"], IndexFormat::BORDERS, "borders", default: true),
           "d" => printing["release_date"],
-          "e" => printing["etched"],
-          "f" => printing["frame"],
-          "fa" => printing["fullart"],
+          "f" => index_enum(printing["frame"], IndexFormat::FRAMES, "frames", default: true),
           "fe" => printing["frame_effects"],
           "fl" => printing["flavor"],
           "fn" => printing["flavor_name"],
-          "fo" => printing["foiling"],
-          "g" => printing["digital"],
+          "fo" => index_enum(printing["foiling"], IndexFormat::FOILINGS, "foilings", default: true),
           "l" => printing["language"],
-          "m" => printing["mtgo"],
-          "mv" => printing["multiverseid"],
+          "m" => printing["multiverseid"],
           "n" => printing["number"],
-          "nt" => printing["nontournament"],
           "o" => printing["others"],
-          "os" => printing["oversized"],
-          "p" => printing["paper"],
+          "p" => printing["promo_types"]&.sort,
           "pr" => printing["partner"],
           "ps" => printing["print_sheet"],
-          "pt" => printing["promo_types"]&.sort,
           "r" => rarity_code,
+          "s" => index_enum(printing["stamp"], IndexFormat::STAMPS, "stamps"),
           "sg" => printing["signature"],
-          "sh" => printing["shandalar"],
-          "sp" => printing["spotlight"],
           "ss" => printing["subsets"],
-          "st" => printing["stamp"],
-          "t" => printing["token"], # there could be token and card with the same name?
-          "tl" => printing["textless"],
-          "ts" => printing["timeshifted"],
-          "vf" => printing["variant_foreign"],
-          "vm" => printing["variant_misprint"],
           "w" => printing["watermark"],
-          "x" => printing["xmage"],
         }.compact
       ]
     end
 
     result = common_card_data[0]
-    name = result["n"]
     # Make sure it's reconciled at this point
     # This should be hard error once we're done
     report_if_inconsistent(name, common_card_data, card)
 
+    # The card name is already the key it's stored under, so don't repeat it
+    card_name = result.delete("n")
+    raise "Card name #{card_name.inspect} does not match index key #{name.inspect}" unless card_name == name
+
     # Output in canonical form, to minimize diffs between mtgjson updates
     result["*"] = printing_data.sort_by{|sc,d|
-      [set_order.fetch(sc), d["n"], d["mv"] || 0]
+      [set_order.fetch(sc), d["n"], d["m"] || 0]
     }
     result
   end
@@ -181,7 +205,7 @@ class IndexSerializer
     inconsistent_keys = keys.select{|key| common_card_data.map{|ccd| ccd[key]}.uniq.size > 1 }
     warn "Data for card #{name} inconsistent on #{inconsistent_keys.join(", ")}"
 
-    # This doesn't work due to keys compression
+    # This is confusing due to keys compression
     inconsistent_keys.each do |key|
       warn "* #{key}: #{card.map{|c| c["set_code"]}.zip(common_card_data.map{|ccd| ccd[key]}).inspect}"
     end

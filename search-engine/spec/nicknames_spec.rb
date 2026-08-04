@@ -104,6 +104,25 @@ describe "Card nicknames" do
       }
   end
 
+  # Fastlands with the condition the other way round
+  it "is:slowland" do
+    assert_search_results "is:slowland",
+      "Deathcap Glade",
+      "Deserted Beach",
+      "Dreamroot Cascade",
+      "Haunted Ridge",
+      "Overgrown Farmland",
+      "Rockfall Vale",
+      "Shattered Sanctum",
+      "Shipwreck Marsh",
+      "Stormcarved Coast",
+      "Sundown Pass"
+    assert_search_results "is:slowland",
+      *cards_matching{|c|
+        c.text =~ %r[This land enters tapped unless you control two or more other lands.\n\{T\}: Add \{.\} or \{.\}.]
+      }
+  end
+
   # The name is unique
   # Some cards are duplicated
   # There are some other lands that give you land when they etb
@@ -256,7 +275,7 @@ describe "Card nicknames" do
       "Treetop Village",
       "Urza's Hot Dog Stand",
       "Wandering Fumarole"
-    assert_search_equal "is:manland", "t:land o:becomes o:creature -(Tyrite Sanctum) -(Sorrow's Path) -(Mech Hangar) -(_____) -(________) -(Skycoach Waypoint)"
+    assert_search_equal "is:manland", "t:land o:becomes o:creature -(Tyrite Sanctum) -(Sorrow's Path) -(Mech Hangar) -(_____) -(Skycoach Waypoint)"
     assert_search_equal "is:manland", "is:creatureland"
   end
 
@@ -362,6 +381,32 @@ describe "Card nicknames" do
     assert_search_equal "is:tricycleland", "is:triome"
   end
 
+  # Both faces are lands, which no other modal double-faced card does
+  it "is:pathway" do
+    assert_search_results "is:pathway",
+      "Barkchannel Pathway",
+      "Tidechannel Pathway",
+      "Blightstep Pathway",
+      "Searstep Pathway",
+      "Branchloft Pathway",
+      "Boulderloft Pathway",
+      "Brightclimb Pathway",
+      "Grimclimb Pathway",
+      "Clearwater Pathway",
+      "Murkwater Pathway",
+      "Cragcrown Pathway",
+      "Timbercrown Pathway",
+      "Darkbore Pathway",
+      "Slitherbore Pathway",
+      "Hengegate Pathway",
+      "Mistgate Pathway",
+      "Needleverge Pathway",
+      "Pillarverge Pathway",
+      "Riverglide Pathway",
+      "Lavaglide Pathway"
+    assert_search_equal "is:pathway", "layout:modaldfc t:land other:t:land"
+  end
+
   it "is:canopyland" do
     assert_search_results "is:canopyland",
       "Fiery Islet",
@@ -373,6 +418,26 @@ describe "Card nicknames" do
     assert_search_equal "is:canopyland",
       't:land o:"pay 1 life" o:"{1}, {T}, Sacrifice this land: Draw a card." o:/\{T\}, Pay 1 life: Add \{.\} or \{.\}/'
     assert_search_equal "is:canland", "is:canopyland"
+  end
+
+  # 5 from Battlebond, 5 from Commander Legends, so they're named after either set or the crowd
+  it "is:bondland" do
+    assert_search_results "is:bondland",
+      "Bountiful Promenade",
+      "Luxury Suite",
+      "Morphic Pool",
+      "Rejuvenating Springs",
+      "Sea of Clouds",
+      "Spectator Seating",
+      "Spire Garden",
+      "Training Center",
+      "Undergrowth Stadium",
+      "Vault of Champions"
+    assert_search_equal "is:bondland",
+      't:land o:"This land enters tapped unless you have two or more opponents." o:/\{T\}: Add \{.\} or \{.\}/'
+    assert_search_equal "is:battlebondland", "is:bondland"
+    assert_search_equal "is:bbdland", "is:bondland"
+    assert_search_equal "is:crowdland", "is:bondland"
   end
 
   it "is:shadowland" do
@@ -389,6 +454,60 @@ describe "Card nicknames" do
       "Vineglimmer Snarl"
     assert_search_equal "is:shadowland",
       %q[t:land o:/As this land enters, you may reveal an? \S+ or \S+/ o:"If you don't, this land enters tapped"]
+    # Scryfall's is:snarl returns the Innistrad shadowlands as well, so it's the same cycle
+    assert_search_equal "is:snarl", "is:shadowland"
+  end
+
+  # Only the Karlov Manor cycle, other lands which surveil do it for a price
+  it "is:surveilland" do
+    assert_search_results "is:surveilland",
+      "Commercial District",
+      "Elegant Parlor",
+      "Hedge Maze",
+      "Lush Portico",
+      "Meticulous Archive",
+      "Raucous Theater",
+      "Shadowy Backstreet",
+      "Thundering Falls",
+      "Undercity Sewers",
+      "Underground Mortuary"
+    assert_search_equal "is:surveilland",
+      %[t:land o:"This land enters tapped." o:"When this land enters, surveil 1."]
+  end
+
+  # Other lands gated on controlling a land type only ever name one, not a pair
+  # Krosan Verge and Sandstorm Verge are named Verge but aren't part of the cycle
+  it "is:vergeland" do
+    assert_search_results "is:vergeland",
+      "Blazemire Verge",
+      "Bleachbone Verge",
+      "Floodfarm Verge",
+      "Gloomlake Verge",
+      "Hushwood Verge",
+      "Riverpyre Verge",
+      "Sunbillow Verge",
+      "Thornspire Verge",
+      "Wastewood Verge",
+      "Willowrush Verge"
+    assert_search_equal "is:vergeland",
+      %q[t:land o:/Activate only if you control an? \w+ or an? \w+\./]
+  end
+
+  # A curated list, not a functional cycle - Vintage Masters is the only set that printed
+  # exactly these nine and nothing else at its "special" rarity
+  it "is:power9" do
+    assert_search_results "is:power9",
+      "Ancestral Recall",
+      "Black Lotus",
+      "Mox Emerald",
+      "Mox Jet",
+      "Mox Pearl",
+      "Mox Ruby",
+      "Mox Sapphire",
+      "Time Walk",
+      "Timetwister"
+    assert_search_equal_cards "is:power9", "e:vma r:special"
+    assert_search_equal "is:p9", "is:power9"
   end
 
   # This is quite questionable
@@ -408,6 +527,50 @@ describe "Card nicknames" do
       "Subterranean Hangar"
     assert_search_equal "is:storageland",
       't:land o:"Remove" o:"storage counters from" -o:"you may"'
+  end
+
+  # 2/2 for 2 mana, and there's no type check, so a few Vehicles and a Spacecraft qualify
+  it "is:bear" do
+    assert_search_equal "is:bear", "pow=2 tou=2 mv=2"
+    assert_search_include "is:bear",
+      "Balduvian Bears",
+      "Grizzly Bears",
+      "Runeclaw Bear"
+    assert_search_results "is:bear -t:creature",
+      "High-Speed Hoverbike",
+      "Shadowed Caravel",
+      "Soul Shredder",
+      "Wurmwall Sweeper"
+    assert_search_exclude "is:bear",
+      "Ambush Viper",
+      "Sengir Vampire",
+      "Tarmogoyf"
+  end
+
+  # The ability, not the frame effect - the 3 funny cards which have it never got the companion frame
+  # The Companion of the Wilds spells its keyword "Old Companion —"
+  it "is:companion" do
+    assert_search_results "is:companion",
+      "Gyruda, Doom of Depths",
+      "Jegantha, the Wellspring",
+      "Kaheera, the Orphanguard",
+      "Keruga, the Macrosage",
+      "Lurrus of the Dream-Den",
+      "Lutri, Pauper Otter",
+      "Lutri, the Spellchaser",
+      "Obosh, the Preypiercer",
+      "The Companion of the Wilds",
+      "Treizeci, Sun of Serra",
+      "Umori, the Collector",
+      "Yorion, Sky Nomad",
+      "Zirda, the Dawnwaker"
+    assert_search_equal "is:companion", %[o:"Companion —"]
+    # frame:companion is the per-printing frame effect, so it misses the 3 funny cards
+    # (and the Ikoria cards' own Multiverse Legends etc. printings)
+    assert_search_exclude "frame:companion",
+      "Lutri, Pauper Otter",
+      "The Companion of the Wilds",
+      "Treizeci, Sun of Serra"
   end
 
   # A card that lists a lot of keywords in a single list, in an order that's different from the canonical keyword order
@@ -472,6 +635,21 @@ describe "Card nicknames" do
       "Jihad",
       "Pradesh Gypsies",
       "Stone-Throwing Devils"
+  end
+
+  # Both faces of Nightmare Moon are listed, as we treat card faces separately
+  it "is:mylittlepony" do
+    assert_search_results "is:mylittlepony",
+      "Applejack",
+      "Discord, Lord of Disharmony",
+      "Fluttershy",
+      "Nightmare Moon",
+      "Pinkie Pie",
+      "Princess Luna",
+      "Princess Twilight Sparkle",
+      "Rainbow Dash",
+      "Rarity"
+    assert_search_equal "is:mlp", "is:mylittlepony"
   end
 
   it "is:masterpiece" do
@@ -595,7 +773,7 @@ describe "Card nicknames" do
       "Fight the _____ Fight",
       "Finishing Move",
       "Glitterflitter",
-      "________ Goblin",
+      "_____ Goblin",
       '"Name Sticker" Goblin', # not explicitly, it's just MTGO variant
       "Last Voyage of the _____",
       "Lineprancers",

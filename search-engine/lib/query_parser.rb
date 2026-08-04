@@ -1,5 +1,6 @@
 # Where's autoloader when we need it
 require_relative "condition/condition"
+require_relative "condition/query_mana_to_s"
 require_relative "condition/condition_simple"
 require_relative "condition/condition_format"
 require_relative "condition/condition_print"
@@ -63,7 +64,7 @@ private
     # Merge direction with sort
     case @metadata.delete(:direction)
     when "asc"
-      # alredy fine
+      # already fine
     when "desc"
       sort_order = sort_order.map do |s|
         s.start_with?("-") ? s[1..] : "-#{s}"

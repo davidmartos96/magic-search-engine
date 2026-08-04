@@ -1,7 +1,7 @@
 describe Deck do
   include_context "db"
 
-  # This is getting out of hand, and nseeds some cleanup
+  # This is getting out of hand, and needs some cleanup
   it "each set has correct decks" do
     allowed_combinations = [
       # Completely unique types
@@ -80,6 +80,7 @@ describe Deck do
       ["starter", "Demo Deck"],
       ["expansion", "Enemy Deck"],
       ["sld", "Dandan Deck"],
+      ["memorabilia", "Challenge Deck"],
       # Non-decks, this needs to be sorted out at some point
       ["box", "Box"],
       ["sld", "Secret Lair Drop"],
@@ -98,6 +99,7 @@ describe Deck do
       ["eternal", "Box Set"],
       ["standard", "Bundle Land Pack"],
       ["modern", "Bundle Land Pack"],
+      ["commander", "Bundle Land Pack"],
     ]
 
     db.sets.each do |set_code, set|

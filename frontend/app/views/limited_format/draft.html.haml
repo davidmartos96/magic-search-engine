@@ -1,0 +1,21 @@
+%h3= @limited_format.to_s
+- if @limited_format.digital_client
+  - if @set.online_only?
+    %p
+      This set was never printed on paper, so this draft only ever happened
+      on #{@limited_format.digital_client}.
+  - else
+    %p
+      #{@limited_format.digital_client} builds its own boosters, so this draft
+      is not the same format as the paper draft of this set.
+- if @limited_format.description
+  %p= @limited_format.description
+%p Open these packs in order:
+%ol
+  - @limited_format.booster_order.each do |pack|
+    %li
+      = link_to_pack(pack) do
+        = pack.name
+      = "(#{pack.code.upcase})"
+= render "draft_rules", limited_format: @limited_format
+%p Drafting is not supported on this website.

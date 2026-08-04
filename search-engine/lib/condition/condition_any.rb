@@ -26,7 +26,8 @@ class ConditionAny < ConditionOr
       @conds << ConditionColorExpr.new("c", "=", "")
     when "common", "uncommon", "rare", "mythic", "mythic rare", "special", "basic"
       @conds << ConditionRarity.new("=", @query)
-    when %r[\A(-?\d+)/(-?\d+)\z]
+    # Same value syntax as pow=/tou= accepts, so weird ones like Tarmogoyf's */1+* work too
+    when %r[\A([²\d\.\-\*\+½x∞\?]+)/([²\d\.\-\*\+½x∞\?]+)\z]
       @conds << ConditionAnd.new(
         ConditionExpr.new("pow", "=", $1),
         ConditionExpr.new("tou", "=", $2),
@@ -35,6 +36,10 @@ class ConditionAny < ConditionOr
       @conds << ConditionIsAugment.new
     when "battleland", "tangoland"
       @conds << ConditionIsBattleland.new
+    when "bear"
+      @conds << ConditionIsBear.new
+    when "bondland", "battlebondland", "bbdland", "crowdland"
+      @conds << ConditionIsBondland.new
     when "bounceland", "karoo"
       @conds << ConditionIsBounceland.new
     when "canopyland", "canland"
@@ -42,9 +47,11 @@ class ConditionAny < ConditionOr
     when "checkland"
       @conds << ConditionIsCheckland.new
     when "colorshifted"
-      @conds << ConditionIsColorshifted.new
+      @conds << ConditionFrameEffect.new("colorshifted")
     when "commander" # ???
       @conds << ConditionIsCommander.new
+    when "companion"
+      @conds << ConditionIsCompanion.new
     when "digital"
       @conds << ConditionIsDigital.new
     when "dual"
@@ -61,26 +68,44 @@ class ConditionAny < ConditionOr
       @conds << ConditionIsFunny.new
     when "gainland"
       @conds << ConditionIsGainland.new
+    when "gamechanger"
+      @conds << ConditionIsGamechanger.new
     when "keywordsoup"
       @conds << ConditionIsKeywordsoup.new
     when "manland", "creatureland"
       @conds << ConditionIsManland.new
+    when "meldpart"
+      @conds << ConditionIsMeldpart.new
+    when "meldresult"
+      @conds << ConditionIsMeldresult.new
     when "multipart"
       @conds << ConditionIsMultipart.new
+    when "outlaw"
+      @conds << ConditionIsOutlaw.new
     when "painland"
       @conds << ConditionIsPainland.new
+    when "pathway"
+      @conds << ConditionIsPathway.new
+    when "party"
+      @conds << ConditionIsParty.new
     when "permanent"
       @conds << ConditionIsPermanent.new
+    when "power9", "p9"
+      @conds << ConditionIsPower9.new
     when "primary"
       @conds << ConditionIsPrimary.new
     when "secondary"
       @conds << ConditionIsSecondary.new
-    when "shadowland"
+    when "shadowland", "snarl"
       @conds << ConditionIsShadowland.new
     when "storageland"
       @conds << ConditionIsStorageland.new
+    when "surveilland"
+      @conds << ConditionIsSurveilland.new
     when "triland"
       @conds << ConditionIsTriland.new
+    when "vergeland"
+      @conds << ConditionIsVergeland.new
     when "front"
       @conds << ConditionIsFront.new
     when "back"
@@ -88,7 +113,7 @@ class ConditionAny < ConditionOr
     when "booster"
       @conds << ConditionIsBooster.new
     when "promo"
-      @conds << ConditionIsPromo.new
+      @conds << ConditionSetType.new("promo")
     when "reprint"
       @conds << ConditionIsReprint.new
     when "reserved"
@@ -97,6 +122,8 @@ class ConditionAny < ConditionOr
       @conds << ConditionIsScryland.new
     when "shockland"
       @conds << ConditionIsShockland.new
+    when "slowland"
+      @conds << ConditionIsSlowland.new
     when "spell"
       @conds << ConditionIsSpell.new
     when "timeshifted"
@@ -106,7 +133,7 @@ class ConditionAny < ConditionOr
     when "vanilla"
       @conds << ConditionIsVanilla.new
     end
-    @simple = @conds.all?(&:simple?)
+    setup_conds!
   end
 
   def to_s

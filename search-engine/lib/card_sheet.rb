@@ -38,8 +38,10 @@ class CardSheet
   end
 
   # This is as far as our collation emulation goes
-  # FIXME: We should check we're not infinite looping here
   def random_cards_without_duplicates(count)
+    if count > distinct_name_count
+      raise "#{name || "sheet"} only has #{distinct_name_count} distinct card names, can't pick #{count} without duplicates"
+    end
     result = Set[]
     seen_names = Set[]
     count.times do
@@ -56,23 +58,32 @@ class CardSheet
   # Also used by booster: queries
 
   def cards
-    @elements.flat_map do |element|
-      if element.is_a?(CardSheet)
-        element.cards
-      else
-        [element]
-      end
-    end.uniq
+    @cards ||= begin
+      @elements.flat_map do |element|
+        if element.is_a?(CardSheet)
+          element.cards
+        else
+          [element]
+        end
+      end.uniq
+    end
+  end
+
+  # Upper bound on how many cards random_cards_without_duplicates can return
+  def distinct_name_count
+    @distinct_name_count ||= cards.map(&:name).uniq.size
   end
 
   def source_set_codes
-    @elements.flat_map do |element|
-      if element.is_a?(CardSheet)
-        element.source_set_codes
-      else
-        [element.set_code]
-      end
-    end.uniq
+    @source_set_codes ||= begin
+      @elements.flat_map do |element|
+        if element.is_a?(CardSheet)
+          element.source_set_codes
+        else
+          [element.set_code]
+        end
+      end.uniq
+    end
   end
 
   def probabilities

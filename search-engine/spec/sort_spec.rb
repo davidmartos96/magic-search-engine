@@ -1,4 +1,4 @@
-# Digital sets often have BS realese date
+# Digital sets often have BS release date
 describe "Sorting" do
   include_context "db"
 
@@ -329,7 +329,7 @@ describe "Sorting" do
     ])
   end
 
-  it "sort:pow" do
+  it "sort:power" do
     ordered_search("e:kld r:mythic t:artifact sort:power", :name, :power, proc{|c| c.types.include?("vehicle")}).should eq([
       ["Combustible Gearhulk", 6, false],
       ["Skysovereign, Consul Flagship", 6, true],

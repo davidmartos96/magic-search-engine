@@ -1,4 +1,25 @@
+require_relative "index_format"
+
 class CardPrinting
+  # Boolean flags packed into the "!" string, see IndexFormat::FLAGS
+  ARENA_FLAG            = IndexFormat::FLAGS.fetch("arena")
+  DIGITAL_FLAG          = IndexFormat::FLAGS.fetch("digital")
+  DREAMCAST_FLAG        = IndexFormat::FLAGS.fetch("dreamcast")
+  ETCHED_FLAG           = IndexFormat::FLAGS.fetch("etched")
+  FULLART_FLAG          = IndexFormat::FLAGS.fetch("fullart")
+  NONTOURNAMENT_FLAG    = IndexFormat::FLAGS.fetch("nontournament")
+  OVERSIZED_FLAG        = IndexFormat::FLAGS.fetch("oversized")
+  SHANDALAR_FLAG        = IndexFormat::FLAGS.fetch("shandalar")
+  SPOTLIGHT_FLAG        = IndexFormat::FLAGS.fetch("spotlight")
+  TEXTLESS_FLAG         = IndexFormat::FLAGS.fetch("textless")
+  TIMESHIFTED_FLAG      = IndexFormat::FLAGS.fetch("timeshifted")
+  TOKEN_FLAG            = IndexFormat::FLAGS.fetch("token")
+  VARIANT_FOREIGN_FLAG  = IndexFormat::FLAGS.fetch("variant_foreign")
+  VARIANT_MISPRINT_FLAG = IndexFormat::FLAGS.fetch("variant_misprint")
+  NOT_MTGO_FLAG         = IndexFormat::NEGATED_FLAGS.fetch("mtgo")
+  NOT_PAPER_FLAG        = IndexFormat::NEGATED_FLAGS.fetch("paper")
+  NOT_XMAGE_FLAG        = IndexFormat::NEGATED_FLAGS.fetch("xmage")
+
   attr_reader(
     :artist_name,
     :attraction_lights,
@@ -38,10 +59,12 @@ class CardPrinting
   )
 
   # Performance cache of derived information
-  attr_reader :stemmed_name, :set_code, :release_date_i, :number_i
+  attr_reader :stemmed_name, :set_code, :release_date_i, :number_i, :types
 
   # Set by CardDatabase initialization
   attr_accessor :others, :artist, :default_sort_index, :partner, :in_boosters
+  # Set by the frontend
+  attr_accessor :image_path
 
   def initialize(card, set, data)
     @card = card
@@ -52,7 +75,7 @@ class CardPrinting
     @watermark = data["w"]
     @number = data["n"]
     @number_i = @number.to_i
-    @multiverseid = data["mv"]
+    @multiverseid = data["m"]
     if data["a"]
       @artist_name = data["a"].normalize_accents # TODO: move to indexer
     else
@@ -65,42 +88,46 @@ class CardPrinting
     if @flavor_name
       @stemmed_flavor_name = -@flavor_name.downcase.normalize_accents.gsub(/s\b/, "").tr("-", " ")
     end
-    raise "Bad foiling #{data["fo"]} for #{self}" unless ["foilonly", "nonfoil", "both"].include?(data["fo"])
-    @foiling = data["fo"].to_sym
-    @border = data["b"] || @set.border
-    @frame = data["f"]
+    @foiling = IndexFormat::FOILING_SYMBOLS.fetch(data["fo"] || 0)
+    @border = IndexFormat::BORDERS.fetch(data["b"] || 0)
+    @frame = IndexFormat::FRAMES.fetch(data["f"] || 0)
     @frame_effects = data["fe"] || []
     @rarity_code = data["r"]
-    @arena = data["ar"]
     @attraction_lights = data["al"]
-    @digital = data["g"]
-    @etched = data["e"]
-    @fullart = data["fa"]
     @language = data["l"]
-    @mtgo = data["m"]
-    @nontournament = data["nt"]
-    @others = data["o"] # overriden by CardDatabase
-    @oversized = data["os"]
-    @paper = data["p"]
-    @partner = data["pr"] # overriden by CardDatabase
+    @others = data["o"] # overridden by CardDatabase
+    @partner = data["pr"] # overridden by CardDatabase
     @print_sheet = data["ps"]
-    @promo_types = data["pt"]
-    @shandalar = data["sh"]
+    @promo_types = data["p"]
     @signature = data["sg"]
-    @spotlight = data["sp"]
-    @stamp = data["st"]
+    @stamp = data["s"] && IndexFormat::STAMPS.fetch(data["s"])
     @subsets = data["ss"]
-    @textless = data["tl"]
-    @timeshifted = data["ts"]
-    @token = data["t"]
-    @variant_foreign = data["vf"]
-    @variant_misprint = data["vm"]
-    @xmage = data["x"]
+
+    flags = data["!"] || ""
+    @arena = flags.include?(ARENA_FLAG)
+    @digital = flags.include?(DIGITAL_FLAG)
+    @dreamcast = flags.include?(DREAMCAST_FLAG)
+    @etched = flags.include?(ETCHED_FLAG)
+    @fullart = flags.include?(FULLART_FLAG)
+    @nontournament = flags.include?(NONTOURNAMENT_FLAG)
+    @oversized = flags.include?(OVERSIZED_FLAG)
+    @shandalar = flags.include?(SHANDALAR_FLAG)
+    @spotlight = flags.include?(SPOTLIGHT_FLAG)
+    @textless = flags.include?(TEXTLESS_FLAG)
+    @timeshifted = flags.include?(TIMESHIFTED_FLAG)
+    @token = flags.include?(TOKEN_FLAG)
+    @variant_foreign = flags.include?(VARIANT_FOREIGN_FLAG)
+    @variant_misprint = flags.include?(VARIANT_MISPRINT_FLAG)
+    @mtgo = !flags.include?(NOT_MTGO_FLAG)
+    @paper = !flags.include?(NOT_PAPER_FLAG)
+    @xmage = !flags.include?(NOT_XMAGE_FLAG)
+
     @baseset = calculate_baseset
 
     # Performance cache
     @stemmed_name = @card.stemmed_name
     @set_code = @set.code
+    @types = @card.types
 
     # Initialized after boosters are loaded
     @in_boosters = false
@@ -122,8 +149,24 @@ class CardPrinting
     !!@shandalar
   end
 
+  def dreamcast?
+    !!@dreamcast
+  end
+
   def xmage?
     !!@xmage
+  end
+
+  # Same games as game: queries know about
+  def games
+    @games ||= [
+      ("paper" if @paper),
+      ("mtgo" if @mtgo),
+      ("arena" if @arena),
+      ("shandalar" if @shandalar),
+      ("dreamcast" if @dreamcast),
+      ("xmage" if @xmage),
+    ].compact.freeze
   end
 
   def in_boosters?
@@ -135,7 +178,7 @@ class CardPrinting
   end
 
   def rarity
-    %W[basic common uncommon rare mythic special].fetch(@rarity_code)
+    IndexFormat::RARITIES.fetch(@rarity_code)
   end
 
   def ui_rarity
@@ -167,11 +210,9 @@ class CardPrinting
     brawler?
     cmc
     color_identity
-    color_identity_set
     color_indicator
-    color_indicator_set
+    color_indicator_colors
     colors
-    colors_set
     commander?
     count_paperprints
     count_papersets
@@ -192,6 +233,7 @@ class CardPrinting
     fulltext
     fulltext_normalized
     funny
+    game_changer
     hand
     has_alchemy
     has_multiple_parts?
@@ -216,6 +258,7 @@ class CardPrinting
     reserved
     rulings
     secondary?
+    short_name
     specialized
     specializes
     spellbook
@@ -223,7 +266,6 @@ class CardPrinting
     text_normalized
     toughness
     typeline
-    types
   ].each do |m|
     eval("def #{m}; @card.#{m}; end")
   end
@@ -288,6 +330,26 @@ class CardPrinting
 
   def main_front
     physical_card.main_front
+  end
+
+  # Is this printing the face that PhysicalCard identity is based on?
+  # Precomputed, as `is:mainfront` would otherwise build a PhysicalCard for every card it looks at.
+  def main_front?
+    @main_front
+  end
+
+  # Called by CardDatabase once `others` references are resolved.
+  # This must stay in sync with PhysicalCard.for.
+  def calculate_main_front!
+    @main_front =
+      if !has_multiple_parts? or name == "B.F.M. (Big Furry Monster)" or name == "B.F.M. (Big Furry Monster, Right Side)"
+        true
+      elsif !front?
+        false
+      else
+        # Meld pairs have two fronts, and only the lower numbered one is the main front
+        [self, *@others].select(&:front?).min_by(&:number).equal?(self)
+      end
   end
 
   def physical_card

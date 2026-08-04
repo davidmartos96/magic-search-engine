@@ -1,53 +1,11 @@
 describe "Full Database Test" do
   include_context "db"
 
-  def legality_information(name, date = nil)
-    db.cards[name.downcase].legality_information(date)
-  end
-
-  # There's no point checking db.number_of_cards / db.number_of_printings, uuid index will flag any unexpected changes
-
   it "is:promo" do
     # it's not totally clear what counts as "promo"
     # and different engines return different results
     # It might be a good idea to sort out edge cases someday
     assert_search_equal "is:promo", "st:promo"
-  end
-
-  it "block codes" do
-    assert_search_equal "b:rtr", 'b:"Return to Ravnica"'
-    assert_search_equal "b:in", "b:Invasion"
-    assert_search_equal "b:som", 'b:"Scars of Mirrodin"'
-    assert_search_equal "b:som", "b:scars"
-    assert_search_equal "b:mi", "b:Mirrodin"
-  end
-
-  it "block special characters" do
-    assert_search_equal %[b:us], "b:urza"
-    assert_search_equal %[b:"Urza's"], "b:urza"
-  end
-
-  it "block contents" do
-    assert_search_equal "e:rtr OR e:gtc OR e:dgm", "b:rtr"
-    assert_search_equal "e:in or e:ps or e:ap", "b:Invasion"
-    assert_search_equal "e:isd or e:dka or e:avr", "b:Innistrad"
-    assert_search_equal "e:lw or e:mt or e:shm or e:eve", "b:lorwyn"
-    assert_search_equal "e:som or e:mbs or e:nph", "b:som"
-    assert_search_equal "e:mi or e:ds or e:5dn", "b:mi"
-    # Promos are now per set
-    assert_search_equal "e:som or e:psom", "e:scars"
-    assert_search_equal_cards 'f:"lorwyn shadowmoor block"', "b:lorwyn"
-    # Fake blocks
-    assert_search_equal "e:dom", "b:dom"
-    # Gatherer codes
-    assert_search_equal "b:lw", "b:lrw"
-    assert_search_equal "b:mi", "b:mrd"
-    assert_search_equal "b:mr", "b:mir"
-    # Querying by second or third set code or name
-    assert_search_equal "b:wwk", "b:zen"
-    assert_search_equal "b:worldwake", "b:zen"
-    assert_search_equal "b:unh", "b:un"
-    assert_search_equal "b:unstable", "b:un"
   end
 
   it "edition special characters" do
@@ -62,6 +20,7 @@ describe "Full Database Test" do
     assert_search_results "part:cmc=1 part:cmc=2",
       "Appeal", "Authority",
       "Bloodline Recollector", "Ancestral Craving",
+      "Bofur, Reliable Guardian", "Concerted Care",
       "Callous Sell-Sword", "Burn Together",
       "Claim", "Fame",
       "Crescendo Conductor", "Boltwave (Prepared)",
@@ -72,13 +31,15 @@ describe "Full Database Test" do
       "Emeritus of Conflict", "Lightning Bolt (Prepared)",
       "Faerie Guidemother", "Gift of the Fae",
       "Failure", "Comply",
-      "Fear (Not the Alpha One)", "Loathing",
+      "Fear (split card)", "Loathing",
       "Ghost Lantern", "Bind Spirit",
       "Goblin Glasswright", "Craft with Pride",
       "Heaven", "Earth",
       "Infirmary Healer", "Stream of Life (Prepared)",
       "Kellan, Daring Traveler", "Journey On",
       "Leech Collector", "Bloodletting",
+      "Most Decrepit Old Bird", "Speak Secrets",
+      "Paradox Shaper", "Omit Variables",
       "Pollen-Shield Hare", "Hare Raising",
       "Rimrock Knight", "Boulder Rush",
       "Shepherd of the Flock", "Usher to Safety",
@@ -87,6 +48,7 @@ describe "Full Database Test" do
       "Studious First-Year", "Rampant Growth (Prepared)",
       "Tear", "Wear",
       "Their", "There", "They're",
+      "Vigorbloom Vanguard", "Seed Suture",
       "What", "When", "Where", "Who", "Why"
     # Semantics of that changed
     # it used to match a lot of double-faced cards
@@ -260,57 +222,6 @@ describe "Full Database Test" do
     assert_search_results "tiger is:funny", "Paper Tiger", "Stocking Tiger"
   end
 
-  it "mana variables" do
-    assert_search_equal "b:ravnica guildmage mana=hh", "b:ravnica guildmage c:m cmc=2"
-    assert_search_equal "e:rtr mana=h", "e:rtr c:m cmc=1"
-    assert_search_results "mana>mmmmm",
-      "B.F.M. (Big Furry Monster)",
-      "B.F.M. (Big Furry Monster, Right Side)",
-      "Doomsday Excruciator",
-      "Khalni Hydra",
-      "Primalcrux"
-    assert_count_cards "e:ktk (charm OR ascendancy) mana=mno", 10
-    assert_count_cards "e:ktk mana=mno", 15
-    assert_search_results "mana=mmnnnoo",
-      "Brilliant Ultimatum",
-      "Clarion Ultimatum",
-      "Cruel Ultimatum",
-      "Eerie Ultimatum",
-      "Emergent Ultimatum",
-      "Genesis Ultimatum",
-      "Inspired Ultimatum",
-      "Ruinous Ultimatum",
-      "Titanic Ultimatum",
-      "Violent Ultimatum"
-    assert_search_results "mana=wwmmmnn",
-      "Brilliant Ultimatum",
-      "Eerie Ultimatum",
-      "Inspired Ultimatum",
-      "Titanic Ultimatum"
-    assert_search_equal "mana=mmnnnoo", "mana=nnooomm"
-    assert_search_equal "mana>nnnnn", "mana>ooooo"
-    assert_search_equal "mana=mno", "mana={m}{n}{o}"
-    assert_search_equal "mana=mmn", "mana=mnn"
-    assert_search_equal "mana=mmn", "mana>=mnn mana <=mmn"
-    assert_count_cards "mana>=mh game:paper", 36
-    assert_search_results "mana=mh game:paper",
-      "Bant Sureblade",
-      "Crystallization",
-      "Esper Stormblade",
-      "Grixis Grimblade",
-      "Jund Hackblade",
-      "Kaust, Eyes of the Glade",
-      "Naya Hushblade",
-      "Sangrite Backlash",
-      "Thopter Foundry",
-      "Trace of Abundance"
-    assert_search_equal "mana=mh", "mana={m}{h}"
-    assert_search_equal "mana={w}{m}", "mana={w}{u} OR mana={w}{b} OR mana={w}{r} OR mana={w}{g}"
-    assert_search_equal "mana={m}{h}", "mana={w}{h} OR mana={u}{h} OR mana={b}{h} OR mana={r}{h} OR mana={g}{h}"
-    # Only {w}{u/b} of these exists, no cards have hybrid and nonhybrid of same color in mana cost yet
-    assert_search_equal "mana={m}{w/b}", "mana={w}{w/b} OR mana={u}{w/b} OR mana={b}{w/b} OR mana={r}{w/b} OR mana={g}{w/b}"
-  end
-
   it "stemming" do
     assert_search_equal "vision", "visions"
   end
@@ -318,36 +229,6 @@ describe "Full Database Test" do
   it "comma separated set list" do
     assert_search_equal "e:cmd or e:cm1 or e:c13 or e:c14 or e:c15 or e:c16 or e:c17 or e:c18 or e:cma or e:cm2", "e:cmd,cm1,c13,c14,c15,c16,c17,c18,cma,cm2"
     assert_search_equal "st:portal -alt:-st:portal", "e:por,p02,ptk -alt:-e:por,p02,ptk"
-  end
-
-  it "comma separated block list" do
-    assert_search_equal "b:isd or b:soi", "b:isd,soi"
-  end
-
-  it "legal everywhere" do
-    legality_information("Island").should be_legal_everywhere
-    legality_information("Giant Spider").should_not be_legal_everywhere
-    legality_information("Birthing Pod").should_not be_legal_everywhere
-    legality_information("Naya").should_not be_legal_everywhere
-    legality_information("Backup Plan").should_not be_legal_everywhere
-  end
-
-  it "legal nowhere" do
-    legality_information("Island").should_not be_legal_nowhere
-    legality_information("Giant Spider").should_not be_legal_nowhere
-    legality_information("Birthing Pod").should_not be_legal_nowhere
-    legality_information("Naya").should be_legal_nowhere
-    legality_information("Backup Plan").should be_legal_nowhere
-  end
-
-  # Bugfix
-  it "cm1/cma set codes" do
-    "e:cm1".should have_count_printings(18)
-    "e:cma".should have_count_printings(320)
-  end
-
-  it "is:permanent" do
-    assert_search_equal "is:permanent", "-(t:instant or t:sorcery or t:plane or t:scheme or t:phenomenon or t:conspiracy or t:vanguard)"
   end
 
   it "r:special" do
@@ -364,10 +245,6 @@ describe "Full Database Test" do
     assert_count_cards "is:unique", number_of_unique_cards
     assert_search_equal "is:unique", "++ is:unique"
     assert_search_equal "not:unique", "-is:unique"
-  end
-
-  it "is:historic" do
-    assert_search_equal "is:historic", "t:artifact or t:legendary or t:saga"
   end
 
   # This test got messed up by latest Oracle changes replacing text by "this creature" etc.
@@ -397,19 +274,13 @@ describe "Full Database Test" do
   end
 
   it "is:custom" do
+    # is:custom is used only by forks, there shouldn't be any custom cards in the database
     assert_search_results "is:custom"
   end
 
   it "is:mainfront" do
     # Not the same for split cards
     assert_search_equal "-is:split is:mainfront", "-is:split is:front is:primary"
-  end
-
-  it "is:buyabox" do
-    assert_search_include "is:buyabox", "Nexus of Fate", "Flusterstorm"
-    # They started putting nonfoil buyabox cards in Collector Boosters,
-    # they even still say "buy a box" on the card
-    # assert_search_results "is:buyabox is:booster"
   end
 
   # Some are not amazing

@@ -6841,8 +6841,21 @@ gvl	tgvl	10	74eabb56-cb31-598b-991e-7207c834075f	Elephant
 gvl	tgvl	11	587b2ee0-c1d4-523e-9b1e-9a8b4a7d4cdb	Bat
 h17	h17	4	d5abbb6b-aa86-501a-8dae-497523d36dcc	Dragon
 hho	hho	21★	8d9ac885-7d1a-5102-977a-8105534d1979	Treasure
-hob	thob	6	eeddde5e-f1d5-5a4f-b53a-d6edab90d16b	Dwarf Token
+hob	thob	1	1807fddd-eb99-5c9c-9f3d-acc8bc0cce4f	Bird Soldier
+hob	thob	2	c3a0f2b3-5555-54bd-b968-64b11c4af64b	Human Soldier
+hob	thob	3	5fca848a-7a6d-5b89-b3d7-03a66249a27c	Goblin Army
+hob	thob	4	831c4ca5-fd24-5d3d-8360-ae07040c64a3	Goblin Army
+hob	thob	5	2f6f0b98-9299-5623-a8f3-6db6a05e81e4	Dragon
+hob	thob	6	eeddde5e-f1d5-5a4f-b53a-d6edab90d16b	Dwarf
+hob	thob	7	76b41f36-3ec5-59c4-ae11-8f87dd4f0411	Bear
+hob	thob	8	c4d3d6e7-c30e-528d-9585-019a539d575f	Elf
+hob	thob	9	2e66947f-1d43-5b4c-be28-5eede67607d0	Wolf
+hob	thob	10	23037e23-edb0-5399-b5cd-4f1a209b22dd	Axe
+hob	thob	11	520907cb-1acb-5fa9-890d-ca6a35d7ae5a	Stone Boulder
 hob	thob	12	e1712205-f6a6-5ffa-befc-9becced0337f	Treasure
+hob	thob	13	02de53f1-cef2-51b6-b98e-93dfed407d19	Treasure
+hob	thob	14	f2e5d1c6-2813-5f35-93d7-159ed535b010	Enduring Story
+hob	thob	15	ffbc4b97-7c37-5393-ba0c-301390705d4b	On an Adventure
 hou	thou	1	d4974282-1fae-53a6-84c1-db1374537f07	Adorned Pouncer
 hou	thou	2	46bbc6b1-67bd-5471-959a-8aeca495d287	Champion of Wits
 hou	thou	3	1cfb9daa-8bf2-52e4-a048-b442f30a3a56	Dreamstealer
@@ -8316,7 +8329,20 @@ sld	sld	2201	6bad2232-e754-5fc3-9f5e-6e1c6f340d18	Cordyceps Infected
 sld	sld	2206	7b758963-229c-57a3-9227-8f6b4cfeed3e	Cordyceps Infected
 sld	sld	2421	12a89d08-9938-5ef1-8c72-d8d57cff8cda	Goblin
 sld	sld	2422	9e78e629-6283-593e-b972-e664f943bbc4	Storm Counter
+sld	sld	2545	7f7ceeba-5a60-537d-a6cd-c004e386a966	Food
+sld	sld	2546	2b906a79-0ace-51d8-9fff-291d395f35b9	Food
+sld	sld	2547	6addc770-3c86-5bfc-97cc-d74177e1b3b6	Food
+sld	sld	2548	17c6893a-8119-5836-9b3d-bd0a5e30a264	Food
+sld	sld	2549	6e82b19f-c508-557c-9fe6-287022e15c43	Food
+sld	sld	2550	bbd313f5-b31e-50c9-ae52-5befea38da5e	Food
+sld	sld	2551	6e328559-a559-57fb-bb2e-7526ae2a4d8d	Food
+sld	sld	2808	2b6eb41a-8d18-51b9-8b6e-0ad3e5265209	Food
+sld	sld	2819	ca6b0791-35b2-5dcf-b912-189b7ffeec57	Ooze
+sld	sld	2820	ab4fcb95-fd1f-522f-9ad6-7f7b7f12947d	Treasure
 sld	sld	7082	e15c090a-7ed0-516d-bfde-e582f095f113	Red Mana
+sld	sld	7168	d582e994-dbf3-5de3-8281-aedf474cf15f	Elf Warrior
+sld	sld	7169	440e66c4-448c-5f1a-83c9-61203e1cc929	Elf Warrior
+sld	sld	7170	00c16b60-4dc9-5e2e-9753-7c89f3b73f77	Elf Warrior
 smh3	smh3	1	307c2e6a-5efb-5e62-bc6d-aa72d5c90375	Double-Faced Substitute Card
 smid	smid	1	7ce1401f-e0c8-55e6-8f11-20fe671fdd41	Double-Faced Substitute Card
 smid	smid	2	9502ddee-a3f2-538a-a27c-482dd09c1eb7	Double-Faced Substitute Card
@@ -8642,6 +8668,7 @@ tmt	ttmt	7	2f096756-31a7-5bd0-9bbc-39344ee5c222	Mutant
 tmt	ttmt	8	bf122205-2ce0-503c-b783-89249e2cc7c9	Food
 tmt	ttmt	9	01c5a18f-07e6-593c-bc90-0683505ea03f	Mutagen
 tmt	ttmt	10	7b90ef2c-5f10-5942-ba04-a77d160a36f2	Robot
+trk	ttrk	1	53deacdc-faba-5ff1-90e4-6cc03755e7c5	Human
 tsr	ttsr	1	a1562632-0989-5122-b108-3cb73a6ac90e	Griffin
 tsr	ttsr	2	48ab910b-8770-50e2-bd1f-1d505e07c1fe	Soldier
 tsr	ttsr	3	0ee365ef-02d4-580f-b535-1706b0ea5204	Cloud Sprite

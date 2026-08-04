@@ -6,6 +6,7 @@ end
 require_relative "../lib/card_database"
 require_relative "../lib/cli_frontend"
 require_relative "../lib/sealed"
+require_relative "../lib/mtgo_redemption"
 require "pry"
 
 RSpec.configure do |config|
@@ -77,12 +78,19 @@ RSpec::Matchers.define :return_cards do |*cards|
   end
 
   failure_message do |query_string|
-    results = search(query_string)
+    results = search_names(query_string)
+    # Collect all printing codes per card name so matching cards show
+    # like `[*][*] Misty Rainforest [exp/25] [mh2/250]` on a single line.
+    printings_for = Hash.new{|h, k| h[k] = []}
+    search(query_string).each do |c|
+      name = c.sub(/ \[[^\]]*\]\z/, "")
+      printings_for[name] << c[/\[[^\]]*\]\z/]
+    end
     "Expected `#{query_string}' to return:\n" +
       (cards | results).sort.map{|c|
         (cards.include?(c) ? "[*]" : "[ ]") +
         (results.include?(c) ? "[*]" : "[ ]") +
-        "#{c}\n"
+        " #{[c, *printings_for[c]].join(" ")}\n"
       }.join
   end
 end
@@ -318,14 +326,14 @@ shared_context "db" do |*sets|
     end
   end
 
-  def assert_banlist_status(date, format, expected_legality, card_name)
-    if date.is_a?(Date)
-      set_date = date
+  def assert_banlist_status(date_or_set, format, expected_legality, card_name)
+    if date_or_set.is_a?(Date)
+      set_date = date_or_set
     else
-      set_date = db.sets[set].release_date
+      set_date = db.sets[date_or_set].release_date
     end
     actual_legality = BanList[format].legality(card_name, set_date) || "legal"
-    [card_name, expected_legality].should eq([card_name, actual_legality])
+    [card_name, actual_legality].should eq([card_name, expected_legality])
   end
 
   # FIXME: All of this needs to be migrated to proper rspec
@@ -336,7 +344,7 @@ shared_context "db" do |*sets|
       [card.name, format.legality(card)]
     end.select(&:last)
     expected_legality = compute_expected_legality(sets, exceptions)
-    expected_legality.to_h.should eq(actual_legality.to_h) # "Legality of #{format_name} at #{time}"
+    actual_legality.to_h.should eq(expected_legality.to_h) # "Legality of #{format_name} at #{time}"
   end
 
   def assert_legality(format_name, time, card_name, status)

@@ -5,8 +5,6 @@ require "json"
 require "memoist"
 require "pathname-glob"
 require "pathname"
-require "pry"
-require "set"
 
 LOCKED_SETS_PATH = Pathname(__dir__) + "../../.locked_mtgjson_sets"
 
@@ -70,7 +68,7 @@ class SingleSetUpdater
     incoming_data["baseSetSize"]
   end
 
-  def bad_foregin_only_sets
+  def bad_foreign_only_sets
     %W[FBB FWB 4BB BCHR]
   end
 
@@ -85,7 +83,7 @@ class SingleSetUpdater
   def handle_new
     if incoming_data["isPartialPreview"]
       command_spoiler
-    elsif incoming_data["isForeignOnly"] and bad_foregin_only_sets.include?(incoming_code)
+    elsif incoming_data["isForeignOnly"] and bad_foreign_only_sets.include?(incoming_code)
       # We're actually OK with foreign promo sets
       command_drop
     elsif %W[BCHR FWB].include?(incoming_code)
@@ -151,7 +149,7 @@ class SingleSetUpdater
       puts "  BASE SET SIZE: #{current_base_set_size} -> #{incoming_base_set_size}"
     end
 
-    if incoming_name != current_name
+    if incoming_code != current_code
       puts "  CODE: #{current_code} -> #{incoming_code}"
     end
 

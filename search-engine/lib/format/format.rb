@@ -4,7 +4,7 @@ class Format
   def initialize(time=nil)
     raise ArgumentError unless time.nil? or time.is_a?(Date)
     @time = time
-    @ban_list = BanList[format_name]
+    @ban_list = BanList[ban_list_name]
     if respond_to?(:build_included_sets)
       @included_sets = build_included_sets
       @excluded_sets = nil
@@ -120,6 +120,11 @@ class Format
     format_pretty_name.downcase
   end
 
+  # Formats which don't have a ban list of their own can borrow someone else's
+  def ban_list_name
+    format_name
+  end
+
   def to_s
     if @time
       "<Format:#{format_name}:#{@time}>"
@@ -161,8 +166,8 @@ class Format
         "mirrodinblock"              => FormatMirrodinBlock,
         "tsblock"                    => FormatTimeSpiralBlock,
         "timespiralblock"            => FormatTimeSpiralBlock,
-        "ravblock"                   => FormatRavinicaBlock,
-        "ravnicablock"               => FormatRavinicaBlock,
+        "ravblock"                   => FormatRavnicaBlock,
+        "ravnicablock"               => FormatRavnicaBlock,
         "kamigawablock"              => FormatKamigawaBlock,
         "chkblock"                   => FormatKamigawaBlock,
         "championsofkamigawablock"   => FormatKamigawaBlock,
@@ -198,12 +203,13 @@ class Format
         "unsets"                     => FormatUnsets,
         "un-sets"                    => FormatUnsets,
         "standard"                   => FormatStandard,
+        # Not a real format, just Standard as it will be after the next rotation
+        "future"                     => FormatFuture,
+        "futurestandard"             => FormatFuture,
         # Disabled for now, as this is "Standard Brawl" and the one that's actually being played is different "Historic Brawl"
         # at some point it might be worth resurrecting the format
         # "brawl"                      => FormatBrawl,
         "modern"                     => FormatModern,
-        # I think the format is just dead
-        # "frontier"                   => FormatFrontier,
         "pioneer"                    => FormatPioneer,
         "legacy"                     => FormatLegacy,
         "vintage"                    => FormatVintage,

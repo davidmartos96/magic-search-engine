@@ -14,9 +14,9 @@ class PatchProduces < Patch
   }
   LEGAL_SYMBOLS = %w[w u b r g c]
   # This is better than making the parser crazy complicated
-  # especially various uncards wouldh be causing problems
+  # especially various uncards would be causing problems
   OVERRIDES = {
-    # Normal ards with weird templating
+    # Normal cards with weird templating
     "Old-Growth Troll" => "g",
     "Rhystic Cave" => "bgruw",
     "Tundra Fumarole" => "c",
@@ -29,7 +29,6 @@ class PatchProduces < Patch
 
   def call
     each_printing do |card|
-      text = card["text"] or next
       name = card["name"]
 
       if OVERRIDES.key?(name)
@@ -37,7 +36,10 @@ class PatchProduces < Patch
         next
       end
 
-      mana_from_types = card["types"].map{|t| TYPES[t] }.compact
+      # Basic land types are subtypes, not types
+      mana_from_types = (card["subtypes"] || []).map{|t| TYPES[t] }.compact
+
+      text = card["text"] || ""
 
       # annoyingly ' is sometimes terminator and sometimes apostrophy 's or s'
       add_mana_lines = text.scan(/adds? [^\n\."]+/i)

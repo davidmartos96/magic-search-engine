@@ -58,6 +58,11 @@ describe "QueryParser" do
     assert_search_parse "pow=5", "pow:5"
     assert_search_parse "tou=5", "tou:5"
     assert_search_parse "cmc=5", "cmc:5"
+    assert_search_parse "mv=5", "mv:5"
+    assert_search_parse "mv=5", "manavalue=5"
+    assert_search_parse "mv=5", "manavalue:5"
+    assert_search_parse "mv=5", "MANAVALUE=5"
+    assert_search_parse "pow=mv", "pow=manavalue"
     assert_search_parse "loy=5", "loy:5"
     assert_search_parse "year=2000", "year:2000"
     assert_search_parse "pow=5", "power=5"
@@ -77,7 +82,10 @@ describe "QueryParser" do
     assert_search_parse "frame:future", "frame=future"
     assert_search_parse "is:silver-bordered", "is=silver-bordered"
     assert_search_parse "not:silver-bordered", "not=silver-bordered"
+    assert_search_parse "is:yellow-bordered", "is=yellow-bordered"
+    assert_search_parse "not:yellow-bordered", "not=yellow-bordered"
     assert_search_parse "border:black", "border=black"
+    assert_search_parse "border:yellow", "border=yellow"
     assert_search_parse "sort:new", "sort=new"
     assert_search_parse "view:images", "view=images"
     assert_search_parse "time:2012", "time=2012"
@@ -86,7 +94,7 @@ describe "QueryParser" do
     assert_search_parse "related:t:planeswalker", "related=t:planeswalker"
     assert_search_parse "alt:t:planeswalker", "alt=t:planeswalker"
     assert_search_parse "cn≥315 cn≤406", "number>=315 number<=406"
-    # This doesn't work like scryfall, as "cn=ELD-303" is parsed as numbe range query
+    # This doesn't work like scryfall, as "cn=ELD-303" is parsed as number range query
     assert_search_parse "cn:315 or cn=ELD-303 or cn:/a/ or cn:200-300", "number:315 or number=ELD-303 or number:/a/ or number:200-300"
     assert_search_parse "name≥Forest name≤Mountain", "name>=Forest name<=Mountain"
     assert_search_parse "pow≥2 tou≤5", "pow>=2 tou<=5"
@@ -136,6 +144,12 @@ describe "QueryParser" do
     assert_search_parse "c=bw", "c=orzhov"
     assert_search_parse "c=ru", "c=izzet"
     assert_search_parse "c=gb", "c=golgari"
+    # Colleges
+    assert_search_parse "c=wr", "c=lorehold"
+    assert_search_parse "c=ug", "c=quandrix"
+    assert_search_parse "c=bw", "c=silverquill"
+    assert_search_parse "c=ru", "c=prismari"
+    assert_search_parse "c=gb", "c=witherbloom"
     # Shards
     assert_search_parse "c=gwu", "c=bant"
     assert_search_parse "c=wub", "c=esper"
@@ -162,6 +176,28 @@ describe "QueryParser" do
     assert_search_parse "ind=wu", "ind=azorius"
   end
 
+  # These are color count queries, not color set queries
+  it "colorless and multicolor" do
+    assert_search_parse "c=0", "c=colorless"
+    assert_search_parse "c=0", "c:colorless"
+    assert_search_parse "c=0", "c!colorless"
+    assert_search_parse "c=0", "c=COLORLESS"
+    assert_search_parse "c>=2", "c=multicolor"
+    assert_search_parse "c>=2", "c:multicolor"
+    assert_search_parse "c>=2", "c!multicolor"
+    assert_search_parse "c>=2", "c=multicolored"
+    # ci: and ind: get no MCI treatment either
+    assert_search_parse "ci=0", "ci:colorless"
+    assert_search_parse "ci>=2", "ci:multicolor"
+    assert_search_parse "ind=0", "ind:colorless"
+    assert_search_parse "ind>=2", "ind:multicolor"
+    # Everything else is meaningless, so it warns and falls back to the same thing
+    assert_search_parse_except_warning "c=colorless", "c>colorless"
+    assert_search_parse_except_warning "c=multicolor", "c<=multicolor"
+    Query.new("c>multicolor").warnings.should eq(["Only = is supported for multicolor queries, ignoring >"])
+    Query.new("ci≤colorless").warnings.should eq(["Only = is supported for colorless queries, ignoring <="])
+  end
+
   # All the weird MCI logic, but only with MCI color names
   it "color aliases with :" do
     # Single colors
@@ -181,6 +217,12 @@ describe "QueryParser" do
     assert_search_parse "c:bw", "c>=orzhov"
     assert_search_parse "c:ru", "c>=izzet"
     assert_search_parse "c:gb", "c>=golgari"
+    # Colleges
+    assert_search_parse "c:wr", "c>=lorehold"
+    assert_search_parse "c:ug", "c>=quandrix"
+    assert_search_parse "c:bw", "c>=silverquill"
+    assert_search_parse "c:ru", "c>=prismari"
+    assert_search_parse "c:gb", "c>=witherbloom"
     # Shards
     assert_search_parse "c:gwu", "c>=bant"
     assert_search_parse "c:wub", "c>=esper"
@@ -250,6 +292,38 @@ describe "QueryParser" do
     assert_search_parse "is:alchemy", "is:rebalanced"
     assert_search_parse "has:alchemy", "has:rebalanced"
     assert_search_parse "kw:flying", "keyword:flying"
+    assert_search_parse "is:transform", "is:tdfc"
+    assert_search_parse "layout:transform", "layout:tdfc"
+    assert_search_parse "is:bounceland", "is:karoo"
+    assert_search_parse "is:manland", "is:creatureland"
+    assert_search_parse "is:battleland", "is:tangoland"
+    assert_search_parse "is:canopyland", "is:canland"
+    assert_search_parse "is:fullart", "is:full"
+    assert_search_parse "is:cycleland", "is:bicycleland"
+    assert_search_parse "is:cycleland", "is:bikeland"
+    assert_search_parse "is:spotlight", "is:story"
+    assert_search_parse "is:triome", "is:tricycleland"
+    assert_search_parse "is:triome", "is:trikeland"
+    assert_search_parse "view:images", "display:grid"
+    assert_search_parse "view:images", "view:grid"
+    # Grouping printings together is the default, so this is a no-op
+    assert_search_parse "t:goblin", "t:goblin unique:cards"
+    assert_search_parse "t:goblin", "unique:cards t:goblin"
+    refute_search_parse "t:goblin unique:prints", "t:goblin unique:cards"
+  end
+
+  # Scryfall spells these with underscores, we accept both
+  it "promo types with underscores" do
+    assert_search_parse "promo:intropack", "is:intro_pack"
+    assert_search_parse "promo:judgegift", "is:judge_gift"
+    assert_search_parse "promo:arenaleague", "is:arena_league"
+    assert_search_parse "promo:playerrewards", "is:player_rewards"
+    assert_search_parse "promo:mediainsert", "is:media_insert"
+    assert_search_parse "promo:setpromo", "is:set_promo"
+    assert_search_parse "promo:setpromo", "promo:set_promo"
+    assert_search_parse "-promo:setpromo", "not:set_promo"
+    # Underscores don't turn a non-promo-type into one
+    Query.new("is:set_promos").warnings.should eq(["Unrecognized token: is:set_promos"])
   end
 
   it "star" do
@@ -319,7 +393,7 @@ describe "QueryParser" do
   end
 
   it "warns for bad view:" do
-    Query.new('view:cardback').warnings.should eq(["Unknown view: cardback. Known options are: checklist, full, images, text, and default."])
+    Query.new('view:cardback').warnings.should eq(["Unknown view: cardback. Known options are: checklist, full, images, text, default."])
   end
 
   it "warns for bad frame:" do

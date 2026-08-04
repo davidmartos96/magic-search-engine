@@ -13,11 +13,9 @@ class Card
     :augment,
     :brawler,
     :cmc,
-    :color_identity_set,
     :color_identity,
-    :color_indicator_set,
+    :color_indicator_colors,
     :color_indicator,
-    :colors_set,
     :colors,
     :commander,
     :decklimit,
@@ -31,6 +29,7 @@ class Card
     :fulltext_normalized,
     :fulltext,
     :funny,
+    :game_changer,
     :hand,
     :has_alchemy,
     :in_spellbook,
@@ -48,6 +47,7 @@ class Card
     :reminder_text,
     :reserved,
     :rulings,
+    :short_name,
     :specialized,
     :specializes,
     :spellbook,
@@ -59,16 +59,15 @@ class Card
     :types,
   )
 
-  def initialize(data)
+  def initialize(name, data)
     @printings = []
-    @name = data["n"]
+    # The name is the key the card is stored under in the index, not part of its data
+    @name = name
     @stemmed_name = -@name.downcase.normalize_accents.gsub(/s\b/, "").tr("-", " ")
     @names = data["ns"]
     @layout = data["l"]
     @colors = data["c"] || ""
-    @colors_set = @colors.chars.to_set
     @color_identity = data["ci"]
-    @color_identity_set = @color_identity.chars.to_set
     @funny = data["fu"]
     @fulltext = -(data["o"] || "")
     @fulltext_normalized = -@fulltext.normalize_accents
@@ -79,11 +78,15 @@ class Card
     @augment = !!(@text =~ /augment \{/i)
     @mana_cost = data["m"]
     @reserved = data["rs"] || false
-    @types = ["t", "tb", "tp"]
-      .flat_map{|t| data[t] || []}
+    @game_changer = data["gc"] || false
+    types = data["t"]
+    subtypes = data["tb"]
+    supertypes = data["tp"]
+    @types = [types, subtypes, supertypes]
+      .flat_map{|t| t || []}
       .map{|t| -t.downcase.tr("’\u2212", "'-").gsub("'s", "").tr(" ", "-")}
     @cmc = data["v"] || 0
-    @power = data["pw"] ? smart_convert_powtou(data["pw"]) : nil
+    @power = data["p"] ? smart_convert_powtou(data["p"]) : nil
     @toughness = data["to"] ? smart_convert_powtou(data["to"]) : nil
     @loyalty = data["ly"] ? smart_convert_powtou(data["ly"]) : nil
     @display_power = data["dp"] ? data["dp"] : @power
@@ -99,7 +102,7 @@ class Card
     @decklimit = data["dl"]
     @hand = data["hd"]
     @life = data["lf"]
-    @rulings = data["r"]&.map{|d,t| {"date" => d, "text" => t}}
+    @rulings = data["r"]&.flat_map{|date, texts| texts.map{|text| {"date" => date, "text" => text}}}
     @secondary = data["s"]
     @partner = data["ip"]
     @commander = data["cm"]
@@ -109,7 +112,8 @@ class Card
     @spellbook = data["sb"]
     @in_spellbook = data["is"]
     if data["f"]
-      @foreign_names = data["f"].map{|k,v| [k.to_sym,v]}.to_h
+      # A single name per language is stored unwrapped
+      @foreign_names = data["f"].map{|k,v| [k.to_sym, v.is_a?(Array) ? v : [v]]}.to_h
       raise "Foreign data with empty value for #{name}" if @foreign_names.any?{|k,v| v.empty?}
     else
       @foreign_names = {}
@@ -119,9 +123,9 @@ class Card
       @foreign_names_normalized[lang] = names.map{|n| hard_normalize(n)}
     end
     @related = data["rl"]
-    @typeline = [data["tp"], data["t"]].compact.flatten.join(" ")
-    if data["tb"]
-      @typeline += " - #{data["tb"].join(" ")}"
+    @typeline = [supertypes, types].compact.flatten.join(" ")
+    if subtypes
+      @typeline += " - #{subtypes.join(" ")}"
     end
     @typeline = -@typeline
     if data["k"]
@@ -129,6 +133,7 @@ class Card
     end
     @defense = data["df"]
     @produces = data["pr"]&.freeze
+    @short_name = data["sn"]&.freeze
     calculate_mana_hash
     calculate_color_indicator
     calculate_reminder_text
@@ -343,7 +348,7 @@ class Card
       @color_indicator = Color.color_indicator_name(actual_colors)
     end
     if @color_indicator
-      @color_indicator_set = actual_colors.to_set
+      @color_indicator_colors = @colors
     end
   end
 

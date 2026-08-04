@@ -69,11 +69,20 @@ describe "CLI Frontend" do
       verbose: true,
       output: <<-EOF,
         Jace Beleren {1}{u}{u}
-        [lrw dd2 dd2 pmei m10 m11 prm jvc ss1 cmm sld sld sld sld mb2]
+        [lrw dd2 dd2 pmei m10 m11 prm jvc ss1 cmm sld sld sld sld mb2 pspl]
         Legendary Planeswalker - Jace
         [+2]: Each player draws a card.
         [−1]: Target player draws a card.
         [−10]: Target player mills twenty cards.
+        Loyalty: 3
+
+        The Theorist, Jace Beleren {2}{u}{u}
+        [fra fra fra fra fra]
+        Legendary Planeswalker - Jace
+        At the beginning of each opponent's draw step, you draw a card.
+        [+1]: Create a 1/1 blue Illusion creature token.
+        [−2]: For each opponent, return up to one target artifact or creature that player controls to its owner's hand.
+        [−6]: Draw three cards. Then put X +1/+1 counters on each creature you control, where X is the number of cards in your hand.
         Loyalty: 3
         EOF
       error: ""
@@ -182,7 +191,7 @@ describe "CLI Frontend" do
       verbose: true,
       output: <<-EOF,
         Steam Vents
-        [gpt rtr exp grn pgrn prm sld unf unf rvr rvr rvr rvr clu ecl ecl ecl pecl]
+        [gpt rtr exp grn pgrn prm sld unf unf rvr rvr rvr rvr clu ecl ecl ecl pecl trk trk trk]
         Land - Island Mountain
         ({T}: Add {U} or {R}.)
         As this land enters, you may pay 2 life. If you don't, it enters tapped.
@@ -241,6 +250,78 @@ describe "CLI Frontend" do
       error: <<-EOF
         Doesn't look like correct date, ignored: "battle for homelands"
         EOF
+    )
+  end
+
+  # view:checklist prints one tab separated "SET<TAB>number<TAB>name" line per printing.
+  # Heredocs would turn the tabs into something unreadable, so build the expected output by hand.
+  def checklist(*lines)
+    lines.map{|line| "#{line}\n"}.join
+  end
+
+  it "checklist view" do
+    assert_cli(
+      search: "view:checklist e:ust Ineffable Blessing",
+      verbose: false,
+      output: checklist(
+        "UST\t113a\tIneffable Blessing (a)",
+        "UST\t113b\tIneffable Blessing (b)",
+        "UST\t113c\tIneffable Blessing (c)",
+        "UST\t113d\tIneffable Blessing (d)",
+        "UST\t113e\tIneffable Blessing (e)",
+        "UST\t113f\tIneffable Blessing (f)",
+      ),
+      error: ""
+    )
+  end
+
+  it "checklist view lists every printing, with set codes upcased" do
+    assert_cli(
+      search: "view:checklist !Siege Rhino",
+      verbose: false,
+      output: checklist(
+        "KTK\t200\tSiege Rhino",
+        "SLC\t2014\tSiege Rhino",
+        "CP3\t5\tSiege Rhino",
+        "PKTK\t200s\tSiege Rhino",
+        "EA1\t16\tSiege Rhino",
+        "PRM\t57602\tSiege Rhino",
+      ),
+      error: ""
+    )
+  end
+
+  it "checklist view with no results" do
+    assert_cli(
+      search: "view:checklist e:lea t:legendary",
+      verbose: false,
+      output: "",
+      error: ""
+    )
+  end
+
+  it "display: is an alias for view:" do
+    assert_cli(
+      search: "display:checklist e:ust cn:113a",
+      verbose: false,
+      output: checklist("UST\t113a\tIneffable Blessing (a)"),
+      error: ""
+    )
+  end
+
+  it "verbose takes precedence over checklist view" do
+    assert_cli(
+      search: "view:checklist siege rhino",
+      verbose: true,
+      output: <<-EOF,
+        Siege Rhino {1}{w}{b}{g}
+        [ktk pktk cp3 prm ea1 slc]
+        Creature - Rhino
+        Trample
+        When this creature enters, each opponent loses 3 life and you gain 3 life.
+        4/5
+        EOF
+      error: ""
     )
   end
 

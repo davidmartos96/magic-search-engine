@@ -1,0 +1,12 @@
+%h3= @limited_format.to_s
+- if @limited_format.choice
+  %p= "You must choose one of the following #{@limited_format.choice.pluralize}:"
+  %ul
+    - @limited_format.pools.each do |pool|
+      %li= pool.name
+  - @limited_format.pools.each do |pool|
+    %h4= pool.name
+    = render "pool", pool: pool
+- else
+  = render "pool", pool: @limited_format.pools[0]
+= render "sealed_rules", limited_format: @limited_format

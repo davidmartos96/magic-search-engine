@@ -26,16 +26,6 @@ describe "Eldrich Moon" do
     }
   end
 
-  it "meld cmc" do
-    assert_search_results "is:meld cmc=0", "Hanweir Battlements"
-    assert_search_results "is:meld cmc=2", "Graf Rats"
-    assert_search_results "is:meld cmc=3", "Hanweir Garrison", "Hanweir, the Writhing Township"
-    assert_search_results "is:meld cmc=4", "Gisela, the Broken Blade"
-    assert_search_results "is:meld cmc=5", "Midnight Scavengers"
-    assert_search_results "is:meld cmc=7", "Bruna, the Fading Light", "Chittering Host"
-    assert_search_results "is:meld cmc=11", "Brisela, Voice of Nightmares"
-  end
-
   it "is:meld" do
     assert_search_results "is:meld",
       "Brisela, Voice of Nightmares",
@@ -48,6 +38,28 @@ describe "Eldrich Moon" do
       "Hanweir, the Writhing Township",
       "Midnight Scavengers"
     assert_search_equal "layout:meld", "is:meld"
+  end
+
+  it "is:meldpart" do
+    assert_search_results "is:meldpart",
+      "Bruna, the Fading Light",
+      "Gisela, the Broken Blade",
+      "Graf Rats",
+      "Hanweir Battlements",
+      "Hanweir Garrison",
+      "Midnight Scavengers"
+  end
+
+  it "is:meldresult" do
+    assert_search_results "is:meldresult",
+      "Brisela, Voice of Nightmares",
+      "Chittering Host",
+      "Hanweir, the Writhing Township"
+  end
+
+  it "meld parts and results together are all meld cards" do
+    assert_search_equal "is:meldpart or is:meldresult", "is:meld"
+    assert_search_results "is:meldpart is:meldresult"
   end
 
   it "is:primary" do

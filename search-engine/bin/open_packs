@@ -53,7 +53,7 @@ class OpenPacks
 
   def show_unsupported
     db.sets.values.select{|set|
-      set.has_boosters? and !factory.for(set.code)
+      set.types.include?("booster") and !factory.for(set.code)
     }.each do |set|
       puts "%3s %s" % [set.code.upcase, set.name]
     end
@@ -65,7 +65,7 @@ class OpenPacks
 
   def open_some_packs
     cards = sealed.call
-    # There could be muliple basic arts etc., ignore everything except foil flag
+    # There could be multiple basic arts etc., ignore everything except foil flag
     cards_with_counts = cards
       .group_by{|x| [x.name, x.foil]}
       .map{|k,v| [k, v.count]}

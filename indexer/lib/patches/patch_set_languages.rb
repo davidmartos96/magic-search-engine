@@ -2,8 +2,8 @@ class PatchSetLanguages < Patch
   LANGUAGES = {
     # "Ancient Greek",
     # "Arabic",
-    "Chinese Simplified" => "cn",
-    "Chinese Traditional" => "cs",
+    "Chinese Simplified" => "cs",
+    "Chinese Traditional" => "ct",
     "English" => "en",
     "French" => "fr",
     "German" => "de",
@@ -22,6 +22,7 @@ class PatchSetLanguages < Patch
   # Weird promo languages for single cards in otherwise normal sets, intentionally ignored
   IGNORE_LANGUAGES = [
     "Ancient Greek",
+    "Dwarvish",
     "Phyrexian",
     "Quenya",
   ]

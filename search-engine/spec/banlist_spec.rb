@@ -795,13 +795,12 @@ describe "Banlist" do
   it "format_legality_changes" do
     # Starter Level sets Starter 1999, Starter 2000, Portal, Portal Second Age, and Portal Three Kingdoms become legal in Legacy and Vintage in October.
     # assert false, "This should go to another test"
-    # Also all Exended variants etc. None of that belongs here
+    # Also all Extended variants etc. None of that belongs here
   end
 
   ##################################################
-  # Formats in mtgjson are verified by indexer
-  # Formats not in mtgjson should all be listed here
-  # FIXME: (that was with v3, no longer true)
+  # Since mtgjson v5 the indexer doesn't handle legalities at all,
+  # so every format's banlist needs to be covered here
 
   it "pauper_banlist_now" do
     assert_full_banlist "pauper", "1 October 2015", [
@@ -919,7 +918,7 @@ describe "Banlist" do
       format_class.new.ban_events.each do |_, _, cards|
         cards.each do |card|
           name = card[:name]
-          db.has_card_named?(name).should eq(true), "Card named `#{name}' should exist"
+          db.has_card_named?(name).should eq(true), "Card named `#{name}' in banlist for #{format_class} is a typo"
         end
       end
     end

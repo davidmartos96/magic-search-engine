@@ -3,34 +3,9 @@
 # This patch ended up as dumping ground for far too much random stuff
 
 class PatchMtgjsonVersions < Patch
-  # This can go away once mtgjson fixes their bugs
-  def calculate_cmc(mana_cost)
-    mana_cost.split(/[\{\}]+/).reject(&:empty?).map{|c|
-      case c
-      when /\A[WUBRGCS]\z/, /\A[WUBRG]\/[WUBRGP]\z/
-        1
-      when "X", "Y", "Z"
-        0
-      when "HW"
-        0.5
-      when /\d+/
-        c.to_i
-      else
-        warn "Cannot calculate cmc of #{c} mana symbol"
-        0
-      end
-    }.sum
-  end
-
   def get_cmc(card)
     cmc = [card.delete("convertedManaCost"), card.delete("cmc")].compact.first
     fcmc = card.delete("faceConvertedManaCost")
-
-    # mtgjson bug
-    # https://github.com/mtgjson/mtgjson/issues/818
-    if card["layout"] == "modal_dfc" or card["layout"] == "reversible_card"
-      return calculate_cmc(card["manaCost"] || "")
-    end
 
     if fcmc
       case card["layout"]
@@ -102,6 +77,17 @@ class PatchMtgjsonVersions < Patch
       if card["faceName"] and card["name"].include?("//")
         card["names"] = card["name"].split(" // ")
         card["name"] = card.delete("faceName")
+      end
+    end
+
+    # unilaterally decided that all of these are cards
+    # mtgjson has them as some cards and some tokens, and that's just nonsense, it needs to be consistent
+    each_set do |set|
+      next unless ["TBTH", "TDAG", "TFTH"].include?(set["official_code"])
+      tokens = set.delete("tokens")
+      tokens.each do |token|
+        token["rarity"] = "common"
+        (@cards[token["name"]] ||= []) << token
       end
     end
 
@@ -327,6 +313,12 @@ class PatchMtgjsonVersions < Patch
         end
       end
 
+      if card.has_key?("isGameChanger")
+        if card.delete("isGameChanger")
+          card["game_changer"] = true
+        end
+      end
+
       if card["promoTypes"]
         card["promo_types"] = card["promoTypes"]
       end
@@ -374,7 +366,7 @@ class PatchMtgjsonVersions < Patch
           # 100% of this is garbage
           card.delete("facePrintedName")
           card.delete("printedName")
-          card.delete("faceFlaverName")
+          card.delete("faceFlavorName")
           card.delete("flavorName")
         end
       end
@@ -395,13 +387,13 @@ class PatchMtgjsonVersions < Patch
       # We need to move that RZ15b away to something else
       # And same shit for CU12a, CU12b
       if card["set"]["official_code"] == "UNK"
-        if card["number"] == "RZ15b" and
+        if card["number"] == "RZ15b"
           card["number"] = "RZ15x"
         end
-        if card["number"] == "CU12a" and
+        if card["number"] == "CU12a"
           card["number"] = "CU12x"
         end
-        if card["number"] == "CU12b" and
+        if card["number"] == "CU12b"
           card["number"] = "CU12y"
         end
       end
@@ -416,6 +408,9 @@ class PatchMtgjsonVersions < Patch
       if card["text"] =~ /^Escape—/
         card["text"] = card["text"].gsub(/^Escape—/, "Escape — ")
       end
+
+      # mtgjson uses a language code here, unlike every other language which gets a name
+      card["language"] = "Dwarvish" if card["language"] == "dw"
 
       card.delete("language") if card["language"] == "English"
 
@@ -459,6 +454,23 @@ class PatchMtgjsonVersions < Patch
 
       if card["name"] == "Human—Time Lord Meta-Crisis"
         card["name"] = "Human-Time Lord Meta-Crisis"
+      end
+
+      # mtgjson used to disambiguate these, then dropped the disambiguation,
+      # so we need to do it ourselves now
+      # PUNK planes conflict with UNK "Artist Alley" and MID/DBL "No Way Out"
+      if card["set"]["official_code"] == "PUNK"
+        case card["number"]
+        when "PLA001", "PLA001a"
+          card["name"] = "Artist Alley (Plane)"
+        when "PLA031"
+          card["name"] = "No Way Out (Playtest)"
+        end
+      end
+
+      # UNK playtest card conflicts with MBC "Joven and Chandler"
+      if card["set"]["official_code"] == "UNK" and card["number"] == "UR05"
+        card["name"] = "Joven and Chandler (Playtest)"
       end
 
       # Rename prepared spells to keep them unique

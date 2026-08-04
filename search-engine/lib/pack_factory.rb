@@ -47,11 +47,10 @@ class PackFactory
     data = data.dup
     foil = false
     balanced = false
-    coout = nil
     fixed = false
 
     # etched flag isn't propagated anywhere yet
-    etched = data.delete("etched") if data.has_key?("etched")
+    data.delete("etched") if data.has_key?("etched")
     foil = data.delete("foil") if data.has_key?("foil")
     balanced = data.delete("balanced") if data.has_key?("balanced")
     duplicates = data.delete("duplicates") if data.has_key?("duplicates")
@@ -143,6 +142,12 @@ class PackFactory
     pack.code = booster_code
     pack.name = data["name"]&.gsub("{set_name}", set.name) || booster_code
     pack.languages = data["languages"] || set.languages
+    # Sanity check against mtgjson - a booster can be printed in fewer languages
+    # than its set, never in more. Report only, as mtgjson set data changes too.
+    extra_languages = pack.languages - set.languages
+    unless extra_languages.empty?
+      warn "#{booster_code}: languages #{extra_languages.join(", ")} not printed for set #{set_code} (#{set.languages.join(", ")})"
+    end
     pack
   end
 end

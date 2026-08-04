@@ -1,8 +1,8 @@
 class SealedController < ApplicationController
   # Controller supports >3 pack types
   def index
-    counts = params[:count].to_a.map(&:to_i)
-    set_codes = params[:set].to_a
+    counts = Array(params[:count]).map(&:to_i)
+    set_codes = Array(params[:set])
     @fixed = params[:fixed]
     @warnings = []
 
@@ -13,8 +13,10 @@ class SealedController < ApplicationController
 
     @booster_types = $CardDatabase.supported_booster_types
 
+    # Links from limited format pages can ask for fewer than 3 pack types,
+    # and the empty rows still need something selected
+    most_recent_booster_type = $CardDatabase.most_recent_booster_type
     if @packs_to_open.empty?
-      most_recent_booster_type = $CardDatabase.most_recent_booster_type
       @packs_to_open << [most_recent_booster_type, 6]
     end
     @packs_to_open << [most_recent_booster_type, 0] while @packs_to_open.size < 3

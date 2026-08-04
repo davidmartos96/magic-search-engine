@@ -3,10 +3,7 @@
 class PatchBaseSize < Patch
   def call
     sizes = {
-      "ecl" => 273, # up to the last normal basic
-      "msh" => 295, # up to and including all basic lands (fullart and normal ones)
-      "tmt" => 195, # up to first set of basics (but they are fancy ones, boring ones are have much higher numbers)
-      "sos" => 281, # up to and including all basic lands (fullart and normal ones)
+      "hob" => 193,
     }
 
     sizes.each do |code, size|
@@ -16,6 +13,10 @@ class PatchBaseSize < Patch
         warn "Patching base set size for #{code} from #{set_by_code(code)["base_set_size"]} to #{size}"
       end
       set_by_code(code)["base_set_size"] = size
+    end
+
+    each_set do |set|
+      set["base_set_size"] ||= 0
     end
   end
 end

@@ -160,7 +160,7 @@ BanList.for_format("duel commander") do
     "http://www.duelcommander.com/2019/11/november-2019-rules-banned-restricted-update/",
     "Emry, Lurker of the Loch" => "restricted", # was experimentally legal
     "Edric, Spymaster of Trest" => "restricted", # was experimentally legal
-    # "Erayo, Soratami Ascendant" => "legal", # officialy legal, was experimentally legal
+    # "Erayo, Soratami Ascendant" => "legal", # officially legal, was experimentally legal
     "Scapeshift" => "banned",
   )
 
@@ -359,7 +359,7 @@ BanList.for_format("duel commander") do
     "Fight the _____ Fight" => "banned",
     "Finishing Move" => "banned",
     "Glitterflitter" => "banned",
-    "________ Goblin" => "banned",
+    "_____ Goblin" => "banned",
     '"Name Sticker" Goblin' => "banned", # not explicitly, it's just MTGO variant
     "Last Voyage of the _____" => "banned",
     "Lineprancers" => "banned",
@@ -601,5 +601,13 @@ BanList.for_format("duel commander") do
     "Emry, Lurker of the Loch" => "legal",
     "Najeela, the Blade-Blossom" => "legal",
     "Winota, Joiner of Forces" => "legal",
+  )
+
+  change(
+    "2026-07-27",
+    "https://www.duelcommander.org/announcements/2026/07/27/",
+    "Spider-Man 2099" => "restricted",
+    "Lumra, Bellow of the Woods" => "restricted",
+    "The Fantasticar" => "restricted",
   )
 end

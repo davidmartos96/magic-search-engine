@@ -13,6 +13,7 @@ require_relative "card"
 require_relative "color_balanced_card_sheet"
 require_relative "card_sheet_with_duplicates"
 require_relative "fixed_card_sheet"
+require_relative "limited_format"
 require_relative "color"
 require_relative "deck_database"
 require_relative "deck_parser"
@@ -25,30 +26,23 @@ require_relative "product"
 require_relative "product_variable_contents"
 require_relative "query"
 require_relative "sealed"
+require_relative "sealed_pool"
 require_relative "spelling_suggestions"
 require_relative "unknown_card"
 require_relative "user_deck_parser"
 require_relative "weighted_pack"
 
-# Backport from >=2.4 to 2.3
-module Enumerable
-  def sum(accumulator = 0, &block)
-    values = block_given? ? map(&block) : self
-    values.inject(accumulator, :+)
-  end unless method_defined? :sum
-end
-
 class String
+  LIGATURES = {"Æ" => "Ae", "æ" => "ae", "Œ" => "Oe", "œ" => "oe"}.freeze
+  LIGATURES_RX = /[ÆæŒœ]/
+
   # This is a much longer list than just what's on cards as:
   # * it's also artist names
   # * everything is both upper and lower case,
   #   even if only one case is actually in print
   #   (except Turkish ı)
   def normalize_accents
-    result = gsub("Æ", "Ae")
-      .gsub("æ", "ae")
-      .gsub("Œ", "Oe")
-      .gsub("œ", "oe")
+    result = gsub(LIGATURES_RX, LIGATURES)
       .tr(
         "ÀÁÂÄẤÃĀàáâäãấãāĆČÇćčçÈËÊÉĖèéêëēėǵÍÏĪÎíïīîıŁłÑñńÓÖŌØõöóøōÛÜÚúûüŠšÝýŻżˣ’\u2212",
         "AAAAAAAaaaaaaaaCCCcccEEEEEeeeeeegIIIIiiiiiLlNnnOOOOoooooUUUuuuSsYyZzx'-")
@@ -59,6 +53,13 @@ end
 
 class CardDatabase
   attr_reader :sets, :cards, :blocks, :artists, :cards_in_precons, :products
+  attr_reader :limited_formats
+
+  INDEX_ROOT = Pathname(__dir__) + "../../index"
+  INDEX_PATH = INDEX_ROOT + "index.json"
+  BOOSTER_INDEX_PATH = INDEX_ROOT + "booster_index.json"
+  PRODUCTS_PATH = INDEX_ROOT + "products.json"
+  LIMITED_FORMATS_PATH = INDEX_ROOT + "limited_formats.json"
 
   def initialize
     @sets = {}
@@ -90,18 +91,21 @@ class CardDatabase
   end
 
   def booster_data
-    @booster_data ||= JSON.parse(Pathname("#{__dir__}/../../index/booster_index.json").read)
+    @booster_data ||= JSON.parse(BOOSTER_INDEX_PATH.read)
   end
 
   def products_data
-    @products_data ||= JSON.parse(Pathname("#{__dir__}/../../index/products.json").read)
+    @products_data ||= JSON.parse(PRODUCTS_PATH.read)
+  end
+
+  def limited_formats_data
+    @limited_formats_data ||= JSON.parse(LIMITED_FORMATS_PATH.read)
   end
 
   # This used to allow all other cards with same name from same set,
   # but this is no longer the case
   def decks_containing(card_printing)
     set_code = card_printing.set_code
-    name = card_printing.name
     decks.select do |deck|
       next unless deck.all_set_codes.include?(set_code)
       [*deck.cards, *deck.sideboard, *deck.commander].any? do |_, physical_card|
@@ -148,7 +152,7 @@ class CardDatabase
     @supported_booster_types
   end
 
-  # Whetever we list supported booster types, skip aliases
+  # Whenever we list supported booster types, skip aliases
   def unique_supported_booster_types
     @unique_supported_booster_types ||= supported_booster_types.select{|code, booster| code == booster.code}
   end
@@ -227,7 +231,8 @@ class CardDatabase
     @sets.each do |set_code, set|
       normalized_set_name     = set.normalized_name
       normalized_set_name_alt = set.normalized_name_alt
-      matching_primary_code     << set if set_code == edition
+      # Exact primary-code matches are already handled by the early return above,
+      # so we only need to accumulate the lower-priority matches here.
       matching_alternative_code << set if set.alternative_code&.downcase == edition
       matching_name          << set if normalized_set_name == normalized_edition or normalized_set_name_alt == normalized_edition_alt
       matching_name_part     << set if normalized_set_name.include?(normalized_edition) or normalized_set_name_alt.include?(normalized_edition_alt)
@@ -298,7 +303,7 @@ class CardDatabase
   class <<self
     private :new
 
-    def load(path=Pathname("#{__dir__}/../../index/index.json"))
+    def load(path=INDEX_PATH)
       new do |db|
         db.send(:load_from_json!, Pathname(path))
       end
@@ -324,27 +329,6 @@ class CardDatabase
 
   private
 
-  def freeze_strings!(data)
-    case data
-    when Array
-      data.each_with_index do |v,i|
-        if v.is_a?(Array) or v.is_a?(Hash)
-          freeze_strings!(v)
-        elsif v.is_a?(String)
-          data[i] = -v
-        end
-      end
-    when Hash
-      data.each do |k,v|
-        if v.is_a?(Array) or v.is_a?(Hash)
-          freeze_strings!(v)
-        elsif v.is_a?(String)
-          data[k] = -v
-        end
-      end
-    end
-  end
-
   def load_from_subset!(db, set_codes)
     @blocks = db.blocks
     db.sets.each do |set_code, set|
@@ -362,8 +346,7 @@ class CardDatabase
   end
 
   def load_from_json!(path)
-    data = JSON.parse(path.open.read)
-    freeze_strings!(data)
+    data = JSON.parse(path.open.read, freeze: true)
     data["sets"].each do |set_code, set_data|
       @sets[set_code] = CardSet.new(self, set_data)
       block_code = set_data["block_code"]
@@ -383,7 +366,7 @@ class CardDatabase
       # Indexer removes most tokens, we allow only a very selected group of very special ones
       # next if card_data["layout"] == "token"
       normalized_name = card_name.downcase.normalize_accents
-      card = @cards[normalized_name] = Card.new(card_data.reject{|k,_| k == "*"})
+      card = @cards[normalized_name] = Card.new(card_name, card_data)
       card_data["*"].each do |set_code, printing_data|
         printing = CardPrinting.new(
           card,
@@ -401,6 +384,7 @@ class CardDatabase
     setup_sort_index!
     DeckDatabase.new(self).load!
     load_products!
+    load_limited_formats!
     index_cards_in_precons!
   end
 
@@ -421,21 +405,42 @@ class CardDatabase
     Product.link_products(self)
   end
 
+  def load_limited_formats!
+    @limited_formats = []
+
+    limited_formats_data.each do |set_code, set_data|
+      set = @sets[set_code]
+      unless set
+        warn "Can't find set #{set_code} for limited formats"
+        next
+      end
+      set_data.each do |type, format_data|
+        limited_format = LimitedFormat.new(self, set, type, format_data)
+        @limited_formats << limited_format
+        set.limited_formats << limited_format
+      end
+    end
+
+    @limited_formats.each(&:verify_promo_cards!)
+  end
+
   # Change card number to CardPrinting reference
   def resolve_references!
     @sets.each do |set_code, set|
       set.printings.each do |card|
         if card.partner
-          partner = set.printings.find{|c| c.number == card.partner} or raise "Bad partner number #{partner}"
+          partner = set.printing_by_number[card.partner] or raise "Bad partner number #{partner}"
           card.partner = partner
         end
         if card.others
           card.others = card.others.map{|other|
-            set.printings.find{|c| c.number == other} or raise "Bad other number #{other}"
+            set.printing_by_number[other] or raise "Bad other number #{other}"
           }
         end
       end
     end
+    # Needs a second pass, as it looks at `others` of other printings
+    each_printing(&:calculate_main_front!)
   end
 
   def index_cards_in_precons!
