@@ -1,0 +1,25 @@
+# Sealed in this set's season, and the era's standard pool: the set's own
+# tournament pack plus two of its own boosters (README, Sealed pools). The
+# shape is sourced for Time Spiral, by the Grand Prix Athens fact sheet in
+# tsp.yaml; no event sheet survives for this set's own season.
+sealed:
+- 1x ala-tournament
+- 2x ala-draft
+prerelease-sealed:
+  # The last prerelease with a tournament pack, and the large set that breaks
+  # the large-set-gets-two rule - it handed out three, like a small set:
+  #   "Entry fee payment will entitle you to (1) one Shards of Alara tournament
+  #   pack and (3) three Shards of Alara booster packs to be used to build your
+  #   deck"
+  # Prerelease Facts, Wizards of the Coast, archived 2008-09-13, two weeks
+  # before the 2008-09-27 prerelease.
+  # https://web.archive.org/web/20080913222815/http://www.wizards.com/Magic/TCG/Events.aspx?x=mtgcom/events/prerelease-facts
+  boosters:
+  - 1x ala-tournament
+  - 3x ala-draft
+  unplayable-promo:
+  - Ajani Vengeant [PALA:154★] [foil]
+draft:
+- ala-draft
+- ala-draft
+- ala-draft

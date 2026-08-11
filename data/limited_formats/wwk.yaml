@@ -1,0 +1,15 @@
+# Block sealed, in the same proportion as the ZEN/ZEN/WWK draft: 3x zen-draft + 3x wwk-draft.
+# The prerelease pool is the same six boosters. See README, Sealed pools.
+sealed:
+- 3x zen-draft
+- 3x wwk-draft
+prerelease-sealed:
+  boosters:
+  - 3x zen-draft
+  - 3x wwk-draft
+  unplayable-promo:
+  - Comet Storm [PWWK:76★] [foil]
+draft:
+- zen-draft
+- zen-draft
+- wwk-draft

@@ -1,0 +1,18 @@
+sealed:
+- 6x one-draft
+prerelease-sealed:
+  boosters:
+  - 6x one-draft
+  - 1x one-prerelease
+draft:
+- one-draft
+- one-draft
+- one-draft
+arena-draft:
+- one-arena
+- one-arena
+- one-arena
+# Jumpstart Prerelease, the same two packs shuffled together as Dominaria United.
+# https://wpn.wizards.com/en/news/phyrexia-all-will-be-one-events-promo-overview-emea
+jumpstart:
+- 2x one-jumpstart

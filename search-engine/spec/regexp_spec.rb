@@ -50,12 +50,13 @@ describe "Regexp" do
       "Overkill",
       "Pyromancy 101",
       "Rules Lawyer",
-      "Spider-Man 2099",
       "Spider-Man 2099, Miguel O'Hara",
+      "Spider-Man 2099",
       "The Millennium Calendar",
       "TL;DR",
       "Urza, Academy Headmaster",
-      "Vexing Puzzlebox"
+      "Vexing Puzzlebox",
+      "Whtz, the Bibliophile"
   end
 
   it "regexp flavor text" do
@@ -64,6 +65,7 @@ describe "Regexp" do
       "Atomize",
       "Automatic Librarian",
       "Bastion of Remembrance",
+      "Exocomp",
       "Fervent Champion",
       "Frostboil Snarl",
       "Gilded Lotus",

@@ -7,10 +7,10 @@ describe DeckParser do
     PhysicalCard.for(printings[0], foil)
   end
 
-  def physical_by_best(name, foil=false)
+  def physical_by_best(name, foil=false, etched=false)
     printing = db.cards[name].printings.min_by(&:default_sort_index)
     raise "No such printing #{name}" unless printing
-    PhysicalCard.for(printing, foil)
+    PhysicalCard.for(printing, foil, etched)
   end
 
   let(:parser) { DeckParser.new(db, text) }
@@ -267,6 +267,265 @@ describe DeckParser do
         [3, ice_fire],
         [4, birds_m10],
       ])
+    end
+  end
+
+  describe "it knows every section we export" do
+    let(:text) do
+      <<~EOF
+      // NAME: Not A Real Deck - Some Set Commander Deck
+      COMMANDER: 1 Kydele, Chosen of Kruphix
+      40 Lightning Bolt
+
+      Sideboard
+      15 Goblin Guide
+
+      Planar Deck
+      1 Naya
+
+      Scheme Deck
+      2 All in Good Time
+
+      Display Commander
+      1 Ghave, Guru of Spores
+      EOF
+    end
+
+    it do
+      parser.sections.should eq({
+        "Main Deck" => [{name: "Lightning Bolt", count: 40}],
+        "Commander" => [{name: "Kydele, Chosen of Kruphix", count: 1}],
+        "Sideboard" => [{name: "Goblin Guide", count: 15}],
+        "Planar Deck" => [{name: "Naya", count: 1}],
+        "Scheme Deck" => [{name: "All in Good Time", count: 2}],
+        "Display Commander" => [{name: "Ghave, Guru of Spores", count: 1}],
+      })
+      deck.section("Planar Deck").should eq([[1, physical_by_best("naya")]])
+      deck.section("Scheme Deck").should eq([[2, physical_by_best("all in good time")]])
+      deck.section("Display Commander").should eq([[1, physical_by_best("ghave, guru of spores")]])
+    end
+  end
+
+  describe "section header variations" do
+    let(:text) do
+      <<~EOF
+      Deck
+      40 Lightning Bolt
+
+      Sideboard: 15
+      15 Goblin Guide
+
+      COMMANDER:
+      1 Kydele, Chosen of Kruphix
+      EOF
+    end
+
+    it do
+      parser.main.should eq([{name: "Lightning Bolt", count: 40}])
+      parser.side.should eq([{name: "Goblin Guide", count: 15}])
+      parser.commander.should eq([{name: "Kydele, Chosen of Kruphix", count: 1}])
+    end
+  end
+
+  describe "etched" do
+    let(:text) do
+      <<~EOF
+      1 Kardur, Doomscourge
+      2 Kardur, Doomscourge [foil]
+      3 Kardur, Doomscourge [foil] [etched]
+      EOF
+    end
+
+    it do
+      parser.main.should eq([
+        {name: "Kardur, Doomscourge", count: 1},
+        {name: "Kardur, Doomscourge", count: 2, foil: true},
+        {name: "Kardur, Doomscourge", count: 3, foil: true, etched: true},
+      ])
+      parser.main_cards.should eq([
+        [1, physical_by_best("kardur, doomscourge")],
+        [2, physical_by_best("kardur, doomscourge", true)],
+        [3, physical_by_best("kardur, doomscourge", true, true)],
+      ])
+    end
+  end
+
+  describe "arena format" do
+    let(:text) do
+      <<~EOF
+      About
+      Name Death & Taxes
+
+      Companion
+      1 Yorion, Sky Nomad (IKO) 232
+
+      Deck
+      2 Arid Mesa (MH2) 244
+      4 Swords to Plowshares (STA) 8
+      1 Lightning Bolt (A25) 141
+
+      Sideboard
+      2 Containment Priest (M21) 13
+      1 Yorion, Sky Nomad (IKO) 232
+      EOF
+    end
+
+    it do
+      parser.main.should eq([
+        {name: "Arid Mesa", count: 2, set_code: "MH2", number: "244"},
+        {name: "Swords to Plowshares", count: 4, set_code: "STA", number: "8"},
+        {name: "Lightning Bolt", count: 1, set_code: "A25", number: "141"},
+      ])
+      # Arena lists its companion twice, we only want it once
+      parser.side.should eq([
+        {name: "Containment Priest", count: 2, set_code: "M21", number: "13"},
+        {name: "Yorion, Sky Nomad", count: 1, set_code: "IKO", number: "232"},
+      ])
+      # Arena numbers cards its own way, and a number we don't have just falls
+      # back to the best printing in the set it asked for
+      parser.main_cards.should eq([
+        [2, physical_by_query("arid mesa e:mh2 number=244")],
+        [4, physical_by_query("swords to plowshares e:sta number=10")],
+        [1, physical_by_query("lightning bolt e:a25")],
+      ])
+    end
+  end
+
+  describe "companion not repeated in the sideboard" do
+    let(:text) do
+      <<~EOF
+      Companion
+      1 Yorion, Sky Nomad (IKO) 232
+
+      Deck
+      1 Arid Mesa (MH2) 244
+
+      Sideboard
+      2 Containment Priest (M21) 13
+      EOF
+    end
+
+    it do
+      parser.side.should eq([
+        {name: "Containment Priest", count: 2, set_code: "M21", number: "13"},
+        {name: "Yorion, Sky Nomad", count: 1, set_code: "IKO", number: "232"},
+      ])
+    end
+  end
+
+  describe "other programs writing arena-style lines" do
+    let(:text) do
+      <<~EOF
+      4 Counterspell (CMR) 632 *F* #TargetedDisruption
+      1 Ashnod's Altar (ema) 218 *F* [Mana Advantage]
+      1 Amulet of Vigor (plst) WWK-121 *F* [Ramp]
+      1x Lightning Bolt (A25) 141 *E*
+      1 Goblin Guide (ZEN) 125 *CMDR*
+      1x Black Lotus (LEA)
+      EOF
+    end
+
+    it do
+      parser.main.should eq([
+        {name: "Counterspell", count: 4, set_code: "CMR", number: "632", foil: true},
+        {name: "Ashnod's Altar", count: 1, set_code: "ema", number: "218", foil: true},
+        {name: "Amulet of Vigor", count: 1, set_code: "plst", number: "WWK-121", foil: true},
+        {name: "Lightning Bolt", count: 1, set_code: "A25", number: "141", etched: true},
+        {name: "Goblin Guide", count: 1, set_code: "ZEN", number: "125"},
+        {name: "Black Lotus", count: 1, set_code: "LEA"},
+      ])
+      parser.main_cards.should eq([
+        [4, physical_by_query("counterspell e:cmr number=632", true)],
+        [1, physical_by_query("ashnod's altar e:ema", true)],
+        [1, physical_by_query("amulet of vigor e:plst", true)],
+        [1, PhysicalCard.for(db.cards["lightning bolt"].printings.find{|c| c.set_code == "a25"}, false, true)],
+        [1, physical_by_query("goblin guide e:zen")],
+        [1, physical_by_query("black lotus e:lea")],
+      ])
+    end
+  end
+
+  # Archidekt leaves the set code out for cards Arena doesn't have
+  describe "arena-style line with no set code" do
+    let(:text) do
+      <<~EOF
+      3 Think Twice () 92
+      1 Ashnod's Altar ()
+      2 Counterspell () 92 *F* [Mana Advantage]
+      EOF
+    end
+
+    it do
+      parser.main.should eq([
+        {name: "Think Twice", count: 3},
+        {name: "Ashnod's Altar", count: 1},
+        {name: "Counterspell", count: 2, foil: true},
+      ])
+      parser.main_cards.should eq([
+        [3, physical_by_best("think twice")],
+        [1, physical_by_best("ashnod's altar")],
+        [2, physical_by_best("counterspell", true)],
+      ])
+    end
+  end
+
+  # Battle the Horde ships with "Unquenchable Fury (TBTH)", so this is not just
+  # about playtest cards - our own export has to survive it
+  describe "a card name that ends with something shaped like a set code" do
+    let(:text) do
+      <<~EOF
+      1 Unquenchable Fury (TBTH)
+      2 Bind (CMB1)
+      # Only a name we don't know is read as a printing
+      3 Sol Ring (C21)
+      EOF
+    end
+
+    it do
+      parser.main.should eq([
+        {name: "Unquenchable Fury (TBTH)", count: 1},
+        {name: "Bind (CMB1)", count: 2},
+        {name: "Sol Ring", count: 3, set_code: "C21"},
+      ])
+      parser.main_cards.should eq([
+        [1, physical_by_best("unquenchable fury (tbth)")],
+        [2, physical_by_best("bind (cmb1)")],
+        [3, physical_by_query("sol ring e:c21")],
+      ])
+    end
+  end
+
+  # Whatever we hand out has to be something we can take back
+  describe "it parses back every deck we export" do
+    def count_cards(cards)
+      counts = Hash.new(0)
+      cards.each{|count, card| counts[yield(card)] += count }
+      counts
+    end
+
+    def cards_by_printing(deck)
+      DeckParser::SECTIONS.to_h{|name| [name, count_cards(deck.section(name)){|card| card }] }
+    end
+
+    def cards_by_name(deck)
+      DeckParser::SECTIONS.to_h{|name| [name, count_cards(deck.section(name)){|card| card.name }] }
+    end
+
+    let(:decks) { db.sets.values.flat_map(&:decks) }
+
+    it "to_text" do
+      # Without printings all we can round trip is names
+      mismatched = decks.reject do |deck|
+        cards_by_name(DeckParser.new(db, deck.to_text).deck) == cards_by_name(deck)
+      end
+      mismatched.should eq([])
+    end
+
+    it "to_text_with_printings" do
+      mismatched = decks.reject do |deck|
+        cards_by_printing(DeckParser.new(db, deck.to_text_with_printings).deck) == cards_by_printing(deck)
+      end
+      mismatched.should eq([])
     end
   end
 end

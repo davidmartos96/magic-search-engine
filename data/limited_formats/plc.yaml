@@ -1,0 +1,26 @@
+# Sealed in this set's season: the block's Time Spiral tournament pack
+# plus two boosters, which is the era's standard two (README, Sealed pools).
+# Which two is derived, not sourced - no Grand Prix fact sheet survives for a
+# mid-block season. Both are taken to be PLC, following the DCI's own
+# set selection for team events, which puts every booster in the newest small
+# set ("If the first small expansion has been released, the four boosters
+# should be from the first small expansion", Floor Rules section 148).
+sealed:
+- 1x tsp-tournament
+- 2x plc-draft
+prerelease-sealed:
+  # "you will be handed one 75-card tournament pack of Time Spiral and three
+  # 15-card booster packs of Planar Chaos"
+  # https://magic.wizards.com/en/news/feature/planar-chaos-prerelease-primer
+  # And the set's fact sheet: "Cost of entry will provide you, one (1) Time
+  # Spiral tournament pack and three (3) Planar Chaos boosters."
+  # https://web.archive.org/web/2018/https://magic.wizards.com/en/articles/archive/worldwide-prerelease-fact-sheet-2006-12-20
+  boosters:
+  - 1x tsp-tournament
+  - 3x plc-draft
+  unplayable-promo:
+  - Oros, the Avenger [PPLC:161★] [foil]
+draft:
+- tsp-draft
+- tsp-draft
+- plc-draft

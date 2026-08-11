@@ -1,0 +1,27 @@
+# Sealed in this set's season: the block's Ravnica tournament pack
+# plus one booster of each small set. Sourced for the Time Spiral block by
+# the Grand Prix Stockholm fact sheet in fut.yaml, and the same shape is used
+# for every completed block of the era.
+sealed:
+- 1x rav-tournament
+- 1x gpt-draft
+- 1x dis-draft
+prerelease-sealed:
+  # "most of you will be getting a Ravnica Tournament Pack and three
+  # Dissension booster packs to build a 40-card minimum deck with. I
+  # understand that there might be some parts of the world where you only get
+  # two packs, but by and large it is three packs."
+  # https://magic.wizards.com/en/news/feature/dissension-prerelease-primer
+  # The set's Worldwide Prerelease Fact Sheet is the harder source, and says the
+  # same without the hedging: "Cost of entry will provide you, one (1) Ravnica:
+  # City of Guilds tournament pack and three (3) Dissension boosters."
+  # https://web.archive.org/web/2018/https://magic.wizards.com/en/articles/archive/worldwide-prerelease-fact-sheet-2006-03-07
+  boosters:
+  - 1x rav-tournament
+  - 3x dis-draft
+  unplayable-promo:
+  - Avatar of Discord [PDIS:140★] [foil]
+draft:
+- rav-draft
+- gpt-draft
+- dis-draft

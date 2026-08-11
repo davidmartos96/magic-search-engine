@@ -3,6 +3,7 @@
 require_relative "../search-engine/lib/card_database"
 require "memoist"
 require "pry"
+require "zlib"
 
 class ReportLegalityDifferences
   extend Memoist
@@ -11,7 +12,7 @@ class ReportLegalityDifferences
 
   def initialize
     @db = CardDatabase.load
-    @mtgjson = JSON.parse(Pathname("#{__dir__}/../tmp/AllSets.json").read)
+    @mtgjson = JSON.parse(Zlib::GzipReader.open("#{__dir__}/../tmp/AllSets.json.gz", &:read))
     load_mtgjson_legalities_data
   end
 
@@ -102,12 +103,10 @@ class ReportLegalityDifferences
         next if card.layout =="meld" and card.names.size == 3
       end
 
-      # This is technically not a B&R issue
-      if a == nil and b == "restricted" and ["alchemy", "historic"].include?(format.format_name)
-        b = nil
-      end
-      if a == "banned" and b == "restricted" and ["alchemy", "historic"].include?(format.format_name)
-        b = "banned"
+      # This is technically not a B&R issue, so mtgjson reports these cards as either
+      # not in format or banned, and we have no reason to prefer one over the other
+      if ["conjurable", "specialized"].include?(b) and [nil, "banned"].include?(a)
+        b = a
       end
       statuses << [name, a, b]
     end

@@ -7,7 +7,7 @@ require "pathname"
 # prerelease, and from Alara Reborn on a set that was drafted was also played
 # as six booster sealed.
 #
-# data/limited_formats.yaml is filled in by hand out of old primers and
+# data/limited_formats/ is filled in by hand out of old primers and
 # mtg.wiki, so it lags behind new sets, and everything here is a warning only.
 # Sets which had the boosters but never had the format go into
 # data/limited_formats_not_played.yaml, with a note saying why.
@@ -50,6 +50,10 @@ class LimitedFormatCoverage
       # The sealed we track is a paper event, so digital only sets don't get it
       formats << "sealed" if formats.include?("draft") and six_booster_sealed_era?(set_code)
       formats << "prerelease-sealed" if variants.any?{|variant| variant.start_with?("prerelease")}
+      # A Jumpstart booster is a half deck, and two of them are the whole
+      # format, so a set which has them has it. Extra volumes of packs are
+      # part of the same format, not a format each.
+      formats << "jumpstart" if variants.include?("jumpstart")
       formats.uniq.map{|format| [set_code, format]}
     end
   end
@@ -66,7 +70,7 @@ class LimitedFormatCoverage
     return nil if missing.empty?
     "These sets should probably have limited formats we don't have: " +
       missing.map{|set_code, format| "#{set_code} #{format}"}.join(", ") +
-      " - fill them in in data/limited_formats.yaml," \
+      " - fill them in in data/limited_formats/<set>.yaml," \
       " or say why they never happened in data/limited_formats_not_played.yaml"
   end
 
@@ -84,7 +88,7 @@ class LimitedFormatCoverage
     return nil if drafts.empty?
     "These drafts don't open a single booster of their own set: " +
       drafts.map{|limited_format| limited_format.set_code}.join(" ") +
-      " - check their booster order in data/limited_formats.yaml"
+      " - check their booster order in data/limited_formats/<set>.yaml"
   end
 
   # Every prerelease booster a set has is a booster somebody was handed at that
@@ -94,7 +98,7 @@ class LimitedFormatCoverage
       next [] unless limited_format.type == "prerelease-sealed"
       used = limited_format.pools.flat_map{|pool|
         pool.boosters.map{|count, pack| pack.code} +
-          pool.random_boosters.flat_map{|random| random["from"]}
+          pool.random_boosters.flat_map{|random| random.packs.map(&:code)}
       }
       prerelease_boosters_of(limited_format.set_code) - used
     }
@@ -105,7 +109,7 @@ class LimitedFormatCoverage
     return nil if unused.empty?
     "These prerelease boosters are not handed out by any prerelease pool: " +
       unused.join(" ") +
-      " - somebody got them, so add them in data/limited_formats.yaml"
+      " - somebody got them, so add them in data/limited_formats/<set>.yaml"
   end
 
   # Set code => format => why that set never had that format

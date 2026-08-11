@@ -1,6 +1,24 @@
 class BanList
   START = Date.parse("1900-01-01")
 
+  # Every status a ban list is allowed to say. The last four used to be spelled
+  # "restricted" as well, which meant nothing downstream could tell them apart -
+  # Format::RESTRICTED_STATUSES is what groups them back together now. See _LEGALITY.md.
+  LEGALITY_STATUSES = [
+    "legal",
+    "banned",
+    # only 1 copy in a deck instead of 4 (Vintage, historically Standard)
+    "restricted",
+    # legal in the deck, but may not be your commander (Commander, Duel Commander, Brawl)
+    "banned_as_commander",
+    # legal in the deck, but may not be your companion (Commander, Duel Commander)
+    "banned_as_companion",
+    # Arena-only card that can only be conjured, never put in a deck (Historic, Alchemy)
+    "conjurable",
+    # Arena-only card that only enters play by specializing another card (Historic, Alchemy)
+    "specialized",
+  ].freeze
+
   attr_reader :format
 
   def initialize(format)
@@ -52,6 +70,12 @@ class BanList
     @events.map{|d,_,_| d}
   end
 
+  # Announcements as declared, [date, url, {card name => legality}]
+  # Unlike events it doesn't split them by card or figure out previous legality
+  def changes
+    @events
+  end
+
   def to_s
     "BanList[#{@format}]"
   end
@@ -64,6 +88,9 @@ class BanList
 
   def change(date, url, legalities)
     date = Date.parse(date) unless date.is_a?(Date)
+    legalities.each_value do |legality|
+      raise "#{self} has unknown legality status #{legality.inspect}" unless LEGALITY_STATUSES.include?(legality)
+    end
     @events << [date, url, legalities]
     legalities.each do |card, legality|
       @cards[card] ||= []
@@ -99,6 +126,11 @@ class BanList
 
     def all_change_dates
       @ban_lists.values.flat_map(&:change_dates).uniq.sort
+    end
+
+    # Formats get a BanList even if they never had any bans, skip those
+    def all_ban_lists
+      @ban_lists.values.reject{|ban_list| ban_list.changes.empty?}.sort_by(&:format)
     end
   end
 end
