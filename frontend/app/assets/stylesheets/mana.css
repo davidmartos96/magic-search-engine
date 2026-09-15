@@ -5,8 +5,10 @@
   * renamed tap -> t
   * renamed untap -> q
   * renamed paw -> p
+  * renamed acorn -> a
   * renamed infinity -> ∞
   * added loyalty-n (for comprehensive rules)
+  * unquoted the MPlantin font stack (upstream quotes the whole list, so it matches no font)
   * (maybe these changes should be in application helper instead of manually applied)
 */
 
@@ -152,7 +154,7 @@
 .mana-e::before, .mana-energy::before {
   content: "\e907";
 }
-.mana-acorn::before {
+.mana-a::before {
   content: "\e929";
 }
 .mana-ticket::before, .mana-tk::before {
@@ -1597,7 +1599,7 @@ span.mana-half > .mana-cost {
   color: #fff;
   display: inline-block;
   font-size: 0.5em;
-  font-family: "MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif";
+  font-family: MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif;
   position: absolute;
   left: 0;
   line-height: 2.25em;
@@ -1835,7 +1837,7 @@ span.mana-half > .mana-cost {
   color: #fff;
   display: inline-block;
   font-size: 0.6em;
-  font-family: "MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif";
+  font-family: MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif;
   position: absolute;
   left: 0;
   line-height: 2em;
@@ -1867,7 +1869,7 @@ span.mana-half > .mana-cost {
   left: 0;
   top: 0;
   color: #000;
-  font-family: "MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif";
+  font-family: MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif;
   width: 76%;
   text-align: center;
   line-height: 3.8;
@@ -1893,7 +1895,7 @@ span.mana-half > .mana-cost {
   color: #fff;
   display: inline-block;
   font-size: 0.5em;
-  font-family: "MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif";
+  font-family: MPlantin, Garamond, Palatino, 'Times New Roman', Times, serif;
   position: absolute;
   left: 0;
   line-height: 2.25em;

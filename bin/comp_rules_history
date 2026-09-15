@@ -1,0 +1,88 @@
+#!/usr/bin/env ruby
+
+require "pathname"
+require_relative "../search-engine/lib/comp_rules"
+
+class CompRulesHistory
+  def initialize(label)
+    @label = label
+  end
+
+  def entries
+    @entries ||= CompRules::MANIFEST_PATH.readlines.map do |line|
+      filename, sha, date, = line.chomp.split("\t")
+      {filename: filename, sha: sha, date: date}
+    end
+  end
+
+  def call
+    unless CompRules::MANIFEST_PATH.exist?
+      abort "No manifest at #{CompRules::MANIFEST_PATH} - run bin/export_rules_history first"
+    end
+
+    history = entries.map do |entry|
+      raw = (CompRules::HISTORY_DIR + entry[:filename]).binread
+      parsed = CompRules.parse(raw)
+      match = find_match(parsed, @label)
+      {date: entry[:date], filename: entry[:filename], text: match&.text}
+    end
+
+    if history.all? { |h| h[:text].nil? }
+      report_not_found(history)
+      exit 1
+    end
+
+    print_history(history)
+  end
+
+  private
+
+  def find_match(parsed, label)
+    if label.end_with?(".")
+      matches = parsed[:rules].select { |r| r.id.start_with?(label) }
+      return nil if matches.empty?
+      combined = matches.map { |r| "#{r.id} #{r.text}" }.join("\n\n")
+      Struct.new(:text).new(combined)
+    else
+      parsed[:rules].find { |r| r.id == label } ||
+        parsed[:glossary].find { |g| g.term.casecmp?(label) }
+    end
+  end
+
+  def report_not_found(history)
+    warn "No rule or glossary term matching #{@label.inspect} found in any version."
+    prefix = @label.end_with?(".") ? @label : @label
+    candidates = history.each_with_object({}) do |h, ids|
+      raw = (CompRules::HISTORY_DIR + h[:filename]).binread
+      CompRules.parse(raw)[:rules].each do |r|
+        ids[r.id] = true if r.id.start_with?(prefix)
+      end
+    rescue
+      nil
+    end.keys.sort
+    unless candidates.empty?
+      warn "Rule numbers starting with #{@label.inspect} appear in at least one version: #{candidates.join(", ")}"
+      warn "(rule numbers can shift between versions - try one of these)"
+    end
+  end
+
+  def print_history(history)
+    last_text = :unset
+    history.each do |h|
+      next if h[:text] == last_text
+      last_text = h[:text]
+
+      if h[:text].nil?
+        puts "#{h[:date]} (#{h[:filename]}): [not present in this version]"
+      else
+        puts "== #{h[:date]}  (#{h[:filename]}, #{entries.find { |e| e[:filename] == h[:filename] }[:sha][0, 10]}) =="
+        puts h[:text]
+      end
+      puts
+    end
+  end
+end
+
+label = ARGV[0] or abort "Usage: bin/comp_rules_history <rule number, e.g. 606.4b, or glossary term>"
+
+CompRulesHistory.new(label).call

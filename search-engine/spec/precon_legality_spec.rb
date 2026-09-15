@@ -17,7 +17,7 @@ describe Deck do
           # no risk of accidentally tagging them wrong
         when "casual", "historic brawl", "dandan"
           verify_deck_is_casual(deck)
-        when "commander", "modern", "standard", "brawl", "pioneer", "standard", "casual standard"
+        when "commander", "modern", "standard", "brawl", "pioneer", "casual standard"
           verify_deck_is_legal(deck)
         when nil
           # random boxes etc.
@@ -30,20 +30,11 @@ describe Deck do
   end
 
   def verify_deck_is_casual(deck)
-    # Early tournaments often had special near-Standard formats we do not really support
-    # Some decks can end up accidentally Standard legal
-    accidentally_legal_decks = [
-      ["ptc", "George Baxter, Quarterfinalist"],
-      ["ptc", "Leon Lindback, Semifinalist"],
-    ]
-
-    check = format_check(deck)
-
-    if accidentally_legal_decks.include?([deck.set_code, deck.name])
-      check.should(eq(true), "#{deck.set_code} #{deck.name} should be #{deck.format} legal (as known exception)")
-    else
-      check.should(eq(false), "#{deck.set_code} #{deck.name} should be casual")
-    end
+    # Early tournaments often had special near-Standard formats we do not really support,
+    # and decks from them used to come out accidentally Standard legal. The two that did -
+    # ptc "George Baxter, Quarterfinalist" and ptc "Leon Lindback, Semifinalist" - no longer
+    # do, now that Ivory Tower and Zuran Orb are correctly restricted in 1996 Standard.
+    format_check(deck).should(eq(false), "#{deck.set_code} #{deck.name} should be casual")
   end
 
   def verify_deck_is_legal(deck)
@@ -92,7 +83,7 @@ describe Deck do
     when "modern"
       FormatModern.new(date)
     when "brawl"
-      FormatBrawl.new(date)
+      FormatStandardBrawl.new(date)
     when "pioneer"
       FormatPioneer.new(date)
     else

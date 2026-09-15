@@ -11,7 +11,7 @@
       %ul
         - @included_sets.each do |set|
           %li
-            = link_to set.name, controller: "set", action: "show", id: set.code
+            = link_to set.name, set_url(set)
 
     %h4 Banned cards
     - if @banned.present?
@@ -35,16 +35,18 @@
 
     - if @events.present?
       %h4 Ban history
-      - @events.each do |date, url, events|
+      - @events.each do |date, url, comment, events|
         - if date
           %h6= date
           - if url
             %div= link_to "Announcement", url
+          - if comment
+            %div= comment
           %ul
             - events.each do |event|
               %li
                 = surround "", ":" do
-                  = link_to event[:name], controller: "card", q: "!#{event[:name]}"
+                  = link_to event[:name], card_name_url(event[:name])
                 = event[:old].tr("_", " ")
                 &rarr;
                 = event[:new].tr("_", " ")
@@ -52,9 +54,19 @@
           %h6 Format start
           - if url
             %div= link_to "Announcement", url
+          - if comment
+            %div= comment
           %ul
             - events.each do |event|
               %li
                 = surround "", ":" do
-                  = link_to event[:name], controller: "card", q: "!#{event[:name]}"
+                  = link_to event[:name], card_name_url(event[:name])
                 = event[:new].tr("_", " ")
+
+    - if @rotation_history
+      %h4 Rotation history
+      %ul
+        - @rotation_history.each do |end_date, sets|
+          %li
+            = end_date ? "Until #{end_date}:" : "Currently:"
+            = safe_join(sets.map{|set| link_to set.name, set_url(set)}, ", ")

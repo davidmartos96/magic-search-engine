@@ -18,6 +18,9 @@ describe "QueryParser" do
 
   it "parsing_basics" do
     assert_search_parse "r:common alt:r:uncommon", "r:common alt:(r:uncommon)"
+    assert_search_parse "prints>=2:r:uncommon r:common", "prints>=2:(r:uncommon) r:common"
+    # The ":" before the subquery is what tells the two apart
+    refute_search_parse "prints>=2:(r:common)", "prints>=2 (r:common)"
     assert_search_parse "cmc=1 c:w", "cmc=1 AND c:w"
     refute_search_parse "cmc=1 OR c:w", "cmc=1 AND c:w"
     assert_search_parse "cmc=1 c:w", "CMC=1 C:W"
@@ -57,12 +60,15 @@ describe "QueryParser" do
     assert_search_parse "r:rare", "r=rare"
     assert_search_parse "pow=5", "pow:5"
     assert_search_parse "tou=5", "tou:5"
-    assert_search_parse "cmc=5", "cmc:5"
     assert_search_parse "mv=5", "mv:5"
     assert_search_parse "mv=5", "manavalue=5"
     assert_search_parse "mv=5", "manavalue:5"
     assert_search_parse "mv=5", "MANAVALUE=5"
+    assert_search_parse "mv=5", "cmc=5"
+    assert_search_parse "mv=5", "cmc:5"
+    assert_search_parse "mv=5", "CMC=5"
     assert_search_parse "pow=mv", "pow=manavalue"
+    assert_search_parse "pow=mv", "pow=cmc"
     assert_search_parse "loy=5", "loy:5"
     assert_search_parse "year=2000", "year:2000"
     assert_search_parse "pow=5", "power=5"
@@ -93,6 +99,8 @@ describe "QueryParser" do
     assert_search_parse "part:t:planeswalker", "part=t:planeswalker"
     assert_search_parse "related:t:planeswalker", "related=t:planeswalker"
     assert_search_parse "alt:t:planeswalker", "alt=t:planeswalker"
+    assert_search_parse "prints≥2:e:m10", "prints>=2:e:m10"
+    assert_search_parse "prints≤2:e:m10", "prints<=2:e:m10"
     assert_search_parse "cn≥315 cn≤406", "number>=315 number<=406"
     # This doesn't work like scryfall, as "cn=ELD-303" is parsed as number range query
     assert_search_parse "cn:315 or cn=ELD-303 or cn:/a/ or cn:200-300", "number:315 or number=ELD-303 or number:/a/ or number:200-300"
@@ -124,6 +132,19 @@ describe "QueryParser" do
     assert_search_parse %[time:2010.3.3 r:common], %[time:"3 march 2010" r:common]
     assert_search_parse %[time:2010.3 r:common], %[time:"1 march 2010" r:common]
     assert_search_parse %[time:rtr r:common], %[time:RTR r:common]
+  end
+
+  it "now and today" do
+    assert_search_parse "time:now r:common", %[time:"#{Date.today}" r:common]
+    assert_search_parse "time:today r:common", "time:now r:common"
+    assert_search_parse "time:NOW r:common", "time:now r:common"
+  end
+
+  it "include:extras is accepted and ignored" do
+    # We never hide extra cards, so there is nothing for it to let back in
+    assert_search_parse "include:extras t:goblin", "t:goblin"
+    assert_search_parse "include=extras t:goblin", "t:goblin"
+    Query.new("include:extras t:goblin").warnings.should eq([])
   end
 
   it "color aliases with =" do
@@ -337,8 +358,9 @@ describe "QueryParser" do
     assert_search_parse "++ pow=3 tou=2 c:g", "pow=3 tou=2 c:g unique:prints"
     assert_search_parse '!"Lightning Bolt" unique:prints', '++ !"Lightning Bolt"'
     assert_search_parse 'unique:prints !"Lightning Bolt"', '!"Lightning Bolt" ++'
-    # FIXME: This is a bug, just documenting so it can get fixed someday
-    Query.new("c:g ++ //").warnings.should == ["Unknown token type [:slash_slash]"]
+    assert_search_parse "++ c:g //", "c:g ++ //"
+    assert_search_parse "++ c:g or c:r", "c:g ++ or c:r"
+    Query.new("c:g ++ //").warnings.should == []
   end
 
   it "accepts alternative quotation marks" do
@@ -393,7 +415,7 @@ describe "QueryParser" do
   end
 
   it "warns for bad view:" do
-    Query.new('view:cardback').warnings.should eq(["Unknown view: cardback. Known options are: checklist, full, images, text, default."])
+    Query.new('view:cardback').warnings.should eq(["Unknown view: cardback. Known options are: checklist, default, full, images, text."])
   end
 
   it "warns for bad frame:" do

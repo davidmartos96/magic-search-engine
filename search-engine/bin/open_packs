@@ -10,22 +10,22 @@ class OpenPacks
     @db ||= CardDatabase.load
   end
 
-  def factory
-    @factory ||= PackFactory.new(db)
-  end
-
   def option_parser
     @option_parser ||= Optimist::Parser.new do
       banner <<~EOS
         Open packs. You can also add predefined cards to the results.
 
+        Counts need a space after them, so quote them for the shell.
+
         Usage:
           #{$0} m10
-          #{$0} 6xm10
-          #{$0} 36xmh1 mh1/255
-          #{$0} 36xm19 m19/306/foil
-          #{$0} 10xiko-set
-          #{$0} 2xsom 2xmbs 2xnph
+          #{$0} "6x m10"
+          #{$0} "36 m10"
+          #{$0} "36x mh1" mh1/255
+          #{$0} "36x m19" "2x m19/306/foil"
+          #{$0} "10x cmr-collector" cmr/559/etched
+          #{$0} "10x iko-collector"
+          #{$0} "2x som" "2x mbs" "2x nph"
 
         Options:
         EOS
@@ -53,7 +53,7 @@ class OpenPacks
 
   def show_unsupported
     db.sets.values.select{|set|
-      set.types.include?("booster") and !factory.for(set.code)
+      set.types.include?("booster") and !db.supported_booster_types[set.code]
     }.each do |set|
       puts "%3s %s" % [set.code.upcase, set.name]
     end
@@ -65,20 +65,21 @@ class OpenPacks
 
   def open_some_packs
     cards = sealed.call
-    # There could be multiple basic arts etc., ignore everything except foil flag
+    # There could be multiple basic arts etc., ignore everything except the finish
     cards_with_counts = cards
-      .group_by{|x| [x.name, x.foil]}
-      .map{|k,v| [k, v.count]}
-      .sort_by{|(n,f),v| [n,f ? 1 : 0]}
+      .each_with_object(Hash.new(0)){|(card, count), counts| counts[[card.name, card.finish]] += count}
+      .sort_by{|(name, finish), _| [name, PhysicalCard::FINISHES.index(finish)]}
     count_width = cards_with_counts.map(&:last).map(&:to_s).map(&:size).max
-    cards_with_counts.each do |(name, foil), count|
-      foil_indicator = foil ? " [foil]" : ""
+    cards_with_counts.each do |(name, finish), count|
+      # A human listing, so the finish is named once - etched is a foiling, but
+      # saying "foil etched" here would only be noise
+      finish_indicator = finish == :nonfoil ? "" : " [#{finish}]"
       if count == 1
         count_indicator =  " " * (count_width+1)
       else
         count_indicator =  "%#{count_width}dx" % count
       end
-      puts "#{count_indicator} #{name}#{foil_indicator}"
+      puts "#{count_indicator} #{name}#{finish_indicator}"
     end
   end
 
@@ -98,4 +99,10 @@ class OpenPacks
   end
 end
 
-OpenPacks.new.call
+begin
+  OpenPacks.new.call
+rescue RuntimeError => e
+  # Bad descriptors are a usage error, and `36xm10` is now one of them
+  STDERR.puts e.message
+  exit 1
+end

@@ -2,7 +2,7 @@
 %form.sealed_form
   - @packs_to_open.each_with_index do |(set_code, count), i|
     .pack_selection
-      %input.form-control.pack_count{type: "number", name: "count[]", value: count, min: 0, id: "count_#{i}", "aria-label": "Number of packs"}
+      %input.form-control.pack_count{type: "number", name: "count[]", value: count, min: 0, max: SealedController::MAX_PACKS, id: "count_#{i}", "aria-label": "Number of packs"}
       = select_tag "set[]", options_for_select(@booster_options, set_code), id: "set_#{i}", class: "form-control pack_set", "aria-label": "Booster type"
   .fixed_cards
     %label{for: "fixed"} Optional fixed cards
@@ -19,8 +19,15 @@
     %input{type: "hidden", name: "deck", value: @deck}
     %button.btn.btn-outline-primary
       Preview as Deck
+    -# Exporting a pool is what most people want the visualizer for, so it is
+    -# offered here rather than one page further on
+    %button.btn.btn-outline-primary{type: "button", "data-toggle": "modal", "data-target": "#deck_export"}
+      Export
+  = render "deck/export_dialog", deck: nil
   .row.multicard_row
-    - @cards.each_with_index do |card, i|
-      .col-4.col-sm-3.card_picture_cell
-        = link_to_card(card.main_front) do
-          = render 'card/picture', card: card
+    -# The pool is a multiset, but every copy still gets a picture of its own
+    - @cards.each do |card, count|
+      - count.times do
+        .col-4.col-sm-3.card_picture_cell
+          = link_to_card(card.main_front) do
+            = render 'card/picture', card: card, searchable: true

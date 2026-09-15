@@ -36,7 +36,7 @@ sheets:
     # The Buy-a-Box promo (Jadelight Spelunker, lci #403) shares the extended-art
     # frame but is a WPN store promo, not a Collector Booster card - exclude it,
     # as every other set does (cf. dmu/khm/mom/mat collector sheets).
-    filter: "e:lci frame:extendedart -promo:buyabox"
+    filter: "e:{set} frame:extendedart -promo:buyabox"
     use: rare_mythic
   extended_commander_rare_mythic:
     filter: "e:lcc frame:extendedart"
@@ -46,46 +46,46 @@ sheets:
     any:
     - rawquery: "e:{set} is:showcase t:legendary r:u"
       count: 8
-      rate: 55
+      chance: 55
     - rawquery: "e:{set} is:borderless t:dinosaur r:u"
       count: 6
-      rate: 41
+      chance: 41
     - rawquery: "e:spg sheet:LCI r:u"
       count: 5
-      rate: 3
+      chance: 3
   foil_extended_commander_rare_mythic:
     foil: true
-    # The traditional-foil version of this slot is not just the extended-art
-    # commanders: the article says it also includes "the new Commander content
-    # found in Set Boosters" - i.e. the regular #1-16 and showcase #17-20
-    # commander cards - in foil. Without number:1-20 their foils are productless.
-    filter: "e:lcc (number:1-20 or frame:extendedart)"
+    # 6 rares and 14 mythics: extended art plus the four alternate commanders.
+    filter: "e:lcc (number:17-20 or frame:extendedart)"
+    count: 20
     use: rare_mythic
   showcase_rare_mythic:
     any:
-    - rawquery: "e:lcc promo:boosterfun -frame:extendedart -promo:neonink r:r"
+    - rawquery: "e:{set} promo:boosterfun -frame:extendedart -promo:neonink r:r"
+      count: 26
       rate: 4
-    - rawquery: 'e:lcc promo:boosterfun -frame:extendedart -promo:neonink r:m -name:"Quintorius Kand"'
-      count: 4
+    - rawquery: 'e:{set} promo:boosterfun -frame:extendedart -promo:neonink r:m -name:"Quintorius Kand"'
+      count: 19
       rate: 2
-    - rawquery: 'e:lcc promo:boosterfun -frame:extendedart -promo:neonink r:m name:"Quintorius Kand"'
+    - rawquery: 'e:{set} promo:boosterfun -frame:extendedart -promo:neonink r:m name:"Quintorius Kand"'
+      count: 2
       rate: 1
   jurrasic_world:
     any:
-    - rawquery: "e:rex -t:basic -promo:embossed -is:reversibleback"
-      count: 21
+    - rawquery: "e:rex -t:land -promo:embossed -is:reversibleback"
+      count: 20
       rate: 1
-    - rawquery: "e:rex t:basic -promo:embossed -is:reversibleback"
-      count: 5
+    - rawquery: "e:rex t:land -promo:embossed -is:reversibleback"
+      count: 6
       rate: 4
   foil_jurrasic_world:
     foil: true
     any:
-    - rawquery: "e:rex -t:basic -promo:embossed -is:reversibleback"
-      count: 21
+    - rawquery: "e:rex -t:land -promo:embossed -is:reversibleback"
+      count: 20
       rate: 1
-    - rawquery: "e:rex t:basic -promo:embossed -is:reversibleback"
-      count: 5
+    - rawquery: "e:rex t:land -promo:embossed -is:reversibleback"
+      count: 6
       rate: 4
   emblem_jurrasic_world:
     foil: true
@@ -94,13 +94,13 @@ sheets:
   foil_showcase_rare_mythic:
     foil: true
     any:
-    - rawquery: "e:lci promo:boosterfun r:r"
+    - rawquery: "e:{set} promo:boosterfun r:r"
       count: 64
       rate: 4
-    - rawquery: 'e:lci promo:boosterfun r:m -promo:neonink -name:"Quintorius Kand"'
+    - rawquery: 'e:{set} promo:boosterfun r:m -promo:neonink -name:"Quintorius Kand"'
       count: 21
       rate: 2
-    - rawquery: 'e:lci promo:boosterfun r:m -promo:neonink name:"Quintorius Kand"'
+    - rawquery: 'e:{set} promo:boosterfun r:m -promo:neonink name:"Quintorius Kand"'
       count: 2
       rate: 1
     - set: spg
@@ -116,19 +116,19 @@ sheets:
       code: "LCINEON"
       chance: 1
     - any:
-      - rawquery: "e:lci number:410a"
+      - rawquery: "e:{set} number:410a"
         count: 1
         rate: 1
-      - rawquery: "e:lci number:410e"
+      - rawquery: "e:{set} number:410e"
         count: 1
         rate: 2
-      - rawquery: "e:lci number:410d"
+      - rawquery: "e:{set} number:410d"
         count: 1
         rate: 4
-      - rawquery: "e:lci number:410c"
+      - rawquery: "e:{set} number:410c"
         count: 1
         rate: 8
-      - rawquery: "e:lci number:410f"
+      - rawquery: "e:{set} number:410f"
         count: 1
         rate: 16
       chance: 1

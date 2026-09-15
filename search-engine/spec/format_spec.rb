@@ -3,12 +3,24 @@ describe "Formats" do
 
   ## General queries
 
+  it "unknown format warns" do
+    # Without the warning an unsupported format is indistinguishable from one
+    # we support but no card is legal in
+    db.search("f:gladiator").warnings.should include(%[Unknown format "gladiator"])
+    db.search("banned:gladiator").warnings.should include(%[Unknown format "gladiator"])
+    db.search("restricted:gladiator").warnings.should include(%[Unknown format "gladiator"])
+    db.search("legal:gladiator").warnings.should include(%[Unknown format "gladiator"])
+    # Spelled with the separators the tokenizer strips, and one we do support
+    db.search("f:penny-dreadful").warnings.should_not include(%[Unknown format "pennydreadful"])
+    db.search("f:*").warnings.should be_empty
+  end
+
   it "formats" do
     assert_search_equal "f:standard", "legal:standard"
-    assert_search_results "f:extended" # Does not exist according to mtgjson
+    assert_search_results "f:extended" # We never supported it, see "unknown format warns"
     assert_search_equal_cards "f:standard",
       %[
-        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl,tmt,sos,msh
+        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl,tmt,sos,msh,hob
         -is:alchemy
         -(Cori-Steel Cutter)
         -(Abuelo's Awakening)
@@ -36,6 +48,7 @@ describe "Formats" do
     FormatInnistradBlock.new.ban_events.should eq([
       [Date.parse("2012-04-01"),
         "https://magic.wizards.com/en/articles/archive/feature/march-20-2012-dci-banned-restricted-list-announcement-2012-03-20",
+        nil,
       [
         {name: "Intangible Virtue", old: "legal", new: "banned"},
         {name: "Lingering Souls", old: "legal", new: "banned"},
@@ -45,33 +58,39 @@ describe "Formats" do
     FormatModern.new.ban_events.last(24).should eq([
       [Date.parse("2024-08-26"),
        "https://magic.wizards.com/en/news/announcements/august-26-2024-banned-and-restricted-announcement",
+       nil,
       [
         {:name=>"Nadu, Winged Wisdom", :new=>"banned", :old=>"legal"},
         {:name=>"Grief", :new=>"banned", :old=>"legal"}
       ]],
       [Date.parse("2023-12-04"),
         "https://magic.wizards.com/en/news/announcements/december-4-2023-banned-and-restricted-announcement",
+        nil,
       [
           {:name=>"Fury", :new=>"banned", :old=>"legal"},
           {:name=>"Up the Beanstalk", :new=>"banned", :old=>"legal"},
       ]],
       [Date.parse("2023-08-07"),
         "https://magic.wizards.com/en/news/announcements/august-7-2023-banned-and-restricted-announcement",
+        nil,
         [
           {:name=>"Preordain", :new=>"legal", :old=>"banned"},
       ]],
       [Date.parse("2022-10-10"),
         "https://magic.wizards.com/en/articles/archive/news/october-10-2022-banned-and-restricted-announcement",
+        nil,
       [
         {name: "Yorion, Sky Nomad", old: "legal", new: "banned"},
       ]],
       [Date.parse("2022-03-07"),
         "https://magic.wizards.com/en/articles/archive/news/march-7-2022-banned-and-restricted-announcement",
+        nil,
       [
         {:name=>"Lurrus of the Dream-Den", :new=>"banned", :old=>"legal"},
       ]],
       [Date.parse("2021-02-15"),
         "https://magic.wizards.com/en/articles/archive/news/february-15-2021-banned-and-restricted-announcement",
+        nil,
       [
         {:name=>"Field of the Dead", :new=>"banned", :old=>"legal"},
         {:name=>"Mystic Sanctuary", :new=>"banned", :old=>"legal"},
@@ -81,16 +100,19 @@ describe "Formats" do
       ]],
       [Date.parse("2020-07-13"),
         "https://magic.wizards.com/en/articles/archive/news/july-13-2020-banned-and-restricted-announcement-2020-07-13",
+        nil,
       [
         {:name=>"Arcum's Astrolabe", :new=>"banned", :old=>"legal"},
       ]],
       [Date.parse("2020-03-10"),
         "https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement",
+        nil,
       [
         {:name=>"Once Upon a Time", :new=>"banned", :old=>"legal"},
       ]],
       [Date.parse("2020-01-14"),
         "https://magic.wizards.com/en/articles/archive/news/january-13-2020-banned-and-restricted-announcement",
+        nil,
       [
         {:name=>"Mox Opal", :new=>"banned", :old=>"legal"},
         {:name=>"Oko, Thief of Crowns", :new=>"banned", :old=>"legal"},
@@ -98,6 +120,7 @@ describe "Formats" do
       ]],
       [Date.parse("2019-08-30"),
         "https://magic.wizards.com/en/articles/archive/news/august-26-2019-banned-and-restricted-announcement-2019-08-26",
+        nil,
       [
         {:name=>"Stoneforge Mystic", :new=>"legal", :old=>"banned"},
         {:name=>"Hogaak, Arisen Necropolis", :new=>"banned", :old=>"legal"},
@@ -105,28 +128,33 @@ describe "Formats" do
       ]],
       [Date.parse("2019-07-12"),
         "https://magic.wizards.com/en/articles/archive/news/july-8-2019-banned-and-restricted-announcement-2019-07-08",
+        nil,
       [
         {:name=>"Bridge from Below", :new=>"banned", :old=>"legal"},
       ]],
       [Date.parse("2019-01-21"),
         "https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement",
+        nil,
       [
         {:name=>"Krark-Clan Ironworks", :new=>"banned", :old=>"legal"},
       ]],
       [Date.parse("2018-02-19"),
         "https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12",
+        nil,
       [
         {:name=>"Jace, the Mind Sculptor", :old=>"banned", :new=>"legal"},
         {:name=>"Bloodbraid Elf", :old=>"banned", :new=>"legal"},
       ]],
       [Date.parse("2017-01-20"),
         "https://magic.wizards.com/en/articles/archive/news/january-9-2017-banned-and-restricted-announcement-2017-01-09",
+        nil,
       [
         {:name=>"Golgari Grave-Troll", :old=>"legal", :new=>"banned"},
         {:name=>"Gitaxian Probe", :old=>"legal", :new=>"banned"},
       ]],
       [Date.parse("2016-04-08"),
         "https://magic.wizards.com/en/articles/archive/news/banned-and-restricted-announcement-2016-04-04",
+        nil,
       [
         {:name=>"Ancestral Vision", :old=>"banned", :new=>"legal"},
         {:name=>"Sword of the Meek", :old=>"banned", :new=>"legal"},
@@ -134,12 +162,14 @@ describe "Formats" do
       ]],
       [Date.parse("2016-01-22"),
         "https://magic.wizards.com/en/articles/archive/news/january-18-2016-banned-and-restricted-announcement-2016-01-18",
+        nil,
       [
         {:name=>"Splinter Twin", :old=>"legal", :new=>"banned"},
         {:name=>"Summer Bloom", :old=>"legal", :new=>"banned"},
       ]],
       [Date.parse("2015-01-23"),
         "https://magic.wizards.com/en/articles/archive/feature/banned-and-restricted-announcement-2015-01-19",
+        nil,
       [
         {:name=>"Golgari Grave-Troll", :old=>"banned", :new=>"legal"},
         {:name=>"Birthing Pod", :old=>"legal", :new=>"banned"},
@@ -148,6 +178,7 @@ describe "Formats" do
       ]],
       [Date.parse("2014-02-07"),
         "https://magic.wizards.com/en/articles/archive/top-decks/february-3-2014-dci-banned-restricted-list-announcement-2014-02-03",
+        nil,
       [
         {:name=>"Bitterblossom", :old=>"banned", :new=>"legal"},
         {:name=>"Wild Nacatl", :old=>"banned", :new=>"legal"},
@@ -155,28 +186,33 @@ describe "Formats" do
       ]],
       [Date.parse("2013-05-03"),
         "https://magic.wizards.com/en/articles/archive/feature/banned-and-restricted-2013-04-22-0",
+        nil,
       [
         {:name=>"Second Sunrise", :old=>"legal", :new=>"banned"},
       ]],
       [Date.parse("2013-02-01"),
         "https://magic.wizards.com/en/articles/archive/january-28-2013-dci-banned-restricted-list-announcement-2013-01-28",
+        nil,
       [
         {:name=>"Bloodbraid Elf", :old=>"legal", :new=>"banned"},
         {:name=>"Seething Song", :old=>"legal", :new=>"banned"},
       ]],
       [Date.parse("2012-10-01"),
         "https://magic.wizards.com/en/articles/archive/feature/september-20-2012-dci-banned-restricted-list-announcement-2012-09-20",
+        nil,
       [
         {:name=>"Valakut, the Molten Pinnacle", :old=>"banned", :new=>"legal"},
       ]],
       [Date.parse("2012-01-01"),
         "https://magic.wizards.com/en/articles/archive/feature/december-20-2011-dci-banned-restricted-list-announcement-2011-12-20",
+        nil,
       [
         {:name=>"Punishing Fire", :old=>"legal", :new=>"banned"},
         {:name=>"Wild Nacatl", :old=>"legal", :new=>"banned"},
       ]],
       [Date.parse("2011-10-01"),
         "https://magic.wizards.com/en/articles/archive/feature/september-20-2011-dci-banned-restricted-list-announcement-2011-09-20",
+        nil,
       [
         {:name=>"Blazing Shoal", :old=>"legal", :new=>"banned"},
         {:name=>"Cloudpost", :old=>"legal", :new=>"banned"},
@@ -187,6 +223,7 @@ describe "Formats" do
       ]],
       [nil,
         "https://magic.wizards.com/en/articles/archive/latest-developments/welcome-modern-world-2011-08-12",
+        nil,
       [
         {:name=>"Ancestral Vision", :old=>"legal", :new=>"banned"},
         {:name=>"Ancient Den", :old=>"legal", :new=>"banned"},
@@ -239,41 +276,65 @@ describe "Formats" do
     assert_count_cards 'restricted:"duel commander"', 30
   end
 
-  # Used to be Lurrus
-  # And now it's all the sticker and attraction cards, and I don't even know if the format is still used or not really
-  # it "mtgo commander" do
-  #   assert_count_cards 'banned:vintage legal:"mtgo commander"', 0
-  # end
-
   it "historic" do
     # including STA pre-banned
     # this is extra fun as some conjurable cards will be not banned
-    assert_count_cards "banned:historic", 69
+    assert_count_cards "banned:historic", 76
     assert_legality "historic", Date.parse("2023-08-01"), "Alora, Cheerful Assassin", "specialized"
     assert_legality "historic", Date.parse("2023-08-01"), "Black Lotus", "conjurable"
     assert_legality "historic", Date.parse("2023-08-01"), "Lightning Bolt", "conjurable"
   end
 
-  # The sets conjure-only cards are conjured from. A card printed into the format
-  # by anything else is an ordinary card, not a conjurable one.
-  CONJURE_ONLY_SETS = ["hbg", "ydmu", "j21"]
+  # Sets where a collector number can't tell a conjure-only printing from an ordinary
+  # one, so the whole set counts as a source. HBG is the only one: its specialize forms
+  # (5w, 5u, 5b, 5r, 5g and the rest of the nineteen) and its nine Hags (H17-H25) are
+  # numbered inside the main run, not after it.
+  CONJURE_ONLY_SETS = ["hbg"]
 
-  # Cards which are only conjurable, but which some set outside CONJURE_ONLY_SETS also
-  # puts into the format, stop being conjurable - the ban list then says => "legal",
+  # Where the rest put their conjure-only cards, which is after every normal card they
+  # have - J21 stops at 776 and resumes at 777, and an Alchemy set with an appendix keeps
+  # it above its thirty (forty for YEOE). Arena's own card database agrees printing for
+  # printing: IsPrimaryCard is 0 on exactly these and on nothing else numbered below them
+  # bar back faces and split halves, which carry a letter and so never reach a threshold.
+  #
+  # It has to be per printing rather than per set because these sets are otherwise
+  # ordinary - YECL 1-30 is a normal Alchemy release and YECL 31-33 is a spellbook - and
+  # because a card printed into the format by anything else is an ordinary card, not a
+  # conjurable one, however many spellbooks also conjure it.
+  CONJURE_ONLY_FROM = {
+    "j21" => 777,
+    "ydmu" => 31,
+    "ybro" => 31,
+    "yone" => 31,
+    "ywoe" => 31,
+    "ylci" => 31,
+    "ydft" => 31,
+    "yeoe" => 41,
+    "yecl" => 31,
+    "ysos" => 31,
+  }
+
+  def conjure_only?(printing)
+    return true if CONJURE_ONLY_SETS.include?(printing.set_code)
+    first = CONJURE_ONLY_FROM[printing.set_code]
+    !!first and printing.number.to_i >= first
+  end
+
+  # Cards which are only conjurable, but which some ordinary printing also puts into the
+  # format, stop being conjurable - the ban list then says => "legal",
   # like Voracious Greatshark did when FDN reprinted it. This catches the next one.
   #
   # Only Alchemy can be checked this way. Its card pool is the hand-maintained
   # rotation_schedule, while Historic's is "every printing mtgjson tags game:arena",
   # and that tag is not reliable - Arena store decks make mtgjson tag cards from
   # sets which never were on Arena, so Regal Force looks like it was printed in
-  # Eventide "on Arena". See _LEGALITY.md.
+  # Eventide "on Arena".
   def conjurable_cards_in_pool(time=nil)
     format = Format["alchemy"].new(time)
     db.cards.each_value.select{|card|
       next false unless ["conjurable", "specialized"].include?(format.legality(card))
       card.printings.any?{|printing|
-        format.included_sets.include?(printing.set_code) and
-        not CONJURE_ONLY_SETS.include?(printing.set_code)
+        format.included_sets.include?(printing.set_code) and not conjure_only?(printing)
       }
     }.map(&:name).sort
   end
@@ -294,23 +355,25 @@ describe "Formats" do
   # game:arena for sets which never were on Arena, because Arena store decks reference
   # them, so a new entry here can equally be a genuine reprint (=> "legal", like the
   # J21 four when AA4 and OMB picked them up) or just another mis-tagged paper printing.
-  it "conjurable and specialized cards have no Arena printing outside conjure-only sets" do
+  #
+  # It's also what guards Timeless's ban list, which derives its conjurable/specialized
+  # list from Historic's minus a hardcoded exception. A new "historic: ..." entry here
+  # means a card that's conjurable in Historic only because it's pre-banned there anyway,
+  # and Timeless needs to except it too.
+  it "conjurable and specialized cards have no ordinary Arena printing" do
     expected = {
       # Legitimately both - it was pre-banned out of STA, and only later got a
-      # conjurable version in HBG
+      # conjurable version in HBG. Excepted in Timeless, where it's an ordinary card.
       "historic: Lightning Bolt" => ["fca", "msc", "sta", "tle"],
-      # Conjure-only despite the mar/omb printings - it's a Legacy staple with no
-      # Historic play at all. See the 2025-09-23 comment in ban_list/historic.rb.
-      # lrw is just mtgjson store-deck noise
-      "historic: Ponder" => ["lrw", "mar", "omb"],
     }
 
     actual = {}
-    ["alchemy", "historic"].each do |format_name|
+    ["alchemy", "historic", "timeless", "brawl", "competitive brawl"].each do |format_name|
       format = Format[format_name].new
       db.cards.each_value do |card|
         next unless ["conjurable", "specialized"].include?(format.legality(card))
-        sets = card.printings.select(&:arena?).map(&:set_code).uniq.sort - CONJURE_ONLY_SETS
+        sets = card.printings.select{|printing| printing.arena? and not conjure_only?(printing) }
+          .map(&:set_code).uniq.sort
         actual["#{format_name}: #{card.name}"] = sets unless sets.empty?
       end
     end
@@ -320,19 +383,19 @@ describe "Formats" do
 
   # This direction doesn't need the game:arena tag at all - a conjured card has to be
   # conjured from somewhere
-  it "conjurable and specialized cards come from a conjure-only set" do
-    orphans = ["alchemy", "historic"].flat_map do |format_name|
+  it "conjurable and specialized cards come from a conjure-only printing" do
+    orphans = ["alchemy", "historic", "timeless", "brawl", "competitive brawl"].flat_map do |format_name|
       format = Format[format_name].new
       db.cards.each_value.select{|card|
         next false unless ["conjurable", "specialized"].include?(format.legality(card))
-        card.printings.none?{|printing| CONJURE_ONLY_SETS.include?(printing.set_code) }
+        card.printings.none?{|printing| conjure_only?(printing) }
       }.map{|card| "#{format_name}: #{card.name}" }
     end
     orphans.sort.should eq([])
   end
 
   it "premodern" do
-    assert_count_cards "banned:premodern", 32
+    assert_count_cards "banned:premodern", 33
   end
 
   # We don't keep historical legality for Petty Dreadful yet
@@ -385,12 +448,14 @@ describe "Formats" do
       banned:"Innistrad Block" or
       banned:"Tempest Block" or
       banned:premodern or
-      banned:alchemy
+      banned:alchemy or
+      banned:brawl or
+      banned:"Competitive Brawl"
     ]
   end
 
   it "restricted:*" do
-    assert_search_equal "restricted:*", "restricted:vintage or restricted:duel or restricted:unsets or restricted:historic or restricted:alchemy or restricted:commander"
+    assert_search_equal "restricted:*", "restricted:vintage or restricted:duel or restricted:unsets or restricted:historic or restricted:timeless or restricted:alchemy or restricted:commander"
   end
 
   it "legal:*" do
@@ -398,6 +463,9 @@ describe "Formats" do
       legal:vintage or
       legal:unsets or
       legal:historic or
+      legal:timeless or
+      legal:brawl or
+      legal:"Competitive Brawl" or
       legal:commander or
       legal:"Urza Block" or
       legal:penny or
@@ -426,7 +494,6 @@ describe "Formats" do
     assert_search_results "is:racist f:pauper"
     assert_search_results "is:racist f:modern"
     assert_search_results "is:racist f:commander"
-    assert_search_results "is:racist f:\"mtgo commander\""
     assert_search_results "is:racist f:pioneer"
     assert_search_results "is:racist f:standard"
   end

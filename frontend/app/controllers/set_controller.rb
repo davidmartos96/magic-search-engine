@@ -13,9 +13,9 @@ class SetController < ApplicationController
     end
 
     @title = @set.name
-    @cards = @set.printings.sort_by{|cp| [cp.number_i, cp.number]}
+    @cards = @set.printings.sort_by(&:number_sort_index)
 
-    @boosters = $CardDatabase.supported_booster_types.select{|code, booster| code == booster.code and @set == booster.set}
+    @boosters = $CardDatabase.unique_supported_booster_types.select{|code, booster| @set == booster.set}
 
     page = [1, params[:page].to_i].max
     @cards = @cards.paginate(page: page, per_page: 25)
@@ -33,7 +33,7 @@ class SetController < ApplicationController
     @title = @set.name
     @cards = @set
       .printings
-      .sort_by{|cp| [cp.name, cp.number_i, cp.number]}
+      .sort_by{|cp| [cp.name, cp.number_sort_index]}
   end
 
   def missing_scans
@@ -47,7 +47,7 @@ class SetController < ApplicationController
     @title = @set.name
     @cards = @set
       .printings
-      .sort_by{|cp| [cp.name, cp.number_i, cp.number]}
+      .sort_by{|cp| [cp.name, cp.number_sort_index]}
       .reject(&:image_path)
 
     render :verify_scans

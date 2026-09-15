@@ -1,10 +1,6 @@
 class ApiController < ApplicationController
   def show
-    set = params[:set]
-    number = params[:id]
-    if $CardDatabase.sets[set]
-      @card = $CardDatabase.sets[set].printings.find{|cp| cp.number == number}
-    end
+    @card = $CardDatabase.printing(params[:set], params[:id])
     if @card
       render json: card_as_json(@card)
     else
@@ -20,9 +16,7 @@ class ApiController < ApplicationController
       query = Query.new(@search)
       results = $CardDatabase.search(query)
       @warnings = results.warnings
-      @cards = results.card_groups.map do |printings|
-        choose_best_printing(printings)
-      end
+      @cards = results.best_printings
     else
       @warnings = nil
       @cards = []
@@ -37,10 +31,6 @@ class ApiController < ApplicationController
   end
 
   private
-
-  def choose_best_printing(printings)
-    printings.find(&:image_path) || printings[0]
-  end
 
   def card_as_json(card)
     {

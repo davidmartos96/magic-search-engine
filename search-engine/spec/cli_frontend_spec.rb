@@ -1,5 +1,7 @@
 describe "CLI Frontend" do
-  let(:cli) { $cli_frontend ||= CLIFrontend.new }
+  include_context "db"
+
+  let(:cli) { $cli_frontend ||= CLIFrontend.new(db) }
 
   it "non_verbose" do
     assert_cli(
@@ -343,7 +345,6 @@ describe "CLI Frontend" do
   end
 
   def capture_io
-    require "stringio"
     orig_stdout, orig_stderr         = $stdout, $stderr
     captured_stdout, captured_stderr = StringIO.new, StringIO.new
     $stdout, $stderr                 = captured_stdout, captured_stderr

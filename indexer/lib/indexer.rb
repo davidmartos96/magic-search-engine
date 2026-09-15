@@ -1,18 +1,18 @@
-require "pry"
 require "date"
 require "json"
-require "set"
 require "pathname"
-require "pathname-glob"
-require_relative "core_ext"
+require "pry"
+require "set"
 require_relative "card_sets_data"
-require_relative "index_serializer"
-require_relative "products_serializer"
-require_relative "uuids_serializer"
-require_relative "decks_serializer"
-require_relative "token_uuids_serializer"
+require_relative "core_ext"
 require_relative "deck_printing_resolver"
+require_relative "decks_serializer"
+require_relative "index_serializer"
+require_relative "mtgo_ids_serializer"
+require_relative "products_serializer"
 require_relative "scryfall_ids_serializer"
+require_relative "token_uuids_serializer"
+require_relative "uuids_serializer"
 
 require_relative "patches/patch"
 Dir["#{__dir__}/patches/*.rb"].each do |path| require_relative path end
@@ -24,10 +24,12 @@ class Indexer
 
   # In verbose mode we validate each patch to make sure it actually does something
   def initialize(verbose=false)
-    @save_path = INDEX_ROOT + "index.json"
+    @sets_path = INDEX_ROOT + "sets.json"
+    @cards_path = INDEX_ROOT + "cards.jsonl"
     @uuids_path = INDEX_ROOT + "uuids.txt"
     @token_uuids_path = INDEX_ROOT + "token_uuids.txt"
     @scryfall_ids_path = INDEX_ROOT + "scryfall_ids.txt"
+    @mtgo_ids_path = INDEX_ROOT + "mtgo_ids.txt"
     @products_path = INDEX_ROOT + "products.json"
     @decks_path = INDEX_ROOT + "deck_index.json"
     @verbose = verbose
@@ -40,14 +42,17 @@ class Indexer
       exit 1
     end
 
-    @save_path.parent.mkpath
+    INDEX_ROOT.mkpath
     load_database
     load_decks
     apply_patches
-    @save_path.write(IndexSerializer.new(@sets, @cards, @products).to_s)
+    index = IndexSerializer.new(@sets, @cards, @products)
+    @sets_path.write(index.sets_json)
+    @cards_path.write(index.cards_jsonl)
     @uuids_path.write(UuidsSerializer.new(@cards).to_s)
     @token_uuids_path.write(TokenUuidsSerializer.new(@tokens).to_s)
     @scryfall_ids_path.write(ScryfallIdsSerializer.new(@cards).to_s)
+    @mtgo_ids_path.write(MtgoIdsSerializer.new(@cards).to_s)
     @products_path.write(ProductsSerializer.new(@products).to_s)
     @decks_path.write(DecksSerializer.new(@decks).to_s)
   end
@@ -62,16 +67,23 @@ class Indexer
     [
       # Load data
       PatchTokens,
-      # For transition period we support any mix of mtgjson v3 and v4
-      PatchMtgjsonVersions,
+
+      # Every card rename happens here, before anything indexes cards by name
+      PatchCardNames,
+
+      # Patch mtgjson bugs, while its own field names are still around
+      PatchMtgjsonBugs,
+
+      # Translate mtgjson's field names and value formats into ours
+      PatchMtgjsonFields,
+      PatchTextCleanup,
+      # Splits reversible cards apart, so it must precede the number checks
+      PatchReversibleCards,
+
       # Each set needs unique code, by convention all lowercase
       PatchSetCodes,
-      PatchMB1,
       PatchRemoveEmptySets,
       PatchReleaseDates,
-
-      # This renames cards so it needs to be done early
-      PatchPlaytestCards,
 
       # All cards absolutely need unique numbers
       PatchMultipartCardNumbers,
@@ -93,11 +105,14 @@ class Indexer
       PatchAlchemy,
       PatchBlocks,
       PatchSecondary,
+      PatchVariantArena, # before VariantMisprint
       PatchVariantMisprint,
       PatchVariantForeign,
       PatchFoiling,
       PatchSetTypes,
       PatchFunny,
+      PatchSpecialFormat,
+      PatchNonTournament,
       PatchSpellbook, # before LinkRelated
       PatchSpecialize, # before LinkRelated
       PatchLinkRelated,
@@ -121,7 +136,6 @@ class Indexer
       PatchProduces,
 
       # Patch more mtg.wtf bugs
-      PatchAeLigature, # is this even needed anymore?
       PatchFlipCardManaCost,
       PatchArtistNames,
 
@@ -135,10 +149,12 @@ class Indexer
       PatchUrza,
 
       # Needs final reconciled text
+      PatchIsModal,
       PatchShortName,
 
-      # One more round of normalization, it throws away some information
-      PatchNormalizeNames,
+      # Needs final set codes, numbers, and names
+      PatchMtgoIds,
+
 
       # Deck Indexer
       PatchDecks,
@@ -186,6 +202,7 @@ class Indexer
         "base_set_size" => set_data["baseSetSize"],
         "partial_preview" => set_data["isPartialPreview"],
         "token_set_code" => set_data["tokenSetCode"]&.downcase,
+        "mtgo_code" => set_data["mtgoCode"],
       ).compact
       @sets << set
       set_data["cards"].each do |card_data|

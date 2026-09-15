@@ -1,0 +1,58 @@
+# MTGO set codes that mtgjson's mtgoCode does not get right, and MTGO sets
+# which hold cards from more than one set of ours.
+#
+# One MTGO code, then every set of ours it holds cards from, biggest first.
+#
+# The list is meant to sit still. All of it is old - MTGO's codes and mtgjson's
+# have agreed for many years - so a new line here should be a surprise rather
+# than routine upkeep.
+
+# Sets whose MTGO code is simply not one we would guess. Most of these are
+# catalogue placeholders - MTGO seeded its catalogue with all of paper Magic in
+# release order and never released them - so mapping them buys honesty rather
+# than ids: their rows get matched and then dropped as not game:mtgo, instead
+# of sitting unexplained. ptk and sld are the two that carry real ids.
+1E lea
+2E leb
+2U 2ed
+3E 3ed
+4E 4ed
+5E 5ed
+6E 6ed
+AN arn
+AQ atq
+BD btd
+BR brb
+CH chr
+DK drk
+FE fem
+HM hml
+LE leg
+P2 p02
+P3 s99
+PK ptk
+PO por
+SL2 sld
+VAN pmoa
+
+# One MTGO set, several of ours
+H17 h17 ph17
+PC1 hop ohop
+PC2 pc2 opc2
+UMA uma puma
+
+# The two sets MTGO has both a placeholder and a release for. IA and AL are the
+# seeded ones, from the 5000-6000 id range with no collector numbers. ICE (46
+# rows) and ALL (16) are the Coldsnap theme deck reprints, which MTGO filed
+# under the sets they were printed in - they are our cst, but they carry Ice
+# Age's and Alliances' own numbers, and mtgjson puts their ids on ice and all.
+# So both codes map to the same set of ours, and the numbered rows win
+# everything they want.
+AL all
+IA ice
+
+# Not identified: PRM_RTO (157 rows), P4 (57), PRM_25 (8), FK (5), CC (3),
+# C02 (1). The best name overlap the first three manage is 43%, 67% and 5 of 8,
+# against three different Commander sets, which is not enough to write down.
+# The last three are nine rows including Library of Congress and Planar Die.
+

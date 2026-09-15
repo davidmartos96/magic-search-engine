@@ -1,6 +1,6 @@
 describe "Indexer hacks" do
   include_context "db"
-  let(:index_path) { Pathname(__dir__) + "../../index/index.json" }
+  let(:index_path) { Pathname(__dir__) + "../../index/cards.jsonl" }
   let(:index_json) { index_path.read }
 
   it "W16 release date" do
@@ -21,7 +21,7 @@ describe "Indexer hacks" do
       bfm.funny.should eq(true)
       bfm.mana_cost.should eq("{b}{b}{b}{b}{b}{b}{b}{b}{b}{b}{b}{b}{b}{b}{b}")
       bfm.types.should eq(["creature", "the-biggest-baddest-nastiest-scariest-creature-you'll-ever-see"])
-      bfm.cmc.should eq(15)
+      bfm.mv.should eq(15)
       bfm.power.should eq(99)
       bfm.toughness.should eq(99)
       bfm.card.color_identity.should eq("b")
@@ -35,7 +35,7 @@ describe "Indexer hacks" do
   it "is:funny" do
     # mb2 and mbc are complicated, so skip them
     # Also don't even bother with Arena and Shandalar cards
-    assert_search_equal_cards "is:funny -e:mb2,mbc -game:arena -game:shandalar", "(e:unh,ugl,uqc,hho,ust,pust,ppc1,h17,tbth,tdag,tfth,thp1,thp2,thp3,ptg,cmb1,cmb2,und,punh,ulst,unf,phtr,ph17,ph18,ph19,ph20,ph21,ph22,ph23,unk,punk -(t:basic -Barry) -(Steamflogger Boss) -(Hall of Triumph) -(Zur the Enchanter) -is:shockland -(e:unf -is:acorn)) or (e:sld is:heart) or (e:pf25 Second City) or (e:pf24 Convention Maro) -game:arena -game:shandalar or (e:pf25 Spaghetti Junction) or (e:pf25 All-You-Can-Eat Buffet)"
+    assert_search_equal_cards "is:funny -e:mb2,mbc -game:arena -game:shandalar", "(e:unh,ugl,uqc,hho,ust,pust,h17,ptg,cmb1,cmb2,und,punh,ulst,unf,phtr,ph17,ph18,ph19,ph20,ph21,ph22,ph23,unk,punk -(t:basic -Barry) -(Steamflogger Boss) -(Hall of Triumph) -(Zur the Enchanter) -is:shockland -(e:unf -is:acorn)) or (e:sld is:heart) or (e:pf25 Second City) or (e:pf24 Convention Maro) -game:arena -game:shandalar or (e:pf25 Spaghetti Junction) or (e:pf25 All-You-Can-Eat Buffet) or (e:pf26 Bicycle Elemental) or (e:pf26 In Residence)"
   end
 
   it "Nissa's X loyallty" do

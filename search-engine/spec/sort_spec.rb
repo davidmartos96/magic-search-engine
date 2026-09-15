@@ -141,7 +141,7 @@ describe "Sorting" do
   end
 
   it "cmc" do
-    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:cmc", :name, :cmc).should eq([
+    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:cmc", :name, :mv).should eq([
       ["Chandra Ablaze", 6],
       ["Chandra, Awakened Inferno", 6],
       ["Chandra, Bold Pyromancer", 6],
@@ -162,7 +162,7 @@ describe "Sorting" do
   end
 
   it "-cmc" do
-    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:-cmc", :name, :cmc).should eq([
+    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:-cmc", :name, :mv).should eq([
       ["Chandra, Acolyte of Flame", 3],
       ["Chandra, Roaring Flame", 3],
       ["Chandra, Fire Artisan", 4],
@@ -183,7 +183,7 @@ describe "Sorting" do
   end
 
   it "mv" do
-    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:mv", :name, :cmc).should eq([
+    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:mv", :name, :mv).should eq([
       ["Chandra Ablaze", 6],
       ["Chandra, Awakened Inferno", 6],
       ["Chandra, Bold Pyromancer", 6],
@@ -204,7 +204,7 @@ describe "Sorting" do
   end
 
   it "-mv" do
-    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:-mv", :name, :cmc).should eq([
+    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:-mv", :name, :mv).should eq([
       ["Chandra, Acolyte of Flame", 3],
       ["Chandra, Roaring Flame", 3],
       ["Chandra, Fire Artisan", 4],
@@ -224,45 +224,47 @@ describe "Sorting" do
     ])
   end
 
+  # sort:set is by set name, not set code
   it "set" do
-    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:set", :name, :set_code, :number).should eq([
-      ["Chandra, Flamecaller", "c20", "145"],
-      ["Chandra Nalaar", "dd2", "34"],
-      ["Chandra, Bold Pyromancer", "dom", "275"],
-      ["Chandra, Pyromaster", "e01", "42"],
-      ["Chandra, Torch of Defiance", "kld", "110"],
-      ["Chandra, Pyrogenius", "kld", "265"],
-      ["Chandra, the Firebrand", "m12", "124"],
-      ["Chandra, Acolyte of Flame", "m20", "126"],
-      ["Chandra, Awakened Inferno", "m20", "127"],
-      ["Chandra, Novice Pyromancer", "m20", "128"],
-      ["Chandra, Flame's Fury", "m20", "294"],
-      ["Chandra, Heart of Fire", "m21", "135"],
-      ["Chandra, Flame's Catalyst", "m21", "332"],
-      ["Chandra, Roaring Flame", "ori", "135b"],
-      ["Chandra, Fire Artisan", "war", "119"],
-      ["Chandra Ablaze", "zen", "120"],
+    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:set", :name, :set_name, :set_code, :number).should eq([
+      ["Chandra, Pyromaster", "Archenemy: Nicol Bolas", "e01", "42"],
+      ["Chandra, Flamecaller", "Commander 2020", "c20", "145"],
+      ["Chandra, Acolyte of Flame", "Core Set 2020", "m20", "126"],
+      ["Chandra, Awakened Inferno", "Core Set 2020", "m20", "127"],
+      ["Chandra, Flame's Fury", "Core Set 2020", "m20", "294"],
+      ["Chandra, Novice Pyromancer", "Core Set 2020", "m20", "128"],
+      ["Chandra, Flame's Catalyst", "Core Set 2021", "m21", "332"],
+      ["Chandra, Heart of Fire", "Core Set 2021", "m21", "135"],
+      ["Chandra, Bold Pyromancer", "Dominaria", "dom", "275"],
+      ["Chandra Nalaar", "Duel Decks Anthology: Jace vs. Chandra", "jvc", "34"],
+      ["Chandra, Roaring Flame", "From the Vault: Transform", "v17", "6b"],
+      ["Chandra, Pyrogenius", "Kaladesh", "kld", "265"],
+      ["Chandra, Torch of Defiance", "Kaladesh", "kld", "110"],
+      ["Chandra, the Firebrand", "Magic 2012", "m12", "124"],
+      ["Chandra, Fire Artisan", "War of the Spark", "war", "119"],
+      ["Chandra Ablaze", "Zendikar", "zen", "120"],
     ])
   end
 
+  # Only set order is reversed, printings within a set keep default order
   it "-set" do
-    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:-set", :name, :set_code, :number).should eq([
-      ["Chandra Ablaze", "zen", "120"],
-      ["Chandra, Fire Artisan", "war", "119"],
-      ["Chandra, Roaring Flame", "v17", "6b"],
-      ["Chandra, Torch of Defiance", "ss3", "1"],
-      ["Chandra, Flamecaller", "ogw", "104"],
-      ["Chandra, Flame's Catalyst", "m21", "332"],
-      ["Chandra, Heart of Fire", "m21", "301"],
-      ["Chandra, Flame's Fury", "m20", "294"],
-      ["Chandra, Novice Pyromancer", "m20", "128"],
-      ["Chandra, Awakened Inferno", "m20", "127"],
-      ["Chandra, Acolyte of Flame", "m20", "126"],
-      ["Chandra, Pyromaster", "m15", "134"],
-      ["Chandra, the Firebrand", "m13", "123"],
-      ["Chandra Nalaar", "m11", "127"],
-      ["Chandra, Pyrogenius", "kld", "265"],
-      ["Chandra, Bold Pyromancer", "dom", "275"],
+    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:-set", :name, :set_name, :set_code, :number).should eq([
+      ["Chandra Ablaze", "Zendikar", "zen", "120"],
+      ["Chandra, Fire Artisan", "War of the Spark", "war", "119"],
+      ["Chandra, Torch of Defiance", "Signature Spellbook: Chandra", "ss3", "1"],
+      ["Chandra, Flamecaller", "Oath of the Gatewatch", "ogw", "104"],
+      ["Chandra, Roaring Flame", "Magic Origins", "ori", "135b"],
+      ["Chandra, Pyromaster", "Magic 2015", "m15", "134"],
+      ["Chandra, the Firebrand", "Magic 2013", "m13", "123"],
+      ["Chandra Nalaar", "Magic 2011", "m11", "127"],
+      ["Chandra, Pyrogenius", "Kaladesh", "kld", "265"],
+      ["Chandra, Bold Pyromancer", "Dominaria", "dom", "275"],
+      ["Chandra, Flame's Catalyst", "Core Set 2021", "m21", "332"],
+      ["Chandra, Heart of Fire", "Core Set 2021", "m21", "135"],
+      ["Chandra, Acolyte of Flame", "Core Set 2020", "m20", "126"],
+      ["Chandra, Awakened Inferno", "Core Set 2020", "m20", "127"],
+      ["Chandra, Flame's Fury", "Core Set 2020", "m20", "294"],
+      ["Chandra, Novice Pyromancer", "Core Set 2020", "m20", "128"],
     ])
   end
 
@@ -297,7 +299,7 @@ describe "Sorting" do
   end
 
   it "mixing orders" do
-    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:cmc,-name", :name, :cmc).should eq([
+    ordered_search("t:chandra -is:digital -is:promo -e:sld time=2021-11-01 sort:cmc,-name", :name, :mv).should eq([
       ["Chandra, Pyrogenius", 6],
       ["Chandra, Flamecaller", 6],
       ["Chandra, Flame's Fury", 6],
@@ -314,6 +316,21 @@ describe "Sorting" do
       ["Chandra, Fire Artisan", 4],
       ["Chandra, Roaring Flame", 3],
       ["Chandra, Acolyte of Flame", 3],
+    ])
+  end
+
+  # What sort:set is for - narrow with an e: list, then order within each set
+  it "sort:set with a secondary order" do
+    ordered_search("t:goblin e:m10,m12 sort:set,rarity", :name, :set_name, :rarity).should eq([
+      ["Goblin Chieftain", "Magic 2010", "rare"],
+      ["Siege-Gang Commander", "Magic 2010", "rare"],
+      ["Goblin Artillery", "Magic 2010", "uncommon"],
+      ["Goblin Piker", "Magic 2010", "common"],
+      ["Raging Goblin", "Magic 2010", "common"],
+      ["Goblin Bangchuckers", "Magic 2012", "uncommon"],
+      ["Goblin Arsonist", "Magic 2012", "common"],
+      ["Goblin Fireslinger", "Magic 2012", "common"],
+      ["Goblin Tunneler", "Magic 2012", "common"],
     ])
   end
 
@@ -438,5 +455,207 @@ describe "Sorting" do
   it "rarity" do
     order = db.search("sort:rarity").printings.map(&:rarity).chunk(&:itself).map(&:first)
     order.should eq(["special", "mythic", "rare", "uncommon", "common", "basic"])
+  end
+
+  # card_key packs the whole sort order into one integer, one field per sort
+  # order, which only holds while every field stays non-negative and inside the
+  # width OFFSET gives it. Nothing about that is visible in the results until a
+  # field overflows into its neighbour, so check the widths against the data.
+  describe "packed sort keys" do
+    # The query parser rewrites these into their opposites, so card_key never
+    # sees them and they get no packing
+    unpacked_sort_orders = ["-new", "-old", "-newall", "-oldall", "-random"]
+
+    # One field on its own, so card_key returns just that field, unshifted
+    def field_sorter(part)
+      sorter = Sorter.new(nil, "seed")
+      sorter.instance_variable_set(:@sort_order, [part])
+      sorter
+    end
+
+    it "packs every sort order except the ones the parser rewrites" do
+      not_packed = Sorter::OFFSET.keys.select do |part|
+        begin
+          field_sorter(part).send(:card_key, db.printings.first)
+          false
+        rescue RuntimeError
+          true
+        end
+      end
+      not_packed.sort.should eq(unpacked_sort_orders.sort)
+    end
+
+    it "keeps every sort field inside its OFFSET" do
+      too_wide = []
+      negative = []
+      (Sorter::OFFSET.keys - unpacked_sort_orders).each do |part|
+        sorter = field_sorter(part)
+        values = db.printings.map{|c| sorter.send(:card_key, c)}
+        negative << "#{part} (#{values.min})" if values.min < 0
+        if values.max >= (1 << Sorter::OFFSET.fetch(part))
+          too_wide << "#{part} needs #{values.max.bit_length} bits, OFFSET gives #{Sorter::OFFSET.fetch(part)}"
+        end
+      end
+      negative.should eq([])
+      too_wide.should eq([])
+    end
+
+    it "packs to the same order as the unpacked key" do
+      # Every printing is in the OFFSET spec above; this only needs enough of a
+      # spread to catch a field packed in the wrong place
+      sample = db.printings.each_slice(37).map(&:first)
+      orders = %w[default -default number -number name -name artist -artist set -set
+                  color -color ci -ci rarity -rarity mv -mv power -power
+                  toughness -toughness new old newall oldall
+                  firstprint -firstprint lastprint -lastprint random] +
+               ["name,rarity", "set,number", "mv,power,toughness", "color,ci,name",
+                "random,rarity", "new,name", "artist,mv,-rarity"]
+      mismatched = orders.reject do |order|
+        sorter = Sorter.new(order, "seed")
+        sorter.sort(sample) == sample.sort_by{|c| sorter.send(:old_card_key, c)}
+      end
+      mismatched.should eq([])
+    end
+  end
+
+  # Sorter throws away everything after a FINAL_SORT_ORDERS key, which is only
+  # allowed while those keys really do order every printing by themselves
+  describe "redundant sort keys" do
+    it "final sort orders are unique per printing" do
+      Sorter::FINAL_SORT_ORDERS.each do |part|
+        sorter = Sorter.new(part, "seed")
+        keys = db.printings.map{|c| sorter.send(:card_key, c)}
+        keys.uniq.size.should eq(db.printings.size), "#{part} does not order every printing"
+      end
+    end
+
+    it "ignores a repeated sort key" do
+      db.search("sort:name,name").printings.should eq(db.search("sort:name").printings)
+      db.search("sort:mv,rarity,mv").printings.should eq(db.search("sort:mv,rarity").printings)
+    end
+
+    it "ignores sort keys after a final one" do
+      db.search("sort:default,name,rarity").printings.should eq(db.search("sort:default").printings)
+      db.search("sort:number,rarity,newall").printings.should eq(db.search("sort:number").printings)
+      db.search("sort:name,number,artist").printings.should eq(db.search("sort:name,number").printings)
+    end
+
+    # random is per card name, not per printing, so it is not a final key
+    it "keeps sort keys after random" do
+      Query.new("sort:random,rarity", "seed").search(db).printings
+        .should_not eq(Query.new("sort:random", "seed").search(db).printings)
+    end
+  end
+
+  # sort:pow / sort:tou / sort:mv map their values onto small integers, so the
+  # sort key can eventually be one number instead of an array. The mapping
+  # raises on any special value it hasn't been taught, and it only keeps the
+  # right order while the data stays inside the range it assumes, so check the
+  # whole database against it rather than waiting for a mis-sorted card.
+  describe "power/toughness/mv sort keys" do
+    let(:sorter) { Sorter.new(nil, "") }
+    let(:power_toughness) { db.cards.each_value.flat_map{|c| [c.power, c.toughness]}.uniq }
+    let(:numbers) { power_toughness.grep(Numeric).sort }
+    let(:specials) { power_toughness - numbers }
+    let(:mvs) { db.cards.each_value.map(&:mv).uniq }
+
+    def map_pt(value)
+      sorter.send(:map_pt, value)
+    end
+
+    def map_mv(value)
+      sorter.send(:map_mv, value)
+    end
+
+    it "knows every special power/toughness in the database" do
+      (specials - Sorter::PT_ORDER.keys).should eq([])
+    end
+
+    it "has no power/toughness fraction except halves" do
+      numbers.reject{|v| v * 2 == (v * 2).to_i}.should eq([])
+    end
+
+    it "has an mv for every card" do
+      mvs.should_not include(nil)
+    end
+
+    it "has no mv fraction except halves" do
+      mvs.reject{|v| v * 2 == (v * 2).to_i}.should eq([])
+    end
+
+    # Numbers map to 10 + 2 * value, so they clear the specials while they stay
+    # above -2.5, and stay under ∞ while they stay below 495
+    it "orders every power/toughness number above the special values" do
+      highest_special = Sorter::PT_ORDER.reject{|value, _| value == "∞"}.values.max
+      numbers.select{|v| map_pt(v) <= highest_special}.should eq([])
+    end
+
+    it "orders every power/toughness number below ∞" do
+      numbers.select{|v| map_pt(v) >= Sorter::PT_ORDER.fetch("∞")}.should eq([])
+    end
+
+    it "maps power/toughness numbers in ascending order" do
+      numbers.each_cons(2).reject{|a, b| map_pt(a) < map_pt(b)}.should eq([])
+    end
+
+    # Everything above 1000 collapses onto one key, which only orders correctly
+    # while Gleemax is the single card up there
+    it "maps mv in ascending order, including the values it clamps" do
+      mvs.sort.each_cons(2).reject{|a, b| map_mv(a) < map_mv(b)}.should eq([])
+    end
+
+    it "sorts half power between the numbers around it" do
+      ordered_search("e:unh t:creature pow<=1 sort:-pow", :name, :power).should eq([
+        ["Emcee", 0],
+        ["Pygmy Giant", 0],
+        ["Six-y Beast", 0],
+        ["Little Girl", 0.5],
+        ["Artful Looter", 1],
+        ["B-I-N-G-O", 1],
+        ["Bosom Buddy", 1],
+        ["Cheap Ass", 1],
+        ["Fraction Jackson", 1],
+        ["Johnny, Combo Player", 1],
+        ["Magical Hacker", 1],
+        ["Monkey Monkey Monkey", 1],
+        ["Mons's Goblin Waiters", 1],
+        ["Tainted Monkey", 1],
+        ["Zombie Fanboy", 1],
+        ["_____", 1],
+      ])
+    end
+
+    it "sorts half mv between the numbers around it" do
+      ordered_search("e:unh mv<=1 (t:creature or t:land) sort:-mv", :name, :mv).should eq([
+        ["City of Ass", 0],
+        ["Forest", 0],
+        ["Island", 0],
+        ["Mountain", 0],
+        ["Plains", 0],
+        ["R&D's Secret Lair", 0],
+        ["Swamp", 0],
+        ["Little Girl", 0.5],
+        ["Mons's Goblin Waiters", 1],
+        ["S.N.O.T.", 1],
+      ])
+    end
+
+    it "sorts special power below every number" do
+      ordered_search("e:unh t:creature (pow=* or pow=*² or pow=0) sort:-pow", :name, :power).should eq([
+        ["Avatar of Me", "*"],
+        ["Elvish House Party", "*"],
+        ["S.N.O.T.", "*²"],
+        ["Emcee", 0],
+        ["Pygmy Giant", 0],
+        ["Six-y Beast", 0],
+      ])
+    end
+
+    it "sorts ∞ above every number" do
+      ordered_search("e:ulst t:creature pow>=9 sort:pow", :name, :power).should eq([
+        ["Infinity Elemental", "∞"],
+        ["Infernius Spawnington III, Esq.", 9],
+      ])
+    end
   end
 end

@@ -1,12 +1,21 @@
 class SealedController < ApplicationController
+  # No real sealed event opens this many, and counts come straight out of the
+  # url, where they were once big enough to exhaust the server's memory
+  MAX_PACKS = 1000
+  # Capped rows still add up, so the pool as a whole gets a deadline
+  PACK_OPENING_TIME_LIMIT = 5.0
+
   # Controller supports >3 pack types
   def index
-    counts = Array(params[:count]).map(&:to_i)
+    requested_counts = Array(params[:count]).map(&:to_i)
+    counts = requested_counts.map{|count| count.clamp(0, MAX_PACKS)}
     set_codes = Array(params[:set])
     @fixed = params[:fixed]
-    @warnings = []
-
-    parse_fixed
+    fixed_cards = FixedCardList.new($CardDatabase, params[:fixed])
+    @warnings = fixed_cards.warnings
+    if counts != requested_counts
+      @warnings += ["At most #{MAX_PACKS} packs per row, ignoring the rest"]
+    end
 
     @packs_to_open = set_codes.zip(counts)
     packs_requested = !@packs_to_open.empty?
@@ -24,29 +33,42 @@ class SealedController < ApplicationController
     @booster_options = booster_options
 
     if packs_requested
-      @cards = @fixed_cards.dup
-      factory = PackFactory.new($CardDatabase)
+      @cards = fixed_cards.cards.dup
+      deadline = Process.clock_gettime(Process::CLOCK_MONOTONIC) + PACK_OPENING_TIME_LIMIT
+      out_of_time = false
       @packs_to_open.each do |set_code, count|
         next unless set_code and count and count > 0
-        packs = packs_for(factory, set_code)
+        packs = $CardDatabase.boosters_for_descriptor(set_code)
         # Error handling ?
         next if packs.empty?
-        @cards.push *count.times.flat_map{ packs.sample.open }
+        count.times do
+          # Checked per pack, so a slow pool stops partway instead of running
+          # the process out of memory
+          out_of_time = Process.clock_gettime(Process::CLOCK_MONOTONIC) > deadline
+          break if out_of_time
+          packs.sample.open.each{|card| @cards[card] += 1}
+        end
+        break if out_of_time
       end
-      @cards.sort_by!{|c|
+      if out_of_time
+        @warnings += ["Opening packs took too long, this pool is incomplete"]
+      end
+      # Still a multiset, now in the order the pool is shown and exported in
+      @cards = @cards.sort_by{|card, _count|
         [
-          -c.main_front.rarity_code,
-          c.name,
-          c.set_code,
-          c.number_i,
-          c.number,
-          c.foil ? 0 : 1,
+          -card.main_front.rarity_code,
+          card.name,
+          card.set_code,
+          card.number_sort_index,
+          # Premium finishes first, etched before foil, nonfoil last
+          -PhysicalCard::FINISHES.index(card.finish),
         ]
-      }
-      decklist_entries = @cards.map do |c|
-        "#{c.name} [#{c.set_code.upcase}:#{c.number}]#{ c.foil ? ' [foil]' : ''}"
-      end
-      @deck = decklist_entries.group_by(&:itself).transform_values(&:size).map{|n,c| "#{c} #{n}\n"}.join
+      }.to_h
+      # Our own decklist format, the one DeckExporter::Text writes and
+      # DeckParser reads back, down to etched carrying the foil tag too
+      @deck = @cards.map{|card, count|
+        "#{count} #{card.name} [#{card.set_code.upcase}:#{card.number}]#{card.foil ? " [foil]" : ""}#{card.etched ? " [etched]" : ""}\n"
+      }.join
     end
 
     @title = "Sealed"
@@ -56,9 +78,7 @@ class SealedController < ApplicationController
   # one list for all of them. Booster types have aliases, and the dropdown only
   # wants each pack once, under its own code.
   private def booster_options
-    @booster_types
-      .select{|code, booster| code == booster.code}
-      .map{|code, booster| [booster.name, code]} +
+    $CardDatabase.unique_supported_booster_types.map{|code, booster| [booster.name, code]} +
       random_booster_options
   end
 
@@ -71,49 +91,6 @@ class SealedController < ApplicationController
       names = set_code.split("|").filter_map{|code| @booster_types[code]&.name}
       next if names.empty?
       ["Random: #{names.join(", ")}", set_code]
-    end
-  end
-
-  # Packs one row of the form can open. Usually just one, but a pack the player
-  # got at random out of a few - like the allied guild booster of the Dragon's
-  # Maze prerelease - is passed as its alternatives joined by "|", and we roll
-  # it separately for every pack of that row.
-  private def packs_for(factory, set_code)
-    set_code.split("|").filter_map{|code|
-      code, variant = code.split("-", 2)
-      factory.for(code, variant)
-    }
-  end
-
-  # This is very hacky
-  private def parse_fixed
-    @fixed_cards = []
-    (params[:fixed] || "").lines.grep(/\S/).map(&:strip).each do |line|
-      case line
-      when /\A(\d+)\s*x?\s*(.*[:\/].*)/i
-        count = $1.to_i
-        set_code, card_number, foil = $2.downcase.split(/\s*[:\/]\s*/, 3)
-      when /\A(.*[:\/].*)/i
-        count = 1
-        set_code, card_number, foil = line.downcase.split(/\s*[:\/]\s*/, 3)
-      else
-        @warnings << "Invalid line: #{line}"
-        next
-      end
-      set = $CardDatabase.sets[set_code]
-      unless set
-        @warnings << "Cannot find set with code: #{set_code} for line: #{line}"
-        next
-      end
-      card = set.printings.find{|c| c.number.downcase == card_number }
-      unless card
-        @warnings << "Cannot find card set with number #{card_number} in set #{set_code} for line: #{line}"
-        next
-      end
-      physical_card = PhysicalCard.for(card, foil == "foil")
-      count.times do
-        @fixed_cards.push(physical_card)
-      end
     end
   end
 end

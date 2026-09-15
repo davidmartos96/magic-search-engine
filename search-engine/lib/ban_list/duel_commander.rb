@@ -1,35 +1,48 @@
-# Due to some drama, website migrated to https://www.duelcommander.org/announcements/archives/
-# I could relink everything
+# The committee split in late 2025, and there are now two sites:
+#
+# * https://www.duelcommander.org/ is the one that keeps running the format.
+#   Its /announcements/archives/ only re-hosts 41 of the ~70 old announcements,
+#   and those pages are abridged rewrites which silently drop unbans - the
+#   2017-07 page lists 2 of that announcement's 8 changes, the 2015-03 page
+#   lists the 3 bans but none of the 4 unbans, and so on. They're not usable
+#   as a source, so we don't link them for anything historic.
+# * https://www.mtgdc.info/ is the old site. It pivoted away from Magic, but it
+#   still serves the verbatim originals of every announcement from 2015 up to
+#   2025-09-29, so that's what we link to for those. It may well disappear
+#   eventually. It threw away everything before 2015; those links go to
+#   web.archive.org copies of the original duelcommander.com posts instead.
+#
+# From 2025-11-24 on the two sites publish *different* banlists (mtgdc.info's
+# 2025-11-24 is a completely different announcement with 15 unbans). We follow
+# duelcommander.org, and its current banlist page matches what this file says.
+#
+# Every state between 2012-04 and 2016-12 has been checked card by card against
+# archived snapshots of the format's own banlist page.
 
 BanList.for_format("duel commander") do
   format_start(
-    nil,
+    "https://web.archive.org/web/20120610063711/http://duelcommander.com/2012/03/march-20th-banlist-update/",
     "Amulet of Quoz" => "banned",
     "Ancestral Recall" => "banned",
-    "Ancient Tomb" => "banned",
     "Back to Basics" => "banned",
+    "Bitterblossom" => "banned",
     "Black Lotus" => "banned",
     "Bronze Tablet" => "banned",
     "Channel" => "banned",
     "Chaos Orb" => "banned",
     "Contract from Below" => "banned",
+    "Crucible of Worlds" => "banned",
     "Darkpact" => "banned",
     "Demonic Attorney" => "banned",
-    "Dig Through Time" => "banned",
-    "Entomb" => "banned",
     "Falling Star" => "banned",
     "Fastbond" => "banned",
-    "Food Chain" => "banned",
-    "Gaea's Cradle" => "banned",
     "Gifts Ungiven" => "banned",
-    "Grim Monolith" => "banned",
     "Hermit Druid" => "banned",
-    "Humility" => "banned",
     "Imperial Seal" => "banned",
+    "Intuition" => "banned",
     "Jeweled Bird" => "banned",
     "Karakas" => "banned",
     "Library of Alexandria" => "banned",
-    "Loyal Retainers" => "banned",
     "Mana Crypt" => "banned",
     "Mana Drain" => "banned",
     "Mana Vault" => "banned",
@@ -40,15 +53,13 @@ BanList.for_format("duel commander") do
     "Mox Pearl" => "banned",
     "Mox Ruby" => "banned",
     "Mox Sapphire" => "banned",
-    "Mystical Tutor" => "banned",
-    "Natural Order" => "banned",
-    "Necrotic Ooze" => "banned",
-    "Oath of Druids" => "banned",
     "Protean Hulk" => "banned",
     "Rebirth" => "banned",
+    "Recurring Nightmare" => "banned",
     "Sensei's Divining Top" => "banned",
     "Shahrazad" => "banned",
     "Sol Ring" => "banned",
+    "Staff of Domination" => "banned",
     "Strip Mine" => "banned",
     "Tempest Efreet" => "banned",
     "The Tabernacle at Pendrell Vale" => "banned",
@@ -57,17 +68,10 @@ BanList.for_format("duel commander") do
     "Timmerian Fiends" => "banned",
     "Tinker" => "banned",
     "Tolarian Academy" => "banned",
-    "Treasure Cruise" => "banned",
     "Vampiric Tutor" => "banned",
-    "Derevi, Empyrial Tactician" => "banned_as_commander",
-    "Edric, Spymaster of Trest" => "banned_as_commander",
+    "Braids, Cabal Minion" => "banned_as_commander",
     "Erayo, Soratami Ascendant" => "banned_as_commander",
-    "Marath, Will of the Wild" => "banned_as_commander",
-    "Oloro, Ageless Ascetic" => "banned_as_commander",
     "Rofellos, Llanowar Emissary" => "banned_as_commander",
-    "Tasigur, the Golden Fang" => "banned_as_commander",
-    "Yisan, the Wanderer Bard" => "banned_as_commander",
-    "Zur the Enchanter" => "banned_as_commander",
     "Yawgmoth's Bargain" => "banned",
     "Serra Ascendant" => "banned",
     "Grindstone" => "banned",
@@ -75,12 +79,132 @@ BanList.for_format("duel commander") do
     "Balance" => "banned",
   )
 
-  # FIXME: There were actually changes before that time
-  # http://www.duelcommander.com/2016/09/september-2016-rules-banlist-update/
+  # This is where the history starts. Before the 2012-03-20 announcement Duel
+  # Commander had no ban list of its own - it was "the multiplayer Commander ban
+  # list, plus these extras", so it can't be expressed here. That announcement cut
+  # it loose and published the standalone list above.
+  #
+  # mtgdc.info archived away everything before 2015, but web.archive.org has the
+  # originals on duelcommander.com, along with snapshots of the list itself to
+  # check any state against - on /rules/ until 2013-08, on /banlist/ after that.
+
+  change(
+    "2012-07-01",
+    "https://web.archive.org/web/20121127000448/http://duelcommander.com/2012/06/june-20th-banlist-update/",
+    "Intuition" => "legal",
+    "Recurring Nightmare" => "legal",
+  )
+
+  change(
+    "2012-10-01",
+    "https://web.archive.org/web/20121121164825/http://duelcommander.com/2012/09/septembre-20th-banlist-update/",
+    "Ancient Tomb" => "banned",
+    "Fastbond" => "legal",
+    "Edric, Spymaster of Trest" => "banned_as_commander",
+  )
+
+  # The 2013-01 announcement changed no cards.
+
+  change(
+    "2013-05-03",
+    "https://web.archive.org/web/20130904030307/http://duelcommander.com/2013/04/dragons-maze-banlist-update/",
+    "Humility" => "banned",
+    "Vanishing" => "banned",
+    "Bitterblossom" => "legal",
+    "Protean Hulk" => "legal",
+    "Staff of Domination" => "legal",
+  )
+
+  change(
+    "2013-07-19",
+    "https://web.archive.org/web/20140208083634/http://duelcommander.com/2013/07/magic-2014-banlist-update-2/",
+    "Protean Hulk" => "banned",
+    "Winter Orb" => "banned",
+  )
+
+  change(
+    "2013-09-27",
+    "https://web.archive.org/web/20140208090637/http://duelcommander.com/2013/09/theros-banlist-update/",
+    "Loyal Retainers" => "banned",
+  )
+
+  # The 2013-10-28 Commander 2013 announcement changed no cards.
+
+  change(
+    "2014-02-07",
+    "https://web.archive.org/web/20140208081012/http://duelcommander.com/2014/01/born-gods-banlist-update/",
+    "Grim Monolith" => "banned",
+    "Natural Order" => "banned",
+    "Oath of Druids" => "banned",
+    "Vanishing" => "legal",
+    "Derevi, Empyrial Tactician" => "banned_as_commander",
+    "Zur the Enchanter" => "banned_as_commander",
+  )
+
+  # The 2014-04-28 (Journey into Nyx), 2014-06-09 (Conspiracy), 2014-09-22 (Khans
+  # of Tarkir), 2014-11-03 (Commander 2014) and 2015-01-19 (Fate Reforged)
+  # announcements all changed no cards.
+
+  change(
+    "2014-07-18",
+    "https://web.archive.org/web/20150211133253/http://duelcommander.com/2014/07/magic-2015-banlist-update/",
+    "Cataclysm" => "banned",
+    "Oloro, Ageless Ascetic" => "banned_as_commander",
+  )
+
+  change(
+    "2015-03-23",
+    "https://www.mtgdc.info/announcements/2015/march-2015-rules-bannedrestricted-update",
+    "Entomb" => "banned",
+    "Fastbond" => "banned",
+    "Food Chain" => "banned",
+    "Braids, Cabal Minion" => "legal",
+    "Crucible of Worlds" => "legal",
+    "Sensei's Divining Top" => "legal",
+    "Winter Orb" => "legal",
+  )
+
+  change(
+    "2015-07-17",
+    "https://www.mtgdc.info/announcements/2015/july-2015-rules-bannedrestricted-update",
+    "Mystical Tutor" => "banned",
+  )
+
+  change(
+    "2015-10-02",
+    "https://www.mtgdc.info/announcements/2015/september-2015-rules-bannedrestricted-update",
+    "Sensei's Divining Top" => "banned",
+  )
+
+  change(
+    "2016-01-22",
+    "https://www.mtgdc.info/announcements/2016/january-2016-rules-bannedrestricted-update",
+    "Cataclysm" => "legal",
+  )
+
+  change(
+    "2016-04-08",
+    "https://www.mtgdc.info/announcements/2016/april-2016-rules-bannedrestricted-update",
+    "Gaea's Cradle" => "banned",
+    "Tasigur, the Golden Fang" => "banned_as_commander",
+    "Yisan, the Wanderer Bard" => "banned_as_commander",
+  )
+
+  change(
+    "2016-07-22",
+    "https://www.mtgdc.info/announcements/2016/july-2016-rules-bannedrestricted-update",
+    "Dig Through Time" => "banned",
+    "Necrotic Ooze" => "banned",
+    "Treasure Cruise" => "banned",
+    "Marath, Will of the Wild" => "banned_as_commander",
+  )
+
+  # The 2016-09-26 announcement changed no cards, only the starting life total.
+  # https://www.mtgdc.info/announcements/2016/september-2016-rules-bannedrestricted-update
 
   change(
     "2016-11-11",
-    "http://www.duelcommander.com/2016/11/classic-november-2016-rules-banlist-update/",
+    "https://www.mtgdc.info/announcements/2016/november-2016-rules-bannedrestricted-update",
     "Yawgmoth's Bargain" => "legal",
     "Serra Ascendant" => "legal",
     "Grindstone" => "legal",
@@ -89,8 +213,8 @@ BanList.for_format("duel commander") do
   )
 
   change(
-    "2017-04-24",
-    "http://www.duelcommander.com/2017/04/classic-april-2017-rules-banlist-update/",
+    "2017-04-21",
+    "https://www.mtgdc.info/announcements/2017/april-2017-rules-bannedrestricted-update",
     "Chrome Mox" => "banned",
     "Mox Diamond" => "banned",
     "Yisan, the Wanderer Bard" => "legal",
@@ -100,7 +224,7 @@ BanList.for_format("duel commander") do
 
   change(
     "2017-07-21",
-    "http://www.duelcommander.com/2017/07/classic-july-2017-rules-banlist-update/",
+    "https://www.mtgdc.info/announcements/2017/july-2017-rules-bannedrestricted-update",
     "Emrakul, the Aeons Torn" => "banned",
     "Polymorph" => "banned",
     "Ancient Tomb" => "legal",
@@ -114,7 +238,7 @@ BanList.for_format("duel commander") do
 
   change(
     "2017-09-29",
-    "http://www.duelcommander.com/2017/10/classic-sept-2017-rules-banlist-update/",
+    "https://www.mtgdc.info/announcements/2017/september-2017-rules-bannedrestricted-update",
     "Eidolon of the Great Revel" => "banned",
     "Fireblast" => "banned",
     "Price of Progress" => "banned",
@@ -123,27 +247,27 @@ BanList.for_format("duel commander") do
   )
 
   change(
-    "2017-11-27",
-    "http://www.duelcommander.com/2017/11/classic-nov-2017-rules-banlist-update/",
+    "2017-12-01",
+    "https://www.mtgdc.info/announcements/2017/november-2017-rules-bannedrestricted-update",
     "Fastbond" => "banned",
   )
 
   change(
     "2018-06-01",
-    "http://www.duelcommander.com/2018/05/classic-may-2018-rules-banlist-update/",
+    "https://www.mtgdc.info/announcements/2018/may-2018-rules-bannedrestricted-update",
     "Zurgo Bellstriker" => "banned_as_commander",
   )
 
   change(
     "2019-03-01",
-    "http://www.duelcommander.com/2019/02/february-2019-rules-banned-restricted-update/",
+    "https://www.mtgdc.info/announcements/2019/february-2019-rules-bannedrestricted-update",
     "Prime Speaker Vannifar" => "banned_as_commander",
     "Baral, Chief of Compliance" => "banned_as_commander",
   )
 
   change(
     "2019-08-31",
-    "http://www.duelcommander.com/2019/08/august-2019-rules-banned-restricted-update/",
+    "https://www.mtgdc.info/announcements/2019/august-2019-rules-bannedrestricted-update",
     "Arahbo, Roar of the World" => "banned_as_commander",
     "Najeela, the Blade-Blossom" => "banned_as_commander",
     "Teferi, Temporal Archmage" => "banned_as_commander",
@@ -156,8 +280,8 @@ BanList.for_format("duel commander") do
   )
 
   change(
-    "2019-11-25",
-    "http://www.duelcommander.com/2019/11/november-2019-rules-banned-restricted-update/",
+    "2019-11-29",
+    "https://www.mtgdc.info/announcements/2019/november-2019-rules-bannedrestricted-update",
     "Emry, Lurker of the Loch" => "banned_as_commander", # was experimentally legal
     "Edric, Spymaster of Trest" => "banned_as_commander", # was experimentally legal
     # "Erayo, Soratami Ascendant" => "legal", # officially legal, was experimentally legal
@@ -166,7 +290,7 @@ BanList.for_format("duel commander") do
 
   change(
     "2020-02-28",
-    "https://www.duelcommander.com/2020/02/february-2020-rules-banned-restricted-update/",
+    "https://www.mtgdc.info/announcements/2020/february-2020-rules-bannedrestricted-update",
     "Thassa's Oracle" => "banned",
     "Ancient Tomb" => "banned",
     "Mox Opal" => "banned",
@@ -175,7 +299,7 @@ BanList.for_format("duel commander") do
 
   change(
     "2020-05-29",
-    "https://www.duelcommander.com/2020/05/may-2020-rules-banned-restricted-update/",
+    "https://www.mtgdc.info/announcements/2020/may-2020-rules-bannedrestricted-update",
     "Lutri, the Spellchaser" => "banned",
     "Deflecting Swat" => "banned",
     "Fierce Guardianship" => "banned",
@@ -204,8 +328,8 @@ BanList.for_format("duel commander") do
   )
 
   change(
-    "2020-08-24",
-    "https://www.duelcommander.com/2020/08/august-2020-rules-banned-restricted-update/",
+    "2020-08-28",
+    "https://www.mtgdc.info/announcements/2020/august-2020-rules-bannedrestricted-update",
     "Genesis Storm" => "banned",
   )
 
@@ -539,15 +663,14 @@ BanList.for_format("duel commander") do
     "Akiri, Line-Slinger" => "legal",
   )
 
-  # No official announcement, just new card falling under old rule that all sticker cards are banned
   change(
     "2025-03-24",
-    nil,
+    "New sticker card printed and falls under sticker card ban",
     "Sticker sheet" => "banned",
   )
 
   change(
-    "2025-05-27",
+    "2025-05-26",
     "https://www.mtgdc.info/announcements/2025/may-26-2025",
     "Invert Polarity" => "banned",
     "Zurgo Bellstriker" => "legal",
@@ -596,7 +719,7 @@ BanList.for_format("duel commander") do
   )
 
   change(
-    "2026-05-26",
+    "2026-05-25",
     "https://www.duelcommander.org/announcements/2026/05/25/",
     "Emry, Lurker of the Loch" => "legal",
     "Najeela, the Blade-Blossom" => "legal",

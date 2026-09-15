@@ -259,15 +259,15 @@ BanList.for_format("pauper") do
   )
 
   change(
-    "2024-06-06",
+    # Announcement was on 2024-06-06, but Cranial Ram was only released 2024-06-14
+    "2024-06-14",
     "https://magic.wizards.com/en/news/announcements/pauper-bans-for-june-6-2024",
-    "Cranial Ram" => "banned",
+    "Cranial Ram" => "prebanned",
   )
 
-  # No official announcement, just new card falling under old rule that all sticker cards are banned
   change(
     "2025-03-24",
-    nil,
+    "New sticker card printed and falls under sticker card ban",
     "Sticker sheet" => "banned",
   )
 
@@ -297,5 +297,19 @@ BanList.for_format("pauper") do
     "2026-06-29",
     "https://magic.wizards.com/en/news/announcements/banned-and-restricted-june-29-2026",
     "Seeker of Skybreak" => "banned",
+  )
+
+  # The Zeta Set was initially not going to count for Pauper legality at all,
+  # but WotC changed their mind and made its commons legal, banning two of them.
+  # Announcement was on 2026-09-04, effective 2026-09-07, but these cards were
+  # never legal for even a moment, so it's a preban.
+  # The date is SLZ's mtgjson release date. That date is retroactive and none of
+  # the cards were actually distributed by then, but Secret Lair release dates
+  # are meaningless anyway, so there's nothing better to use.
+  change(
+    "2026-09-02",
+    "https://magic.wizards.com/en/news/announcements/on-the-zeta-set-in-pauper",
+    "Narcomoeba" => "prebanned",
+    "Price of Progress" => "prebanned",
   )
 end

@@ -7,20 +7,32 @@ class DeckController < ApplicationController
     @title = "Preconstructed Decks"
   end
 
+  # The two urls which predate the export dialog, and which MythicHub links to
   def download
-    @set = $CardDatabase.sets[params[:set]] or return render_404
-    @deck = @set.decks.find{|d| d.slug == params[:id]} or return render_404
-
-    headers["Content-Disposition"] = %Q[attachment; filename="#{@deck.name}.txt"]
-    render plain: @deck.to_text
+    deck = precon_deck or return render_404
+    send_export deck.export("names")
   end
 
   def download_with_printings
-    @set = $CardDatabase.sets[params[:set]] or return render_404
-    @deck = @set.decks.find{|d| d.slug == params[:id]} or return render_404
+    deck = precon_deck or return render_404
+    send_export deck.export("text")
+  end
 
-    headers["Content-Disposition"] = %Q[attachment; filename="#{@deck.name}.txt"]
-    render plain: @deck.to_text_with_printings
+  # One format at a time, as json, for the export dialog. A precon is named by
+  # its url; a pasted decklist has no url of its own, so the page posts the
+  # text back and it is parsed again - which is what rendering the page cost in
+  # the first place, and only happens when someone opens the dialog.
+  def export
+    return render_404 unless DeckExporter[params[:format]]
+    deck = params[:set] ? precon_deck : pasted_deck
+    return render_404 unless deck
+
+    export = deck.export(params[:format])
+    render json: {
+      filename: export.filename,
+      text: export.text,
+      warnings: export.warnings,
+    }
   end
 
   def show
@@ -95,6 +107,21 @@ class DeckController < ApplicationController
 
   private
 
+  def precon_deck
+    set = $CardDatabase.sets[params[:set]] or return nil
+    set.decks.find{|deck| deck.slug == params[:id] }
+  end
+
+  def pasted_deck
+    return nil if params[:deck].blank?
+    DeckParser.new($CardDatabase, params[:deck]).deck
+  end
+
+  def send_export(export)
+    headers["Content-Disposition"] = %Q[attachment; filename="#{export.filename}"]
+    render plain: export.text
+  end
+
   def sort_section(section)
     section.sort_by{|_,c| [c.name, c.set_code, c.number] }
   end
@@ -107,52 +134,20 @@ class DeckController < ApplicationController
   end
 
   def choose_default_preview_card
-    # Choose best card to preview
-    if @commander.size.between?(1,2)
-      # Commander
-      @default_preview_card = @commander.first.last
-    elsif @sideboard.size.between?(1,2)
-      # Commander, if it didn't get migrated to new system
-      @default_preview_card = @sideboard.first.last
-    else
-      @default_preview_card = @card_previews.min_by do |c|
-        rarity = c.rarity
-        types = c.main_front.types
-        score = 0
-        score += 10000 if rarity == "mythic"
-        score += 1000 if rarity == "rare"
-        score += 100 if types.include?("planeswalker")
-        score += 10 if types.include?("legendary")
-        score += 1 if types.include?("creature")
-        [-score, c.name]
-      end
+    # A deck is about its commander, so preview that - looking in the sideboard
+    # too, for decks whose commander never got migrated to the new system
+    commander = [@commander, @sideboard].find{|section| section.size.between?(1,2)}
+    @default_preview_card = commander&.first&.last
+    # A pasted decklist can name a card we know nothing about, and there is no
+    # picture to preview for that one
+    unless @card_previews.include?(@default_preview_card)
+      @default_preview_card = PhysicalCard.best_preview(@card_previews)
     end
   end
 
   def group_cards
     @card_groups = @cards.group_by do |count, card|
-      if card.is_a?(UnknownCard) or card.nil?
-        [9, "Other"]
-      else
-        types = card.main_front.types
-        if types.include?("creature")
-          [1, "Creature"]
-        elsif types.include?("land")
-          [7, "Land"]
-        elsif types.include?("planeswalker")
-          [2, "Planeswalker"]
-        elsif types.include?("instant")
-          [3, "Instant"]
-        elsif types.include?("sorcery")
-          [4, "Sorcery"]
-        elsif types.include?("artifact")
-          [5, "Artifact"]
-        elsif types.include?("enchantment")
-          [6, "Enchantment"]
-        else
-          [8, "Other"]
-        end
-      end
+      card.nil? ? UnknownCard::TYPE_GROUP : card.type_group
     end
     unless @sideboard.blank?
       @card_groups[[10, "Sideboard"]] = @sideboard

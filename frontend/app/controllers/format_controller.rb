@@ -19,14 +19,16 @@ class FormatController < ApplicationController
       @included_sets = @format.included_sets.map{|set_code| $CardDatabase.sets[set_code] }.reverse
     end
     @events = @format.ban_events
+    if @format.display_rotation_schedule?
+      @rotation_history = @format.rotation_history($CardDatabase)
+    end
   end
 
   private
 
   def search_best_printings(query)
-    results = $CardDatabase.search(query).printings
-    results.group_by(&:name).sort.map do |name, printings|
-      printings.find(&:image_path) || printings[0]
+    $CardDatabase.search(query).printings.group_by(&:name).sort.map do |name, printings|
+      SearchResults.best_printing(printings)
     end
   end
 end

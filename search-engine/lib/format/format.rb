@@ -1,15 +1,25 @@
+# Previously supported formats: Standard Brawl, Frontier, MTGO Commander
+
 class Format
   # Statuses which all mean "in the format, but with a deckbuilding restriction".
   # They're displayed and validated differently, but restricted: and f: searches
   # treat them all the same way, which is how "restricted" behaved when it was
-  # the only name for all of them. See _LEGALITY.md.
-  RESTRICTED_STATUSES = [
+  # the only name for all of them.
+  #
+  # Sets rather than arrays because these are only ever asked include?, and the
+  # value asked about is usually nil (card isn't in the format) - which is the
+  # one case where Array#include? falls off a cliff, comparing a String to a
+  # non-String five times through respond_to?(:to_str).
+  RESTRICTED_STATUSES = Set[
     "restricted",
     "banned_as_commander",
     "banned_as_companion",
     "conjurable",
     "specialized",
   ].freeze
+
+  # What f: and format: match: in the format at all, restricted or not
+  LEGAL_OR_RESTRICTED_STATUSES = Set["legal", *RESTRICTED_STATUSES].freeze
 
   attr_reader :included_sets, :excluded_sets
 
@@ -28,19 +38,33 @@ class Format
 
   def legality(card)
     card = card.main_front if card.is_a?(PhysicalCard)
-    if card.extra or !in_format?(card)
+    if card.special_format or !in_format?(card)
       nil
     else
       @ban_list.legality(card.name, @time)
     end
   end
 
+  # These deliberately don't go through legality, because they want the two
+  # checks in the opposite order. legality has to return the real status, so it
+  # asks in_format? first and only then the ban list. banned? and restricted?
+  # only need to know whether one specific answer applies, and a card the ban
+  # list has never heard of can't be either - which is 99.8% of the index,
+  # settled by a hash lookup instead of walking every printing of every card.
+  #
+  # The card.special_format term is what legality applies too - planes, schemes,
+  # vanguards, conspiracies and Hero's Path cards are legal in no format at any
+  # date, so the ban list never gets a say about them.
   def banned?(card)
-    legality(card) == "banned"
+    card = card.main_front if card.is_a?(PhysicalCard)
+    return false unless @ban_list.legality(card.name, @time) == "banned"
+    !card.special_format and in_format?(card)
   end
 
   def restricted?(card)
-    RESTRICTED_STATUSES.include?(legality(card))
+    card = card.main_front if card.is_a?(PhysicalCard)
+    return false unless RESTRICTED_STATUSES.include?(@ban_list.legality(card.name, @time))
+    !card.special_format and in_format?(card)
   end
 
   def legal?(card)
@@ -48,16 +72,21 @@ class Format
   end
 
   def legal_or_restricted?(card)
-    l = legality(card)
-    l == "legal" or RESTRICTED_STATUSES.include?(l)
+    LEGAL_OR_RESTRICTED_STATUSES.include?(legality(card))
   end
 
   def in_format?(card)
-    # Funny check is disabled for Alchemy/Historic
-    # as Arena cards sometimes get paper reprints with acorn stamp like in MB2
-    return false if card.funny
+    # mtgjson files Alchemy cards in the same set as the paper cards they rebalance
+    # instead of giving them their own set, so without this every format would count
+    # them as printings of its own sets. Alchemy, Historic and Timeless, where they're
+    # real cards rather than noise, override this method.
     return false if card.alchemy
     card.printings.each do |printing|
+      # Only a printing you could bring to a sanctioned event can make a card legal.
+      # This is per-printing rather than per-card so that mixed products come out right
+      # without anyone maintaining a list: MB2's ordinary reprints are legal while its
+      # playtest cards are not, and Counterspell stays legal despite sld/sctlr.
+      next if printing.nontournament
       next if @time and printing.release_date > @time
       if @included_sets
         next unless @included_sets.include?(printing.set_code)
@@ -102,21 +131,45 @@ class Format
     issues
   end
 
+  # individual cards can override this
+  def default_max_copies_allowed
+    4
+  end
+
+  # Card text overrides the format's limit in either direction (CR 100.2a) -
+  # "up to seven cards named" beats singleton, "only one card named" beats four.
+  def max_copies_allowed(card)
+    case card.decklimit
+    when nil
+      default_max_copies_allowed
+    when "any"
+      Float::INFINITY
+    else
+      card.decklimit
+    end
+  end
+
   def deck_card_issues(deck)
     issues = []
     deck.card_counts.each do |card, name, count|
       card_legality = legality(card)
       case card_legality
-      when "legal"
-        if count > 4 and not card.allowed_in_any_number?
-          issues << "Deck contains #{count} copies of #{name}, only up to 4 allowed"
+      # banned_as_companion is not deck construction issue - companion cards are always sideboard
+      #   you just can't reveal them before game to use as your companion
+      # banned_as_commander is checked by deck_commander_issues in format where it's applicable
+      when "legal", "banned_as_companion", "banned_as_commander"
+        max_copies = max_copies_allowed(card)
+        if count > max_copies
+          issues << "Deck contains #{count} copies of #{name}, only up to #{max_copies} allowed"
         end
-      when *RESTRICTED_STATUSES
-        # FIXME: only correct for "restricted". "conjurable" and "specialized" cards
-        # can't go into a deck at all, so 1 copy isn't allowed either - see _LEGALITY.md
+      when "restricted"
         if count > 1
           issues << "Deck contains #{count} copies of #{name}, which is restricted to only up to 1 allowed"
         end
+      when "conjurable"
+        issues << "#{name} is conjurable only and cannot be used as part of deck construction"
+      when "specialized"
+        issues << "#{name} is specialized only and cannot be used as part of deck construction"
       when "banned"
         issues << "#{name} is banned"
       else
@@ -139,6 +192,11 @@ class Format
   # Other formats need a clear format start announcement to be filled in here.
   def format_start_date
     nil
+  end
+
+  # Only formats which actually rotate have a rotation schedule worth showing
+  def display_rotation_schedule?
+    false
   end
 
   # Formats which don't have a ban list of their own can borrow someone else's
@@ -227,9 +285,15 @@ class Format
         # Not a real format, just Standard as it will be after the next rotation
         "future"                     => FormatFuture,
         "futurestandard"             => FormatFuture,
-        # Disabled for now, as this is "Standard Brawl" and the one that's actually being played is different "Historic Brawl"
-        # at some point it might be worth resurrecting the format
-        # "brawl"                      => FormatBrawl,
+        # Disabled for now. Arena runs three Brawl queues and the official B&R list
+        # tracks only the other two, so this is the one nobody plays.
+        # "standardbrawl"              => FormatStandardBrawl,
+        "brawl"                      => FormatBrawl,
+        # What it was called until the 2023-12-12 client update
+        "historicbrawl"              => FormatBrawl,
+        "competitivebrawl"           => FormatCompetitiveBrawl,
+        # What it was called for the week between announcement and launch
+        "rankedbrawl"                => FormatCompetitiveBrawl,
         "modern"                     => FormatModern,
         "pioneer"                    => FormatPioneer,
         "legacy"                     => FormatLegacy,
@@ -243,11 +307,8 @@ class Format
         "duelcommander"              => FormatDuelCommander,
         "dueledh"                    => FormatDuelCommander,
         "duel"                       => FormatDuelCommander,
-        # Disabled as I don't even know where the banlist for it is and if it's still a real format
-        # This could be reverted
-        # "mtgocommander"              => FormatMTGOCommander,
-        # "mtgoedh"                    => FormatMTGOCommander,
         "historic"                   => FormatHistoric,
+        "timeless"                   => FormatTimeless,
         "premodern"                  => FormatPremodern,
         "alchemy"                    => FormatAlchemy,
       }
@@ -268,4 +329,8 @@ end
 require_relative "format_vintage"
 require_relative "format_standard"
 require_relative "format_commander"
-Dir["#{__dir__}/format_*.rb"].each do |path| require_relative path end
+# FormatTimeless and FormatBrawl subclass it
+require_relative "format_historic"
+# The Brawl formats include it
+require_relative "brawl_deck_rules"
+Dir["#{__dir__}/format_*.rb"].sort.each do |path| require_relative path end

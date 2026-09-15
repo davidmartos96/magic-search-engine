@@ -1,60 +1,84 @@
+require_relative "bitmap_flag"
 require_relative "index_format"
 
 class CardPrinting
-  # Boolean flags packed into the "!" string, see IndexFormat::FLAGS
-  ARENA_FLAG            = IndexFormat::FLAGS.fetch("arena")
-  DIGITAL_FLAG          = IndexFormat::FLAGS.fetch("digital")
-  DREAMCAST_FLAG        = IndexFormat::FLAGS.fetch("dreamcast")
-  ETCHED_FLAG           = IndexFormat::FLAGS.fetch("etched")
-  FULLART_FLAG          = IndexFormat::FLAGS.fetch("fullart")
-  NONTOURNAMENT_FLAG    = IndexFormat::FLAGS.fetch("nontournament")
-  OVERSIZED_FLAG        = IndexFormat::FLAGS.fetch("oversized")
-  SHANDALAR_FLAG        = IndexFormat::FLAGS.fetch("shandalar")
-  SPOTLIGHT_FLAG        = IndexFormat::FLAGS.fetch("spotlight")
-  TEXTLESS_FLAG         = IndexFormat::FLAGS.fetch("textless")
-  TIMESHIFTED_FLAG      = IndexFormat::FLAGS.fetch("timeshifted")
-  TOKEN_FLAG            = IndexFormat::FLAGS.fetch("token")
-  VARIANT_FOREIGN_FLAG  = IndexFormat::FLAGS.fetch("variant_foreign")
-  VARIANT_MISPRINT_FLAG = IndexFormat::FLAGS.fetch("variant_misprint")
-  NOT_MTGO_FLAG         = IndexFormat::NEGATED_FLAGS.fetch("mtgo")
-  NOT_PAPER_FLAG        = IndexFormat::NEGATED_FLAGS.fetch("paper")
-  NOT_XMAGE_FLAG        = IndexFormat::NEGATED_FLAGS.fetch("xmage")
+  extend BitmapFlag
+
+  # The six game flags come first so GAMES below stays a 64 entry table
+  FLAG_BITS = bitmap_flags(
+    :paper,
+    :mtgo,
+    :arena,
+    :shandalar,
+    :dreamcast,
+    :xmage,
+    :baseset,
+    :digital,
+    :fullart,
+    :in_boosters,
+    :main_front,
+    :nontournament,
+    :nontraditional,
+    :oversized,
+    :spotlight,
+    :textless,
+    :timeshifted,
+    :token,
+    :variant_arena,
+    :variant_foreign,
+    :variant_misprint,
+  )
+
+  # Most physical cards have no back, so they can all share one empty array.
+  NO_PARTS = [].freeze
+
+  # Every kind of foiling there is, for the questions that only ask whether the
+  # card is premium at all
+  PREMIUM_FINISHES = IndexFormat::FINISH_BITS[:foil] | IndexFormat::FINISH_BITS[:etched]
+
+  # Which flag each character of the index's "!" string sets, see IndexFormat.
+  # The negated ones start out set and their character clears them.
+  FLAG_SETTERS = IndexFormat::FLAGS.to_h{|name, char| [char, :"#{name}="] }.freeze
+  NEGATED_FLAG_SETTERS = IndexFormat::NEGATED_FLAGS.to_h{|name, char| [char, :"#{name}="] }.freeze
+
+  GAME_NAMES = {
+    "paper"     => :paper,
+    "mtgo"      => :mtgo,
+    "arena"     => :arena,
+    "shandalar" => :shandalar,
+    "dreamcast" => :dreamcast,
+    "xmage"     => :xmage,
+  }.freeze
+  GAMES_MASK = FLAG_BITS.values_at(*GAME_NAMES.values).inject(:|)
+  raise "game flags must be declared first" unless GAMES_MASK == (1 << GAME_NAMES.size) - 1
+  # Only 64 combinations, so build them all rather than memoize one per printing
+  GAMES = (0..GAMES_MASK).map{|bits|
+    GAME_NAMES.filter_map{|name, flag| name if bits & FLAG_BITS[flag] != 0 }.freeze
+  }.freeze
 
   attr_reader(
     :artist_name,
     :attraction_lights,
     :border,
     :card,
-    :date,
-    :digital,
-    :etched,
     :flavor_name,
     :flavor_normalized,
     :flavor,
-    :foiling,
+    :finishes,
     :frame_effects,
     :frame,
-    :fullart,
     :language,
     :multiverseid,
-    :nontournament,
     :number,
-    :oversized,
     :print_sheet,
     :promo_types,
     :rarity_code,
     :release_date,
     :set,
     :signature,
-    :spotlight,
     :stamp,
     :stemmed_flavor_name,
     :subsets,
-    :textless,
-    :timeshifted,
-    :token,
-    :variant_foreign,
-    :variant_misprint,
     :watermark,
   )
 
@@ -62,11 +86,16 @@ class CardPrinting
   attr_reader :stemmed_name, :set_code, :release_date_i, :number_i, :types
 
   # Set by CardDatabase initialization
-  attr_accessor :others, :artist, :default_sort_index, :partner, :in_boosters
+  attr_accessor :others, :artist, :default_sort_index, :partner
+  # Set by CardDatabase initialization, printings ordered by [number_i, number]
+  attr_accessor :number_sort_index
+  # Set by CardDatabase initialization, printings ordered by [set name, number]
+  attr_accessor :set_number_sort_index
   # Set by the frontend
   attr_accessor :image_path
 
   def initialize(card, set, data)
+    @flags = 0
     @card = card
     @set = set
     @others = nil
@@ -76,19 +105,14 @@ class CardPrinting
     @number = data["n"]
     @number_i = @number.to_i
     @multiverseid = data["m"]
-    if data["a"]
-      @artist_name = data["a"].normalize_accents # TODO: move to indexer
-    else
-      warn "Card #{card.name} in #{set.code} lacks artist"
-      @artist_name = "Unknown"
-    end
+    @artist_name = data["a"].normalize_accents
     @flavor = data["fl"] || -""
     @flavor_name = data["fn"]
     @flavor_normalized = @flavor.normalize_accents
     if @flavor_name
       @stemmed_flavor_name = -@flavor_name.downcase.normalize_accents.gsub(/s\b/, "").tr("-", " ")
     end
-    @foiling = IndexFormat::FOILING_SYMBOLS.fetch(data["fo"] || 0)
+    @finishes = data["fo"] || IndexFormat::DEFAULT_FINISHES
     @border = IndexFormat::BORDERS.fetch(data["b"] || 0)
     @frame = IndexFormat::FRAMES.fetch(data["f"] || 0)
     @frame_effects = data["fe"] || []
@@ -103,78 +127,27 @@ class CardPrinting
     @stamp = data["s"] && IndexFormat::STAMPS.fetch(data["s"])
     @subsets = data["ss"]
 
-    flags = data["!"] || ""
-    @arena = flags.include?(ARENA_FLAG)
-    @digital = flags.include?(DIGITAL_FLAG)
-    @dreamcast = flags.include?(DREAMCAST_FLAG)
-    @etched = flags.include?(ETCHED_FLAG)
-    @fullart = flags.include?(FULLART_FLAG)
-    @nontournament = flags.include?(NONTOURNAMENT_FLAG)
-    @oversized = flags.include?(OVERSIZED_FLAG)
-    @shandalar = flags.include?(SHANDALAR_FLAG)
-    @spotlight = flags.include?(SPOTLIGHT_FLAG)
-    @textless = flags.include?(TEXTLESS_FLAG)
-    @timeshifted = flags.include?(TIMESHIFTED_FLAG)
-    @token = flags.include?(TOKEN_FLAG)
-    @variant_foreign = flags.include?(VARIANT_FOREIGN_FLAG)
-    @variant_misprint = flags.include?(VARIANT_MISPRINT_FLAG)
-    @mtgo = !flags.include?(NOT_MTGO_FLAG)
-    @paper = !flags.include?(NOT_PAPER_FLAG)
-    @xmage = !flags.include?(NOT_XMAGE_FLAG)
-
-    @baseset = calculate_baseset
+    self.mtgo = true
+    self.paper = true
+    self.xmage = true
+    (data["!"] || "").each_char do |char|
+      if (setter = FLAG_SETTERS[char])
+        send(setter, true)
+      else
+        send(NEGATED_FLAG_SETTERS.fetch(char), false)
+      end
+    end
+    self.baseset = calculate_baseset
 
     # Performance cache
     @stemmed_name = @card.stemmed_name
     @set_code = @set.code
     @types = @card.types
-
-    # Initialized after boosters are loaded
-    @in_boosters = false
-  end
-
-  def arena?
-    !!@arena
-  end
-
-  def paper?
-    !!@paper
-  end
-
-  def mtgo?
-    !!@mtgo
-  end
-
-  def shandalar?
-    !!@shandalar
-  end
-
-  def dreamcast?
-    !!@dreamcast
-  end
-
-  def xmage?
-    !!@xmage
   end
 
   # Same games as game: queries know about
   def games
-    @games ||= [
-      ("paper" if @paper),
-      ("mtgo" if @mtgo),
-      ("arena" if @arena),
-      ("shandalar" if @shandalar),
-      ("dreamcast" if @dreamcast),
-      ("xmage" if @xmage),
-    ].compact.freeze
-  end
-
-  def in_boosters?
-    @in_boosters
-  end
-
-  def baseset?
-    @baseset
+    GAMES[@flags & GAMES_MASK]
   end
 
   def rarity
@@ -199,7 +172,7 @@ class CardPrinting
     @set.name
   end
 
-  %W[block_code block_name online_only?].each do |m|
+  %W[block_code block_name].each do |m|
     eval("def #{m}; @set.#{m}; end")
   end
   %W[
@@ -220,11 +193,11 @@ class CardPrinting
     count_sets
     custom?
     decklimit
+    default_printing
     defense
     display_mana_cost
     display_power
     display_toughness
-    extra
     first_regular_release_date
     first_release_date
     foreign_names
@@ -245,8 +218,11 @@ class CardPrinting
     loyalty
     mana_cost
     mana_hash
+    modal
+    mv
     name
     name_slug
+    name_sort_index
     names
     partner?
     power
@@ -259,12 +235,14 @@ class CardPrinting
     rulings
     secondary?
     short_name
+    special_format
     specialized
     specializes
     spellbook
     text
     text_normalized
     toughness
+    type_group
     typeline
   ].each do |m|
     eval("def #{m}; @card.#{m}; end")
@@ -282,7 +260,7 @@ class CardPrinting
   include Comparable
 
   def <=>(other)
-    [name, set, number_i, number] <=> [other.name, other.set, other.number_i, other.number]
+    default_sort_index <=> other.default_sort_index
   end
 
   def age
@@ -301,13 +279,21 @@ class CardPrinting
     inspect
   end
 
-  # There are 3 scenarios:
+  # There are 4 scenarios:
   # * both have "Partner"
   # * both have "Partner with" and they point at each other
   # * one is The Doctor, and the other has "Doctor's Companion"
+  # * one has "Precious", and the other is a legendary noncreature artifact
   def valid_partner_for?(other)
     return true if the_doctor? and other.doctors_companion?
     return true if other.the_doctor? and self.doctors_companion?
+    return true if precious? and other.precious_relic?
+    return true if other.precious? and precious_relic?
+
+    # Both of those are partner abilities, so they reach the plain "both have
+    # Partner" case below, where they would pair with anything
+    return false if doctors_companion? or other.doctors_companion?
+    return false if precious? or other.precious?
 
     return unless partner? and other.partner?
     if partner
@@ -328,27 +314,54 @@ class CardPrinting
     text.include?("Doctor's companion")
   end
 
+  # For sake of Precious
+  def precious?
+    text.include?("Precious (You can have two commanders")
+  end
+
+  def precious_relic?
+    types.include?("legendary") and types.include?("artifact") and !types.include?("creature")
+  end
+
+  # The printing whose physical card this one is a face of, which is what
+  # PhysicalCard is built from. A melded card is on two physical cards' backs,
+  # and `others` lists both of its fronts, the top half first - see PatchMeld -
+  # so it goes with the physical card whose back is its top half.
   def main_front
-    physical_card.main_front
+    main_front? ? self : @others.find(&:main_front?)
+  end
+
+  # The faces of the physical card this printing is the main front of, split
+  # into front and back, in printed order. Nothing here sorts: `others` already
+  # arrives in printed order, because the indexer builds it from mtgjson's
+  # `names`, the same order it turns into the "a" / "b" number suffixes.
+  def physical_front_parts
+    return [self] unless multipart_physical_card?
+    [self, *@others].select(&:front?)
+  end
+
+  def physical_back_parts
+    return NO_PARTS unless multipart_physical_card?
+    back_parts = @others.select(&:back?)
+    back_parts.empty? ? NO_PARTS : back_parts
   end
 
   # Is this printing the face that PhysicalCard identity is based on?
   # Precomputed, as `is:mainfront` would otherwise build a PhysicalCard for every card it looks at.
-  def main_front?
-    @main_front
-  end
 
   # Called by CardDatabase once `others` references are resolved.
-  # This must stay in sync with PhysicalCard.for.
   def calculate_main_front!
-    @main_front =
-      if !has_multiple_parts? or name == "B.F.M. (Big Furry Monster)" or name == "B.F.M. (Big Furry Monster, Right Side)"
+    self.main_front =
+      if !multipart_physical_card?
         true
       elsif !front?
         false
       else
-        # Meld pairs have two fronts, and only the lower numbered one is the main front
-        [self, *@others].select(&:front?).min_by(&:number).equal?(self)
+        # Split cards and the like have every face on the front, and only the
+        # first printed one is the main front. `others` cannot say which that
+        # is, as it leaves out the printing itself, so compare numbers - by
+        # number_sort_index, as numbers are strings that put "10" before "9".
+        [self, *@others].select(&:front?).min_by(&:number_sort_index).equal?(self)
       end
   end
 
@@ -356,16 +369,46 @@ class CardPrinting
     PhysicalCard.for(self)
   end
 
+  # The finishes are a bitmask - see IndexFormat::FINISH_BITS - because a
+  # printing comes in any combination of the three.
+  def has_finish?(finish)
+    @finishes & IndexFormat::FINISH_BITS.fetch(finish) != 0
+  end
+
+  # Foil and etched are one thing to nearly everything that asks: etched is a
+  # kind of foiling, and a card sheet, a decklist or a picture only wants to
+  # know whether the card is premium. `has_finish?(:foil)` is the plain foil
+  # printing itself, and only two queries are that specific.
+  def any_foil?
+    @finishes & PREMIUM_FINISHES != 0
+  end
+
   def foilonly?
-    foiling == :foilonly
+    !has_finish?(:nonfoil)
   end
 
   def nonfoilonly?
-    foiling == :nonfoil
+    @finishes == IndexFormat::FINISH_BITS[:nonfoil]
+  end
+
+  # Comes both ways, whichever premium finish it is
+  def foilboth?
+    has_finish?(:nonfoil) and any_foil?
+  end
+
+  # In IndexFormat::FINISH_BITS order, for display
+  def finish_names
+    IndexFormat::FINISH_BITS.each_key.select{|finish| has_finish?(finish) }
+  end
+
+  # mtgjson has B.F.M.'s two halves as one multipart card, but they are two
+  # separate physical cards, each just its own face.
+  def multipart_physical_card?
+    has_multiple_parts? and name != "B.F.M. (Big Furry Monster)" and name != "B.F.M. (Big Furry Monster, Right Side)"
   end
 
   def calculate_baseset
-    return false if variant_foreign or variant_misprint or promo_types&.include?("reversibleback")
+    return false if variant_arena or variant_foreign or variant_misprint or promo_types&.include?("reversibleback")
     base_set_size = set.base_set_size
     return false unless base_set_size
     number_i >= 1 and number_i <= base_set_size

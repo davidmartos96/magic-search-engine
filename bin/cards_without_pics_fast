@@ -2,22 +2,22 @@
 
 # This doesn't load the DB, so it's much more reasonable to use on a memory constrained server
 require "json"
-require "pathname-glob"
 require "pathname"
+require_relative "../search-engine/lib/card_picture_paths"
 
 class CardsWithoutPicsFast
   def index_path
-    Pathname(__dir__) + "../index/index.json"
+    Pathname(__dir__) + "../index/cards.jsonl"
   end
 
   def card_list
-    `jq -c '.cards[] | .["*"][] | [.[0], .[1]["n"]]' <"#{index_path}"`.lines.map{|line| JSON.parse(line)}
+    `jq -c '.[1]["*"][] | [.[0], .[1]["n"]]' <"#{index_path}"`.lines.map{|line| JSON.parse(line)}
   end
 
   def cards_with_missing_pictures
     card_list.reject{|set_code, number|
-      Pathname("frontend/public/cards/#{set_code}/#{number}.png").exist? ||
-      Pathname("frontend/public/cards_hq/#{set_code}/#{number}.png").exist?
+      CardPicturePaths.lq(set_code, number).exist? ||
+      CardPicturePaths.hq(set_code, number).exist?
     }
   end
 

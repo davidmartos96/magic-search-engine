@@ -3,13 +3,13 @@ class BanList
 
   # Every status a ban list is allowed to say. The last four used to be spelled
   # "restricted" as well, which meant nothing downstream could tell them apart -
-  # Format::RESTRICTED_STATUSES is what groups them back together now. See _LEGALITY.md.
+  # Format::RESTRICTED_STATUSES is what groups them back together now.
   LEGALITY_STATUSES = [
     "legal",
     "banned",
     # only 1 copy in a deck instead of 4 (Vintage, historically Standard)
     "restricted",
-    # legal in the deck, but may not be your commander (Commander, Duel Commander, Brawl)
+    # legal in the deck, but may not be your commander (Commander, Duel Commander, Standard Brawl)
     "banned_as_commander",
     # legal in the deck, but may not be your companion (Commander, Duel Commander)
     "banned_as_companion",
@@ -18,6 +18,17 @@ class BanList
     # Arena-only card that only enters play by specializing another card (Historic, Alchemy)
     "specialized",
   ].freeze
+
+  # Statuses the DSL accepts on top of those, mapped to a real one before anything
+  # downstream sees them.
+  #
+  # "prebanned" is an ordinary ban announced before the card was available anywhere.
+  # We record when a change took effect, not when it was announced, so its date is the
+  # card's release date (Arena release date for digital-only formats) rather than the
+  # announcement date - which is what specs will eventually check it for.
+  DSL_STATUS_ALIASES = {
+    "prebanned" => "banned",
+  }.freeze
 
   attr_reader :format
 
@@ -50,6 +61,8 @@ class BanList
     result
   end
 
+  # Announcements split by card, newest first, as [date, url, comment, [{name:, old:, new:}, ...]]
+  # Date is nil for the announcement which established the initial ban list.
   def events
     events = {}
     @cards.each do |card_name, card_events|
@@ -60,17 +73,17 @@ class BanList
     end
 
     events.sort.reverse.map do |date,evs|
-      url = @events.find{|d,_,_| d == date}[1]
+      announcement = @events.find{|event| event[:date] == date}
       date = nil if date == START
-      [date, url, evs]
+      [date, announcement[:url], announcement[:comment], evs]
     end
   end
 
   def change_dates
-    @events.map{|d,_,_| d}
+    @events.map{|event| event[:date]}
   end
 
-  # Announcements as declared, [date, url, {card name => legality}]
+  # Announcements as declared, {date:, url:, comment:, changes: {card name => legality}}
   # Unlike events it doesn't split them by card or figure out previous legality
   def changes
     @events
@@ -82,16 +95,25 @@ class BanList
 
   private
 
-  def format_start(url, legalities)
-    change(START, url, legalities)
+  def format_start(source, legalities)
+    change(START, source, legalities)
   end
 
-  def change(date, url, legalities)
+  # source is either a link to the announcement, or a plain text comment saying
+  # where the information came from. The DSL only takes one of them, but nothing
+  # downstream should assume that an event can't have both.
+  def change(date, source, legalities)
     date = Date.parse(date) unless date.is_a?(Date)
+    legalities = legalities.transform_values{|legality| DSL_STATUS_ALIASES.fetch(legality, legality)}
     legalities.each_value do |legality|
       raise "#{self} has unknown legality status #{legality.inspect}" unless LEGALITY_STATUSES.include?(legality)
     end
-    @events << [date, url, legalities]
+    if source =~ %r{\Ahttps?://}
+      url, comment = source, nil
+    else
+      url, comment = nil, source
+    end
+    @events << {date: date, url: url, comment: comment, changes: legalities}
     legalities.each do |card, legality|
       @cards[card] ||= []
       @cards[card] << [date, legality]
@@ -99,7 +121,7 @@ class BanList
   end
 
   def validate
-    dates = @events.map(&:first)
+    dates = @events.map{|event| event[:date]}
     raise "#{self} not sorted" unless dates.sort == dates
       raise "#{self} has multiples of same date" if dates.uniq != dates
     @cards.each do |card_name, legalities|
@@ -135,4 +157,4 @@ class BanList
   end
 end
 
-Dir["#{__dir__}/ban_list/*.rb"].each do |path| require_relative path end
+Dir["#{__dir__}/ban_list/*.rb"].sort.each do |path| require_relative path end

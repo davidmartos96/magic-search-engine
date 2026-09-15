@@ -1,13 +1,7 @@
-# "conjurable" and "specialized" are technically not a B&R issue, they're cards which
-# can't go into a deck at all. Format::RESTRICTED_STATUSES groups them with the
-# other restricted-family statuses for restricted: and f: searches - see _LEGALITY.md
-
 BanList.for_format("alchemy") do
-  # HBG conjured/specialized
   change(
     "2022-07-07",
-    nil,
-    # Specialized cards
+    "These cards are specialized/conjurable only",
     "Alora, Cheerful Assassin" => "specialized",
     "Alora, Cheerful Mastermind" => "specialized",
     "Alora, Cheerful Scout" => "specialized",
@@ -138,8 +132,7 @@ BanList.for_format("alchemy") do
   # YDMU - it would be better to move these to a separate set
   change(
     "2022-10-05",
-    nil,
-    # conjure only cards
+    "These cards are conjurable only",
     "Ancestral Recall" => "conjurable",
     "Time Walk" => "conjurable",
     "Timetwister" => "conjurable",
@@ -151,10 +144,36 @@ BanList.for_format("alchemy") do
     "Mox Sapphire" => "conjurable",
   )
 
+  # Most Alchemy sets since YBRO end with an appendix of conjure-only cards, numbered
+  # after every normal card in the set. mtgjson only shipped those printings in
+  # 5.3.0+20260901, dated to their original release, so they read as plainly legal here
+  # for years - hence entries backdated into the history rather than appended at the end.
+  #
+  # YONE
+  change(
+    "2023-02-28",
+    "This card is conjurable only",
+    "Soul of New Phyrexia" => "conjurable",
+  )
+
   change(
     "2023-07-18",
     "https://magic.wizards.com/en/news/mtg-arena/alchemy-rebalancing-for-july-18-2023",
     "Fable of the Mirror-Breaker" => "banned",
+  )
+
+  # YWOE
+  change(
+    "2023-10-10",
+    "This card is conjurable only",
+    "Brawler's Plate" => "conjurable",
+  )
+
+  # YLCI
+  change(
+    "2023-12-05",
+    "This card is conjurable only",
+    "Thieving Magpie" => "conjurable",
   )
 
   change(
@@ -167,8 +186,15 @@ BanList.for_format("alchemy") do
   # got printed into Alchemy-legal set FDN
   change(
     "2024-12-15",
-    nil,
+    "Previously conjurable only card receive regular printing in FDN",
     "Voracious Greatshark" => "legal"
+  )
+
+  # YDFT
+  change(
+    "2025-03-04",
+    "This card is conjurable only",
+    "Muraganda Petroglyphs" => "conjurable",
   )
 
   change(
@@ -178,9 +204,33 @@ BanList.for_format("alchemy") do
     "Cori-Steel Cutter" => "banned",
   )
 
+  # YEOE
+  change(
+    "2025-08-19",
+    "This card is conjurable only",
+    "Flametongue Kavu" => "conjurable",
+  )
+
+  # YECL
+  change(
+    "2026-02-03",
+    "These cards are conjurable only",
+    "Blowfly Infestation" => "conjurable",
+    "Rite of Flame" => "conjurable",
+    "Stonybrook Schoolmaster" => "conjurable",
+  )
+
   change(
     "2026-05-18",
     "https://magic.wizards.com/en/news/announcements/banned-and-restricted-may-18-2026",
     "Sewer-veillance Cam" => "banned",
+  )
+
+  # YSOS
+  change(
+    "2026-05-19",
+    "These cards are conjurable only",
+    "Bridge from Below" => "conjurable",
+    "Storm Crow" => "conjurable",
   )
 end

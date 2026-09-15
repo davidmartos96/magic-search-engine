@@ -18,12 +18,11 @@
         %li.infolabel
           Oversized card
       %li.infolabel
-        - if card.foilonly?
-          Available only as foil
-        - elsif card.nonfoilonly?
-          Available only as nonfoil
+        - finishes = card.finish_names
+        - if finishes.size == 1
+          = "Available only as #{finishes[0]}"
         - else
-          Available foil and nonfoil
+          = "Available #{finishes.to_sentence}"
       - if card.frame_effects.present?
         %li.infolabel
           = "Frame Effects: #{card.frame_effects.join(", ")}"
@@ -67,8 +66,8 @@
       %ul.rulings
         - card.rulings.each do |ruling|
           %li
-            = ruling["date"]
-            = format_oracle_text(ruling["text"])
+            = ruling.date
+            = format_oracle_text(ruling.text)
 
     - if card.gatherer_link.present?
       %h5 Links
@@ -84,7 +83,7 @@
       %h5 Foreign names
       %ul.foreign_names
         - card.foreign_names.sort.each do |language_code, foreign_names|
-          - foreign_names.each do |foreign_name|
+          - [*foreign_names].each do |foreign_name|
             %li
               %i{class: "famfamfam-flag-#{language_flag(language_code)}", title: language_name(language_code), lang: official_language_code(language_code)}
               = foreign_name

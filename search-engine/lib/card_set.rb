@@ -6,7 +6,10 @@ class CardSet
   attr_reader :products, :subsets, :languages
   attr_reader :limited_formats
   attr_reader :token_set_code
-  attr_reader :normalized_name, :normalized_name_alt, :printing_by_number
+  attr_reader :normalized_name, :normalized_name_alt
+
+  # Set by CardDatabase initialization, sets ordered by name
+  attr_accessor :name_sort_index
 
   def initialize(db, data)
     @db = db
@@ -19,7 +22,7 @@ class CardSet
     @border        = data["border"]
     @types         = data["types"]
     @release_date  = data["release_date"] && Date.parse(data["release_date"])
-    @printings     = Set[]
+    @printings     = []
     @online_only   = !!data["online_only"]
     @custom        = !!data["custom"]
     @funny         = !!data["funny"]
@@ -70,8 +73,9 @@ class CardSet
   end
 
   include Comparable
+
   def <=>(other)
-    @code <=> other.code
+    name_sort_index <=> other.name_sort_index
   end
 
   def hash
@@ -86,13 +90,13 @@ class CardSet
     @printings
       .select do |card|
         if foil
-          card.foiling != :nonfoil
+          card.any_foil?
         else
-          card.foiling != :foilonly
+          card.has_finish?(:nonfoil)
         end
       end
       .map do |card|
-        PhysicalCard.for(card, foil)
+        PhysicalCard.for(card, foil: foil)
       end
       .uniq
   end

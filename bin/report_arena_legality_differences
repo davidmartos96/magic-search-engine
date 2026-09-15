@@ -1,0 +1,481 @@
+#!/usr/bin/env ruby
+
+# Our Arena format legalities against Arena's own, as saved by
+# bin/extract_arena_format_data.
+#
+# This is report_legality_differences for the formats mtgjson can't be trusted
+# on. mtgjson takes days to react to an Arena B&R announcement and longer to a
+# new set, so for Alchemy, Historic, Timeless and Brawl it mostly confirms that
+# we agree with something stale. Arena's own table changes the moment Arena
+# does.
+#
+# What is compared, and what deliberately isn't:
+#
+#   * Only formats we model. Arena runs 142 of them - event queues, allow-list
+#     snapshots kept for old decklists, a dozen Brawl variants. Explorer is not
+#     Pioneer and Standard Brawl isn't in formats_index, so
+#     neither is compared.
+#
+#   * Best-of-three, where Arena splits the queues, and only that one. The
+#     Traditional variant is the one whose list should match paper; the
+#     best-of-one queue bans extra cards for being miserable in a single game,
+#     and we have nowhere to put a ban that belongs to a queue rather than a
+#     format. Nothing here reads that queue at all.
+#
+#   * Ban status card by card. That's the report, and it should come out empty.
+#
+#   * Card pools, which take sorting out first: Arena's legalSets are set codes,
+#     and a set code drags in every printing Arena has from that set, so VMA and
+#     UNF being in Historic's puts every conjure-only card in the game in the
+#     format. Each side's extras are sorted into the ones the other side
+#     explains - a printing that only ever shipped in a cube or starter-deck
+#     drop, a printing Arena has never distributed at all, a card Arena
+#     suppresses, a set Arena leaves out of one format's legalSets and not
+#     another's - and the rest are differences like any other. --pool names the
+#     cards behind the explained ones.
+#
+# Arena says "suspended" where we say banned, "suppressed" for a card it keeps
+# out of a format with no B&R entry at all, states Timeless's restricted list as
+# a per-card deck quota, and has no name for conjure-only or specialize-only
+# cards. All of those are folded in below rather than reported as differences.
+#
+# Arena's table is a poor witness to what Arena actually distributed: its card
+# database carries printings no player can obtain, in the legalSets of formats
+# whose ban lists never name them. Those are listed in UNDISTRIBUTED_PRINTINGS
+# with what it took to establish each one, because nothing in Arena's own data
+# marks them. Adding "arena" to such a printing's mtgjson availability to quiet
+# this report would be backwards - mtgjson is the side that has it right.
+
+require_relative "../search-engine/lib/card_database"
+require "csv"
+require "json"
+require "memoist"
+
+class ReportArenaLegalityDifferences
+  extend Memoist
+
+  DIR = "#{__dir__}/../tmp/arena_format_data"
+
+  # Our format, the Arena queue to read it from, and whether the format plays
+  # the rebalanced half of a rebalanced pair.
+  #
+  # The Traditional queue where Arena splits one, because that's the list that
+  # states the format rather than the queue. Brawl has no split - every Brawl
+  # game is one game - so there its only queue is the one to read.
+  #
+  # Nothing derives the last column: Arena files a rebalanced card under the
+  # paper set it rebalances as often as under the Alchemy drop it shipped in, so
+  # which half a format plays doesn't follow from the set codes it lists.
+  FORMATS = [
+    ["standard", "TraditionalStandard", false],
+    ["alchemy", "TraditionalAlchemy", true],
+    ["historic", "TraditionalHistoric", true],
+    ["timeless", "TraditionalTimeless", false],
+    ["brawl", "HistoricBrawl", true],
+    ["competitive brawl", "HistoricBrawlRanked", true],
+  ]
+
+  # Same fixes as the indexer's, for names holding characters nobody can type
+  UNICODE_NAME_FIXES = {
+    "Ratonhnhaké꞉ton" => "Ratonhnhakéton",
+    "Human—Time Lord Meta-Crisis" => "Human-Time Lord Meta-Crisis",
+  }
+
+  # Arena's ban list is one list; ours splits it by what the ban does.
+  # "suspended" is Arena's word for a digital-only card taken out of a format
+  # while it's rebalanced, which is a ban for as long as it lasts.
+  ARENA_BANNED = "banned"
+  ARENA_RESTRICTED = "restricted"
+
+  # Statuses of ours that mean "this card can never be in a deck", which is not
+  # a B&R matter at all. Arena enforces it without a ban list entry, so it says
+  # either "banned" or nothing, and both agree with us.
+  UNPLAYABLE_STATUSES = Set["conjurable", "specialized"]
+
+  # Printings Arena's card database has and Arena never put in anyone's hands. A
+  # card object is what it takes to draw a card, not what it takes to own one,
+  # and nothing in the client data tells the two apart: the Cards row matches its
+  # neighbours' in all 58 columns bar art and rules text, AltToBasePrintings says
+  # nothing, and the art ships in the manifest like anything else.
+  #
+  # What settles Sol Ring is outside the client. The ranked Brawl queue
+  # suppresses it and no other card in any of Arena's 142 formats, and it has no
+  # recorded game in either Brawl queue across four meta periods and some two
+  # million games, while the twelve cards printed beside it in the same TLE slot
+  # have tens of thousands each. mtgjson leaving "arena" off that printing's
+  # availability is right, and this is the report agreeing with it rather than
+  # reporting it in three formats every run.
+  #
+  # Set code and collector number, so that a printing Arena does hand out later
+  # is a difference again instead of something this quietly swallows.
+  UNDISTRIBUTED_PRINTINGS = Set[
+    ["TLE", "316"], # Sol Ring
+  ]
+
+  def initialize(formats, pool:)
+    @formats = formats.map(&:downcase)
+    @pool = pool
+    @db = CardDatabase.load
+  end
+
+  def call
+    puts "Arena build #{arena["arena_build"]}, format table snapshot #{arena["formats_snapshot_date"]}"
+    puts ""
+    formats_to_check.each{|format| verify_format(*format) }
+  end
+
+  private
+
+  # ---- the two sides ---------------------------------------------------------
+
+  # Every card Arena's table says something about, as name => status, plus the
+  # pool the statuses apply to. Arena's ban list is stated on the best-of-three
+  # queue where there is one, so the extra best-of-one bans never get here.
+  #
+  # Suppression is not a status. Where Arena suppresses a card it also bans,
+  # which is every case in the lists these formats are read from bar one, the
+  # suppression is how the client enforces the ban and says nothing the ban
+  # doesn't. On its own it says the card is not in the format at all, which is a
+  # statement about the pool - see suppressed_names.
+  def arena_statuses(format)
+    statuses = {}
+    format["banned"].each{|name| statuses[our_name(name)] = ARENA_BANNED }
+    format["suspended"].each{|name| statuses[our_name(name)] = ARENA_BANNED }
+    format["quotas"].each do |name, max|
+      # Arena states Timeless's restricted list as a per-card deck quota. One is
+      # what "restricted" means; anything else has no equivalent on our side.
+      statuses[our_name(name)] = max == 1 ? ARENA_RESTRICTED : "max #{max} copies"
+    end
+    statuses
+  end
+
+  # Which cards a format's legalSets cover, as name => the printings that put it
+  # there. This is not "what you may play" - it includes every conjure-only card
+  # - so the printings come with it, and compare_pools uses them to say which of
+  # the extras that buys are Arena's own doing.
+  #
+  # Only ExpansionCode is matched against legalSets. A printing's
+  # DigitalReleaseSet names the drop it shipped in rather than a set it's legal
+  # in, and Arena lists both spellings of the Alchemy year sets in legalSets
+  # anyway, so reading it here only ever pulls in Commander cards whose drop was
+  # named after a Standard set.
+  def arena_pool(format, rebalanced)
+    sets = format["legal_sets"].to_set
+    pool = {}
+    arena_cards.each do |card|
+      next unless sets.include?(card["ExpansionCode"])
+      next if UNDISTRIBUTED_PRINTINGS.include?([card["ExpansionCode"], card["CollectorNumber"]])
+      # A card with a live rebalance is played as one version or the other,
+      # never both. Reverted rebalances (DefunctRebalancedCardGrpId) leave both
+      # playable and aren't linked this way, so they never reach here.
+      next if !card["RebalancedCardGrpId"].to_i.zero? and (card["IsRebalanced"] == "1") != rebalanced
+      (pool[our_name(card["Name"])] ||= []) << card
+    end
+    # A name Arena allows into the format outright is in it with no printing of
+    # its own behind it.
+    format["allowed"].each{|name| pool[our_name(name)] ||= [] }
+    pool
+  end
+
+  # The cards a format suppresses without banning. Arena has no word for "not in
+  # this format" - a card it never distributed, or one it takes out of a format
+  # quietly - so a suppression with no ban entry beside it is the whole of what
+  # it says, and it says the same as our "not in format".
+  def suppressed_names(format)
+    (format["supressed"] - format["banned"]).map{|name| our_name(name) }.to_set
+  end
+
+  # Every printing Arena has, by our name for it. arena_pool answers "does this
+  # format's legalSets cover the card"; this answers "does Arena have it at all".
+  memoize def arena_printings
+    arena_cards.group_by{|card| our_name(card["Name"]) }
+  end
+
+  # name => status for every card we don't call plainly legal in the format.
+  # Multi-face cards are keyed by their first face, which is how Arena names
+  # them and how both ban lists spell them.
+  def our_statuses(format)
+    statuses = {}
+    comparable_cards.each do |card|
+      status = format.legality(card)
+      statuses[card.name] = status if status and status != "legal"
+    end
+    statuses
+  end
+
+  # What we say you can put in a deck, which is what Arena's pool is closest to.
+  # Conjure-only and specialize-only cards are left out: Arena doesn't file the
+  # specialize forms as cards at all, and its own pool is no guide to the rest.
+  def our_pool(format)
+    comparable_cards.select{|card|
+      status = format.legality(card)
+      status and !UNPLAYABLE_STATUSES.include?(status)
+    }.map(&:name).to_set
+  end
+
+  # Back faces and split halves have no legality of their own, and Arena names a
+  # multi-face card by the face our ban lists and our index name it by.
+  #
+  # A card from a set that isn't out yet is skipped whatever either side says
+  # about it. Our formats have no date to compare against when nobody asked to
+  # time travel, so they count printings that haven't happened; Arena's table
+  # can't mention a card Arena hasn't got. Neither is wrong, and there is
+  # nothing to compare until the set lands.
+  memoize def comparable_cards
+    @db.cards.each_value.select do |card|
+      (card.names.nil? or card.name == card.names.first) and
+        card.printings.any?{|printing| printing.release_date <= today }
+    end
+  end
+
+  memoize def today
+    Date.today
+  end
+
+  # ---- comparison ------------------------------------------------------------
+
+  # Every difference goes in one list and every thing deliberately not counted
+  # as one goes in the other, so the count in the heading is the whole verdict.
+  def verify_format(our_name, arena_name, rebalanced)
+    format = Format[our_name].new
+    arena_format = arena_format(arena_name)
+    differences = []
+    notes = []
+
+    compare_ban_lists(format, arena_format, differences, notes)
+    compare_pools(format, arena_format, arena_pool(arena_format, rebalanced), differences, notes)
+    note_unresolved_ids(arena_format, notes)
+
+    puts "Format #{our_name} vs Arena #{arena_format["name"]} - " \
+      "#{differences.size} difference#{"s" unless differences.size == 1}"
+    differences.sort.each{|name, a, b| puts "* #{name} - arena:#{a} - db:#{b}" }
+    notes.each{|note| puts "  #{note}" }
+    puts ""
+  end
+
+  # Ban status card by card, which is what the report is for.
+  def compare_ban_lists(format, arena_format, differences, notes)
+    theirs = arena_statuses(arena_format)
+    ours = our_statuses(format)
+    rebalance_bans = []
+    (ours.keys | theirs.keys).each do |name|
+      a = theirs[name]
+      b = ours[name]
+      next if same?(a, b)
+      if !b and rebalance_pair_ban?(name, format)
+        rebalance_bans << name
+      else
+        differences << [name, a || "not in format", b || "not in format"]
+      end
+    end
+    return if rebalance_bans.empty?
+    notes << "ignored, Arena bans the half of a rebalanced pair the format " \
+      "doesn't play: #{rebalance_bans.sort.join(", ")}"
+  end
+
+  # Card pools, once each side's extras have been sorted into the ones the other
+  # side accounts for and the ones it doesn't. Only the second kind is a
+  # difference; the first kind is Arena's set codes covering more than a format
+  # plays, which they always do.
+  def compare_pools(format, arena_format, their_pool, differences, notes)
+    ours = our_pool(format)
+    # A card Arena suppresses without banning is one its legalSets cover and it
+    # keeps out anyway, so it is not in the pool however many of the format's
+    # sets it appears in.
+    suppressed = suppressed_names(arena_format)
+    unplayable = banned_unplayable_names(format, arena_format)
+    their_pool = their_pool.reject{|name, _|
+      suppressed.include?(name) or unplayable.include?(name)
+    }
+    only_ours = ours - their_pool.keys
+    only_theirs = their_pool.keys.to_set - ours
+    drop_only, drops = arena_extras_from_drops(their_pool, only_theirs)
+    # A suppressed card we do play is Arena disagreeing about the card, so it
+    # has to stay a difference rather than be explained away as a set Arena
+    # leaves out - it doesn't leave the set out, it names the card.
+    unlisted, unlisted_sets = our_extras_from_unlisted_sets(arena_format, only_ours - suppressed)
+
+    (only_theirs - drop_only).sort.each do |name|
+      sets = their_pool[name].map{|card| card["ExpansionCode"] }.uniq.sort
+      differences << [name, sets.empty? ? "allowed into the format" : "in #{sets.join(", ")}",
+        our_pool_status(format, name)]
+    end
+    (only_ours - unlisted).sort.each do |name|
+      differences << [name, suppressed.include?(name) ? "suppressed" : "no card of that name",
+        our_pool_status(format, name)]
+    end
+
+    notes << "pool: #{ours.size} cards for us, #{their_pool.size} for Arena" unless ours.size == their_pool.size
+    unless drop_only.empty?
+      # A drop tag is not a statement about whether the card can be owned, and
+      # nothing may be read into which drop it names. The cube's tag sits on
+      # both halves of a clean split: Black Lotus, the duals, Urza's Saga and
+      # Mana Crypt have no recorded Brawl game, while Zuran Orb has 5393, Dack
+      # Fayden 1008 and Figure of Destiny 39. mtgjson is the side that knows
+      # which is which, so the tag only marks a printing whose absence from our
+      # side mtgjson has already accounted for, and the count is all that is
+      # worth saying about it. --pool names them when the number looks wrong.
+      notes << "ignored, #{drop_only.size} card#{"s" unless drop_only.size == 1} " \
+        "Arena has in the format's sets only as a drop printing"
+      notes << "  only Arena's: #{drop_only.sort.join(", ")}" if @pool
+    end
+    unless unlisted.empty?
+      # Leaving a set out of legalSets is how Arena keeps a card out of a format
+      # without banning it, so this is Arena disagreeing about a set and not
+      # about a card. Worth reading when the sets change: its Timeless list
+      # leaves out eight sets its Historic list has, which cannot both be right.
+      notes << "ignored, #{unlisted.size} card#{"s" unless unlisted.size == 1} " \
+        "Arena has in no set #{arena_format["name"]} lists: #{unlisted_sets.sort.join(", ")}"
+      notes << "  only ours: #{unlisted.sort.join(", ")}" if @pool
+    end
+  end
+
+  # Cards our pool leaves out because they can't go in a deck, and Arena's ban
+  # list says the same thing about. Arena has no word for conjure-only, so where
+  # it wants such a card kept out of a format it says "banned" - which
+  # compare_ban_lists has already read as agreeing with us. Its pool goes on
+  # covering the card, because a pool is legalSets and the card is in one, so
+  # without this the same card comes back as a pool difference immediately after
+  # the ban lists agreed about it.
+  #
+  # Only Historic's Lightning Bolt reaches this today: a conjure-only card with
+  # nothing but conjure-only printings is in no set either side counts, and the
+  # ban is what makes this one both an ordinary STA card and unplayable. A card
+  # we call unplayable that Arena's ban list says nothing about is a real
+  # disagreement about the card and still reported.
+  def banned_unplayable_names(format, arena_format)
+    arena_statuses(arena_format).select{|name, status|
+      next false unless status == ARENA_BANNED
+      card = @db.cards[name.downcase]
+      card and UNPLAYABLE_STATUSES.include?(format.legality(card))
+    }.keys.to_set
+  end
+
+  # What we say about a card the pools disagree on. Not having the card at all
+  # is worth saying apart from having it and keeping it out of the format.
+  def our_pool_status(format, name)
+    card = @db.cards[name.downcase]
+    return "no card of that name" unless card
+    format.legality(card) || "not in format"
+  end
+
+  # Arena's extras whose every printing in one of the format's sets came in a
+  # digital drop, with a count per drop.
+  def arena_extras_from_drops(their_pool, only_theirs)
+    drops = Hash.new(0)
+    ignored = only_theirs.select do |name|
+      printings = their_pool[name]
+      next false if printings.empty?
+      next false if printings.any?{|card| card["DigitalReleaseSet"].to_s.empty? }
+      printings.map{|card| card["DigitalReleaseSet"] }.uniq.each{|drop| drops[drop] += 1 }
+      true
+    end
+    [ignored.to_set, drops]
+  end
+
+  # Our extras Arena does have, but in no set this format's legalSets names,
+  # with the sets it does have them in.
+  def our_extras_from_unlisted_sets(arena_format, only_ours)
+    sets = Set[]
+    ignored = only_ours.select do |name|
+      printings = arena_printings[name]
+      next false unless printings
+      sets.merge(printings.map{|card| card["ExpansionCode"] })
+      true
+    end
+    [ignored.to_set, sets]
+  end
+
+  # Ours is the richer vocabulary, so the mapping only ever goes one way.
+  def same?(arena, ours)
+    return true if arena == ours
+    # A card that can't go in a deck in the first place needs no B&R entry, so
+    # Arena either bans it or says nothing - neither disagrees with us.
+    return true if UNPLAYABLE_STATUSES.include?(ours) and [nil, ARENA_BANNED].include?(arena)
+    false
+  end
+
+  # Arena sometimes bans both halves of a rebalanced pair, and sometimes only
+  # the paper original of a pair whose A- version is the one its formats play -
+  # Alchemy's list still names Cori-Steel Cutter, banned there before it was
+  # rebalanced. Where the half we do play is in the format, our "not in the
+  # format" says the same thing about this half as Arena's ban does.
+  def rebalance_pair_ban?(name, format)
+    card = @db.cards[name.downcase]
+    return false unless card and (card.alchemy or card.has_alchemy)
+    other = card.alchemy ? name.sub(/ \(Alchemy\)\z/, "") : "#{name} (Alchemy)"
+    other = @db.cards[other.downcase]
+    !!(other and format.legality(other))
+  end
+
+  # Ids Arena's own lists point at that its string table no longer resolves -
+  # printings it has since removed. Nothing can be compared about a card whose
+  # name is gone, so they only get counted.
+  def note_unresolved_ids(arena_format, notes)
+    unresolved = arena_format["unresolved_title_ids"]
+    return if unresolved.empty?
+    notes << "ignored, #{unresolved.size} id#{"s" unless unresolved.size == 1} " \
+      "in Arena's lists name no card Arena still has"
+  end
+
+  # ---- names -----------------------------------------------------------------
+
+  # Arena's spelling of a card into ours. It writes rebalanced cards with an A-
+  # prefix where we suffix "(Alchemy)", separates split halves with three
+  # slashes, and names a multi-face card by all of its faces where our ban lists
+  # and our index use the first one.
+  #
+  # Whatever comes out of that goes through our own index for its capitals, so
+  # that a card the two sides only spell differently isn't counted as one card
+  # on each side. Arena's string table has one of those - Sol'kanar the Tainted
+  # against our Sol'Kanar - and no more, so this is a spelling fix and not a
+  # licence to match loosely.
+  def our_name(arena_name)
+    @our_names ||= {}
+    @our_names[arena_name] ||= begin
+      name = arena_name.gsub(" /// ", " // ").split(" // ").first
+      name = "#{$1} (Alchemy)" if name =~ /\AA-(.*)/
+      name = UNICODE_NAME_FIXES.fetch(name, name)
+      card = @db.cards[name.downcase]
+      card ? card.name : name
+    end
+  end
+
+  # ---- inputs ----------------------------------------------------------------
+
+  memoize def arena
+    path = "#{DIR}/arena_formats.json"
+    unless File.exist?(path)
+      raise "#{path} is missing - run bin/extract_arena_format_data first"
+    end
+    JSON.parse(File.read(path))
+  end
+
+  memoize def arena_cards
+    CSV.read("#{DIR}/cards.csv", headers: true).select{|row| row["IsPrimaryCard"] == "1" and row["Name"] }
+  end
+
+  def arena_format(name)
+    @arena_formats ||= arena["formats"].to_h{|format| [format["name"], format] }
+    @arena_formats[name] or raise "Arena has no format called #{name}"
+  end
+
+  memoize def formats_to_check
+    return FORMATS if @formats.empty?
+    unknown = @formats - FORMATS.map(&:first)
+    unless unknown.empty?
+      raise "Unknown format#{"s" if unknown.size > 1}: #{unknown.join(", ")} - " \
+        "comparable formats: #{FORMATS.map(&:first).join(", ")}"
+    end
+    FORMATS.select{|our_name, _, _| @formats.include?(our_name) }
+  end
+end
+
+pool = !!ARGV.delete("--pool")
+
+if ARGV.any?{|arg| arg.start_with?("-") }
+  STDERR.puts "Usage: report_arena_legality_differences [--pool] [format ...]"
+  exit 1
+end
+
+ReportArenaLegalityDifferences.new(ARGV, pool: pool).call

@@ -196,7 +196,7 @@ describe LimitedFormat do
   it "promo cards" do
     nph_prerelease.playable_promo_cards.should eq([])
     nph_prerelease.unplayable_promo_cards.should eq([
-      PhysicalCard.for(db.sets["pnph"].printing_by_number["73★"], true),
+      PhysicalCard.for(db.sets["pnph"].printing_by_number["73★"], finish: :foil),
     ])
     promo = nph_prerelease.unplayable_promo_cards[0]
     promo.name.should eq("Sheoldred, Whispering One")
@@ -230,9 +230,9 @@ describe LimitedFormat do
   it "foil tags agree with the card db" do
     db.limited_formats.each do |limited_format|
       limited_format.promo_cards.each do |promo|
-        foiling = promo.main_front.foiling
-        next if foiling == (promo.foil ? :foilonly : :nonfoil)
-        warn "#{limited_format.inspect} promo #{promo.inspect} disagrees with the card db, which says foiling=#{foiling}"
+        printing = promo.main_front
+        next if promo.foil ? printing.foilonly? : printing.nonfoilonly?
+        warn "#{limited_format.inspect} promo #{promo.inspect} disagrees with the card db, which says #{printing.finish_names.join(", ")}"
       end
     end
   end

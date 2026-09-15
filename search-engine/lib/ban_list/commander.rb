@@ -10,6 +10,9 @@ BanList.for_format("commander") do
     "Contract from Below" => "banned",
     "Darkpact" => "banned",
     "Demonic Attorney" => "banned",
+    # Banned in Type I until 1999-10-01, mirrored here the same way Channel, Mind Twist,
+    # Shahrazad and Time Vault are.
+    "Divine Intervention" => "banned",
     "Double Stroke" => "banned",
     "Falling Star" => "banned",
     "Immediate Action" => "banned",
@@ -38,13 +41,14 @@ BanList.for_format("commander") do
 
   change(
     "1996-04-01",
-    nil,
+    "https://web.archive.org/web/19960510142729/http://www.wizards.com/DCI/ban_rest_letter.html",
     "Time Vault" => "legal",
   )
 
   change(
     "1999-10-01",
-    nil,
+    "https://web.archive.org/web/20000305053359/http://www.wizards.com/DCI/announce.asp?dci19990901b",
+    "Divine Intervention" => "legal",
     "Shahrazad" => "legal",
   )
 
@@ -109,7 +113,8 @@ BanList.for_format("commander") do
   )
 
   change(
-    "2006-02-02",
+    # Niv-Mizzet was only printed on 2006-02-03
+    "2006-02-03",
     nil,
     "Heartless Hidetsugu" => "banned_as_commander",
     "Niv-Mizzet, the Firemind" => "banned_as_commander",
@@ -296,14 +301,10 @@ BanList.for_format("commander") do
   )
 
   change(
-    "2020-04-02",
+    # Announcement was on 2020-04-20, but Lutri was only released on 2020-04-24
+    "2020-04-24",
     "https://mtgcommander.net/index.php/2020/04/20/april-2020-rules-update/",
-    "Lutri, the Spellchaser" => "banned",
-  )
-
-  change(
-    "2020-04-20",
-    "https://mtgcommander.net/index.php/2020/04/20/april-2020-rules-update/",
+    "Lutri, the Spellchaser" => "prebanned",
     "Flash" => "banned",
   )
 
@@ -340,13 +341,6 @@ BanList.for_format("commander") do
     "Jeweled Lotus" => "banned",
     "Mana Crypt" => "banned",
     "Nadu, Winged Wisdom" => "banned",
-  )
-
-  # No official announcement, just new card falling under old rule that all sticker cards are banned
-  change(
-    "2025-03-24",
-    nil,
-    "Sticker sheet" => "banned",
   )
 
   change(

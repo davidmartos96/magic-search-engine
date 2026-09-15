@@ -16,6 +16,22 @@ RSpec.describe SealedController, type: :controller do
     assert_select ".card_picture_container", count: 15 + 2 * 8
   end
 
+  # A pool is a decklist too, and exporting it here saves the trip through the
+  # visualizer. The dialog posts the same hidden field the preview form does.
+  it "offers the export dialog for a pool" do
+    get "index", params: {count: ["1"], set: ["arn"]}
+    assert_response 200
+    assert_select %[#deck_export input[name="format"]], DeckExporter.codes.size
+    assert_select %[button[data-target="#deck_export"]]
+    assert_select %[.sealed_preview_form input[name="deck"]]
+  end
+
+  it "has no export dialog before any packs are opened" do
+    get "index"
+    assert_response 200
+    assert_select %[#deck_export], 0
+  end
+
   # A pack the player got at random out of a few, like the allied guild booster
   # of the Dragon's Maze prerelease
   it "open a pack picked at random out of a few" do
@@ -50,5 +66,106 @@ RSpec.describe SealedController, type: :controller do
     get "index"
     assert_response 200
     assert_select %[option:contains("Random: ")], false
+  end
+
+  # The pack codes come straight out of the url
+  it "ignores packs it doesn't have" do
+    get "index", params: {count: ["1", "1", "1"], set: ["lolwtf", "nph-lolwtf", "arn"]}
+    assert_response 200
+    assert_select ".card_picture_container", count: 8
+  end
+
+  it "ignores a random pack whose alternatives it doesn't have" do
+    get "index", params: {count: ["1"], set: ["lolwtf|nolwtf"]}
+    assert_response 200
+    assert_select ".card_picture_container", 0
+  end
+
+  # Counts come out of the url, and a huge one used to keep allocating until the
+  # process ran out of memory
+  describe "limits" do
+    it "caps the number of packs per row" do
+      get "index", params: {count: ["#{SealedController::MAX_PACKS + 1}"], set: ["arn"]}
+      assert_response 200
+      assert_select ".card_picture_container", count: SealedController::MAX_PACKS * 8
+      assert_select %[.warning:contains("At most #{SealedController::MAX_PACKS} packs per row")]
+    end
+
+    it "does not complain about counts within the cap" do
+      get "index", params: {count: ["#{SealedController::MAX_PACKS}"], set: ["arn"]}
+      assert_response 200
+      assert_select %[.warning:contains("At most")], false
+    end
+
+    # A count of 47 digits parses fine, it is the opening that never finishes
+    it "refuses to open an absurd number of packs" do
+      get "index", params: {count: ["9" * 47], set: ["arn"]}
+      assert_response 200
+      assert_select ".card_picture_container", count: SealedController::MAX_PACKS * 8
+    end
+
+    # The fixed cards box takes counts out of the url the same way the rows do
+    it "caps the number of fixed cards" do
+      get "index", params: {count: ["0"], set: ["arn"], fixed: "#{FixedCardList::MAX_CARDS + 1}x nph:1"}
+      assert_response 200
+      assert_select ".card_picture_container", count: FixedCardList::MAX_CARDS
+      assert_select %[.warning:contains("At most #{FixedCardList::MAX_CARDS} fixed cards")]
+    end
+
+    # Capped rows still add up, so the pool stops when it runs out of time and
+    # the player keeps whatever was opened
+    it "stops opening packs once it runs out of time" do
+      stub_const("SealedController::PACK_OPENING_TIME_LIMIT", -1.0)
+      get "index", params: {count: ["1"], set: ["arn"]}
+      assert_response 200
+      assert_select ".card_picture_container", 0
+      assert_select %[.warning:contains("Opening packs took too long")]
+    end
+
+    it "keeps the fixed cards when it runs out of time" do
+      stub_const("SealedController::PACK_OPENING_TIME_LIMIT", -1.0)
+      get "index", params: {count: ["1"], set: ["arn"], fixed: "nph:1"}
+      assert_response 200
+      assert_select %[a[href="/card/nph/1/Karn-Liberated"]], 1
+    end
+  end
+
+  describe "fixed cards" do
+    it "hands out the fixed cards along with the packs" do
+      get "index", params: {count: ["1"], set: ["arn"], fixed: "2x nph:1\nnph:2:foil"}
+      assert_response 200
+      assert_select ".card_picture_container", count: 8 + 3
+      assert_select %[a[href="/card/nph/1/Karn-Liberated"]], 2
+      assert_select ".warning", 0
+    end
+
+    # The box is hand-edited, so a bad line must not cost the player their pool
+    it "reports lines it can't parse, and opens the packs anyway" do
+      get "index", params: {count: ["1"], set: ["arn"], fixed: "whatever\nnph:1"}
+      assert_response 200
+      assert_select ".card_picture_container", count: 8 + 1
+      assert_select %[.warning:contains("Invalid line: whatever")]
+    end
+
+    it "reports cards it can't find" do
+      get "index", params: {count: ["1"], set: ["arn"], fixed: "lolwtf:1\nnph:9999"}
+      assert_response 200
+      assert_select %[.warning:contains("Cannot find set with code: lolwtf")]
+      assert_select %[.warning:contains("Cannot find card set with number 9999 in set nph")]
+    end
+
+    # Whatever the player typed stays in the box, so they can fix it and retry
+    it "keeps the box filled in" do
+      get "index", params: {count: ["1"], set: ["arn"], fixed: "nph:1"}
+      assert_response 200
+      assert_select %[textarea#fixed], text: "nph:1"
+    end
+
+    # No packs means nothing was opened yet, just the form being shown
+    it "does not hand out fixed cards on their own" do
+      get "index", params: {fixed: "nph:1"}
+      assert_response 200
+      assert_select ".card_picture_container", 0
+    end
   end
 end

@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   get "page/:page/card" => "card#index"
   get "card/gallery/:set/:id" => "card#gallery"
+  get "card/availability/:set/:id" => "card#availability"
   get "card/:set/:id" => "card#show"
   get "card/:set/:id/:name" => "card#show"
   get "card" => "card#index"
@@ -18,6 +19,8 @@ Rails.application.routes.draw do
   get "deck/:set/:id" => "deck#show"
   get "deck/:set/:id/download" => "deck#download"
   get "deck/:set/:id/download_with_printings" => "deck#download_with_printings"
+  get "deck/:set/:id/export" => "deck#export"
+  post "deck/export" => "deck#export"
   get "deck/visualize" => "deck#visualize"
   post "deck/visualize" => "deck#visualize"
   get "deck" => "deck#index"

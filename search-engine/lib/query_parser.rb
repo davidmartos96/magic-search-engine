@@ -1,15 +1,17 @@
 # Where's autoloader when we need it
+# Condition and ConditionSimple go first as everything else subclasses one of them,
+# the rest alphabetically
 require_relative "condition/condition"
-require_relative "condition/query_mana_to_s"
 require_relative "condition/condition_simple"
 require_relative "condition/condition_format"
+require_relative "condition/condition_in"
+require_relative "condition/condition_nickname"
+require_relative "condition/condition_or"
+require_relative "condition/condition_oracle"
 require_relative "condition/condition_print"
 require_relative "condition/condition_regexp"
-require_relative "condition/condition_or"
-require_relative "condition/condition_in"
 require_relative "condition/condition_set_type"
-require_relative "condition/condition_nickname"
-require_relative "condition/condition_oracle"
+require_relative "condition/query_mana_to_s"
 Dir["#{__dir__}/condition/condition_*.rb"].sort.each do |path| require_relative path end
 require_relative "query_tokenizer"
 
@@ -143,6 +145,13 @@ private
             break
           end
         end
+      when :metadata
+        # Eat it here, not in parse_cond, or it would swallow the token after it,
+        # like "//" or "or", which only parse_cond_list knows how to handle
+        @metadata.merge!(@tokens.shift[1])
+      when :time
+        @warnings << "Multiple time: clauses in same subquery" if @time
+        @time = @tokens.shift[1]
       when :slash_slash
         @tokens.shift
         # This is semantically meaningful
@@ -192,6 +201,12 @@ private
         # Parse error like "-)" or final "-"
         nil
       end
+    when :prints_count
+      # Not in the list above - that builds the class name from the token name,
+      # and this token carries the comparison with it
+      _, op, count = @tokens.shift
+      cond = parse_cond
+      cond ? ConditionPrintsCount.new(op, count, cond) : nil
     when :or
       # Parse error like "- or"
       @tokens.shift

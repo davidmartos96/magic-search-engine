@@ -7,24 +7,28 @@ class IndexSerializer
     @products = products.group_by{|x| x["set_code"]}
   end
 
-  def to_s
-    sets_h = @sets.map{|s| [s["code"], index_set(s)]}.to_h
-    set_order = sets_h.keys.each_with_index.to_h
-    index_data = {
-      "sets" => sets_h,
-      "cards" => @cards.map{|name, card_data|
-        [name, index_card(name, card_data, set_order)]
-      }.sort.to_h,
-    }
-    # Keep set index order as is, normalize everything else
-    index_data["cards"] = json_normalize(index_data["cards"])
-    index_data["sets"].each do |set_code, set|
-      index_data["sets"][set_code] = set
-    end
-    index_data.to_json
+  # Set index order is kept as is, everything else is normalized
+
+  def sets_json
+    sets_data.to_json
+  end
+
+  # One card per line, so the database can parse them one at a time instead of
+  # holding the whole index as parsed JSON before it builds anything
+  def cards_jsonl
+    set_order = sets_data.keys.each_with_index.to_h
+    @cards
+      .map{|name, card_data| [name, json_normalize(index_card(name, card_data, set_order))] }
+      .sort_by(&:first)
+      .map{|entry| entry.to_json << "\n" }
+      .join
   end
 
   private
+
+  def sets_data
+    @sets_data ||= @sets.map{|s| [s["code"], index_set(s)]}.to_h
+  end
 
   def json_normalize(data)
     if data.is_a?(Array)
@@ -79,6 +83,14 @@ class IndexSerializer
     index
   end
 
+  # A printing comes in any combination of the three finishes, so these are
+  # bits added up rather than an index into a list. The usual nonfoil+foil is
+  # left out and CardPrinting substitutes it back.
+  def index_finishes(finishes)
+    bits = finishes.sum{|finish| IndexFormat::FINISH_BITS.fetch(finish.to_sym) }
+    bits == IndexFormat::DEFAULT_FINISHES ? nil : bits
+  end
+
   # Rulings share a date far more often than not, so group by it
   def index_rulings(rulings)
     return nil unless rulings
@@ -131,6 +143,7 @@ class IndexSerializer
         "lf" => printing["life"], # vanguard
         "ly" => printing["loyalty"],
         "m" => printing["mana"],
+        "md" => printing["is_modal"],
         "n" => printing["name"],
         "ns" => printing["names"],
         "o" => printing["text"],
@@ -142,13 +155,14 @@ class IndexSerializer
         "s" => printing["secondary"],
         "sb" => printing["spellbook"],
         "sd" => printing["specialized"],
+        "sf" => printing["special_format"],
         "sn" => printing["short_name"],
         "ss" => printing["specializes"],
         "t" => printing["types"],
         "tb" => printing["subtypes"],
         "to" => printing["toughness"],
         "tp" => printing["supertypes"],
-        "v" => printing["cmc"],
+        "v" => printing["mv"],
       }.compact
 
       rarity = printing["rarity"]
@@ -166,7 +180,7 @@ class IndexSerializer
           "fe" => printing["frame_effects"],
           "fl" => printing["flavor"],
           "fn" => printing["flavor_name"],
-          "fo" => index_enum(printing["foiling"], IndexFormat::FOILINGS, "foilings", default: true),
+          "fo" => index_finishes(printing["finishes"]),
           "l" => printing["language"],
           "m" => printing["multiverseid"],
           "n" => printing["number"],

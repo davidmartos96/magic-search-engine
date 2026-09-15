@@ -26988,6 +26988,7 @@ ecc	Ancient Ziggurat	144
 ecc	Arcane Signet	55
 ecc	Arcane Signet	56
 ecc	Archfiend of Ifnir	70
+ecc	Ashling, the Limitless	1
 ecc	Assassin's Trophy	119
 ecc	Auntie Ool, Cursewretch	2
 ecc	Avenger of Zendikar	98
@@ -31891,45 +31892,204 @@ fnm	Staunch Defenders	12
 fnm	Stone Rain	10
 fnm	Terror	2
 fnm	Volcanic Geyser	4
+fra	Academic Ascent	2
+fra	Aerid Konstrari	121
+fra	Aerid Konstrari	347
+fra	Aerid Konstrari	407
+fra	Aerid Konstrari	417
 fra	Ajani Resolute	195
 fra	Ajani Resolute	291
 fra	Ajani Unrelenting	242
 fra	Ajani Unrelenting	308
+fra	Arcane Amphisbaena	97
+fra	Avatar of Burgeoning Echoes	122
+fra	Avatar of Burgeoning Echoes	348
+fra	Bestial Incursion	98
+fra	Blazing Crescendo	75
 fra	Bloodline Recollector	402
 fra	Bloodline Recollector	427
 fra	Bloodline Recollector	49
+fra	Budding Insurgent	99
+fra	Campus Crier	4
+fra	Carnivorous Cultivator	437
+fra	Cast Away Doubt	51
+fra	Chandra's Emberling	76
 fra	Chandra, Chill of Compliance	212
 fra	Chandra, Chill of Compliance	297
 fra	Chandra, Torch of Defiance	244
 fra	Chandra, Torch of Defiance	309
+fra	Charge the Sanctum	125
+fra	Compel Brutality	101
+fra	Countersculpt	25
 fra	Craterclaw Colossus	327
 fra	Craterclaw Colossus	446
 fra	Craterclaw Colossus	455
 fra	Craterclaw Colossus	78
+fra	Danitha, Spear of Agony	227
+fra	Danitha, Sword of Hope	196
+fra	Denzilore Fatehold	128
+fra	Denzilore Fatehold	349
+fra	Denzilore Fatehold	408
+fra	Denzilore Fatehold	418
+fra	Deserted Beach	176
+fra	Deserted Beach	397
+fra	Diviner of Victory	28
+fra	Diviner of Victory	425
+fra	Eardrum Rattler	81
+fra	Edgar, Ancient Bloodlord	270
+fra	Edgar, Moonlit Sovereign	257
+fra	Emergency Phytomedic	130
+fra	Fatehold Charm	132
+fra	Fatehold Charm	432
+fra	Fatehold Chronologist	133
+fra	Forest	394
+fra	Forest	395
+fra	Forest	396
 fra	Garruk, Curse Breaker	259
 fra	Garruk, Curse Breaker	314
 fra	Garruk, Veiled Butcher	229
 fra	Garruk, Veiled Butcher	303
+fra	Geist of Saint Thalia	214
+fra	Geist of Saint Thalia	299
+fra	Generous Revival	8
+fra	Ghalta the Immovable	197
+fra	Ghalta the Unstoppable	260
+fra	Gideon's Memorial	198
+fra	Gideon's Memorial	292
+fra	Greenhouse Propagator	104
+fra	Hallway Heckler	85
+fra	Haunted Ridge	180
+fra	Haunted Ridge	398
+fra	Hexhaven Invigorator	106
+fra	Hexhaven Invigorator	330
+fra	Hexhaven Invigorator	458
+fra	Icy Reception	30
+fra	Ingris Stingerquill	137
+fra	Ingris Stingerquill	351
+fra	Ingris Stingerquill	409
+fra	Ingris Stingerquill	419
+fra	Inspired Tethermage	109
+fra	Island	385
+fra	Island	386
+fra	Island	387
+fra	Jiang Yanggu, Never Alone	261
+fra	Karn, Argent Defender	279
+fra	Karn, Argent Defender	320
+fra	Karn, Gilded Guardian	272
+fra	Karn, Gilded Guardian	316
+fra	Keeper of the Quiet Hour	171
+fra	Kiora of Fire and Ashes	247
+fra	Konstrari Charm	138
+fra	Konstrari Charm	433
+fra	Kwia Vigorbloom	140
+fra	Kwia Vigorbloom	352
+fra	Kwia Vigorbloom	410
+fra	Kwia Vigorbloom	420
+fra	Last Gasp	56
 fra	Liliana the Faultless	200
 fra	Liliana the Faultless	293
 fra	Liliana the Repentant	231
 fra	Liliana the Repentant	305
+fra	Loyal Tutor	14
+fra	Loyal Tutor	404
+fra	Loyal Tutor	414
+fra	Loyal Tutor	424
+fra	Lyra, Archangel of Dawn	201
+fra	Lyra, Archangel of Dawn	294
+fra	Lyra, Tolarian Archangel	217
+fra	Lyra, Tolarian Archangel	301
+fra	Mabel, Bitter Recluse	233
+fra	Mabel, Valley Hero	274
+fra	Memory Trap	15
+fra	Mountain	391
+fra	Mountain	392
+fra	Mountain	393
+fra	No Admittance	89
+fra	Overgrown Farmland	185
+fra	Overgrown Farmland	399
+fra	Overwrite the Multiverse	341
+fra	Overwrite the Multiverse	445
+fra	Overwrite the Multiverse	59
 fra	Paradox Shaper	143
+fra	Perfected Theory	34
+fra	Plains	382
+fra	Plains	383
+fra	Plains	384
+fra	Pompous Battlemage	428
+fra	Pompous Battlemage	90
+fra	Proft, Consulting Detective	218
+fra	Proft, Sinister Mastermind	235
+fra	Prophesied End	17
+fra	Protege's Awakening	37
 fra	Prudent Fateseer	146
+fra	Rampart Hunter	60
+fra	Repurposed Enforcer	19
+fra	Repurposed Enforcer	335
+fra	Restore with Empathy	112
+fra	Return to the Light Realms	20
+fra	Return to the Light Realms	323
+fra	Return to the Light Realms	440
+fra	Return to the Light Realms	451
+fra	Rewrite Regrets	62
+fra	Rockfall Vale	186
+fra	Rockfall Vale	400
+fra	Ruric Thar, Biomagus	219
+fra	Semester Foreseer	39
+fra	Shipwreck Marsh	189
+fra	Shipwreck Marsh	401
+fra	Solarium Sentry	148
+fra	Solarium Sentry	376
+fra	Solitary Cell	149
+fra	Solve for Disappointment	67
+fra	Something Worth Saving	114
+fra	Sphinx of False Conclusions	338
+fra	Sphinx of False Conclusions	40
 fra	Stingcaster Mage	329
 fra	Stingcaster Mage	447
 fra	Stingcaster Mage	457
 fra	Stingcaster Mage	93
 fra	Stingerquill Voxmancer	151
+fra	Swamp	388
+fra	Swamp	389
+fra	Swamp	390
+fra	Tam's Resistance	153
+fra	Tarmogoyf	116
+fra	Tarmogoyf	374
+fra	Tethermage's Advantage	117
+fra	Thalia, the Survivor	205
+fra	Thalia, the Survivor	296
+fra	The Echoverse Fulcrum	169
+fra	The Echoverse Fulcrum	378
 fra	The Theorist, Jace Beleren	363
 fra	The Theorist, Jace Beleren	405
 fra	The Theorist, Jace Beleren	415
 fra	The Theorist, Jace Beleren	43
 fra	The Theorist, Jace Beleren	443
+fra	Theorist's Proxy	339
+fra	Theorist's Proxy	44
+fra	Theorist's Sanctum	191
+fra	Theorist's Sanctum	381
 fra	Tinybones, Pocket Nuisance	237
 fra	Titanbones, Towering Heart	266
 fra	Vigorbloom Vanguard	161
+fra	Vraska's Final Mercy	343
+fra	Vraska's Final Mercy	71
+fra	Vraska, Soul of Stone	277
+fra	Vraska, the Cutting Glare	278
+fra	Vraska, the Cutting Glare	319
+fra	Warrior's Blades	163
+fra	Way of the Cryomancer	223
+fra	Way of the Deathbringer	238
+fra	Way of the Healer	207
+fra	Way of the Necromancer	239
+fra	Way of the Pyromancer	254
+fra	Way of the Wildspeaker	268
+fra	Winter, Team Player	312
+fra	Winter, Tormented Loner	307
 fra	Woodwork Prodigy	165
+fra	Wrecking Gecko	120
+fra	Yargle, Glutton of Urborg	241
+fra	Yargle, Goliath of Otaria	225
 frc	Darksteel Angel	13
 frc	Darksteel Angel	98
 frf	Abzan Advantage	2
@@ -34072,6 +34232,8 @@ hob	Along the Crooked Way	60
 hob	An Unexpected Party	289
 hob	An Unexpected Party	29
 hob	Attercop	116
+hob	Balin, Loremaster	301
+hob	Balin, Loremaster	87
 hob	Bard the Bowman	145
 hob	Bard's Company	146
 hob	Bard's Company	210
@@ -34083,6 +34245,9 @@ hob	Bejeweled Warg	305
 hob	Belladonna Took	214
 hob	Belladonna Took	250
 hob	Belladonna Took	4
+hob	Beorn the Fierce	119
+hob	Beorn the Fierce	230
+hob	Beorn the Fierce	266
 hob	Beorn's Hospitality	120
 hob	Beorn, Reluctant Host	118
 hob	Bilbo Baggins, Burglar	34
@@ -34117,6 +34282,9 @@ hob	Dain, Lord of the Iron Hills	8
 hob	Dancing from Dark to Dawn	123
 hob	Dancing from Dark to Dawn	231
 hob	Dancing from Dark to Dawn	267
+hob	Desert Were-Worm	225
+hob	Desert Were-Worm	261
+hob	Desert Were-Worm	92
 hob	Desolation Prowler	64
 hob	Desolation of Smaug	226
 hob	Desolation of Smaug	262
@@ -34134,6 +34302,9 @@ hob	Dwarven Provisioner	9
 hob	Dwarven Shortsword	10
 hob	Eagle of the Great Shelf	11
 hob	Eagle's Rescue	155
+hob	Elven Passage	181
+hob	Elven Passage	238
+hob	Elven Passage	274
 hob	Elven Raft-Steerer	37
 hob	Elvenking's Halls	182
 hob	Elvenking's Harper	38
@@ -34151,9 +34322,13 @@ hob	Gandalf, Spark Starter	203
 hob	Gandalf, Spark Starter	97
 hob	Gandalf, Wandering Wizard	41
 hob	Gathering of Darkness	68
+hob	Getaway Barrel	303
+hob	Getaway Barrel	98
 hob	Giant's Boulder	173
 hob	Gigantic Big Bear	126
 hob	Gigantic Big Bear	307
+hob	Glamdring, Foe-hammer	174
+hob	Glamdring, Foe-hammer	204
 hob	Gleaming Splendor	275
 hob	Gloin the Mighty	227
 hob	Gloin the Mighty	263
@@ -34182,10 +34357,17 @@ hob	Iron Hills Blacksmith	252
 hob	Iron Hills Stalwart	102
 hob	Island	190
 hob	Island	195
+hob	Kili the Resourceful	17
+hob	Kili the Resourceful	287
 hob	Lake-town	186
 hob	Lake-town Lookout	18
+hob	Lake-town Mariners	44
+hob	Lake-town Toymaker	19
 hob	Lakeshore Apothecary	43
 hob	Large Bear	159
+hob	Last Light of Durin's Day	103
+hob	Last Light of Durin's Day	228
+hob	Last Light of Durin's Day	264
 hob	Little Bear	128
 hob	Long Lake Nuisance	45
 hob	Long-Bodied Grey Dog	1
@@ -34194,6 +34376,7 @@ hob	Mirkwood	188
 hob	Mirkwood Meditator	48
 hob	Mirkwood Pathmaker	129
 hob	Misty Mountains Raider	105
+hob	Moment of Glory	21
 hob	Most Decrepit Old Bird	221
 hob	Most Decrepit Old Bird	257
 hob	Most Decrepit Old Bird	49
@@ -34208,8 +34391,13 @@ hob	Nori, Teller of Tales	161
 hob	Oin the Brave	106
 hob	Old Fat Spider	132
 hob	Old Thrush	2
+hob	Orcrist, Goblin-cleaver	177
+hob	Orcrist, Goblin-cleaver	236
+hob	Orcrist, Goblin-cleaver	272
 hob	Ordinary Bear	133
 hob	Ori, Keeper of Songs	23
+hob	Part in Friendship	134
+hob	Part in Friendship	308
 hob	Patient Instructor	162
 hob	Pinecone Strike	107
 hob	Plains	189
@@ -34263,6 +34451,8 @@ hob	The Arkenstone	270
 hob	The Arkenstone	283
 hob	The Black Arrow	171
 hob	The Chief Warg	150
+hob	The Eagles Are Coming!	12
+hob	The Eagles Are Coming!	205
 hob	The Great Goblin	158
 hob	The Great Goblin	201
 hob	The Lonely Mountain	187
@@ -34272,9 +34462,14 @@ hob	The Lonely Mountain	284
 hob	The Lord of the Eagles	240
 hob	The Lord of the Eagles	276
 hob	The Lord of the Eagles	46
+hob	The Master of Lake-town	297
+hob	The Master of Lake-town	77
 hob	The Misty Mountains Cold	104
 hob	The Misty Mountains Cold	321
 hob	The Mountain-king's Return	22
+hob	The Notary Hobbits	131
+hob	The Notary Hobbits	232
+hob	The Notary Hobbits	268
 hob	The Queen of Dale	217
 hob	The Queen of Dale	24
 hob	The Queen of Dale	253
@@ -34289,6 +34484,7 @@ hob	Thorin, Mountain-king	243
 hob	Thorin, Mountain-king	279
 hob	Thranduil's Company	168
 hob	Thranduil's Company	213
+hob	Thranduil's Decree	56
 hob	Thranduil, Sindarin Liege	166
 hob	Thranduil, Sindarin Liege	233
 hob	Thranduil, Sindarin Liege	269
@@ -48224,28 +48420,54 @@ mb2	Xantcha, Sleeper Agent	253
 mb2	Yorion, Sky Nomad	94
 mb2	Zombie Master	188
 mbc	Arzakon	33
+mbc	Ashaya's Enduring Bond	34
 mbc	Autumn Willow, Harmony	27
 mbc	Balefang the Unslayable	20
 mbc	Blor the Impervious	28
 mbc	Boss Uramon, Shadow's Reach	13
+mbc	Case of the Lost Witness	62
 mbc	Chaos Warp	72
+mbc	Chief Magistrate of Mercadia	35
 mbc	Chromatic Lantern	73
 mbc	Davvol, Evincar of Rath	36
 mbc	Dust to Dust	71
 mbc	Dyfed, the Guiding Hand	7
+mbc	Ekthi, Contaminator Priest	1
+mbc	Elda, Conjurer of Spectacle	37
 mbc	Emerald Collector	63
+mbc	Euru, Acorn Scrounger	70
 mbc	Exotic Orchard	79
 mbc	Fellwar Stone	74
+mbc	Feroz, Ulgrotha's Warden	38
+mbc	Grandmother Goby	9
+mbc	Greensleeves	30
+mbc	Grizzlegom, Hurloon Hero	39
+mbc	Homer, the Hermit	40
 mbc	Istvan, Butcher of Eln	14
+mbc	Jandor, Fortuned Traveler	42
 mbc	Jeweled Amulet	75
 mbc	Joven and Chandler	24
+mbc	Lyna, Veil of Vengeance	43
+mbc	Maular, the Next Evolution	31
+mbc	Meatsqueak, Hoard Lord	32
 mbc	Mind Stone	76
+mbc	Nivea, Beloved Battlemage	3
+mbc	Olag and Miau, New Friends	48
 mbc	Oracle of the Alpha	64
+mbc	Overcooked	67
 mbc	Path of Ancestry	80
 mbc	Ruby Collector	61
+mbc	Selenia, the Cursed Heart	50
+mbc	Seluma, Light of Aysen	4
 mbc	Swiftfoot Boots	77
+mbc	The Everforger	59
 mbc	Thought Vessel	78
+mbc	Tolabow, Loch Rascal	12
 mbc	Tsagan, Raider Warlord	53
+mbc	Uugguu, the Omniplasm	54
+mbc	Valko Indorian	60
+mbc	Whtz, the Bibliophile	57
+mbc	Worzel, the Protector	5
 mbs	Accorder Paladin	1
 mbs	Ardent Recruit	2
 mbs	Banishment Decree	3
@@ -54763,6 +54985,7 @@ msc	Absorbing Man and Titania	510
 msc	Accelerated Evolution	711
 msc	Advancing the Spirit	712
 msc	Age of Ultron	41
+msc	Alex Wilder, Runaway	677
 msc	Alicia Masters, Skilled Sculptor	356
 msc	Alicia Masters, Skilled Sculptor	48
 msc	Alien Symbiosis	791
@@ -54782,16 +55005,20 @@ msc	Arcane Signet	192
 msc	Arcane Signet	193
 msc	Arcane Signet	194
 msc	Armed Assailant	647
+msc	Asgardian Inspiration	678
 msc	Astonishing Spider-Man	740
 msc	Atlantean Skirmisher	616
 msc	Atlas, Sizable Stooge	566
 msc	Aunt May	768
 msc	Austere Command	121
 msc	Austere Command	294
+msc	Avengers Quinjet	102
+msc	Avengers Quinjet	426
 msc	Bast, Panther Goddess	392
 msc	Bast, Panther Goddess	75
 msc	Bastion Protector	122
 msc	Bastion Protector	296
+msc	Beast Mode	713
 msc	Beast Within	169
 msc	Bedevil	182
 msc	Bedevil	393
@@ -54801,6 +55028,8 @@ msc	Big Wheel	679
 msc	Bionic Blow	680
 msc	Birds of Paradise	170
 msc	Birds of Paradise	377
+msc	Black Bolt, Inhuman King	394
+msc	Black Bolt, Inhuman King	76
 msc	Black Market Connections	155
 msc	Black Market Connections	346
 msc	Black Panther, Claws of Bast	829
@@ -54816,6 +55045,7 @@ msc	Blasphemous Act	163
 msc	Blasphemous Act	358
 msc	Blue Marvel, Adam Brashear	530
 msc	Blur of Heroism	585
+msc	Bob, Reluctant HYDRA Agent	649
 msc	Boomerang, Blade Flinger	534
 msc	Bountiful Promenade	226
 msc	Bountiful Promenade	461
@@ -54829,12 +55059,14 @@ msc	Canyon Slough	228
 msc	Canyon Slough	463
 msc	Captain America's Motorcycle	681
 msc	Captain America, Liberator	587
+msc	Captain America, Skybound	588
 msc	Captain America, Steve Rogers	835
 msc	Captain America, Team Leader	5
 msc	Captain America, Team Leader	879
 msc	Captain America, Unbowed	505
 msc	Captain Marvel, Apex Avenger	396
 msc	Captain Marvel, Apex Avenger	78
+msc	Captain Marvel, Shooting Star	589
 msc	Captain's Defense	836
 msc	Chameleon, Master of Disguise	148
 msc	Chaos Warp	164
@@ -54873,6 +55105,8 @@ msc	Conduit of Worlds	378
 msc	Containment Construct	284
 msc	Contract Hero	683
 msc	Costume Closet	770
+msc	Council of Reeds	28
+msc	Council of Reeds	327
 msc	Count Nefaria	651
 msc	Coveted Jewel	196
 msc	Coveted Jewel	429
@@ -54910,6 +55144,7 @@ msc	Doc Ock, Sinister Scientist	783
 msc	Doctor Doom, King of Latveria	6
 msc	Doctor Doom, King of Latveria	880
 msc	Doctor Doom, Unrivaled	654
+msc	Doctor Jane Foster	757
 msc	Doctor Spectrum	590
 msc	Doctor Strange, Surgeon	591
 msc	Donald Blake, Guise of Thor	592
@@ -54928,6 +55163,7 @@ msc	Dragonskull Summit	468
 msc	Drowned Catacomb	239
 msc	Drowned Catacomb	469
 msc	Eerie Gravestone	824
+msc	Elektra, Femme Fatale	687
 msc	Endless Ranks of HYDRA	348
 msc	Endless Ranks of HYDRA	43
 msc	Everett K. Ross, Hapless Attache	13
@@ -54955,6 +55191,7 @@ msc	Fetid Pools	243
 msc	Fetid Pools	472
 msc	Firebird, Blazing Ranger	360
 msc	Firebird, Blazing Ranger	50
+msc	Fixer, Techno Terror	656
 msc	Flame On!	361
 msc	Flame On!	51
 msc	Flash Thompson, Spider-Fan	772
@@ -55024,7 +55261,9 @@ msc	Helm of the Host	437
 msc	Herald's Horn	287
 msc	Hero in Training	840
 msc	Hero's Blade	201
+msc	Heroes for Hire	688
 msc	Heroes' Hangout	804
+msc	Heroic Teamwork	597
 msc	Hinterland Harbor	250
 msc	Hinterland Harbor	480
 msc	Hit-Monkey	723
@@ -55042,6 +55281,7 @@ msc	Hyperion's Atomic Vision	600
 msc	Hyperion, Supreme Hero	599
 msc	Iceman and Firestar	742
 msc	Iconic Shield	520
+msc	Immortus, Master of Eternity	623
 msc	Imperial Cosmographer	624
 msc	Infernal Rebirth	537
 msc	Infinity Formula	601
@@ -55072,6 +55312,9 @@ msc	Jarvis, Earth's Mightiest Butler	333
 msc	Jarvis, Earth's Mightiest Butler	34
 msc	Jocasta, Automaton Avenger	108
 msc	Jocasta, Automaton Avenger	439
+msc	Kang Prime	406
+msc	Kang Prime	85
+msc	Karolina Dean, Runaway	694
 msc	Killmonger, Ruthless Usurper	364
 msc	Killmonger, Ruthless Usurper	53
 msc	Kimoyo Beads	109
@@ -55107,8 +55350,10 @@ msc	Make Your Move	137
 msc	Mandroid Squadron	841
 msc	Martial Coup	138
 msc	Martial Coup	314
+msc	Marvel Boy, Noh-Varr	743
 msc	Marvelous Melee	549
 msc	Masked Meower	807
+msc	Matt Murdock, Justice Seeker	602
 msc	Medusa, Inhuman Queen	383
 msc	Medusa, Inhuman Queen	68
 msc	Metallic Mimic	203
@@ -55151,6 +55396,8 @@ msc	Ms. Marvel, Elastic Ally	744
 msc	Multiversal Recruitment	629
 msc	Mysterio's Mirage	630
 msc	Mystic Monastery	253
+msc	N'Yami-Class Mother Ship	110
+msc	N'Yami-Class Mother Ship	444
 msc	Nakia, Wakandan Operative	384
 msc	Nakia, Wakandan Operative	69
 msc	Namor, Atlantean King	409
@@ -55274,6 +55521,8 @@ msc	Shock	809
 msc	Shuri's Fabricator	114
 msc	Shuri's Fabricator	450
 msc	Shuri, Vibranium Technologist	746
+msc	Shuri, the Black Panther	416
+msc	Shuri, the Black Panther	95
 msc	Sif's Spearmaster	765
 msc	Skullclamp	210
 msc	Skullclamp	451
@@ -55311,6 +55560,8 @@ msc	Starling, Aerial Ally	778
 msc	Stature, Young Avenger	571
 msc	Stegron the Dinosaur Man	810
 msc	Stick, Fearless Mentor	706
+msc	Stilt-Man, Towering Terror	373
+msc	Stilt-Man, Towering Terror	61
 msc	Storm, Shaker of Skies	733
 msc	Stunning Shot	610
 msc	Sudden Strike	779
@@ -55362,6 +55613,7 @@ msc	The Immortal Weapons	547
 msc	The Spot's Portal	798
 msc	The Squadron Sinister	417
 msc	The Squadron Sinister	96
+msc	The Thanos-Copter	753
 msc	The Thing	4
 msc	The Thing	878
 msc	The Vision and Scarlet Witch	707
@@ -55384,6 +55636,7 @@ msc	Throne of the High City	274
 msc	Throne of the High City	500
 msc	Tiger Shark, Abyssal Hunter	747
 msc	Time Warp	788
+msc	Timeline Inquiry	641
 msc	Tippy-Toe, Terrific Partner	734
 msc	Titan of Littjara	280
 msc	Titan of Littjara	335
@@ -55440,6 +55693,9 @@ msc	Vision, Synthezoid Avenger	460
 msc	Void Helix	674
 msc	Voltaic Whip	675
 msc	Voracious Brood	735
+msc	Vulture, Feathered Fiend	645
+msc	Wakanda Forever!	388
+msc	Wakanda Forever!	71
 msc	Wakandan Shield Guard	613
 msc	Wakandan Tusker	748
 msc	Wall Off	614
@@ -55447,6 +55703,9 @@ msc	War Machine, Avenging Arsenal	375
 msc	War Machine, Avenging Arsenal	63
 msc	War Machine, James Rhodes	572
 msc	Warriors of Wakanda	565
+msc	Wasp, Shrinking Savior	646
+msc	West Coast Expansion	345
+msc	West Coast Expansion	40
 msc	Whirlwind of Thought	190
 msc	Whirlwind of Thought	424
 msc	Whispersilk Cloak	225
@@ -55519,6 +55778,10 @@ msh	Beast, Erudite Aerialist	206
 msh	Birnin Zana Plaza	262
 msh	Black Panther, Vanguard	207
 msh	Black Widow, Double Agent	208
+msh	Black Widow, Super Spy	347
+msh	Black Widow, Super Spy	364
+msh	Black Widow, Super Spy	393
+msh	Black Widow, Super Spy	89
 msh	Blazing Crescendo	125
 msh	Blazing Crescendo	340
 msh	Bold Biochemist	48
@@ -55562,6 +55825,11 @@ msh	Crimson Operative	126
 msh	Crossbones, Malicious Mercenary	91
 msh	Crowd of True Believers	14
 msh	Cruel Alliance	92
+msh	Daredevil, Man Without Fear	213
+msh	Daredevil, Man Without Fear	324
+msh	Daredevil, Man Without Fear	372
+msh	Daredevil, Man Without Fear	398
+msh	Daredevil, Man Without Fear	432
 msh	Dark Deed	93
 msh	Dark Fortress	264
 msh	Dark Fortress	380
@@ -55625,6 +55893,8 @@ msh	Hell's Kitchen	268
 msh	Hellcat, Undying Vigilante	170
 msh	Hercules, Prince of Power	171
 msh	Hero in Training	16
+msh	Heroic Feast	172
+msh	Heroic Feast	414
 msh	Hex Magic	133
 msh	Hidden Lair	269
 msh	Hidden Lair	383
@@ -55640,6 +55910,8 @@ msh	Invisible Woman, Sue Storm	17
 msh	Invisible Woman, Sue Storm	323
 msh	Iron Fist, Living Weapon	138
 msh	Iron Lad, Diverging Destiny	59
+msh	Iron Man Armor	248
+msh	Iron Man Armor	427
 msh	Iron Man, Master of Machines	216
 msh	Ironheart, Clever Champion	360
 msh	Ironheart, Clever Champion	60
@@ -55657,6 +55929,8 @@ msh	Jessica Jones, Private Eye	139
 msh	Justice, Vance Astrovik	61
 msh	K'un-Lun Warrior	140
 msh	Ka-Zar of the Savage Land	174
+msh	Kang the Conqueror	403
+msh	Kang the Conqueror	62
 msh	Kang, Temporal Tyrant	217
 msh	Kang, Temporal Tyrant	450
 msh	Killmonger, Scourge of Wakanda	218
@@ -55668,8 +55942,12 @@ msh	Kingpin's Enforcers	102
 msh	Klaw, Sonic Subjugator	103
 msh	Kree Commandos	19
 msh	Kree Sentinel	141
+msh	Leader, Super-Genius	330
+msh	Leader, Super-Genius	64
 msh	Lightning Strike	142
 msh	Loki Laufeyson	143
+msh	Loki, God of Mischief	343
+msh	Loki, God of Mischief	65
 msh	Los Diablos Missile Base	270
 msh	Luke Cage, Power Man	20
 msh	M.O.D.O.K.	106
@@ -55706,6 +55984,7 @@ msh	Ms. Marvel, Kamala Khan	361
 msh	Ms. Marvel, Kamala Khan	67
 msh	Multiversal Incursion	300
 msh	Multiversal Incursion	68
+msh	Murdock's Crusade	24
 msh	Namor the Sub-Mariner	362
 msh	Namor the Sub-Mariner	391
 msh	Namor the Sub-Mariner	69
@@ -55713,6 +55992,7 @@ msh	Nick Fury, Agent of S.H.I.E.L.D.	25
 msh	Nick Fury, Agent of S.H.I.E.L.D.	314
 msh	Nick Fury, Agent of S.H.I.E.L.D.	357
 msh	Nick Fury, Agent of S.H.I.E.L.D.	389
+msh	Night Nurse, Healer of Heroes	26
 msh	Ninja of the Hand	108
 msh	Okoye, Dora Milaje Leader	27
 msh	Origin of the Avengers	28
@@ -55728,6 +56008,7 @@ msh	Plains	287
 msh	Plains	288
 msh	Plains	433
 msh	Plains	434
+msh	Powerful Broker	179
 msh	Project Deathlok Soldier	109
 msh	Punishing Punch	180
 msh	Pym Particles	70
@@ -55770,12 +56051,16 @@ msh	Stark Industries	272
 msh	Stark Industries Executive	153
 msh	Stature, Size Shifter	76
 msh	Stolen Stark Tech	114
+msh	Storm, Windrider	230
+msh	Storm, Windrider	375
 msh	Subterranean Cavern	273
 msh	Super Intelligence	77
 msh	Super Speed	154
 msh	Super Strength	189
 msh	Super Suit	78
 msh	Super Villain Lockup	37
+msh	Super-Adaptoid	250
+msh	Super-Adaptoid	428
 msh	Super-Skrull	115
 msh	Super-Skrull	409
 msh	Super-Soldier Serum	299
@@ -55839,6 +56124,7 @@ msh	Tony Stark	350
 msh	Tony Stark	363
 msh	Tony Stark	392
 msh	Tony Stark	80
+msh	Too Evil to Stay Dead	118
 msh	Training Compound	275
 msh	Training Compound	384
 msh	Training Regimen	192
@@ -55877,6 +56163,8 @@ msh	Wolverine, Fierce Fighter	378
 msh	Wonder Man, Hollywood Hero	160
 msh	World War Hulk	197
 msh	World War Hulk	304
+msh	Worlds Within Worlds	241
+msh	Worlds Within Worlds	426
 msh	Yellowjacket, Heartless Marauder	123
 mul	Aegar, the Freezing Flame	161
 mul	Aegar, the Freezing Flame	31
@@ -75906,6 +76194,7 @@ sld	Thassa's Oracle	1280
 sld	Thassa, Deep-Dwelling	1279
 sld	Thassa, God of the Sea	71
 sld	The Deck of Many Things	2460
+sld	The Fifteenth Doctor	1584
 sld	The First Sliver	1371
 sld	The Fourteenth Doctor	1583
 sld	The Ghoul, Gunslinger	2448
@@ -76294,6 +76583,369 @@ slx	Themberchaud	28
 slx	Vikya, Scorching Stalwart	11
 slx	Wernog, Rider's Chaplain	8
 slx	Zethi, Arcane Blademaster	17
+slz	All That Glitters	1
+slz	All That Glitters	122
+slz	All That Glitters	243
+slz	An Offer You Can't Refuse	148
+slz	An Offer You Can't Refuse	269
+slz	An Offer You Can't Refuse	27
+slz	Anger	175
+slz	Anger	296
+slz	Anger	54
+slz	Animate Dead	155
+slz	Animate Dead	276
+slz	Animate Dead	34
+slz	Arcane Signet	215
+slz	Arcane Signet	336
+slz	Arcane Signet	94
+slz	Ashnod's Altar	216
+slz	Ashnod's Altar	337
+slz	Ashnod's Altar	95
+slz	Baleful Strix	209
+slz	Baleful Strix	330
+slz	Baleful Strix	88
+slz	Birds of Paradise	192
+slz	Birds of Paradise	313
+slz	Birds of Paradise	71
+slz	Brainstorm	13
+slz	Brainstorm	134
+slz	Brainstorm	255
+slz	Cathartic Reunion	176
+slz	Cathartic Reunion	297
+slz	Cathartic Reunion	55
+slz	Cauldron Familiar	156
+slz	Cauldron Familiar	277
+slz	Cauldron Familiar	35
+slz	Chain of Vapor	135
+slz	Chain of Vapor	14
+slz	Chain of Vapor	256
+slz	Chatterstorm	193
+slz	Chatterstorm	314
+slz	Chatterstorm	72
+slz	Chromatic Lantern	217
+slz	Chromatic Lantern	338
+slz	Chromatic Lantern	96
+slz	Chromatic Orrery	218
+slz	Chromatic Orrery	339
+slz	Chromatic Orrery	97
+slz	Chrome Mox	219
+slz	Chrome Mox	340
+slz	Chrome Mox	98
+slz	Clone	136
+slz	Clone	15
+slz	Clone	257
+slz	Cloud Key	220
+slz	Cloud Key	341
+slz	Cloud Key	99
+slz	Clown Car	100
+slz	Clown Car	221
+slz	Clown Car	342
+slz	Colossal Dreadmaw	194
+slz	Colossal Dreadmaw	315
+slz	Colossal Dreadmaw	73
+slz	Command Tower	118
+slz	Command Tower	239
+slz	Command Tower	360
+slz	Copper Tablet	101
+slz	Copper Tablet	222
+slz	Copper Tablet	343
+slz	Cruel Reality	157
+slz	Cruel Reality	278
+slz	Cruel Reality	36
+slz	Cultivate	195
+slz	Cultivate	316
+slz	Cultivate	74
+slz	Cut Down	158
+slz	Cut Down	279
+slz	Cut Down	37
+slz	Dark Ritual	159
+slz	Dark Ritual	280
+slz	Dark Ritual	38
+slz	Darksteel Monolith	102
+slz	Darksteel Monolith	223
+slz	Darksteel Monolith	344
+slz	Dig Through Time	137
+slz	Dig Through Time	16
+slz	Dig Through Time	258
+slz	Disintegrate	177
+slz	Disintegrate	298
+slz	Disintegrate	56
+slz	Dispatch	123
+slz	Dispatch	2
+slz	Dispatch	244
+slz	Doomsday	160
+slz	Doomsday	281
+slz	Doomsday	39
+slz	Dueling Grounds	210
+slz	Dueling Grounds	331
+slz	Dueling Grounds	89
+slz	Duress	161
+slz	Duress	282
+slz	Duress	40
+slz	Eerie Interlude	124
+slz	Eerie Interlude	245
+slz	Eerie Interlude	3
+slz	Eternity Vessel	103
+slz	Eternity Vessel	224
+slz	Eternity Vessel	345
+slz	Feed the Swarm	162
+slz	Feed the Swarm	283
+slz	Feed the Swarm	41
+slz	Fireball	178
+slz	Fireball	299
+slz	Fireball	57
+slz	Foundry Inspector	104
+slz	Foundry Inspector	225
+slz	Foundry Inspector	346
+slz	Garth One-Eye	211
+slz	Garth One-Eye	332
+slz	Garth One-Eye	90
+slz	Generous Gift	125
+slz	Generous Gift	246
+slz	Generous Gift	4
+slz	Ghostly Flicker	138
+slz	Ghostly Flicker	17
+slz	Ghostly Flicker	259
+slz	Giant Spider	196
+slz	Giant Spider	317
+slz	Giant Spider	75
+slz	Gigantosaurus	197
+slz	Gigantosaurus	318
+slz	Gigantosaurus	76
+slz	Glimpse the Impossible	179
+slz	Glimpse the Impossible	300
+slz	Glimpse the Impossible	58
+slz	Go for the Throat	163
+slz	Go for the Throat	284
+slz	Go for the Throat	42
+slz	Gray Merchant of Asphodel	164
+slz	Gray Merchant of Asphodel	285
+slz	Gray Merchant of Asphodel	43
+slz	Grizzly Bears	198
+slz	Grizzly Bears	319
+slz	Grizzly Bears	77
+slz	Gut Shot	180
+slz	Gut Shot	301
+slz	Gut Shot	59
+slz	Guttersnipe	181
+slz	Guttersnipe	302
+slz	Guttersnipe	60
+slz	High Tide	139
+slz	High Tide	18
+slz	High Tide	260
+slz	Hornet Queen	199
+slz	Hornet Queen	320
+slz	Hornet Queen	78
+slz	Hullbreaker Horror	140
+slz	Hullbreaker Horror	19
+slz	Hullbreaker Horror	261
+slz	Hypnotic Specter	165
+slz	Hypnotic Specter	286
+slz	Hypnotic Specter	44
+slz	Imp's Mischief	166
+slz	Imp's Mischief	287
+slz	Imp's Mischief	45
+slz	Imperial Recruiter	182
+slz	Imperial Recruiter	303
+slz	Imperial Recruiter	61
+slz	Imprisoned in the Moon	141
+slz	Imprisoned in the Moon	20
+slz	Imprisoned in the Moon	262
+slz	Invigorate	200
+slz	Invigorate	321
+slz	Invigorate	79
+slz	Jester's Cap	105
+slz	Jester's Cap	226
+slz	Jester's Cap	347
+slz	Kazuul, Tyrant of the Cliffs	183
+slz	Kazuul, Tyrant of the Cliffs	304
+slz	Kazuul, Tyrant of the Cliffs	62
+slz	Laboratory Maniac	142
+slz	Laboratory Maniac	21
+slz	Laboratory Maniac	263
+slz	Land Tax	126
+slz	Land Tax	247
+slz	Land Tax	5
+slz	Life from the Loam	201
+slz	Life from the Loam	322
+slz	Life from the Loam	80
+slz	Lightning Bolt	184
+slz	Lightning Bolt	305
+slz	Lightning Bolt	63
+slz	Llanowar Elves	202
+slz	Llanowar Elves	323
+slz	Llanowar Elves	81
+slz	Lord Skitter, Sewer King	167
+slz	Lord Skitter, Sewer King	288
+slz	Lord Skitter, Sewer King	46
+slz	Mana Echoes	185
+slz	Mana Echoes	306
+slz	Mana Echoes	64
+slz	Manifold Key	106
+slz	Manifold Key	227
+slz	Manifold Key	348
+slz	Mental Misstep	143
+slz	Mental Misstep	22
+slz	Mental Misstep	264
+slz	Merchant Scroll	144
+slz	Merchant Scroll	23
+slz	Merchant Scroll	265
+slz	Merfolk of the Pearl Trident	145
+slz	Merfolk of the Pearl Trident	24
+slz	Merfolk of the Pearl Trident	266
+slz	Mortuary	168
+slz	Mortuary	289
+slz	Mortuary	47
+slz	Mother of Runes	127
+slz	Mother of Runes	248
+slz	Mother of Runes	6
+slz	Mox Tantalite	107
+slz	Mox Tantalite	228
+slz	Mox Tantalite	349
+slz	Mulldrifter	146
+slz	Mulldrifter	25
+slz	Mulldrifter	267
+slz	Mycosynth Golem	108
+slz	Mycosynth Golem	229
+slz	Mycosynth Golem	350
+slz	Narcomoeba	147
+slz	Narcomoeba	26
+slz	Narcomoeba	268
+slz	Nature's Claim	203
+slz	Nature's Claim	324
+slz	Nature's Claim	82
+slz	Night's Whisper	169
+slz	Night's Whisper	290
+slz	Night's Whisper	48
+slz	Obeka, Brute Chronologist	213
+slz	Obeka, Brute Chronologist	334
+slz	Obeka, Brute Chronologist	92
+slz	Oboro, Palace in the Clouds	119
+slz	Oboro, Palace in the Clouds	240
+slz	Oboro, Palace in the Clouds	361
+slz	Ornithopter	109
+slz	Ornithopter	230
+slz	Ornithopter	351
+slz	Panoptic Mirror	110
+slz	Panoptic Mirror	231
+slz	Panoptic Mirror	352
+slz	Path to Exile	128
+slz	Path to Exile	249
+slz	Path to Exile	7
+slz	Power Sink	149
+slz	Power Sink	270
+slz	Power Sink	28
+slz	Price of Progress	186
+slz	Price of Progress	307
+slz	Price of Progress	65
+slz	Pyroblast	187
+slz	Pyroblast	308
+slz	Pyroblast	66
+slz	Pyrokinesis	188
+slz	Pyrokinesis	309
+slz	Pyrokinesis	67
+slz	Quicksilver Elemental	150
+slz	Quicksilver Elemental	271
+slz	Quicksilver Elemental	29
+slz	Raffine, Scheming Seer	214
+slz	Raffine, Scheming Seer	335
+slz	Raffine, Scheming Seer	93
+slz	Reliquary Tower	120
+slz	Reliquary Tower	241
+slz	Reliquary Tower	362
+slz	Return to Dust	129
+slz	Return to Dust	250
+slz	Return to Dust	8
+slz	Rogue's Gloves	111
+slz	Rogue's Gloves	232
+slz	Rogue's Gloves	353
+slz	Ruxa, Patient Professor	204
+slz	Ruxa, Patient Professor	325
+slz	Ruxa, Patient Professor	83
+slz	Savannah Lions	130
+slz	Savannah Lions	251
+slz	Savannah Lions	9
+slz	Scute Swarm	205
+slz	Scute Swarm	326
+slz	Scute Swarm	84
+slz	Scythecat Cub	206
+slz	Scythecat Cub	327
+slz	Scythecat Cub	85
+slz	Sengir Vampire	170
+slz	Sengir Vampire	291
+slz	Sengir Vampire	49
+slz	Sensei's Divining Top	112
+slz	Sensei's Divining Top	233
+slz	Sensei's Divining Top	354
+slz	Serra Angel	10
+slz	Serra Angel	131
+slz	Serra Angel	252
+slz	Simian Spirit Guide	189
+slz	Simian Spirit Guide	310
+slz	Simian Spirit Guide	68
+slz	Skullclamp	113
+slz	Skullclamp	234
+slz	Skullclamp	355
+slz	Sol Ring	114
+slz	Sol Ring	235
+slz	Sol Ring	356
+slz	Soul-Guide Lantern	115
+slz	Soul-Guide Lantern	236
+slz	Soul-Guide Lantern	357
+slz	Spell Pierce	151
+slz	Spell Pierce	272
+slz	Spell Pierce	30
+slz	Split Up	11
+slz	Split Up	132
+slz	Split Up	253
+slz	The Jolly Balloon Man	212
+slz	The Jolly Balloon Man	333
+slz	The Jolly Balloon Man	91
+slz	Thought Scour	152
+slz	Thought Scour	273
+slz	Thought Scour	31
+slz	Thought Vessel	116
+slz	Thought Vessel	237
+slz	Thought Vessel	358
+slz	Thrummingbird	153
+slz	Thrummingbird	274
+slz	Thrummingbird	32
+slz	Tragic Slip	171
+slz	Tragic Slip	292
+slz	Tragic Slip	50
+slz	Unearth	172
+slz	Unearth	293
+slz	Unearth	51
+slz	Urborg, Tomb of Yawgmoth	121
+slz	Urborg, Tomb of Yawgmoth	242
+slz	Urborg, Tomb of Yawgmoth	363
+slz	Vandalblast	190
+slz	Vandalblast	311
+slz	Vandalblast	69
+slz	Vito, Thorn of the Dusk Rose	173
+slz	Vito, Thorn of the Dusk Rose	294
+slz	Vito, Thorn of the Dusk Rose	52
+slz	Ward of Bones	117
+slz	Ward of Bones	238
+slz	Ward of Bones	359
+slz	Wheel of Misfortune	191
+slz	Wheel of Misfortune	312
+slz	Wheel of Misfortune	70
+slz	White Sun's Zenith	12
+slz	White Sun's Zenith	133
+slz	White Sun's Zenith	254
+slz	Wild Growth	207
+slz	Wild Growth	328
+slz	Wild Growth	86
+slz	Wild Nacatl	208
+slz	Wild Nacatl	329
+slz	Wild Nacatl	87
+slz	Windfall	154
+slz	Windfall	275
+slz	Windfall	33
+slz	Yargle, Glutton of Urborg	174
+slz	Yargle, Glutton of Urborg	295
+slz	Yargle, Glutton of Urborg	53
 snc	A Little Chat	47
 snc	All-Seeing Arbiter	286
 snc	All-Seeing Arbiter	34
@@ -78496,6 +79148,7 @@ spg	Archaeomancer	149
 spg	Archmage Emeritus	150
 spg	Arid Mesa	109
 spg	Arid Mesa	114
+spg	Austere Command	160
 spg	Bitterblossom	133
 spg	Bloom Tender	79
 spg	Bone Miser	87
@@ -78514,6 +79167,8 @@ spg	Chrome Mox	92
 spg	Codie, Vociferous Codex	157
 spg	Collected Company	72
 spg	Condemn	74
+spg	Consider	164
+spg	Consign to Memory	162
 spg	Crashing Footfalls	25
 spg	Damnation	68
 spg	Dargo, the Shipwrecker	7
@@ -78534,10 +79189,12 @@ spg	Endurance	48
 spg	Endurance	53
 spg	Expressive Iteration	43
 spg	Expropriate	66
+spg	Eye of Ugin	159
 spg	Fabricate	20
 spg	Faerie Macabre	134
 spg	Field of the Dead	28
 spg	Fiend Artisan	83
+spg	Flesh Duplicate	161
 spg	Frogmite	61
 spg	Fury	47
 spg	Fury	52
@@ -78586,6 +79243,7 @@ spg	Manamorphose	142
 spg	Marsh Flats	110
 spg	Marsh Flats	115
 spg	Mephidross Vampire	4
+spg	Mind Twist	166
 spg	Mirri, Weatherlight Duelist	15
 spg	Mistbind Clique	131
 spg	Misty Rainforest	111
@@ -78593,6 +79251,7 @@ spg	Misty Rainforest	116
 spg	Morbid Opportunist	32
 spg	Murmuring Mystic	151
 spg	Mystic Snake	35
+spg	Necrodominance	165
 spg	Nexus of Fate	122
 spg	Notion Thief	36
 spg	Noxious Revival	73
@@ -78613,6 +79272,7 @@ spg	Rat Colony	56
 spg	Regal Force	141
 spg	Relentless Rats	57
 spg	Robe of Stars	121
+spg	Root Maze	168
 spg	Ruinous Ultimatum	108
 spg	Sacrifice	69
 spg	Scalding Tarn	112
@@ -78628,8 +79288,10 @@ spg	Solitude	44
 spg	Solitude	49
 spg	Soul Warden	65
 spg	Sphinx's Tutelage	75
+spg	Splinter Twin	167
 spg	Star Compass	18
 spg	Stoneforge Mystic	29
+spg	Sublime Epiphany	163
 spg	Subtlety	45
 spg	Subtlety	50
 spg	Sword of Fire and Ice	62
@@ -82393,6 +83055,7 @@ tmc	Corpsejack Menace	56
 tmc	Cultivate	50
 tmc	Dark Ritual	131
 tmc	Definitely Not a Turtle	98
+tmc	Dimension X Pizzasaur	16
 tmc	Donatello's Science Lesson	110
 tmc	Donatello, Rad Scientist	109
 tmc	Donatello, the Brains	2
@@ -82410,6 +83073,7 @@ tmc	Fast Forward	24
 tmc	Flying Kick	35
 tmc	Foe-liage	122
 tmc	Food Chain	133
+tmc	Foot Chopper	17
 tmc	Game Over	18
 tmc	Grand Coliseum	68
 tmc	Hamato Ninpo	100
@@ -82433,6 +83097,7 @@ tmc	Manhole Cover	130
 tmc	Michelangelo, On the Scene	124
 tmc	Michelangelo, the Heart	5
 tmc	Michelangelo, the Heart	92
+tmc	Mikey & Mona, Mutant Sitters	125
 tmc	Mole Module	40
 tmc	Mona Lisa, Ever Adaptable	126
 tmc	Monster Mashup	117
@@ -83572,6 +84237,10 @@ tpr	Youthful Knight	41
 trc	Badgey, Malicious Glitch	152
 trc	Benjamin Sisko, Besieged	200
 trc	Bio-Asset Allocator	196
+trc	Captain Kirk, Boldly Going	85
+trc	Ceti Eel	153
+trc	Christine Chapel, Combat Medic	300
+trc	Christine Chapel, Combat Medic	78
 trc	Cryogenic Stasis	142
 trc	Defense Force Aggressor	161
 trc	Direct Hit	162
@@ -83605,8 +84274,12 @@ trc	Trelane, Squire of Gothos	195
 trc	Warship Flight Crew	168
 trc	Will Riker, Assuming Command	140
 trc	Worf, Chief Tactical Officer	141
+trk	A Good Day to Die	111
 trk	Amok Time	183
 trk	Assault Drone	92
+trk	Automated Warfare System	93
+trk	Bat'leth	94
+trk	Battle-Scarred Survivalist	95
 trk	Beckett Mariner, Impetuous Ensign	138
 trk	Blood Crypt	278
 trk	Blood Crypt	394
@@ -83614,6 +84287,7 @@ trk	Blood Crypt	489
 trk	Breeding Pool	279
 trk	Breeding Pool	401
 trk	Breeding Pool	496
+trk	Cantankerous Captain	141
 trk	Captain James T. Kirk	142
 trk	Captain James T. Kirk	1701
 trk	Captain James T. Kirk	418
@@ -83623,35 +84297,54 @@ trk	Captain Kathryn Janeway	187
 trk	Captain Kathryn Janeway	340
 trk	Captain Kathryn Janeway	386
 trk	Captain Kathryn Janeway	520
+trk	Captain's Tutelage	144
+trk	Cha'DIch Investigator	97
 trk	Cloistered Telepath	50
 trk	Cold-Blooded Crew	189
 trk	Collective Drone	99
+trk	Command Decision	8
+trk	Common Goal	190
 trk	Consider the Prime Directive	51
 trk	Crystalline Entity	261
 trk	Crystalline Entity	478
 trk	Cybernetic Specialist	262
+trk	DOT-7 Repair Squad	12
+trk	Dathon and Picard at El-Adrel	192
 trk	Dominion Supervisor	195
 trk	Dr. Beverly Crusher	13
 trk	Dr. Beverly Crusher	366
 trk	Dr. Beverly Crusher	500
+trk	Eject the Warp Core	105
 trk	Emergency Medical Hologram	15
+trk	Federation Field Medic	17
+trk	Federation Probe	59
 trk	Forest	325
 trk	Forest	326
 trk	Free Borg Revolutionaries	19
+trk	General Chang, Cold Warrior	109
+trk	General Chang, Cold Warrior	415
+trk	General Chang, Cold Warrior	427
+trk	General Chang, Cold Warrior	437
+trk	General Chang, Cold Warrior	539
 trk	Godless Shrine	285
 trk	Godless Shrine	397
 trk	Godless Shrine	492
+trk	Guidance Failure	60
 trk	Hallowed Fountain	286
 trk	Hallowed Fountain	392
 trk	Hallowed Fountain	487
 trk	He's Dead, Jim	114
 trk	Highly Illogical	62
+trk	Hive Mind Coprocessor	115
 trk	Horta	152
 trk	Humpback Whales	65
+trk	I'm a Doctor, Not a ...	203
 trk	In the Pale Moonlight	117
 trk	Island	319
 trk	Island	320
 trk	Khaaaaaaaaaaaannn!	154
+trk	La'An Noonien-Singh, Security	156
+trk	Malfunctioning Holodeck	22
 trk	Moopsy	207
 trk	Mountain	323
 trk	Mountain	324
@@ -83661,6 +84354,8 @@ trk	Organic Avulsion Unit	121
 trk	Overgrown Tomb	289
 trk	Overgrown Tomb	399
 trk	Overgrown Tomb	494
+trk	Perils of the Past	161
+trk	Picard, Leading by Example	29
 trk	Plains	317
 trk	Plains	318
 trk	Planetary Patrol	163
@@ -83674,15 +84369,20 @@ trk	Sacred Foundry	400
 trk	Sacred Foundry	495
 trk	Saurian Explorer	213
 trk	Set Phasers to...	34
+trk	Shields Up!	35
+trk	Shuttle Ace	36
+trk	Silicate Surveyor	172
 trk	Steam Vents	298
 trk	Steam Vents	398
 trk	Steam Vents	493
 trk	Stomping Ground	299
 trk	Stomping Ground	395
 trk	Stomping Ground	490
+trk	Support Mission	216
 trk	Swamp	321
 trk	Swamp	322
 trk	Syndicate Liquidators	218
+trk	Tactical Officer	38
 trk	Temple Garden	301
 trk	Temple Garden	396
 trk	Temple Garden	491
@@ -83690,6 +84390,7 @@ trk	The City on the Edge of Forever	228
 trk	U.S.S. Enterprise-D, Galaxy-Class	273
 trk	U.S.S. Enterprise-D, Galaxy-Class	481
 trk	U.S.S. Enterprise-D, Galaxy-Class	557
+trk	V'Ger, the Intruder	87
 trk	Watery Grave	306
 trk	Watery Grave	393
 trk	Watery Grave	488
@@ -85984,6 +86685,8 @@ vis	Stampeding Wildebeests	121
 vis	Suleiman's Legacy	138
 vis	Summer Bloom	122
 vis	Sun Clasp	21
+vis	Suq'Ata Assassin	69
+vis	Suq'Ata Lancer	96
 vis	Talruum Champion	97
 vis	Talruum Piper	98
 vis	Tar Pit Warrior	70
@@ -88748,6 +89451,10 @@ who	Nyssa of Traken	656
 who	Nyssa of Traken	957
 who	Ominous Cemetery	189
 who	Ominous Cemetery	794
+who	Osgood, Operation Double	191
+who	Osgood, Operation Double	367
+who	Osgood, Operation Double	796
+who	Osgood, Operation Double	958
 who	Out of Time	1058
 who	Out of Time	209
 who	Out of Time	467
@@ -89033,6 +89740,13 @@ who	The Dalek Emperor	725
 who	The Dalek Emperor	997
 who	The Day of the Doctor	121
 who	The Day of the Doctor	726
+who	The Eighth Doctor	1001
+who	The Eighth Doctor	1150
+who	The Eighth Doctor	124
+who	The Eighth Doctor	410
+who	The Eighth Doctor	559
+who	The Eighth Doctor	559z
+who	The Eighth Doctor	729
 who	The Eleventh Doctor	1002
 who	The Eleventh Doctor	1153
 who	The Eleventh Doctor	125
@@ -89060,6 +89774,10 @@ who	The First Doctor	414
 who	The First Doctor	552
 who	The First Doctor	552z
 who	The First Doctor	733
+who	The Five Doctors	101
+who	The Five Doctors	394
+who	The Five Doctors	706
+who	The Five Doctors	985
 who	The Flood of Mars	360
 who	The Flood of Mars	45
 who	The Flood of Mars	650
@@ -90614,6 +91332,9 @@ ymid	Soulstealer Axe	60
 ymid	Suntail Squadron	11
 ymid	Tireless Angler	23
 ymid	Toralf's Disciple	44
+ymkm	Case of the Lost Witness	4
+ymkm	Emmara, Voice of the Conclave	22
+ymkm	Emporium Thopterist	5
 yneo	Boseiju Pathlighter	26
 yneo	Dragonfly Pilot	1
 yneo	Experimental Pilot	6
@@ -90624,6 +91345,9 @@ ysos	Corpseweaver Prodigy	5
 ysos	Glorifying Verse	19
 ysos	Grave Studies	20
 ysos	Interdisciplinary Studies	4
+ywoe	First Little Pig	18
+ywoe	Overcooked	11
+ywoe	Victory of the Pyrohammer	12
 zen	Adventuring Gear	195
 zen	Aether Figment	40
 zen	Akoum Refuge	210

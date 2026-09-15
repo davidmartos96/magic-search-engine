@@ -1,0 +1,206 @@
+#!/usr/bin/env ruby
+
+# Checks bin/report_card_sources output against mtgjson's own sourceProducts.
+#
+#   ./bin/report_card_sources > card_sources.jsonl
+#   ./bin/compare_card_sources_with_mtgjson card_sources.jsonl
+#
+# mtgjson derives sourceProducts from the same sealed data we do, so this is
+# not an independent source - it only catches places where our reading of that
+# data differs from theirs. Which is the point: the disagreements are short
+# enough to read one by one.
+#
+# Both sides are folded to nonfoil and premium before anything is compared.
+# Nonfoil versus premium is the only finish distinction either side enforces
+# consistently: our booster sheets carry one finish for the whole sheet, so a
+# sheet that mixes etched with other premium printings has to call all of them
+# one or the other, and mtgjson splits the same cards differently again.
+# Comparing foil against etched therefore reports on how the two sides happen
+# to bucket a card, not on which products contain it.
+#
+# Products are split three ways - only ours, only theirs, and listed by both
+# sides under a different finish. The last is a disagreement about the finish
+# and not about the product, and folding it into the other two would put one
+# product at the top of two opposite lists at once.
+
+require "json"
+require "pathname"
+require "set"
+
+class CompareCardSourcesWithMtgjson
+  SETS_ROOT = Pathname(__dir__) + "../../magic-search-engine-data/data/sets"
+  DEFAULT_PATH = Pathname(__dir__) + "../tmp/card_sources.jsonl"
+  FINISHES = %W[nonfoil foil etched].freeze
+
+  def initialize(path)
+    @path = path
+    @ours = {}          # card uuid => {"nonfoil"/"premium" => Set[product uuid]}
+    @theirs = {}        # card uuid => {"nonfoil"/"premium" => Set[product uuid]}
+    @card_names = {}    # card uuid => "SOI 265 Tamiyo's Journal"
+    @product_names = {} # product uuid => "SOI Shadows over Innistrad Booster Pack"
+    @unknown_finishes = Set[]
+  end
+
+  def call
+    load_ours
+    load_mtgjson
+    report_dangling
+    report
+  end
+
+  def load_ours
+    @path.each_line do |line|
+      row = JSON.parse(line)
+      uuid = row["mtgjson_uuid"] or next
+      @card_names[uuid] = "#{row["set_code"].upcase} #{row["number"]} #{row["name"]}"
+      sources = {}
+      row["sources"].each do |finish, entry|
+        products = Set.new
+        %W[products_direct products_indirect].each do |key|
+          (entry[key] || []).each do |product|
+            products << product["uuid"] if product["uuid"]
+          end
+        end
+        sources[finish] = products unless products.empty?
+      end
+      @ours[uuid] = merge_premium(sources) unless sources.empty?
+    end
+  end
+
+  def load_mtgjson
+    unless SETS_ROOT.exist?
+      abort "Could not find mtgjson sets data, expected at #{SETS_ROOT}"
+    end
+    SETS_ROOT.glob("*.json").sort.each do |path|
+      set = JSON.parse(path.read)
+      set = set["data"] if set["data"]
+      set_code = set["code"]
+      (set["sealedProduct"] || []).each do |product|
+        @product_names[product["uuid"]] = "#{set_code} #{product["name"]}"
+      end
+      (set["cards"] || []).each do |card|
+        source_products = card["sourceProducts"] or next
+        sources = source_products.map{|finish, uuids| [finish, Set.new(uuids)] }.to_h
+        next if sources.each_value.all?(&:empty?)
+        @theirs[card["uuid"]] = merge_premium(sources)
+        @card_names[card["uuid"]] ||= "#{set_code} #{card["number"]} #{card["name"]}"
+      end
+    end
+  end
+
+  # sourceProducts can name products that are in no set's sealedProduct list.
+  # Nothing we do can match those, so take them out before comparing and say so.
+  def report_dangling
+    @dangling = Set.new
+    @theirs.each_value do |sources|
+      sources.each_value do |uuids|
+        uuids.each{|uuid| @dangling << uuid unless @product_names[uuid] }
+      end
+    end
+    return if @dangling.empty?
+
+    referenced = Hash.new(0)
+    @theirs.each_value{|sources| sources.each_value{|uuids| (uuids & @dangling).each{|uuid| referenced[uuid] += 1 } } }
+    puts "#{@dangling.size} product uuids in sourceProducts are in no sealedProduct list, ignored below:"
+    referenced.sort_by{|uuid, count| [-count, uuid] }.each do |uuid, count|
+      puts "  #{uuid} - referenced by #{count} cards"
+    end
+    puts
+  end
+
+  # foil and etched are one bucket, so that the report is about which products
+  # contain a card rather than about which premium finish each side chose
+  def merge_premium(sources)
+    # WotC keeps inventing premium treatments. A fourth finish would land in
+    # neither bucket and quietly shrink both sides, so say so once and go on.
+    (sources.keys - FINISHES).each do |finish|
+      warn "Ignoring unknown finish #{finish.inspect}" if @unknown_finishes.add?(finish)
+    end
+    premium = (sources["foil"] || Set[]) | (sources["etched"] || Set[])
+    result = {}
+    result["nonfoil"] = sources["nonfoil"] if sources["nonfoil"]
+    result["premium"] = premium unless premium.empty?
+    result
+  end
+
+  # Rows differ for two quite different reasons, and they have to be counted
+  # apart. A product one side lists and the other does not know about at all is
+  # a real disagreement. A product both sides list for the card, just under the
+  # other finish, is a disagreement about the finish alone - counting it as
+  # "only ours" on one row and "only theirs" on the next would put the same
+  # product at the top of both lists.
+  #
+  # Counts are cards, not rows, for the same reason: one such card is two
+  # differing rows and must not vote twice.
+  def report
+    same = 0
+    differences = []
+    only_ours = Hash.new(0)
+    only_theirs = Hash.new(0)
+    moved = Hash.new(0)
+
+    (@ours.keys | @theirs.keys).each do |uuid|
+      ours = @ours[uuid] || {}
+      theirs = @theirs[uuid] || {}
+      # Everything either side lists for this card under any finish at all
+      ours_any = ours.each_value.inject(Set[]){|all, products| all | products }
+      theirs_any = theirs.each_value.inject(Set[]){|all, products| all | products } - @dangling
+      card_only_ours = Set[]
+      card_only_theirs = Set[]
+      card_moved = Set[]
+
+      (ours.keys | theirs.keys).each do |finish|
+        mine = ours[finish] || Set[]
+        yours = (theirs[finish] || Set[]) - @dangling
+        if mine == yours
+          same += 1
+          next
+        end
+        ours_moved, ours_new = (mine - yours).partition{|product| theirs_any.include?(product) }
+        theirs_moved, theirs_new = (yours - mine).partition{|product| ours_any.include?(product) }
+        differences << [uuid, finish, ours_new, ours_moved, theirs_new, theirs_moved]
+        card_only_ours.merge(ours_new)
+        card_only_theirs.merge(theirs_new)
+        card_moved.merge(ours_moved).merge(theirs_moved)
+      end
+
+      card_only_ours.each{|product| only_ours[product] += 1 }
+      card_only_theirs.each{|product| only_theirs[product] += 1 }
+      card_moved.each{|product| moved[product] += 1 }
+    end
+
+    puts "#{same} card/finish rows agree, #{differences.size} differ, over nonfoil and premium"
+    print_products("  products only we list", only_ours)
+    print_products("  products only mtgjson lists", only_theirs)
+    print_products("  products both list, under the other finish", moved)
+    if differences.size <= 100
+      differences.sort_by{|uuid, finish, *_| [@card_names[uuid].to_s, finish] }.each do |uuid, finish, ours_new, ours_moved, theirs_new, theirs_moved|
+        puts "  #{@card_names[uuid] || uuid} [#{finish}]"
+        puts "    +#{ours_new.size} ours: #{sample_products(ours_new)}" unless ours_new.empty?
+        puts "    +#{ours_moved.size} ours, mtgjson has them under the other finish: #{sample_products(ours_moved)}" unless ours_moved.empty?
+        puts "    +#{theirs_new.size} theirs: #{sample_products(theirs_new)}" unless theirs_new.empty?
+        puts "    +#{theirs_moved.size} theirs, we have them under the other finish: #{sample_products(theirs_moved)}" unless theirs_moved.empty?
+      end
+    end
+    puts
+  end
+
+  def print_products(label, counts)
+    return if counts.empty?
+    puts "#{label} (#{counts.size} distinct, top 10):"
+    counts.sort_by{|product, count| [-count, product] }.first(10).each do |product, count|
+      puts "    #{count} #{count == 1 ? "card" : "cards"} x #{@product_names[product] || product}"
+    end
+  end
+
+  def sample_products(products)
+    names = products.map{|product| @product_names[product] || product }.sort
+    names.first(3).join(", ") + (names.size > 3 ? ", ..." : "")
+  end
+end
+
+path = ARGV[0] ? Pathname(ARGV[0]) : CompareCardSourcesWithMtgjson::DEFAULT_PATH
+unless path.exist?
+  abort "No #{path}, run ./bin/report_card_sources first, or pass a path"
+end
+CompareCardSourcesWithMtgjson.new(path).call

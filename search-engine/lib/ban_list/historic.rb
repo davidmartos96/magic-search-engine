@@ -1,8 +1,3 @@
-# This banlist doesn't distinguish "suspended" from "banned"
-# "conjurable" and "specialized" are technically not a B&R issue, they're cards which
-# can't go into a deck at all. Format::RESTRICTED_STATUSES groups them with the
-# other restricted-family statuses for restricted: and f: searches - see _LEGALITY.md
-
 BanList.for_format("historic") do
   change(
     "2019-12-10",
@@ -68,17 +63,17 @@ BanList.for_format("historic") do
     "Uro, Titan of Nature's Wrath" => "banned",
   )
 
-  # preemptively banned
+  # Arrived with Strixhaven Mystical Archive
   change(
     "2021-04-23",
     "https://twitter.com/MTG_Arena/status/1362555679844814853",
-    "Swords to Plowshares" => "banned",
-    "Counterspell" => "banned",
-    "Dark Ritual" => "banned",
-    "Demonic Tutor" => "banned",
-    "Lightning Bolt" => "banned",
-    "Channel" => "banned",
-    "Natural Order" => "banned",
+    "Swords to Plowshares" => "prebanned",
+    "Counterspell" => "prebanned",
+    "Dark Ritual" => "prebanned",
+    "Demonic Tutor" => "prebanned",
+    "Lightning Bolt" => "prebanned",
+    "Channel" => "prebanned",
+    "Natural Order" => "prebanned",
   )
 
   change(
@@ -102,7 +97,7 @@ BanList.for_format("historic") do
   # J21 conjured
   change(
     "2021-08-26",
-    nil,
+    "These cards are conjurable only",
     "Kraken Hatchling" => "conjurable",
     "Ponder" => "conjurable",
     "Regal Force" => "conjurable",
@@ -117,6 +112,17 @@ BanList.for_format("historic") do
     "Memory Lapse" => "banned",
   )
 
+  # Alchemy launch. "This rebalanced version of Omnath, Locus of Creation is legal in
+  # Alchemy, Historic, and other digital-only formats (the original remains banned in
+  # Standard)." The rebalance was reverted later, and mtgjson only keeps cards which are
+  # still rebalanced, so there's no A- version of it in the data - just the original,
+  # legal in Historic ever since.
+  change(
+    "2021-12-09",
+    "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-state-game-alchemy-2021-12-02",
+    "Omnath, Locus of Creation" => "legal", # rebalanced version
+  )
+
   change(
     "2022-01-25",
     "https://magic.wizards.com/en/articles/archive/news/january-25-2022-banned-and-restricted-announcement",
@@ -124,11 +130,18 @@ BanList.for_format("historic") do
     "Teferi, Time Raveler" => "legal", # rebalanced version
   )
 
+  # "Costs 4R (from 3R), unbanned in Historic" - same story as Omnath above,
+  # the rebalance is long gone, the original is legal
+  change(
+    "2022-02-24",
+    "https://magic.wizards.com/en/news/mtg-arena/alchemy-rebalancing-february-24-2022",
+    "Fires of Invention" => "legal", # rebalanced version
+  )
+
   # HBG conjured/specialized
   change(
     "2022-07-07",
-    nil,
-    # Specialized cards
+    "These cards are specialized/conjurable only",
     "Alora, Cheerful Assassin" => "specialized",
     "Alora, Cheerful Mastermind" => "specialized",
     "Alora, Cheerful Scout" => "specialized",
@@ -259,8 +272,7 @@ BanList.for_format("historic") do
   # YDMU
   change(
     "2022-10-05",
-    nil,
-    # conjure only cards
+    "These cards are conjurable only",
     "Ancestral Recall" => "conjurable",
     "Time Walk" => "conjurable",
     "Timetwister" => "conjurable",
@@ -272,29 +284,57 @@ BanList.for_format("historic") do
     "Mox Sapphire" => "conjurable",
   )
 
-  # BRR preemptively banned
+  # BRR
   change(
     "2022-11-18",
     "https://twitter.com/MTG_Arena/status/1586775900842074126",
-    "Mishra's Bauble" => "banned",
+    "Mishra's Bauble" => "prebanned",
   )
 
-  # MUL preemptively banned
+  # Most Alchemy sets since YBRO end with an appendix of conjure-only cards, numbered
+  # after every normal card in the set: YONE 31, YWOE 31, YLCI 31, YDFT 31, YEOE 41,
+  # YECL 31-33, YSOS 31-32. YBRO 31 History of Benalia is in the appendix too but is not
+  # conjure-only status - Arena has it as an ordinary DMU card, so its conjured printing
+  # changes nothing about what may go in a deck.
+  #
+  # mtgjson only shipped these printings in 5.3.0+20260901, dated to their original
+  # release, so they read as plainly legal here for years. The entries below are
+  # backdated to each set's Arena release instead of appended at the end, because that
+  # is when Arena got them - none of these was ever deck-legal for a day.
+  #
+  # YONE
+  change(
+    "2023-02-28",
+    "This card is conjurable only",
+    "Soul of New Phyrexia" => "conjurable",
+  )
+
+  # MUL. "All Multiverse Legends cards will be available to play in
+  # Historic upon release, except Ragavan, Nimble Pilferer, who is pre-banned in Historic
+  # but will still be available to play in Historic Brawl."
   change(
     "2023-04-21",
-    nil,
-    "Ragavan, Nimble Pilferer" => "banned",
+    "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-release-notes-march-of-the-machine",
+    "Ragavan, Nimble Pilferer" => "prebanned",
   )
 
   change(
-    "2023-08-15",
+    # Announced 2023-08-15, cards arrived with Wilds of Eldraine: Enchanting Tales
+    "2023-09-08",
     "https://twitter.com/MTG_Arena/status/1691515167111000064",
-    "Blood Moon" => "banned",
-    "Intruder Alarm" => "banned",
-    "Land Tax" => "banned",
-    "Necropotence" => "banned",
-    "Sneak Attack" => "banned",
-    "Spreading Seas" => "banned",
+    "Blood Moon" => "prebanned",
+    "Intruder Alarm" => "prebanned",
+    "Land Tax" => "prebanned",
+    "Necropotence" => "prebanned",
+    "Sneak Attack" => "prebanned",
+    "Spreading Seas" => "prebanned",
+  )
+
+  # YWOE
+  change(
+    "2023-10-10",
+    "This card is conjurable only",
+    "Brawler's Plate" => "conjurable",
   )
 
   change(
@@ -307,53 +347,71 @@ BanList.for_format("historic") do
     "Windswept Heath" => "banned",
   )
 
+  # YLCI
   change(
-    "2024-02-05",
+    "2023-12-05",
+    "This card is conjurable only",
+    "Thieving Magpie" => "conjurable",
+  )
+
+  change(
+    "2024-02-09",
     "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-february-5-2024",
-    "Show and Tell" => "banned",
+    "Show and Tell" => "prebanned",
   )
 
   change(
-    "2024-04-08",
+    # Announced 2024-04-08, cards arrived with Breaking News
+    "2024-04-19",
     "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-april-8-2024",
-    "Commandeer" => "banned",
-    "Force of Vigor" => "banned",
-    "Mana Drain" => "banned",
-    "Reanimate" => "banned",
+    "Commandeer" => "prebanned",
+    "Force of Vigor" => "prebanned",
+    "Mana Drain" => "prebanned",
+    "Reanimate" => "prebanned",
   )
 
   change(
-    "2024-06-03",
+    # Announced 2024-06-03, cards arrived with Modern Horizons 3.
+    # The fetchlands are MH2 cards, but MH3 is when they reached Arena.
+    "2024-06-14",
     "http://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-june-3-2024",
-    "Harbinger of the Seas" => "banned",
-    "Winter Moon" => "banned",
-    "Solitude" => "banned",
-    "Subtlety" => "banned",
-    "Grief" => "banned",
-    "Fury" => "banned",
-    "Endurance" => "banned",
-    "Flare of Fortitude" => "banned",
-    "Flare of Denial" => "banned",
-    "Flare of Malice" => "banned",
-    "Flare of Duplication" => "banned",
-    "Flare of Cultivation" => "banned",
-    "Marsh Flats" => "banned",
-    "Scalding Tarn" => "banned",
-    "Verdant Catacombs" => "banned",
-    "Arid Mesa" => "banned",
-    "Misty Rainforest" => "banned",
+    "Harbinger of the Seas" => "prebanned",
+    "Winter Moon" => "prebanned",
+    "Solitude" => "prebanned",
+    "Subtlety" => "prebanned",
+    "Grief" => "prebanned",
+    "Fury" => "prebanned",
+    "Endurance" => "prebanned",
+    "Flare of Fortitude" => "prebanned",
+    "Flare of Denial" => "prebanned",
+    "Flare of Malice" => "prebanned",
+    "Flare of Duplication" => "prebanned",
+    "Flare of Cultivation" => "prebanned",
+    "Marsh Flats" => "prebanned",
+    "Scalding Tarn" => "prebanned",
+    "Verdant Catacombs" => "prebanned",
+    "Arid Mesa" => "prebanned",
+    "Misty Rainforest" => "prebanned",
   )
 
   change(
-    "2024-11-12",
+    # Announced 2024-11-12, arrived with Foundations Special Guests
+    "2024-11-15",
     "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-11-2024",
-    "Temporal Manipulation" => "banned",
+    "Temporal Manipulation" => "prebanned",
   )
 
   change(
     "2025-02-03",
     "https://magic.wizards.com/en/news/mtg-arena/announcements-february-3-2025",
     "Chrome Mox" => "banned",
+  )
+
+  # YDFT
+  change(
+    "2025-03-04",
+    "This card is conjurable only",
+    "Muraganda Petroglyphs" => "conjurable",
   )
 
   change(
@@ -363,46 +421,88 @@ BanList.for_format("historic") do
   )
 
   change(
-    "2025-07-21",
+    # Announced 2025-07-21, cards arrived with Edge of Eternities
+    "2025-08-01",
     "https://magic.wizards.com/en/news/mtg-arena/announcements-july-21-2025",
-    "Ancient Tomb" => "banned",
-    "Strip Mine" => "banned",
-    "Magus of the Moon" => "banned",
+    "Ancient Tomb" => "prebanned",
+    "Strip Mine" => "prebanned",
+    "Magus of the Moon" => "prebanned",
   )
 
-  # Not a banlist change. AA4 puts three of the five J21 conjured cards into the normal
-  # Arena card pool - 25 of its 28 cards are new to Arena and it conjures nothing, so it's
-  # an ordinary release, and a card printed in it is an ordinary card.
+  # YEOE's conjure-only appendix reached Arena the same day as the Mox Opal pre-ban, and
+  # a ban list takes one entry per date, so the two share a block. Flametongue Kavu is
+  # not part of the announcement the URL points at.
+  change(
+    "2025-08-19",
+    "https://magic.wizards.com/en/news/mtg-arena/announcements-august-18-2025",
+    "Mox Opal" => "prebanned",
+    "Flametongue Kavu" => "conjurable",
+  )
+
+  # The second half is not a banlist change. AA4 and the OMB bonus sheet put four of the
+  # five J21 conjured cards into the normal Arena card pool.
+  #
+  # AA4 is 28 cards, 25 of them new to Arena, and it conjures nothing - an ordinary
+  # release, so a card printed in it is an ordinary card.
+  #
+  # OMB is the bonus sheet of Through the Omenpaths, and the release FAQ settles it
+  # outright: "Those cards are legal for play in Historic, Timeless, and Brawl as well as
+  # any other format where a card with the same name is already permitted."
+  # https://magic.wizards.com/en/news/mtg-arena/through-the-omenpaths-release-faq
+  # Reanimate is the only OMB card that stays unplayable in Historic, and that's an
+  # ordinary ban (2024-04-08), not conjure-only status. Ponder is still conjured by
+  # Preponderant Pearl in YECL, which is no obstacle - a card can be both.
   #
   # Tropical Island is still conjure-only, J21 is still its only Arena printing.
-  #
-  # Ponder stays conjure-only. It looked like the same case - it's in OMB, released the
-  # same day - but OMB is a sheet of 40 cards which are all already on Arena, so it doesn't
-  # show anything is new, Ponder is still actively conjured by Preponderant Pearl in YECL,
-  # and the release FAQ doesn't say either way:
-  # https://magic.wizards.com/en/news/mtg-arena/through-the-omenpaths-release-faq
-  # The metagame settles it as well as anything can - Ponder is the 5th most played spell
-  # in Legacy and banned in Modern, but sees no Historic play at all, which it would if it
-  # were collectable: https://www.mtggoldfish.com/format-staples/historic/full/spells
-  # That argument only works for cards good enough that absence is meaningful, so it says
-  # nothing about the three above, which are weak and would see no play either way.
   change(
     "2025-09-23",
-    nil,
+    "https://magic.wizards.com/en/news/mtg-arena/through-the-omenpaths-card-and-event-updates",
+    "Broadside Bombardiers" => "prebanned",
+    "Gut, True Soul Zealot" => "prebanned",
+    # Previously conjurable only cards receive regular printings in AA4 and OMB
     "Kraken Hatchling" => "legal", # aa4
     "Regal Force" => "legal", # aa4
     "Stormfront Pegasus" => "legal", # aa4
+    "Ponder" => "legal", # omb
+  )
+
+  # Announced 2025-10-20, came to Arena in Powered Cube prize packs when the event
+  # started on 2025-10-28
+  change(
+    "2025-10-28",
+    "https://magic.wizards.com/en/news/mtg-arena/announcing-the-arena-powered-cube",
+    "Fireblast" => "prebanned",
+    "Preordain" => "prebanned",
+    "Pyrokinesis" => "prebanned",
+    "Seething Song" => "prebanned",
   )
 
   change(
-    "2025-11-10",
+    # Announced 2025-11-10, cards arrived with Avatar: The Last Airbender Eternal
+    "2025-11-21",
     "https://magic.wizards.com/en/news/announcements/banned-and-restricted-november-10-2025",
-    # pre-banned
-    "Force of Negation" => "banned",
-    "Frantic Search" => "banned",
-    "Mystical Tutor" => "banned",
-    "Entomb" => "banned",
-    "Dark Depths" => "banned",
+    "Force of Negation" => "prebanned",
+    "Frantic Search" => "prebanned",
+    "Mystical Tutor" => "prebanned",
+    "Entomb" => "prebanned",
+    "Dark Depths" => "prebanned",
+  )
+
+  # Announced 2026-01-12, came to Arena as Lorwyn Eclipsed Special Guests
+  change(
+    "2026-01-23",
+    "https://magic.wizards.com/en/news/mtg-arena/announcements-january-12-2026",
+    "Devoted Druid" => "prebanned",
+    "Painter's Servant" => "prebanned",
+  )
+
+  # YECL
+  change(
+    "2026-02-03",
+    "These cards are conjurable only",
+    "Blowfly Infestation" => "conjurable",
+    "Rite of Flame" => "conjurable",
+    "Stonybrook Schoolmaster" => "conjurable",
   )
 
   change(
@@ -427,19 +527,31 @@ BanList.for_format("historic") do
     "Food Chain" => "banned",
   )
 
+  # /news/mtg-arena/arena-powered-cube-draft gets overwritten with every new cube run,
+  # so the live URL no longer says anything about this ban - archived copy of the
+  # "Arena Powered Cube Draft: March 31-April 21" article it used to be instead
   change(
     "2026-03-30",
-    "https://magic.wizards.com/en/news/mtg-arena/arena-powered-cube-draft",
+    "https://web.archive.org/web/20260402085746/https://magic.wizards.com/en/news/mtg-arena/arena-powered-cube-draft",
     "Survival of the Fittest" => "banned",
   )
 
   change(
-    "2026-04-20",
+    # Announced 2026-04-20, cards arrived with Secrets of Strixhaven Mystical Archive
+    "2026-04-24",
     "https://magic.wizards.com/en/news/mtg-arena/announcements-april-20-2026",
-    "Armageddon" => "banned",
-    "Daze" => "banned",
-    "Force of Will" => "banned",
-    "Vampiric Tutor" => "banned",
-    "Library of Alexandria" => "banned",
+    "Armageddon" => "prebanned",
+    "Daze" => "prebanned",
+    "Force of Will" => "prebanned",
+    "Vampiric Tutor" => "prebanned",
+    "Library of Alexandria" => "prebanned",
+  )
+
+  # YSOS
+  change(
+    "2026-05-19",
+    "These cards are conjurable only",
+    "Bridge from Below" => "conjurable",
+    "Storm Crow" => "conjurable",
   )
 end

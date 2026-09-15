@@ -109623,6 +109623,16 @@
           "set": "CMM",
           "number": "1056"
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Zhulodok, Void Gorger",
+          "count": 1,
+          "set": "CMM",
+          "number": "779",
+          "foil": true,
+          "etched": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/commander-masters-commander-decklists"
@@ -110005,6 +110015,16 @@
           "set": "CMM",
           "number": "798"
         }
+      ],
+      "Display Commander": [
+        {
+          "name": "Anikthea, Hand of Erebos",
+          "count": 1,
+          "set": "CMM",
+          "number": "780",
+          "foil": true,
+          "etched": true
+        }
       ]
     },
     "source": "https://magic.wizards.com/en/news/announcements/commander-masters-commander-decklists"
@@ -110386,6 +110406,16 @@
           "count": 3,
           "set": "CMM",
           "number": "787"
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Commodore Guff",
+          "count": 1,
+          "set": "CMM",
+          "number": "781",
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -110790,6 +110820,16 @@
           "count": 3,
           "set": "CMM",
           "number": "799"
+        }
+      ],
+      "Display Commander": [
+        {
+          "name": "Sliver Gravemother",
+          "count": 1,
+          "set": "CMM",
+          "number": "782",
+          "foil": true,
+          "etched": true
         }
       ]
     },
@@ -123565,6 +123605,89 @@
       ]
     },
     "source": "https://magic.wizards.com/en/products/aetherdrift"
+  },
+  {
+    "name": "Aetherdrift Finish Line Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Aetherdrift",
+    "set_code": "dft",
+    "release_date": "2025-02-14",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 3,
+          "set": "DFT",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "DFT",
+          "number": "507",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 3,
+          "set": "DFT",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "DFT",
+          "number": "508",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 3,
+          "set": "DFT",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "DFT",
+          "number": "509",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 3,
+          "set": "DFT",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "DFT",
+          "number": "510",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 3,
+          "set": "DFT",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "DFT",
+          "number": "511",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-aetherdrift"
   },
   {
     "name": "Aetherdrift Redemption",
@@ -148346,6 +148469,54 @@
     "source": "https://magic.wizards.com/en/products/duskmourn-house-of-horror"
   },
   {
+    "name": "Duskmourn: House of Horror Nightmare Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Duskmourn: House of Horror",
+    "set_code": "dsk",
+    "release_date": "2024-10-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "DSK",
+          "number": "272",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "DSK",
+          "number": "273",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "DSK",
+          "number": "274",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "DSK",
+          "number": "275",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "DSK",
+          "number": "276",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-duskmourn"
+  },
+  {
     "name": "Duskmourn: House of Horror Redemption",
     "type": "MTGO Redemption",
     "category": "box",
@@ -159911,6 +160082,49 @@
       ]
     },
     "source": "https://magic.wizards.com/en/products/lorwyn-eclipsed"
+  },
+  {
+    "name": "Lorwyn Eclipsed Draft Night Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Lorwyn Eclipsed",
+    "set_code": "ecl",
+    "release_date": "2026-01-23",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 18,
+          "set": "ECL",
+          "number": "*"
+        },
+        {
+          "name": "Island",
+          "count": 18,
+          "set": "ECL",
+          "number": "*"
+        },
+        {
+          "name": "Swamp",
+          "count": 18,
+          "set": "ECL",
+          "number": "*"
+        },
+        {
+          "name": "Mountain",
+          "count": 18,
+          "set": "ECL",
+          "number": "*"
+        },
+        {
+          "name": "Forest",
+          "count": 18,
+          "set": "ECL",
+          "number": "*"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-lorwyn-eclipsed"
   },
   {
     "name": "Lorwyn Eclipsed Redemption",
@@ -205431,6 +205645,62 @@
     "source": "https://magic.wizards.com/en/news/announcements/the-hobbit-welcome-decks"
   },
   {
+    "name": "Crack the Plates",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "The Hobbit",
+    "set_code": "hob",
+    "release_date": "2026-08-14",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Fíli and Kíli, Joyous",
+          "count": 1,
+          "set": "HOC",
+          "number": "1",
+          "foil": true
+        },
+        {
+          "name": "Gandalf, Party Guest",
+          "count": 1,
+          "set": "HOC",
+          "number": "2",
+          "foil": true
+        },
+        {
+          "name": "Thorin, King of Durin's Folk",
+          "count": 1,
+          "set": "HOC",
+          "number": "3",
+          "foil": true
+        },
+        {
+          "name": "Bilbo, Fellow Conspirator",
+          "count": 1,
+          "set": "HOC",
+          "number": "4",
+          "foil": true
+        },
+        {
+          "name": "Bag End Banquet",
+          "count": 1,
+          "set": "HOC",
+          "number": "5",
+          "foil": true
+        },
+        {
+          "name": "Ori, Plate Stacker",
+          "count": 1,
+          "set": "HOC",
+          "number": "6",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/all-the-scene-cards-from-the-hobbit",
+    "display": "The Hobbit Scene Box - Crack the Plates - 6 traditional foil borderless scene cards"
+  },
+  {
     "name": "Green Deck",
     "type": "Welcome Deck",
     "category": "deck",
@@ -205666,18 +205936,31 @@
     "category": "deck",
     "set_name": "The Hobbit",
     "set_code": "hob",
-    "release_date": "2026-01-23",
+    "release_date": "2026-08-14",
     "cards": {
       "Main Deck": [
         {
           "name": "Plains",
           "count": 2,
           "set": "HOB",
+          "number": "189"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
           "number": "194"
         },
         {
           "name": "Plains",
           "count": 2,
+          "set": "HOB",
+          "number": "189",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
           "set": "HOB",
           "number": "194",
           "foil": true
@@ -205686,11 +205969,24 @@
           "name": "Island",
           "count": 2,
           "set": "HOB",
+          "number": "190"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "HOB",
           "number": "195"
         },
         {
           "name": "Island",
           "count": 2,
+          "set": "HOB",
+          "number": "190",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
           "set": "HOB",
           "number": "195",
           "foil": true
@@ -205699,11 +205995,24 @@
           "name": "Swamp",
           "count": 2,
           "set": "HOB",
+          "number": "191"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "HOB",
           "number": "196"
         },
         {
           "name": "Swamp",
           "count": 2,
+          "set": "HOB",
+          "number": "191",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
           "set": "HOB",
           "number": "196",
           "foil": true
@@ -205712,11 +206021,24 @@
           "name": "Mountain",
           "count": 2,
           "set": "HOB",
+          "number": "192"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "HOB",
           "number": "197"
         },
         {
           "name": "Mountain",
           "count": 2,
+          "set": "HOB",
+          "number": "192",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
           "set": "HOB",
           "number": "197",
           "foil": true
@@ -205725,20 +206047,27 @@
           "name": "Forest",
           "count": 2,
           "set": "HOB",
+          "number": "193"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "HOB",
           "number": "198"
         },
         {
           "name": "Forest",
           "count": 2,
           "set": "HOB",
-          "number": "198",
+          "number": "193",
           "foil": true
         },
         {
-          "name": "Plains",
+          "name": "Forest",
           "count": 1,
           "set": "HOB",
-          "number": "313"
+          "number": "198",
+          "foil": true
         },
         {
           "name": "Plains",
@@ -205751,20 +206080,8 @@
           "name": "Plains",
           "count": 1,
           "set": "HOB",
-          "number": "314"
-        },
-        {
-          "name": "Plains",
-          "count": 1,
-          "set": "HOB",
           "number": "314",
           "foil": true
-        },
-        {
-          "name": "Plains",
-          "count": 1,
-          "set": "HOB",
-          "number": "315"
         },
         {
           "name": "Plains",
@@ -205777,13 +206094,193 @@
           "name": "Plains",
           "count": 1,
           "set": "HOB",
-          "number": "316"
+          "number": "316",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-the-hobbit"
+  },
+  {
+    "name": "The Hobbit Draft Night Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "The Hobbit",
+    "set_code": "hob",
+    "release_date": "2026-08-14",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 18,
+          "set": "HOB",
+          "number": "189"
+        },
+        {
+          "name": "Island",
+          "count": 18,
+          "set": "HOB",
+          "number": "190"
+        },
+        {
+          "name": "Swamp",
+          "count": 18,
+          "set": "HOB",
+          "number": "191"
+        },
+        {
+          "name": "Mountain",
+          "count": 18,
+          "set": "HOB",
+          "number": "192"
+        },
+        {
+          "name": "Forest",
+          "count": 18,
+          "set": "HOB",
+          "number": "193"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-the-hobbit"
+  },
+  {
+    "name": "The Hobbit Gift Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "The Hobbit",
+    "set_code": "hob",
+    "release_date": "2026-09-04",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "HOB",
+          "number": "189"
         },
         {
           "name": "Plains",
           "count": 1,
           "set": "HOB",
-          "number": "316",
+          "number": "194"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "HOB",
+          "number": "189",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "HOB",
+          "number": "194",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "HOB",
+          "number": "190"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "HOB",
+          "number": "195"
+        },
+        {
+          "name": "Island",
+          "count": 2,
+          "set": "HOB",
+          "number": "190",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "HOB",
+          "number": "195",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "HOB",
+          "number": "191"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "HOB",
+          "number": "196"
+        },
+        {
+          "name": "Swamp",
+          "count": 2,
+          "set": "HOB",
+          "number": "191",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "HOB",
+          "number": "196",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "HOB",
+          "number": "192"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "HOB",
+          "number": "197"
+        },
+        {
+          "name": "Mountain",
+          "count": 2,
+          "set": "HOB",
+          "number": "192",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "HOB",
+          "number": "197",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "HOB",
+          "number": "193"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "HOB",
+          "number": "198"
+        },
+        {
+          "name": "Forest",
+          "count": 2,
+          "set": "HOB",
+          "number": "193",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "HOB",
+          "number": "198",
           "foil": true
         },
         {
@@ -205817,6 +206314,62 @@
       ]
     },
     "source": "https://magic.wizards.com/en/news/feature/collecting-the-hobbit"
+  },
+  {
+    "name": "Treasures of Smaug",
+    "type": "Box Set",
+    "category": "box",
+    "set_name": "The Hobbit",
+    "set_code": "hob",
+    "release_date": "2026-08-14",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Long-Lost Lances",
+          "count": 1,
+          "set": "HOC",
+          "number": "7",
+          "foil": true
+        },
+        {
+          "name": "Dragon-Cursed Halls",
+          "count": 1,
+          "set": "HOC",
+          "number": "8",
+          "foil": true
+        },
+        {
+          "name": "Smaug the Impenetrable",
+          "count": 1,
+          "set": "HOC",
+          "number": "9",
+          "foil": true
+        },
+        {
+          "name": "Bilbo's Burglaring",
+          "count": 1,
+          "set": "HOC",
+          "number": "10",
+          "foil": true
+        },
+        {
+          "name": "Dragon's Desire",
+          "count": 1,
+          "set": "HOC",
+          "number": "11",
+          "foil": true
+        },
+        {
+          "name": "Necklace of Girion",
+          "count": 1,
+          "set": "HOC",
+          "number": "12",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/all-the-scene-cards-from-the-hobbit",
+    "display": "The Hobbit Scene Box - Treasures of Smaug - 6 traditional foil borderless scene cards"
   },
   {
     "name": "White Deck",
@@ -273126,6 +273679,84 @@
       ]
     },
     "source": "default database query; https://www.mtgo.com/news/mtgo-lci-11072023"
+  },
+  {
+    "name": "The Lost Caverns of Ixalan Gift Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "The Lost Caverns of Ixalan",
+    "set_code": "lci",
+    "release_date": "2023-12-08",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "LCI",
+          "number": "287"
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "LCI",
+          "number": "288"
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "LCI",
+          "number": "289"
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "LCI",
+          "number": "290"
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "LCI",
+          "number": "291"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "LCI",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "LCI",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "LCI",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "LCI",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "LCI",
+          "number": "*",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-the-lost-caverns-of-ixalan"
   },
   {
     "name": "The Lost Caverns of Ixalan Redemption",
@@ -374340,7 +374971,7 @@
           "name": "Terramorphic Expanse",
           "count": 1,
           "set": "MSC",
-          "number": "828"
+          "number": "273"
         },
         {
           "name": "Unclaimed Territory",
@@ -375427,7 +376058,7 @@
           "name": "Terramorphic Expanse",
           "count": 1,
           "set": "MSC",
-          "number": "828"
+          "number": "273"
         },
         {
           "name": "Mind's Dilation",
@@ -375493,7 +376124,7 @@
           "name": "Farseek",
           "count": 1,
           "set": "MSC",
-          "number": "815"
+          "number": "173"
         },
         {
           "name": "Terramorph",
@@ -376727,7 +377358,7 @@
           "name": "Terramorphic Expanse",
           "count": 1,
           "set": "MSC",
-          "number": "828"
+          "number": "273"
         },
         {
           "name": "Plains",
@@ -377958,8 +378589,8 @@
         {
           "name": "Hero in Training",
           "count": 1,
-          "set": "MSH",
-          "number": "16"
+          "set": "MSC",
+          "number": "840"
         },
         {
           "name": "Soldier On",
@@ -377971,7 +378602,7 @@
           "name": "Mockingbird, Bobbi Morse",
           "count": 1,
           "set": "MSC",
-          "number": "522"
+          "number": "842"
         },
         {
           "name": "Ant-Man, Scott Lang",
@@ -378001,7 +378632,7 @@
           "name": "Hawkeye, Clint Barton",
           "count": 1,
           "set": "MSC",
-          "number": "518"
+          "number": "838"
         },
         {
           "name": "The Wasp, Janet Van Dyne",
@@ -378011,9 +378642,51 @@
         },
         {
           "name": "Plains",
-          "count": 8,
-          "set": "MSH",
-          "number": "277"
+          "count": 1,
+          "set": "MSC",
+          "number": "866"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSC",
+          "number": "867"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSC",
+          "number": "868"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSC",
+          "number": "869"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSC",
+          "number": "870"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSC",
+          "number": "871"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSC",
+          "number": "872"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSC",
+          "number": "873"
         },
         {
           "name": "Mandroid Squadron",
@@ -378430,15 +379103,57 @@
       "Main Deck": [
         {
           "name": "Mountain",
-          "count": 8,
-          "set": "MSH",
-          "number": "283"
+          "count": 1,
+          "set": "MSC",
+          "number": "858"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSC",
+          "number": "859"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSC",
+          "number": "860"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSC",
+          "number": "861"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSC",
+          "number": "862"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSC",
+          "number": "863"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSC",
+          "number": "864"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSC",
+          "number": "865"
         },
         {
           "name": "Smashing Spree",
           "count": 1,
           "set": "MSC",
-          "number": "555"
+          "number": "856"
         },
         {
           "name": "Concentrated Fire",
@@ -378449,8 +379164,8 @@
         {
           "name": "Crimson Operative",
           "count": 1,
-          "set": "MSH",
-          "number": "126"
+          "set": "MSC",
+          "number": "848"
         },
         {
           "name": "Power Boost",
@@ -378492,7 +379207,7 @@
           "name": "Quicksilver, Pietro Maximoff",
           "count": 1,
           "set": "MSC",
-          "number": "551"
+          "number": "853"
         },
         {
           "name": "Black Widow, Natasha Romanoff",
@@ -378504,7 +379219,7 @@
           "name": "Happy Hogan, Dauntless Driver",
           "count": 1,
           "set": "MSC",
-          "number": "545"
+          "number": "849"
         }
       ]
     },
@@ -378644,7 +379359,7 @@
           "name": "Tombstone, Career Criminal",
           "count": 1,
           "set": "MSC",
-          "number": "160"
+          "number": "577"
         },
         {
           "name": "Crossbones, Malicious Mercenary",
@@ -380642,7 +381357,7 @@
     "category": "deck",
     "set_name": "Marvel Super Heroes",
     "set_code": "msh",
-    "release_date": "2025-09-26",
+    "release_date": "2026-06-26",
     "cards": {
       "Main Deck": [
         {
@@ -380651,6 +381366,251 @@
           "set": "MSH",
           "number": "277"
         },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "287"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "288"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "277",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "287",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "288",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "279"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "289"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "290"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "279",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "289",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "290",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "281"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "291"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "292"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "281",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "291",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "292",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "283"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "293"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "294"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "283",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "293",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "294",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "285"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "295"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "296"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "285",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "295",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "296",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-marvel-super-heroes"
+  },
+  {
+    "name": "Marvel Super Heroes Draft Night Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Marvel Super Heroes",
+    "set_code": "msh",
+    "release_date": "2026-06-26",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 18,
+          "set": "MSH",
+          "number": "*"
+        },
+        {
+          "name": "Island",
+          "count": 18,
+          "set": "MSH",
+          "number": "*"
+        },
+        {
+          "name": "Swamp",
+          "count": 18,
+          "set": "MSH",
+          "number": "*"
+        },
+        {
+          "name": "Mountain",
+          "count": 18,
+          "set": "MSH",
+          "number": "*"
+        },
+        {
+          "name": "Forest",
+          "count": 18,
+          "set": "MSH",
+          "number": "*"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-marvel-super-heroes"
+  },
+  {
+    "name": "Marvel Super Heroes Gift Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Marvel Super Heroes",
+    "set_code": "msh",
+    "release_date": "2026-07-17",
+    "cards": {
+      "Main Deck": [
         {
           "name": "Plains",
           "count": 1,
@@ -380667,28 +381627,28 @@
           "name": "Plains",
           "count": 1,
           "set": "MSH",
+          "number": "288"
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "278",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
+          "number": "287",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 1,
+          "set": "MSH",
           "number": "288",
           "foil": true
-        },
-        {
-          "name": "Plains",
-          "count": 1,
-          "set": "MSH",
-          "number": "433",
-          "foil": true
-        },
-        {
-          "name": "Plains",
-          "count": 1,
-          "set": "MSH",
-          "number": "434",
-          "foil": true
-        },
-        {
-          "name": "Island",
-          "count": 1,
-          "set": "MSH",
-          "number": "279"
         },
         {
           "name": "Island",
@@ -380706,28 +381666,28 @@
           "name": "Island",
           "count": 1,
           "set": "MSH",
+          "number": "290"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "280",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
+          "number": "289",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "MSH",
           "number": "290",
           "foil": true
-        },
-        {
-          "name": "Island",
-          "count": 1,
-          "set": "MSH",
-          "number": "435",
-          "foil": true
-        },
-        {
-          "name": "Island",
-          "count": 1,
-          "set": "MSH",
-          "number": "436",
-          "foil": true
-        },
-        {
-          "name": "Swamp",
-          "count": 1,
-          "set": "MSH",
-          "number": "281"
         },
         {
           "name": "Swamp",
@@ -380745,28 +381705,28 @@
           "name": "Swamp",
           "count": 1,
           "set": "MSH",
+          "number": "292"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "282",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
+          "number": "291",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "MSH",
           "number": "292",
           "foil": true
-        },
-        {
-          "name": "Swamp",
-          "count": 1,
-          "set": "MSH",
-          "number": "437",
-          "foil": true
-        },
-        {
-          "name": "Swamp",
-          "count": 1,
-          "set": "MSH",
-          "number": "438",
-          "foil": true
-        },
-        {
-          "name": "Mountain",
-          "count": 1,
-          "set": "MSH",
-          "number": "283"
         },
         {
           "name": "Mountain",
@@ -380784,28 +381744,28 @@
           "name": "Mountain",
           "count": 1,
           "set": "MSH",
+          "number": "294"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "284",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
+          "number": "293",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "MSH",
           "number": "294",
           "foil": true
-        },
-        {
-          "name": "Mountain",
-          "count": 1,
-          "set": "MSH",
-          "number": "439",
-          "foil": true
-        },
-        {
-          "name": "Mountain",
-          "count": 1,
-          "set": "MSH",
-          "number": "440",
-          "foil": true
-        },
-        {
-          "name": "Forest",
-          "count": 1,
-          "set": "MSH",
-          "number": "285"
         },
         {
           "name": "Forest",
@@ -380823,65 +381783,28 @@
           "name": "Forest",
           "count": 1,
           "set": "MSH",
+          "number": "296"
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "286",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
+          "number": "295",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 1,
+          "set": "MSH",
           "number": "296",
           "foil": true
-        },
-        {
-          "name": "Forest",
-          "count": 1,
-          "set": "MSH",
-          "number": "441",
-          "foil": true
-        },
-        {
-          "name": "Forest",
-          "count": 1,
-          "set": "MSH",
-          "number": "442",
-          "foil": true
-        }
-      ]
-    },
-    "source": "https://magic.wizards.com/en/news/feature/collecting-marvel-super-heroes"
-  },
-  {
-    "name": "Marvel Super Heroes Draft Night Land Pack",
-    "type": "Bundle Land Pack",
-    "category": "deck",
-    "set_name": "Marvel Super Heroes",
-    "set_code": "msh",
-    "release_date": "2025-09-26",
-    "cards": {
-      "Main Deck": [
-        {
-          "name": "Plains",
-          "count": 18,
-          "set": "MSH",
-          "number": "*"
-        },
-        {
-          "name": "Island",
-          "count": 18,
-          "set": "MSH",
-          "number": "*"
-        },
-        {
-          "name": "Swamp",
-          "count": 18,
-          "set": "MSH",
-          "number": "*"
-        },
-        {
-          "name": "Mountain",
-          "count": 18,
-          "set": "MSH",
-          "number": "*"
-        },
-        {
-          "name": "Forest",
-          "count": 18,
-          "set": "MSH",
-          "number": "*"
         }
       ]
     },
@@ -403820,6 +404743,89 @@
       ]
     },
     "source": "https://magic.wizards.com/en/products/phyrexia-all-will-be-one"
+  },
+  {
+    "name": "Phyrexia: All Will Be One Compleat Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Phyrexia: All Will Be One",
+    "set_code": "one",
+    "release_date": "2023-03-03",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "ONE",
+          "number": "262",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "ONE",
+          "number": "263",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "ONE",
+          "number": "264",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "ONE",
+          "number": "265",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "ONE",
+          "number": "266",
+          "foil": true
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "ONE",
+          "number": "267",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "ONE",
+          "number": "268",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "ONE",
+          "number": "269",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "ONE",
+          "number": "270",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "ONE",
+          "number": "271",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-phyrexia-all-will-be-one"
   },
   {
     "name": "Phyrexia: All Will Be One Foil Redemption",
@@ -486421,7 +487427,7 @@
         },
         {
           "name": "Spirit",
-          "count": 2,
+          "count": 3,
           "set": "SLD",
           "number": "1852",
           "token": true
@@ -488056,6 +489062,84 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/762461"
+  },
+  {
+    "name": "Artist Series: Ian Miller",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Shivan Dragon",
+          "count": 1,
+          "set": "SLD",
+          "number": "2759"
+        },
+        {
+          "name": "Animar, Soul of Elements",
+          "count": 1,
+          "set": "SLD",
+          "number": "2760"
+        },
+        {
+          "name": "Korvold, Fae-Cursed King",
+          "count": 1,
+          "set": "SLD",
+          "number": "2761"
+        },
+        {
+          "name": "Tsabo Tavoc",
+          "count": 1,
+          "set": "SLD",
+          "number": "2762"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254376"
+  },
+  {
+    "name": "Artist Series: Ian Miller Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Shivan Dragon",
+          "count": 1,
+          "set": "SLD",
+          "number": "2759",
+          "foil": true
+        },
+        {
+          "name": "Animar, Soul of Elements",
+          "count": 1,
+          "set": "SLD",
+          "number": "2760",
+          "foil": true
+        },
+        {
+          "name": "Korvold, Fae-Cursed King",
+          "count": 1,
+          "set": "SLD",
+          "number": "2761",
+          "foil": true
+        },
+        {
+          "name": "Tsabo Tavoc",
+          "count": 1,
+          "set": "SLD",
+          "number": "2762",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254375"
   },
   {
     "name": "Artist Series: Jesper Ejsing",
@@ -492065,6 +493149,97 @@
     },
     "source": "https://secretlair.wizards.com/us/product/813930",
     "display": "Also includes one foil extended art sliver [SLD:610-667] or foil borderless Shadowborn Apostles [SLD:681-688]"
+  },
+  {
+    "name": "Cosmic Chill by Robin Eisenberg",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Orvar, the All-Form",
+          "count": 1,
+          "set": "SLD",
+          "number": "2867"
+        },
+        {
+          "name": "Sage of Hours",
+          "count": 1,
+          "set": "SLD",
+          "number": "2868"
+        },
+        {
+          "name": "See Double",
+          "count": 1,
+          "set": "SLD",
+          "number": "2869"
+        },
+        {
+          "name": "Slip Through Space",
+          "count": 1,
+          "set": "SLD",
+          "number": "2870"
+        },
+        {
+          "name": "Sway of the Stars",
+          "count": 1,
+          "set": "SLD",
+          "number": "2871"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254378"
+  },
+  {
+    "name": "Cosmic Chill by Robin Eisenberg Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Orvar, the All-Form",
+          "count": 1,
+          "set": "SLD",
+          "number": "2867",
+          "foil": true
+        },
+        {
+          "name": "Sage of Hours",
+          "count": 1,
+          "set": "SLD",
+          "number": "2868",
+          "foil": true
+        },
+        {
+          "name": "See Double",
+          "count": 1,
+          "set": "SLD",
+          "number": "2869",
+          "foil": true
+        },
+        {
+          "name": "Slip Through Space",
+          "count": 1,
+          "set": "SLD",
+          "number": "2870",
+          "foil": true
+        },
+        {
+          "name": "Sway of the Stars",
+          "count": 1,
+          "set": "SLD",
+          "number": "2871",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254377"
   },
   {
     "name": "Creepshow",
@@ -497904,6 +499079,97 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/865795"
+  },
+  {
+    "name": "Featuring: Gene Luen Yang",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Kibo, Uktabi Prince",
+          "count": 1,
+          "set": "SLD",
+          "number": "2401"
+        },
+        {
+          "name": "Ilharg, the Raze-Boar",
+          "count": 1,
+          "set": "SLD",
+          "number": "2402"
+        },
+        {
+          "name": "Kazuul, Tyrant of the Cliffs",
+          "count": 1,
+          "set": "SLD",
+          "number": "2403"
+        },
+        {
+          "name": "Dosan the Falling Leaf",
+          "count": 1,
+          "set": "SLD",
+          "number": "2404"
+        },
+        {
+          "name": "Quest for Renewal",
+          "count": 1,
+          "set": "SLD",
+          "number": "2405"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254380"
+  },
+  {
+    "name": "Featuring: Gene Luen Yang Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Kibo, Uktabi Prince",
+          "count": 1,
+          "set": "SLD",
+          "number": "2401",
+          "foil": true
+        },
+        {
+          "name": "Ilharg, the Raze-Boar",
+          "count": 1,
+          "set": "SLD",
+          "number": "2402",
+          "foil": true
+        },
+        {
+          "name": "Kazuul, Tyrant of the Cliffs",
+          "count": 1,
+          "set": "SLD",
+          "number": "2403",
+          "foil": true
+        },
+        {
+          "name": "Dosan the Falling Leaf",
+          "count": 1,
+          "set": "SLD",
+          "number": "2404",
+          "foil": true
+        },
+        {
+          "name": "Quest for Renewal",
+          "count": 1,
+          "set": "SLD",
+          "number": "2405",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254379"
   },
   {
     "name": "Featuring: Imiri Sakabashira",
@@ -505606,6 +506872,97 @@
     "source": "https://mtg.wiki/wiki/Secret_Lair_Drop_Series:_Li%E2%80%99l%E2%80%99est_Walkers"
   },
   {
+    "name": "Lofi Girl: Beats to Cast To",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Felidar Guardian",
+          "count": 1,
+          "set": "SLD",
+          "number": "2821"
+        },
+        {
+          "name": "Starfield of Nyx",
+          "count": 1,
+          "set": "SLD",
+          "number": "2822"
+        },
+        {
+          "name": "Careful Study",
+          "count": 1,
+          "set": "SLD",
+          "number": "2823"
+        },
+        {
+          "name": "Merchant Scroll",
+          "count": 1,
+          "set": "SLD",
+          "number": "2824"
+        },
+        {
+          "name": "Paradise Mantle",
+          "count": 1,
+          "set": "SLD",
+          "number": "2825"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254382"
+  },
+  {
+    "name": "Lofi Girl: Beats to Cast To Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Felidar Guardian",
+          "count": 1,
+          "set": "SLD",
+          "number": "2821",
+          "foil": true
+        },
+        {
+          "name": "Starfield of Nyx",
+          "count": 1,
+          "set": "SLD",
+          "number": "2822",
+          "foil": true
+        },
+        {
+          "name": "Careful Study",
+          "count": 1,
+          "set": "SLD",
+          "number": "2823",
+          "foil": true
+        },
+        {
+          "name": "Merchant Scroll",
+          "count": 1,
+          "set": "SLD",
+          "number": "2824",
+          "foil": true
+        },
+        {
+          "name": "Paradise Mantle",
+          "count": 1,
+          "set": "SLD",
+          "number": "2825",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254381"
+  },
+  {
     "name": "Look at the Kitties",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -506441,6 +507798,97 @@
     "source": "https://secretlair.wizards.com/us/product/1250084"
   },
   {
+    "name": "Marvel's Hulk: SMASH!",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Anger",
+          "count": 1,
+          "set": "SLD",
+          "number": "2595"
+        },
+        {
+          "name": "Gratuitous Violence",
+          "count": 1,
+          "set": "SLD",
+          "number": "2596"
+        },
+        {
+          "name": "Rishkar's Expertise",
+          "count": 1,
+          "set": "SLD",
+          "number": "2597"
+        },
+        {
+          "name": "Search for Tomorrow",
+          "count": 1,
+          "set": "SLD",
+          "number": "2598"
+        },
+        {
+          "name": "Unnatural Growth",
+          "count": 1,
+          "set": "SLD",
+          "number": "2599"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252791"
+  },
+  {
+    "name": "Marvel's Hulk: SMASH! Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Anger",
+          "count": 1,
+          "set": "SLD",
+          "number": "2595",
+          "foil": true
+        },
+        {
+          "name": "Gratuitous Violence",
+          "count": 1,
+          "set": "SLD",
+          "number": "2596",
+          "foil": true
+        },
+        {
+          "name": "Rishkar's Expertise",
+          "count": 1,
+          "set": "SLD",
+          "number": "2597",
+          "foil": true
+        },
+        {
+          "name": "Search for Tomorrow",
+          "count": 1,
+          "set": "SLD",
+          "number": "2598",
+          "foil": true
+        },
+        {
+          "name": "Unnatural Growth",
+          "count": 1,
+          "set": "SLD",
+          "number": "2599",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252790"
+  },
+  {
     "name": "Marvel's Iron Man",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -507232,6 +508680,201 @@
     "source": "https://secretlair.wizards.com/us/product/1018561"
   },
   {
+    "name": "Marvel: Dan Hipp",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mystical Dispute",
+          "count": 1,
+          "set": "SLD",
+          "number": "2617"
+        },
+        {
+          "name": "An Offer You Can't Refuse",
+          "count": 1,
+          "set": "SLD",
+          "number": "2618"
+        },
+        {
+          "name": "Training Grounds",
+          "count": 1,
+          "set": "SLD",
+          "number": "2619"
+        },
+        {
+          "name": "Endrek Sahr, Master Breeder",
+          "count": 1,
+          "set": "SLD",
+          "number": "2620"
+        },
+        {
+          "name": "Bristly Bill, Spine Sower",
+          "count": 1,
+          "set": "SLD",
+          "number": "2621"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252793"
+  },
+  {
+    "name": "Marvel: Dan Hipp Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Mystical Dispute",
+          "count": 1,
+          "set": "SLD",
+          "number": "2617",
+          "foil": true
+        },
+        {
+          "name": "An Offer You Can't Refuse",
+          "count": 1,
+          "set": "SLD",
+          "number": "2618",
+          "foil": true
+        },
+        {
+          "name": "Training Grounds",
+          "count": 1,
+          "set": "SLD",
+          "number": "2619",
+          "foil": true
+        },
+        {
+          "name": "Endrek Sahr, Master Breeder",
+          "count": 1,
+          "set": "SLD",
+          "number": "2620",
+          "foil": true
+        },
+        {
+          "name": "Bristly Bill, Spine Sower",
+          "count": 1,
+          "set": "SLD",
+          "number": "2621",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252792"
+  },
+  {
+    "name": "Marvel: Earth's Mightiest Pets",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Ephemerate",
+          "count": 1,
+          "set": "SLD",
+          "number": "2577"
+        },
+        {
+          "name": "Shark Typhoon",
+          "count": 1,
+          "set": "SLD",
+          "number": "2578"
+        },
+        {
+          "name": "Lightning Bolt",
+          "count": 1,
+          "set": "SLD",
+          "number": "2579"
+        },
+        {
+          "name": "Searing Blaze",
+          "count": 1,
+          "set": "SLD",
+          "number": "2580"
+        },
+        {
+          "name": "Commune with Dinosaurs",
+          "count": 1,
+          "set": "SLD",
+          "number": "2581"
+        },
+        {
+          "name": "Titanic Ultimatum",
+          "count": 1,
+          "set": "SLD",
+          "number": "2582"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252787"
+  },
+  {
+    "name": "Marvel: Earth's Mightiest Pets Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Ephemerate",
+          "count": 1,
+          "set": "SLD",
+          "number": "2577",
+          "foil": true
+        },
+        {
+          "name": "Shark Typhoon",
+          "count": 1,
+          "set": "SLD",
+          "number": "2578",
+          "foil": true
+        },
+        {
+          "name": "Lightning Bolt",
+          "count": 1,
+          "set": "SLD",
+          "number": "2579",
+          "foil": true
+        },
+        {
+          "name": "Searing Blaze",
+          "count": 1,
+          "set": "SLD",
+          "number": "2580",
+          "foil": true
+        },
+        {
+          "name": "Commune with Dinosaurs",
+          "count": 1,
+          "set": "SLD",
+          "number": "2581",
+          "foil": true
+        },
+        {
+          "name": "Titanic Ultimatum",
+          "count": 1,
+          "set": "SLD",
+          "number": "2582",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252786"
+  },
+  {
     "name": "Marvel: Spinner Rack Specials",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -507321,6 +508964,110 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/1253484"
+  },
+  {
+    "name": "Marvel: True Believers in Love",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Happily Ever After",
+          "count": 1,
+          "set": "SLD",
+          "number": "2611"
+        },
+        {
+          "name": "True Love's Kiss",
+          "count": 1,
+          "set": "SLD",
+          "number": "2612"
+        },
+        {
+          "name": "Run Away Together",
+          "count": 1,
+          "set": "SLD",
+          "number": "2613"
+        },
+        {
+          "name": "Savor the Moment",
+          "count": 1,
+          "set": "SLD",
+          "number": "2614"
+        },
+        {
+          "name": "Grave Pact",
+          "count": 1,
+          "set": "SLD",
+          "number": "2615"
+        },
+        {
+          "name": "Thrill of Possibility",
+          "count": 1,
+          "set": "SLD",
+          "number": "2616"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252789"
+  },
+  {
+    "name": "Marvel: True Believers in Love Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-01",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Happily Ever After",
+          "count": 1,
+          "set": "SLD",
+          "number": "2611",
+          "foil": true
+        },
+        {
+          "name": "True Love's Kiss",
+          "count": 1,
+          "set": "SLD",
+          "number": "2612",
+          "foil": true
+        },
+        {
+          "name": "Run Away Together",
+          "count": 1,
+          "set": "SLD",
+          "number": "2613",
+          "foil": true
+        },
+        {
+          "name": "Savor the Moment",
+          "count": 1,
+          "set": "SLD",
+          "number": "2614",
+          "foil": true
+        },
+        {
+          "name": "Grave Pact",
+          "count": 1,
+          "set": "SLD",
+          "number": "2615",
+          "foil": true
+        },
+        {
+          "name": "Thrill of Possibility",
+          "count": 1,
+          "set": "SLD",
+          "number": "2616",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1252788"
   },
   {
     "name": "Math Is For Blockers",
@@ -517885,6 +519632,458 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/605645"
+  },
+  {
+    "name": "The Hobbit: Desolation",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Defile",
+          "count": 1,
+          "set": "SLD",
+          "number": "2562"
+        },
+        {
+          "name": "Diabolic Intent",
+          "count": 1,
+          "set": "SLD",
+          "number": "2563"
+        },
+        {
+          "name": "Dread Return",
+          "count": 1,
+          "set": "SLD",
+          "number": "2564"
+        },
+        {
+          "name": "Mirkwood Bats",
+          "count": 1,
+          "set": "SLD",
+          "number": "2565"
+        },
+        {
+          "name": "Read the Bones",
+          "count": 1,
+          "set": "SLD",
+          "number": "2566"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254163"
+  },
+  {
+    "name": "The Hobbit: Desolation Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Defile",
+          "count": 1,
+          "set": "SLD",
+          "number": "2562",
+          "foil": true
+        },
+        {
+          "name": "Diabolic Intent",
+          "count": 1,
+          "set": "SLD",
+          "number": "2563",
+          "foil": true
+        },
+        {
+          "name": "Dread Return",
+          "count": 1,
+          "set": "SLD",
+          "number": "2564",
+          "foil": true
+        },
+        {
+          "name": "Mirkwood Bats",
+          "count": 1,
+          "set": "SLD",
+          "number": "2565",
+          "foil": true
+        },
+        {
+          "name": "Read the Bones",
+          "count": 1,
+          "set": "SLD",
+          "number": "2566",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254162"
+  },
+  {
+    "name": "The Hobbit: He Who Walks Unseen Out of Sight Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Arcane Heist",
+          "count": 1,
+          "set": "SLD",
+          "number": "2567",
+          "foil": true
+        },
+        {
+          "name": "Contentious Plan",
+          "count": 1,
+          "set": "SLD",
+          "number": "2568",
+          "foil": true
+        },
+        {
+          "name": "Curiosity",
+          "count": 1,
+          "set": "SLD",
+          "number": "2569",
+          "foil": true
+        },
+        {
+          "name": "Solve the Equation",
+          "count": 1,
+          "set": "SLD",
+          "number": "2570",
+          "foil": true
+        },
+        {
+          "name": "Windfall",
+          "count": 1,
+          "set": "SLD",
+          "number": "2571",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254155"
+  },
+  {
+    "name": "The Hobbit: Over the Edge of the Wild",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Cloudshift",
+          "count": 1,
+          "set": "SLD",
+          "number": "2552"
+        },
+        {
+          "name": "Tocasia's Welcome",
+          "count": 1,
+          "set": "SLD",
+          "number": "2553"
+        },
+        {
+          "name": "Stony Silence",
+          "count": 1,
+          "set": "SLD",
+          "number": "2554"
+        },
+        {
+          "name": "Imp's Mischief",
+          "count": 1,
+          "set": "SLD",
+          "number": "2555"
+        },
+        {
+          "name": "Seize the Spoils",
+          "count": 1,
+          "set": "SLD",
+          "number": "2556"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254159"
+  },
+  {
+    "name": "The Hobbit: Over the Edge of the Wild Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Cloudshift",
+          "count": 1,
+          "set": "SLD",
+          "number": "2552",
+          "foil": true
+        },
+        {
+          "name": "Tocasia's Welcome",
+          "count": 1,
+          "set": "SLD",
+          "number": "2553",
+          "foil": true
+        },
+        {
+          "name": "Stony Silence",
+          "count": 1,
+          "set": "SLD",
+          "number": "2554",
+          "foil": true
+        },
+        {
+          "name": "Imp's Mischief",
+          "count": 1,
+          "set": "SLD",
+          "number": "2555",
+          "foil": true
+        },
+        {
+          "name": "Seize the Spoils",
+          "count": 1,
+          "set": "SLD",
+          "number": "2556",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254158"
+  },
+  {
+    "name": "The Hobbit: Second Breakfast and Beyond",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2545",
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2546",
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2547",
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2548",
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2549",
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2550",
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2551",
+          "token": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254157"
+  },
+  {
+    "name": "The Hobbit: Second Breakfast and Beyond Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2545",
+          "foil": true,
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2546",
+          "foil": true,
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2547",
+          "foil": true,
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2548",
+          "foil": true,
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2549",
+          "foil": true,
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2550",
+          "foil": true,
+          "token": true
+        },
+        {
+          "name": "Food",
+          "count": 1,
+          "set": "SLD",
+          "number": "2551",
+          "foil": true,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254156"
+  },
+  {
+    "name": "The Hobbit: Smaug's Spoils",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Fellwar Stone",
+          "count": 1,
+          "set": "SLD",
+          "number": "2557"
+        },
+        {
+          "name": "Lightning Greaves",
+          "count": 1,
+          "set": "SLD",
+          "number": "2558"
+        },
+        {
+          "name": "Liquimetal Torque",
+          "count": 1,
+          "set": "SLD",
+          "number": "2559"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "2560"
+        },
+        {
+          "name": "Thought Vessel",
+          "count": 1,
+          "set": "SLD",
+          "number": "2561"
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254161"
+  },
+  {
+    "name": "The Hobbit: Smaug's Spoils Foil Edition",
+    "type": "Secret Lair Drop",
+    "category": "box",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-08-18",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Fellwar Stone",
+          "count": 1,
+          "set": "SLD",
+          "number": "2557",
+          "foil": true
+        },
+        {
+          "name": "Lightning Greaves",
+          "count": 1,
+          "set": "SLD",
+          "number": "2558",
+          "foil": true
+        },
+        {
+          "name": "Liquimetal Torque",
+          "count": 1,
+          "set": "SLD",
+          "number": "2559",
+          "foil": true
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "2560",
+          "foil": true
+        },
+        {
+          "name": "Thought Vessel",
+          "count": 1,
+          "set": "SLD",
+          "number": "2561",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://secretlair.wizards.com/us/product/1254160"
   },
   {
     "name": "The Last of Us Part I",
@@ -542067,6 +544266,97 @@
       ]
     },
     "source": "https://magic.wizards.com/en/products/secrets-of-strixhaven"
+  },
+  {
+    "name": "Secrets of Strixhaven Codex Bundle Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-05-15",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "SOS",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "SOS",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "SOS",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Mountain",
+          "count": 4,
+          "set": "SOS",
+          "number": "*",
+          "foil": true
+        },
+        {
+          "name": "Forest",
+          "count": 4,
+          "set": "SOS",
+          "number": "*",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-secrets-of-strixhaven"
+  },
+  {
+    "name": "Secrets of Strixhaven Draft Night Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Secrets of Strixhaven",
+    "set_code": "sos",
+    "release_date": "2026-04-24",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 18,
+          "set": "SOS",
+          "number": "*"
+        },
+        {
+          "name": "Island",
+          "count": 18,
+          "set": "SOS",
+          "number": "*"
+        },
+        {
+          "name": "Swamp",
+          "count": 18,
+          "set": "SOS",
+          "number": "*"
+        },
+        {
+          "name": "Mountain",
+          "count": 18,
+          "set": "SOS",
+          "number": "*"
+        },
+        {
+          "name": "Forest",
+          "count": 18,
+          "set": "SOS",
+          "number": "*"
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-secrets-of-strixhaven"
   },
   {
     "name": "Secrets of Strixhaven Redemption",
@@ -573130,133 +575420,111 @@
         },
         {
           "name": "Plains",
-          "count": 1,
-          "set": "TMT",
-          "number": "253"
-        },
-        {
-          "name": "Plains",
-          "count": 1,
-          "set": "TMT",
-          "number": "253",
-          "foil": true
-        },
-        {
-          "name": "Island",
-          "count": 1,
-          "set": "TMT",
-          "number": "254"
-        },
-        {
-          "name": "Island",
-          "count": 1,
-          "set": "TMT",
-          "number": "254",
-          "foil": true
-        },
-        {
-          "name": "Swamp",
-          "count": 1,
-          "set": "TMT",
-          "number": "255"
-        },
-        {
-          "name": "Swamp",
-          "count": 1,
-          "set": "TMT",
-          "number": "255",
-          "foil": true
-        },
-        {
-          "name": "Mountain",
-          "count": 1,
-          "set": "TMT",
-          "number": "256"
-        },
-        {
-          "name": "Mountain",
-          "count": 1,
-          "set": "TMT",
-          "number": "256",
-          "foil": true
-        },
-        {
-          "name": "Forest",
-          "count": 1,
-          "set": "TMT",
-          "number": "257"
-        },
-        {
-          "name": "Forest",
-          "count": 1,
-          "set": "TMT",
-          "number": "257",
-          "foil": true
-        },
-        {
-          "name": "Plains",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "315"
         },
         {
           "name": "Plains",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "315",
           "foil": true
         },
         {
           "name": "Island",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "316"
         },
         {
           "name": "Island",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "316",
           "foil": true
         },
         {
           "name": "Swamp",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "317"
         },
         {
           "name": "Swamp",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "317",
           "foil": true
         },
         {
           "name": "Mountain",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "318"
         },
         {
           "name": "Mountain",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "318",
           "foil": true
         },
         {
           "name": "Forest",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "319"
         },
         {
           "name": "Forest",
-          "count": 1,
+          "count": 2,
           "set": "TMT",
           "number": "319",
           "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/feature/collecting-teenage-mutant-ninja-turtles"
+  },
+  {
+    "name": "Teenage Mutant Ninja Turtles Draft Night Land Pack",
+    "type": "Bundle Land Pack",
+    "category": "deck",
+    "set_name": "Teenage Mutant Ninja Turtles",
+    "set_code": "tmt",
+    "release_date": "2026-03-06",
+    "cards": {
+      "Main Deck": [
+        {
+          "name": "Plains",
+          "count": 18,
+          "set": "TMT",
+          "number": "315"
+        },
+        {
+          "name": "Island",
+          "count": 18,
+          "set": "TMT",
+          "number": "316"
+        },
+        {
+          "name": "Swamp",
+          "count": 18,
+          "set": "TMT",
+          "number": "317"
+        },
+        {
+          "name": "Mountain",
+          "count": 18,
+          "set": "TMT",
+          "number": "318"
+        },
+        {
+          "name": "Forest",
+          "count": 18,
+          "set": "TMT",
+          "number": "319"
         }
       ]
     },

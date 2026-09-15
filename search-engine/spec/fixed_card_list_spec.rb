@@ -1,0 +1,146 @@
+describe FixedCardList do
+  include_context "db", "mrd", "arn"
+
+  let(:list) { FixedCardList.new(db, text) }
+  # The list is a multiset, so a card asked for twice is one entry with a count
+  let(:names) { list.cards.map{|card, count| [card.name, count]} }
+
+  describe "one card per line" do
+    let(:text) { "mrd:1\narn:1\n" }
+    it do
+      names.should eq [["Altar's Light", 1], ["Abu Ja'far", 1]]
+      list.warnings.should eq []
+    end
+  end
+
+  describe "counts" do
+    let(:text) { "3x mrd:1\n2 arn:3\n" }
+    it do
+      names.should eq [["Altar's Light", 3], ["Camel", 2]]
+      list.warnings.should eq []
+    end
+  end
+
+  describe "slash separator, as the CLI spells it" do
+    let(:text) { "2x mrd/2" }
+    it do
+      names.should eq [["Arrest", 2]]
+      list.warnings.should eq []
+    end
+  end
+
+  describe "case and spacing" do
+    let(:text) { "  2 X MRD : 3  " }
+    it do
+      names.should eq [["Auriok Bladewarden", 2]]
+      list.warnings.should eq []
+    end
+  end
+
+  describe "collector numbers which aren't just digits" do
+    let(:text) { "arn:2†" }
+    it do
+      names.should eq [["Army of Allah", 1]]
+      list.cards.keys.map(&:number).should eq ["2†"]
+      list.warnings.should eq []
+    end
+  end
+
+  describe "finishes" do
+    let(:text) { "mrd:1:etched\nmrd:1:foil\nmrd:1\n" }
+    it do
+      list.cards.keys.map(&:finish).should eq [:etched, :foil, :nonfoil]
+      list.warnings.should eq []
+    end
+  end
+
+  # The box is hand-edited, so a finish nobody has heard of is one bad line
+  describe "a finish we don't know" do
+    let(:text) { "mrd:1:shiny\nmrd:2\n" }
+    it do
+      names.should eq [["Arrest", 1]]
+      list.warnings.should eq ["Unknown finish: shiny for line: mrd:1:shiny"]
+    end
+  end
+
+  describe "blank lines are skipped" do
+    let(:text) { "\n\nmrd:1\n   \n" }
+    it do
+      names.should eq [["Altar's Light", 1]]
+      list.warnings.should eq []
+    end
+  end
+
+  describe "no text at all" do
+    let(:text) { nil }
+    it do
+      list.cards.should eq({})
+      list.warnings.should eq []
+    end
+  end
+
+  # The box is hand-edited, so one bad line must not cost the player the rest
+  describe "bad lines are reported, good ones still open" do
+    let(:text) { "mrd:1\nwhatever\nlolwtf:1\nmrd:9999\narn:3\n" }
+    it do
+      names.should eq [["Altar's Light", 1], ["Camel", 1]]
+      list.warnings.should eq [
+        "Invalid line: whatever",
+        "Cannot find set with code: lolwtf for line: lolwtf:1",
+        "Cannot find card set with number 9999 in set mrd for line: mrd:9999",
+      ]
+    end
+  end
+
+  # Counts and lines both come out of the url, and a huge one used to keep
+  # allocating until the process ran out of memory
+  describe "limits" do
+    describe "a count past the cap" do
+      let(:text) { "#{FixedCardList::MAX_CARDS + 1}x mrd:1" }
+      it do
+        list.size.should eq FixedCardList::MAX_CARDS
+        list.warnings.should eq ["At most #{FixedCardList::MAX_CARDS} fixed cards, ignoring the rest"]
+      end
+    end
+
+    # A count of 47 digits parses fine, it is the allocating that never finishes
+    describe "an absurd count" do
+      let(:text) { "#{"9" * 47}x mrd:1" }
+      it do
+        list.size.should eq FixedCardList::MAX_CARDS
+      end
+    end
+
+    # Capped lines still add up, so the list as a whole stops at the cap
+    describe "more lines than the cap" do
+      let(:text) { "mrd:1\n" * (FixedCardList::MAX_CARDS + 1) }
+      it do
+        list.size.should eq FixedCardList::MAX_CARDS
+        list.warnings.should eq ["At most #{FixedCardList::MAX_CARDS} fixed cards, ignoring the rest"]
+      end
+    end
+
+    describe "a count right at the cap" do
+      let(:text) { "#{FixedCardList::MAX_CARDS}x mrd:1" }
+      it do
+        list.size.should eq FixedCardList::MAX_CARDS
+        list.warnings.should eq []
+      end
+    end
+  end
+
+  describe ".line_for" do
+    let(:card) { physical_card("e:mrd number:1") }
+    let(:foil_card) { physical_card("e:mrd number:1", true) }
+    let(:etched_card) { PhysicalCard.for(card.main_front, finish: :etched) }
+
+    it "round-trips through the parser" do
+      FixedCardList.line_for(card).should eq "1x mrd:1"
+      FixedCardList.line_for(foil_card).should eq "1x mrd:1:foil"
+      FixedCardList.line_for(etched_card).should eq "1x mrd:1:etched"
+      FixedCardList.new(db, FixedCardList.line_for(card)).cards.should eq({card => 1})
+      FixedCardList.new(db, FixedCardList.line_for(foil_card)).cards.should eq({foil_card => 1})
+      FixedCardList.new(db, FixedCardList.line_for(etched_card)).cards.should eq({etched_card => 1})
+    end
+  end
+end

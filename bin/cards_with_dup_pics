@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
-require "pathname-glob"
 require_relative "../search-engine/lib/card_database"
+require_relative "../search-engine/lib/card_picture_paths"
 
 class Array
   def all_same?
@@ -9,34 +9,18 @@ class Array
   end
 end
 
-class Pathname
-  def sha1
-    Digest::SHA1.hexdigest(read)
-  end
-end
-
-class CardPrinting
-  def path_lq
-    Pathname("frontend/public/cards/#{set_code}/#{number}.png")
-  end
-
-  def path_lq_sha1
-    path_lq.sha1 if path_lq.exist?
-  end
-
-  def path_hq
-    Pathname("frontend/public/cards_hq/#{set_code}/#{number}.png")
-  end
-
-  def path_hq_sha1
-    path_hq.sha1 if path_hq.exist?
-  end
-end
-
 class CardsWithBadDfcPics
   attr_reader :db
 
-  def initialize
+  def initialize(*args)
+    if args == []
+      @delete = false
+    elsif args == ["--delete"]
+      @delete = true
+    else
+      STDERR.puts "Usage: #{$0} [--delete]"
+      exit 1
+    end
     @db = CardDatabase.load
   end
 
@@ -61,7 +45,7 @@ class CardsWithBadDfcPics
 
       fail_type = "duplicate for DFC"
     else
-      # They hae same fronts, different backs
+      # They have same fronts, different backs
       if pics.map(&:set_code).sort == ["ced", "cei"] and pics.map(&:name).all_same? and pics.map(&:number).all_same?
         return
       end
@@ -72,6 +56,14 @@ class CardsWithBadDfcPics
 
     bad = pics.map{|c| "#{c.set_code}/#{c.number} #{c.name}"}.join(", ")
     puts "#{kind} #{fail_type}: #{bad}"
+
+    # HQ pics can't be refetched, so only drop the LQ ones
+    if @delete and kind == "LQ"
+      pics.each do |c|
+        puts "Deleting #{c.path_lq}"
+        c.path_lq.delete
+      end
+    end
   end
 
   def call
@@ -85,4 +77,4 @@ class CardsWithBadDfcPics
   end
 end
 
-CardsWithBadDfcPics.new.call
+CardsWithBadDfcPics.new(*ARGV).call

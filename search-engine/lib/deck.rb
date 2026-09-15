@@ -39,6 +39,37 @@ class Deck
     @sections[name] || []
   end
 
+  def section_names
+    @sections.keys
+  end
+
+  # Metadata every exporter asks for. A decklist someone pasted has none of it,
+  # a PreconDeck has all of it.
+  def name
+    nil
+  end
+
+  def full_name
+    nil
+  end
+
+  def canonical_url
+    nil
+  end
+
+  def release_date
+    nil
+  end
+
+  def display
+    nil
+  end
+
+  def export(format)
+    exporter = DeckExporter[format] or raise "Unknown export format: #{format}"
+    exporter.new(self)
+  end
+
   def number_of_cards(section)
     return 0 unless @sections[section]
     @sections[section].sum(&:first)
@@ -105,7 +136,7 @@ class Deck
   end
 
   def all_set_codes
-    @sections.values.flat_map{|sc| sc.map{|_,card| card.set_code}}.to_set
+    @all_set_codes ||= @sections.values.flat_map{|sc| sc.map{|_,card| card.set_code}}.to_set
   end
 
   def all_token_set_codes
@@ -114,5 +145,11 @@ class Deck
 
   def all_cards
     @sections.values.flatten(1)
+  end
+
+  # The same thing without the copy. Scanning every deck for one card is a hot
+  # enough loop that flattening 3000 decklists to throw them away showed up.
+  def each_card(&block)
+    @sections.each_value{|section| section.each(&block) }
   end
 end

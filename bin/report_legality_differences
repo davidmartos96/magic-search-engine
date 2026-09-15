@@ -8,9 +8,10 @@ require "zlib"
 class ReportLegalityDifferences
   extend Memoist
 
-  attr_reader :mtgjson_legalities_data, :spoiler_cards, :non_spoiler_cards
+  attr_reader :mtgjson_legalities_data
 
-  def initialize
+  def initialize(formats=[])
+    @formats = formats.map(&:downcase)
     @db = CardDatabase.load
     @mtgjson = JSON.parse(Zlib::GzipReader.open("#{__dir__}/../tmp/AllSets.json.gz", &:read))
     load_mtgjson_legalities_data
@@ -29,24 +30,24 @@ class ReportLegalityDifferences
   # It's not in very convenient format
   def load_mtgjson_legalities_data
     @mtgjson_legalities_data = {}
-    @spoiler_cards = Set[]
-    @non_spoiler_cards = Set[]
+    @mtgjson_future_cards = Set[]
     all_sets.each do |set_code, set_data|
-      # skip spoiler sets, as legality information won't be there yet
-      spoiler_set = set_data["isPartialPreview"]
       # Name conflicts
       next if %W[CMB1 CMB2 TBTH].include?(set_code)
       # Cards not legal in any format
       next if %W[CED CEI 30A OAFC OMIC].include?(set_code)
+
       set_data["cards"].each do |card|
         next if card["isOversized"]
+        # pointless name conflicts, legality of mainfront is enough
+        next if card["layout"] == "prepare" and card["faceName"] == card["name"].split(" // ").last
+
         name = card["faceName"] || card["name"]
         name = alchemy_name_fix(name)
-        if spoiler_set
-          @spoiler_cards << name
-        else
-          @non_spoiler_cards << name
-        end
+        name = unicode_name_fix(name)
+        # Cards not out yet won't have legality information on either side
+        release_date = card["originalReleaseDate"] || set_data["releaseDate"]
+        @mtgjson_future_cards << name if !release_date or Date.parse(release_date) > today
         legalities = card["legalities"].dup
         # Various non-legal oversized etc. cards, just ignore them
         next if legalities == {}
@@ -59,11 +60,29 @@ class ReportLegalityDifferences
         end
       end
     end
-    @spoiler_cards -= @non_spoiler_cards
   end
 
+  memoize def today
+    Date.today
+  end
+
+  # Any card with a printing not out yet, according to either data source.
+  # mtgjson doesn't have legalities for such cards, and an upcoming printing
+  # can also change legality of an old card (Standard, Pioneer, Modern, etc.)
+  memoize def future_cards
+    result = @mtgjson_future_cards.dup
+    @db.cards.each_value do |card|
+      result << card.name if card.printings.any?{|printing| printing.release_date > today}
+    end
+    result
+  end
+
+  # mtgjson (and scryfall) "future" data is garbage ever since WotC moved
+  # Standard rotation date, ours is correct, so there's nothing to compare
+  IGNORED_FORMATS = %W[future]
+
   memoize def mtgjson_formats
-    mtgjson_legalities_data.values.map(&:keys).flatten.uniq.sort
+    mtgjson_legalities_data.values.map(&:keys).flatten.uniq.sort - IGNORED_FORMATS
   end
 
   memoize def mtgjson_format_legalities
@@ -81,16 +100,25 @@ class ReportLegalityDifferences
     return if Format[name] == FormatUnknown
     format = Format[name].new
     mtgjson_legalities = mtgjson_format_legalities[name]
-    db_legalities = @db.cards.values.map{|c| [c.name, format.legality(c)] }.select(&:last).to_h
+    db_legalities = @db.cards.values.reject{|c| c.layout == "prepare" and c.secondary? }.map{|c| [c.name, format.legality(c)] }.select(&:last).to_h
     card_names = (mtgjson_legalities.keys | db_legalities.keys)
 
     statuses = []
     card_names.sort.each do |name|
-      # This isn't quite sufficient as spoiler set could bring
-      # an old card into Standard/Pioneer/Modern/etc.
-      next if @spoiler_cards.include?(name)
+      next if future_cards.include?(name)
+      # back faces have no legality of their own, mtgjson just repeats front face's
+      db_card = @db.cards[name.downcase]
+      next if db_card and db_card.secondary?
       a = mtgjson_legalities[name]
       b = db_legalities[name]
+      # mtgjson doesn't make these distinctions - it reports cards banned as
+      # commander as "restricted", and cards banned as companion (just Lutri)
+      # as "legal", which is very questionable, but there's nothing to report
+      if b == "banned_as_commander"
+        b = "restricted"
+      elsif b == "banned_as_companion"
+        b = "legal"
+      end
       # Just ignore "banned" vs "not in format" distinction
       if (a || "banned") == (b || "banned")
         statuses << [name, a, a]
@@ -100,7 +128,7 @@ class ReportLegalityDifferences
       # mtgjson just can't handle meld for penny, no point reporting it
       if format.format_name == "penny dreadful"
         card = @db.cards[name.downcase]
-        next if card.layout =="meld" and card.names.size == 3
+        next if card and card.layout == "meld" and card.names.size == 3
       end
 
       # This is technically not a B&R issue, so mtgjson reports these cards as either
@@ -121,6 +149,17 @@ class ReportLegalityDifferences
     puts ""
   end
 
+  # Same fixes as indexer does, as these names contain
+  # impossible to search Unicode characters
+  UNICODE_NAME_FIXES = {
+    "Ratonhnhaké꞉ton" => "Ratonhnhakéton",
+    "Human—Time Lord Meta-Crisis" => "Human-Time Lord Meta-Crisis",
+  }
+
+  def unicode_name_fix(name)
+    UNICODE_NAME_FIXES.fetch(name, name)
+  end
+
   def alchemy_name_fix(name)
     return unless name
     name.split(" // ").map{|s|
@@ -132,11 +171,20 @@ class ReportLegalityDifferences
     }.join(" // ")
   end
 
+  memoize def formats_to_check
+    return mtgjson_formats if @formats.empty?
+    unknown = @formats - mtgjson_formats
+    unless unknown.empty?
+      raise "Unknown format#{"s" if unknown.size > 1}: #{unknown.join(", ")} - known formats: #{mtgjson_formats.join(", ")}"
+    end
+    @formats
+  end
+
   def call
-    mtgjson_formats.each do |name|
+    formats_to_check.each do |name|
       verify_format name
     end
   end
 end
 
-ReportLegalityDifferences.new.call
+ReportLegalityDifferences.new(ARGV).call

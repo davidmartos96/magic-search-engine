@@ -1,11 +1,18 @@
-require "pathname"
 require "fileutils"
+require "open3"
+require "pathname"
 
 def db
   @db ||= begin
     require_relative "search-engine/lib/card_database"
     CardDatabase.load
   end
+end
+
+def capture!(command)
+  output, status = Open3.capture2(command)
+  raise "Command failed: #{command}" unless status.success?
+  output
 end
 
 task "default" => "spec"
@@ -164,10 +171,16 @@ task "update:ifnew" do
   latest = `bin/latest_mtgjson_version_number`.strip
   if current != latest
     puts "New mtgjson version available: #{latest} (current: #{current}), updating..."
+    Rake::Task["clean"].invoke
     Rake::Task["mtgjson:update"].invoke
   else
     puts "Mtgjson is up to date (version #{current})"
   end
+end
+
+desc "Update banlist history"
+task "update:banlist" do
+  sh "./bin/export_banlist_history index/banlist_history.json"
 end
 
 desc "Full update"
@@ -182,6 +195,7 @@ task "update" do
   Rake::Task["update:decks:metadata"].invoke
   Rake::Task["update:sealed"].invoke
   Rake::Task["export:decks"].invoke
+  Rake::Task["update:banlist"].invoke
 end
 
 desc "Update only decks"
@@ -195,7 +209,7 @@ end
 desc "Update magic-preconstructed-decks metadata"
 task "update:decks:metadata" do
   # It would be better to do both steps from here, and to also include flavor names as valid names
-  sh "./search-engine/bin/find_cards '*' >~/github/magic-preconstructed-decks/lib/valid_card_names.txt"
+  Pathname("#{ENV['HOME']}/github/magic-preconstructed-decks/lib/valid_card_names.txt").write(capture!("./search-engine/bin/find_cards '*'"))
   Dir.chdir("#{ENV['HOME']}/github/magic-preconstructed-decks") do
     sh "rake sets"
   end
@@ -208,7 +222,7 @@ end
 
 desc "Export deck data"
 task "export:decks" do
-  sh "./bin/export_decks_data_old ~/Dev/magic-preconstructed-decks-data/decks.json"
+  sh "./bin/export_decks_data --simple-sections ~/Dev/magic-preconstructed-decks-data/decks.json"
   sh "./bin/export_decks_data ~/Dev/magic-preconstructed-decks-data/decks_v2.json"
 end
 

@@ -15,8 +15,8 @@
 #
 # Compare two revisions by running it on each and diffing the summary.
 
-require "optparse"
 require "json"
+require "optparse"
 
 options = { n: 200, endpoint: nil, slowest: false, paths: nil, warmup: false, verbose: false }
 OptionParser.new do |o|
@@ -99,7 +99,9 @@ results = replay(paths, verbose: options[:verbose])
 
 ok = results.reject { |r| r.status.zero? }
 sorted = ok.map(&:ms).sort
-def q(a, x) = a.empty? ? 0 : a[[(a.size * x).ceil - 1, 0].max]
+def q(a, x)
+  a.empty? ? 0 : a[[(a.size * x).ceil - 1, 0].max]
+end
 
 puts
 puts "=== Replay summary ==="

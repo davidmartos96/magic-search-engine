@@ -149,13 +149,13 @@ Sheets and subsheets can always include a `count` variable to assist in troubles
 
 Parent sheets can also include a `foil` boolean to indicate if the sheet is foil. You cannot mix foil/non-foil cards in the same sheet. To achieve this, use a [Variable slot](#variable-slots)
 
-Sheets can also be marked `etched: true` to record that the cards are etched foils. Currently this is just for documentation, and nothing uses this flag yet. An etched sheet still needs `foil: true` if its cards are foil. Example from [cmr-collector.yaml](cmr-collector.yaml):
+Sheets can also be marked `etched: true` for etched foils. Cards drawn from such a sheet carry the etched finish, and it follows them all the way into the exported sealed data. Etched is a kind of foiling, so `etched: true` on its own is enough; most sheets write `foil: true` next to it anyway, which is redundant rather than contradictory. As with `foil`, one sheet means one finish - a sheet whose query also returns premium cards that are not etched will call those etched too. Example from [cmr-collector.yaml](cmr-collector.yaml):
 
 ```yaml
   etched_uncommon:
     foil: true
     etched: true
-    rawquery: "e:cmr is:etched (r:u or r:s) -is:reprint"
+    rawquery: "e:{set} is:etched (r:u or r:s) -is:reprint"
 ```
 
 #### Sheet kinds
@@ -187,7 +187,7 @@ Example from [one-compleat.yaml](one-compleat.yaml), where all 5 oil slick basic
 ```yaml
   oil_slick_basics_1:
     fixed: true
-    rawquery: "e:one promo:oilslick t:basic"
+    rawquery: "e:{set} promo:oilslick t:basic"
     count: 5
     foil: true
 ```
@@ -217,12 +217,32 @@ Example from [cmr-collector.yaml](cmr-collector.yaml) that returns uncommon or s
 ```yaml
   etched_uncommon:
     foil: true
-    rawquery: "e:cmr is:etched (r:u or r:s) -is:reprint"
+    rawquery: "e:{set} is:etched (r:u or r:s) -is:reprint"
 ```
+
+#### Counting versions
+
+Slots often have to split a rarity by how many Booster Fun treatments a card got, so that every card of that rarity stays equally likely no matter how many versions of it exist. `prints=N:query` asks how many printings of the card match `query`:
+
+```yaml
+queries:
+  versions: "e:{set} number:320-467 -is:foilonly"
+sheets:
+  one_version_rare:
+    rawquery: "{versions} r:r prints=1:{versions}"
+  two_versions_rare:
+    rawquery: "{versions} r:r prints=2:{versions}"
+  three_or_more_versions_rare:
+    rawquery: "{versions} r:r prints>=3:{versions}"
+```
+
+`>=`, `>`, `<=`, `<` and `=` all work, and the count may be `0`. `alt:query` is the same thing as `prints>=1:query`, and `-alt:query` the same as `prints=0:query`.
+
+The counted query has to describe exactly what counts as a version, because it counts *printings*, not treatments. If one treatment range contains two printings of the same card, that card counts as two versions. Both real cases are cards which should not have been counted anyway - a foil-only printing, and a buy-a-box in the same frame as the Booster Fun one - so the fix is to say so in the counted query (`-is:foilonly`, `-number:417`) rather than to work around it in the sheet.
 
 #### Any
 
-Sheets can use the `any` tag to combine different subsheets together. Each subsheet can use any sheet variation but cannot change the parent foil parameters. There are two types of `any` sheets: `rate` and `chance`. The two variations cannot be mixed in the same set of subsheets, but multi-layer `any` subsheets can use both `rate` and `chance` if they are consistent within a layer.
+Sheets can use the `any` tag to combine different subsheets together. Each subsheet can use any sheet variation, and inherits the parent's finish unless it names a `foil` or `etched` of its own. There are two types of `any` sheets: `rate` and `chance`. The two variations cannot be mixed in the same set of subsheets, but multi-layer `any` subsheets can use both `rate` and `chance` if they are consistent within a layer.
 
 ##### Rate
 
@@ -285,7 +305,7 @@ Example from [2xm-vip.yaml](2xm-vip.yaml) to define the foil, borderless rare an
 ```yaml
   foil_rare_mythic_borderless:
     foil: true
-    filter: "e:2xm is:borderless"
+    filter: "e:{set} is:borderless"
     use: rare_mythic
 ```
 

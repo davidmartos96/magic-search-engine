@@ -1,0 +1,5100 @@
+{
+  "alchemy": [
+    {
+      "date": "2022-07-07",
+      "comment": "These cards are specialized/conjurable only",
+      "changes": {
+        "Alora, Cheerful Assassin": "specialized",
+        "Alora, Cheerful Mastermind": "specialized",
+        "Alora, Cheerful Scout": "specialized",
+        "Alora, Cheerful Swashbuckler": "specialized",
+        "Alora, Cheerful Thief": "specialized",
+        "Ambergris, Agent of Balance": "specialized",
+        "Ambergris, Agent of Destruction": "specialized",
+        "Ambergris, Agent of Law": "specialized",
+        "Ambergris, Agent of Progress": "specialized",
+        "Ambergris, Agent of Tyranny": "specialized",
+        "Gale, Abyssal Conduit": "specialized",
+        "Gale, Holy Conduit": "specialized",
+        "Gale, Primeval Conduit": "specialized",
+        "Gale, Storm Conduit": "specialized",
+        "Gale, Temporal Conduit": "specialized",
+        "Gut, Bestial Fanatic": "specialized",
+        "Gut, Brutal Fanatic": "specialized",
+        "Gut, Devious Fanatic": "specialized",
+        "Gut, Furious Fanatic": "specialized",
+        "Gut, Zealous Fanatic": "specialized",
+        "Imoen, Chaotic Trickster": "specialized",
+        "Imoen, Honorable Trickster": "specialized",
+        "Imoen, Occult Trickster": "specialized",
+        "Imoen, Wily Trickster": "specialized",
+        "Imoen, Wise Trickster": "specialized",
+        "Jaheira, Heroic Harper": "specialized",
+        "Jaheira, Insightful Harper": "specialized",
+        "Jaheira, Merciful Harper": "specialized",
+        "Jaheira, Ruthless Harper": "specialized",
+        "Jaheira, Stirring Harper": "specialized",
+        "Karlach, Tiefling Berserker": "specialized",
+        "Karlach, Tiefling Guardian": "specialized",
+        "Karlach, Tiefling Punisher": "specialized",
+        "Karlach, Tiefling Spellrager": "specialized",
+        "Karlach, Tiefling Zealot": "specialized",
+        "Klement, Death Acolyte": "specialized",
+        "Klement, Knowledge Acolyte": "specialized",
+        "Klement, Life Acolyte": "specialized",
+        "Klement, Nature Acolyte": "specialized",
+        "Klement, Tempest Acolyte": "specialized",
+        "Lae'zel, Blessed Warrior": "specialized",
+        "Lae'zel, Callous Warrior": "specialized",
+        "Lae'zel, Illithid Thrall": "specialized",
+        "Lae'zel, Primal Warrior": "specialized",
+        "Lae'zel, Wrathful Warrior": "specialized",
+        "Lukamina, Bear Form": "specialized",
+        "Lukamina, Crocodile Form": "specialized",
+        "Lukamina, Hawk Form": "specialized",
+        "Lukamina, Scorpion Form": "specialized",
+        "Lukamina, Wolf Form": "specialized",
+        "Lulu, Curious Hollyphant": "specialized",
+        "Lulu, Helpful Hollyphant": "specialized",
+        "Lulu, Inspiring Hollyphant": "specialized",
+        "Lulu, Vengeful Hollyphant": "specialized",
+        "Lulu, Wild Hollyphant": "specialized",
+        "Rasaad, Dragon Monk": "specialized",
+        "Rasaad, Radiant Monk": "specialized",
+        "Rasaad, Shadow Monk": "specialized",
+        "Rasaad, Sylvan Monk": "specialized",
+        "Rasaad, Warrior Monk": "specialized",
+        "Sarevok, Deadly Usurper": "specialized",
+        "Sarevok, Deceitful Usurper": "specialized",
+        "Sarevok, Divine Usurper": "specialized",
+        "Sarevok, Ferocious Usurper": "specialized",
+        "Sarevok, Mighty Usurper": "specialized",
+        "Shadowheart, Cleric of Graves": "specialized",
+        "Shadowheart, Cleric of Order": "specialized",
+        "Shadowheart, Cleric of Trickery": "specialized",
+        "Shadowheart, Cleric of Twilight": "specialized",
+        "Shadowheart, Cleric of War": "specialized",
+        "Skanos, Black Dragon Vassal": "specialized",
+        "Skanos, Blue Dragon Vassal": "specialized",
+        "Skanos, Green Dragon Vassal": "specialized",
+        "Skanos, Red Dragon Vassal": "specialized",
+        "Skanos, White Dragon Vassal": "specialized",
+        "Vhal, Scholar of Creation": "specialized",
+        "Vhal, Scholar of Elements": "specialized",
+        "Vhal, Scholar of Mortality": "specialized",
+        "Vhal, Scholar of Prophecy": "specialized",
+        "Vhal, Scholar of Tactics": "specialized",
+        "Viconia, Disciple of Arcana": "specialized",
+        "Viconia, Disciple of Blood": "specialized",
+        "Viconia, Disciple of Rebirth": "specialized",
+        "Viconia, Disciple of Strength": "specialized",
+        "Viconia, Disciple of Violence": "specialized",
+        "Wilson, Ardent Bear": "specialized",
+        "Wilson, Fearsome Bear": "specialized",
+        "Wilson, Majestic Bear": "specialized",
+        "Wilson, Subtle Bear": "specialized",
+        "Wilson, Urbane Bear": "specialized",
+        "Wyll of the Blade Pact": "specialized",
+        "Wyll of the Celestial Pact": "specialized",
+        "Wyll of the Elder Pact": "specialized",
+        "Wyll of the Fey Pact": "specialized",
+        "Wyll of the Fiend Pact": "specialized",
+        "Hag of Ceaseless Torment": "conjurable",
+        "Hag of Dark Duress": "conjurable",
+        "Hag of Death's Legion": "conjurable",
+        "Hag of Inner Weakness": "conjurable",
+        "Hag of Mage's Doom": "conjurable",
+        "Hag of Noxious Nightmares": "conjurable",
+        "Hag of Scoured Thoughts": "conjurable",
+        "Hag of Syphoned Breath": "conjurable",
+        "Hag of Twisted Visions": "conjurable",
+        "Archipelagore": "conjurable",
+        "Junk Winder": "conjurable",
+        "Moat Piranhas": "conjurable",
+        "Mystic Skyfish": "conjurable",
+        "Nadir Kraken": "conjurable",
+        "Nezahal, Primal Tide": "conjurable",
+        "Pouncing Shoreshark": "conjurable",
+        "Pursued Whale": "conjurable",
+        "Riptide Turtle": "conjurable",
+        "Ruin Crab": "conjurable",
+        "Sea-Dasher Octopus": "conjurable",
+        "Sigiled Starfish": "conjurable",
+        "Spined Megalodon": "conjurable",
+        "Stinging Lionfish": "conjurable",
+        "Voracious Greatshark": "conjurable",
+        "Lightning Bolt": "conjurable",
+        "Naturalize": "conjurable"
+      }
+    },
+    {
+      "date": "2022-10-05",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Ancestral Recall": "conjurable",
+        "Time Walk": "conjurable",
+        "Timetwister": "conjurable",
+        "Black Lotus": "conjurable",
+        "Mox Emerald": "conjurable",
+        "Mox Jet": "conjurable",
+        "Mox Pearl": "conjurable",
+        "Mox Ruby": "conjurable",
+        "Mox Sapphire": "conjurable"
+      }
+    },
+    {
+      "date": "2023-02-28",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Soul of New Phyrexia": "conjurable"
+      }
+    },
+    {
+      "date": "2023-07-18",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/alchemy-rebalancing-for-july-18-2023",
+      "changes": {
+        "Fable of the Mirror-Breaker": "banned"
+      }
+    },
+    {
+      "date": "2023-10-10",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Brawler's Plate": "conjurable"
+      }
+    },
+    {
+      "date": "2023-12-05",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Thieving Magpie": "conjurable"
+      }
+    },
+    {
+      "date": "2024-11-12",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-11-2024",
+      "changes": {
+        "Monstrous Rage": "banned"
+      }
+    },
+    {
+      "date": "2024-12-15",
+      "comment": "Previously conjurable only card receive regular printing in FDN",
+      "changes": {
+        "Voracious Greatshark": "legal"
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Muraganda Petroglyphs": "conjurable"
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-june-30-2025",
+      "changes": {
+        "Cori-Steel Cutter": "banned"
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Flametongue Kavu": "conjurable"
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Blowfly Infestation": "conjurable",
+        "Rite of Flame": "conjurable",
+        "Stonybrook Schoolmaster": "conjurable"
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-may-18-2026",
+      "changes": {
+        "Sewer-veillance Cam": "banned"
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Bridge from Below": "conjurable",
+        "Storm Crow": "conjurable"
+      }
+    }
+  ],
+  "brawl": [
+    {
+      "date": "2020-12-21",
+      "url": "https://magic.wizards.com/en/articles/archive/magic-digital/historic-brawl-2020-12-21",
+      "changes": {
+        "Drannith Magistrate": "banned",
+        "Gideon's Intervention": "banned",
+        "Golos, Tireless Pilgrim": "banned",
+        "Lutri, the Spellchaser": "banned",
+        "Meddling Mage": "banned",
+        "Nexus of Fate": "banned",
+        "Oko, Thief of Crowns": "banned",
+        "Runed Halo": "banned",
+        "Sorcerous Spyglass": "banned",
+        "Teferi, Time Raveler": "banned",
+        "Winota, Joiner of Forces": "banned"
+      }
+    },
+    {
+      "date": "2021-04-15",
+      "url": "https://magic.wizards.com/en/articles/archive/magic-digital/mtg-arena-announcements-april-14-2021",
+      "changes": {
+        "Channel": "banned",
+        "Demonic Tutor": "banned",
+        "Natural Order": "banned",
+        "Tainted Pact": "banned"
+      }
+    },
+    {
+      "date": "2021-06-19",
+      "url": "https://magic.wizards.com/en/articles/archive/magic-digital/mtg-arena-announcements-june-16-2021",
+      "changes": {
+        "Golos, Tireless Pilgrim": "legal",
+        "Winota, Joiner of Forces": "legal"
+      }
+    },
+    {
+      "date": "2021-08-26",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Kraken Hatchling": "conjurable",
+        "Ponder": "conjurable",
+        "Regal Force": "conjurable",
+        "Stormfront Pegasus": "conjurable",
+        "Tropical Island": "conjurable"
+      }
+    },
+    {
+      "date": "2021-10-01",
+      "url": "https://twitter.com/Wizards_Help/status/1443994094200623122",
+      "changes": {
+        "Pithing Needle": "banned"
+      }
+    },
+    {
+      "date": "2021-12-09",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-december-08-2021",
+      "changes": {
+        "Agent of Treachery": "banned",
+        "Field of the Dead": "banned",
+        "Ugin, the Spirit Dragon": "banned"
+      }
+    },
+    {
+      "date": "2022-01-25",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-25-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Teferi, Time Raveler": "legal"
+      }
+    },
+    {
+      "date": "2022-07-07",
+      "comment": "These cards are specialized/conjurable only",
+      "changes": {
+        "Alora, Cheerful Assassin": "specialized",
+        "Alora, Cheerful Mastermind": "specialized",
+        "Alora, Cheerful Scout": "specialized",
+        "Alora, Cheerful Swashbuckler": "specialized",
+        "Alora, Cheerful Thief": "specialized",
+        "Ambergris, Agent of Balance": "specialized",
+        "Ambergris, Agent of Destruction": "specialized",
+        "Ambergris, Agent of Law": "specialized",
+        "Ambergris, Agent of Progress": "specialized",
+        "Ambergris, Agent of Tyranny": "specialized",
+        "Gale, Abyssal Conduit": "specialized",
+        "Gale, Holy Conduit": "specialized",
+        "Gale, Primeval Conduit": "specialized",
+        "Gale, Storm Conduit": "specialized",
+        "Gale, Temporal Conduit": "specialized",
+        "Gut, Bestial Fanatic": "specialized",
+        "Gut, Brutal Fanatic": "specialized",
+        "Gut, Devious Fanatic": "specialized",
+        "Gut, Furious Fanatic": "specialized",
+        "Gut, Zealous Fanatic": "specialized",
+        "Hag of Ceaseless Torment": "conjurable",
+        "Hag of Dark Duress": "conjurable",
+        "Hag of Death's Legion": "conjurable",
+        "Hag of Inner Weakness": "conjurable",
+        "Hag of Mage's Doom": "conjurable",
+        "Hag of Noxious Nightmares": "conjurable",
+        "Hag of Scoured Thoughts": "conjurable",
+        "Hag of Syphoned Breath": "conjurable",
+        "Hag of Twisted Visions": "conjurable",
+        "Imoen, Chaotic Trickster": "specialized",
+        "Imoen, Honorable Trickster": "specialized",
+        "Imoen, Occult Trickster": "specialized",
+        "Imoen, Wily Trickster": "specialized",
+        "Imoen, Wise Trickster": "specialized",
+        "Jaheira, Heroic Harper": "specialized",
+        "Jaheira, Insightful Harper": "specialized",
+        "Jaheira, Merciful Harper": "specialized",
+        "Jaheira, Ruthless Harper": "specialized",
+        "Jaheira, Stirring Harper": "specialized",
+        "Karlach, Tiefling Berserker": "specialized",
+        "Karlach, Tiefling Guardian": "specialized",
+        "Karlach, Tiefling Punisher": "specialized",
+        "Karlach, Tiefling Spellrager": "specialized",
+        "Karlach, Tiefling Zealot": "specialized",
+        "Klement, Death Acolyte": "specialized",
+        "Klement, Knowledge Acolyte": "specialized",
+        "Klement, Life Acolyte": "specialized",
+        "Klement, Nature Acolyte": "specialized",
+        "Klement, Tempest Acolyte": "specialized",
+        "Lae'zel, Blessed Warrior": "specialized",
+        "Lae'zel, Callous Warrior": "specialized",
+        "Lae'zel, Illithid Thrall": "specialized",
+        "Lae'zel, Primal Warrior": "specialized",
+        "Lae'zel, Wrathful Warrior": "specialized",
+        "Lukamina, Bear Form": "specialized",
+        "Lukamina, Crocodile Form": "specialized",
+        "Lukamina, Hawk Form": "specialized",
+        "Lukamina, Scorpion Form": "specialized",
+        "Lukamina, Wolf Form": "specialized",
+        "Lulu, Curious Hollyphant": "specialized",
+        "Lulu, Helpful Hollyphant": "specialized",
+        "Lulu, Inspiring Hollyphant": "specialized",
+        "Lulu, Vengeful Hollyphant": "specialized",
+        "Lulu, Wild Hollyphant": "specialized",
+        "Rasaad, Dragon Monk": "specialized",
+        "Rasaad, Radiant Monk": "specialized",
+        "Rasaad, Shadow Monk": "specialized",
+        "Rasaad, Sylvan Monk": "specialized",
+        "Rasaad, Warrior Monk": "specialized",
+        "Sarevok, Deadly Usurper": "specialized",
+        "Sarevok, Deceitful Usurper": "specialized",
+        "Sarevok, Divine Usurper": "specialized",
+        "Sarevok, Ferocious Usurper": "specialized",
+        "Sarevok, Mighty Usurper": "specialized",
+        "Shadowheart, Cleric of Graves": "specialized",
+        "Shadowheart, Cleric of Order": "specialized",
+        "Shadowheart, Cleric of Trickery": "specialized",
+        "Shadowheart, Cleric of Twilight": "specialized",
+        "Shadowheart, Cleric of War": "specialized",
+        "Skanos, Black Dragon Vassal": "specialized",
+        "Skanos, Blue Dragon Vassal": "specialized",
+        "Skanos, Green Dragon Vassal": "specialized",
+        "Skanos, Red Dragon Vassal": "specialized",
+        "Skanos, White Dragon Vassal": "specialized",
+        "Vhal, Scholar of Creation": "specialized",
+        "Vhal, Scholar of Elements": "specialized",
+        "Vhal, Scholar of Mortality": "specialized",
+        "Vhal, Scholar of Prophecy": "specialized",
+        "Vhal, Scholar of Tactics": "specialized",
+        "Viconia, Disciple of Arcana": "specialized",
+        "Viconia, Disciple of Blood": "specialized",
+        "Viconia, Disciple of Rebirth": "specialized",
+        "Viconia, Disciple of Strength": "specialized",
+        "Viconia, Disciple of Violence": "specialized",
+        "Wilson, Ardent Bear": "specialized",
+        "Wilson, Fearsome Bear": "specialized",
+        "Wilson, Majestic Bear": "specialized",
+        "Wilson, Subtle Bear": "specialized",
+        "Wilson, Urbane Bear": "specialized",
+        "Wyll of the Blade Pact": "specialized",
+        "Wyll of the Celestial Pact": "specialized",
+        "Wyll of the Elder Pact": "specialized",
+        "Wyll of the Fey Pact": "specialized",
+        "Wyll of the Fiend Pact": "specialized"
+      }
+    },
+    {
+      "date": "2022-08-04",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/patch-notes-20221810",
+      "changes": {
+        "Chalice of the Void": "banned"
+      }
+    },
+    {
+      "date": "2022-10-05",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Ancestral Recall": "conjurable",
+        "Black Lotus": "conjurable",
+        "Mox Emerald": "conjurable",
+        "Mox Jet": "conjurable",
+        "Mox Pearl": "conjurable",
+        "Mox Ruby": "conjurable",
+        "Mox Sapphire": "conjurable",
+        "Time Walk": "conjurable",
+        "Timetwister": "conjurable"
+      }
+    },
+    {
+      "date": "2022-11-18",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-state-of-the-game-the-brothers-war",
+      "changes": {
+        "Phyrexian Revoker": "banned"
+      }
+    },
+    {
+      "date": "2023-02-28",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Soul of New Phyrexia": "conjurable"
+      }
+    },
+    {
+      "date": "2023-10-10",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Brawler's Plate": "conjurable"
+      }
+    },
+    {
+      "date": "2023-12-05",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Thieving Magpie": "conjurable"
+      }
+    },
+    {
+      "date": "2024-06-14",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-june-3-2024",
+      "changes": {
+        "Disruptor Flute": "banned"
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Muraganda Petroglyphs": "conjurable"
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Flametongue Kavu": "conjurable"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/through-the-omenpaths-card-and-event-updates",
+      "changes": {
+        "Iona, Shield of Emeria": "banned",
+        "Kraken Hatchling": "legal",
+        "Ponder": "legal",
+        "Regal Force": "legal",
+        "Stormfront Pegasus": "legal"
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-november-10-2025",
+      "changes": {
+        "Ancient Tomb": "banned",
+        "Chrome Mox": "banned",
+        "Mana Drain": "banned",
+        "Strip Mine": "banned"
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "comment": "Silently pre-banned with the TLE bonus sheet - no announcement, dated to the set's Arena release",
+      "changes": {
+        "Deadly Rollick": "banned",
+        "Deflecting Swat": "banned",
+        "Fierce Guardianship": "banned",
+        "Flawless Maneuver": "banned",
+        "Obscuring Haze": "banned"
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Blowfly Infestation": "conjurable",
+        "Rite of Flame": "conjurable",
+        "Stonybrook Schoolmaster": "conjurable"
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Bridge from Below": "conjurable",
+        "Storm Crow": "conjurable"
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-june-29-2026",
+      "changes": {
+        "Force of Will": "banned",
+        "Subtlety": "banned",
+        "Temporal Manipulation": "banned",
+        "Time Warp": "banned",
+        "Ugin's Labyrinth": "banned",
+        "Wash Away": "banned"
+      }
+    }
+  ],
+  "commander": [
+    {
+      "changes": {
+        "Advantageous Proclamation": "banned",
+        "Amulet of Quoz": "banned",
+        "Backup Plan": "banned",
+        "Brago's Favor": "banned",
+        "Bronze Tablet": "banned",
+        "Chaos Orb": "banned",
+        "Contract from Below": "banned",
+        "Darkpact": "banned",
+        "Demonic Attorney": "banned",
+        "Divine Intervention": "banned",
+        "Double Stroke": "banned",
+        "Falling Star": "banned",
+        "Immediate Action": "banned",
+        "Iterative Analysis": "banned",
+        "Jeweled Bird": "banned",
+        "Muzzio's Preparations": "banned",
+        "Power Play": "banned",
+        "Rebirth": "banned",
+        "Secret Summoning": "banned",
+        "Secrets of Paradise": "banned",
+        "Sentinel Dispatch": "banned",
+        "Shahrazad": "banned",
+        "Tempest Efreet": "banned",
+        "Time Vault": "banned",
+        "Timmerian Fiends": "banned",
+        "Unexpected Potential": "banned",
+        "Worldknit": "banned"
+      }
+    },
+    {
+      "date": "1996-02-01",
+      "changes": {
+        "Channel": "banned",
+        "Mind Twist": "banned"
+      }
+    },
+    {
+      "date": "1996-04-01",
+      "url": "https://web.archive.org/web/19960510142729/http://www.wizards.com/DCI/ban_rest_letter.html",
+      "changes": {
+        "Time Vault": "legal"
+      }
+    },
+    {
+      "date": "1999-10-01",
+      "url": "https://web.archive.org/web/20000305053359/http://www.wizards.com/DCI/announce.asp?dci19990901b",
+      "changes": {
+        "Divine Intervention": "legal",
+        "Shahrazad": "legal"
+      }
+    },
+    {
+      "date": "2000-10-01",
+      "changes": {
+        "Channel": "legal",
+        "Mind Twist": "legal"
+      }
+    },
+    {
+      "date": "2002-10-02",
+      "changes": {
+        "Test of Endurance": "banned"
+      }
+    },
+    {
+      "date": "2003-05-02",
+      "changes": {
+        "Burning Wish": "banned",
+        "Cunning Wish": "banned",
+        "Death Wish": "banned",
+        "Enlightened Tutor": "banned",
+        "Living Wish": "banned"
+      }
+    },
+    {
+      "date": "2004-10-02",
+      "changes": {
+        "Burning Wish": "legal",
+        "Cunning Wish": "legal",
+        "Death Wish": "legal",
+        "Enlightened Tutor": "legal",
+        "Living Wish": "legal"
+      }
+    },
+    {
+      "date": "2005-04-02",
+      "changes": {
+        "Ancestral Recall": "banned",
+        "Balance": "banned",
+        "Biorhythm": "banned",
+        "Black Lotus": "banned",
+        "Library of Alexandria": "banned",
+        "Mox Emerald": "banned",
+        "Mox Jet": "banned",
+        "Mox Pearl": "banned",
+        "Mox Ruby": "banned",
+        "Mox Sapphire": "banned",
+        "Panoptic Mirror": "banned",
+        "Sway of the Stars": "banned",
+        "Time Walk": "banned",
+        "Upheaval": "banned",
+        "Worldgorger Dragon": "banned"
+      }
+    },
+    {
+      "date": "2005-12-02",
+      "changes": {
+        "Crucible of Worlds": "banned",
+        "Shahrazad": "banned"
+      }
+    },
+    {
+      "date": "2006-02-03",
+      "changes": {
+        "Heartless Hidetsugu": "banned_as_commander",
+        "Niv-Mizzet, the Firemind": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2006-05-02",
+      "changes": {
+        "Yawgmoth's Bargain": "banned"
+      }
+    },
+    {
+      "date": "2006-11-02",
+      "changes": {
+        "Heartless Hidetsugu": "legal",
+        "Niv-Mizzet, the Firemind": "legal"
+      }
+    },
+    {
+      "date": "2007-03-08",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=81",
+      "changes": {
+        "Coalition Victory": "banned",
+        "Rofellos, Llanowar Emissary": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2008-03-01",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=320",
+      "changes": {
+        "Kokusho, the Evening Star": "banned",
+        "Recurring Nightmare": "banned"
+      }
+    },
+    {
+      "date": "2008-06-04",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=517",
+      "changes": {
+        "Limited Resources": "banned"
+      }
+    },
+    {
+      "date": "2008-09-20",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=794",
+      "changes": {
+        "Grindstone": "banned",
+        "Karakas": "banned",
+        "Lion's Eye Diamond": "banned",
+        "Protean Hulk": "banned",
+        "Riftsweeper": "banned",
+        "Test of Endurance": "legal"
+      }
+    },
+    {
+      "date": "2008-12-21",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=1165",
+      "changes": {
+        "Time Vault": "banned"
+      }
+    },
+    {
+      "date": "2009-03-20",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=1499",
+      "changes": {
+        "Metalworker": "banned",
+        "Tinker": "banned",
+        "Crucible of Worlds": "legal",
+        "Rofellos, Llanowar Emissary": "legal"
+      }
+    },
+    {
+      "date": "2009-06-20",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=2074",
+      "changes": {
+        "Fastbond": "banned",
+        "Gifts Ungiven": "banned",
+        "Braids, Cabal Minion": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2009-09-20",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=2768",
+      "changes": {
+        "Riftsweeper": "legal"
+      }
+    },
+    {
+      "date": "2009-12-20",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=3231",
+      "changes": {
+        "Painter's Servant": "banned",
+        "Grindstone": "legal"
+      }
+    },
+    {
+      "date": "2010-06-20",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=4124",
+      "changes": {
+        "Channel": "banned",
+        "Staff of Domination": "banned",
+        "Tolarian Academy": "banned",
+        "Rofellos, Llanowar Emissary": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2010-12-20",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=5200",
+      "changes": {
+        "Emrakul, the Aeons Torn": "banned"
+      }
+    },
+    {
+      "date": "2011-06-17",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=9564",
+      "changes": {
+        "Worldgorger Dragon": "legal"
+      }
+    },
+    {
+      "date": "2011-10-01",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=10749",
+      "changes": {
+        "Lion's Eye Diamond": "legal",
+        "Erayo's Essence": "banned_as_commander",
+        "Erayo, Soratami Ascendant": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2012-06-29",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=12073",
+      "changes": {
+        "Griselbrand": "banned",
+        "Sundering Titan": "banned"
+      }
+    },
+    {
+      "date": "2012-10-01",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=12253",
+      "changes": {
+        "Primeval Titan": "banned",
+        "Worldfire": "banned",
+        "Kokusho, the Evening Star": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2013-04-02",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=15735",
+      "changes": {
+        "Trade Secrets": "banned",
+        "Staff of Domination": "legal"
+      }
+    },
+    {
+      "date": "2014-02-07",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=16697",
+      "changes": {
+        "Sylvan Primordial": "banned"
+      }
+    },
+    {
+      "date": "2014-09-26",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=17210",
+      "changes": {
+        "Braids, Cabal Minion": "banned",
+        "Erayo's Essence": "banned",
+        "Erayo, Soratami Ascendant": "banned",
+        "Rofellos, Llanowar Emissary": "banned",
+        "Kokusho, the Evening Star": "legal",
+        "Metalworker": "legal"
+      }
+    },
+    {
+      "date": "2016-01-22",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=18057",
+      "changes": {
+        "Prophet of Kruphix": "banned"
+      }
+    },
+    {
+      "date": "2017-04-24",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=18588",
+      "changes": {
+        "Leovold, Emissary of Trest": "banned",
+        "Protean Hulk": "legal"
+      }
+    },
+    {
+      "date": "2019-07-08",
+      "url": "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=19171",
+      "changes": {
+        "Paradox Engine": "banned",
+        "Iona, Shield of Emeria": "banned",
+        "Painter's Servant": "legal"
+      }
+    },
+    {
+      "date": "2020-04-24",
+      "url": "https://mtgcommander.net/index.php/2020/04/20/april-2020-rules-update/",
+      "changes": {
+        "Lutri, the Spellchaser": "banned",
+        "Flash": "banned"
+      }
+    },
+    {
+      "date": "2020-06-10",
+      "url": "https://mtgcommander.net/index.php/2020/06/14/rc-statement-on-wizards-removal-of-inappropriate-cards/",
+      "changes": {
+        "Cleanse": "banned",
+        "Crusade": "banned",
+        "Imprison": "banned",
+        "Invoke Prejudice": "banned",
+        "Jihad": "banned",
+        "Pradesh Gypsies": "banned",
+        "Stone-Throwing Devils": "banned"
+      }
+    },
+    {
+      "date": "2021-07-12",
+      "url": "https://mtgcommander.net/index.php/2021/07/12/july-2021-update/",
+      "changes": {
+        "Hullbreacher": "banned"
+      }
+    },
+    {
+      "date": "2021-09-13",
+      "url": "https://mtgcommander.net/index.php/2021/09/13/september-2021-quarterly-update/",
+      "changes": {
+        "Worldfire": "legal",
+        "Golos, Tireless Pilgrim": "banned"
+      }
+    },
+    {
+      "date": "2024-09-23",
+      "url": "https://magic.wizards.com/en/news/announcements/commander-banned-and-restricted-announcement-september-23-2024",
+      "changes": {
+        "Dockside Extortionist": "banned",
+        "Jeweled Lotus": "banned",
+        "Mana Crypt": "banned",
+        "Nadu, Winged Wisdom": "banned"
+      }
+    },
+    {
+      "date": "2025-04-22",
+      "url": "https://magic.wizards.com/en/news/announcements/commander-bans-and-restrictions-april-22-2025",
+      "changes": {
+        "Gifts Ungiven": "legal",
+        "Sway of the Stars": "legal",
+        "Braids, Cabal Minion": "legal",
+        "Coalition Victory": "legal",
+        "Panoptic Mirror": "legal"
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "url": "https://magic.wizards.com/en/news/announcements/commander-banned-and-restricted-february-9-2026",
+      "changes": {
+        "Biorhythm": "legal",
+        "Lutri, the Spellchaser": "banned_as_companion"
+      }
+    }
+  ],
+  "competitive brawl": [
+    {
+      "date": "2026-06-23",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/introducing-ranked-brawl",
+      "changes": {
+        "Ajani, Nacatl Pariah": "banned",
+        "Lutri, the Spellchaser": "banned",
+        "Nadu, Winged Wisdom (Alchemy)": "banned",
+        "Oko, Thief of Crowns": "banned",
+        "Old Stickfingers": "banned",
+        "Ragavan, Nimble Pilferer": "banned",
+        "Rusko, Clockmaker": "banned",
+        "Tajic, Legion's Valor": "banned",
+        "Tamiyo, Inquisitive Student": "banned",
+        "Wrenn and Six": "banned",
+        "Alora, Cheerful Assassin": "specialized",
+        "Alora, Cheerful Mastermind": "specialized",
+        "Alora, Cheerful Scout": "specialized",
+        "Alora, Cheerful Swashbuckler": "specialized",
+        "Alora, Cheerful Thief": "specialized",
+        "Ambergris, Agent of Balance": "specialized",
+        "Ambergris, Agent of Destruction": "specialized",
+        "Ambergris, Agent of Law": "specialized",
+        "Ambergris, Agent of Progress": "specialized",
+        "Ambergris, Agent of Tyranny": "specialized",
+        "Ancestral Recall": "conjurable",
+        "Black Lotus": "conjurable",
+        "Blowfly Infestation": "conjurable",
+        "Brawler's Plate": "conjurable",
+        "Bridge from Below": "conjurable",
+        "Flametongue Kavu": "conjurable",
+        "Gale, Abyssal Conduit": "specialized",
+        "Gale, Holy Conduit": "specialized",
+        "Gale, Primeval Conduit": "specialized",
+        "Gale, Storm Conduit": "specialized",
+        "Gale, Temporal Conduit": "specialized",
+        "Gut, Bestial Fanatic": "specialized",
+        "Gut, Brutal Fanatic": "specialized",
+        "Gut, Devious Fanatic": "specialized",
+        "Gut, Furious Fanatic": "specialized",
+        "Gut, Zealous Fanatic": "specialized",
+        "Hag of Ceaseless Torment": "conjurable",
+        "Hag of Dark Duress": "conjurable",
+        "Hag of Death's Legion": "conjurable",
+        "Hag of Inner Weakness": "conjurable",
+        "Hag of Mage's Doom": "conjurable",
+        "Hag of Noxious Nightmares": "conjurable",
+        "Hag of Scoured Thoughts": "conjurable",
+        "Hag of Syphoned Breath": "conjurable",
+        "Hag of Twisted Visions": "conjurable",
+        "Imoen, Chaotic Trickster": "specialized",
+        "Imoen, Honorable Trickster": "specialized",
+        "Imoen, Occult Trickster": "specialized",
+        "Imoen, Wily Trickster": "specialized",
+        "Imoen, Wise Trickster": "specialized",
+        "Jaheira, Heroic Harper": "specialized",
+        "Jaheira, Insightful Harper": "specialized",
+        "Jaheira, Merciful Harper": "specialized",
+        "Jaheira, Ruthless Harper": "specialized",
+        "Jaheira, Stirring Harper": "specialized",
+        "Karlach, Tiefling Berserker": "specialized",
+        "Karlach, Tiefling Guardian": "specialized",
+        "Karlach, Tiefling Punisher": "specialized",
+        "Karlach, Tiefling Spellrager": "specialized",
+        "Karlach, Tiefling Zealot": "specialized",
+        "Klement, Death Acolyte": "specialized",
+        "Klement, Knowledge Acolyte": "specialized",
+        "Klement, Life Acolyte": "specialized",
+        "Klement, Nature Acolyte": "specialized",
+        "Klement, Tempest Acolyte": "specialized",
+        "Lae'zel, Blessed Warrior": "specialized",
+        "Lae'zel, Callous Warrior": "specialized",
+        "Lae'zel, Illithid Thrall": "specialized",
+        "Lae'zel, Primal Warrior": "specialized",
+        "Lae'zel, Wrathful Warrior": "specialized",
+        "Lukamina, Bear Form": "specialized",
+        "Lukamina, Crocodile Form": "specialized",
+        "Lukamina, Hawk Form": "specialized",
+        "Lukamina, Scorpion Form": "specialized",
+        "Lukamina, Wolf Form": "specialized",
+        "Lulu, Curious Hollyphant": "specialized",
+        "Lulu, Helpful Hollyphant": "specialized",
+        "Lulu, Inspiring Hollyphant": "specialized",
+        "Lulu, Vengeful Hollyphant": "specialized",
+        "Lulu, Wild Hollyphant": "specialized",
+        "Mox Emerald": "conjurable",
+        "Mox Jet": "conjurable",
+        "Mox Pearl": "conjurable",
+        "Mox Ruby": "conjurable",
+        "Mox Sapphire": "conjurable",
+        "Muraganda Petroglyphs": "conjurable",
+        "Rasaad, Dragon Monk": "specialized",
+        "Rasaad, Radiant Monk": "specialized",
+        "Rasaad, Shadow Monk": "specialized",
+        "Rasaad, Sylvan Monk": "specialized",
+        "Rasaad, Warrior Monk": "specialized",
+        "Rite of Flame": "conjurable",
+        "Sarevok, Deadly Usurper": "specialized",
+        "Sarevok, Deceitful Usurper": "specialized",
+        "Sarevok, Divine Usurper": "specialized",
+        "Sarevok, Ferocious Usurper": "specialized",
+        "Sarevok, Mighty Usurper": "specialized",
+        "Shadowheart, Cleric of Graves": "specialized",
+        "Shadowheart, Cleric of Order": "specialized",
+        "Shadowheart, Cleric of Trickery": "specialized",
+        "Shadowheart, Cleric of Twilight": "specialized",
+        "Shadowheart, Cleric of War": "specialized",
+        "Skanos, Black Dragon Vassal": "specialized",
+        "Skanos, Blue Dragon Vassal": "specialized",
+        "Skanos, Green Dragon Vassal": "specialized",
+        "Skanos, Red Dragon Vassal": "specialized",
+        "Skanos, White Dragon Vassal": "specialized",
+        "Soul of New Phyrexia": "conjurable",
+        "Stonybrook Schoolmaster": "conjurable",
+        "Storm Crow": "conjurable",
+        "Thieving Magpie": "conjurable",
+        "Time Walk": "conjurable",
+        "Timetwister": "conjurable",
+        "Tropical Island": "conjurable",
+        "Vhal, Scholar of Creation": "specialized",
+        "Vhal, Scholar of Elements": "specialized",
+        "Vhal, Scholar of Mortality": "specialized",
+        "Vhal, Scholar of Prophecy": "specialized",
+        "Vhal, Scholar of Tactics": "specialized",
+        "Viconia, Disciple of Arcana": "specialized",
+        "Viconia, Disciple of Blood": "specialized",
+        "Viconia, Disciple of Rebirth": "specialized",
+        "Viconia, Disciple of Strength": "specialized",
+        "Viconia, Disciple of Violence": "specialized",
+        "Wilson, Ardent Bear": "specialized",
+        "Wilson, Fearsome Bear": "specialized",
+        "Wilson, Majestic Bear": "specialized",
+        "Wilson, Subtle Bear": "specialized",
+        "Wilson, Urbane Bear": "specialized",
+        "Wyll of the Blade Pact": "specialized",
+        "Wyll of the Celestial Pact": "specialized",
+        "Wyll of the Elder Pact": "specialized",
+        "Wyll of the Fey Pact": "specialized",
+        "Wyll of the Fiend Pact": "specialized"
+      }
+    }
+  ],
+  "duel commander": [
+    {
+      "url": "https://web.archive.org/web/20120610063711/http://duelcommander.com/2012/03/march-20th-banlist-update/",
+      "changes": {
+        "Amulet of Quoz": "banned",
+        "Ancestral Recall": "banned",
+        "Back to Basics": "banned",
+        "Bitterblossom": "banned",
+        "Black Lotus": "banned",
+        "Bronze Tablet": "banned",
+        "Channel": "banned",
+        "Chaos Orb": "banned",
+        "Contract from Below": "banned",
+        "Crucible of Worlds": "banned",
+        "Darkpact": "banned",
+        "Demonic Attorney": "banned",
+        "Falling Star": "banned",
+        "Fastbond": "banned",
+        "Gifts Ungiven": "banned",
+        "Hermit Druid": "banned",
+        "Imperial Seal": "banned",
+        "Intuition": "banned",
+        "Jeweled Bird": "banned",
+        "Karakas": "banned",
+        "Library of Alexandria": "banned",
+        "Mana Crypt": "banned",
+        "Mana Drain": "banned",
+        "Mana Vault": "banned",
+        "Mind Twist": "banned",
+        "Mishra's Workshop": "banned",
+        "Mox Emerald": "banned",
+        "Mox Jet": "banned",
+        "Mox Pearl": "banned",
+        "Mox Ruby": "banned",
+        "Mox Sapphire": "banned",
+        "Protean Hulk": "banned",
+        "Rebirth": "banned",
+        "Recurring Nightmare": "banned",
+        "Sensei's Divining Top": "banned",
+        "Shahrazad": "banned",
+        "Sol Ring": "banned",
+        "Staff of Domination": "banned",
+        "Strip Mine": "banned",
+        "Tempest Efreet": "banned",
+        "The Tabernacle at Pendrell Vale": "banned",
+        "Time Vault": "banned",
+        "Time Walk": "banned",
+        "Timmerian Fiends": "banned",
+        "Tinker": "banned",
+        "Tolarian Academy": "banned",
+        "Vampiric Tutor": "banned",
+        "Braids, Cabal Minion": "banned_as_commander",
+        "Erayo, Soratami Ascendant": "banned_as_commander",
+        "Rofellos, Llanowar Emissary": "banned_as_commander",
+        "Yawgmoth's Bargain": "banned",
+        "Serra Ascendant": "banned",
+        "Grindstone": "banned",
+        "Necropotence": "banned",
+        "Balance": "banned"
+      }
+    },
+    {
+      "date": "2012-07-01",
+      "url": "https://web.archive.org/web/20121127000448/http://duelcommander.com/2012/06/june-20th-banlist-update/",
+      "changes": {
+        "Intuition": "legal",
+        "Recurring Nightmare": "legal"
+      }
+    },
+    {
+      "date": "2012-10-01",
+      "url": "https://web.archive.org/web/20121121164825/http://duelcommander.com/2012/09/septembre-20th-banlist-update/",
+      "changes": {
+        "Ancient Tomb": "banned",
+        "Fastbond": "legal",
+        "Edric, Spymaster of Trest": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2013-05-03",
+      "url": "https://web.archive.org/web/20130904030307/http://duelcommander.com/2013/04/dragons-maze-banlist-update/",
+      "changes": {
+        "Humility": "banned",
+        "Vanishing": "banned",
+        "Bitterblossom": "legal",
+        "Protean Hulk": "legal",
+        "Staff of Domination": "legal"
+      }
+    },
+    {
+      "date": "2013-07-19",
+      "url": "https://web.archive.org/web/20140208083634/http://duelcommander.com/2013/07/magic-2014-banlist-update-2/",
+      "changes": {
+        "Protean Hulk": "banned",
+        "Winter Orb": "banned"
+      }
+    },
+    {
+      "date": "2013-09-27",
+      "url": "https://web.archive.org/web/20140208090637/http://duelcommander.com/2013/09/theros-banlist-update/",
+      "changes": {
+        "Loyal Retainers": "banned"
+      }
+    },
+    {
+      "date": "2014-02-07",
+      "url": "https://web.archive.org/web/20140208081012/http://duelcommander.com/2014/01/born-gods-banlist-update/",
+      "changes": {
+        "Grim Monolith": "banned",
+        "Natural Order": "banned",
+        "Oath of Druids": "banned",
+        "Vanishing": "legal",
+        "Derevi, Empyrial Tactician": "banned_as_commander",
+        "Zur the Enchanter": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2014-07-18",
+      "url": "https://web.archive.org/web/20150211133253/http://duelcommander.com/2014/07/magic-2015-banlist-update/",
+      "changes": {
+        "Cataclysm": "banned",
+        "Oloro, Ageless Ascetic": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2015-03-23",
+      "url": "https://www.mtgdc.info/announcements/2015/march-2015-rules-bannedrestricted-update",
+      "changes": {
+        "Entomb": "banned",
+        "Fastbond": "banned",
+        "Food Chain": "banned",
+        "Braids, Cabal Minion": "legal",
+        "Crucible of Worlds": "legal",
+        "Sensei's Divining Top": "legal",
+        "Winter Orb": "legal"
+      }
+    },
+    {
+      "date": "2015-07-17",
+      "url": "https://www.mtgdc.info/announcements/2015/july-2015-rules-bannedrestricted-update",
+      "changes": {
+        "Mystical Tutor": "banned"
+      }
+    },
+    {
+      "date": "2015-10-02",
+      "url": "https://www.mtgdc.info/announcements/2015/september-2015-rules-bannedrestricted-update",
+      "changes": {
+        "Sensei's Divining Top": "banned"
+      }
+    },
+    {
+      "date": "2016-01-22",
+      "url": "https://www.mtgdc.info/announcements/2016/january-2016-rules-bannedrestricted-update",
+      "changes": {
+        "Cataclysm": "legal"
+      }
+    },
+    {
+      "date": "2016-04-08",
+      "url": "https://www.mtgdc.info/announcements/2016/april-2016-rules-bannedrestricted-update",
+      "changes": {
+        "Gaea's Cradle": "banned",
+        "Tasigur, the Golden Fang": "banned_as_commander",
+        "Yisan, the Wanderer Bard": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2016-07-22",
+      "url": "https://www.mtgdc.info/announcements/2016/july-2016-rules-bannedrestricted-update",
+      "changes": {
+        "Dig Through Time": "banned",
+        "Necrotic Ooze": "banned",
+        "Treasure Cruise": "banned",
+        "Marath, Will of the Wild": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2016-11-11",
+      "url": "https://www.mtgdc.info/announcements/2016/november-2016-rules-bannedrestricted-update",
+      "changes": {
+        "Yawgmoth's Bargain": "legal",
+        "Serra Ascendant": "legal",
+        "Grindstone": "legal",
+        "Necropotence": "legal",
+        "Balance": "legal"
+      }
+    },
+    {
+      "date": "2017-04-21",
+      "url": "https://www.mtgdc.info/announcements/2017/april-2017-rules-bannedrestricted-update",
+      "changes": {
+        "Chrome Mox": "banned",
+        "Mox Diamond": "banned",
+        "Yisan, the Wanderer Bard": "legal",
+        "Breya, Etherium Shaper": "banned_as_commander",
+        "Vial Smasher the Fierce": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2017-07-21",
+      "url": "https://www.mtgdc.info/announcements/2017/july-2017-rules-bannedrestricted-update",
+      "changes": {
+        "Emrakul, the Aeons Torn": "banned",
+        "Polymorph": "banned",
+        "Ancient Tomb": "legal",
+        "Fastbond": "legal",
+        "Mind Twist": "legal",
+        "Bruse Tarl, Boorish Herder": "banned_as_commander",
+        "Geist of Saint Traft": "banned_as_commander",
+        "Jace, Vryn's Prodigy": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2017-09-29",
+      "url": "https://www.mtgdc.info/announcements/2017/september-2017-rules-bannedrestricted-update",
+      "changes": {
+        "Eidolon of the Great Revel": "banned",
+        "Fireblast": "banned",
+        "Price of Progress": "banned",
+        "Sulfuric Vortex": "banned",
+        "Edgar Markov": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2017-12-01",
+      "url": "https://www.mtgdc.info/announcements/2017/november-2017-rules-bannedrestricted-update",
+      "changes": {
+        "Fastbond": "banned"
+      }
+    },
+    {
+      "date": "2018-06-01",
+      "url": "https://www.mtgdc.info/announcements/2018/may-2018-rules-bannedrestricted-update",
+      "changes": {
+        "Zurgo Bellstriker": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2019-03-01",
+      "url": "https://www.mtgdc.info/announcements/2019/february-2019-rules-bannedrestricted-update",
+      "changes": {
+        "Prime Speaker Vannifar": "banned_as_commander",
+        "Baral, Chief of Compliance": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2019-08-31",
+      "url": "https://www.mtgdc.info/announcements/2019/august-2019-rules-bannedrestricted-update",
+      "changes": {
+        "Arahbo, Roar of the World": "banned_as_commander",
+        "Najeela, the Blade-Blossom": "banned_as_commander",
+        "Teferi, Temporal Archmage": "banned_as_commander",
+        "Urza, Lord High Artificer": "banned_as_commander",
+        "Yuriko, the Tiger's Shadow": "banned_as_commander",
+        "Timetwister": "banned",
+        "Edric, Spymaster of Trest": "legal",
+        "Erayo, Soratami Ascendant": "legal",
+        "Zur the Enchanter": "legal"
+      }
+    },
+    {
+      "date": "2019-11-29",
+      "url": "https://www.mtgdc.info/announcements/2019/november-2019-rules-bannedrestricted-update",
+      "changes": {
+        "Emry, Lurker of the Loch": "banned_as_commander",
+        "Edric, Spymaster of Trest": "banned_as_commander",
+        "Scapeshift": "banned"
+      }
+    },
+    {
+      "date": "2020-02-28",
+      "url": "https://www.mtgdc.info/announcements/2020/february-2020-rules-bannedrestricted-update",
+      "changes": {
+        "Thassa's Oracle": "banned",
+        "Ancient Tomb": "banned",
+        "Mox Opal": "banned",
+        "Sulfuric Vortex": "legal"
+      }
+    },
+    {
+      "date": "2020-05-29",
+      "url": "https://www.mtgdc.info/announcements/2020/may-2020-rules-bannedrestricted-update",
+      "changes": {
+        "Lutri, the Spellchaser": "banned",
+        "Deflecting Swat": "banned",
+        "Fierce Guardianship": "banned",
+        "High Tide": "banned",
+        "Capture of Jingzhou": "banned",
+        "Temporal Manipulation": "banned",
+        "Time Warp": "banned",
+        "Cavern of Souls": "banned",
+        "Field of the Dead": "banned",
+        "Wasteland": "banned",
+        "Lion's Eye Diamond": "banned",
+        "Gifts Ungiven": "legal",
+        "Jace, Vryn's Prodigy": "legal"
+      }
+    },
+    {
+      "date": "2020-06-10",
+      "url": "https://www.mtgdc.info/announcements/2020/duel-commander-policy-about-offensive-cards",
+      "changes": {
+        "Cleanse": "banned",
+        "Crusade": "banned",
+        "Imprison": "banned",
+        "Invoke Prejudice": "banned",
+        "Jihad": "banned",
+        "Pradesh Gypsies": "banned",
+        "Stone-Throwing Devils": "banned"
+      }
+    },
+    {
+      "date": "2020-08-28",
+      "url": "https://www.mtgdc.info/announcements/2020/august-2020-rules-bannedrestricted-update",
+      "changes": {
+        "Genesis Storm": "banned"
+      }
+    },
+    {
+      "date": "2020-12-04",
+      "url": "https://www.mtgdc.info/announcements/2020/november-2020-rules-bannedrestricted-update",
+      "changes": {
+        "Akiri, Line-Slinger": "banned_as_commander",
+        "Omnath, Locus of Creation": "banned_as_commander",
+        "Thrasios, Triton Hero": "banned_as_commander",
+        "Tymna the Weaver": "banned_as_commander",
+        "Jeweled Lotus": "banned",
+        "Uro, Titan of Nature's Wrath": "banned"
+      }
+    },
+    {
+      "date": "2021-01-25",
+      "url": "https://www.mtgdc.info/announcements/2021/january-2021-rules-bannedrestricted-update",
+      "changes": {
+        "Esior, Wardwing Familiar": "banned_as_commander",
+        "Jeska, Thrice Reborn": "banned_as_commander",
+        "Fireblast": "legal"
+      }
+    },
+    {
+      "date": "2021-03-29",
+      "url": "https://www.mtgdc.info/announcements/2021/march-2021-rules-bannedrestricted-update",
+      "changes": {
+        "Ardenn, Intrepid Archaeologist": "banned_as_commander",
+        "Keleth, Sunmane Familiar": "banned_as_commander",
+        "Krark, the Thumbless": "banned_as_commander",
+        "Ludevic, Necro-Alchemist": "banned_as_commander",
+        "Reyhan, Last of the Abzan": "banned_as_commander",
+        "Rograkh, Son of Rohgahh": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2021-07-26",
+      "url": "https://www.mtgdc.info/announcements/2021/july-2021-rules-bannedrestricted-update",
+      "changes": {
+        "Inalla, Archmage Ritualist": "banned_as_commander",
+        "Ragavan, Nimble Pilferer": "banned_as_commander",
+        "Gifts Ungiven": "banned"
+      }
+    },
+    {
+      "date": "2021-09-27",
+      "url": "https://www.mtgdc.info/announcements/2021/september-2021-rules-bannedrestricted-update",
+      "changes": {
+        "Maddening Hex": "banned",
+        "Asmoranomardicadaistinaculdacar": "banned_as_commander",
+        "Winota, Joiner of Forces": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2022-01-31",
+      "url": "https://www.mtgdc.info/announcements/2022/january-2022-rules-bannedrestricted-update",
+      "changes": {
+        "Kraum, Ludevic's Opus": "banned_as_commander",
+        "Livio, Oathsworn Sentinel": "banned_as_commander",
+        "Teferi, Temporal Archmage": "legal",
+        "Marath, Will of the Wild": "legal"
+      }
+    },
+    {
+      "date": "2022-02-28",
+      "url": "https://www.mtgdc.info/announcements/2022/february-2022-rules-bannedrestricted-update",
+      "changes": {
+        "Bruse Tarl, Boorish Herder": "legal",
+        "Jeska, Thrice Reborn": "legal",
+        "Keleth, Sunmane Familiar": "legal",
+        "Kraum, Ludevic's Opus": "legal",
+        "Livio, Oathsworn Sentinel": "legal",
+        "Ludevic, Necro-Alchemist": "legal",
+        "Reyhan, Last of the Abzan": "legal",
+        "Rograkh, Son of Rohgahh": "legal",
+        "Tymna the Weaver": "legal",
+        "Yoshimaru, Ever Faithful": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2022-05-30",
+      "url": "https://www.mtgdc.info/announcements/2022/may-2022-rules-bannedrestricted-update",
+      "changes": {
+        "Shorikai, Genesis Engine": "banned_as_commander",
+        "Bazaar of Baghdad": "banned",
+        "Ragavan, Nimble Pilferer": "banned",
+        "Serra's Sanctum": "banned"
+      }
+    },
+    {
+      "date": "2022-07-25",
+      "url": "https://www.mtgdc.info/announcements/2022/july-2022-rules-bannedrestricted-update",
+      "changes": {
+        "Minsc & Boo, Timeless Heroes": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2022-09-26",
+      "url": "https://www.mtgdc.info/announcements/2022/september-2022-rules-bannedrestricted-update",
+      "changes": {
+        "Yoshimaru, Ever Faithful": "legal"
+      }
+    },
+    {
+      "date": "2023-03-27",
+      "url": "https://www.mtgdc.info/announcements/2023/march-2023-rules-bannedrestricted-update",
+      "changes": {
+        "Trazyn the Infinite": "banned"
+      }
+    },
+    {
+      "date": "2023-05-29",
+      "url": "https://www.mtgdc.info/announcements/2023/may-2023-rules-bannedrestricted-update",
+      "changes": {
+        "Dihada, Binder of Wills": "banned_as_commander",
+        "Comet, Stellar Pup": "banned",
+        "Hogaak, Arisen Necropolis": "banned",
+        "Mox Amber": "banned"
+      }
+    },
+    {
+      "date": "2023-07-31",
+      "url": "https://www.mtgdc.info/announcements/2023/july-2023-rules-bannedrestricted-update",
+      "changes": {
+        "Deadly Rollick": "banned",
+        "Flawless Maneuver": "banned",
+        "The One Ring": "banned",
+        "Eidolon of the Great Revel": "legal",
+        "High Tide": "legal"
+      }
+    },
+    {
+      "date": "2023-11-27",
+      "url": "https://www.mtgdc.info/announcements/2023/november-2023-rules-bannedrestricted-update",
+      "changes": {
+        "Lotus Petal": "banned",
+        "Rain of Filth": "banned"
+      }
+    },
+    {
+      "date": "2024-03-25",
+      "url": "https://www.mtgdc.info/announcements/2024/march-2024-rules-bannedrestricted-update",
+      "changes": {
+        "Raffine, Scheming Seer": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2024-05-27",
+      "url": "https://www.mtgdc.info/announcements/2024/may-2024-rules-bannedrestricted-update",
+      "changes": {
+        "Eris, Roar of the Storm": "banned_as_commander",
+        "Aerialephant": "banned",
+        "Ambassador Blorpityblorpboop": "banned",
+        "Baaallerina": "banned",
+        "_____ Balls of Fire": "banned",
+        "Bioluminary": "banned",
+        "_____ Bird Gets the Worm": "banned",
+        "Carnival Carnivore": "banned",
+        "Chicken Troupe": "banned",
+        "Clandestine Chameleon": "banned",
+        "Command Performance": "banned",
+        "Done for the Day": "banned",
+        "Fight the _____ Fight": "banned",
+        "Finishing Move": "banned",
+        "Glitterflitter": "banned",
+        "_____ Goblin": "banned",
+        "\"Name Sticker\" Goblin": "banned",
+        "Last Voyage of the _____": "banned",
+        "Lineprancers": "banned",
+        "Make a _____ Splash": "banned",
+        "Minotaur de Force": "banned",
+        "_____-o-saurus": "banned",
+        "Park Bleater": "banned",
+        "Pin Collection": "banned",
+        "Prize Wall": "banned",
+        "Proficient Pyrodancer": "banned",
+        "Robo-Piñata": "banned",
+        "_____ _____ Rocketship": "banned",
+        "Roxi, Publicist to the Stars": "banned",
+        "Scampire": "banned",
+        "Stiltstrider": "banned",
+        "Sword-Swallowing Seraph": "banned",
+        "Ticketomaton": "banned",
+        "_____ _____ _____ Trespasser": "banned",
+        "Tusk and Whiskers": "banned",
+        "Wicker Picker": "banned",
+        "Wizards of the _____": "banned",
+        "Wolf in _____ Clothing": "banned",
+        "Coming Attraction": "banned",
+        "Complaints Clerk": "banned",
+        "Deadbeat Attendant": "banned",
+        "Dee Kay, Finder of the Lost": "banned",
+        "Discourtesy Clerk": "banned",
+        "Draconian Gate-Bot": "banned",
+        "\"Lifetime\" Pass Holder": "banned",
+        "Line Cutter": "banned",
+        "Monitor Monitor": "banned",
+        "Myra the Magnificent": "banned",
+        "Petting Zookeeper": "banned",
+        "Quick Fixer": "banned",
+        "Rad Rascal": "banned",
+        "Ride Guide": "banned",
+        "Seasoned Buttoneer": "banned",
+        "Soul Swindler": "banned",
+        "Spinnerette, Arachnobat": "banned",
+        "Squirrel Squatters": "banned",
+        "Step Right Up": "banned",
+        "The Most Dangerous Gamer": "banned",
+        "Balloon Stand": "banned",
+        "Bounce Chamber": "banned",
+        "Bumper Cars": "banned",
+        "Centrifuge": "banned",
+        "Clown Extruder": "banned",
+        "Concession Stand": "banned",
+        "Costume Shop": "banned",
+        "Cover the Spot": "banned",
+        "Dart Throw": "banned",
+        "Drop Tower": "banned",
+        "Ferris Wheel": "banned",
+        "Foam Weapons Kiosk": "banned",
+        "Fortune Teller": "banned",
+        "Gallery of Legends": "banned",
+        "Gift Shop": "banned",
+        "Guess Your Fate": "banned",
+        "Hall of Mirrors": "banned",
+        "Haunted House": "banned",
+        "Information Booth": "banned",
+        "Kiddie Coaster": "banned",
+        "Log Flume": "banned",
+        "Memory Test": "banned",
+        "Merry-Go-Round": "banned",
+        "Pick-a-Beeble": "banned",
+        "Push Your Luck": "banned",
+        "Roller Coaster": "banned",
+        "Scavenger Hunt (a)": "banned",
+        "Scavenger Hunt (b)": "banned",
+        "Scavenger Hunt (c)": "banned",
+        "Scavenger Hunt (d)": "banned",
+        "Scavenger Hunt (e)": "banned",
+        "Scavenger Hunt (f)": "banned",
+        "Spinny Ride": "banned",
+        "Squirrel Stack": "banned",
+        "Storybook Ride": "banned",
+        "Swinging Ship": "banned",
+        "The Superlatorium (a)": "banned",
+        "The Superlatorium (b)": "banned",
+        "The Superlatorium (c)": "banned",
+        "The Superlatorium (d)": "banned",
+        "The Superlatorium (e)": "banned",
+        "The Superlatorium (f)": "banned",
+        "Trash Bin": "banned",
+        "Trivia Contest (a)": "banned",
+        "Trivia Contest (b)": "banned",
+        "Trivia Contest (c)": "banned",
+        "Trivia Contest (d)": "banned",
+        "Trivia Contest (e)": "banned",
+        "Trivia Contest (f)": "banned",
+        "Tunnel of Love": "banned",
+        "Ancestral Hot Dog Minotaur": "banned",
+        "Carnival Elephant Meteor": "banned",
+        "Contortionist Otter Storm": "banned",
+        "Cool Fluffy Loxodon": "banned",
+        "Cursed Firebreathing Yogurt": "banned",
+        "Deep-Fried Plague Myr": "banned",
+        "Demonic Tourist Laser": "banned",
+        "Eldrazi Guacamole Tightrope": "banned",
+        "Elemental Time Flamingo": "banned",
+        "Eternal Acrobat Toast": "banned",
+        "Familiar Beeble Mascot": "banned",
+        "Geek Lotus Warrior": "banned",
+        "Giant Mana Cake": "banned",
+        "Goblin Coward Parade": "banned",
+        "Happy Dead Squirrel": "banned",
+        "Jetpack Death Seltzer": "banned",
+        "Misunderstood Trapeze Elf": "banned",
+        "Mystic Doom Sandwich": "banned",
+        "Narrow-Minded Baloney Fireworks": "banned",
+        "Night Brushwagg Ringmaster": "banned",
+        "Notorious Sliver War": "banned",
+        "Phyrexian Midway Bamboozle": "banned",
+        "Playable Delusionary Hydra": "banned",
+        "Primal Elder Kitty": "banned",
+        "Sassy Gremlin Blood": "banned",
+        "Slimy Burrito Illusion": "banned",
+        "Snazzy Aether Homunculus": "banned",
+        "Space Fungus Snickerdoodle": "banned",
+        "Spooky Clown Mox": "banned",
+        "Squid Fire Knight": "banned",
+        "Squishy Sphinx Ninja": "banned",
+        "Sticky Kavu Daredevil": "banned",
+        "Trained Blessed Mind": "banned",
+        "Trendy Circus Pirate": "banned",
+        "Unassuming Gelatinous Serpent": "banned",
+        "Unglued Pea-Brained Dinosaur": "banned",
+        "Unhinged Beast Hunt": "banned",
+        "Unique Charmed Pants": "banned",
+        "Unsanctioned Ancient Juggler": "banned",
+        "Unstable Robot Dragon": "banned",
+        "Urza's Dark Cannonball": "banned",
+        "Vampire Champion Fury": "banned",
+        "Weird Angel Flame": "banned",
+        "Werewolf Lightning Mage": "banned",
+        "Wild Ogre Bupkis": "banned",
+        "Wrinkly Monkey Shenanigans": "banned",
+        "Yawgmoth Merfolk Soul": "banned",
+        "Zombie Cheese Magician": "banned"
+      }
+    },
+    {
+      "date": "2024-06-17",
+      "url": "https://www.mtgdc.info/announcements/2024/june-17-2024-announcementupdate",
+      "changes": {
+        "Ajani, Nacatl Pariah": "banned_as_commander",
+        "Ajani, Nacatl Avenger": "banned_as_commander",
+        "Nadu, Winged Wisdom": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2024-07-22",
+      "url": "https://www.mtgdc.info/announcements/2024/july-22-2024-announcementupdate",
+      "changes": {
+        "Old Stickfingers": "banned_as_commander",
+        "Ardenn, Intrepid Archaeologist": "legal",
+        "Thrasios, Triton Hero": "legal",
+        "Polymorph": "legal"
+      }
+    },
+    {
+      "date": "2024-09-30",
+      "url": "https://www.mtgdc.info/announcements/2024/september-30-2024-announcementupdate",
+      "changes": {
+        "Tamiyo, Inquisitive Student": "banned_as_commander",
+        "Tamiyo, Seasoned Scholar": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2025-01-27",
+      "url": "https://www.mtgdc.info/announcements/2025/january-27-2025",
+      "changes": {
+        "Ezio Auditore da Firenze": "banned_as_commander",
+        "Balance": "banned",
+        "Reanimate": "banned",
+        "White Plume Adventurer": "banned",
+        "Akiri, Line-Slinger": "legal"
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "comment": "New sticker card printed and falls under sticker card ban",
+      "changes": {
+        "Sticker sheet": "banned"
+      }
+    },
+    {
+      "date": "2025-05-26",
+      "url": "https://www.mtgdc.info/announcements/2025/may-26-2025",
+      "changes": {
+        "Invert Polarity": "banned",
+        "Zurgo Bellstriker": "legal",
+        "Hogaak, Arisen Necropolis": "banned_as_commander"
+      }
+    },
+    {
+      "date": "2025-07-28",
+      "url": "https://www.mtgdc.info/announcements/2025/july-28-2025",
+      "changes": {
+        "Blood Moon": "banned",
+        "Dark Ritual": "banned",
+        "Force of Will": "banned",
+        "Underworld Breach": "banned"
+      }
+    },
+    {
+      "date": "2025-09-29",
+      "url": "https://www.mtgdc.info/announcements/2025/september-29-2025",
+      "changes": {
+        "Asmoranomardicadaistinaculdacar": "legal",
+        "Baral, Chief of Compliance": "legal",
+        "Esior, Wardwing Familiar": "legal",
+        "Rofellos, Llanowar Emissary": "legal",
+        "Loyal Retainers": "legal"
+      }
+    },
+    {
+      "date": "2025-11-24",
+      "url": "https://www.duelcommander.org/announcements/2025/11/24/",
+      "changes": {
+        "Nadu, Winged Wisdom": "banned",
+        "Breya, Etherium Shaper": "legal"
+      }
+    },
+    {
+      "date": "2026-01-26",
+      "url": "https://www.duelcommander.org/announcements/2026/01/26/",
+      "changes": {
+        "Rograkh, Son of Rohgahh": "banned_as_commander",
+        "Tasigur, the Golden Fang": "legal",
+        "Trazyn the Infinite": "legal",
+        "Necrotic Ooze": "legal"
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "url": "https://www.duelcommander.org/announcements/2026/03/30/",
+      "changes": {
+        "Lutri, the Spellchaser": "banned_as_companion"
+      }
+    },
+    {
+      "date": "2026-05-25",
+      "url": "https://www.duelcommander.org/announcements/2026/05/25/",
+      "changes": {
+        "Emry, Lurker of the Loch": "legal",
+        "Najeela, the Blade-Blossom": "legal",
+        "Winota, Joiner of Forces": "legal"
+      }
+    },
+    {
+      "date": "2026-07-27",
+      "url": "https://www.duelcommander.org/announcements/2026/07/27/",
+      "changes": {
+        "Spider-Man 2099": "banned_as_commander",
+        "Lumra, Bellow of the Woods": "banned_as_commander",
+        "The Fantasticar": "banned_as_commander"
+      }
+    }
+  ],
+  "extended": [
+    {
+      "url": "https://web.archive.org/web/20000511092139/http://www.wizards.com/dci/judge/resources/sfr_extended.asp",
+      "changes": {
+        "Amulet of Quoz": "banned",
+        "Braingeyser": "banned",
+        "Timmerian Fiends": "banned",
+        "Zuran Orb": "banned"
+      }
+    },
+    {
+      "date": "1997-10-01",
+      "changes": {
+        "Hypnotic Specter": "banned"
+      }
+    },
+    {
+      "date": "1998-07-01",
+      "url": "https://web.archive.org/web/19981205023409/http://www.wizards.com/DCI/BR6-1-98.html",
+      "changes": {
+        "Land Tax": "banned"
+      }
+    },
+    {
+      "date": "1999-01-01",
+      "url": "https://web.archive.org/web/19990209004446/http://www.wizards.com/DCI/MTG_DCI_BR12-1-98.html",
+      "changes": {
+        "Braingeyser": "legal",
+        "Tolarian Academy": "banned",
+        "Windfall": "banned"
+      }
+    },
+    {
+      "date": "1999-03-11",
+      "url": "https://web.archive.org/web/20010128184200/http://www.wizards.com/DCI/announce_archive.asp",
+      "changes": {
+        "Memory Jar": "banned"
+      }
+    },
+    {
+      "date": "1999-07-01",
+      "url": "http://web.archive.org/web/20111121212434/http://www.crystalkeep.com/magic/rules/dci/update-990601.txt",
+      "changes": {
+        "Time Spiral": "banned"
+      }
+    },
+    {
+      "date": "1999-08-01",
+      "url": "https://web.archive.org/web/20000422065433/http://www.wizards.com/DCI/announce.asp?dci19990716a",
+      "changes": {
+        "Yawgmoth's Bargain": "banned"
+      }
+    },
+    {
+      "date": "1999-10-01",
+      "url": "https://web.archive.org/web/20000305053359/http://www.wizards.com/DCI/announce.asp?dci19990901b",
+      "changes": {
+        "Dream Halls": "banned",
+        "Earthcraft": "banned",
+        "Lotus Petal": "banned",
+        "Mind Over Matter": "banned",
+        "Yawgmoth's Will": "banned"
+      }
+    },
+    {
+      "date": "2000-04-01",
+      "url": "https://web.archive.org/web/20000510094853/http://www.wizards.com/dci/judge/resources/br_030100.asp",
+      "changes": {
+        "Dark Ritual": "banned",
+        "Mana Vault": "banned"
+      }
+    },
+    {
+      "date": "2001-04-01",
+      "changes": {
+        "Demonic Consultation": "banned",
+        "Necropotence": "banned",
+        "Replenish": "banned",
+        "Survival of the Fittest": "banned"
+      }
+    },
+    {
+      "date": "2003-10-01",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20030901a",
+      "changes": {
+        "Entomb": "banned",
+        "Frantic Search": "banned",
+        "Goblin Lackey": "banned"
+      }
+    },
+    {
+      "date": "2004-01-01",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20031201a",
+      "changes": {
+        "Ancient Tomb": "banned",
+        "Goblin Recruiter": "banned",
+        "Grim Monolith": "banned",
+        "Hermit Druid": "banned",
+        "Oath of Druids": "banned",
+        "Tinker": "banned"
+      }
+    },
+    {
+      "date": "2004-09-20",
+      "url": "http://www.wizards.com/Default.asp?x=dci/announce/dci20040901a",
+      "changes": {
+        "Metalworker": "banned",
+        "Skullclamp": "banned"
+      }
+    },
+    {
+      "date": "2005-09-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20050901a",
+      "changes": {
+        "Aether Vial": "banned",
+        "Disciple of the Vault": "banned"
+      }
+    },
+    {
+      "date": "2008-09-20",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-1-2008-dci-banned-and-restricted-list-announcement-2008-09-01",
+      "changes": {
+        "Sensei's Divining Top": "banned"
+      }
+    },
+    {
+      "date": "2010-07-01",
+      "url": "https://magic.wizards.com/en/articles/archive/magic-online/june-18-2010-dci-banned-restricted-list-announcement-2010-06-18",
+      "changes": {
+        "Hypergenesis": "banned",
+        "Sword of the Meek": "banned"
+      }
+    },
+    {
+      "date": "2011-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-20-2011-dci-banned-restricted-list-announcement-2011-09-20",
+      "changes": {
+        "Jace, the Mind Sculptor": "banned",
+        "Mental Misstep": "banned",
+        "Ponder": "banned",
+        "Preordain": "banned",
+        "Stoneforge Mystic": "banned"
+      }
+    }
+  ],
+  "historic": [
+    {
+      "date": "2019-12-10",
+      "url": "https://magic.wizards.com/en/articles/archive/magic-digital/historic-suspension-announcement-2019-12-10",
+      "changes": {
+        "Once Upon a Time": "banned",
+        "Field of the Dead": "banned",
+        "Veil of Summer": "banned",
+        "Oko, Thief of Crowns": "banned"
+      }
+    },
+    {
+      "date": "2020-03-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Field of the Dead": "legal"
+      }
+    },
+    {
+      "date": "2020-06-01",
+      "url": "https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Agent of Treachery": "banned",
+        "Fires of Invention": "banned"
+      }
+    },
+    {
+      "date": "2020-06-09",
+      "url": "https://magic.wizards.com/en/articles/archive/news/suspension-update-historic-digital-format-2020-06-08",
+      "changes": {
+        "Winota, Joiner of Forces": "banned"
+      }
+    },
+    {
+      "date": "2020-07-13",
+      "url": "https://magic.wizards.com/en/articles/archive/news/july-13-2020-banned-and-restricted-announcement-2020-07-13",
+      "changes": {
+        "Nexus of Fate": "banned",
+        "Burning-Tree Emissary": "banned"
+      }
+    },
+    {
+      "date": "2020-08-03",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-8-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Wilderness Reclamation": "banned",
+        "Teferi, Time Raveler": "banned"
+      }
+    },
+    {
+      "date": "2020-08-24",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-24-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Field of the Dead": "banned"
+      }
+    },
+    {
+      "date": "2020-10-12",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-12-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Omnath, Locus of Creation": "banned",
+        "Burning-Tree Emissary": "legal"
+      }
+    },
+    {
+      "date": "2021-02-15",
+      "url": "https://magic.wizards.com/en/articles/archive/news/february-15-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Uro, Titan of Nature's Wrath": "banned"
+      }
+    },
+    {
+      "date": "2021-04-23",
+      "url": "https://twitter.com/MTG_Arena/status/1362555679844814853",
+      "changes": {
+        "Swords to Plowshares": "banned",
+        "Counterspell": "banned",
+        "Dark Ritual": "banned",
+        "Demonic Tutor": "banned",
+        "Lightning Bolt": "banned",
+        "Channel": "banned",
+        "Natural Order": "banned"
+      }
+    },
+    {
+      "date": "2021-05-20",
+      "url": "https://magic.wizards.com/en/articles/archive/news/may-19-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Thassa's Oracle": "banned"
+      }
+    },
+    {
+      "date": "2021-06-09",
+      "url": "https://magic.wizards.com/en/articles/archive/news/june-9-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Time Warp": "banned"
+      }
+    },
+    {
+      "date": "2021-07-21",
+      "url": "https://magic.wizards.com/en/articles/archive/news/july-21-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Brainstorm": "banned"
+      }
+    },
+    {
+      "date": "2021-08-26",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Kraken Hatchling": "conjurable",
+        "Ponder": "conjurable",
+        "Regal Force": "conjurable",
+        "Stormfront Pegasus": "conjurable",
+        "Tropical Island": "conjurable"
+      }
+    },
+    {
+      "date": "2021-10-13",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-13-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Tibalt's Trickery": "banned",
+        "Memory Lapse": "banned"
+      }
+    },
+    {
+      "date": "2021-12-09",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-state-game-alchemy-2021-12-02",
+      "changes": {
+        "Omnath, Locus of Creation": "legal"
+      }
+    },
+    {
+      "date": "2022-01-25",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-25-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Teferi, Time Raveler": "legal"
+      }
+    },
+    {
+      "date": "2022-02-24",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/alchemy-rebalancing-february-24-2022",
+      "changes": {
+        "Fires of Invention": "legal"
+      }
+    },
+    {
+      "date": "2022-07-07",
+      "comment": "These cards are specialized/conjurable only",
+      "changes": {
+        "Alora, Cheerful Assassin": "specialized",
+        "Alora, Cheerful Mastermind": "specialized",
+        "Alora, Cheerful Scout": "specialized",
+        "Alora, Cheerful Swashbuckler": "specialized",
+        "Alora, Cheerful Thief": "specialized",
+        "Ambergris, Agent of Balance": "specialized",
+        "Ambergris, Agent of Destruction": "specialized",
+        "Ambergris, Agent of Law": "specialized",
+        "Ambergris, Agent of Progress": "specialized",
+        "Ambergris, Agent of Tyranny": "specialized",
+        "Gale, Abyssal Conduit": "specialized",
+        "Gale, Holy Conduit": "specialized",
+        "Gale, Primeval Conduit": "specialized",
+        "Gale, Storm Conduit": "specialized",
+        "Gale, Temporal Conduit": "specialized",
+        "Gut, Bestial Fanatic": "specialized",
+        "Gut, Brutal Fanatic": "specialized",
+        "Gut, Devious Fanatic": "specialized",
+        "Gut, Furious Fanatic": "specialized",
+        "Gut, Zealous Fanatic": "specialized",
+        "Imoen, Chaotic Trickster": "specialized",
+        "Imoen, Honorable Trickster": "specialized",
+        "Imoen, Occult Trickster": "specialized",
+        "Imoen, Wily Trickster": "specialized",
+        "Imoen, Wise Trickster": "specialized",
+        "Jaheira, Heroic Harper": "specialized",
+        "Jaheira, Insightful Harper": "specialized",
+        "Jaheira, Merciful Harper": "specialized",
+        "Jaheira, Ruthless Harper": "specialized",
+        "Jaheira, Stirring Harper": "specialized",
+        "Karlach, Tiefling Berserker": "specialized",
+        "Karlach, Tiefling Guardian": "specialized",
+        "Karlach, Tiefling Punisher": "specialized",
+        "Karlach, Tiefling Spellrager": "specialized",
+        "Karlach, Tiefling Zealot": "specialized",
+        "Klement, Death Acolyte": "specialized",
+        "Klement, Knowledge Acolyte": "specialized",
+        "Klement, Life Acolyte": "specialized",
+        "Klement, Nature Acolyte": "specialized",
+        "Klement, Tempest Acolyte": "specialized",
+        "Lae'zel, Blessed Warrior": "specialized",
+        "Lae'zel, Callous Warrior": "specialized",
+        "Lae'zel, Illithid Thrall": "specialized",
+        "Lae'zel, Primal Warrior": "specialized",
+        "Lae'zel, Wrathful Warrior": "specialized",
+        "Lukamina, Bear Form": "specialized",
+        "Lukamina, Crocodile Form": "specialized",
+        "Lukamina, Hawk Form": "specialized",
+        "Lukamina, Scorpion Form": "specialized",
+        "Lukamina, Wolf Form": "specialized",
+        "Lulu, Curious Hollyphant": "specialized",
+        "Lulu, Helpful Hollyphant": "specialized",
+        "Lulu, Inspiring Hollyphant": "specialized",
+        "Lulu, Vengeful Hollyphant": "specialized",
+        "Lulu, Wild Hollyphant": "specialized",
+        "Rasaad, Dragon Monk": "specialized",
+        "Rasaad, Radiant Monk": "specialized",
+        "Rasaad, Shadow Monk": "specialized",
+        "Rasaad, Sylvan Monk": "specialized",
+        "Rasaad, Warrior Monk": "specialized",
+        "Sarevok, Deadly Usurper": "specialized",
+        "Sarevok, Deceitful Usurper": "specialized",
+        "Sarevok, Divine Usurper": "specialized",
+        "Sarevok, Ferocious Usurper": "specialized",
+        "Sarevok, Mighty Usurper": "specialized",
+        "Shadowheart, Cleric of Graves": "specialized",
+        "Shadowheart, Cleric of Order": "specialized",
+        "Shadowheart, Cleric of Trickery": "specialized",
+        "Shadowheart, Cleric of Twilight": "specialized",
+        "Shadowheart, Cleric of War": "specialized",
+        "Skanos, Black Dragon Vassal": "specialized",
+        "Skanos, Blue Dragon Vassal": "specialized",
+        "Skanos, Green Dragon Vassal": "specialized",
+        "Skanos, Red Dragon Vassal": "specialized",
+        "Skanos, White Dragon Vassal": "specialized",
+        "Vhal, Scholar of Creation": "specialized",
+        "Vhal, Scholar of Elements": "specialized",
+        "Vhal, Scholar of Mortality": "specialized",
+        "Vhal, Scholar of Prophecy": "specialized",
+        "Vhal, Scholar of Tactics": "specialized",
+        "Viconia, Disciple of Arcana": "specialized",
+        "Viconia, Disciple of Blood": "specialized",
+        "Viconia, Disciple of Rebirth": "specialized",
+        "Viconia, Disciple of Strength": "specialized",
+        "Viconia, Disciple of Violence": "specialized",
+        "Wilson, Ardent Bear": "specialized",
+        "Wilson, Fearsome Bear": "specialized",
+        "Wilson, Majestic Bear": "specialized",
+        "Wilson, Subtle Bear": "specialized",
+        "Wilson, Urbane Bear": "specialized",
+        "Wyll of the Blade Pact": "specialized",
+        "Wyll of the Celestial Pact": "specialized",
+        "Wyll of the Elder Pact": "specialized",
+        "Wyll of the Fey Pact": "specialized",
+        "Wyll of the Fiend Pact": "specialized",
+        "Hag of Ceaseless Torment": "conjurable",
+        "Hag of Dark Duress": "conjurable",
+        "Hag of Death's Legion": "conjurable",
+        "Hag of Inner Weakness": "conjurable",
+        "Hag of Mage's Doom": "conjurable",
+        "Hag of Noxious Nightmares": "conjurable",
+        "Hag of Scoured Thoughts": "conjurable",
+        "Hag of Syphoned Breath": "conjurable",
+        "Hag of Twisted Visions": "conjurable",
+        "Lightning Bolt": "conjurable"
+      }
+    },
+    {
+      "date": "2022-10-05",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Ancestral Recall": "conjurable",
+        "Time Walk": "conjurable",
+        "Timetwister": "conjurable",
+        "Black Lotus": "conjurable",
+        "Mox Emerald": "conjurable",
+        "Mox Jet": "conjurable",
+        "Mox Pearl": "conjurable",
+        "Mox Ruby": "conjurable",
+        "Mox Sapphire": "conjurable"
+      }
+    },
+    {
+      "date": "2022-11-18",
+      "url": "https://twitter.com/MTG_Arena/status/1586775900842074126",
+      "changes": {
+        "Mishra's Bauble": "banned"
+      }
+    },
+    {
+      "date": "2023-02-28",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Soul of New Phyrexia": "conjurable"
+      }
+    },
+    {
+      "date": "2023-04-21",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-release-notes-march-of-the-machine",
+      "changes": {
+        "Ragavan, Nimble Pilferer": "banned"
+      }
+    },
+    {
+      "date": "2023-09-08",
+      "url": "https://twitter.com/MTG_Arena/status/1691515167111000064",
+      "changes": {
+        "Blood Moon": "banned",
+        "Intruder Alarm": "banned",
+        "Land Tax": "banned",
+        "Necropotence": "banned",
+        "Sneak Attack": "banned",
+        "Spreading Seas": "banned"
+      }
+    },
+    {
+      "date": "2023-10-10",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Brawler's Plate": "conjurable"
+      }
+    },
+    {
+      "date": "2023-12-04",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/introducing-timeless-a-new-mtg-arena-format",
+      "changes": {
+        "Flooded Strand": "banned",
+        "Polluted Delta": "banned",
+        "Bloodstained Mire": "banned",
+        "Wooded Foothills": "banned",
+        "Windswept Heath": "banned"
+      }
+    },
+    {
+      "date": "2023-12-05",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Thieving Magpie": "conjurable"
+      }
+    },
+    {
+      "date": "2024-02-09",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-february-5-2024",
+      "changes": {
+        "Show and Tell": "banned"
+      }
+    },
+    {
+      "date": "2024-04-19",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-april-8-2024",
+      "changes": {
+        "Commandeer": "banned",
+        "Force of Vigor": "banned",
+        "Mana Drain": "banned",
+        "Reanimate": "banned"
+      }
+    },
+    {
+      "date": "2024-06-14",
+      "url": "http://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-june-3-2024",
+      "changes": {
+        "Harbinger of the Seas": "banned",
+        "Winter Moon": "banned",
+        "Solitude": "banned",
+        "Subtlety": "banned",
+        "Grief": "banned",
+        "Fury": "banned",
+        "Endurance": "banned",
+        "Flare of Fortitude": "banned",
+        "Flare of Denial": "banned",
+        "Flare of Malice": "banned",
+        "Flare of Duplication": "banned",
+        "Flare of Cultivation": "banned",
+        "Marsh Flats": "banned",
+        "Scalding Tarn": "banned",
+        "Verdant Catacombs": "banned",
+        "Arid Mesa": "banned",
+        "Misty Rainforest": "banned"
+      }
+    },
+    {
+      "date": "2024-11-15",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/mtg-arena-announcements-november-11-2024",
+      "changes": {
+        "Temporal Manipulation": "banned"
+      }
+    },
+    {
+      "date": "2025-02-03",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/announcements-february-3-2025",
+      "changes": {
+        "Chrome Mox": "banned"
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Muraganda Petroglyphs": "conjurable"
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-june-30-2025",
+      "changes": {
+        "Counterspell": "legal"
+      }
+    },
+    {
+      "date": "2025-08-01",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/announcements-july-21-2025",
+      "changes": {
+        "Ancient Tomb": "banned",
+        "Strip Mine": "banned",
+        "Magus of the Moon": "banned"
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/announcements-august-18-2025",
+      "changes": {
+        "Mox Opal": "banned",
+        "Flametongue Kavu": "conjurable"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/through-the-omenpaths-card-and-event-updates",
+      "changes": {
+        "Broadside Bombardiers": "banned",
+        "Gut, True Soul Zealot": "banned",
+        "Kraken Hatchling": "legal",
+        "Regal Force": "legal",
+        "Stormfront Pegasus": "legal",
+        "Ponder": "legal"
+      }
+    },
+    {
+      "date": "2025-10-28",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/announcing-the-arena-powered-cube",
+      "changes": {
+        "Fireblast": "banned",
+        "Preordain": "banned",
+        "Pyrokinesis": "banned",
+        "Seething Song": "banned"
+      }
+    },
+    {
+      "date": "2025-11-21",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-november-10-2025",
+      "changes": {
+        "Force of Negation": "banned",
+        "Frantic Search": "banned",
+        "Mystical Tutor": "banned",
+        "Entomb": "banned",
+        "Dark Depths": "banned"
+      }
+    },
+    {
+      "date": "2026-01-23",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/announcements-january-12-2026",
+      "changes": {
+        "Devoted Druid": "banned",
+        "Painter's Servant": "banned"
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Blowfly Infestation": "conjurable",
+        "Rite of Flame": "conjurable",
+        "Stonybrook Schoolmaster": "conjurable"
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-february-9-2026",
+      "changes": {
+        "Eldrazi Temple": "banned",
+        "Ajani, Nacatl Pariah": "banned",
+        "Crop Rotation": "banned",
+        "Scholar of the Lost Trove": "banned",
+        "Magus of the Moon": "legal",
+        "Harbinger of the Seas": "legal",
+        "Force of Vigor": "legal",
+        "Force of Negation": "legal",
+        "Endurance": "legal",
+        "Wilderness Reclamation": "legal",
+        "Agent of Treachery": "legal"
+      }
+    },
+    {
+      "date": "2026-03-23",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-march-23-2026",
+      "changes": {
+        "Food Chain": "banned"
+      }
+    },
+    {
+      "date": "2026-03-30",
+      "url": "https://web.archive.org/web/20260402085746/https://magic.wizards.com/en/news/mtg-arena/arena-powered-cube-draft",
+      "changes": {
+        "Survival of the Fittest": "banned"
+      }
+    },
+    {
+      "date": "2026-04-24",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/announcements-april-20-2026",
+      "changes": {
+        "Armageddon": "banned",
+        "Daze": "banned",
+        "Force of Will": "banned",
+        "Vampiric Tutor": "banned",
+        "Library of Alexandria": "banned"
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Bridge from Below": "conjurable",
+        "Storm Crow": "conjurable"
+      }
+    }
+  ],
+  "ice age block": [
+    {
+      "date": "1995-06-03",
+      "changes": {
+        "Amulet of Quoz": "banned"
+      }
+    },
+    {
+      "date": "1997-05-01",
+      "changes": {
+        "Thawing Glaciers": "banned",
+        "Zuran Orb": "banned"
+      }
+    }
+  ],
+  "innistrad block": [
+    {
+      "date": "2012-04-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/march-20-2012-dci-banned-restricted-list-announcement-2012-03-20",
+      "changes": {
+        "Intangible Virtue": "banned",
+        "Lingering Souls": "banned"
+      }
+    }
+  ],
+  "legacy": [
+    {
+      "changes": {
+        "Ali from Cairo": "banned",
+        "Amulet of Quoz": "banned",
+        "Ancestral Recall": "banned",
+        "Berserk": "banned",
+        "Black Lotus": "banned",
+        "Braingeyser": "banned",
+        "Bronze Tablet": "banned",
+        "Chaos Orb": "banned",
+        "Contract from Below": "banned",
+        "Darkpact": "banned",
+        "Demonic Attorney": "banned",
+        "Dingus Egg": "banned",
+        "Falling Star": "banned",
+        "Gauntlet of Might": "banned",
+        "Icy Manipulator": "banned",
+        "Jeweled Bird": "banned",
+        "Mox Emerald": "banned",
+        "Mox Jet": "banned",
+        "Mox Pearl": "banned",
+        "Mox Ruby": "banned",
+        "Mox Sapphire": "banned",
+        "Orcish Oriflamme": "banned",
+        "Rebirth": "banned",
+        "Rukh Egg": "banned",
+        "Shahrazad": "banned",
+        "Sol Ring": "banned",
+        "Tempest Efreet": "banned",
+        "Time Vault": "banned",
+        "Time Walk": "banned",
+        "Timetwister": "banned",
+        "Timmerian Fiends": "banned",
+        "Divine Intervention": "banned",
+        "Maze of Ith": "banned",
+        "Mirror Universe": "banned",
+        "Mishra's Workshop": "banned",
+        "Sword of the Ages": "banned",
+        "Underworld Dreams": "banned",
+        "Zuran Orb": "banned"
+      }
+    },
+    {
+      "date": "1994-06-01",
+      "changes": {
+        "Candelabra of Tawnos": "banned",
+        "Channel": "banned",
+        "Copy Artifact": "banned",
+        "Demonic Tutor": "banned",
+        "Feldon's Cane": "banned",
+        "Ivory Tower": "banned",
+        "Library of Alexandria": "banned",
+        "Regrowth": "banned",
+        "Wheel of Fortune": "banned",
+        "Dingus Egg": "legal",
+        "Gauntlet of Might": "legal",
+        "Icy Manipulator": "legal",
+        "Orcish Oriflamme": "legal",
+        "Rukh Egg": "legal",
+        "Recall": "banned",
+        "Fork": "banned"
+      }
+    },
+    {
+      "date": "1995-05-01",
+      "changes": {
+        "Balance": "banned"
+      }
+    },
+    {
+      "date": "1996-02-01",
+      "changes": {
+        "Black Vise": "banned",
+        "Mind Twist": "banned"
+      }
+    },
+    {
+      "date": "1996-04-01",
+      "url": "https://web.archive.org/web/19960510142729/http://www.wizards.com/DCI/ban_rest_letter.html",
+      "changes": {
+        "Ali from Cairo": "legal",
+        "Black Vise": "legal",
+        "Sword of the Ages": "legal",
+        "Time Vault": "legal"
+      }
+    },
+    {
+      "date": "1996-10-01",
+      "changes": {
+        "Fastbond": "banned"
+      }
+    },
+    {
+      "date": "1997-07-01",
+      "changes": {
+        "Black Vise": "banned"
+      }
+    },
+    {
+      "date": "1997-10-01",
+      "changes": {
+        "Candelabra of Tawnos": "legal",
+        "Copy Artifact": "legal",
+        "Feldon's Cane": "legal",
+        "Mishra's Workshop": "legal",
+        "Zuran Orb": "legal"
+      }
+    },
+    {
+      "date": "1998-01-01",
+      "url": "https://web.archive.org/web/19990203122929/http://www.wizards.com/DCI/BRAnnouncement.html",
+      "changes": {
+        "Strip Mine": "banned"
+      }
+    },
+    {
+      "date": "1999-01-01",
+      "url": "https://web.archive.org/web/19990209004446/http://www.wizards.com/DCI/MTG_DCI_BR12-1-98.html",
+      "changes": {
+        "Stroke of Genius": "banned",
+        "Tolarian Academy": "banned",
+        "Windfall": "banned"
+      }
+    },
+    {
+      "date": "1999-03-11",
+      "url": "https://web.archive.org/web/20010128184200/http://www.wizards.com/DCI/announce_archive.asp",
+      "changes": {
+        "Memory Jar": "banned"
+      }
+    },
+    {
+      "date": "1999-04-01",
+      "url": "https://web.archive.org/web/19990506144254/http://www.wizards.com/DCI/MTG_DCI_BR2-26-99.html",
+      "changes": {
+        "Maze of Ith": "legal",
+        "Time Spiral": "banned"
+      }
+    },
+    {
+      "date": "1999-10-01",
+      "url": "https://web.archive.org/web/20000305053359/http://www.wizards.com/DCI/announce.asp?dci19990901b",
+      "changes": {
+        "Crop Rotation": "banned",
+        "Doomsday": "banned",
+        "Dream Halls": "banned",
+        "Enlightened Tutor": "banned",
+        "Frantic Search": "banned",
+        "Grim Monolith": "banned",
+        "Hurkyl's Recall": "banned",
+        "Lotus Petal": "banned",
+        "Mana Crypt": "banned",
+        "Mana Vault": "banned",
+        "Mind Over Matter": "banned",
+        "Mox Diamond": "banned",
+        "Mystical Tutor": "banned",
+        "Tinker": "banned",
+        "Vampiric Tutor": "banned",
+        "Voltaic Key": "banned",
+        "Yawgmoth's Bargain": "banned",
+        "Yawgmoth's Will": "banned",
+        "Divine Intervention": "legal",
+        "Ivory Tower": "legal",
+        "Mirror Universe": "legal",
+        "Shahrazad": "legal",
+        "Underworld Dreams": "legal"
+      }
+    },
+    {
+      "date": "2000-10-01",
+      "changes": {
+        "Demonic Consultation": "banned",
+        "Necropotence": "banned"
+      }
+    },
+    {
+      "date": "2002-01-01",
+      "url": "http://web.archive.org/web/20111121212710/http://crystalkeep.com/magic/rules/dci/update-011201.txt",
+      "changes": {
+        "Fact or Fiction": "banned"
+      }
+    },
+    {
+      "date": "2003-04-01",
+      "url": "http://www.wizards.com/dci/main.asp?x=Banned_Restricted_List_0303",
+      "changes": {
+        "Earthcraft": "banned",
+        "Entomb": "banned",
+        "Berserk": "legal",
+        "Hurkyl's Recall": "legal",
+        "Recall": "legal"
+      }
+    },
+    {
+      "date": "2003-07-01",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20030529a",
+      "changes": {
+        "Gush": "banned",
+        "Mind's Desire": "banned"
+      }
+    },
+    {
+      "date": "2004-01-01",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20031201a",
+      "changes": {
+        "Burning Wish": "banned",
+        "Chrome Mox": "banned",
+        "Lion's Eye Diamond": "banned"
+      }
+    },
+    {
+      "date": "2004-09-20",
+      "url": "http://www.wizards.com/Default.asp?x=dci/announce/dci20040901a",
+      "changes": {
+        "Bazaar of Baghdad": "banned",
+        "Goblin Recruiter": "banned",
+        "Hermit Druid": "banned",
+        "Illusionary Mask": "banned",
+        "Land Tax": "banned",
+        "Mana Drain": "banned",
+        "Metalworker": "banned",
+        "Mishra's Workshop": "banned",
+        "Oath of Druids": "banned",
+        "Replenish": "banned",
+        "Skullclamp": "banned",
+        "Worldgorger Dragon": "banned",
+        "Braingeyser": "legal",
+        "Burning Wish": "legal",
+        "Chrome Mox": "legal",
+        "Crop Rotation": "legal",
+        "Doomsday": "legal",
+        "Enlightened Tutor": "legal",
+        "Fact or Fiction": "legal",
+        "Fork": "legal",
+        "Lion's Eye Diamond": "legal",
+        "Lotus Petal": "legal",
+        "Mox Diamond": "legal",
+        "Mystical Tutor": "legal",
+        "Regrowth": "legal",
+        "Stroke of Genius": "legal",
+        "Voltaic Key": "legal"
+      }
+    },
+    {
+      "date": "2005-09-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20050901a",
+      "changes": {
+        "Imperial Seal": "banned"
+      }
+    },
+    {
+      "date": "2007-06-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20070601a",
+      "changes": {
+        "Flash": "banned",
+        "Mind Over Matter": "legal",
+        "Replenish": "legal"
+      }
+    },
+    {
+      "date": "2007-09-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20070901a",
+      "changes": {
+        "Shahrazad": "banned"
+      }
+    },
+    {
+      "date": "2008-09-20",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-1-2008-dci-banned-and-restricted-list-announcement-2008-09-01",
+      "changes": {
+        "Time Vault": "banned"
+      }
+    },
+    {
+      "date": "2009-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-18-2009-dci-banned-restricted-list-announcement-2009-09-18",
+      "changes": {
+        "Dream Halls": "legal",
+        "Entomb": "legal",
+        "Metalworker": "legal"
+      }
+    },
+    {
+      "date": "2010-07-01",
+      "url": "https://magic.wizards.com/en/articles/archive/magic-online/june-18-2010-dci-banned-restricted-list-announcement-2010-06-18",
+      "changes": {
+        "Mystical Tutor": "banned",
+        "Grim Monolith": "legal",
+        "Illusionary Mask": "legal"
+      }
+    },
+    {
+      "date": "2011-01-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/december-20-2010-dci-banned-restricted-list-announcement-2010-12-20",
+      "changes": {
+        "Survival of the Fittest": "banned",
+        "Time Spiral": "legal"
+      }
+    },
+    {
+      "date": "2011-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-20-2011-dci-banned-restricted-list-announcement-2011-09-20",
+      "changes": {
+        "Mental Misstep": "banned"
+      }
+    },
+    {
+      "date": "2012-06-29",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/june-20-2012-dci-banned-restricted-list-announcement-2012-06-20",
+      "changes": {
+        "Land Tax": "legal"
+      }
+    },
+    {
+      "date": "2015-01-23",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/banned-and-restricted-announcement-2015-01-19",
+      "changes": {
+        "Treasure Cruise": "banned",
+        "Worldgorger Dragon": "legal"
+      }
+    },
+    {
+      "date": "2015-10-02",
+      "url": "https://magic.wizards.com/en/articles/archive/news/september-28-2015-banned-and-restricted-announcement-2015-09-28",
+      "changes": {
+        "Dig Through Time": "banned",
+        "Black Vise": "legal"
+      }
+    },
+    {
+      "date": "2017-04-24",
+      "url": "https://magic.wizards.com/en/articles/archive/news/april-24-2017-banned-and-restricted-announcement-2017-04-24",
+      "changes": {
+        "Sensei's Divining Top": "banned"
+      }
+    },
+    {
+      "date": "2018-07-06",
+      "url": "https://magic.wizards.com/en/articles/archive/news/july-2-2018-banned-and-restricted-update-2018-07-02",
+      "changes": {
+        "Gitaxian Probe": "banned",
+        "Deathrite Shaman": "banned"
+      }
+    },
+    {
+      "date": "2019-11-18",
+      "url": "https://magic.wizards.com/en/articles/archive/news/november-18-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Wrenn and Six": "banned"
+      }
+    },
+    {
+      "date": "2020-03-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Underworld Breach": "banned"
+      }
+    },
+    {
+      "date": "2020-05-18",
+      "url": "https://magic.wizards.com/en/articles/archive/news/may-18-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Lurrus of the Dream-Den": "banned",
+        "Zirda, the Dawnwaker": "banned"
+      }
+    },
+    {
+      "date": "2020-06-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/depictions-racism-magic-2020-06-10",
+      "changes": {
+        "Cleanse": "banned",
+        "Crusade": "banned",
+        "Imprison": "banned",
+        "Invoke Prejudice": "banned",
+        "Jihad": "banned",
+        "Pradesh Gypsies": "banned",
+        "Stone-Throwing Devils": "banned"
+      }
+    },
+    {
+      "date": "2021-02-15",
+      "url": "https://magic.wizards.com/en/articles/archive/news/february-15-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Arcum's Astrolabe": "banned",
+        "Dreadhorde Arcanist": "banned",
+        "Oko, Thief of Crowns": "banned"
+      }
+    },
+    {
+      "date": "2022-01-25",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-25-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Ragavan, Nimble Pilferer": "banned"
+      }
+    },
+    {
+      "date": "2023-03-06",
+      "url": "https://magic.wizards.com/en/news/announcements/march-6-2023-banned-and-restricted-announcement",
+      "changes": {
+        "Expressive Iteration": "banned",
+        "White Plume Adventurer": "banned"
+      }
+    },
+    {
+      "date": "2023-08-07",
+      "url": "https://magic.wizards.com/en/news/announcements/august-7-2023-banned-and-restricted-announcement",
+      "changes": {
+        "Mind's Desire": "legal"
+      }
+    },
+    {
+      "date": "2024-05-13",
+      "url": "https://magic.wizards.com/en/news/announcements/may-13-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Aerialephant": "banned",
+        "Ambassador Blorpityblorpboop": "banned",
+        "Baaallerina": "banned",
+        "_____ Balls of Fire": "banned",
+        "Bioluminary": "banned",
+        "_____ Bird Gets the Worm": "banned",
+        "Carnival Carnivore": "banned",
+        "Chicken Troupe": "banned",
+        "Clandestine Chameleon": "banned",
+        "Command Performance": "banned",
+        "Done for the Day": "banned",
+        "Fight the _____ Fight": "banned",
+        "Finishing Move": "banned",
+        "Glitterflitter": "banned",
+        "_____ Goblin": "banned",
+        "\"Name Sticker\" Goblin": "banned",
+        "Last Voyage of the _____": "banned",
+        "Lineprancers": "banned",
+        "Make a _____ Splash": "banned",
+        "Minotaur de Force": "banned",
+        "_____-o-saurus": "banned",
+        "Park Bleater": "banned",
+        "Pin Collection": "banned",
+        "Prize Wall": "banned",
+        "Proficient Pyrodancer": "banned",
+        "Robo-Piñata": "banned",
+        "_____ _____ Rocketship": "banned",
+        "Roxi, Publicist to the Stars": "banned",
+        "Scampire": "banned",
+        "Stiltstrider": "banned",
+        "Sword-Swallowing Seraph": "banned",
+        "Ticketomaton": "banned",
+        "_____ _____ _____ Trespasser": "banned",
+        "Tusk and Whiskers": "banned",
+        "Wicker Picker": "banned",
+        "Wizards of the _____": "banned",
+        "Wolf in _____ Clothing": "banned",
+        "Coming Attraction": "banned",
+        "Complaints Clerk": "banned",
+        "Deadbeat Attendant": "banned",
+        "Dee Kay, Finder of the Lost": "banned",
+        "Discourtesy Clerk": "banned",
+        "Draconian Gate-Bot": "banned",
+        "\"Lifetime\" Pass Holder": "banned",
+        "Line Cutter": "banned",
+        "Monitor Monitor": "banned",
+        "Myra the Magnificent": "banned",
+        "Petting Zookeeper": "banned",
+        "Quick Fixer": "banned",
+        "Rad Rascal": "banned",
+        "Ride Guide": "banned",
+        "Seasoned Buttoneer": "banned",
+        "Soul Swindler": "banned",
+        "Spinnerette, Arachnobat": "banned",
+        "Squirrel Squatters": "banned",
+        "Step Right Up": "banned",
+        "The Most Dangerous Gamer": "banned",
+        "Balloon Stand": "banned",
+        "Bounce Chamber": "banned",
+        "Bumper Cars": "banned",
+        "Centrifuge": "banned",
+        "Clown Extruder": "banned",
+        "Concession Stand": "banned",
+        "Costume Shop": "banned",
+        "Cover the Spot": "banned",
+        "Dart Throw": "banned",
+        "Drop Tower": "banned",
+        "Ferris Wheel": "banned",
+        "Foam Weapons Kiosk": "banned",
+        "Fortune Teller": "banned",
+        "Gallery of Legends": "banned",
+        "Gift Shop": "banned",
+        "Guess Your Fate": "banned",
+        "Hall of Mirrors": "banned",
+        "Haunted House": "banned",
+        "Information Booth": "banned",
+        "Kiddie Coaster": "banned",
+        "Log Flume": "banned",
+        "Memory Test": "banned",
+        "Merry-Go-Round": "banned",
+        "Pick-a-Beeble": "banned",
+        "Push Your Luck": "banned",
+        "Roller Coaster": "banned",
+        "Scavenger Hunt (a)": "banned",
+        "Scavenger Hunt (b)": "banned",
+        "Scavenger Hunt (c)": "banned",
+        "Scavenger Hunt (d)": "banned",
+        "Scavenger Hunt (e)": "banned",
+        "Scavenger Hunt (f)": "banned",
+        "Spinny Ride": "banned",
+        "Squirrel Stack": "banned",
+        "Storybook Ride": "banned",
+        "Swinging Ship": "banned",
+        "The Superlatorium (a)": "banned",
+        "The Superlatorium (b)": "banned",
+        "The Superlatorium (c)": "banned",
+        "The Superlatorium (d)": "banned",
+        "The Superlatorium (e)": "banned",
+        "The Superlatorium (f)": "banned",
+        "Trash Bin": "banned",
+        "Trivia Contest (a)": "banned",
+        "Trivia Contest (b)": "banned",
+        "Trivia Contest (c)": "banned",
+        "Trivia Contest (d)": "banned",
+        "Trivia Contest (e)": "banned",
+        "Trivia Contest (f)": "banned",
+        "Tunnel of Love": "banned",
+        "Ancestral Hot Dog Minotaur": "banned",
+        "Carnival Elephant Meteor": "banned",
+        "Contortionist Otter Storm": "banned",
+        "Cool Fluffy Loxodon": "banned",
+        "Cursed Firebreathing Yogurt": "banned",
+        "Deep-Fried Plague Myr": "banned",
+        "Demonic Tourist Laser": "banned",
+        "Eldrazi Guacamole Tightrope": "banned",
+        "Elemental Time Flamingo": "banned",
+        "Eternal Acrobat Toast": "banned",
+        "Familiar Beeble Mascot": "banned",
+        "Geek Lotus Warrior": "banned",
+        "Giant Mana Cake": "banned",
+        "Goblin Coward Parade": "banned",
+        "Happy Dead Squirrel": "banned",
+        "Jetpack Death Seltzer": "banned",
+        "Misunderstood Trapeze Elf": "banned",
+        "Mystic Doom Sandwich": "banned",
+        "Narrow-Minded Baloney Fireworks": "banned",
+        "Night Brushwagg Ringmaster": "banned",
+        "Notorious Sliver War": "banned",
+        "Phyrexian Midway Bamboozle": "banned",
+        "Playable Delusionary Hydra": "banned",
+        "Primal Elder Kitty": "banned",
+        "Sassy Gremlin Blood": "banned",
+        "Slimy Burrito Illusion": "banned",
+        "Snazzy Aether Homunculus": "banned",
+        "Space Fungus Snickerdoodle": "banned",
+        "Spooky Clown Mox": "banned",
+        "Squid Fire Knight": "banned",
+        "Squishy Sphinx Ninja": "banned",
+        "Sticky Kavu Daredevil": "banned",
+        "Trained Blessed Mind": "banned",
+        "Trendy Circus Pirate": "banned",
+        "Unassuming Gelatinous Serpent": "banned",
+        "Unglued Pea-Brained Dinosaur": "banned",
+        "Unhinged Beast Hunt": "banned",
+        "Unique Charmed Pants": "banned",
+        "Unsanctioned Ancient Juggler": "banned",
+        "Unstable Robot Dragon": "banned",
+        "Urza's Dark Cannonball": "banned",
+        "Vampire Champion Fury": "banned",
+        "Weird Angel Flame": "banned",
+        "Werewolf Lightning Mage": "banned",
+        "Wild Ogre Bupkis": "banned",
+        "Wrinkly Monkey Shenanigans": "banned",
+        "Yawgmoth Merfolk Soul": "banned",
+        "Zombie Cheese Magician": "banned"
+      }
+    },
+    {
+      "date": "2024-08-26",
+      "url": "https://magic.wizards.com/en/news/announcements/august-26-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Grief": "banned"
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-december-16-2024",
+      "changes": {
+        "Psychic Frog": "banned",
+        "Vexing Bauble": "banned"
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "comment": "New sticker card printed and falls under sticker card ban",
+      "changes": {
+        "Sticker sheet": "banned"
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-announcement-march-31-2025",
+      "changes": {
+        "Sowing Mycospawn": "banned",
+        "Troll of Khazad-dûm": "banned"
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-november-10-2025",
+      "changes": {
+        "Entomb": "banned",
+        "Nadu, Winged Wisdom": "banned"
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-may-18-2026",
+      "changes": {
+        "Undercity Informer": "banned"
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-june-29-2026",
+      "changes": {
+        "Candelabra of Tawnos": "banned"
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "changes": {
+        "The Fantasticar": "banned"
+      }
+    }
+  ],
+  "masques block": [
+    {
+      "date": "2000-07-01",
+      "url": "http://web.archive.org/web/20111214000310/http://www.crystalkeep.com/magic/rules/dci/update-000601.txt",
+      "changes": {
+        "Lin Sivvi, Defiant Hero": "banned",
+        "Rishadan Port": "banned"
+      }
+    }
+  ],
+  "mirage block": [
+    {
+      "date": "1997-07-01",
+      "changes": {
+        "Squandered Resources": "banned"
+      }
+    }
+  ],
+  "mirrodin block": [
+    {
+      "date": "2004-06-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20040601a",
+      "changes": {
+        "Skullclamp": "banned"
+      }
+    },
+    {
+      "date": "2006-03-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20060301a",
+      "changes": {
+        "Aether Vial": "banned",
+        "Ancient Den": "banned",
+        "Arcbound Ravager": "banned",
+        "Darksteel Citadel": "banned",
+        "Disciple of the Vault": "banned",
+        "Great Furnace": "banned",
+        "Seat of the Synod": "banned",
+        "Tree of Tales": "banned",
+        "Vault of Whispers": "banned"
+      }
+    }
+  ],
+  "modern": [
+    {
+      "date": "2011-08-12",
+      "url": "https://magic.wizards.com/en/articles/archive/latest-developments/welcome-modern-world-2011-08-12",
+      "changes": {
+        "Ancestral Vision": "banned",
+        "Ancient Den": "banned",
+        "Bitterblossom": "banned",
+        "Chrome Mox": "banned",
+        "Dark Depths": "banned",
+        "Dread Return": "banned",
+        "Glimpse of Nature": "banned",
+        "Golgari Grave-Troll": "banned",
+        "Great Furnace": "banned",
+        "Hypergenesis": "banned",
+        "Jace, the Mind Sculptor": "banned",
+        "Mental Misstep": "banned",
+        "Seat of the Synod": "banned",
+        "Sensei's Divining Top": "banned",
+        "Skullclamp": "banned",
+        "Stoneforge Mystic": "banned",
+        "Sword of the Meek": "banned",
+        "Tree of Tales": "banned",
+        "Umezawa's Jitte": "banned",
+        "Valakut, the Molten Pinnacle": "banned",
+        "Vault of Whispers": "banned"
+      }
+    },
+    {
+      "date": "2011-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-20-2011-dci-banned-restricted-list-announcement-2011-09-20",
+      "changes": {
+        "Blazing Shoal": "banned",
+        "Cloudpost": "banned",
+        "Green Sun's Zenith": "banned",
+        "Ponder": "banned",
+        "Preordain": "banned",
+        "Rite of Flame": "banned"
+      }
+    },
+    {
+      "date": "2012-01-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/december-20-2011-dci-banned-restricted-list-announcement-2011-12-20",
+      "changes": {
+        "Punishing Fire": "banned",
+        "Wild Nacatl": "banned"
+      }
+    },
+    {
+      "date": "2012-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-20-2012-dci-banned-restricted-list-announcement-2012-09-20",
+      "changes": {
+        "Valakut, the Molten Pinnacle": "legal"
+      }
+    },
+    {
+      "date": "2013-02-01",
+      "url": "https://magic.wizards.com/en/articles/archive/january-28-2013-dci-banned-restricted-list-announcement-2013-01-28",
+      "changes": {
+        "Bloodbraid Elf": "banned",
+        "Seething Song": "banned"
+      }
+    },
+    {
+      "date": "2013-05-03",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/banned-and-restricted-2013-04-22-0",
+      "changes": {
+        "Second Sunrise": "banned"
+      }
+    },
+    {
+      "date": "2014-02-07",
+      "url": "https://magic.wizards.com/en/articles/archive/top-decks/february-3-2014-dci-banned-restricted-list-announcement-2014-02-03",
+      "changes": {
+        "Deathrite Shaman": "banned",
+        "Bitterblossom": "legal",
+        "Wild Nacatl": "legal"
+      }
+    },
+    {
+      "date": "2015-01-23",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/banned-and-restricted-announcement-2015-01-19",
+      "changes": {
+        "Birthing Pod": "banned",
+        "Dig Through Time": "banned",
+        "Treasure Cruise": "banned",
+        "Golgari Grave-Troll": "legal"
+      }
+    },
+    {
+      "date": "2016-01-22",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-18-2016-banned-and-restricted-announcement-2016-01-18",
+      "changes": {
+        "Splinter Twin": "banned",
+        "Summer Bloom": "banned"
+      }
+    },
+    {
+      "date": "2016-04-08",
+      "url": "https://magic.wizards.com/en/articles/archive/news/banned-and-restricted-announcement-2016-04-04",
+      "changes": {
+        "Eye of Ugin": "banned",
+        "Ancestral Vision": "legal",
+        "Sword of the Meek": "legal"
+      }
+    },
+    {
+      "date": "2017-01-20",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-9-2017-banned-and-restricted-announcement-2017-01-09",
+      "changes": {
+        "Gitaxian Probe": "banned",
+        "Golgari Grave-Troll": "banned"
+      }
+    },
+    {
+      "date": "2018-02-19",
+      "url": "https://magic.wizards.com/en/articles/archive/news/february-12-2018-banned-and-restricted-announcement-2018-02-12",
+      "changes": {
+        "Jace, the Mind Sculptor": "legal",
+        "Bloodbraid Elf": "legal"
+      }
+    },
+    {
+      "date": "2019-01-21",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-21-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Krark-Clan Ironworks": "banned"
+      }
+    },
+    {
+      "date": "2019-07-12",
+      "url": "https://magic.wizards.com/en/articles/archive/news/july-8-2019-banned-and-restricted-announcement-2019-07-08",
+      "changes": {
+        "Bridge from Below": "banned"
+      }
+    },
+    {
+      "date": "2019-08-30",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-26-2019-banned-and-restricted-announcement-2019-08-26",
+      "changes": {
+        "Hogaak, Arisen Necropolis": "banned",
+        "Faithless Looting": "banned",
+        "Stoneforge Mystic": "legal"
+      }
+    },
+    {
+      "date": "2020-01-14",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-13-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Mox Opal": "banned",
+        "Oko, Thief of Crowns": "banned",
+        "Mycosynth Lattice": "banned"
+      }
+    },
+    {
+      "date": "2020-03-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Once Upon a Time": "banned"
+      }
+    },
+    {
+      "date": "2020-07-13",
+      "url": "https://magic.wizards.com/en/articles/archive/news/july-13-2020-banned-and-restricted-announcement-2020-07-13",
+      "changes": {
+        "Arcum's Astrolabe": "banned"
+      }
+    },
+    {
+      "date": "2021-02-15",
+      "url": "https://magic.wizards.com/en/articles/archive/news/february-15-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Field of the Dead": "banned",
+        "Mystic Sanctuary": "banned",
+        "Simian Spirit Guide": "banned",
+        "Tibalt's Trickery": "banned",
+        "Uro, Titan of Nature's Wrath": "banned"
+      }
+    },
+    {
+      "date": "2022-03-07",
+      "url": "https://magic.wizards.com/en/articles/archive/news/march-7-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Lurrus of the Dream-Den": "banned"
+      }
+    },
+    {
+      "date": "2022-10-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-10-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Yorion, Sky Nomad": "banned"
+      }
+    },
+    {
+      "date": "2023-08-07",
+      "url": "https://magic.wizards.com/en/news/announcements/august-7-2023-banned-and-restricted-announcement",
+      "changes": {
+        "Preordain": "legal"
+      }
+    },
+    {
+      "date": "2023-12-04",
+      "url": "https://magic.wizards.com/en/news/announcements/december-4-2023-banned-and-restricted-announcement",
+      "changes": {
+        "Fury": "banned",
+        "Up the Beanstalk": "banned"
+      }
+    },
+    {
+      "date": "2024-08-26",
+      "url": "https://magic.wizards.com/en/news/announcements/august-26-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Nadu, Winged Wisdom": "banned",
+        "Grief": "banned"
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-december-16-2024",
+      "changes": {
+        "The One Ring": "banned",
+        "Amped Raptor": "banned",
+        "Jegantha, the Wellspring": "banned",
+        "Mox Opal": "legal",
+        "Green Sun's Zenith": "legal",
+        "Faithless Looting": "legal",
+        "Splinter Twin": "legal"
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "url": "https://magic.wizards.com/en/news/announcements/march-11-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Violent Outburst": "banned"
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-announcement-march-31-2025",
+      "changes": {
+        "Underworld Breach": "banned"
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-may-18-2026",
+      "changes": {
+        "Phlage, Titan of Fire's Fury": "banned",
+        "Lotus Field": "banned",
+        "Violent Outburst": "legal",
+        "Umezawa's Jitte": "legal"
+      }
+    }
+  ],
+  "pauper": [
+    {
+      "changes": {
+        "Cranial Plating": "banned"
+      }
+    },
+    {
+      "date": "2011-07-01",
+      "url": "http://web.archive.org/web/20110625123730/http://community.wizards.com/magiconline/blog/2011/06/19/magic_online_br_changes_-_june_2011",
+      "changes": {
+        "Frantic Search": "banned"
+      }
+    },
+    {
+      "date": "2013-02-01",
+      "url": "https://magic.wizards.com/en/articles/archive/january-28-2013-dci-banned-restricted-list-announcement-2013-01-28",
+      "changes": {
+        "Empty the Warrens": "banned",
+        "Grapeshot": "banned",
+        "Invigorate": "banned"
+      }
+    },
+    {
+      "date": "2013-09-27",
+      "url": "https://magic.wizards.com/en/articles/archive/top-decks/september-27-2013-dci-banned-restricted-list-announcement-2013-09-16",
+      "changes": {
+        "Cloudpost": "banned",
+        "Temporal Fissure": "banned"
+      }
+    },
+    {
+      "date": "2015-03-27",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/march-23-2015-banned-and-restricted-announcement-2015-03-23",
+      "changes": {
+        "Treasure Cruise": "banned"
+      }
+    },
+    {
+      "date": "2016-01-22",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-18-2016-banned-and-restricted-announcement-2016-01-18",
+      "changes": {
+        "Cloud of Faeries": "banned"
+      }
+    },
+    {
+      "date": "2016-11-16",
+      "url": "http://magic.wizards.com/en/articles/archive/magic-online/pauper-banned-list-change-2016-11-03",
+      "changes": {
+        "Peregrine Drake": "banned"
+      }
+    },
+    {
+      "date": "2019-05-24",
+      "url": "https://magic.wizards.com/en/articles/archive/news/may-20-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Gush": "banned",
+        "Gitaxian Probe": "banned",
+        "Daze": "banned"
+      }
+    },
+    {
+      "date": "2019-07-02",
+      "url": "https://magic.wizards.com/en/articles/archive/news/pauper-comes-paper-2019-06-27",
+      "changes": {
+        "Hymn to Tourach": "banned",
+        "Sinkhole": "banned",
+        "High Tide": "banned"
+      }
+    },
+    {
+      "date": "2019-10-21",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-21-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Arcum's Astrolabe": "banned"
+      }
+    },
+    {
+      "date": "2020-06-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/depictions-racism-magic-2020-06-10",
+      "changes": {
+        "Pradesh Gypsies": "banned",
+        "Stone-Throwing Devils": "banned"
+      }
+    },
+    {
+      "date": "2020-07-13",
+      "url": "https://magic.wizards.com/en/articles/archive/news/july-13-2020-banned-and-restricted-announcement-2020-07-13",
+      "changes": {
+        "Expedition Map": "banned",
+        "Mystic Sanctuary": "banned"
+      }
+    },
+    {
+      "date": "2021-01-14",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-14-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Fall from Favor": "banned"
+      }
+    },
+    {
+      "date": "2021-09-08",
+      "url": "https://magic.wizards.com/en/articles/archive/news/september-8-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Chatterstorm": "banned",
+        "Sojourner's Companion": "banned"
+      }
+    },
+    {
+      "date": "2022-01-21",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-20-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Atog": "banned",
+        "Bonder's Ornament": "banned",
+        "Prophetic Prism": "banned"
+      }
+    },
+    {
+      "date": "2022-03-07",
+      "url": "https://magic.wizards.com/en/articles/archive/news/march-7-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Galvanic Relay": "banned",
+        "Disciple of the Vault": "banned",
+        "Expedition Map": "legal"
+      }
+    },
+    {
+      "date": "2022-09-19",
+      "url": "https://magic.wizards.com/en/articles/archive/news/september-19-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Aarakocra Sneak": "banned",
+        "Stirring Bard": "banned",
+        "Underdark Explorer": "banned",
+        "Vicious Battlerager": "banned"
+      }
+    },
+    {
+      "date": "2023-12-04",
+      "url": "https://magic.wizards.com/en/news/announcements/december-4-2023-banned-and-restricted-announcement",
+      "changes": {
+        "Monastery Swiftspear": "banned"
+      }
+    },
+    {
+      "date": "2024-05-13",
+      "url": "https://magic.wizards.com/en/news/announcements/may-13-2024-banned-and-restricted-announcement",
+      "changes": {
+        "All That Glitters": "banned",
+        "Aerialephant": "banned",
+        "_____ Bird Gets the Worm": "banned",
+        "Carnival Carnivore": "banned",
+        "Chicken Troupe": "banned",
+        "Command Performance": "banned",
+        "Finishing Move": "banned",
+        "Glitterflitter": "banned",
+        "_____ Goblin": "banned",
+        "\"Name Sticker\" Goblin": "banned",
+        "Minotaur de Force": "banned",
+        "_____-o-saurus": "banned",
+        "Prize Wall": "banned",
+        "Robo-Piñata": "banned",
+        "Stiltstrider": "banned",
+        "Ticketomaton": "banned",
+        "Wizards of the _____": "banned",
+        "Wolf in _____ Clothing": "banned",
+        "Coming Attraction": "banned",
+        "Deadbeat Attendant": "banned",
+        "Draconian Gate-Bot": "banned",
+        "Line Cutter": "banned",
+        "Petting Zookeeper": "banned",
+        "Rad Rascal": "banned",
+        "Ride Guide": "banned",
+        "Seasoned Buttoneer": "banned",
+        "Soul Swindler": "banned",
+        "Step Right Up": "banned",
+        "Clown Extruder": "banned",
+        "Costume Shop": "banned",
+        "Cover the Spot": "banned",
+        "Dart Throw": "banned",
+        "Drop Tower": "banned",
+        "Foam Weapons Kiosk": "banned",
+        "Fortune Teller": "banned",
+        "Kiddie Coaster": "banned",
+        "Pick-a-Beeble": "banned",
+        "Spinny Ride": "banned",
+        "Ancestral Hot Dog Minotaur": "banned",
+        "Carnival Elephant Meteor": "banned",
+        "Contortionist Otter Storm": "banned",
+        "Cool Fluffy Loxodon": "banned",
+        "Cursed Firebreathing Yogurt": "banned",
+        "Deep-Fried Plague Myr": "banned",
+        "Demonic Tourist Laser": "banned",
+        "Eldrazi Guacamole Tightrope": "banned",
+        "Elemental Time Flamingo": "banned",
+        "Eternal Acrobat Toast": "banned",
+        "Familiar Beeble Mascot": "banned",
+        "Geek Lotus Warrior": "banned",
+        "Giant Mana Cake": "banned",
+        "Goblin Coward Parade": "banned",
+        "Happy Dead Squirrel": "banned",
+        "Jetpack Death Seltzer": "banned",
+        "Misunderstood Trapeze Elf": "banned",
+        "Mystic Doom Sandwich": "banned",
+        "Narrow-Minded Baloney Fireworks": "banned",
+        "Night Brushwagg Ringmaster": "banned",
+        "Notorious Sliver War": "banned",
+        "Phyrexian Midway Bamboozle": "banned",
+        "Playable Delusionary Hydra": "banned",
+        "Primal Elder Kitty": "banned",
+        "Sassy Gremlin Blood": "banned",
+        "Slimy Burrito Illusion": "banned",
+        "Snazzy Aether Homunculus": "banned",
+        "Space Fungus Snickerdoodle": "banned",
+        "Spooky Clown Mox": "banned",
+        "Squid Fire Knight": "banned",
+        "Squishy Sphinx Ninja": "banned",
+        "Sticky Kavu Daredevil": "banned",
+        "Trained Blessed Mind": "banned",
+        "Trendy Circus Pirate": "banned",
+        "Unassuming Gelatinous Serpent": "banned",
+        "Unglued Pea-Brained Dinosaur": "banned",
+        "Unhinged Beast Hunt": "banned",
+        "Unique Charmed Pants": "banned",
+        "Unsanctioned Ancient Juggler": "banned",
+        "Unstable Robot Dragon": "banned",
+        "Urza's Dark Cannonball": "banned",
+        "Vampire Champion Fury": "banned",
+        "Weird Angel Flame": "banned",
+        "Werewolf Lightning Mage": "banned",
+        "Wild Ogre Bupkis": "banned",
+        "Wrinkly Monkey Shenanigans": "banned",
+        "Yawgmoth Merfolk Soul": "banned",
+        "Zombie Cheese Magician": "banned"
+      }
+    },
+    {
+      "date": "2024-06-14",
+      "url": "https://magic.wizards.com/en/news/announcements/pauper-bans-for-june-6-2024",
+      "changes": {
+        "Cranial Ram": "banned"
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "comment": "New sticker card printed and falls under sticker card ban",
+      "changes": {
+        "Sticker sheet": "banned"
+      }
+    },
+    {
+      "date": "2025-03-31",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-announcement-march-31-2025",
+      "changes": {
+        "Basking Broodscale": "banned",
+        "Kuldotha Rebirth": "banned",
+        "Deadly Dispute": "banned",
+        "Prophetic Prism": "legal",
+        "High Tide": "legal"
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-november-10-2025",
+      "changes": {
+        "High Tide": "banned"
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-may-18-2026",
+      "changes": {
+        "Bonder's Ornament": "legal"
+      }
+    },
+    {
+      "date": "2026-06-29",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-june-29-2026",
+      "changes": {
+        "Seeker of Skybreak": "banned"
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "url": "https://magic.wizards.com/en/news/announcements/on-the-zeta-set-in-pauper",
+      "changes": {
+        "Narcomoeba": "banned",
+        "Price of Progress": "banned"
+      }
+    }
+  ],
+  "pioneer": [
+    {
+      "date": "2019-10-21",
+      "url": "https://magic.wizards.com/en/articles/archive/news/announcing-pioneer-format-2019-10-21",
+      "changes": {
+        "Bloodstained Mire": "banned",
+        "Flooded Strand": "banned",
+        "Polluted Delta": "banned",
+        "Windswept Heath": "banned",
+        "Wooded Foothills": "banned"
+      }
+    },
+    {
+      "date": "2019-11-08",
+      "url": "https://magic.wizards.com/en/articles/archive/news/november-4-2019-pioneer-banned-announcement",
+      "changes": {
+        "Felidar Guardian": "banned",
+        "Leyline of Abundance": "banned",
+        "Oath of Nissa": "banned"
+      }
+    },
+    {
+      "date": "2019-11-12",
+      "url": "https://magic.wizards.com/en/articles/archive/news/november-11-2019-pioneer-banned-announcement",
+      "changes": {
+        "Veil of Summer": "banned"
+      }
+    },
+    {
+      "date": "2019-12-03",
+      "url": "https://magic.wizards.com/en/articles/archive/news/december-2-2019-pioneer-banned-announcement",
+      "changes": {
+        "Once Upon a Time": "banned",
+        "Field of the Dead": "banned",
+        "Smuggler's Copter": "banned"
+      }
+    },
+    {
+      "date": "2019-12-17",
+      "url": "https://magic.wizards.com/en/articles/archive/news/december-16-2019-pioneer-banned-announcement",
+      "changes": {
+        "Oko, Thief of Crowns": "banned",
+        "Nexus of Fate": "banned"
+      }
+    },
+    {
+      "date": "2020-07-13",
+      "url": "https://magic.wizards.com/en/articles/archive/news/july-13-2020-banned-and-restricted-announcement-2020-07-13",
+      "changes": {
+        "Oath of Nissa": "legal"
+      }
+    },
+    {
+      "date": "2020-08-03",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-8-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Inverter of Truth": "banned",
+        "Kethis, the Hidden Hand": "banned",
+        "Walking Ballista": "banned",
+        "Underworld Breach": "banned"
+      }
+    },
+    {
+      "date": "2021-02-15",
+      "url": "https://magic.wizards.com/en/articles/archive/news/february-15-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Balustrade Spy": "banned",
+        "Teferi, Time Raveler": "banned",
+        "Undercity Informer": "banned",
+        "Uro, Titan of Nature's Wrath": "banned",
+        "Wilderness Reclamation": "banned"
+      }
+    },
+    {
+      "date": "2022-03-07",
+      "url": "https://magic.wizards.com/en/articles/archive/news/march-7-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Lurrus of the Dream-Den": "banned"
+      }
+    },
+    {
+      "date": "2022-06-07",
+      "url": "https://magic.wizards.com/en/articles/archive/news/june-7-2022-banned-and-restricted-announcement-2022-06-07",
+      "changes": {
+        "Winota, Joiner of Forces": "banned",
+        "Expressive Iteration": "banned"
+      }
+    },
+    {
+      "date": "2023-12-04",
+      "url": "https://magic.wizards.com/en/news/announcements/december-4-2023-banned-and-restricted-announcement",
+      "changes": {
+        "Karn, the Great Creator": "banned",
+        "Geological Appraiser": "banned",
+        "Smuggler's Copter": "legal"
+      }
+    },
+    {
+      "date": "2024-08-26",
+      "url": "https://magic.wizards.com/en/news/announcements/august-26-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Amalia Benavides Aguirre": "banned",
+        "Sorin, Imperious Bloodlord": "banned"
+      }
+    },
+    {
+      "date": "2024-12-16",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-december-16-2024",
+      "changes": {
+        "Jegantha, the Wellspring": "banned"
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-november-10-2025",
+      "changes": {
+        "Heartfire Hero": "banned"
+      }
+    },
+    {
+      "date": "2026-05-18",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-may-18-2026",
+      "changes": {
+        "Cori-Steel Cutter": "banned"
+      }
+    }
+  ],
+  "premodern": [
+    {
+      "changes": {
+        "Amulet of Quoz": "banned",
+        "Balance": "banned",
+        "Brainstorm": "banned",
+        "Bronze Tablet": "banned",
+        "Channel": "banned",
+        "Demonic Consultation": "banned",
+        "Earthcraft": "banned",
+        "Entomb": "banned",
+        "Flash": "banned",
+        "Force of Will": "banned",
+        "Frantic Search": "banned",
+        "Goblin Recruiter": "banned",
+        "Grim Monolith": "banned",
+        "Jeweled Bird": "banned",
+        "Land Tax": "banned",
+        "Mana Vault": "banned",
+        "Memory Jar": "banned",
+        "Mind Twist": "banned",
+        "Mind's Desire": "banned",
+        "Mystical Tutor": "banned",
+        "Necropotence": "banned",
+        "Rebirth": "banned",
+        "Show and Tell": "banned",
+        "Strip Mine": "banned",
+        "Tempest Efreet": "banned",
+        "Tendrils of Agony": "banned",
+        "Time Spiral": "banned",
+        "Timmerian Fiends": "banned",
+        "Tolarian Academy": "banned",
+        "Vampiric Tutor": "banned",
+        "Windfall": "banned",
+        "Worldgorger Dragon": "banned",
+        "Yawgmoth's Will": "banned"
+      }
+    },
+    {
+      "date": "2018-06-25",
+      "url": "https://premodernmagic.com/blog/ban-list-update-june-2018/",
+      "changes": {
+        "Land Tax": "legal"
+      }
+    },
+    {
+      "date": "2019-08-20",
+      "url": "https://premodernmagic.com/blog/ban-list-update-2019/",
+      "changes": {
+        "Yawgmoth's Bargain": "banned",
+        "Frantic Search": "legal"
+      }
+    },
+    {
+      "date": "2022-10-05",
+      "url": "https://premodernmagic.com/blog/ban-list-update-2022/",
+      "changes": {
+        "Show and Tell": "legal"
+      }
+    },
+    {
+      "date": "2023-07-15",
+      "url": "https://premodernmagic.com/blog/ban-list-update-2023/",
+      "changes": {
+        "Land Tax": "banned"
+      }
+    },
+    {
+      "date": "2026-01-18",
+      "url": "https://premodernmagic.com/blog/ban-list-update-2026/",
+      "changes": {
+        "Parallax Tide": "banned"
+      }
+    }
+  ],
+  "standard": [
+    {
+      "url": "https://archive.org/details/duelist-10",
+      "changes": {
+        "Ivory Tower": "restricted",
+        "Zuran Orb": "restricted"
+      }
+    },
+    {
+      "date": "1995-05-01",
+      "changes": {
+        "Balance": "restricted"
+      }
+    },
+    {
+      "date": "1996-02-01",
+      "changes": {
+        "Mind Twist": "banned",
+        "Black Vise": "restricted"
+      }
+    },
+    {
+      "date": "1996-07-01",
+      "changes": {
+        "Land Tax": "restricted"
+      }
+    },
+    {
+      "date": "1996-10-01",
+      "changes": {
+        "Hymn to Tourach": "restricted",
+        "Strip Mine": "restricted"
+      }
+    },
+    {
+      "date": "1997-01-01",
+      "url": "https://web.archive.org/web/19961219074006/http://www.wizards.com/DCI/ban_rest_letter.html",
+      "changes": {
+        "Balance": "banned",
+        "Black Vise": "banned",
+        "Hymn to Tourach": "legal",
+        "Ivory Tower": "banned",
+        "Land Tax": "banned",
+        "Strip Mine": "banned",
+        "Zuran Orb": "legal"
+      }
+    },
+    {
+      "date": "1997-07-01",
+      "changes": {
+        "Zuran Orb": "banned"
+      }
+    },
+    {
+      "date": "1999-01-01",
+      "url": "https://web.archive.org/web/19990209004446/http://www.wizards.com/DCI/MTG_DCI_BR12-1-98.html",
+      "changes": {
+        "Tolarian Academy": "banned",
+        "Windfall": "banned"
+      }
+    },
+    {
+      "date": "1999-03-11",
+      "url": "https://web.archive.org/web/20010128184200/http://www.wizards.com/DCI/announce_archive.asp",
+      "changes": {
+        "Memory Jar": "banned"
+      }
+    },
+    {
+      "date": "1999-04-01",
+      "url": "https://web.archive.org/web/19990506144254/http://www.wizards.com/DCI/MTG_DCI_BR2-26-99.html",
+      "changes": {
+        "Dream Halls": "banned",
+        "Earthcraft": "banned",
+        "Fluctuator": "banned",
+        "Lotus Petal": "banned",
+        "Recurring Nightmare": "banned",
+        "Time Spiral": "banned"
+      }
+    },
+    {
+      "date": "1999-07-01",
+      "url": "http://web.archive.org/web/20111121212434/http://www.crystalkeep.com/magic/rules/dci/update-990601.txt",
+      "changes": {
+        "Mind Over Matter": "banned"
+      }
+    },
+    {
+      "date": "2004-06-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20040601a",
+      "changes": {
+        "Skullclamp": "banned"
+      }
+    },
+    {
+      "date": "2005-03-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20050301a",
+      "changes": {
+        "Ancient Den": "banned",
+        "Arcbound Ravager": "banned",
+        "Darksteel Citadel": "banned",
+        "Disciple of the Vault": "banned",
+        "Great Furnace": "banned",
+        "Seat of the Synod": "banned",
+        "Tree of Tales": "banned",
+        "Vault of Whispers": "banned"
+      }
+    },
+    {
+      "date": "2011-07-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/june-20-2011-dci-banned-restricted-list-announcement-2011-06-20",
+      "changes": {
+        "Jace, the Mind Sculptor": "banned",
+        "Stoneforge Mystic": "banned"
+      }
+    },
+    {
+      "date": "2014-07-18",
+      "comment": "Original ban expired with rotation, reprinted into Standard as a legal card",
+      "changes": {
+        "Darksteel Citadel": "legal"
+      }
+    },
+    {
+      "date": "2017-01-20",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-9-2017-banned-and-restricted-announcement-2017-01-09",
+      "changes": {
+        "Emrakul, the Promised End": "banned",
+        "Reflector Mage": "banned",
+        "Smuggler's Copter": "banned"
+      }
+    },
+    {
+      "date": "2017-04-28",
+      "url": "https://magic.wizards.com/en/articles/archive/news/addendum-april-24-2017-banned-and-restricted-announcement-2017-04-26",
+      "changes": {
+        "Felidar Guardian": "banned"
+      }
+    },
+    {
+      "date": "2017-06-19",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/june-13-2017-banned-and-restricted-announcement-2017-06-13",
+      "changes": {
+        "Aetherworks Marvel": "banned"
+      }
+    },
+    {
+      "date": "2018-01-19",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-15-2018-banned-and-restricted-announcement-2018-01-15",
+      "changes": {
+        "Attune with Aether": "banned",
+        "Rogue Refiner": "banned",
+        "Rampaging Ferocidon": "banned",
+        "Ramunap Ruins": "banned"
+      }
+    },
+    {
+      "date": "2019-08-30",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-26-2019-banned-and-restricted-announcement-2019-08-26",
+      "changes": {
+        "Rampaging Ferocidon": "legal"
+      }
+    },
+    {
+      "date": "2019-10-21",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-21-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Field of the Dead": "banned"
+      }
+    },
+    {
+      "date": "2019-11-18",
+      "url": "https://magic.wizards.com/en/articles/archive/news/november-18-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Oko, Thief of Crowns": "banned",
+        "Once Upon a Time": "banned",
+        "Veil of Summer": "banned"
+      }
+    },
+    {
+      "date": "2020-06-01",
+      "url": "https://magic.wizards.com/en/articles/archive/news/june-1-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Agent of Treachery": "banned",
+        "Fires of Invention": "banned"
+      }
+    },
+    {
+      "date": "2020-08-03",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-8-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Wilderness Reclamation": "banned",
+        "Growth Spiral": "banned",
+        "Teferi, Time Raveler": "banned",
+        "Cauldron Familiar": "banned"
+      }
+    },
+    {
+      "date": "2020-09-28",
+      "url": "https://magic.wizards.com/en/articles/archive/news/september-28-2020-banned-and-restricted-announcement-2020-09-28",
+      "changes": {
+        "Uro, Titan of Nature's Wrath": "banned"
+      }
+    },
+    {
+      "date": "2020-10-12",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-12-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Omnath, Locus of Creation": "banned",
+        "Lucky Clover": "banned",
+        "Escape to the Wilds": "banned"
+      }
+    },
+    {
+      "date": "2022-01-25",
+      "url": "https://magic.wizards.com/en/articles/archive/news/january-25-2022-banned-and-restricted-announcement",
+      "changes": {
+        "Alrund's Epiphany": "banned",
+        "Divide by Zero": "banned",
+        "Faceless Haven": "banned"
+      }
+    },
+    {
+      "date": "2022-10-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-10-2022-banned-and-restricted-announcement",
+      "changes": {
+        "The Meathook Massacre": "banned"
+      }
+    },
+    {
+      "date": "2023-05-29",
+      "url": "https://magic.wizards.com/en/news/announcements/may-29-2023-banned-and-restricted-announcement",
+      "changes": {
+        "Fable of the Mirror-Breaker": "banned",
+        "Reflection of Kiki-Jiki": "banned",
+        "Invoke Despair": "banned",
+        "Reckoner Bankbuster": "banned"
+      }
+    },
+    {
+      "date": "2025-06-30",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-june-30-2025",
+      "changes": {
+        "Cori-Steel Cutter": "banned",
+        "Abuelo's Awakening": "banned",
+        "Monstrous Rage": "banned",
+        "Heartfire Hero": "banned",
+        "Up the Beanstalk": "banned",
+        "Hopeless Nightmare": "banned",
+        "This Town Ain't Big Enough": "banned"
+      }
+    },
+    {
+      "date": "2025-11-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-november-10-2025",
+      "changes": {
+        "Vivi Ornitier": "banned",
+        "Screaming Nemesis": "banned",
+        "Proft's Eidetic Memory": "banned"
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "changes": {
+        "Badgermole Cub": "banned",
+        "Stormchaser's Talent": "banned",
+        "Gran-Gran": "banned"
+      }
+    }
+  ],
+  "standard brawl": [
+    {
+      "url": "https://magic.wizards.com/en/articles/archive/ways-play/join-brawl-2018-03-22",
+      "changes": {
+        "Smuggler's Copter": "banned",
+        "Felidar Guardian": "banned",
+        "Aetherworks Marvel": "banned",
+        "Attune with Aether": "banned",
+        "Rogue Refiner": "banned",
+        "Rampaging Ferocidon": "banned",
+        "Ramunap Ruins": "banned"
+      }
+    },
+    {
+      "date": "2018-05-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/future-brawl-2018-05-10",
+      "changes": {
+        "Felidar Guardian": "legal",
+        "Aetherworks Marvel": "legal",
+        "Attune with Aether": "legal",
+        "Rogue Refiner": "legal",
+        "Rampaging Ferocidon": "legal",
+        "Ramunap Ruins": "legal",
+        "Baral, Chief of Compliance": "banned",
+        "Sorcerous Spyglass": "banned"
+      }
+    },
+    {
+      "date": "2019-11-18",
+      "url": "https://magic.wizards.com/en/articles/archive/news/november-18-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Oko, Thief of Crowns": "banned"
+      }
+    },
+    {
+      "date": "2020-03-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/march-9-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Golos, Tireless Pilgrim": "banned"
+      }
+    },
+    {
+      "date": "2020-04-24",
+      "url": "https://magic.wizards.com/en/articles/archive/news/april-13-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Lutri, the Spellchaser": "banned"
+      }
+    },
+    {
+      "date": "2020-05-18",
+      "url": "https://magic.wizards.com/en/articles/archive/news/may-18-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Drannith Magistrate": "banned",
+        "Winota, Joiner of Forces": "banned"
+      }
+    },
+    {
+      "date": "2020-08-03",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-8-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Teferi, Time Raveler": "banned"
+      }
+    },
+    {
+      "date": "2020-10-12",
+      "url": "https://magic.wizards.com/en/articles/archive/news/october-12-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Omnath, Locus of Creation": "banned"
+      }
+    },
+    {
+      "date": "2021-10-01",
+      "url": "https://twitter.com/Wizards_Help/status/1443994094200623122",
+      "changes": {
+        "Pithing Needle": "banned"
+      }
+    }
+  ],
+  "tempest block": [
+    {
+      "date": "1998-07-01",
+      "url": "https://web.archive.org/web/19981205023409/http://www.wizards.com/DCI/BR6-1-98.html",
+      "changes": {
+        "Cursed Scroll": "banned"
+      }
+    }
+  ],
+  "timeless": [
+    {
+      "date": "2023-12-12",
+      "comment": "Cards which can only be conjured or specialized into, never put in a deck",
+      "changes": {
+        "Alora, Cheerful Assassin": "specialized",
+        "Alora, Cheerful Mastermind": "specialized",
+        "Alora, Cheerful Scout": "specialized",
+        "Alora, Cheerful Swashbuckler": "specialized",
+        "Alora, Cheerful Thief": "specialized",
+        "Ambergris, Agent of Balance": "specialized",
+        "Ambergris, Agent of Destruction": "specialized",
+        "Ambergris, Agent of Law": "specialized",
+        "Ambergris, Agent of Progress": "specialized",
+        "Ambergris, Agent of Tyranny": "specialized",
+        "Ancestral Recall": "conjurable",
+        "Black Lotus": "conjurable",
+        "Brawler's Plate": "conjurable",
+        "Gale, Abyssal Conduit": "specialized",
+        "Gale, Holy Conduit": "specialized",
+        "Gale, Primeval Conduit": "specialized",
+        "Gale, Storm Conduit": "specialized",
+        "Gale, Temporal Conduit": "specialized",
+        "Gut, Bestial Fanatic": "specialized",
+        "Gut, Brutal Fanatic": "specialized",
+        "Gut, Devious Fanatic": "specialized",
+        "Gut, Furious Fanatic": "specialized",
+        "Gut, Zealous Fanatic": "specialized",
+        "Hag of Ceaseless Torment": "conjurable",
+        "Hag of Dark Duress": "conjurable",
+        "Hag of Death's Legion": "conjurable",
+        "Hag of Inner Weakness": "conjurable",
+        "Hag of Mage's Doom": "conjurable",
+        "Hag of Noxious Nightmares": "conjurable",
+        "Hag of Scoured Thoughts": "conjurable",
+        "Hag of Syphoned Breath": "conjurable",
+        "Hag of Twisted Visions": "conjurable",
+        "Imoen, Chaotic Trickster": "specialized",
+        "Imoen, Honorable Trickster": "specialized",
+        "Imoen, Occult Trickster": "specialized",
+        "Imoen, Wily Trickster": "specialized",
+        "Imoen, Wise Trickster": "specialized",
+        "Jaheira, Heroic Harper": "specialized",
+        "Jaheira, Insightful Harper": "specialized",
+        "Jaheira, Merciful Harper": "specialized",
+        "Jaheira, Ruthless Harper": "specialized",
+        "Jaheira, Stirring Harper": "specialized",
+        "Karlach, Tiefling Berserker": "specialized",
+        "Karlach, Tiefling Guardian": "specialized",
+        "Karlach, Tiefling Punisher": "specialized",
+        "Karlach, Tiefling Spellrager": "specialized",
+        "Karlach, Tiefling Zealot": "specialized",
+        "Klement, Death Acolyte": "specialized",
+        "Klement, Knowledge Acolyte": "specialized",
+        "Klement, Life Acolyte": "specialized",
+        "Klement, Nature Acolyte": "specialized",
+        "Klement, Tempest Acolyte": "specialized",
+        "Kraken Hatchling": "conjurable",
+        "Lae'zel, Blessed Warrior": "specialized",
+        "Lae'zel, Callous Warrior": "specialized",
+        "Lae'zel, Illithid Thrall": "specialized",
+        "Lae'zel, Primal Warrior": "specialized",
+        "Lae'zel, Wrathful Warrior": "specialized",
+        "Lukamina, Bear Form": "specialized",
+        "Lukamina, Crocodile Form": "specialized",
+        "Lukamina, Hawk Form": "specialized",
+        "Lukamina, Scorpion Form": "specialized",
+        "Lukamina, Wolf Form": "specialized",
+        "Lulu, Curious Hollyphant": "specialized",
+        "Lulu, Helpful Hollyphant": "specialized",
+        "Lulu, Inspiring Hollyphant": "specialized",
+        "Lulu, Vengeful Hollyphant": "specialized",
+        "Lulu, Wild Hollyphant": "specialized",
+        "Mox Emerald": "conjurable",
+        "Mox Jet": "conjurable",
+        "Mox Pearl": "conjurable",
+        "Mox Ruby": "conjurable",
+        "Mox Sapphire": "conjurable",
+        "Ponder": "conjurable",
+        "Rasaad, Dragon Monk": "specialized",
+        "Rasaad, Radiant Monk": "specialized",
+        "Rasaad, Shadow Monk": "specialized",
+        "Rasaad, Sylvan Monk": "specialized",
+        "Rasaad, Warrior Monk": "specialized",
+        "Regal Force": "conjurable",
+        "Sarevok, Deadly Usurper": "specialized",
+        "Sarevok, Deceitful Usurper": "specialized",
+        "Sarevok, Divine Usurper": "specialized",
+        "Sarevok, Ferocious Usurper": "specialized",
+        "Sarevok, Mighty Usurper": "specialized",
+        "Shadowheart, Cleric of Graves": "specialized",
+        "Shadowheart, Cleric of Order": "specialized",
+        "Shadowheart, Cleric of Trickery": "specialized",
+        "Shadowheart, Cleric of Twilight": "specialized",
+        "Shadowheart, Cleric of War": "specialized",
+        "Skanos, Black Dragon Vassal": "specialized",
+        "Skanos, Blue Dragon Vassal": "specialized",
+        "Skanos, Green Dragon Vassal": "specialized",
+        "Skanos, Red Dragon Vassal": "specialized",
+        "Skanos, White Dragon Vassal": "specialized",
+        "Soul of New Phyrexia": "conjurable",
+        "Stormfront Pegasus": "conjurable",
+        "Thieving Magpie": "conjurable",
+        "Time Walk": "conjurable",
+        "Timetwister": "conjurable",
+        "Tropical Island": "conjurable",
+        "Vhal, Scholar of Creation": "specialized",
+        "Vhal, Scholar of Elements": "specialized",
+        "Vhal, Scholar of Mortality": "specialized",
+        "Vhal, Scholar of Prophecy": "specialized",
+        "Vhal, Scholar of Tactics": "specialized",
+        "Viconia, Disciple of Arcana": "specialized",
+        "Viconia, Disciple of Blood": "specialized",
+        "Viconia, Disciple of Rebirth": "specialized",
+        "Viconia, Disciple of Strength": "specialized",
+        "Viconia, Disciple of Violence": "specialized",
+        "Wilson, Ardent Bear": "specialized",
+        "Wilson, Fearsome Bear": "specialized",
+        "Wilson, Majestic Bear": "specialized",
+        "Wilson, Subtle Bear": "specialized",
+        "Wilson, Urbane Bear": "specialized",
+        "Wyll of the Blade Pact": "specialized",
+        "Wyll of the Celestial Pact": "specialized",
+        "Wyll of the Elder Pact": "specialized",
+        "Wyll of the Fey Pact": "specialized",
+        "Wyll of the Fiend Pact": "specialized"
+      }
+    },
+    {
+      "date": "2023-12-12",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/introducing-timeless-a-new-mtg-arena-format",
+      "changes": {
+        "Channel": "restricted",
+        "Demonic Tutor": "restricted",
+        "Tibalt's Trickery": "restricted"
+      }
+    },
+    {
+      "date": "2025-03-04",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Muraganda Petroglyphs": "conjurable"
+      }
+    },
+    {
+      "date": "2025-08-19",
+      "comment": "This card is conjurable only",
+      "changes": {
+        "Flametongue Kavu": "conjurable"
+      }
+    },
+    {
+      "date": "2025-09-23",
+      "url": "https://magic.wizards.com/en/news/mtg-arena/through-the-omenpaths-card-and-event-updates",
+      "changes": {
+        "Kraken Hatchling": "legal",
+        "Ponder": "legal",
+        "Regal Force": "legal",
+        "Stormfront Pegasus": "legal"
+      }
+    },
+    {
+      "date": "2026-02-03",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Blowfly Infestation": "conjurable",
+        "Rite of Flame": "conjurable",
+        "Stonybrook Schoolmaster": "conjurable"
+      }
+    },
+    {
+      "date": "2026-02-09",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-february-9-2026",
+      "changes": {
+        "Necropotence": "restricted"
+      }
+    },
+    {
+      "date": "2026-05-19",
+      "comment": "These cards are conjurable only",
+      "changes": {
+        "Bridge from Below": "conjurable",
+        "Storm Crow": "conjurable"
+      }
+    }
+  ],
+  "unsets": [
+    {
+      "date": "1998-08-11",
+      "comment": "Restriction printed on the card",
+      "changes": {
+        "Once More with Feeling": "restricted"
+      }
+    }
+  ],
+  "urza block": [
+    {
+      "date": "1999-03-11",
+      "url": "https://web.archive.org/web/20010128184200/http://www.wizards.com/DCI/announce_archive.asp",
+      "changes": {
+        "Memory Jar": "banned"
+      }
+    },
+    {
+      "date": "1999-04-01",
+      "url": "https://web.archive.org/web/19990506144254/http://www.wizards.com/DCI/MTG_DCI_BR2-26-99.html",
+      "changes": {
+        "Time Spiral": "banned",
+        "Windfall": "banned"
+      }
+    },
+    {
+      "date": "1999-07-01",
+      "url": "http://web.archive.org/web/20111121212434/http://www.crystalkeep.com/magic/rules/dci/update-990601.txt",
+      "changes": {
+        "Gaea's Cradle": "banned",
+        "Serra's Sanctum": "banned",
+        "Tolarian Academy": "banned",
+        "Voltaic Key": "banned"
+      }
+    }
+  ],
+  "vintage": [
+    {
+      "changes": {
+        "Amulet of Quoz": "banned",
+        "Bronze Tablet": "banned",
+        "Chaos Orb": "banned",
+        "Contract from Below": "banned",
+        "Darkpact": "banned",
+        "Demonic Attorney": "banned",
+        "Falling Star": "banned",
+        "Jeweled Bird": "banned",
+        "Rebirth": "banned",
+        "Shahrazad": "banned",
+        "Tempest Efreet": "banned",
+        "Timmerian Fiends": "banned",
+        "Divine Intervention": "banned",
+        "Maze of Ith": "restricted",
+        "Mirror Universe": "restricted",
+        "Mishra's Workshop": "restricted",
+        "Sword of the Ages": "restricted",
+        "Underworld Dreams": "restricted",
+        "Zuran Orb": "restricted",
+        "Ali from Cairo": "restricted",
+        "Ancestral Recall": "restricted",
+        "Berserk": "restricted",
+        "Black Lotus": "restricted",
+        "Braingeyser": "restricted",
+        "Dingus Egg": "restricted",
+        "Gauntlet of Might": "restricted",
+        "Icy Manipulator": "restricted",
+        "Mox Emerald": "restricted",
+        "Mox Jet": "restricted",
+        "Mox Pearl": "restricted",
+        "Mox Ruby": "restricted",
+        "Mox Sapphire": "restricted",
+        "Orcish Oriflamme": "restricted",
+        "Rukh Egg": "restricted",
+        "Sol Ring": "restricted",
+        "Time Vault": "restricted",
+        "Time Walk": "restricted",
+        "Timetwister": "restricted"
+      }
+    },
+    {
+      "date": "1994-06-01",
+      "changes": {
+        "Time Vault": "banned",
+        "Dingus Egg": "legal",
+        "Gauntlet of Might": "legal",
+        "Icy Manipulator": "legal",
+        "Orcish Oriflamme": "legal",
+        "Rukh Egg": "legal",
+        "Candelabra of Tawnos": "restricted",
+        "Channel": "restricted",
+        "Copy Artifact": "restricted",
+        "Demonic Tutor": "restricted",
+        "Feldon's Cane": "restricted",
+        "Ivory Tower": "restricted",
+        "Library of Alexandria": "restricted",
+        "Regrowth": "restricted",
+        "Wheel of Fortune": "restricted",
+        "Recall": "restricted",
+        "Fork": "restricted"
+      }
+    },
+    {
+      "date": "1995-05-01",
+      "changes": {
+        "Balance": "restricted"
+      }
+    },
+    {
+      "date": "1996-02-01",
+      "changes": {
+        "Channel": "banned",
+        "Mind Twist": "banned",
+        "Black Vise": "restricted"
+      }
+    },
+    {
+      "date": "1996-04-01",
+      "url": "https://web.archive.org/web/19960510142729/http://www.wizards.com/DCI/ban_rest_letter.html",
+      "changes": {
+        "Ali from Cairo": "legal",
+        "Black Vise": "legal",
+        "Sword of the Ages": "legal",
+        "Time Vault": "legal"
+      }
+    },
+    {
+      "date": "1996-10-01",
+      "changes": {
+        "Fastbond": "restricted"
+      }
+    },
+    {
+      "date": "1997-07-01",
+      "changes": {
+        "Black Vise": "restricted"
+      }
+    },
+    {
+      "date": "1997-10-01",
+      "changes": {
+        "Candelabra of Tawnos": "legal",
+        "Copy Artifact": "legal",
+        "Feldon's Cane": "legal",
+        "Mishra's Workshop": "legal",
+        "Zuran Orb": "legal"
+      }
+    },
+    {
+      "date": "1998-01-01",
+      "url": "https://web.archive.org/web/19990203122929/http://www.wizards.com/DCI/BRAnnouncement.html",
+      "changes": {
+        "Strip Mine": "restricted"
+      }
+    },
+    {
+      "date": "1999-01-01",
+      "url": "https://web.archive.org/web/19990209004446/http://www.wizards.com/DCI/MTG_DCI_BR12-1-98.html",
+      "changes": {
+        "Stroke of Genius": "restricted",
+        "Tolarian Academy": "restricted",
+        "Windfall": "restricted"
+      }
+    },
+    {
+      "date": "1999-03-11",
+      "url": "https://web.archive.org/web/20010128184200/http://www.wizards.com/DCI/announce_archive.asp",
+      "changes": {
+        "Memory Jar": "restricted"
+      }
+    },
+    {
+      "date": "1999-04-01",
+      "url": "https://web.archive.org/web/19990506144254/http://www.wizards.com/DCI/MTG_DCI_BR2-26-99.html",
+      "changes": {
+        "Maze of Ith": "legal",
+        "Time Spiral": "restricted"
+      }
+    },
+    {
+      "date": "1999-10-01",
+      "url": "https://web.archive.org/web/20000305053359/http://www.wizards.com/DCI/announce.asp?dci19990901b",
+      "changes": {
+        "Divine Intervention": "legal",
+        "Ivory Tower": "legal",
+        "Mirror Universe": "legal",
+        "Shahrazad": "legal",
+        "Underworld Dreams": "legal",
+        "Crop Rotation": "restricted",
+        "Doomsday": "restricted",
+        "Dream Halls": "restricted",
+        "Enlightened Tutor": "restricted",
+        "Frantic Search": "restricted",
+        "Grim Monolith": "restricted",
+        "Hurkyl's Recall": "restricted",
+        "Lotus Petal": "restricted",
+        "Mana Crypt": "restricted",
+        "Mana Vault": "restricted",
+        "Mind Over Matter": "restricted",
+        "Mox Diamond": "restricted",
+        "Mystical Tutor": "restricted",
+        "Tinker": "restricted",
+        "Vampiric Tutor": "restricted",
+        "Voltaic Key": "restricted",
+        "Yawgmoth's Bargain": "restricted",
+        "Yawgmoth's Will": "restricted"
+      }
+    },
+    {
+      "date": "2000-10-01",
+      "url": "https://web.archive.org/web/20000930010409/http://www.wizards.com/dci/judge/resources/sfr_type1.asp",
+      "changes": {
+        "Channel": "restricted",
+        "Demonic Consultation": "restricted",
+        "Mind Twist": "restricted",
+        "Necropotence": "restricted"
+      }
+    },
+    {
+      "date": "2002-01-01",
+      "url": "http://web.archive.org/web/20111121212710/http://crystalkeep.com/magic/rules/dci/update-011201.txt",
+      "changes": {
+        "Fact or Fiction": "restricted"
+      }
+    },
+    {
+      "date": "2003-04-01",
+      "url": "http://www.wizards.com/dci/main.asp?x=Banned_Restricted_List_0303",
+      "changes": {
+        "Berserk": "legal",
+        "Hurkyl's Recall": "legal",
+        "Earthcraft": "restricted",
+        "Entomb": "restricted",
+        "Recall": "legal"
+      }
+    },
+    {
+      "date": "2003-07-01",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20030529a",
+      "changes": {
+        "Gush": "restricted",
+        "Mind's Desire": "restricted"
+      }
+    },
+    {
+      "date": "2004-01-01",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20031201a",
+      "changes": {
+        "Burning Wish": "restricted",
+        "Chrome Mox": "restricted",
+        "Lion's Eye Diamond": "restricted"
+      }
+    },
+    {
+      "date": "2004-09-20",
+      "url": "http://www.wizards.com/Default.asp?x=dci/announce/dci20040901a",
+      "changes": {
+        "Braingeyser": "legal",
+        "Doomsday": "legal",
+        "Earthcraft": "legal",
+        "Fork": "legal"
+      }
+    },
+    {
+      "date": "2004-12-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20041201a",
+      "changes": {
+        "Stroke of Genius": "legal"
+      }
+    },
+    {
+      "date": "2005-03-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20050301a",
+      "changes": {
+        "Trinisphere": "restricted"
+      }
+    },
+    {
+      "date": "2005-09-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20050901a",
+      "changes": {
+        "Mind Over Matter": "legal",
+        "Imperial Seal": "restricted",
+        "Personal Tutor": "restricted"
+      }
+    },
+    {
+      "date": "2007-06-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20050901a",
+      "changes": {
+        "Black Vise": "legal",
+        "Gush": "legal",
+        "Mind Twist": "legal",
+        "Voltaic Key": "legal",
+        "Gifts Ungiven": "restricted"
+      }
+    },
+    {
+      "date": "2007-09-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20070901a",
+      "changes": {
+        "Shahrazad": "banned"
+      }
+    },
+    {
+      "date": "2008-06-20",
+      "url": "http://www.wizards.com/default.asp?x=dci/announce/dci20080602a",
+      "changes": {
+        "Brainstorm": "restricted",
+        "Flash": "restricted",
+        "Gush": "restricted",
+        "Merchant Scroll": "restricted",
+        "Ponder": "restricted"
+      }
+    },
+    {
+      "date": "2008-09-20",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-1-2008-dci-banned-and-restricted-list-announcement-2008-09-01",
+      "changes": {
+        "Chrome Mox": "legal",
+        "Dream Halls": "legal",
+        "Mox Diamond": "legal",
+        "Personal Tutor": "legal",
+        "Time Spiral": "legal",
+        "Time Vault": "restricted"
+      }
+    },
+    {
+      "date": "2009-07-01",
+      "url": "https://magic.wizards.com/en/articles/archive/news/june-19-2009-dci-banned-restricted-list-announcement-2009-06-19",
+      "changes": {
+        "Crop Rotation": "legal",
+        "Enlightened Tutor": "legal",
+        "Entomb": "legal",
+        "Grim Monolith": "legal",
+        "Thirst for Knowledge": "restricted"
+      }
+    },
+    {
+      "date": "2010-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-20-2010-dci-banned-restricted-list-announcement-2010-09-20",
+      "changes": {
+        "Frantic Search": "legal",
+        "Gush": "legal"
+      }
+    },
+    {
+      "date": "2011-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-20-2011-dci-banned-restricted-list-announcement-2011-09-20",
+      "changes": {
+        "Fact or Fiction": "legal"
+      }
+    },
+    {
+      "date": "2012-10-01",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/september-20-2012-dci-banned-restricted-list-announcement-2012-09-20",
+      "changes": {
+        "Burning Wish": "legal"
+      }
+    },
+    {
+      "date": "2013-05-03",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/banned-and-restricted-2013-04-22-0",
+      "changes": {
+        "Regrowth": "legal"
+      }
+    },
+    {
+      "date": "2015-01-23",
+      "url": "https://magic.wizards.com/en/articles/archive/feature/banned-and-restricted-announcement-2015-01-19",
+      "changes": {
+        "Gifts Ungiven": "legal",
+        "Treasure Cruise": "restricted"
+      }
+    },
+    {
+      "date": "2015-10-02",
+      "url": "https://magic.wizards.com/en/articles/archive/news/september-28-2015-banned-and-restricted-announcement-2015-09-28",
+      "changes": {
+        "Thirst for Knowledge": "legal",
+        "Chalice of the Void": "restricted",
+        "Dig Through Time": "restricted"
+      }
+    },
+    {
+      "date": "2016-04-08",
+      "url": "https://magic.wizards.com/en/articles/archive/news/banned-and-restricted-announcement-2016-04-04",
+      "changes": {
+        "Lodestone Golem": "restricted"
+      }
+    },
+    {
+      "date": "2017-04-24",
+      "url": "https://magic.wizards.com/en/articles/archive/news/april-24-2017-banned-and-restricted-announcement-2017-04-24",
+      "changes": {
+        "Gitaxian Probe": "restricted",
+        "Gush": "restricted"
+      }
+    },
+    {
+      "date": "2017-09-01",
+      "url": "https://magic.wizards.com/en/articles/archive/august-28-2017-banned-and-restricted-announcement-2017-08-28",
+      "changes": {
+        "Yawgmoth's Bargain": "legal",
+        "Monastery Mentor": "restricted",
+        "Thorn of Amethyst": "restricted"
+      }
+    },
+    {
+      "date": "2019-08-30",
+      "url": "https://magic.wizards.com/en/articles/archive/news/august-26-2019-banned-and-restricted-announcement-2019-08-26",
+      "changes": {
+        "Karn, the Great Creator": "restricted",
+        "Mystic Forge": "restricted",
+        "Mental Misstep": "restricted",
+        "Golgari Grave-Troll": "restricted",
+        "Fastbond": "legal"
+      }
+    },
+    {
+      "date": "2019-11-18",
+      "url": "https://magic.wizards.com/en/articles/archive/news/november-18-2019-banned-and-restricted-announcement",
+      "changes": {
+        "Narset, Parter of Veils": "restricted"
+      }
+    },
+    {
+      "date": "2020-05-18",
+      "url": "https://magic.wizards.com/en/articles/archive/news/may-18-2020-banned-and-restricted-announcement",
+      "changes": {
+        "Lurrus of the Dream-Den": "banned"
+      }
+    },
+    {
+      "date": "2020-06-10",
+      "url": "https://magic.wizards.com/en/articles/archive/news/depictions-racism-magic-2020-06-10",
+      "changes": {
+        "Cleanse": "banned",
+        "Crusade": "banned",
+        "Imprison": "banned",
+        "Invoke Prejudice": "banned",
+        "Jihad": "banned",
+        "Pradesh Gypsies": "banned",
+        "Stone-Throwing Devils": "banned"
+      }
+    },
+    {
+      "date": "2021-02-15",
+      "url": "https://magic.wizards.com/en/articles/archive/news/february-15-2021-banned-and-restricted-announcement",
+      "changes": {
+        "Lurrus of the Dream-Den": "legal"
+      }
+    },
+    {
+      "date": "2024-05-13",
+      "url": "https://magic.wizards.com/en/news/announcements/may-13-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Aerialephant": "banned",
+        "Ambassador Blorpityblorpboop": "banned",
+        "Baaallerina": "banned",
+        "_____ Balls of Fire": "banned",
+        "Bioluminary": "banned",
+        "_____ Bird Gets the Worm": "banned",
+        "Carnival Carnivore": "banned",
+        "Chicken Troupe": "banned",
+        "Clandestine Chameleon": "banned",
+        "Command Performance": "banned",
+        "Done for the Day": "banned",
+        "Fight the _____ Fight": "banned",
+        "Finishing Move": "banned",
+        "Glitterflitter": "banned",
+        "_____ Goblin": "banned",
+        "\"Name Sticker\" Goblin": "banned",
+        "Last Voyage of the _____": "banned",
+        "Lineprancers": "banned",
+        "Make a _____ Splash": "banned",
+        "Minotaur de Force": "banned",
+        "_____-o-saurus": "banned",
+        "Park Bleater": "banned",
+        "Pin Collection": "banned",
+        "Prize Wall": "banned",
+        "Proficient Pyrodancer": "banned",
+        "Robo-Piñata": "banned",
+        "_____ _____ Rocketship": "banned",
+        "Roxi, Publicist to the Stars": "banned",
+        "Scampire": "banned",
+        "Stiltstrider": "banned",
+        "Sword-Swallowing Seraph": "banned",
+        "Ticketomaton": "banned",
+        "_____ _____ _____ Trespasser": "banned",
+        "Tusk and Whiskers": "banned",
+        "Wicker Picker": "banned",
+        "Wizards of the _____": "banned",
+        "Wolf in _____ Clothing": "banned",
+        "Coming Attraction": "banned",
+        "Complaints Clerk": "banned",
+        "Deadbeat Attendant": "banned",
+        "Dee Kay, Finder of the Lost": "banned",
+        "Discourtesy Clerk": "banned",
+        "Draconian Gate-Bot": "banned",
+        "\"Lifetime\" Pass Holder": "banned",
+        "Line Cutter": "banned",
+        "Monitor Monitor": "banned",
+        "Myra the Magnificent": "banned",
+        "Petting Zookeeper": "banned",
+        "Quick Fixer": "banned",
+        "Rad Rascal": "banned",
+        "Ride Guide": "banned",
+        "Seasoned Buttoneer": "banned",
+        "Soul Swindler": "banned",
+        "Spinnerette, Arachnobat": "banned",
+        "Squirrel Squatters": "banned",
+        "Step Right Up": "banned",
+        "The Most Dangerous Gamer": "banned",
+        "Balloon Stand": "banned",
+        "Bounce Chamber": "banned",
+        "Bumper Cars": "banned",
+        "Centrifuge": "banned",
+        "Clown Extruder": "banned",
+        "Concession Stand": "banned",
+        "Costume Shop": "banned",
+        "Cover the Spot": "banned",
+        "Dart Throw": "banned",
+        "Drop Tower": "banned",
+        "Ferris Wheel": "banned",
+        "Foam Weapons Kiosk": "banned",
+        "Fortune Teller": "banned",
+        "Gallery of Legends": "banned",
+        "Gift Shop": "banned",
+        "Guess Your Fate": "banned",
+        "Hall of Mirrors": "banned",
+        "Haunted House": "banned",
+        "Information Booth": "banned",
+        "Kiddie Coaster": "banned",
+        "Log Flume": "banned",
+        "Memory Test": "banned",
+        "Merry-Go-Round": "banned",
+        "Pick-a-Beeble": "banned",
+        "Push Your Luck": "banned",
+        "Roller Coaster": "banned",
+        "Scavenger Hunt (a)": "banned",
+        "Scavenger Hunt (b)": "banned",
+        "Scavenger Hunt (c)": "banned",
+        "Scavenger Hunt (d)": "banned",
+        "Scavenger Hunt (e)": "banned",
+        "Scavenger Hunt (f)": "banned",
+        "Spinny Ride": "banned",
+        "Squirrel Stack": "banned",
+        "Storybook Ride": "banned",
+        "Swinging Ship": "banned",
+        "The Superlatorium (a)": "banned",
+        "The Superlatorium (b)": "banned",
+        "The Superlatorium (c)": "banned",
+        "The Superlatorium (d)": "banned",
+        "The Superlatorium (e)": "banned",
+        "The Superlatorium (f)": "banned",
+        "Trash Bin": "banned",
+        "Trivia Contest (a)": "banned",
+        "Trivia Contest (b)": "banned",
+        "Trivia Contest (c)": "banned",
+        "Trivia Contest (d)": "banned",
+        "Trivia Contest (e)": "banned",
+        "Trivia Contest (f)": "banned",
+        "Tunnel of Love": "banned",
+        "Ancestral Hot Dog Minotaur": "banned",
+        "Carnival Elephant Meteor": "banned",
+        "Contortionist Otter Storm": "banned",
+        "Cool Fluffy Loxodon": "banned",
+        "Cursed Firebreathing Yogurt": "banned",
+        "Deep-Fried Plague Myr": "banned",
+        "Demonic Tourist Laser": "banned",
+        "Eldrazi Guacamole Tightrope": "banned",
+        "Elemental Time Flamingo": "banned",
+        "Eternal Acrobat Toast": "banned",
+        "Familiar Beeble Mascot": "banned",
+        "Geek Lotus Warrior": "banned",
+        "Giant Mana Cake": "banned",
+        "Goblin Coward Parade": "banned",
+        "Happy Dead Squirrel": "banned",
+        "Jetpack Death Seltzer": "banned",
+        "Misunderstood Trapeze Elf": "banned",
+        "Mystic Doom Sandwich": "banned",
+        "Narrow-Minded Baloney Fireworks": "banned",
+        "Night Brushwagg Ringmaster": "banned",
+        "Notorious Sliver War": "banned",
+        "Phyrexian Midway Bamboozle": "banned",
+        "Playable Delusionary Hydra": "banned",
+        "Primal Elder Kitty": "banned",
+        "Sassy Gremlin Blood": "banned",
+        "Slimy Burrito Illusion": "banned",
+        "Snazzy Aether Homunculus": "banned",
+        "Space Fungus Snickerdoodle": "banned",
+        "Spooky Clown Mox": "banned",
+        "Squid Fire Knight": "banned",
+        "Squishy Sphinx Ninja": "banned",
+        "Sticky Kavu Daredevil": "banned",
+        "Trained Blessed Mind": "banned",
+        "Trendy Circus Pirate": "banned",
+        "Unassuming Gelatinous Serpent": "banned",
+        "Unglued Pea-Brained Dinosaur": "banned",
+        "Unhinged Beast Hunt": "banned",
+        "Unique Charmed Pants": "banned",
+        "Unsanctioned Ancient Juggler": "banned",
+        "Unstable Robot Dragon": "banned",
+        "Urza's Dark Cannonball": "banned",
+        "Vampire Champion Fury": "banned",
+        "Weird Angel Flame": "banned",
+        "Werewolf Lightning Mage": "banned",
+        "Wild Ogre Bupkis": "banned",
+        "Wrinkly Monkey Shenanigans": "banned",
+        "Yawgmoth Merfolk Soul": "banned",
+        "Zombie Cheese Magician": "banned"
+      }
+    },
+    {
+      "date": "2024-08-26",
+      "url": "https://magic.wizards.com/en/news/announcements/august-26-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Urza's Saga": "restricted",
+        "Vexing Bauble": "restricted"
+      }
+    },
+    {
+      "date": "2025-03-11",
+      "url": "https://magic.wizards.com/en/news/announcements/march-11-2024-banned-and-restricted-announcement",
+      "changes": {
+        "Ponder": "legal"
+      }
+    },
+    {
+      "date": "2025-03-24",
+      "comment": "New sticker card printed and falls under sticker card ban",
+      "changes": {
+        "Sticker sheet": "banned"
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "url": "https://magic.wizards.com/en/news/announcements/banned-and-restricted-august-10-2026",
+      "changes": {
+        "The Fantasticar": "restricted"
+      }
+    }
+  ]
+}

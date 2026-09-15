@@ -1,37 +1,51 @@
 # This class represents card from index point of view, not from data point of view
 # (thinking in solr/lucene terms)
-require "date"
 require_relative "ban_list"
+require_relative "bitmap_flag"
 require_relative "legality_information"
 
+# 86,000 of these across the index. A two-member Struct fits in the smallest
+# object ruby has; the {"date" =>, "text" =>} hash this used to be needed four
+# times as much memory to say the same thing.
+Ruling = Struct.new(:date, :text)
+
 class Card
+  extend BitmapFlag
+
+  bitmap_flags(
+    :alchemy,
+    :augment,
+    :brawler,
+    :commander,
+    :front,
+    :funny,
+    :game_changer,
+    :has_alchemy,
+    :modal,
+    :partner,
+    :reserved,
+    :secondary,
+    :special_format,
+  )
+
   attr_reader :data, :printings
   attr_writer :printings # For db subset
 
   attr_reader(
-    :alchemy,
-    :augment,
-    :brawler,
-    :cmc,
     :color_identity,
     :color_indicator_colors,
     :color_indicator,
     :colors,
-    :commander,
     :decklimit,
     :defense,
     :display_mana_cost,
     :display_power,
     :display_toughness,
-    :extra,
     :foreign_names_normalized,
     :foreign_names,
     :fulltext_normalized,
     :fulltext,
-    :funny,
-    :game_changer,
     :hand,
-    :has_alchemy,
     :in_spellbook,
     :keywords,
     :layout,
@@ -39,13 +53,14 @@ class Card
     :loyalty,
     :mana_cost,
     :mana_hash,
+    :mv,
     :name,
+    :name_slug,
     :names,
     :power,
     :produces,
     :related,
     :reminder_text,
-    :reserved,
     :rulings,
     :short_name,
     :specialized,
@@ -59,8 +74,14 @@ class Card
     :types,
   )
 
+  alias cmc mv
+
+  # Set by CardDatabase initialization, cards ordered by name
+  attr_accessor :name_sort_index
+
   def initialize(name, data)
     @printings = []
+    @flags = 0
     # The name is the key the card is stored under in the index, not part of its data
     @name = name
     @stemmed_name = -@name.downcase.normalize_accents.gsub(/s\b/, "").tr("-", " ")
@@ -68,60 +89,60 @@ class Card
     @layout = data["l"]
     @colors = data["c"] || ""
     @color_identity = data["ci"]
-    @funny = data["fu"]
+    self.funny = data["fu"]
+    self.special_format = data["sf"]
     @fulltext = -(data["o"] || "")
     @fulltext_normalized = -@fulltext.normalize_accents
     @text = @fulltext
-    @text = @text.gsub(/\s*\([^\(\)]*\)/, "") unless @funny or @layout == "dungeon"
-    @text = -@text.sub(/\s*\z/, "").gsub(/ *\n/, "\n").sub(/\A\s*/, "")
+    # Parenthetical text is reminder text on ordinary cards, but on funny, special format
+    # and dungeon cards it is often the only statement of a rule that appears nowhere else -
+    # "Hidden agenda" and "(An ongoing scheme remains face up until it's abandoned.)" have no
+    # other printing to explain them.
+    if @text.include?("(") and not keep_remainder_text?
+      @text = @text.gsub(/\s*\([^\(\)]*\)/, "") unless funny? or special_format? or @layout == "dungeon"
+      @text = -@text.sub(/\s*\z/, "").gsub(/ *\n/, "\n").sub(/\A\s*/, "")
+    end
     @text_normalized = -@text.normalize_accents
-    @augment = !!(@text =~ /augment \{/i)
+    self.augment = @text =~ /augment \{/i
+    self.modal = data["md"]
     @mana_cost = data["m"]
-    @reserved = data["rs"] || false
-    @game_changer = data["gc"] || false
+    self.reserved = data["rs"]
+    self.game_changer = data["gc"]
     types = data["t"]
     subtypes = data["tb"]
     supertypes = data["tp"]
     @types = [types, subtypes, supertypes]
       .flat_map{|t| t || []}
       .map{|t| -t.downcase.tr("’\u2212", "'-").gsub("'s", "").tr(" ", "-")}
-    @cmc = data["v"] || 0
+    @mv = data["v"] || 0
     @power = data["p"] ? smart_convert_powtou(data["p"]) : nil
     @toughness = data["to"] ? smart_convert_powtou(data["to"]) : nil
     @loyalty = data["ly"] ? smart_convert_powtou(data["ly"]) : nil
     @display_power = data["dp"] ? data["dp"] : @power
     @display_toughness = data["dt"] ? data["dt"] : @toughness
     @display_mana_cost = data["hm"] ? nil : @mana_cost
-    @alchemy = data["al"]
-    @has_alchemy = data["ha"]
-    if ["vanguard", "planar", "scheme"].include?(@layout) or @types.include?("conspiracy") or @alchemy
-      @extra = true
-    else
-      @extra = false
-    end
+    self.alchemy = data["al"]
+    self.has_alchemy = data["ha"]
     @decklimit = data["dl"]
     @hand = data["hd"]
     @life = data["lf"]
-    @rulings = data["r"]&.flat_map{|date, texts| texts.map{|text| {"date" => date, "text" => text}}}
-    @secondary = data["s"]
-    @partner = data["ip"]
-    @commander = data["cm"]
-    @brawler = data["br"]
+    @rulings = data["r"]&.flat_map{|date, texts| texts.map{|text| Ruling.new(date, text)}}
+    self.secondary = data["s"]
+    self.partner = data["ip"]
+    self.commander = data["cm"]
+    self.brawler = data["br"]
     @specialized = data["sd"]
     @specializes = data["ss"]
     @spellbook = data["sb"]
     @in_spellbook = data["is"]
-    if data["f"]
-      # A single name per language is stored unwrapped
-      @foreign_names = data["f"].map{|k,v| [k.to_sym, v.is_a?(Array) ? v : [v]]}.to_h
-      raise "Foreign data with empty value for #{name}" if @foreign_names.any?{|k,v| v.empty?}
-    else
-      @foreign_names = {}
-    end
-    @foreign_names_normalized = {}
-    @foreign_names.each do |lang, names|
-      @foreign_names_normalized[lang] = names.map{|n| hard_normalize(n)}
-    end
+    # A single name per language is stored unwrapped, and stays that way -
+    # wrapping each of them in an array of its own was 488,000 arrays.
+    # Splat on use, [*names] copes with either shape.
+    @foreign_names = data["f"] ? data["f"].transform_keys(&:to_sym) : {}
+    raise "Foreign data with empty value for #{name}" if @foreign_names.any?{|_, v| [*v].empty?}
+    @foreign_names_normalized = @foreign_names.transform_values{|names|
+      names.is_a?(Array) ? names.map{|n| hard_normalize(n)} : hard_normalize(names)
+    }
     @related = data["rl"]
     @typeline = [supertypes, types].compact.flatten.join(" ")
     if subtypes
@@ -137,15 +158,20 @@ class Card
     calculate_mana_hash
     calculate_color_indicator
     calculate_reminder_text
-    @front = (!@secondary or @layout == "aftermath" or @layout == "flip" or @layout == "adventure")
+    self.front = (!secondary? or @layout == "aftermath" or @layout == "flip" or @layout == "adventure" or @layout == "prepare")
+    @name_slug = name
+      .normalize_accents
+      .gsub("'s", "s")
+      .gsub("I'm", "Im")
+      .gsub("You're", "Youre")
+      .gsub("R&D", "RnD")
+      .gsub(/[^a-zA-Z0-9\-]+/, "-")
+      .gsub(/(\A-)|(-\z)/, "")
+      .freeze
   end
 
-  def partner?
-    !!@partner
-  end
-
-  def front?
-    @front
+  def keep_remainder_text?
+    funny? or special_format? or @layout == "dungeon"
   end
 
   def back?
@@ -153,11 +179,7 @@ class Card
   end
 
   def primary?
-    !@secondary
-  end
-
-  def secondary?
-    @secondary
+    !secondary?
   end
 
   def custom?
@@ -171,13 +193,37 @@ class Card
     !!@names
   end
 
+  # Decklists group cards by type. A card with more than one type goes into the
+  # first group matching here, which is not the order the groups are displayed
+  # in - Dryad Arbor is a creature, Urza's Saga is a land, and every artifact
+  # creature is a creature.
+  TYPE_GROUPS = [
+    ["creature",     [1, "Creature"].freeze],
+    ["land",         [7, "Land"].freeze],
+    ["planeswalker", [2, "Planeswalker"].freeze],
+    ["instant",      [3, "Instant"].freeze],
+    ["sorcery",      [4, "Sorcery"].freeze],
+    ["artifact",     [5, "Artifact"].freeze],
+    ["enchantment",  [6, "Enchantment"].freeze],
+  ].freeze
+  OTHER_TYPE_GROUP = [8, "Other"].freeze
+
+  # [sort index, name] of the decklist section this card belongs to
+  def type_group
+    TYPE_GROUPS.each do |type, group|
+      return group if @types.include?(type)
+    end
+    OTHER_TYPE_GROUP
+  end
+
   def inspect
     "Card(#{name})"
   end
 
   include Comparable
+
   def <=>(other)
-    name <=> other.name
+    name_sort_index <=> other.name_sort_index
   end
 
   def to_s
@@ -186,6 +232,10 @@ class Card
 
   def legality_information(date=nil)
     LegalityInformation.new(self, date)
+  end
+
+  def default_printing
+    @printings.min_by(&:default_sort_index)
   end
 
   def first_release_date
@@ -214,44 +264,23 @@ class Card
   end
 
   def allowed_in_any_number?
-    @types.include?("basic") or (
-      @text and @text.include?("A deck can have any number of cards named")
-    )
-  end
-
-  def commander?
-    !!@commander
-  end
-
-  def brawler?
-    !!@brawler
+    @decklimit == "any"
   end
 
   def count_prints
-    @count_prints ||= printings.size
+    printings.size
   end
 
   def count_paperprints
-    @count_paperprints ||= printings.count(&:paper?)
+    printings.count(&:paper?)
   end
 
   def count_sets
-    @count_sets ||= printings.map(&:set).uniq.size
+    printings.map(&:set).uniq.size
   end
 
   def count_papersets
-    @count_papersets ||= printings.select(&:paper?).map(&:set).uniq.size
-  end
-
-  def name_slug
-    name
-      .normalize_accents
-      .gsub("'s", "s")
-      .gsub("I'm", "Im")
-      .gsub("You're", "Youre")
-      .gsub("R&D", "RnD")
-      .gsub(/[^a-zA-Z0-9\-]+/, "-")
-      .gsub(/(\A-)|(-\z)/, "")
+    printings.select(&:paper?).map(&:set).uniq.size
   end
 
   private
@@ -295,8 +324,15 @@ class Card
     -sym.downcase.tr("/{}", "").chars.sort.join
   end
 
+  # unicode_normalize already hands back a copy nobody else holds, so the
+  # accent-stripping and downcasing can happen in it rather than allocating
+  # two more. This runs for every foreign name on every card.
   def hard_normalize(s)
-    -s.unicode_normalize(:nfd).gsub(/\p{Mn}/, "").downcase
+    return -s.downcase if s.ascii_only?
+    result = s.unicode_normalize(:nfd)
+    result.gsub!(/\p{Mn}/, "")
+    result.downcase!
+    -result
   end
 
   def smart_convert_powtou(val)
@@ -312,11 +348,11 @@ class Card
       # Including uncards
       # "*" < "*²" < "1+*" < "2+*"
       # but let's not get anywhere near that
+      # PatchDisplayPowerToughness spells these N+*, never *+N, and Sorter::PT_ORDER
+      # needs an entry for each of them, so this stays a closed list
       case val
       when "*", "*²", "1+*", "2+*", "7-*", "X", "∞", "?", "1d4+1"
         val
-      when "*+1"
-        "1+*"
       else
         raise "Unrecognized value #{val.inspect}"
       end
@@ -352,11 +388,13 @@ class Card
     end
   end
 
+  BASIC_LAND_TYPES = ["forest", "island", "mountain", "plains", "swamp"].freeze
+
   def calculate_reminder_text
     @reminder_text = nil
-    basic_land_types = (["forest", "island", "mountain", "plains", "swamp"] & @types.to_a)
-      .sort.join(" ")
+    basic_land_types = BASIC_LAND_TYPES & @types
     if not basic_land_types.empty?
+      basic_land_types = basic_land_types.sort.join(" ")
       # Listing them all explicitly due to wubrg wheel order
       mana = case basic_land_types
       when "plains"

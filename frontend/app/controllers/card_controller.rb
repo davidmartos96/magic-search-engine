@@ -1,33 +1,42 @@
 class CardController < ApplicationController
   def show
-    set = params[:set]
-    number = params[:id]
-    if $CardDatabase.sets[set]
-      @card = $CardDatabase.sets[set].printings.find{|cp| cp.number == number}
-    end
+    @card = $CardDatabase.printing(params[:set], params[:id])
     if @card
       @title = @card.name
+      @legality = @card.legality_information
     else
       render_404
     end
   end
 
   def gallery
-    set = params[:set]
-    number = params[:id]
-    if $CardDatabase.sets[set]
-      @card = $CardDatabase.sets[set].printings.find{|cp| cp.number == number}
-    end
-
+    @card = $CardDatabase.printing(params[:set], params[:id])
     if @card
-      first_printing = @card.printings.first
-      if @card == first_printing
+      default_printing = @card.default_printing
+      if @card == default_printing
         @title = @card.name
         page = [1, params[:page].to_i].max
         @total_printings = @card.printings.size
         @printings = paginate_by_set(@card.printings, page)
       else
-        redirect_to set: first_printing.set_code, id: first_printing.number
+        redirect_to set: default_printing.set_code, id: default_printing.number
+      end
+    else
+      render_404
+    end
+  end
+
+  def availability
+    @card = $CardDatabase.printing(params[:set], params[:id])
+    if @card
+      default_printing = @card.default_printing
+      if @card == default_printing
+        @title = @card.name
+        @total_printings = @card.printings.size
+        @availability = $CardDatabase.availability_of_all_printings(@card)
+        @printings = group_by_set(@card.printings)
+      else
+        redirect_to set: default_printing.set_code, id: default_printing.number
       end
     else
       render_404
@@ -53,14 +62,6 @@ class CardController < ApplicationController
       return
     end
 
-    # Temporary issue with bots
-    # (user agents are on every request's METRICS line now, see RequestMetrics)
-    if request.headers['HTTP_USER_AGENT'] =~ /MJ12bot|PetalBot|Bytespider/ and params[:page]
-      render_403
-      return
-    end
-    # End of temporary bot code
-
     @title = @search
     query = Query.new(@search, params[:random_seed])
     @seed = query.seed
@@ -77,36 +78,39 @@ class CardController < ApplicationController
     # card_groups regroups on every call, so keep the one we've got
     card_groups = results.card_groups
     metric :results, card_groups.size
-    @cards = card_groups.map do |printings|
-      choose_best_printing(printings)
-    end
 
     view_mode = query.view || cookies["default_view"] || "default"
 
     case view_mode
     when "full"
       # force detailed view
-      @cards = @cards.paginate(page: page, per_page: 10)
+      @cards = paginate_card_groups(card_groups, page, 10)
       render "index_full"
     when "images"
-      @cards = @cards.paginate(page: page, per_page: 60)
+      @cards = paginate_card_groups(card_groups, page, 60)
       render "index_images"
     when "text"
-      @cards = @cards.paginate(page: page, per_page: 60)
+      @cards = paginate_card_groups(card_groups, page, 60)
       render "index_text"
     when "checklist"
-      @cards = @cards.paginate(page: page, per_page: 500)
+      @cards = paginate_card_groups(card_groups, page, 500)
       render "index_checklist"
     else
       # default view
-      @cards = @cards.paginate(page: page, per_page: 25)
+      @cards = paginate_card_groups(card_groups, page, 25)
     end
   end
 
   private
 
-  def choose_best_printing(printings)
-    best_printing = printings.find(&:image_path) || printings[0]
-    [best_printing, printings]
+  # Only the groups on this page ever get rendered, so pick the best printing
+  # after slicing rather than before. "sort:newall" groups ~36k cards, and
+  # mapping all of them to throw away all but 25 was most of the time this
+  # action spent outside the search itself.
+  def paginate_card_groups(card_groups, page, per_page)
+    WillPaginate::Collection.create(page, per_page, card_groups.size) do |pager|
+      window = card_groups[pager.offset, pager.per_page] || []
+      pager.replace(window.map{|printings| [SearchResults.best_printing(printings), printings]})
+    end
   end
 end

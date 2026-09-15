@@ -260,6 +260,27 @@ form.search {
   perspective: 1000px;
   z-index: 0;
 
+  /* Find-in-page only matches text the browser paints, so the name is hidden
+   * by painting it transparent - display: none, visibility: hidden, clipping
+   * and zero font sizes all take it out of find-in-page as well. It sits over
+   * the card's own title bar, above the pictures, so the browser's match
+   * highlight lands on the card rather than behind it. A pathologically long
+   * name simply wraps and spills out of the card, which costs nothing when the
+   * text is transparent and takes no clicks.
+   */
+  .searchable_card_name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 7% 8% 0 8%;
+    font-size: 14px;
+    line-height: 1.1;
+    color: transparent;
+    pointer-events: none;
+  }
+
   .foil_layer {
     position: absolute;
     top: 0;
@@ -419,11 +440,21 @@ form.search {
 h3 .manacost {
   font-size: 19.6px;
 }
+// Upstream sizes the loyalty and defense badges at 1.5em but leaves saga at 1em,
+// which makes the chapter numerals unreadable next to the rest of the oracle text.
+.mana-saga {
+  font-size: 1.5em;
+  + .mana-saga {
+    margin-left: 0.1em;
+  }
+}
 @media (prefers-color-scheme: dark) {
   .mana-loyalty-up,
   .mana-loyalty-down,
   .mana-loyalty-zero,
-  .mana-loyalty-start {
+  .mana-loyalty-start,
+  .mana-defense,
+  .mana-saga {
     color: #505050;
   }
 }
@@ -436,6 +467,9 @@ h3 .manacost {
   header {
     padding-bottom: 4px;
     border-bottom: 1px solid black;
+    @media (prefers-color-scheme: dark) {
+      border-bottom-color: #dedad6;
+    }
     display: flex;
     justify-content: space-between;
   }
@@ -555,4 +589,28 @@ label {
 textarea.fixed {
   width: 100%;
   font-size: 0.9rem;
+}
+
+#deck_export_preview {
+  width: 100%;
+  font-family: monospace;
+  font-size: 0.8rem;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: black;
+    color: #dedad6;
+  }
+}
+.deck_export_format {
+  small {
+    display: block;
+    margin-left: 1.4em;
+    color: #6c757d;
+  }
+  + .deck_export_format {
+    margin-top: 0.2em;
+  }
+}
+.deck_export_warnings {
+  margin-top: 0.5em;
 }

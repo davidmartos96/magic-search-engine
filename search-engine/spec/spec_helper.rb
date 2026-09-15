@@ -3,11 +3,14 @@ if ENV["COVERAGE"]
   SimpleCov.start
 end
 
+# Every external library the specs use is required here, the same way lib/
+# requires everything it needs from card_database.
+require "pry"
+require "stringio"
 require_relative "../lib/card_database"
 require_relative "../lib/cli_frontend"
-require_relative "../lib/sealed"
 require_relative "../lib/mtgo_redemption"
-require "pry"
+require_relative "../lib/sealed"
 
 RSpec.configure do |config|
   config.expect_with(:rspec) do |c|
@@ -384,13 +387,13 @@ shared_context "db" do |*sets|
   def physical_card(query, foil=false)
     card_printings = db.search(query).printings
     raise "No card matching #{query.inspect}" if card_printings.empty?
-    PhysicalCard.for(card_printings[0], foil)
+    PhysicalCard.for(card_printings[0], foil: foil)
   end
 
   def physical_cards(query, foil=false)
     card_printings = db.search(query).printings
     raise "No card matching #{query.inspect}" if card_printings.empty?
-    card_printings.map{|c| PhysicalCard.for(c, foil) }.uniq
+    card_printings.map{|c| PhysicalCard.for(c, foil: foil) }.uniq
   end
 end
 

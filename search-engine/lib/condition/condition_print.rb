@@ -15,9 +15,9 @@ class ConditionPrint < Condition
     query_date, precision = parse_query_date(db)
     if query_date
       max_date = db.resolve_time(@time)
-      candidates.select{|card| match_date?(get_date(card, max_date), query_date, precision)}.to_set
+      candidates.select{|card| match_date?(get_date(card, max_date), query_date, precision)}
     else
-      candidates.to_set
+      candidates
     end
   end
 
@@ -45,6 +45,7 @@ class ConditionPrint < Condition
   def parse_query_date(db)
     date = @date
     return [@date, 3] if @date.is_a?(Date)
+    return [Date.today, 3] if date.downcase == "now" or date.downcase == "today"
 
     set = db.sets.values.find{|set|
       set.code.downcase == @date.downcase or set.alternative_code&.downcase == @date.downcase
@@ -61,7 +62,9 @@ class ConditionPrint < Condition
       if date =~ /\A\d{4}\z/
         date = Date.parse("#{date}-01-01")
         [date.year, 1]
-      elsif date =~ /\A\d{4}-\d{1,2}\z/
+      # The month has to be checked before parsing, as this is already the
+      # rescue clause - Date.parse("2012-13-01") would raise out of here
+      elsif date =~ /\A\d{4}-(\d{1,2})\z/ and (1..12).cover?($1.to_i)
         date = Date.parse("#{date}-01")
         [date.year*12 + date.month, 2]
       else

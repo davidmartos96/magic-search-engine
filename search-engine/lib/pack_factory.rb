@@ -1,8 +1,39 @@
+# One of these per booster, built while the index loads and thrown away once
+# the pack is. The database is still needed - CardSheetFactory runs queries
+# against it, and a sheet can be built out of another set's deck - but
+# everything about *this* booster is passed in.
 class PackFactory
-  def initialize(db)
+  def initialize(db, set, variant, data)
     @db = db
-    @sheet_factory = CardSheetFactory.new(@db)
+    @set = set
+    @data = data
+    @code = [set.code, variant].compact.join("-")
+    @sheet_factory = CardSheetFactory.new(db)
   end
+
+  def build_pack
+    sheets = @data["sheets"].to_h{|sheet_name, sheet_data|
+      [sheet_name, build_top_level_sheet(sheet_name, sheet_data)]
+    }
+    subpacks = @data["pack"].map{|subpack_data, chance|
+      [build_simple_pack(subpack_data, sheets), chance]
+    }
+    pack = subpacks.size == 1 ? subpacks[0][0] : WeightedPack.new(subpacks.to_h)
+
+    pack.set = @set
+    pack.code = @code
+    pack.name = @data["name"]&.gsub("{set_name}", @set.name) || @code
+    pack.languages = @data["languages"] || @set.languages
+    # Sanity check against mtgjson - a booster can be printed in fewer languages
+    # than its set, never in more. Report only, as mtgjson set data changes too.
+    extra_languages = pack.languages - @set.languages
+    unless extra_languages.empty?
+      warn "#{@code}: languages #{extra_languages.join(", ")} not printed for set #{@set.code} (#{@set.languages.join(", ")})"
+    end
+    pack
+  end
+
+  private
 
   def raise_sheet_error(message)
     raise "Error building #{@sheet_full_name}: #{message}"
@@ -27,31 +58,47 @@ class PackFactory
     result
   end
 
-  def build_sheet_from_deck(deck_code, foil: false, count: nil)
+  def build_sheet_from_deck(deck_code, finish: :nonfoil, count: nil)
     set_code, deck_name = deck_code.split("/", 2)
     set = @db.sets[set_code]
     raise_sheet_error "Cannot resolve deck #{deck_code}, no set #{set_code} found" unless set
     deck = set.decks.find{|d| d.name == deck_name}
     raise_sheet_error "Cannot resolve deck #{deck_code}, no deck with such name found for #{set_code}" unless deck
-    deck_cards = deck.all_cards.select{|k,v| v.foil == foil}
+    deck_cards = deck.all_cards.select{|k,v| v.finish == finish}
     if count
       actual_count = deck_cards.map(&:first).sum
       unless actual_count == count
-        warn "Expected deck #{deck_code} to return #{count} with foil: #{foil}, got #{actual_count}"
+        warn "Expected deck #{deck_code} to return #{count} with finish: #{finish}, got #{actual_count}"
       end
     end
     FixedCardSheet.new(deck_cards.map(&:last), deck_cards.map(&:first))
   end
 
-  def build_sheet(data)
+  # Sheets name their finish as `foil` and `etched` flags, the way the sealed
+  # data does, but everything below here wants the one value PhysicalCard
+  # stores. `inherited_finish` is what an `any` subsheet gets when it does not
+  # name a finish of its own.
+  def read_finish(data, inherited_finish)
+    return inherited_finish unless data.has_key?("foil") or data.has_key?("etched")
+    etched = data.delete("etched")
+    foil = data.delete("foil")
+    # etched is a kind of foiling, so the `foil: true` next to it is redundant
+    # rather than contradictory, same as in PhysicalCard.for
+    if etched
+      :etched
+    elsif foil
+      :foil
+    else
+      :nonfoil
+    end
+  end
+
+  def build_sheet(data, inherited_finish=:nonfoil)
     data = data.dup
-    foil = false
     balanced = false
     fixed = false
 
-    # etched flag isn't propagated anywhere yet
-    data.delete("etched") if data.has_key?("etched")
-    foil = data.delete("foil") if data.has_key?("foil")
+    finish = read_finish(data, inherited_finish)
     balanced = data.delete("balanced") if data.has_key?("balanced")
     duplicates = data.delete("duplicates") if data.has_key?("duplicates")
     count = data.delete("count") if data.has_key?("count")
@@ -73,19 +120,19 @@ class PackFactory
     when ["code"]
       raise_sheet_error "No balanced support for code" if balanced
       parts = data["code"].split("/", 2)
-      @sheet_factory.explicit_sheet(parts[0], parts[1], foil: foil, count: count, kind: kind)
+      @sheet_factory.explicit_sheet(parts[0], parts[1], finish: finish, count: count, kind: kind)
     when ["query"]
-      @sheet_factory.from_query(data["query"], count, foil: foil, kind: kind)
+      @sheet_factory.from_query(data["query"], count, finish: finish, kind: kind)
     when ["any"]
       subsheets = data["any"].map(&:dup)
       if subsheets.all?{|s| s["rate"]}
         rates = subsheets.map{|d| d.delete("rate")}
-        sheets = subsheets.map{|d| build_sheet({"foil" => foil}.merge(d)) }
+        sheets = subsheets.map{|d| build_sheet(d, finish) }
         chances = rates.zip(sheets).map{|r,s| r*s.elements.size}
         build_sheet_from_subsheets(sheets, chances, kind: kind, count: count)
       elsif subsheets.all?{|s| s["chance"]}
         chances = subsheets.map{|d| d.delete("chance")}
-        sheets = subsheets.map{|d| build_sheet({"foil" => foil}.merge(d)) }
+        sheets = subsheets.map{|d| build_sheet(d, finish) }
         build_sheet_from_subsheets(sheets, chances, kind: kind, count: count)
       else
         raise_sheet_error "Incorrect subsheet data for any"
@@ -93,14 +140,14 @@ class PackFactory
     when ["deck"]
       raise_sheet_error "No balanced support for code" if balanced
       raise_sheet_error "No duplicates support for code" if duplicates
-      build_sheet_from_deck(data["deck"], foil: foil, count: count)
+      build_sheet_from_deck(data["deck"], finish: finish, count: count)
     else
       raise_sheet_error "Unknown sheet type #{data.keys.join(", ")}"
     end
   end
 
-  def build_top_level_sheet(set_code, sheet_name, data)
-    @sheet_full_name = "#{set_code}/#{sheet_name}"
+  def build_top_level_sheet(sheet_name, data)
+    @sheet_full_name = "#{@set.code}/#{sheet_name}"
     sheet = build_sheet(data)
     sheet.name = sheet_name
     sheet
@@ -113,41 +160,5 @@ class PackFactory
       sheet = sheets[name] or raise "Can't build sheet #{name}"
       [sheet, count]
     }.to_h)
-  end
-
-  def for(set_code, variant=nil)
-    variant = nil if variant == "default"
-    set = @db.resolve_edition(set_code)
-    raise "Invalid set code #{set_code}" unless set
-    set_code = set.code # Normalize
-    booster_code = [set_code, variant].compact.join("-")
-    data = @db.booster_data[booster_code]
-
-    return nil unless data
-
-    sheets = data["sheets"].map{|sheet_name, sheet_data|
-      [sheet_name, build_top_level_sheet(set_code, sheet_name, sheet_data)]
-    }.to_h
-    subpacks = data["pack"].map{|subpack_data, chance|
-      subpack = build_simple_pack(subpack_data, sheets)
-      [subpack, chance]
-    }
-    if subpacks.size == 1
-      pack = subpacks[0][0]
-    else
-      pack = WeightedPack.new(subpacks.to_h)
-    end
-
-    pack.set = set
-    pack.code = booster_code
-    pack.name = data["name"]&.gsub("{set_name}", set.name) || booster_code
-    pack.languages = data["languages"] || set.languages
-    # Sanity check against mtgjson - a booster can be printed in fewer languages
-    # than its set, never in more. Report only, as mtgjson set data changes too.
-    extra_languages = pack.languages - set.languages
-    unless extra_languages.empty?
-      warn "#{booster_code}: languages #{extra_languages.join(", ")} not printed for set #{set_code} (#{set.languages.join(", ")})"
-    end
-    pack
   end
 end

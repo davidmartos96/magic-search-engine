@@ -45,46 +45,7 @@ describe "Banlist" do
     # These were separate announcements
     assert_banlist_changes "July 2018",
       "legacy banned", "Deathrite Shaman",
-      "legacy banned", "Gitaxian Probe",
-      "mtgo commander unbanned", "Ancient Tomb",
-      "mtgo commander unbanned", "Brainstorm",
-      "mtgo commander unbanned", "Chrome Mox",
-      "mtgo commander unbanned", "Demonic Tutor",
-      "mtgo commander unbanned", "Dig Through Time",
-      "mtgo commander unbanned", "Enlightened Tutor",
-      "mtgo commander unbanned", "Entomb",
-      "mtgo commander unbanned", "Gaea's Cradle",
-      "mtgo commander unbanned", "Imperial Seal",
-      "mtgo commander unbanned", "Mana Crypt",
-      "mtgo commander unbanned", "Mana Drain",
-      "mtgo commander unbanned", "Mana Vault",
-      "mtgo commander unbanned", "Mox Diamond",
-      "mtgo commander unbanned", "Mystical Tutor",
-      "mtgo commander unbanned", "Necropotence",
-      "mtgo commander unbanned", "Ponder",
-      "mtgo commander unbanned", "Preordain",
-      "mtgo commander unbanned", "Sol Ring",
-      "mtgo commander unbanned", "Sylvan Tutor",
-      "mtgo commander unbanned", "Treachery",
-      "mtgo commander unbanned", "Treasure Cruise",
-      "mtgo commander unbanned", "Vampiric Tutor",
-      "mtgo commander unbanned", "Vial Smasher the Fierce",
-      "mtgo commander unbanned", "Worldly Tutor",
-      "mtgo commander unbanned", "Yawgmoth's Bargain"
-
-    assert_banlist_changes "April 2018",
-      "mtgo commander banned", "Edgar Markov",
-      "mtgo commander banned", "Chrome Mox",
-      "mtgo commander banned", "Ancient Tomb",
-      "mtgo commander banned", "Mox Diamond",
-      "mtgo commander banned", "Winter Orb",
-      "mtgo commander banned", "Sylvan Library",
-      "mtgo commander banned", "Worldly Tutor",
-      "mtgo commander banned", "Sylvan Tutor",
-      "mtgo commander unbanned", "Protean Hulk",
-      "mtgo commander unbanned", "Mishra's Workshop",
-      "mtgo commander unbanned", "Bazaar of Baghdad",
-      "mtgo commander unbanned", "Griselbrand"
+      "legacy banned", "Gitaxian Probe"
 
     assert_banlist_changes "January 2018",
       "standard banned", "Attune with Aether",
@@ -101,17 +62,6 @@ describe "Banlist" do
     assert_banlist_changes "November 2017",
       "duel commander banned", "Fastbond"
 
-    assert_banlist_changes "October 2017",
-      "mtgo commander banned", "Baral, Chief of Compliance",
-      "mtgo commander banned", "Demonic Tutor",
-      "mtgo commander banned", "Emrakul, the Aeons Torn",
-      "mtgo commander banned", "Enlightened Tutor",
-      "mtgo commander banned", "Imperial Seal",
-      "mtgo commander banned", "Mystical Tutor",
-      "mtgo commander banned", "Vampiric Tutor",
-      "mtgo commander unbanned", "Arcum Dagsson",
-      "mtgo commander unbanned", "Yisan, the Wanderer Bard"
-
     assert_banlist_changes "September 2017",
       "duel commander banned-as-commander", "Edgar Markov",
       "duel commander banned", "Fireblast",
@@ -125,15 +75,6 @@ describe "Banlist" do
       "vintage unrestricted", "Yawgmoth's Bargain"
 
     assert_banlist_changes "July 2017",
-      "mtgo commander banned", "Vial Smasher the Fierce",
-      "mtgo commander banned", "Ponder",
-      "mtgo commander banned", "Preordain",
-      "mtgo commander banned", "Brainstorm",
-      "mtgo commander banned", "Treachery",
-      "mtgo commander unbanned", "Biorhythm",
-      "mtgo commander unbanned", "Limited Resources",
-      "mtgo commander unbanned", "Painter's Servant",
-      "mtgo commander unbanned", "Trade Secrets",
       "duel commander banned-as-commander", "Geist of Saint Traft",
       "duel commander banned-as-commander", "Jace, Vryn's Prodigy",
       "duel commander banned-as-commander", "Bruse Tarl, Boorish Herder",
@@ -145,11 +86,6 @@ describe "Banlist" do
 
     assert_banlist_changes "June 2017",
       "standard banned", "Aetherworks Marvel"
-
-    assert_banlist_changes "May 2017",
-      "mtgo commander banned", "Dig Through Time",
-      "mtgo commander banned", "Strip Mine",
-      "mtgo commander banned", "Treasure Cruise"
 
     assert_banlist_changes "April 2017",
       "legacy banned", "Sensei's Divining Top",
@@ -176,13 +112,23 @@ describe "Banlist" do
     assert_banlist_changes "January 2016",
       "modern banned", "Splinter Twin",
       "modern banned", "Summer Bloom",
-      "pauper banned", "Cloud of Faeries"
+      "pauper banned", "Cloud of Faeries",
+      "duel commander unbanned", "Cataclysm"
 
     assert_banlist_changes "April 2016",
       "modern banned", "Eye of Ugin",
       "modern unbanned", "Ancestral Vision",
       "modern unbanned", "Sword of the Meek",
-      "vintage restricted", "Lodestone Golem"
+      "vintage restricted", "Lodestone Golem",
+      "duel commander banned", "Gaea's Cradle",
+      "duel commander banned-as-commander", "Tasigur, the Golden Fang",
+      "duel commander banned-as-commander", "Yisan, the Wanderer Bard"
+
+    assert_banlist_changes "July 2016",
+      "duel commander banned", "Dig Through Time",
+      "duel commander banned", "Necrotic Ooze",
+      "duel commander banned", "Treasure Cruise",
+      "duel commander banned-as-commander", "Marath, Will of the Wild"
 
     assert_banlist_changes "November 2016",
       "pauper banned", "Peregrine Drake",
@@ -198,10 +144,21 @@ describe "Banlist" do
       "legacy banned",  "Dig Through Time",
       "legacy unbanned", "Black Vise",
       "vintage restricted", "Chalice of the Void",
-      "vintage unrestricted", "Thirst for Knowledge"
+      "vintage unrestricted", "Thirst for Knowledge",
+      "duel commander banned", "Sensei's Divining Top"
+
+    assert_banlist_changes "July 2015",
+      "duel commander banned", "Mystical Tutor"
 
     assert_banlist_changes "March 2015",
-      "pauper banned", "Treasure Cruise"
+      "pauper banned", "Treasure Cruise",
+      "duel commander banned", "Entomb",
+      "duel commander banned", "Fastbond",
+      "duel commander banned", "Food Chain",
+      "duel commander unbanned-as-commander", "Braids, Cabal Minion",
+      "duel commander unbanned", "Crucible of Worlds",
+      "duel commander unbanned", "Sensei's Divining Top",
+      "duel commander unbanned", "Winter Orb"
 
     assert_banlist_changes "January 2015",
       "modern banned", "Dig Through Time",
@@ -214,20 +171,52 @@ describe "Banlist" do
   end
 
   it "banlist_2014" do
+    assert_banlist_changes "July 2014",
+      "duel commander banned", "Cataclysm",
+      "duel commander banned-as-commander", "Oloro, Ageless Ascetic"
+
     assert_banlist_changes "February 2014",
       "modern banned", "Deathrite Shaman",
       "modern unbanned", "Wild Nacatl",
-      "modern unbanned", "Bitterblossom"
+      "modern unbanned", "Bitterblossom",
+      "duel commander banned", "Grim Monolith",
+      "duel commander banned", "Natural Order",
+      "duel commander banned", "Oath of Druids",
+      "duel commander unbanned", "Vanishing",
+      "duel commander banned-as-commander", "Derevi, Empyrial Tactician",
+      "duel commander banned-as-commander", "Zur the Enchanter"
+  end
+
+  it "banlist_2012" do
+    # Both applied on the 1st of the following month
+    assert_banlist_changes "September 2012",
+      "duel commander banned", "Ancient Tomb",
+      "duel commander unbanned", "Fastbond",
+      "duel commander banned-as-commander", "Edric, Spymaster of Trest"
+
+    assert_banlist_changes "June 2012",
+      "duel commander unbanned", "Intuition",
+      "duel commander unbanned", "Recurring Nightmare"
   end
 
   it "banlist_2013" do
     assert_banlist_changes "September 2013",
       "pauper banned", "Cloudpost",
-      "pauper banned", "Temporal Fissure"
+      "pauper banned", "Temporal Fissure",
+      "duel commander banned", "Loyal Retainers"
+
+    assert_banlist_changes "July 2013",
+      "duel commander banned", "Protean Hulk",
+      "duel commander banned", "Winter Orb"
 
     assert_banlist_changes "May 2013",
       "modern banned", "Second Sunrise",
-      "vintage unrestricted", "Regrowth"
+      "vintage unrestricted", "Regrowth",
+      "duel commander banned", "Humility",
+      "duel commander banned", "Vanishing",
+      "duel commander unbanned", "Bitterblossom",
+      "duel commander unbanned", "Protean Hulk",
+      "duel commander unbanned", "Staff of Domination"
 
     assert_banlist_changes "January 2013",
       "modern banned", "Bloodbraid Elf",
@@ -400,8 +389,7 @@ describe "Banlist" do
       "legacy banned", "Imperial Seal",
       "vintage restricted", "Imperial Seal",
       "vintage restricted", "Personal Tutor",
-      "vintage unrestricted", "Mind Over Matter",
-      "two-headed giant banned", "Erayo, Soratami Ascendant"
+      "vintage unrestricted", "Mind Over Matter"
   end
 
   it "banlist_2004" do
@@ -646,10 +634,17 @@ describe "Banlist" do
   end
 
   it "banlist_1994" do
+    # Divine Intervention, Maze of Ith, Mirror Universe, Mishra's Workshop, Sword of the
+    # Ages, Underworld Dreams and Zuran Orb are all on the DCI's Type I lists in the
+    # January 1, 1997 Universal Tournament Rules, but nothing records when they were added,
+    # so they sit in the initial list - which is why they show up here even though several
+    # of them postdate January 1994. Nothing user-visible comes of that: Format#legality
+    # returns nil for a card with no printing yet.
     assert_full_banlist "vintage", "January 1, 1994", [
       "Contract from Below",
       "Darkpact",
       "Demonic Attorney",
+      "Divine Intervention",
       "Jeweled Bird",
       "Bronze Tablet", # all ante cards are banned in advance
       "Amulet of Quoz",
@@ -668,6 +663,9 @@ describe "Banlist" do
       "Dingus Egg",
       "Gauntlet of Might",
       "Icy Manipulator",
+      "Maze of Ith",
+      "Mirror Universe",
+      "Mishra's Workshop",
       "Mox Pearl",
       "Mox Emerald",
       "Mox Ruby",
@@ -676,9 +674,12 @@ describe "Banlist" do
       "Orcish Oriflamme",
       "Rukh Egg",
       "Sol Ring",
+      "Sword of the Ages",
       "Timetwister",
       "Time Vault",
       "Time Walk",
+      "Underworld Dreams",
+      "Zuran Orb",
     ]
 
     assert_banlist_changes "May 1994",
@@ -815,99 +816,15 @@ describe "Banlist" do
     ]
   end
 
-  it "MTGO commander now" do
-    assert_full_banlist "mtgo commander", "4 May 2017", [
-      "Black Lotus",
-      "Channel",
-      "Fastbond",
-      "Gaea's Cradle",
-      "Mana Crypt",
-      "Mana Vault",
-      "Mishra's Workshop",
-      "Mox Emerald",
-      "Mox Jet",
-      "Mox Pearl",
-      "Mox Ruby",
-      "Mox Sapphire",
-      "Sol Ring",
-      "Tolarian Academy",
-      "Bazaar of Baghdad",
-      "Doomsday",
-      "Entomb",
-      "Food Chain",
-      "Gifts Ungiven",
-      "Hermit Druid",
-      "Protean Hulk",
-      "Survival of the Fittest",
-      "Time Vault",
-      "Tinker",
-      "Yawgmoth's Bargain",
-      "Arcum Dagsson",
-      "Braids, Cabal Minion",
-      "Derevi, Empyrial Tactician",
-      "Edric, Spymaster of Trest",
-      "Erayo, Soratami Ascendant",
-      "Erayo's Essence",
-      "Griselbrand",
-      "Rofellos, Llanowar Emissary",
-      "Yisan, the Wanderer Bard",
-      "Zur the Enchanter",
-      "Ancestral Recall",
-      "Back to Basics",
-      "Balance",
-      "Humility",
-      "Karakas",
-      "Library of Alexandria",
-      "Mana Drain",
-      "Mind Twist",
-      "Moat",
-      "Natural Order",
-      "Necropotence",
-      "Oath of Druids",
-      "Serra Ascendant",
-      "The Tabernacle at Pendrell Vale",
-      "Time Walk",
-      "Biorhythm",
-      "Limited Resources",
-      "Painter's Servant",
-      "Sensei's Divining Top",
-      "Trade Secrets",
-      "Amulet of Quoz",
-      "Bronze Tablet",
-      "Chaos Orb",
-      "Contract from Below",
-      "Darkpact",
-      "Demonic Attorney",
-      "Falling Star",
-      "Jeweled Bird",
-      "Rebirth",
-      "Shahrazad",
-      "Tempest Efreet",
-      "Timmerian Fiends",
-    ]
-  end
-
-  it "two_headed_giant_banlist_now" do
-    assert_full_banlist "two-headed giant", "1 October 2015", [
-      "Erayo, Soratami Ascendant",
-    ]
-  end
-
   it "ban_events_for" do
-    BanList["mtgo commander"].events.should include(
+    BanList["commander"].events.should include(
       [
-        Date.parse("2017-10-11"),
-        "http://wizardsmtgo.tumblr.com/post/166220048834/mtgo-commander-1v1-banned-announcement",
+        Date.parse("2017-04-24"),
+        "http://mtgcommander.net/Forum/viewtopic.php?f=1&t=18588",
+        nil,
         [
-          {:name=>"Arcum Dagsson", :old=>"banned", :new=>"legal"},
-           {:name=>"Yisan, the Wanderer Bard", :old=>"banned", :new=>"legal"},
-           {:name=>"Baral, Chief of Compliance", :old=>"legal", :new=>"banned"},
-           {:name=>"Demonic Tutor", :old=>"legal", :new=>"banned"},
-           {:name=>"Emrakul, the Aeons Torn", :old=>"legal", :new=>"banned"},
-           {:name=>"Enlightened Tutor", :old=>"legal", :new=>"banned"},
-           {:name=>"Imperial Seal", :old=>"legal", :new=>"banned"},
-           {:name=>"Mystical Tutor", :old=>"legal", :new=>"banned"},
-           {:name=>"Vampiric Tutor", :old=>"legal", :new=>"banned"},
+          {:name=>"Protean Hulk", :old=>"banned", :new=>"legal"},
+          {:name=>"Leovold, Emissary of Trest", :old=>"legal", :new=>"banned"},
         ]
       ]
     )
@@ -928,12 +845,54 @@ describe "Banlist" do
 
   it "all ban events have correctly named cards" do
     Format.all_format_classes.each do |format_class|
-      format_class.new.ban_events.each do |_, _, cards|
+      format_class.new.ban_events.each do |_, _, _, cards|
         cards.each do |card|
           name = card[:name]
           db.has_card_named?(name).should eq(true), "Card named `#{name}' in banlist for #{format_class} is a typo"
         end
       end
+    end
+  end
+
+  # Timeless and any other digital-only format go here too once they get a ban list
+  ArenaFormats = ["alchemy", "historic"]
+
+  # Reports every event in the listed formats where the card wasn't out yet,
+  # the block saying what counts as released.
+  def check_ban_events_after_release(formats)
+    cards_by_name = db.cards.values.map{|card| [card.name, card]}.to_h
+    problems = BanList.all_ban_lists.flat_map do |ban_list|
+      next [] unless formats.include?(ban_list.format)
+      ban_list.changes.flat_map do |event|
+        # format_start is dated BanList::START, before any card was printed
+        next [] if event[:date] == BanList::START
+        event[:changes].keys.filter_map do |card_name|
+          card = cards_by_name[card_name]
+          next unless card
+          release_date = yield(card)
+          if release_date.nil?
+            "#{ban_list.format} #{event[:date]}: #{card_name} was never printed"
+          elsif release_date > event[:date]
+            "#{ban_list.format} #{event[:date]}: #{card_name} wasn't printed until #{release_date}"
+          end
+        end
+      end
+    end
+    problems.should eq([])
+  end
+
+  # We track when a change took effect, not when it was announced, so a preemptive ban
+  # belongs on the day the card became available, not on the day it was announced.
+  it "no ban events before the card was printed" do
+    # Arena formats get the stricter check below, no need to report their cards twice
+    check_ban_events_after_release(BanList.all_ban_lists.map(&:format) - ArenaFormats) do |card|
+      card.first_release_date
+    end
+  end
+
+  it "no ban events for Arena formats before the card was printed on Arena" do
+    check_ban_events_after_release(ArenaFormats) do |card|
+      card.printings.select(&:arena?).map(&:release_date).compact.min
     end
   end
 end
