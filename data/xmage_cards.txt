@@ -31902,14 +31902,22 @@ fra	Ajani Resolute	195
 fra	Ajani Resolute	291
 fra	Ajani Unrelenting	242
 fra	Ajani Unrelenting	308
+fra	Ajani's Anguish	367
+fra	Ajani's Anguish	72
+fra	Apex Witchstalker	48
 fra	Arcane Amphisbaena	97
+fra	Archive Arbiter	167
+fra	Artifist Acumen	73
 fra	Avatar of Burgeoning Echoes	122
 fra	Avatar of Burgeoning Echoes	348
 fra	Bestial Incursion	98
 fra	Blazing Crescendo	75
+fra	Blessed Ghoul	123
 fra	Bloodline Recollector	402
 fra	Bloodline Recollector	427
 fra	Bloodline Recollector	49
+fra	Bloombrute	124
+fra	Blossom-Blessed Angel	3
 fra	Budding Insurgent	99
 fra	Campus Crier	4
 fra	Carnivorous Cultivator	437
@@ -31922,10 +31930,14 @@ fra	Chandra, Torch of Defiance	309
 fra	Charge the Sanctum	125
 fra	Compel Brutality	101
 fra	Countersculpt	25
+fra	Craftwork Crusher	127
 fra	Craterclaw Colossus	327
 fra	Craterclaw Colossus	446
 fra	Craterclaw Colossus	455
 fra	Craterclaw Colossus	78
+fra	Curse-Marred Demon	328
+fra	Curse-Marred Demon	456
+fra	Curse-Marred Demon	79
 fra	Danitha, Spear of Agony	227
 fra	Danitha, Sword of Hope	196
 fra	Darklight Phoenix	325
@@ -31941,19 +31953,34 @@ fra	Deserted Beach	176
 fra	Deserted Beach	397
 fra	Diviner of Victory	28
 fra	Diviner of Victory	425
+fra	Divining Duelist	29
 fra	Eardrum Rattler	81
 fra	Edgar, Ancient Bloodlord	270
 fra	Edgar, Moonlit Sovereign	257
 fra	Emergency Phytomedic	130
+fra	Entrust the Spark	131
+fra	Entrust the Spark	350
+fra	Essence Burn	369
+fra	Essence Burn	82
+fra	Extended Absence	54
 fra	Fatehold Annex	177
 fra	Fatehold Charm	132
 fra	Fatehold Charm	432
 fra	Fatehold Chronologist	133
+fra	Flickering Hound	359
+fra	Flickering Hound	7
+fra	Forest	289
+fra	Forest	290
 fra	Forest	394
 fra	Forest	395
 fra	Forest	396
 fra	Formidable Commons	178
+fra	Frostbite Pyromental	135
+fra	Frostbite Pyromental	333
+fra	Frostbite Pyromental	461
+fra	Fulminous Forte	84
 fra	Gallia, Tragic Host	228
+fra	Gallia, the Merrymaker	245
 fra	Garruk, Curse Breaker	259
 fra	Garruk, Curse Breaker	314
 fra	Garruk, Veiled Butcher	229
@@ -31961,14 +31988,19 @@ fra	Garruk, Veiled Butcher	303
 fra	Geist of Saint Thalia	214
 fra	Geist of Saint Thalia	299
 fra	Generous Revival	8
+fra	Germinate Recruits	334
+fra	Germinate Recruits	9
 fra	Ghalta the Immovable	197
 fra	Ghalta the Unstoppable	260
 fra	Gideon's Memorial	198
 fra	Gideon's Memorial	292
+fra	Graft Surgeon	10
 fra	Greenhouse Propagator	104
 fra	Hallway Heckler	85
 fra	Haunted Ridge	180
 fra	Haunted Ridge	398
+fra	Heartstring Puller	86
+fra	Hexhaven Battalion	12
 fra	Hexhaven Invigorator	106
 fra	Hexhaven Invigorator	330
 fra	Hexhaven Invigorator	458
@@ -31979,6 +32011,8 @@ fra	Ingris Stingerquill	409
 fra	Ingris Stingerquill	419
 fra	Innovative Commons	182
 fra	Inspired Tethermage	109
+fra	Island	283
+fra	Island	284
 fra	Island	385
 fra	Island	386
 fra	Island	387
@@ -31992,6 +32026,9 @@ fra	Kiora of Fire and Ashes	247
 fra	Konstrari Annex	183
 fra	Konstrari Charm	138
 fra	Konstrari Charm	433
+fra	Konstrari Improviser	139
+fra	Koth of the Homestead	199
+fra	Koth, the Geomancer	248
 fra	Kwia Vigorbloom	140
 fra	Kwia Vigorbloom	352
 fra	Kwia Vigorbloom	410
@@ -32014,9 +32051,12 @@ fra	Mabel, Valley Hero	274
 fra	Memory Trap	15
 fra	Meticulous Commons	184
 fra	Mindseeker Oculus	33
+fra	Mountain	287
+fra	Mountain	288
 fra	Mountain	391
 fra	Mountain	392
 fra	Mountain	393
+fra	Multiply by Zero	58
 fra	Murmuring Volume	174
 fra	No Admittance	89
 fra	Overgrown Farmland	185
@@ -32027,17 +32067,28 @@ fra	Overwrite the Multiverse	59
 fra	Paradox Shaper	143
 fra	Perfected Theory	34
 fra	Pia, Aether Ascetic	264
+fra	Plains	281
+fra	Plains	282
 fra	Plains	382
 fra	Plains	383
 fra	Plains	384
 fra	Pompous Battlemage	428
 fra	Pompous Battlemage	90
+fra	Precise Redaction	36
+fra	Precise Redaction	362
+fra	Predictive Preparations	16
+fra	Primal Witchstalker	144
 fra	Proft, Consulting Detective	218
 fra	Proft, Sinister Mastermind	235
 fra	Prophesied End	17
 fra	Protege's Awakening	37
 fra	Prudent Fateseer	146
+fra	Puppet Crafting	111
+fra	Puppet Crafting	373
 fra	Rampart Hunter	60
+fra	Rank Rat	61
+fra	Refute Destiny	18
+fra	Refute Destiny	361
 fra	Repurposed Enforcer	19
 fra	Repurposed Enforcer	335
 fra	Restore with Empathy	112
@@ -32049,11 +32100,20 @@ fra	Rewrite Regrets	62
 fra	Rockfall Vale	186
 fra	Rockfall Vale	400
 fra	Ruric Thar, Biomagus	219
+fra	Saheeli, Consul of Oversight	203
+fra	Saheeli, Jewel of Avishkar	275
+fra	Samut, Hazoret's Champion	251
+fra	Samut, Hazoret's Champion	311
 fra	Screeching Soulbreaker	65
 fra	Semester Foreseer	39
 fra	Shatterwing Pegasus	21
 fra	Shipwreck Marsh	189
 fra	Shipwreck Marsh	401
+fra	Silence the Echo	66
+fra	Simulacrum Shaper	113
+fra	Simulacrum Shaper	332
+fra	Simulacrum Shaper	460
+fra	Skilled Battlecarver	92
 fra	Solarium Sentry	148
 fra	Solarium Sentry	376
 fra	Solitary Cell	149
@@ -32067,13 +32127,22 @@ fra	Stingcaster Mage	457
 fra	Stingcaster Mage	93
 fra	Stingerquill Annex	190
 fra	Stingerquill Voxmancer	151
+fra	Sureshot Sower	115
 fra	Surgical Precision	22
+fra	Swamp	285
+fra	Swamp	286
 fra	Swamp	388
 fra	Swamp	389
 fra	Swamp	390
 fra	Tam's Resistance	153
+fra	Tam, the Possibility	276
 fra	Tarmogoyf	116
 fra	Tarmogoyf	374
+fra	Tenured Tethermage	154
+fra	Tenured Tethermage	357
+fra	Terminal Criticism	366
+fra	Terminal Criticism	68
+fra	Tether Technician	94
 fra	Tethermage's Advantage	117
 fra	Tetsuko Umezawa, Fugitive	221
 fra	Thalia, the Survivor	205
@@ -32092,12 +32161,18 @@ fra	Theorist's Sanctum	381
 fra	Theorix Annex	192
 fra	Theorix Charm	155
 fra	Theorix Charm	435
+fra	Theorix Metamage	156
 fra	Tinybones, Pocket Nuisance	237
 fra	Titanbones, Towering Heart	266
 fra	Transformative Commons	193
+fra	Traxos, Scourge Eternal	280
+fra	Undulating Witness	45
+fra	Unflinching Hortimancer	23
 fra	Unsummon	46
 fra	Vigorbloom Annex	194
 fra	Vigorbloom Vanguard	161
+fra	Vinelasher Adept	119
+fra	Void Extrapolator	70
 fra	Vraska's Final Mercy	343
 fra	Vraska's Final Mercy	71
 fra	Vraska, Soul of Stone	277
@@ -32118,6 +32193,8 @@ fra	Wrath of the Bloodmane	96
 fra	Wrecking Gecko	120
 fra	Yargle, Glutton of Urborg	241
 fra	Yargle, Goliath of Otaria	225
+fra	Yoshimaru, Beloved Companion	209
+fra	Your Fate Ends Here	24
 frc	Akroma, Angel of Fury	19
 frc	Arcane Signet	20
 frc	Archfiend of Despair	46
@@ -32146,6 +32223,7 @@ frc	Fact or Fiction	41
 frc	Fellwar Stone	57
 frc	Fetid Heath	72
 frc	Flawless Maneuver	25
+frc	Ginger, Queen of Sweets	14
 frc	Glacial Fortress	73
 frc	Grand Crescendo	26
 frc	Isolated Chapel	74
@@ -32154,7 +32232,10 @@ frc	Kher Keep	75
 frc	Lingering Souls	27
 frc	Martial Coup	28
 frc	Mass Polymorph	42
+frc	Memnarch, the Warden	15
 frc	Mystic Gate	76
+frc	Niv-Mizzet, Ghost Counsel	10
+frc	Niv-Mizzet, Ghost Counsel	95
 frc	Occult Epiphany	43
 frc	Overlord of the Mistmoors	29
 frc	Path of Ancestry	77
@@ -32162,6 +32243,7 @@ frc	Path to Exile	30
 frc	Perilous Landscape	78
 frc	Prairie Stream	79
 frc	Proteus Staff	59
+frc	Radiant Summit	80
 frc	Rakdos Signet	60
 frc	Reflecting Pool	23
 frc	Restless Anchorage	81
@@ -32184,8 +32266,11 @@ frc	Talisman of Creativity	61
 frc	Talisman of Dominance	62
 frc	Talisman of Indulgence	63
 frc	Talisman of Progress	64
+frc	Turbulent Crater	101
 frc	Turbulent Crater	16
+frc	Turbulent Shore	102
 frc	Turbulent Shore	17
+frc	Turbulent Wetlands	103
 frc	Turbulent Wetlands	18
 frc	Underground River	87
 frc	Whirlwind of Thought	51
@@ -56042,6 +56127,7 @@ msh	King T'Challa	373
 msh	King T'Challa	399
 msh	Kingpin's Enforcers	102
 msh	Klaw, Sonic Subjugator	103
+msh	Knight of Wundagore	175
 msh	Kree Commandos	19
 msh	Kree Sentinel	141
 msh	Leader, Super-Genius	330
