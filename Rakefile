@@ -222,7 +222,7 @@ end
 
 desc "Export deck data"
 task "export:decks" do
-  sh "./bin/export_decks_data --simple-sections ~/Dev/magic-preconstructed-decks-data/decks.json"
+  # sh "./bin/export_decks_data --simple-sections ~/Dev/magic-preconstructed-decks-data/decks.json"
   sh "./bin/export_decks_data ~/Dev/magic-preconstructed-decks-data/decks_v2.json"
 end
 
