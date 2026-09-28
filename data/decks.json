@@ -23364,7 +23364,7 @@
     "name": "Green-White Demo Deck",
     "type": "Demo Deck",
     "category": "deck",
-    "format": "casual",
+    "format": "casual standard",
     "set_name": "Eighth Edition",
     "set_code": "8ed",
     "release_date": "2003-07-28",
@@ -23592,7 +23592,7 @@
     "name": "Red-Black Demo Deck",
     "type": "Demo Deck",
     "category": "deck",
-    "format": "casual",
+    "format": "casual standard",
     "set_name": "Eighth Edition",
     "set_code": "8ed",
     "release_date": "2003-07-28",
@@ -177231,6 +177231,2278 @@
     "source": "http://www.wizards.com/magic/expert/Exodus/exodus_pcds.asp"
   },
   {
+    "name": "Calling All Angels",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Foundations Commander",
+    "set_code": "fdc",
+    "release_date": "2026-10-02",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Giada, Font of Hope",
+          "count": 1,
+          "set": "FDC",
+          "number": "4",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Always Watching",
+          "count": 1,
+          "set": "FDC",
+          "number": "10"
+        },
+        {
+          "name": "Angel of the Ruins",
+          "count": 1,
+          "set": "FDC",
+          "number": "12"
+        },
+        {
+          "name": "Angelic Destiny",
+          "count": 1,
+          "set": "FDC",
+          "number": "14"
+        },
+        {
+          "name": "Angelic Field Marshal",
+          "count": 1,
+          "set": "FDC",
+          "number": "15"
+        },
+        {
+          "name": "Angelic Sleuth",
+          "count": 1,
+          "set": "FDC",
+          "number": "16"
+        },
+        {
+          "name": "Archangel of Tithes",
+          "count": 1,
+          "set": "FDC",
+          "number": "17"
+        },
+        {
+          "name": "Austere Command",
+          "count": 1,
+          "set": "FDC",
+          "number": "18"
+        },
+        {
+          "name": "Bishop of Wings",
+          "count": 1,
+          "set": "FDC",
+          "number": "19"
+        },
+        {
+          "name": "Cleansing Nova",
+          "count": 1,
+          "set": "FDC",
+          "number": "20"
+        },
+        {
+          "name": "Court of Grace",
+          "count": 1,
+          "set": "FDC",
+          "number": "21"
+        },
+        {
+          "name": "Day of Judgment",
+          "count": 1,
+          "set": "FDC",
+          "number": "23"
+        },
+        {
+          "name": "Emeria Shepherd",
+          "count": 1,
+          "set": "FDC",
+          "number": "27"
+        },
+        {
+          "name": "Exemplar of Light",
+          "count": 1,
+          "set": "FDC",
+          "number": "28"
+        },
+        {
+          "name": "Fateful Absence",
+          "count": 1,
+          "set": "FDC",
+          "number": "30"
+        },
+        {
+          "name": "Firemane Commando",
+          "count": 1,
+          "set": "FDC",
+          "number": "31"
+        },
+        {
+          "name": "Grasp of Fate",
+          "count": 1,
+          "set": "FDC",
+          "number": "32"
+        },
+        {
+          "name": "Herald of Eternal Dawn",
+          "count": 1,
+          "set": "FDC",
+          "number": "33"
+        },
+        {
+          "name": "Herald of War",
+          "count": 1,
+          "set": "FDC",
+          "number": "34"
+        },
+        {
+          "name": "Linvala, the Preserver",
+          "count": 1,
+          "set": "FDC",
+          "number": "37"
+        },
+        {
+          "name": "Lyra Dawnbringer",
+          "count": 1,
+          "set": "FDC",
+          "number": "38"
+        },
+        {
+          "name": "Merchant of Truth",
+          "count": 1,
+          "set": "FDC",
+          "number": "39"
+        },
+        {
+          "name": "Metropolis Reformer",
+          "count": 1,
+          "set": "FDC",
+          "number": "40"
+        },
+        {
+          "name": "Norn's Choirmaster",
+          "count": 1,
+          "set": "FDC",
+          "number": "41"
+        },
+        {
+          "name": "Reya Dawnbringer",
+          "count": 1,
+          "set": "FDC",
+          "number": "42"
+        },
+        {
+          "name": "Righteous Valkyrie",
+          "count": 1,
+          "set": "FDC",
+          "number": "43"
+        },
+        {
+          "name": "Search the Premises",
+          "count": 1,
+          "set": "FDC",
+          "number": "44"
+        },
+        {
+          "name": "Sephara, Sky's Blade",
+          "count": 1,
+          "set": "FDC",
+          "number": "47"
+        },
+        {
+          "name": "Seraph of the Sword",
+          "count": 1,
+          "set": "FDC",
+          "number": "48"
+        },
+        {
+          "name": "Serra Avenger",
+          "count": 1,
+          "set": "FDC",
+          "number": "49"
+        },
+        {
+          "name": "Speaker of the Heavens",
+          "count": 1,
+          "set": "FDC",
+          "number": "50"
+        },
+        {
+          "name": "Sunblast Angel",
+          "count": 1,
+          "set": "FDC",
+          "number": "52"
+        },
+        {
+          "name": "Wojek Investigator",
+          "count": 1,
+          "set": "FDC",
+          "number": "57"
+        },
+        {
+          "name": "Endless Atlas",
+          "count": 1,
+          "set": "FDC",
+          "number": "256"
+        },
+        {
+          "name": "Metallic Mimic",
+          "count": 1,
+          "set": "FDC",
+          "number": "269"
+        },
+        {
+          "name": "Tome of Legends",
+          "count": 1,
+          "set": "FDC",
+          "number": "293"
+        },
+        {
+          "name": "Vanquisher's Banner",
+          "count": 1,
+          "set": "FDC",
+          "number": "294"
+        },
+        {
+          "name": "Bonders' Enclave",
+          "count": 1,
+          "set": "FDC",
+          "number": "297"
+        },
+        {
+          "name": "War Room",
+          "count": 1,
+          "set": "FDC",
+          "number": "317"
+        },
+        {
+          "name": "Angel of Finality",
+          "count": 1,
+          "set": "FDC",
+          "number": "11"
+        },
+        {
+          "name": "Angel of Vitality",
+          "count": 1,
+          "set": "FDC",
+          "number": "13"
+        },
+        {
+          "name": "Cut a Deal",
+          "count": 1,
+          "set": "FDC",
+          "number": "22"
+        },
+        {
+          "name": "Dazzling Angel",
+          "count": 1,
+          "set": "FDC",
+          "number": "24"
+        },
+        {
+          "name": "Defy Death",
+          "count": 1,
+          "set": "FDC",
+          "number": "25"
+        },
+        {
+          "name": "Destroy Evil",
+          "count": 1,
+          "set": "FDC",
+          "number": "26"
+        },
+        {
+          "name": "Exorcise",
+          "count": 1,
+          "set": "FDC",
+          "number": "29"
+        },
+        {
+          "name": "Inspiring Overseer",
+          "count": 1,
+          "set": "FDC",
+          "number": "35"
+        },
+        {
+          "name": "Invoke the Divine",
+          "count": 1,
+          "set": "FDC",
+          "number": "36"
+        },
+        {
+          "name": "Secret Rendezvous",
+          "count": 1,
+          "set": "FDC",
+          "number": "45"
+        },
+        {
+          "name": "Segovian Angel",
+          "count": 1,
+          "set": "FDC",
+          "number": "46"
+        },
+        {
+          "name": "Starnheim Aspirant",
+          "count": 1,
+          "set": "FDC",
+          "number": "51"
+        },
+        {
+          "name": "Swords to Plowshares",
+          "count": 1,
+          "set": "FDC",
+          "number": "53"
+        },
+        {
+          "name": "Thraben Watcher",
+          "count": 1,
+          "set": "FDC",
+          "number": "54"
+        },
+        {
+          "name": "Valorous Stance",
+          "count": 1,
+          "set": "FDC",
+          "number": "55"
+        },
+        {
+          "name": "Vanguard Seraph",
+          "count": 1,
+          "set": "FDC",
+          "number": "56"
+        },
+        {
+          "name": "Youthful Valkyrie",
+          "count": 1,
+          "set": "FDC",
+          "number": "58"
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "FDC",
+          "number": "245"
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1,
+          "set": "FDC",
+          "number": "250"
+        },
+        {
+          "name": "Heraldic Banner",
+          "count": 1,
+          "set": "FDC",
+          "number": "263"
+        },
+        {
+          "name": "Marble Diamond",
+          "count": 1,
+          "set": "FDC",
+          "number": "267"
+        },
+        {
+          "name": "Mind Stone",
+          "count": 1,
+          "set": "FDC",
+          "number": "271"
+        },
+        {
+          "name": "Patchwork Banner",
+          "count": 1,
+          "set": "FDC",
+          "number": "279"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "FDC",
+          "number": "286"
+        },
+        {
+          "name": "Swiftfoot Boots",
+          "count": 1,
+          "set": "FDC",
+          "number": "291"
+        },
+        {
+          "name": "Radiant Fountain",
+          "count": 1,
+          "set": "FDC",
+          "number": "308"
+        },
+        {
+          "name": "Secluded Steppe",
+          "count": 1,
+          "set": "FDC",
+          "number": "312"
+        },
+        {
+          "name": "Seraph Sanctuary",
+          "count": 1,
+          "set": "FDC",
+          "number": "313"
+        },
+        {
+          "name": "Temple of the False God",
+          "count": 1,
+          "set": "FDC",
+          "number": "315"
+        },
+        {
+          "name": "Plains",
+          "count": 16,
+          "set": "FDN",
+          "number": "272"
+        },
+        {
+          "name": "Plains",
+          "count": 16,
+          "set": "FDN",
+          "number": "273"
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Angel // Clue",
+          "count": 4,
+          "token": true
+        },
+        {
+          "name": "Clue // Spirit",
+          "count": 3,
+          "token": true
+        },
+        {
+          "name": "Angel // Angel (3/3)",
+          "count": 1,
+          "token": true
+        },
+        {
+          "name": "Angel // Spirit",
+          "count": 1,
+          "token": true
+        },
+        {
+          "name": "Angel // The Monarch (helper)",
+          "count": 1,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists"
+  },
+  {
+    "name": "Keen Engineering",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Foundations Commander",
+    "set_code": "fdc",
+    "release_date": "2026-10-02",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Sai, Master Thopterist",
+          "count": 1,
+          "set": "FDC",
+          "number": "5",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "All Is Dust",
+          "count": 1,
+          "set": "FDC",
+          "number": "9"
+        },
+        {
+          "name": "Broodstar",
+          "count": 1,
+          "set": "FDC",
+          "number": "60"
+        },
+        {
+          "name": "Kappa Cannoneer",
+          "count": 1,
+          "set": "FDC",
+          "number": "64"
+        },
+        {
+          "name": "Master of Etherium",
+          "count": 1,
+          "set": "FDC",
+          "number": "66"
+        },
+        {
+          "name": "Master Transmuter",
+          "count": 1,
+          "set": "FDC",
+          "number": "67"
+        },
+        {
+          "name": "Misleading Signpost",
+          "count": 1,
+          "set": "FDC",
+          "number": "69"
+        },
+        {
+          "name": "Pull from Tomorrow",
+          "count": 1,
+          "set": "FDC",
+          "number": "73"
+        },
+        {
+          "name": "Research Thief",
+          "count": 1,
+          "set": "FDC",
+          "number": "74"
+        },
+        {
+          "name": "Shimmer Dragon",
+          "count": 1,
+          "set": "FDC",
+          "number": "75"
+        },
+        {
+          "name": "Thopter Fabricator",
+          "count": 1,
+          "set": "FDC",
+          "number": "78"
+        },
+        {
+          "name": "Thopter Spy Network",
+          "count": 1,
+          "set": "FDC",
+          "number": "79"
+        },
+        {
+          "name": "Thought Monitor",
+          "count": 1,
+          "set": "FDC",
+          "number": "80"
+        },
+        {
+          "name": "Vedalken Archmage",
+          "count": 1,
+          "set": "FDC",
+          "number": "82"
+        },
+        {
+          "name": "Adaptive Omnitool",
+          "count": 1,
+          "set": "FDC",
+          "number": "243"
+        },
+        {
+          "name": "Cultivator's Caravan",
+          "count": 1,
+          "set": "FDC",
+          "number": "251"
+        },
+        {
+          "name": "Darksteel Juggernaut",
+          "count": 1,
+          "set": "FDC",
+          "number": "252"
+        },
+        {
+          "name": "Duplicant",
+          "count": 1,
+          "set": "FDC",
+          "number": "255"
+        },
+        {
+          "name": "Forsaken Monument",
+          "count": 1,
+          "set": "FDC",
+          "number": "258"
+        },
+        {
+          "name": "Graaz, Unstoppable Juggernaut",
+          "count": 1,
+          "set": "FDC",
+          "number": "260"
+        },
+        {
+          "name": "Mazemind Tome",
+          "count": 1,
+          "set": "FDC",
+          "number": "268"
+        },
+        {
+          "name": "Mind's Eye",
+          "count": 1,
+          "set": "FDC",
+          "number": "272"
+        },
+        {
+          "name": "Myr Battlesphere",
+          "count": 1,
+          "set": "FDC",
+          "number": "273"
+        },
+        {
+          "name": "Nettlecyst",
+          "count": 1,
+          "set": "FDC",
+          "number": "275"
+        },
+        {
+          "name": "Nevinyrral's Disk",
+          "count": 1,
+          "set": "FDC",
+          "number": "276"
+        },
+        {
+          "name": "Psychosis Crawler",
+          "count": 1,
+          "set": "FDC",
+          "number": "280"
+        },
+        {
+          "name": "Scrawling Crawler",
+          "count": 1,
+          "set": "FDC",
+          "number": "282"
+        },
+        {
+          "name": "Skysovereign, Consul Flagship",
+          "count": 1,
+          "set": "FDC",
+          "number": "285"
+        },
+        {
+          "name": "Steel Hellkite",
+          "count": 1,
+          "set": "FDC",
+          "number": "289"
+        },
+        {
+          "name": "Steel Overseer",
+          "count": 1,
+          "set": "FDC",
+          "number": "290"
+        },
+        {
+          "name": "War Room",
+          "count": 1,
+          "set": "FDC",
+          "number": "317"
+        },
+        {
+          "name": "Aetherize",
+          "count": 1,
+          "set": "FDC",
+          "number": "59"
+        },
+        {
+          "name": "Counterspell",
+          "count": 1,
+          "set": "FDC",
+          "number": "61"
+        },
+        {
+          "name": "Etherium Sculptor",
+          "count": 1,
+          "set": "FDC",
+          "number": "62"
+        },
+        {
+          "name": "Fall from Favor",
+          "count": 1,
+          "set": "FDC",
+          "number": "63"
+        },
+        {
+          "name": "Launch Mishap",
+          "count": 1,
+          "set": "FDC",
+          "number": "65"
+        },
+        {
+          "name": "Memory Guardian",
+          "count": 1,
+          "set": "FDC",
+          "number": "68"
+        },
+        {
+          "name": "Negate",
+          "count": 1,
+          "set": "FDC",
+          "number": "70"
+        },
+        {
+          "name": "Padeem, Consul of Innovation",
+          "count": 1,
+          "set": "FDC",
+          "number": "71"
+        },
+        {
+          "name": "Propaganda",
+          "count": 1,
+          "set": "FDC",
+          "number": "72"
+        },
+        {
+          "name": "Tamiyo's Logbook",
+          "count": 1,
+          "set": "FDC",
+          "number": "76"
+        },
+        {
+          "name": "Thirst for Knowledge",
+          "count": 1,
+          "set": "FDC",
+          "number": "77"
+        },
+        {
+          "name": "Thoughtcast",
+          "count": 1,
+          "set": "FDC",
+          "number": "81"
+        },
+        {
+          "name": "Whirler Rogue",
+          "count": 1,
+          "set": "FDC",
+          "number": "83"
+        },
+        {
+          "name": "Aether Spellbomb",
+          "count": 1,
+          "set": "FDC",
+          "number": "244"
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "FDC",
+          "number": "245"
+        },
+        {
+          "name": "Chief of the Foundry",
+          "count": 1,
+          "set": "FDC",
+          "number": "249"
+        },
+        {
+          "name": "Foundry Inspector",
+          "count": 1,
+          "set": "FDC",
+          "number": "259"
+        },
+        {
+          "name": "Hedron Archive",
+          "count": 1,
+          "set": "FDC",
+          "number": "262"
+        },
+        {
+          "name": "Ichor Wellspring",
+          "count": 1,
+          "set": "FDC",
+          "number": "265"
+        },
+        {
+          "name": "Meteor Golem",
+          "count": 1,
+          "set": "FDC",
+          "number": "270"
+        },
+        {
+          "name": "Mind Stone",
+          "count": 1,
+          "set": "FDC",
+          "number": "271"
+        },
+        {
+          "name": "Myr Retriever",
+          "count": 1,
+          "set": "FDC",
+          "number": "274"
+        },
+        {
+          "name": "Ornithopter of Paradise",
+          "count": 1,
+          "set": "FDC",
+          "number": "277"
+        },
+        {
+          "name": "Palladium Myr",
+          "count": 1,
+          "set": "FDC",
+          "number": "278"
+        },
+        {
+          "name": "Shimmer Myr",
+          "count": 1,
+          "set": "FDC",
+          "number": "283"
+        },
+        {
+          "name": "Silver Myr",
+          "count": 1,
+          "set": "FDC",
+          "number": "284"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "FDC",
+          "number": "286"
+        },
+        {
+          "name": "Soul-Guide Lantern",
+          "count": 1,
+          "set": "FDC",
+          "number": "287"
+        },
+        {
+          "name": "Spire Golem",
+          "count": 1,
+          "set": "FDC",
+          "number": "288"
+        },
+        {
+          "name": "Thought Vessel",
+          "count": 1,
+          "set": "FDC",
+          "number": "292"
+        },
+        {
+          "name": "Buried Ruin",
+          "count": 1,
+          "set": "FDC",
+          "number": "298"
+        },
+        {
+          "name": "Darksteel Citadel",
+          "count": 1,
+          "set": "FDC",
+          "number": "300"
+        },
+        {
+          "name": "Foundry of the Consuls",
+          "count": 1,
+          "set": "FDC",
+          "number": "302"
+        },
+        {
+          "name": "Lonely Sandbar",
+          "count": 1,
+          "set": "FDC",
+          "number": "305"
+        },
+        {
+          "name": "Remote Isle",
+          "count": 1,
+          "set": "FDC",
+          "number": "309"
+        },
+        {
+          "name": "Island",
+          "count": 17,
+          "set": "FDN",
+          "number": "274"
+        },
+        {
+          "name": "Island",
+          "count": 17,
+          "set": "FDN",
+          "number": "275"
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Thopter // Myr",
+          "count": 8,
+          "token": true
+        },
+        {
+          "name": "Thopter // Phyrexian Germ",
+          "count": 1,
+          "token": true
+        },
+        {
+          "name": "Thopter // The Monarch (helper)",
+          "count": 1,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists"
+  },
+  {
+    "name": "Reign of Dragons",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Foundations Commander",
+    "set_code": "fdc",
+    "release_date": "2026-10-02",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Lathliss, Dragon Queen",
+          "count": 1,
+          "set": "FDC",
+          "number": "7",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Atsushi, the Blazing Sky",
+          "count": 1,
+          "set": "FDC",
+          "number": "138"
+        },
+        {
+          "name": "Blasphemous Act",
+          "count": 1,
+          "set": "FDC",
+          "number": "140"
+        },
+        {
+          "name": "Chain Reaction",
+          "count": 1,
+          "set": "FDC",
+          "number": "144"
+        },
+        {
+          "name": "Chandra's Ignition",
+          "count": 1,
+          "set": "FDC",
+          "number": "145"
+        },
+        {
+          "name": "Chaos Warp",
+          "count": 1,
+          "set": "FDC",
+          "number": "146"
+        },
+        {
+          "name": "Count on Luck",
+          "count": 1,
+          "set": "FDC",
+          "number": "147"
+        },
+        {
+          "name": "Crucible of Fire",
+          "count": 1,
+          "set": "FDC",
+          "number": "148"
+        },
+        {
+          "name": "Cursed Mirror",
+          "count": 1,
+          "set": "FDC",
+          "number": "149"
+        },
+        {
+          "name": "Dragon Tempest",
+          "count": 1,
+          "set": "FDC",
+          "number": "150"
+        },
+        {
+          "name": "Dragonhawk, Fate's Tempest",
+          "count": 1,
+          "set": "FDC",
+          "number": "151"
+        },
+        {
+          "name": "Dragonmaster Outcast",
+          "count": 1,
+          "set": "FDC",
+          "number": "153"
+        },
+        {
+          "name": "Drakuseth, Maw of Flames",
+          "count": 1,
+          "set": "FDC",
+          "number": "155"
+        },
+        {
+          "name": "The Elder Dragon War",
+          "count": 1,
+          "set": "FDC",
+          "number": "156"
+        },
+        {
+          "name": "Goddric, Cloaked Reveler",
+          "count": 1,
+          "set": "FDC",
+          "number": "158"
+        },
+        {
+          "name": "Goldlust Triad",
+          "count": 1,
+          "set": "FDC",
+          "number": "159"
+        },
+        {
+          "name": "Hellkite Charger",
+          "count": 1,
+          "set": "FDC",
+          "number": "160"
+        },
+        {
+          "name": "Hit the Mother Lode",
+          "count": 1,
+          "set": "FDC",
+          "number": "161"
+        },
+        {
+          "name": "Leyline Tyrant",
+          "count": 1,
+          "set": "FDC",
+          "number": "162"
+        },
+        {
+          "name": "Magmaquake",
+          "count": 1,
+          "set": "FDC",
+          "number": "164"
+        },
+        {
+          "name": "Minion of the Mighty",
+          "count": 1,
+          "set": "FDC",
+          "number": "166"
+        },
+        {
+          "name": "Nogi, Draco-Zealot",
+          "count": 1,
+          "set": "FDC",
+          "number": "167"
+        },
+        {
+          "name": "Orb of Dragonkind",
+          "count": 1,
+          "set": "FDC",
+          "number": "168"
+        },
+        {
+          "name": "Outpost Siege",
+          "count": 1,
+          "set": "FDC",
+          "number": "169"
+        },
+        {
+          "name": "Parapet Thrasher",
+          "count": 1,
+          "set": "FDC",
+          "number": "170"
+        },
+        {
+          "name": "Sarkhan, Dragon Ascendant",
+          "count": 1,
+          "set": "FDC",
+          "number": "172"
+        },
+        {
+          "name": "Scourge of the Throne",
+          "count": 1,
+          "set": "FDC",
+          "number": "173"
+        },
+        {
+          "name": "Scourge of Valkas",
+          "count": 1,
+          "set": "FDC",
+          "number": "174"
+        },
+        {
+          "name": "Shivan Devastator",
+          "count": 1,
+          "set": "FDC",
+          "number": "175"
+        },
+        {
+          "name": "Spit Flame",
+          "count": 1,
+          "set": "FDC",
+          "number": "177"
+        },
+        {
+          "name": "Taurean Mauler",
+          "count": 1,
+          "set": "FDC",
+          "number": "178"
+        },
+        {
+          "name": "Terror of Mount Velus",
+          "count": 1,
+          "set": "FDC",
+          "number": "179"
+        },
+        {
+          "name": "Thunderbreak Regent",
+          "count": 1,
+          "set": "FDC",
+          "number": "181"
+        },
+        {
+          "name": "Thundermane Dragon",
+          "count": 1,
+          "set": "FDC",
+          "number": "182"
+        },
+        {
+          "name": "Tyrant's Familiar",
+          "count": 1,
+          "set": "FDC",
+          "number": "183"
+        },
+        {
+          "name": "Utvara Hellkite",
+          "count": 1,
+          "set": "FDC",
+          "number": "185"
+        },
+        {
+          "name": "Warstorm Surge",
+          "count": 1,
+          "set": "FDC",
+          "number": "186"
+        },
+        {
+          "name": "Basilisk Collar",
+          "count": 1,
+          "set": "FDC",
+          "number": "246"
+        },
+        {
+          "name": "Dragon's Hoard",
+          "count": 1,
+          "set": "FDC",
+          "number": "253"
+        },
+        {
+          "name": "Bonders' Enclave",
+          "count": 1,
+          "set": "FDC",
+          "number": "297"
+        },
+        {
+          "name": "Haven of the Spirit Dragon",
+          "count": 1,
+          "set": "FDC",
+          "number": "304"
+        },
+        {
+          "name": "Spinerock Knoll",
+          "count": 1,
+          "set": "FDC",
+          "number": "314"
+        },
+        {
+          "name": "War Room",
+          "count": 1,
+          "set": "FDC",
+          "number": "317"
+        },
+        {
+          "name": "Abrade",
+          "count": 1,
+          "set": "FDC",
+          "number": "136"
+        },
+        {
+          "name": "Anger",
+          "count": 1,
+          "set": "FDC",
+          "number": "137"
+        },
+        {
+          "name": "Bitter Reunion",
+          "count": 1,
+          "set": "FDC",
+          "number": "139"
+        },
+        {
+          "name": "Breaching Dragonstorm",
+          "count": 1,
+          "set": "FDC",
+          "number": "141"
+        },
+        {
+          "name": "Breath Weapon",
+          "count": 1,
+          "set": "FDC",
+          "number": "142"
+        },
+        {
+          "name": "Carnelian Orb of Dragonkind",
+          "count": 1,
+          "set": "FDC",
+          "number": "143"
+        },
+        {
+          "name": "Dragonlord's Servant",
+          "count": 1,
+          "set": "FDC",
+          "number": "152"
+        },
+        {
+          "name": "Dragonspeaker Shaman",
+          "count": 1,
+          "set": "FDC",
+          "number": "154"
+        },
+        {
+          "name": "Firespitter Whelp",
+          "count": 1,
+          "set": "FDC",
+          "number": "157"
+        },
+        {
+          "name": "Lightning Bolt",
+          "count": 1,
+          "set": "FDC",
+          "number": "163"
+        },
+        {
+          "name": "Mana Geyser",
+          "count": 1,
+          "set": "FDC",
+          "number": "165"
+        },
+        {
+          "name": "Rapacious Dragon",
+          "count": 1,
+          "set": "FDC",
+          "number": "171"
+        },
+        {
+          "name": "Skyline Despot",
+          "count": 1,
+          "set": "FDC",
+          "number": "176"
+        },
+        {
+          "name": "Thrill of Possibility",
+          "count": 1,
+          "set": "FDC",
+          "number": "180"
+        },
+        {
+          "name": "Unexpected Windfall",
+          "count": 1,
+          "set": "FDC",
+          "number": "184"
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "FDC",
+          "number": "245"
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1,
+          "set": "FDC",
+          "number": "250"
+        },
+        {
+          "name": "Dragonstorm Globe",
+          "count": 1,
+          "set": "FDC",
+          "number": "254"
+        },
+        {
+          "name": "Fire Diamond",
+          "count": 1,
+          "set": "FDC",
+          "number": "257"
+        },
+        {
+          "name": "Hazoret's Monument",
+          "count": 1,
+          "set": "FDC",
+          "number": "261"
+        },
+        {
+          "name": "Herald's Horn",
+          "count": 1,
+          "set": "FDC",
+          "number": "264"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "FDC",
+          "number": "286"
+        },
+        {
+          "name": "Swiftfoot Boots",
+          "count": 1,
+          "set": "FDC",
+          "number": "291"
+        },
+        {
+          "name": "Forgotten Cave",
+          "count": 1,
+          "set": "FDC",
+          "number": "301"
+        },
+        {
+          "name": "Temple of the False God",
+          "count": 1,
+          "set": "FDC",
+          "number": "315"
+        },
+        {
+          "name": "Mountain",
+          "count": 16,
+          "set": "FDN",
+          "number": "278"
+        },
+        {
+          "name": "Mountain",
+          "count": 16,
+          "set": "FDN",
+          "number": "279"
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Treasure // Dragon (5/5)",
+          "count": 5,
+          "token": true
+        },
+        {
+          "name": "Treasure // Dragon (6/6)",
+          "count": 2,
+          "token": true
+        },
+        {
+          "name": "Treasure // Dragon (4/4)",
+          "count": 1,
+          "token": true
+        },
+        {
+          "name": "Dragon (6/6) // Dragon (5/5)",
+          "count": 1,
+          "token": true
+        },
+        {
+          "name": "Treasure // The Monarch (helper)",
+          "count": 1,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists"
+  },
+  {
+    "name": "Tramplesaurus Rex",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Foundations Commander",
+    "set_code": "fdc",
+    "release_date": "2026-10-02",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Ghalta, Primal Hunger",
+          "count": 1,
+          "set": "FDC",
+          "number": "8",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Arachnogenesis",
+          "count": 1,
+          "set": "FDC",
+          "number": "187"
+        },
+        {
+          "name": "Arasta of the Endless Web",
+          "count": 1,
+          "set": "FDC",
+          "number": "188"
+        },
+        {
+          "name": "Beast Whisperer",
+          "count": 1,
+          "set": "FDC",
+          "number": "189"
+        },
+        {
+          "name": "Birds of Paradise",
+          "count": 1,
+          "set": "FDC",
+          "number": "191"
+        },
+        {
+          "name": "Carnage Tyrant",
+          "count": 1,
+          "set": "FDC",
+          "number": "193"
+        },
+        {
+          "name": "Curious Altisaur",
+          "count": 1,
+          "set": "FDC",
+          "number": "198"
+        },
+        {
+          "name": "Dungrove Elder",
+          "count": 1,
+          "set": "FDC",
+          "number": "199"
+        },
+        {
+          "name": "Elder Gargaroth",
+          "count": 1,
+          "set": "FDC",
+          "number": "200"
+        },
+        {
+          "name": "Ezuri's Predation",
+          "count": 1,
+          "set": "FDC",
+          "number": "203"
+        },
+        {
+          "name": "Gigantosaurus",
+          "count": 1,
+          "set": "FDC",
+          "number": "207"
+        },
+        {
+          "name": "Hulking Raptor",
+          "count": 1,
+          "set": "FDC",
+          "number": "210"
+        },
+        {
+          "name": "Loot, Exuberant Explorer",
+          "count": 1,
+          "set": "FDC",
+          "number": "215"
+        },
+        {
+          "name": "Managorger Hydra",
+          "count": 1,
+          "set": "FDC",
+          "number": "216"
+        },
+        {
+          "name": "Overwhelming Stampede",
+          "count": 1,
+          "set": "FDC",
+          "number": "218"
+        },
+        {
+          "name": "Pugnacious Hammerskull",
+          "count": 1,
+          "set": "FDC",
+          "number": "220"
+        },
+        {
+          "name": "Regal Imperiosaur",
+          "count": 1,
+          "set": "FDC",
+          "number": "222"
+        },
+        {
+          "name": "Rhonas the Indomitable",
+          "count": 1,
+          "set": "FDC",
+          "number": "223"
+        },
+        {
+          "name": "Ripjaw Raptor",
+          "count": 1,
+          "set": "FDC",
+          "number": "224"
+        },
+        {
+          "name": "Rishkar's Expertise",
+          "count": 1,
+          "set": "FDC",
+          "number": "226"
+        },
+        {
+          "name": "Scavenging Ooze",
+          "count": 1,
+          "set": "FDC",
+          "number": "227"
+        },
+        {
+          "name": "Scrapshooter",
+          "count": 1,
+          "set": "FDC",
+          "number": "228"
+        },
+        {
+          "name": "Shamanic Revelation",
+          "count": 1,
+          "set": "FDC",
+          "number": "229"
+        },
+        {
+          "name": "Steel Leaf Champion",
+          "count": 1,
+          "set": "FDC",
+          "number": "230"
+        },
+        {
+          "name": "Surrak and Goreclaw",
+          "count": 1,
+          "set": "FDC",
+          "number": "231"
+        },
+        {
+          "name": "Surrak, the Hunt Caller",
+          "count": 1,
+          "set": "FDC",
+          "number": "232"
+        },
+        {
+          "name": "Tangleweave Armor",
+          "count": 1,
+          "set": "FDC",
+          "number": "234"
+        },
+        {
+          "name": "Thickest in the Thicket",
+          "count": 1,
+          "set": "FDC",
+          "number": "236"
+        },
+        {
+          "name": "Unnatural Growth",
+          "count": 1,
+          "set": "FDC",
+          "number": "238"
+        },
+        {
+          "name": "Verdant Sun's Avatar",
+          "count": 1,
+          "set": "FDC",
+          "number": "239"
+        },
+        {
+          "name": "Whiptongue Hydra",
+          "count": 1,
+          "set": "FDC",
+          "number": "240"
+        },
+        {
+          "name": "Yeva, Nature's Herald",
+          "count": 1,
+          "set": "FDC",
+          "number": "242"
+        },
+        {
+          "name": "Bonders' Enclave",
+          "count": 1,
+          "set": "FDC",
+          "number": "297"
+        },
+        {
+          "name": "Mosswort Bridge",
+          "count": 1,
+          "set": "FDC",
+          "number": "307"
+        },
+        {
+          "name": "Scavenger Grounds",
+          "count": 1,
+          "set": "FDC",
+          "number": "311"
+        },
+        {
+          "name": "War Room",
+          "count": 1,
+          "set": "FDC",
+          "number": "317"
+        },
+        {
+          "name": "Witch's Clinic",
+          "count": 1,
+          "set": "FDC",
+          "number": "318"
+        },
+        {
+          "name": "Beast Within",
+          "count": 1,
+          "set": "FDC",
+          "number": "190"
+        },
+        {
+          "name": "Bite Down",
+          "count": 1,
+          "set": "FDC",
+          "number": "192"
+        },
+        {
+          "name": "Challenger Troll",
+          "count": 1,
+          "set": "FDC",
+          "number": "194"
+        },
+        {
+          "name": "Clifftop Lookout",
+          "count": 1,
+          "set": "FDC",
+          "number": "195"
+        },
+        {
+          "name": "Collective Resistance",
+          "count": 1,
+          "set": "FDC",
+          "number": "196"
+        },
+        {
+          "name": "Colossal Majesty",
+          "count": 1,
+          "set": "FDC",
+          "number": "197"
+        },
+        {
+          "name": "Elemental Bond",
+          "count": 1,
+          "set": "FDC",
+          "number": "201"
+        },
+        {
+          "name": "Elvish Mystic",
+          "count": 1,
+          "set": "FDC",
+          "number": "202"
+        },
+        {
+          "name": "Fyndhorn Elves",
+          "count": 1,
+          "set": "FDC",
+          "number": "204"
+        },
+        {
+          "name": "Garruk's Packleader",
+          "count": 1,
+          "set": "FDC",
+          "number": "205"
+        },
+        {
+          "name": "Garruk's Uprising",
+          "count": 1,
+          "set": "FDC",
+          "number": "206"
+        },
+        {
+          "name": "Goreclaw, Terror of Qal Sisma",
+          "count": 1,
+          "set": "FDC",
+          "number": "208"
+        },
+        {
+          "name": "Harmonize",
+          "count": 1,
+          "set": "FDC",
+          "number": "209"
+        },
+        {
+          "name": "Ilysian Caryatid",
+          "count": 1,
+          "set": "FDC",
+          "number": "211"
+        },
+        {
+          "name": "Kenrith's Transformation",
+          "count": 1,
+          "set": "FDC",
+          "number": "212"
+        },
+        {
+          "name": "Llanowar Elves",
+          "count": 1,
+          "set": "FDC",
+          "number": "213"
+        },
+        {
+          "name": "Llanowar Tribe",
+          "count": 1,
+          "set": "FDC",
+          "number": "214"
+        },
+        {
+          "name": "Monstrous Onslaught",
+          "count": 1,
+          "set": "FDC",
+          "number": "217"
+        },
+        {
+          "name": "Paradise Druid",
+          "count": 1,
+          "set": "FDC",
+          "number": "219"
+        },
+        {
+          "name": "Ram Through",
+          "count": 1,
+          "set": "FDC",
+          "number": "221"
+        },
+        {
+          "name": "Rishkar, Peema Renegade",
+          "count": 1,
+          "set": "FDC",
+          "number": "225"
+        },
+        {
+          "name": "Tamiyo's Safekeeping",
+          "count": 1,
+          "set": "FDC",
+          "number": "233"
+        },
+        {
+          "name": "Terrian, World Tyrant",
+          "count": 1,
+          "set": "FDC",
+          "number": "235"
+        },
+        {
+          "name": "Thrashing Brontodon",
+          "count": 1,
+          "set": "FDC",
+          "number": "237"
+        },
+        {
+          "name": "Whisperer of the Wilds",
+          "count": 1,
+          "set": "FDC",
+          "number": "241"
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1,
+          "set": "FDC",
+          "number": "250"
+        },
+        {
+          "name": "Rhonas's Monument",
+          "count": 1,
+          "set": "FDC",
+          "number": "281"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "FDC",
+          "number": "286"
+        },
+        {
+          "name": "Swiftfoot Boots",
+          "count": 1,
+          "set": "FDC",
+          "number": "291"
+        },
+        {
+          "name": "Rogue's Passage",
+          "count": 1,
+          "set": "FDC",
+          "number": "310"
+        },
+        {
+          "name": "Tranquil Thicket",
+          "count": 1,
+          "set": "FDC",
+          "number": "316"
+        },
+        {
+          "name": "Forest",
+          "count": 16,
+          "set": "FDN",
+          "number": "280"
+        },
+        {
+          "name": "Forest",
+          "count": 16,
+          "set": "FDN",
+          "number": "281"
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Beast // Spider",
+          "count": 4,
+          "token": true
+        },
+        {
+          "name": "Phyrexian Beast // Spider",
+          "count": 3,
+          "token": true
+        },
+        {
+          "name": "Phyrexian Beast // Beast",
+          "count": 2,
+          "token": true
+        },
+        {
+          "name": "Phyrexian Beast // Phyrexian Germ",
+          "count": 1,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists"
+  },
+  {
+    "name": "Wretched Ranks",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Foundations Commander",
+    "set_code": "fdc",
+    "release_date": "2026-10-02",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Ghoulcaller Gisa",
+          "count": 1,
+          "set": "FDC",
+          "number": "6",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Army of the Damned",
+          "count": 1,
+          "set": "FDC",
+          "number": "85"
+        },
+        {
+          "name": "Ayara, First of Locthwain",
+          "count": 1,
+          "set": "FDC",
+          "number": "86"
+        },
+        {
+          "name": "Bad Moon",
+          "count": 1,
+          "set": "FDC",
+          "number": "87"
+        },
+        {
+          "name": "Cemetery Reaper",
+          "count": 1,
+          "set": "FDC",
+          "number": "89"
+        },
+        {
+          "name": "Champion of the Perished",
+          "count": 1,
+          "set": "FDC",
+          "number": "91"
+        },
+        {
+          "name": "Cryptbreaker",
+          "count": 1,
+          "set": "FDC",
+          "number": "94"
+        },
+        {
+          "name": "Death Baron",
+          "count": 1,
+          "set": "FDC",
+          "number": "95"
+        },
+        {
+          "name": "Diregraf Colossus",
+          "count": 1,
+          "set": "FDC",
+          "number": "96"
+        },
+        {
+          "name": "Endless Ranks of the Dead",
+          "count": 1,
+          "set": "FDC",
+          "number": "97"
+        },
+        {
+          "name": "God-Eternal Bontu",
+          "count": 1,
+          "set": "FDC",
+          "number": "101"
+        },
+        {
+          "name": "Grave Titan",
+          "count": 1,
+          "set": "FDC",
+          "number": "102"
+        },
+        {
+          "name": "Graveborn Muse",
+          "count": 1,
+          "set": "FDC",
+          "number": "103"
+        },
+        {
+          "name": "Gravecrawler",
+          "count": 1,
+          "set": "FDC",
+          "number": "104"
+        },
+        {
+          "name": "Headless Rider",
+          "count": 1,
+          "set": "FDC",
+          "number": "106"
+        },
+        {
+          "name": "Josu Vess, Lich Knight",
+          "count": 1,
+          "set": "FDC",
+          "number": "107"
+        },
+        {
+          "name": "Kalitas, Traitor of Ghet",
+          "count": 1,
+          "set": "FDC",
+          "number": "108"
+        },
+        {
+          "name": "Liliana's Mastery",
+          "count": 1,
+          "set": "FDC",
+          "number": "109"
+        },
+        {
+          "name": "Liliana's Reaver",
+          "count": 1,
+          "set": "FDC",
+          "number": "110"
+        },
+        {
+          "name": "Lord of the Undead",
+          "count": 1,
+          "set": "FDC",
+          "number": "112"
+        },
+        {
+          "name": "Midnight Reaper",
+          "count": 1,
+          "set": "FDC",
+          "number": "114"
+        },
+        {
+          "name": "Mutilate",
+          "count": 1,
+          "set": "FDC",
+          "number": "117"
+        },
+        {
+          "name": "Necrotic Hex",
+          "count": 1,
+          "set": "FDC",
+          "number": "118"
+        },
+        {
+          "name": "Open the Graves",
+          "count": 1,
+          "set": "FDC",
+          "number": "121"
+        },
+        {
+          "name": "Oversold Cemetery",
+          "count": 1,
+          "set": "FDC",
+          "number": "122"
+        },
+        {
+          "name": "Phyrexian Arena",
+          "count": 1,
+          "set": "FDC",
+          "number": "123"
+        },
+        {
+          "name": "Razorlash Transmogrant",
+          "count": 1,
+          "set": "FDC",
+          "number": "124"
+        },
+        {
+          "name": "Zul Ashur, Lich Lord",
+          "count": 1,
+          "set": "FDC",
+          "number": "135"
+        },
+        {
+          "name": "Castle Locthwain",
+          "count": 1,
+          "set": "FDC",
+          "number": "299"
+        },
+        {
+          "name": "Geier Reach Sanitarium",
+          "count": 1,
+          "set": "FDC",
+          "number": "303"
+        },
+        {
+          "name": "Ambition's Cost",
+          "count": 1,
+          "set": "FDC",
+          "number": "84"
+        },
+        {
+          "name": "Carrion Feeder",
+          "count": 1,
+          "set": "FDC",
+          "number": "88"
+        },
+        {
+          "name": "Cemetery Recruitment",
+          "count": 1,
+          "set": "FDC",
+          "number": "90"
+        },
+        {
+          "name": "Consumed by Greed",
+          "count": 1,
+          "set": "FDC",
+          "number": "92"
+        },
+        {
+          "name": "Consuming Corruption",
+          "count": 1,
+          "set": "FDC",
+          "number": "93"
+        },
+        {
+          "name": "Eternal Taskmaster",
+          "count": 1,
+          "set": "FDC",
+          "number": "98"
+        },
+        {
+          "name": "Fleshbag Marauder",
+          "count": 1,
+          "set": "FDC",
+          "number": "99"
+        },
+        {
+          "name": "Go for the Throat",
+          "count": 1,
+          "set": "FDC",
+          "number": "100"
+        },
+        {
+          "name": "Gray Merchant of Asphodel",
+          "count": 1,
+          "set": "FDC",
+          "number": "105"
+        },
+        {
+          "name": "Lord of the Accursed",
+          "count": 1,
+          "set": "FDC",
+          "number": "111"
+        },
+        {
+          "name": "Marchesa's Decree",
+          "count": 1,
+          "set": "FDC",
+          "number": "113"
+        },
+        {
+          "name": "Mire Triton",
+          "count": 1,
+          "set": "FDC",
+          "number": "115"
+        },
+        {
+          "name": "Moan of the Unhallowed",
+          "count": 1,
+          "set": "FDC",
+          "number": "116"
+        },
+        {
+          "name": "Night's Whisper",
+          "count": 1,
+          "set": "FDC",
+          "number": "119"
+        },
+        {
+          "name": "Noxious Ghoul",
+          "count": 1,
+          "set": "FDC",
+          "number": "120"
+        },
+        {
+          "name": "Sign in Blood",
+          "count": 1,
+          "set": "FDC",
+          "number": "125"
+        },
+        {
+          "name": "Soulless One",
+          "count": 1,
+          "set": "FDC",
+          "number": "126"
+        },
+        {
+          "name": "Syphon Flesh",
+          "count": 1,
+          "set": "FDC",
+          "number": "127"
+        },
+        {
+          "name": "Tendrils of Corruption",
+          "count": 1,
+          "set": "FDC",
+          "number": "128"
+        },
+        {
+          "name": "Undead Augur",
+          "count": 1,
+          "set": "FDC",
+          "number": "129"
+        },
+        {
+          "name": "Undead Butler",
+          "count": 1,
+          "set": "FDC",
+          "number": "130"
+        },
+        {
+          "name": "Undead Warchief",
+          "count": 1,
+          "set": "FDC",
+          "number": "131"
+        },
+        {
+          "name": "Vengeful Dead",
+          "count": 1,
+          "set": "FDC",
+          "number": "132"
+        },
+        {
+          "name": "Wight of Precinct Six",
+          "count": 1,
+          "set": "FDC",
+          "number": "133"
+        },
+        {
+          "name": "Withering Torment",
+          "count": 1,
+          "set": "FDC",
+          "number": "134"
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "FDC",
+          "number": "245"
+        },
+        {
+          "name": "Bontu's Monument",
+          "count": 1,
+          "set": "FDC",
+          "number": "247"
+        },
+        {
+          "name": "Charcoal Diamond",
+          "count": 1,
+          "set": "FDC",
+          "number": "248"
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1,
+          "set": "FDC",
+          "number": "250"
+        },
+        {
+          "name": "Infernal Idol",
+          "count": 1,
+          "set": "FDC",
+          "number": "266"
+        },
+        {
+          "name": "Mind Stone",
+          "count": 1,
+          "set": "FDC",
+          "number": "271"
+        },
+        {
+          "name": "Patchwork Banner",
+          "count": 1,
+          "set": "FDC",
+          "number": "279"
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "FDC",
+          "number": "286"
+        },
+        {
+          "name": "Barren Moor",
+          "count": 1,
+          "set": "FDC",
+          "number": "295"
+        },
+        {
+          "name": "Bojuka Bog",
+          "count": 1,
+          "set": "FDC",
+          "number": "296"
+        },
+        {
+          "name": "Memorial to Folly",
+          "count": 1,
+          "set": "FDC",
+          "number": "306"
+        },
+        {
+          "name": "Witch's Cottage",
+          "count": 1,
+          "set": "FDC",
+          "number": "319"
+        },
+        {
+          "name": "Swamp",
+          "count": 17,
+          "set": "FDN",
+          "number": "276"
+        },
+        {
+          "name": "Swamp",
+          "count": 16,
+          "set": "FDN",
+          "number": "277"
+        }
+      ],
+      "Sideboard": [
+        {
+          "name": "Zombie // Zombie Knight",
+          "count": 8,
+          "token": true
+        },
+        {
+          "name": "Zombie // The Monarch (helper)",
+          "count": 2,
+          "token": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/foundations-commander-decklists"
+  },
+  {
     "name": "Cats",
     "type": "Jumpstart",
     "category": "halfdeck",
@@ -185014,27 +187286,51 @@
         },
         {
           "name": "Plains",
-          "count": 4,
+          "count": 2,
           "set": "FRA",
-          "number": "*"
+          "number": "281"
+        },
+        {
+          "name": "Plains",
+          "count": 2,
+          "set": "FRA",
+          "number": "282"
         },
         {
           "name": "Island",
-          "count": 3,
+          "count": 2,
           "set": "FRA",
-          "number": "*"
+          "number": "283"
+        },
+        {
+          "name": "Island",
+          "count": 1,
+          "set": "FRA",
+          "number": "284"
         },
         {
           "name": "Swamp",
-          "count": 2,
+          "count": 1,
           "set": "FRA",
-          "number": "*"
+          "number": "285"
+        },
+        {
+          "name": "Swamp",
+          "count": 1,
+          "set": "FRA",
+          "number": "286"
         },
         {
           "name": "Mountain",
-          "count": 2,
+          "count": 1,
           "set": "FRA",
-          "number": "*"
+          "number": "287"
+        },
+        {
+          "name": "Mountain",
+          "count": 1,
+          "set": "FRA",
+          "number": "288"
         }
       ],
       "Sideboard": [
@@ -490723,7 +493019,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/679515",
-    "display": "Has a roughly 7% chance to have a Blueprint artifact card instead of the normal bonus card: [SLD:603-607]."
+    "display": "Also includes foil [SLD:588] Sphere of Safety, with estimated replacement chances of 7% total for foil Blueprints [SLD:603-607] and 2% for foil [SLD:597] Persistent Petitioners."
   },
   {
     "name": "Artist Series: Johannes Voss Foil Edition",
@@ -490765,7 +493061,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/679512",
-    "display": "Has a roughly 7% chance to have a Blueprint artifact card instead of the normal bonus card: [SLD:603-607]."
+    "display": "Also includes foil [SLD:588] Sphere of Safety, with estimated replacement chances of 7% total for foil Blueprints [SLD:603-607] and 2% for foil [SLD:597] Persistent Petitioners."
   },
   {
     "name": "Artist Series: John Avon",
@@ -491205,7 +493501,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/648191",
-    "display": "This drop has a 7% chance to include a blueprint artifact [SLD:603-606], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
+    "display": "This drop has an estimated 7% total chance to include a blueprint artifact [SLD:603-607] instead of the normal bonus card."
   },
   {
     "name": "Artist Series: Mark Poole Foil Edition",
@@ -491261,7 +493557,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647927",
-    "display": "This drop has a 7% chance to include a blueprint artifact [SLD:603-606], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
+    "display": "This drop has an estimated 7% total chance to include a blueprint artifact [SLD:603-607] instead of the normal bonus card."
   },
   {
     "name": "Artist Series: Nils Hamm",
@@ -492016,7 +494312,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/679525",
-    "display": "Also includes one of: foil [SLD:551] Island or nonfoil [SLD:587] Spellskite. Has a roughly 7% chance to have a Blueprint artifact card instead of the normal bonus card: [SLD:603-607]."
+    "display": "Also includes foil [SLD:587] Spellskite, with estimated replacement chances of 7% total for foil Blueprints [SLD:603-607] and 2% for foil [SLD:597] Persistent Petitioners."
   },
   {
     "name": "Artist Series: Thomas Baxa Foil Edition",
@@ -492058,7 +494354,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/679518",
-    "display": "Also includes one of: foil [SLD:551] Island or foil [SLD:587] Spellskite. Has a roughly 7% chance to have a Blueprint artifact card instead of the normal bonus card: [SLD:603-607]."
+    "display": "Also includes foil [SLD:587] Spellskite, with estimated replacement chances of 7% total for foil Blueprints [SLD:603-607] and 2% for foil [SLD:597] Persistent Petitioners."
   },
   {
     "name": "Artist Series: Victor Adame Minguez",
@@ -494926,7 +497222,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/634228",
-    "display": "Also includes one foil stained-glass planeswalker: [SLD:526] Teferi, [SLD:530] Huatli, [SLD:532] Kiora, or [SLD:520] Ajani. All drops from the Dr. Lair's Secretorium Superdrop have a roughly 7% chance to have a Blueprint artifact card instead of their normal bonus card: [SLD:603-607]."
+    "display": "Also includes one foil stained-glass planeswalker: [SLD:526] Teferi, [SLD:530] Huatli, [SLD:532] Kiora, [SLD:520] Ajani, [SLD:525] Tamiyo, or [SLD:529] Dovin. All drops from the Dr. Lair's Secretorium Superdrop have a roughly 7% chance to have a Blueprint artifact card instead of their normal bonus card: [SLD:603-607]."
   },
   {
     "name": "Culture Shocks: Esper",
@@ -495054,7 +497350,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/634216",
-    "display": "Also includes one foil stained-glass planeswalker: [SLD:520] Ajani, [SLD:521] Domri, [SLD:535] Samut, or [SLD:530] Huatli. All drops from the Dr. Lair's Secretorium Superdrop have a roughly 7% chance to have a Blueprint artifact card instead of their normal bonus card: [SLD:603-607]."
+    "display": "Also includes one foil stained-glass planeswalker: [SLD:520] Ajani, [SLD:521] Domri, [SLD:530] Huatli, [SLD:533] Nahiri, or [SLD:535] Samut. All drops from the Dr. Lair's Secretorium Superdrop have a roughly 7% chance to have a Blueprint artifact card instead of their normal bonus card: [SLD:603-607]."
   },
   {
     "name": "Dan Frazier Is Back Again: The Allied Talismans",
@@ -495290,7 +497586,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647961",
-    "display": "All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes nonfoil [SLD:589] Arcane Signet, or a traditional-foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Dan Frazier is Back: The Allied Signets Foil Edition",
@@ -495344,7 +497640,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647909",
-    "display": "All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes etched [SLD:589] Arcane Signet, or a traditional-foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Dan Frazier is Back: The Enemy Signets",
@@ -495388,7 +497684,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647964",
-    "display": "All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes nonfoil [SLD:589] Arcane Signet, or a traditional-foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Dan Frazier is Back: The Enemy Signets Foil Edition",
@@ -495442,7 +497738,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647913",
-    "display": "All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes etched [SLD:589] Arcane Signet, or a traditional-foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Dan Frazier's Mox Box",
@@ -512455,7 +514751,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/648188",
-    "display": "Also includes one foil Jumpstart basic land: [SLD:552] Island, [SLD:556] Swamp, or [SLD:571] Mountain. All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes one foil Jumpstart basic land: [SLD:552] Island, [SLD:556] Swamp, or [SLD:571] Mountain."
   },
   {
     "name": "Mother's Day 2021 Foil Edition",
@@ -512497,7 +514793,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647919",
-    "display": "Also includes one foil Jumpstart basic land: [SLD:552] Island, [SLD:556] Swamp, or [SLD:571] Mountain. All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes one foil Jumpstart basic land: [SLD:552] Island, [SLD:556] Swamp, or [SLD:571] Mountain."
   },
   {
     "name": "Mountain, Go",
@@ -513246,6 +515542,583 @@
     "source": "https://secretlair.wizards.com/us/product/594789"
   },
   {
+    "name": "Odds and Ends",
+    "type": "Commander Deck",
+    "category": "deck",
+    "format": "commander",
+    "set_name": "Secret Lair Drop",
+    "set_code": "sld",
+    "release_date": "2026-09-28",
+    "cards": {
+      "Commander": [
+        {
+          "name": "Yennett, Cryptic Sovereign",
+          "count": 1,
+          "set": "SLD",
+          "number": "2121",
+          "foil": true
+        }
+      ],
+      "Main Deck": [
+        {
+          "name": "Void Winnower",
+          "count": 1,
+          "set": "SLD",
+          "number": "2122",
+          "foil": true
+        },
+        {
+          "name": "Esper Sentinel",
+          "count": 1,
+          "set": "SLD",
+          "number": "2123",
+          "foil": true
+        },
+        {
+          "name": "Reconnaissance",
+          "count": 1,
+          "set": "SLD",
+          "number": "2124",
+          "foil": true
+        },
+        {
+          "name": "Swords to Plowshares",
+          "count": 1,
+          "set": "SLD",
+          "number": "2125",
+          "foil": true
+        },
+        {
+          "name": "Weathered Wayfarer",
+          "count": 1,
+          "set": "SLD",
+          "number": "2126",
+          "foil": true
+        },
+        {
+          "name": "Misleading Signpost",
+          "count": 1,
+          "set": "SLD",
+          "number": "2127",
+          "foil": true
+        },
+        {
+          "name": "Breach the Multiverse",
+          "count": 1,
+          "set": "SLD",
+          "number": "2128",
+          "foil": true
+        },
+        {
+          "name": "Virtue of Persistence // Locthwain Scorn",
+          "count": 1,
+          "set": "SLD",
+          "number": "2129a",
+          "foil": true
+        },
+        {
+          "name": "Shadrix Silverquill",
+          "count": 1,
+          "set": "SLD",
+          "number": "2130",
+          "foil": true
+        },
+        {
+          "name": "Sensei's Divining Top",
+          "count": 1,
+          "set": "SLD",
+          "number": "2131",
+          "foil": true
+        },
+        {
+          "name": "Sol Ring",
+          "count": 1,
+          "set": "SLD",
+          "number": "2132",
+          "foil": true
+        },
+        {
+          "name": "Aboleth Spawn",
+          "count": 1,
+          "set": "PLST",
+          "number": "CLB-662"
+        },
+        {
+          "name": "Adarkar Wastes",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMU-243"
+        },
+        {
+          "name": "Aeon Engine",
+          "count": 1,
+          "set": "PLST",
+          "number": "C19-52"
+        },
+        {
+          "name": "Aerial Extortionist",
+          "count": 1,
+          "set": "PLST",
+          "number": "NCC-11"
+        },
+        {
+          "name": "Aminatou, the Fateshifter",
+          "count": 1,
+          "set": "PLST",
+          "number": "2X2-169"
+        },
+        {
+          "name": "Approach of the Second Sun",
+          "count": 1,
+          "set": "PLST",
+          "number": "Q06-1"
+        },
+        {
+          "name": "Arcane Sanctum",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-259"
+        },
+        {
+          "name": "Arcane Signet",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-127"
+        },
+        {
+          "name": "Brainstorm",
+          "count": 1,
+          "set": "PLST",
+          "number": "MKC-96"
+        },
+        {
+          "name": "Breena, the Demagogue",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-217"
+        },
+        {
+          "name": "Caves of Koilos",
+          "count": 1,
+          "set": "PLST",
+          "number": "DMU-244"
+        },
+        {
+          "name": "Chaos Wand",
+          "count": 1,
+          "set": "PLST",
+          "number": "M19-228"
+        },
+        {
+          "name": "Claim Jumper",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTJ-8"
+        },
+        {
+          "name": "Coalition Relic",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-286"
+        },
+        {
+          "name": "Command Beacon",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-279"
+        },
+        {
+          "name": "Command Tower",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-130"
+        },
+        {
+          "name": "Commander's Sphere",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-244"
+        },
+        {
+          "name": "Contaminated Landscape",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH3-218"
+        },
+        {
+          "name": "Dazzling Sphinx",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-93"
+        },
+        {
+          "name": "Doom Whisperer",
+          "count": 1,
+          "set": "PLST",
+          "number": "MKC-128"
+        },
+        {
+          "name": "Drowned Catacomb",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-290"
+        },
+        {
+          "name": "Enigma Sphinx",
+          "count": 1,
+          "set": "PLST",
+          "number": "C18-178"
+        },
+        {
+          "name": "Ethersworn Sphinx",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH2-195"
+        },
+        {
+          "name": "Evolving Wilds",
+          "count": 1,
+          "set": "PLST",
+          "number": "LCC-328"
+        },
+        {
+          "name": "Exchange of Words",
+          "count": 1,
+          "set": "PLST",
+          "number": "UNF-45"
+        },
+        {
+          "name": "Exotic Orchard",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-131"
+        },
+        {
+          "name": "Extinction Event",
+          "count": 1,
+          "set": "PLST",
+          "number": "IKO-88"
+        },
+        {
+          "name": "Fabled Passage",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLB-252"
+        },
+        {
+          "name": "Fatespinner",
+          "count": 1,
+          "set": "PLST",
+          "number": "MRD-36"
+        },
+        {
+          "name": "Fractured Identity",
+          "count": 1,
+          "set": "PLST",
+          "number": "C17-37"
+        },
+        {
+          "name": "Glacial Fortress",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-307"
+        },
+        {
+          "name": "Imprisoned in the Moon",
+          "count": 1,
+          "set": "PLST",
+          "number": "INR-69"
+        },
+        {
+          "name": "Inniaz, the Gale Force",
+          "count": 1,
+          "set": "PLST",
+          "number": "JMP-12"
+        },
+        {
+          "name": "Isolated Chapel",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-301"
+        },
+        {
+          "name": "Jeskai Infiltrator",
+          "count": 1,
+          "set": "PLST",
+          "number": "FRF-36"
+        },
+        {
+          "name": "Leadership Vacuum",
+          "count": 1,
+          "set": "PLST",
+          "number": "C19-9"
+        },
+        {
+          "name": "Loran of the Third Path",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-143"
+        },
+        {
+          "name": "Marvo, Deep Operative",
+          "count": 1,
+          "set": "PLST",
+          "number": "MKC-7"
+        },
+        {
+          "name": "Master of Predicaments",
+          "count": 1,
+          "set": "PLST",
+          "number": "M15-67"
+        },
+        {
+          "name": "Mirage Mirror",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-300"
+        },
+        {
+          "name": "Myriad Landscape",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-289"
+        },
+        {
+          "name": "Mystic Gate",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-359"
+        },
+        {
+          "name": "Nadir Kraken",
+          "count": 1,
+          "set": "PLST",
+          "number": "MKC-112"
+        },
+        {
+          "name": "Oubliette",
+          "count": 1,
+          "set": "PLST",
+          "number": "2XM-100"
+        },
+        {
+          "name": "Path of Ancestry",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-322"
+        },
+        {
+          "name": "Planeswalker's Mischief",
+          "count": 1,
+          "set": "PLST",
+          "number": "PLS-29"
+        },
+        {
+          "name": "Ponder",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-73"
+        },
+        {
+          "name": "Prairie Stream",
+          "count": 1,
+          "set": "PLST",
+          "number": "MKC-281"
+        },
+        {
+          "name": "Profane Transfusion",
+          "count": 1,
+          "set": "PLST",
+          "number": "CMR-145"
+        },
+        {
+          "name": "Promise of Loyalty",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-148"
+        },
+        {
+          "name": "Psychic Battle",
+          "count": 1,
+          "set": "PLST",
+          "number": "INV-68"
+        },
+        {
+          "name": "Rapid Hybridization",
+          "count": 1,
+          "set": "PLST",
+          "number": "CLU-93"
+        },
+        {
+          "name": "Reliquary Tower",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-295"
+        },
+        {
+          "name": "Shared Fate",
+          "count": 1,
+          "set": "PLST",
+          "number": "MRD-49"
+        },
+        {
+          "name": "Silent Clearing",
+          "count": 1,
+          "set": "PLST",
+          "number": "MH1-246"
+        },
+        {
+          "name": "Skyclave Apparition",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-154"
+        },
+        {
+          "name": "Skyclave Relic",
+          "count": 1,
+          "set": "PLST",
+          "number": "MOC-380"
+        },
+        {
+          "name": "Smuggler's Share",
+          "count": 1,
+          "set": "PLST",
+          "number": "NCC-21"
+        },
+        {
+          "name": "Soothsaying",
+          "count": 1,
+          "set": "PLST",
+          "number": "MMQ-104"
+        },
+        {
+          "name": "Space Beleren",
+          "count": 1,
+          "set": "PLST",
+          "number": "UNF-178"
+        },
+        {
+          "name": "Sunken Hollow",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-325"
+        },
+        {
+          "name": "Swift Reconfiguration",
+          "count": 1,
+          "set": "PLST",
+          "number": "NEC-10"
+        },
+        {
+          "name": "Talisman of Progress",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-313"
+        },
+        {
+          "name": "Temple of Deceit",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-307"
+        },
+        {
+          "name": "Temple of Enlightenment",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-308"
+        },
+        {
+          "name": "Temple of Silence",
+          "count": 1,
+          "set": "PLST",
+          "number": "DSC-312"
+        },
+        {
+          "name": "Terramorphic Expanse",
+          "count": 1,
+          "set": "PLST",
+          "number": "BLC-345"
+        },
+        {
+          "name": "Thief of Sanity",
+          "count": 1,
+          "set": "PLST",
+          "number": "OTC-243"
+        },
+        {
+          "name": "Time Stop",
+          "count": 1,
+          "set": "PLST",
+          "number": "FDN-166"
+        },
+        {
+          "name": "Toxrill, the Corrosive",
+          "count": 1,
+          "set": "PLST",
+          "number": "VOW-132"
+        },
+        {
+          "name": "Underground River",
+          "count": 1,
+          "set": "PLST",
+          "number": "BRO-267"
+        },
+        {
+          "name": "Vega, the Watcher",
+          "count": 1,
+          "set": "PLST",
+          "number": "KHM-233"
+        },
+        {
+          "name": "Venser's Journal",
+          "count": 1,
+          "set": "PLST",
+          "number": "C21-273"
+        },
+        {
+          "name": "Vesuvan Drifter",
+          "count": 1,
+          "set": "PLST",
+          "number": "MAT-10"
+        },
+        {
+          "name": "Wayfarer's Bauble",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-315"
+        },
+        {
+          "name": "Yavimaya, Cradle of Growth",
+          "count": 1,
+          "set": "PLST",
+          "number": "M3C-409"
+        },
+        {
+          "name": "Plains",
+          "count": 4,
+          "set": "SLD",
+          "number": "2116",
+          "foil": true
+        },
+        {
+          "name": "Island",
+          "count": 4,
+          "set": "SLD",
+          "number": "2117",
+          "foil": true
+        },
+        {
+          "name": "Swamp",
+          "count": 4,
+          "set": "SLD",
+          "number": "2118",
+          "foil": true
+        }
+      ]
+    },
+    "source": "https://magic.wizards.com/en/news/announcements/secret-lair-commander-deck-odds-and-ends-decklist"
+  },
+  {
     "name": "Oishii! Tokens オイシイ！ トークン",
     "type": "Secret Lair Drop",
     "category": "box",
@@ -513935,7 +516808,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/648184",
-    "display": "This drop has a 7% chance to include a blueprint artifact [SLD:603-606], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
+    "display": "This drop has an estimated 7% total chance to include a blueprint artifact [SLD:603-607], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
   },
   {
     "name": "Phyrexian Praetors: Compleat Edition Foil Edition",
@@ -513984,7 +516857,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647916",
-    "display": "This drop has a 7% chance to include a blueprint artifact [SLD:603-606], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
+    "display": "This drop has an estimated 7% total chance to include a blueprint artifact [SLD:603-607], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
   },
   {
     "name": "Pick 'em & Stick 'em",
@@ -516518,7 +519391,7 @@
       ]
     },
     "source": "https://mtg.wiki/wiki/Secret_Lair_Drop_Series:_All-Natural,_Totally_Refreshing_Superdrop",
-    "display": "All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes nonfoil [SLD:591] Crash Through, or a traditional-foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Saturday Morning D&D Foil Edition",
@@ -516574,7 +519447,7 @@
       ]
     },
     "source": "https://mtg.wiki/wiki/Secret_Lair_Drop_Series:_All-Natural,_Totally_Refreshing_Superdrop",
-    "display": "All drops in the All Natural, Totally Refreshing superdrop have a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of their normal bonus card."
+    "display": "Also includes foil [SLD:591] Crash Through, or a traditional-foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Secret Lair High: Class of '87",
@@ -517905,7 +520778,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/634210",
-    "display": "Also includes one foil Jumpstart basic land: [SLD:549] Island, [SLD:547] Plains, [SLD:557] Island, or [SLD:566] Mountain. All drops from the Dr. Lair's Secretorium Superdrop have a roughly 7% chance to have a Blueprint artifact card instead of their normal bonus card: [SLD:603-607]."
+    "display": "Also includes one foil land from [SLD:547,549,553,555,566,568], or a foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Showcase: Strixhaven Foil Edition",
@@ -517961,7 +520834,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/634213",
-    "display": "Also includes one foil Jumpstart basic land: [SLD:549] Island, [SLD:547] Plains, [SLD:557] Island, or [SLD:566] Mountain. All drops from the Dr. Lair's Secretorium Superdrop have a roughly 7% chance to have a Blueprint artifact card instead of their normal bonus card: [SLD:603-607]."
+    "display": "Also includes one foil land from [SLD:547,549,553,555,566,568], or a foil Blueprint [SLD:603-607] (estimated 7% total)."
   },
   {
     "name": "Showcase: The Lost Caverns of Ixalan",
@@ -518720,7 +521593,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647958",
-    "display": "Also includes one foil Jumpstart basic land: [SLD:544] Plains, [SLD:551] Island, or [SLD:569] Mountain]. This drop has a 7% chance to include a blueprint artifact [SLD:603-606], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
+    "display": "Also includes one foil Jumpstart basic land: [SLD:544] Plains, [SLD:551] Island, or [SLD:569] Mountain. This drop has an estimated 7% total chance to include a blueprint artifact [SLD:603-607] instead of the normal bonus card."
   },
   {
     "name": "Special Guest: Jen Bartel Foil Edition",
@@ -518762,7 +521635,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/647897",
-    "display": "Also includes one foil Jumpstart basic land: [SLD:544] Plains, [SLD:551] Island, or [SLD:569] Mountain]. This drop has a 7% chance to include a blueprint artifact [SLD:603-606], and a very rare chance to include a serialized, mirrored [SLD:VS] Viscera Seer instead of the normal bonus card."
+    "display": "Also includes one foil Jumpstart basic land: [SLD:544] Plains, [SLD:551] Island, or [SLD:569] Mountain. This drop has an estimated 7% total chance to include a blueprint artifact [SLD:603-607] instead of the normal bonus card."
   },
   {
     "name": "Special Guest: Junji Ito",
@@ -525917,7 +528790,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/696655",
-    "display": "Has a roughly 5% to include either a foil Blueprint artifact [SLD:603-607] or foil [SLD:595] Persistent Petitioners instead of the normal bonus card."
+    "display": "Also includes foil [SLD:550] Island or foil [SLD:560] [SLD:562] Swamp, with estimated replacement chances of 7% total for foil Blueprints [SLD:603-607] and 2% for foil [SLD:598] Persistent Petitioners."
   },
   {
     "name": "Welcome to Castle Dracula Foil Edition",
@@ -525952,7 +528825,7 @@
       ]
     },
     "source": "https://secretlair.wizards.com/us/product/696654",
-    "display": "Has a roughly 5% to include either a foil Blueprint artifact [SLD:603-607] or foil [SLD:595] Persistent Petitioners instead of the normal bonus card."
+    "display": "Also includes foil [SLD:550] Island or foil [SLD:560] [SLD:562] Swamp, with estimated replacement chances of 7% total for foil Blueprints [SLD:603-607] and 2% for foil [SLD:598] Persistent Petitioners."
   },
   {
     "name": "Welcome to the Fungal",
