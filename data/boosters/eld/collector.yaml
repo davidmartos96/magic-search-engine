@@ -1,0 +1,104 @@
+# data from https://magic.wizards.com/en/news/making-magic/project-booster-fun-2019-07-20
+# and https://www.lethe.xyz/mtg/collation/eld.html
+# Assumptions:
+# No data for distribution of commons/uncommons
+# - assumed to follow distribution of Set boosters in https://mtg.wiki/wiki/Set_Booster
+# - with one extra guaranteed common and one guaranteed uncommon
+# Nonfoil showcase rarity layouts follow the Collation Project observations.
+# Their sample frequencies estimate production odds; they are not official rates.
+# Within the rare/mythic sheet the existing 2:1 convention remains estimated.
+# No data for relative rarity of ancillary cards
+# - Cards are not nicely distributed, so used bonus sheet 8/4/2/1 rates
+# Languages, per https://magic.wizards.com/en/news/making-magic/project-booster-fun-2019-07-20:
+# "The Collector Booster is currently only being printed in English and Japanese."
+languages: en, jp
+
+pack:
+  common_or_uncommon:
+  - foil_common: 7
+    foil_uncommon: 2
+    chance: 350
+  - foil_common: 6
+    foil_uncommon: 3
+    chance: 400
+  - foil_common: 5
+    foil_uncommon: 4
+    chance: 125
+  - foil_common: 4
+    foil_uncommon: 5
+    chance: 70
+  - foil_common: 3
+    foil_uncommon: 6
+    chance: 35
+  - foil_common: 2
+    foil_uncommon: 7
+    chance: 20
+  showcase_layout:
+  - showcase_rare_mythic: 2
+    showcase_common: 1
+    chance: 1
+  - showcase_rare_mythic: 1
+    showcase_uncommon: 1
+    showcase_common: 1
+    chance: 1
+  - showcase_rare_mythic: 1
+    showcase_common: 2
+    chance: 3
+  - showcase_uncommon: 2
+    showcase_common: 1
+    chance: 4
+  - showcase_uncommon: 1
+    showcase_common: 2
+    chance: 4
+  - showcase_common: 3
+    chance: 7
+  ancillary: 1
+  rm_extended: 1
+  foil_rare_mythic: 1
+sheets:
+  # Reconstructed Collector sheets have one of each normal and showcase printing.
+  foil_common:
+    foil: true
+    balanced: false
+    rawquery: "e:{set} r:c (is:baseset or promo:boosterfun)"
+    count: 115
+  foil_uncommon:
+    foil: true
+    rawquery: "e:{set} r:u (is:baseset or promo:boosterfun)"
+    count: 89
+  showcase_common:
+    rawquery: "e:{set} r:c promo:boosterfun"
+    count: 14
+  showcase_uncommon:
+    rawquery: "e:{set} r:u promo:boosterfun"
+    count: 9
+  showcase_rare_mythic:
+    filter: "e:{set} promo:boosterfun -frame:extendedart"
+    use: rare_mythic
+  ancillary:
+    # C/U/R/M rates guessed to be at 8x/4x/2x/1x multiples
+    filter: "e:{set} -promo:boosterfun number>=303 -frame:inverted"
+    use: base_1248_by_rarity
+  rm_extended:
+    filter: "e:{set} frame:extendedart"
+    use: rare_mythic
+  # The alternate-art Bundle promo (392) is not part of the Collector pool.
+  # https://magic.wizards.com/en/news/card-preview/throne-eldraine-promos-2019-09-20
+  foil_rare_mythic:
+    foil: true
+    any:
+    - query: "r:r"
+      count: 53
+      rate: 4
+    - rawquery: "e:{set} r:r promo:boosterfun"
+      count: 53
+      rate: 2
+    - query: "r:m"
+      count: 15
+      rate: 2
+    - rawquery: "e:{set} r:m promo:boosterfun"
+      count: 15
+      rate: 1
+    - rawquery: "e:{set} r:m -promo:boosterfun number>=304 -frame:inverted"
+      count: 6
+      rate: 2

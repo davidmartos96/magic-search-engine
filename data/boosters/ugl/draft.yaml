@@ -1,0 +1,49 @@
+# Sheet multiplicities: https://www.lethe.xyz/mtg/collation/ugl.html
+# Marginal weights only; common and uncommon runs are not simulated.
+# Estimate a token replacing one uncommon in 2/5 packs from the reconstructed sheet.
+pack:
+- basic: 1
+  common: 6
+  uncommon: 2
+  rare: 1
+  chance: 3
+- basic: 1
+  common: 6
+  uncommon: 1
+  rare: 1
+  token: 1
+  chance: 2
+sheets:
+  # Record tokens separately; export is deferred until MTGJSON v6.
+  token:
+    ignore: true
+    any:
+    - token: Pegasus
+      chance: 4
+    - token: Soldier
+      chance: 4
+    - token: Zombie
+      chance: 4
+    - token: Goblin
+      chance: 4
+    - token: Sheep
+      chance: 3
+    - token: Squirrel
+      chance: 3
+  common:
+    balanced: false
+    any:
+    - query: 'r:c (name="Chaos Confetti" or name="Chicken Egg" or name="Elvish Impersonators" or name="Fowl Play" or name="Free-Range Chicken" or name="Goblin Bookie" or name="Growth Spurt" or name="Hurloon Wrangler" or name="Knight of the Hokey Pokey" or name="Mesa Chicken" or name="Poultrygeist")'
+      count: 11
+      rate: 4
+    - query: 'r:c -(name="Chaos Confetti" or name="Chicken Egg" or name="Elvish Impersonators" or name="Fowl Play" or name="Free-Range Chicken" or name="Goblin Bookie" or name="Growth Spurt" or name="Hurloon Wrangler" or name="Knight of the Hokey Pokey" or name="Mesa Chicken" or name="Poultrygeist")'
+      count: 22
+      rate: 3
+  rare:
+    any:
+    - query: 'r:r (name="Ashnod''s Coupon" or name="Strategy, Schmategy")'
+      count: 2
+      rate: 3
+    - query: 'r:r -(name="Ashnod''s Coupon" or name="Strategy, Schmategy")'
+      count: 26
+      rate: 4

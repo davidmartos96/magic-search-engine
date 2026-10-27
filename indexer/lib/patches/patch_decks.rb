@@ -35,6 +35,7 @@ class PatchDecks < Patch
       deck["tokens"].push *section_cards.select{|card| card["token"]}.map{|token| format_token(token)}
       section_cards = section_cards.reject{|card| card["token"]}
       section_cards = section_cards.flat_map{|card| resolve_printing(deck, card) }.compact
+      next if section_cards.empty? and section_name == "Tokens" # already taken care of above
 
       case section_name
       when "Main Deck", "Commander", "Sideboard", "Planar Deck", "Display Commander", "Scheme Deck"

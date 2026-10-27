@@ -20,7 +20,7 @@ describe "Formats" do
     assert_search_results "f:extended" # We never supported it, see "unknown format warns"
     assert_search_equal_cards "f:standard",
       %[
-        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl,tmt,sos,msh,hob
+        e:woe,lci,mkm,otj,big,blb,dsk,fdn,dft,tdm,fin,eoe,spm,tla,ecl,tmt,sos,msh,hob,fra
         -(Cori-Steel Cutter)
         -(Abuelo's Awakening)
         -(Monstrous Rage)
@@ -454,7 +454,7 @@ describe "Formats" do
   end
 
   it "restricted:*" do
-    assert_search_equal "restricted:*", "restricted:vintage or restricted:duel or restricted:unsets or restricted:historic or restricted:timeless or restricted:alchemy or restricted:commander"
+    assert_search_equal "restricted:*", "restricted:vintage or restricted:duel or restricted:unsets or restricted:historic or restricted:timeless or restricted:alchemy or restricted:commander or restricted:\"Competitive Brawl\""
   end
 
   it "legal:*" do

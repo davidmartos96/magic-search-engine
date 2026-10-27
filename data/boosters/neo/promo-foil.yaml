@@ -1,0 +1,19 @@
+# https://media.wizards.com/2022/downloads/promo_packs/NEO_Promo_Pack_02092022.pdf
+# Seasonal rare/mythic weights use the 2:1 per-card convention where applicable.
+# Other sheets use estimated equal per-card weights; exact collation is unpublished.
+# The Arena code is not a gameplay card.
+name: '{set_name} Foil Promo Pack'
+pack:
+  seasonal: 1
+  curated: 1
+  dark_frame: 1
+sheets:
+  seasonal:
+    use: neo-promo.seasonal
+    foil: true
+  curated:
+    use: neo-promo.curated
+    foil: true
+  dark_frame:
+    use: neo-promo.dark_frame
+    foil: true

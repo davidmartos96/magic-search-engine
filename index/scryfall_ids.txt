@@ -35027,6 +35027,7 @@ fra	99	18c59d60-2640-4576-9375-3ba38aa3ecb7	Budding Insurgent
 fra	100a	79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45	Carnivorous Cultivator
 fra	100b	79dd5c54-5ea5-47b5-8f9b-50ed57a5ea45	Enroot
 fra	101	bd32d736-7a58-46b9-90b4-2cac3c3e80a1	Compel Brutality
+fra	101b	e8f47203-40a9-4a2c-8440-c0354f894c61	Compel Brutality
 fra	102	f71958e9-6d6d-4393-8b49-567103b50877	Flourishing Grapple
 fra	103	930b89c3-4433-48de-829f-20fc3dbfced9	Gardenize
 fra	104	a56e0f91-b128-4693-a949-53cb403f4fbf	Greenhouse Propagator
@@ -53372,6 +53373,21 @@ md1	23	2854b2aa-5fa7-41c1-81c9-c2df8f6a7bfa	Duress
 md1	24	9057835d-3d5c-4daf-af96-3b6ea749b12e	Kataki, War's Wage
 md1	25	e48e2da3-8597-48c2-8287-f0264a7788c7	Dismember
 md1	26	ad9fd015-02b6-482b-a93d-c9489e18df10	Ghost Quarter
+mdc	399	60b48730-3590-4c8c-b0e8-6007bb36d6b6	Gargantos, the Endbringer
+mdd	28	7082199e-318e-4e4e-9102-61e79af8a10c	Penance Stare
+mdd	92	fca11cb7-0896-4927-8f11-0e9dec2de416	The Darkhold
+mdd	106a	7750d4bb-0463-43fd-bdf3-a14271cace20	Hela, Mistress of Darkness
+mdd	106b	7750d4bb-0463-43fd-bdf3-a14271cace20	Dark Tutor
+mdd	107	738f0bc9-075c-45de-a1c3-7509b8bdb55b	Hela's Arcanum
+mdd	161	bccc5d74-f9bf-4a75-9a45-e2a32f5651f1	Rise from the Nether
+mdd	242a	60e252e3-88ea-49f2-a14f-ae9d0712bafe	Magik, Illyana Rasputin
+mdd	242b	60e252e3-88ea-49f2-a14f-ae9d0712bafe	Darkchild, Demon Uncaged
+mdd	288	2369ddb5-fa0b-46a0-a393-f213ec86818d	Temple of Khonshu
+mdd	292	09ac862f-0a51-44dd-b86f-9412b8218b13	Plains
+mdd	294	1335d293-3dd2-4f13-bd2c-22181f4528ee	Island
+mdd	296	b233b117-9369-45c1-80c5-cc857386b6be	Swamp
+mdd	298	85177bd7-6c50-48da-b692-ae5fe7bd357c	Mountain
+mdd	301	2e781bfd-f8cb-4d20-b977-4359f3a21311	Forest
 me1	1	2dcaea36-52fb-4c71-a4f1-5c060b918ff1	Angry Mob
 me1	2	0fa5725c-fcf8-4f84-9093-75b454b4755f	Animate Wall
 me1	3	0e765567-4f45-4571-aa20-0d127fc522e0	Argivian Archaeologist
@@ -62618,6 +62634,8 @@ neo	179	6eba24f6-8a9c-4398-b2ab-3924b107c7b7	Coiling Stalker
 neo	180	a35ff4dd-bad3-4496-82b3-8253f48af06d	Commune with Spirits
 neo	181a	2534caaa-a793-415f-977f-1d0fac3642ab	The Dragon-Kami Reborn
 neo	181b	2534caaa-a793-415f-977f-1d0fac3642ab	Dragon-Kami's Egg
+neo	181†a	a19f069c-b112-4a73-8303-709771d86b55	The Dragon-Kami Reborn
+neo	181†b	a19f069c-b112-4a73-8303-709771d86b55	Dragon-Kami's Egg
 neo	182	55174ab7-9f2e-42e5-a61b-57458cfd33f3	Fade into Antiquity
 neo	183	2dd0fef1-209f-4de5-a736-8f9bca2faa0a	Fang of Shigeki
 neo	184	1013266a-81f4-4441-8dcf-2764d14afceb	Favor of Jukai
@@ -67532,18 +67550,34 @@ pbfz	247p	23a48f4a-96eb-47bd-9384-3bcc959a7c4b	Smoldering Marsh
 pbfz	247s	bfe9d050-04eb-41a8-ae4a-fadca3fac250	Smoldering Marsh
 pbfz	249p	290a9dc5-1067-48c1-99e5-f3b7b5230b52	Sunken Hollow
 pbfz	249s	367fae2b-9128-4df8-a42b-3ea03d0b9345	Sunken Hollow
+pbig	1p	7aea5c46-0416-4187-8c29-1a1287b45c86	Collector's Cage
 pbig	2p	7527e053-ce28-4979-9cec-267e4e17e28d	Grand Abolisher
+pbig	3p	5fb31aa3-4676-4283-a92d-22f2e4a59203	Oltec Matterweaver
+pbig	4p	52b551ad-5e9c-45b3-85d8-bf25a4eff424	Rest in Peace
+pbig	5p	2253aa1b-0fc1-47f9-9454-81f2c9e89f33	Esoteric Duplicator
 pbig	6p	d55b6a43-8961-4bbb-bd4a-c6c7d29f7234	Simulacrum Synthesizer
 pbig	7p	54a5deb8-7439-40b2-84bc-95dbde805d22	Worldwalker Helm
+pbig	8p	6b07fbdc-ceb1-4041-a118-079fe740cc77	Greed's Gambit
 pbig	9p	25214514-61db-4c0c-b472-98d8860b8617	Harvester of Misery
+pbig	10p	3f03a070-e0ea-4160-b13e-41e5ba56497f	Hostile Investigator
 pbig	11p	27083f9c-25c0-4f32-947a-08b976d0b06c	Generous Plunderer
+pbig	12p	e3ad416a-6b64-4e2e-8b3d-842895ca71e1	Legion Extruder
+pbig	13p	5502504f-7d5d-4a2f-b0f3-7dbc7d0078b3	Memory Vessel
 pbig	14p	1083552e-8002-486d-b23c-93f2c317a6f9	Molten Duplication
+pbig	15p	bcab5421-a7c6-4239-b85f-6057fd766b57	Territory Forge
+pbig	16p	42dd82f0-fc54-4f4e-9278-fa3c02bd27a9	Ancient Cornucopia
+pbig	17p	3dc25553-048a-4c50-9806-f093288b62f7	Bristlebud Farmer
 pbig	18p	61f4a9a5-ef16-41d0-af79-fe470912ad91	Omenpath Journey
 pbig	19p	20619a08-1d10-4e55-a174-20d6b8097538	Sandstorm Salvager
 pbig	20p	3ff26cbe-eb5d-444b-9de2-51dd85d0a492	Vaultborn Tyrant
+pbig	21p	e7b0f06a-0992-4e1b-8a36-7ae300e643a8	Loot, the Key to Everything
+pbig	22p	08bb3cc3-b335-40b7-9150-744963e8d7da	Pest Control
+pbig	23p	ff0a04b9-87fe-4c32-8ff8-f30f32ff01eb	Lost Jitte
 pbig	24p	0a378317-92de-4117-b3b5-70773fc17a6c	Lotus Ring
+pbig	25p	b6686690-e11f-4540-8b7b-b5d265d43007	Nexus of Becoming
 pbig	26p	7c801275-226e-43a0-8440-cfe8ef717b03	Sword of Wealth and Power
 pbig	27p	922ff3b1-abd5-47e8-a930-49ade8299eae	Torpor Orb
+pbig	28p	ea6d528b-4d2b-40ed-b15f-04f670d56ab7	Transmutation Font
 pbig	29p	bf5c3883-ca22-4850-9721-d1acb16acbd8	Fomori Vault
 pbig	30p	b6ef413a-467a-4f54-a2c7-06baecd5f310	Tarnation Vista
 pblb	2p	ff94a960-f9f4-4787-a844-b02837a2ec0b	Beza, the Bounding Spring
@@ -69809,6 +69843,10 @@ pf26	10	974900db-87c4-4d39-8687-90ca7a8b6dda	Atraxa, Praetors' Voice
 pf26	11	a3339ab7-ca25-48cf-89b8-20373237dda4	Bicycle Elemental
 pf26	12	3cd456d7-a4a1-46e4-bb3f-731debba260c	Fact or Fiction
 pf26	13	2f13f65f-7322-4716-8394-c2ab65713557	Explore
+pf26	14	054bc037-d998-4751-bb54-bbe879a62e71	Dance of the Dead
+pf26	15	3789b4d8-f168-43a5-804a-7a99fdf75b37	Tana, the Bloodsower
+pf26	16	144f04ea-6a74-4021-848b-f4bc4dc5ee27	Tymna the Weaver
+pf26	17	2647ed1a-53c0-4158-8de4-b8f99940a9c4	Auspicious Aquarium
 pf27	1	37d275d1-5ec7-4168-af2c-16b4e08aef08	Farseek
 pfdn	1	120e2b4b-afc7-4bf0-a09f-568e08f6bd8f	Sol Ring
 pfdn	1p	aed8a937-577f-4841-9eb3-44ac3aad0654	Sire of Seven Deaths
@@ -70032,6 +70070,102 @@ pfin	286sb	c7adec62-2093-4782-8d69-c5d60b561534	Reactor Raid
 pfin	289s	7cf8d52a-d503-4285-a909-380c3c619f91	Starting Town
 pfin	293sa	42788e7f-6db5-4a62-882d-0f8f74a94e32	Zanarkand, Ancient Metropolis
 pfin	293sb	42788e7f-6db5-4a62-882d-0f8f74a94e32	Lasting Fayth
+pfra	1p	7dc79a36-4b54-4dfb-9ff0-e4265741efa0	Emrakul, the Exigent Doom
+pfra	5p	16ce2a80-f711-40de-a6bb-c142c239bd51	Enlightened Confidant
+pfra	7p	a52af69b-f061-4db8-b566-1f48be50f7f0	Flickering Hound
+pfra	9p	bb768d4c-f749-4dc7-acef-48e082c873f0	Germinate Recruits
+pfra	11p	25065b92-a1e7-4d8a-bfbc-3c4a2ab6c874	Guiding Hydra
+pfra	13p	1d95514a-5838-4a08-987b-609355b6497c	Kindred Judgment
+pfra	14p	7157a599-7691-4b87-b772-fcdc23a193fc	Loyal Tutor
+pfra	19p	ac69d662-fcbf-451a-aa5c-2f5912c4b6c2	Repurposed Enforcer
+pfra	20p	119165c9-322f-4a69-840a-f5cddfeeec45	Return to the Light Realms
+pfra	26p	1c550340-db0e-4e5c-813d-527b3690c36d	Cruel Calculations
+pfra	28pa	fb4b2fbe-77af-49ec-825e-dd2203b4b302	Diviner of Victory
+pfra	28pb	fb4b2fbe-77af-49ec-825e-dd2203b4b302	Unwind History
+pfra	32p	da316700-4a6f-4f45-8d5d-032cca28ee70	Jace's Machinations
+pfra	38p	ce553ca7-9f49-4a9a-a16c-711b24b5434f	Seasoned Cryomancer
+pfra	40p	a0348c3f-e2b5-4d8e-968d-3d9c4f109dc4	Sphinx of False Conclusions
+pfra	43p	df84f2d5-51ae-4fec-a9c1-e791f972173a	The Theorist, Jace Beleren
+pfra	44p	bc21bbc1-8d05-4b0f-9bce-dcce4302400d	Theorist's Proxy
+pfra	47pa	605c9415-b723-4483-be51-e51c1ffc0d5a	Variable Chaser
+pfra	47pb	605c9415-b723-4483-be51-e51c1ffc0d5a	Arc of Fortune
+pfra	49pa	545db49d-ee24-496b-8c00-443af20b1066	Bloodline Recollector
+pfra	49pb	545db49d-ee24-496b-8c00-443af20b1066	Ancestral Craving
+pfra	52p	812e4717-99ae-4ebd-8109-2ca4551d2060	Dark Matter Manipulator
+pfra	53p	ff193682-f66a-4a6e-a422-bc43a2d1e959	Darklight Phoenix
+pfra	55p	67afbbe5-9a2a-4296-a156-66a3000ce1dc	Extrapolate the Impossible
+pfra	57p	f6c83e21-892d-478b-9ee1-4e724cb6ca0b	Lich's Relic
+pfra	59p	f262542a-61bc-4622-b6fb-c579bbd56a3d	Overwrite the Multiverse
+pfra	63p	c6029326-36b7-4af0-8fe9-bcd006d6b553	Rise of the Deathbringer
+pfra	64p	8ca50dfe-e558-41d5-98c9-38b9c4291f63	Sanctum Lurker
+pfra	71p	92ae3d06-9b54-4269-9421-1f69da3cc7e5	Vraska's Final Mercy
+pfra	72p	a2da8b64-a397-409f-91c8-b6aed72f4251	Ajani's Anguish
+pfra	78p	68e537d1-6605-4735-9026-035a2027880b	Craterclaw Colossus
+pfra	79p	20e84ef6-d340-4584-977e-92bf2754388b	Curse-Marred Demon
+pfra	80p	df97239b-8512-46d3-8cbd-6221c609a86b	Draconic Visitor
+pfra	83p	3b562944-fb68-40b3-bbd4-4d119f3223b6	Face Yourself
+pfra	87p	ac8da09c-8160-4625-a873-6e4f005a7105	Identity Echo
+pfra	88p	2256823c-2b25-4865-865d-e2ff27f71b16	Master of Barbs
+pfra	90pa	d6eee9e7-8767-4091-9e1c-9b0bd5c9e0d7	Pompous Battlemage
+pfra	90pb	d6eee9e7-8767-4091-9e1c-9b0bd5c9e0d7	Improvised Act
+pfra	91pa	80154fd8-3faf-44df-9684-ddc66ddba2a2	Pyre Rhymer
+pfra	91pb	80154fd8-3faf-44df-9684-ddc66ddba2a2	Molten Tide
+pfra	93p	fc2fe97a-0656-4e95-a6af-a213782223e6	Stingcaster Mage
+pfra	100pa	c914af64-4d68-4286-9c7d-d3083da4cb17	Carnivorous Cultivator
+pfra	100pb	c914af64-4d68-4286-9c7d-d3083da4cb17	Enroot
+pfra	103p	890dc355-4242-4efc-b22f-84edcfd5d3bd	Gardenize
+pfra	106p	8aa902a7-a361-4207-b32c-45a2a3420eca	Hexhaven Invigorator
+pfra	107p	06431087-23a2-4953-bdae-6ec2024057b3	Hungering Puppetbeast
+pfra	110p	4450cc32-67bf-4fa2-a964-6c773f1e5e46	Omnipresence
+pfra	111p	fdcf1619-e6fa-4d22-a0d1-5895558f2604	Puppet Crafting
+pfra	113p	9d9dc5a8-d06b-442f-8670-da867ee018ef	Simulacrum Shaper
+pfra	116p	99ccf95f-ddd1-4b37-a6ee-f05a9af17349	Tarmogoyf
+pfra	118p	3209ea5d-cb05-4221-be7d-78a858edb88b	Verdant Kraken
+pfra	121p	11a8a337-bbe3-44e7-98c1-8375a768d71a	Aerid Konstrari
+pfra	122p	e480f7c4-b0fb-4ab3-b8cb-e24e63aee8e5	Avatar of Burgeoning Echoes
+pfra	128p	164dfa18-9342-4a88-b51f-b5a4a241252b	Denzilore Fatehold
+pfra	131p	336274de-da19-4dca-9ff0-71184c9a5d0e	Entrust the Spark
+pfra	135p	82b56e68-cd18-42f5-b71a-2962d1a59967	Frostbite Pyromental
+pfra	137p	351cf161-0408-4409-8368-38f761959f90	Ingris Stingerquill
+pfra	140p	662bf0f2-132f-40f0-8abb-922893cf3cf3	Kwia Vigorbloom
+pfra	142p	6365b7a2-9aae-4246-8d3f-033235f9d425	Null Summoner
+pfra	145p	cb4c28a5-83de-49ef-8f85-8dbfe23599e3	Proctor of Potential
+pfra	148p	95fa2b79-ae2c-4386-b46a-10c4775dcaa7	Solarium Sentry
+pfra	149p	6e64bec3-564b-4400-896c-00cc41c17d36	Solitary Cell
+pfra	152p	b6b706e0-746e-406c-9be0-8cb1663ccef5	Stinging Vitriol
+pfra	154p	2cb06a4f-d39c-4d35-b338-b44bc36aaf09	Tenured Tethermage
+pfra	159p	affff524-e64d-4d41-8b52-8b0a68ece2dc	Uldaros Theorix
+pfra	162p	e2a0c0e3-c693-455c-a489-65c712691378	Vindictive Triumph
+pfra	168p	54cea30a-aa05-40d6-9942-4c52964dbb3a	Codie, Ravenous Codex
+pfra	169p	9dc49504-4287-41de-9f0d-37decf47c178	The Echoverse Fulcrum
+pfra	176p	913ec23f-02b0-4ccb-804a-2d678d8fb024	Deserted Beach
+pfra	179p	fbcdea19-8087-4315-8573-66c3dfdb6ee0	Hall of Echoes
+pfra	180p	e4ef0a0d-7c65-49dd-901f-e1a3a52abe48	Haunted Ridge
+pfra	185p	de1324eb-e748-485c-a2fc-79af95cfd5ca	Overgrown Farmland
+pfra	186p	68ddd864-ab23-419d-b778-c77104b255ef	Rockfall Vale
+pfra	187p	c5a14023-d67b-44d6-b830-22a9387af599	Roiling Canopy
+pfra	189p	1aea300d-7ac2-4faa-b9fd-d25a892a31e5	Shipwreck Marsh
+pfra	191p	9b4a1b5c-1c7e-454e-ace8-e1a6b9b630b9	Theorist's Sanctum
+pfra	195p	46074aa4-89bb-4f97-bc39-738d8a723130	Ajani Resolute
+pfra	198p	9ce01017-2982-4d67-9a4e-bd71e5671c48	Gideon's Memorial
+pfra	200p	10ac126c-d3bf-413d-98e5-82bfe474f0d4	Liliana the Faultless
+pfra	201p	9fbdad8b-7fac-4d1e-876a-9e91ce114705	Lyra, Archangel of Dawn
+pfra	212p	eb3119cb-c5f7-4c3e-a40d-81b335b1d79d	Chandra, Chill of Compliance
+pfra	216p	3fb1f1d8-4676-4853-b496-b88df8912780	Jace, Reality Sculptor
+pfra	217p	16f845e3-8d6f-4457-883a-2ea362bd6c80	Lyra, Tolarian Archangel
+pfra	220p	89d40d7c-35d5-41b6-abdc-2ef251c39719	Samut, Tyrant of Naktamun
+pfra	229p	14b2c004-f37b-4db0-b224-307bad862b07	Garruk, Veiled Butcher
+pfra	230p	fa1c1ee8-c2ce-4be7-b017-c9d59c65cc92	Gideon the Oathless
+pfra	231p	519c9c8e-bb70-40d3-a832-89fa12fb422c	Liliana the Repentant
+pfra	242p	b78c173a-e57a-4573-bfe4-bc5a741dc753	Ajani Unrelenting
+pfra	244p	bed0bd7c-b46e-4187-be31-cf4c6664ac82	Chandra, Torch of Defiance
+pfra	251p	8a49f0f6-81d8-4161-a6b8-14d1817af2ca	Samut, Hazoret's Champion
+pfra	259p	c93b2aef-46e4-4261-a6fe-0accb277370f	Garruk, Curse Breaker
+pfra	272p	b8ff5dfd-894b-42e8-b658-0c65eb04ecf0	Karn, Gilded Guardian
+pfra	276p	bbb3e4a3-42ff-40b6-9428-1faa4f1b1fdd	Tam, the Possibility
+pfra	277p	1d504bb1-d8ed-4be5-be36-3f071c2f88bc	Vraska, Soul of Stone
+pfra	278p	a29d33b2-cabf-4623-8729-576a9a588781	Vraska, the Cutting Glare
+pfra	279p	7401018a-068b-42ca-a718-fde107492640	Karn, Argent Defender
 pfrf	9s	948f595c-4e7a-4109-8e8d-a3a92d125744	Daghatar the Adamant
 pfrf	11	6daabdc2-e8a8-41a6-a9f0-1973d9c31d39	Dragonscale General
 pfrf	11s	dc2d84b1-c6db-43af-ba8f-b9b90ceee1a3	Dragonscale General
@@ -73426,6 +73560,7 @@ plst	BLB-185	7e14c396-53d1-48a7-8756-e4535e19ddf9	Overprotect
 plst	BLB-188	7714d80b-175c-4f5f-9266-b980dad0370b	Peerless Recycling
 plst	BLB-215	50113a1f-4b6f-4d4c-a753-9b533a949e6f	Glarb, Calamity's Augur
 plst	BLB-234	a377f72b-cb3e-4bc3-bff7-615c8fe3f5bb	Stormcatch Mentor
+plst	BLB-252	84d63b9c-d820-4903-a892-16be1141e267	Fabled Passage
 plst	BLB-253	c2ff06c7-6731-45db-acf5-704634de825f	Fountainport
 plst	BLB-31	b2fc2f41-ed7b-4a78-bff7-38cf3acbc56e	Shrike Force
 plst	BLB-379	6a17d68d-6dd8-4d4c-a959-6bbf3760d8ac	Bria, Riptide Rogue
@@ -73434,9 +73569,15 @@ plst	BLB-70	8f79af02-e436-4cd7-af5f-c8b23b265131	Shoreline Looter
 plst	BLB-95	2da370b7-0765-4151-9212-33d297d5b2a6	Fell
 plst	BLC-11	f3afb862-c156-495b-a0df-4c4ed0bbc869	Perch Protection
 plst	BLC-121	ef5793d2-58e7-4da2-9777-8db45abc09c0	Prosperous Innkeeper
+plst	BLC-127	5a34240b-92fd-4e53-89ef-36cb968ed0bd	Arcane Signet
 plst	BLC-129	3b6a6593-b08f-4627-99a5-45d68f6e1c59	Sol Ring
 plst	BLC-13	34fb2206-241a-46c6-9f48-af72119ee8bd	Tempt with Bunnies
+plst	BLC-130	0f4b203f-7df6-47e2-aa52-3a802ab0fb3a	Command Tower
+plst	BLC-131	34140807-3029-46ed-b008-10b0e5c7b9dd	Exotic Orchard
+plst	BLC-143	10dc06d8-02bf-4227-b6c3-a2bda8df3878	Loran of the Third Path
 plst	BLC-147	02bfeace-61d9-4db3-ae48-87334151a496	Path to Exile
+plst	BLC-148	66ee6102-2490-4469-8237-ac58bf0ede03	Promise of Loyalty
+plst	BLC-154	5865cede-e19e-4132-8060-862b00c1052a	Skyclave Apparition
 plst	BLC-16	1b3de0d8-5911-4743-8623-010f12c2055b	Twenty-Toed Toad
 plst	BLC-184	9de7bac4-7a4b-4c69-a850-39d2d31d31e1	Nadier's Nightblade
 plst	BLC-205	d75a8f9b-e16c-496c-80a2-6fc857e9d159	Arasta of the Endless Web
@@ -73446,10 +73587,13 @@ plst	BLC-237	4a6d7336-6713-442b-a10d-a357f306b604	Shamanic Revelation
 plst	BLC-244	a118951d-89c4-492b-a7b6-75bd6efd6ca0	Toski, Bearer of Secrets
 plst	BLC-277	0fca2f74-d220-47f1-964a-a4cd6e096fbf	Idol of Oblivion
 plst	BLC-286	a118b473-0898-4c3c-8d5c-ffa95a0c2987	Swiftfoot Boots
+plst	BLC-307	ff07df55-dadf-45ac-bd21-41aa58909c22	Glacial Fortress
+plst	BLC-322	48e56000-5f03-431a-bc1f-7359aaf439c1	Path of Ancestry
 plst	BLC-33	0739248e-a76f-4713-84ab-95a0f8c15f4f	Scurry of Squirrels
 plst	BLC-334	8ba06faa-01b5-4939-b790-97fd26b22584	Sungrass Prairie
 plst	BLC-335	a6ee978a-1cde-4661-bfe0-4c0d24211fa1	Sunpetal Grove
 plst	BLC-343	ba751c9b-d6a1-40d4-b74c-b8d0e511eeaa	Temple of Plenty
+plst	BLC-345	28c2c62c-3767-42b1-bdb7-e8769fe6d543	Terramorphic Expanse
 plst	BLC-6	89459624-9c34-4456-82ec-f425ce7b402a	Mr. Foxglove
 plst	BNG-116	ffb4429d-ff97-46d9-8ae0-5382c8ce6594	Archetype of Endurance
 plst	BNG-144	4376c2bc-ab3b-45be-8b09-01af6a8e986d	Chromanticore
@@ -73504,6 +73648,7 @@ plst	BRO-204	9345f5ff-3020-4a81-b3a5-4d0b38ef1fc5	Rust Goliath
 plst	BRO-214	ca1142d6-9420-4b01-885a-1e9423705ddc	Junkyard Genius
 plst	BRO-249	70368627-457c-4169-a56f-c955b344bcb9	Su-Chi Cave Guard
 plst	BRO-259	6de242ab-fab3-43f0-b8b4-6f323109eeaf	Brushland
+plst	BRO-267	904f3dc9-8935-4982-be62-6d5d5dd79b97	Underground River
 plst	BRO-30	2743b855-4db0-4334-a68b-496f2285de31	Tocasia's Welcome
 plst	BRO-79	7e45ff7b-9e1b-41d0-8247-05a503ed2fa0	Hulking Metamorph
 plst	C13-101	cbb35164-bf7e-4b6b-ab83-1c95465fe5fa	Blood Rites
@@ -73654,6 +73799,7 @@ plst	C17-272	bd7c49d3-a0c7-4df3-b732-53e4f562c201	Rogue's Passage
 plst	C17-31	9f067c0a-a9f1-4afd-b2b5-da07b2650f32	Hungry Lynx
 plst	C17-33	aad24af7-119d-42fd-9246-e559336fb63d	Qasali Slingers
 plst	C17-34	43e5b269-14ef-4b47-8cca-92a132d9eea2	Traverse the Outlands
+plst	C17-37	c2fbca4a-c7a9-4faf-bb4e-d28e66042dc3	Fractured Identity
 plst	C17-49	c7e64fad-909d-474b-8f2f-7a8d1e8aa607	Wasitora, Nekoru Queen
 plst	C17-5	cebd4f09-122c-47aa-8975-f971faf269fa	Kindred Boon
 plst	C17-52	0fc611aa-9418-41c1-ad6d-f2232b3c35c0	Heirloom Blade
@@ -73689,6 +73835,7 @@ plst	C18-163	30b07d5a-0934-4373-bec3-518e9d81ca59	Spawning Grounds
 plst	C18-165	4ffdc806-876a-4403-bab2-c7350da4bf4a	Wild Growth
 plst	C18-166	3ef804c8-281b-411a-8908-ecbf80c455cd	Yavimaya Elder
 plst	C18-174	d5158343-febf-43d0-80e2-a30a27a9c49b	Deathreap Ritual
+plst	C18-178	835e569b-93ef-40a8-89fe-6b40c8adb866	Enigma Sphinx
 plst	C18-179	6804aa61-c2f7-4cd9-a348-8313a4305b5e	Esper Charm
 plst	C18-185	e2718058-16d5-49cb-8b05-b7a39ce7aa62	Maverick Thopterist
 plst	C18-186	8d29e7a2-bcb3-41d0-b467-2a6263bf5223	Mortify
@@ -73748,7 +73895,9 @@ plst	C19-270	f5fc17a9-4e12-40b1-b08a-0322bbcf8718	Rogue's Passage
 plst	C19-33	9476de52-c9d0-4161-bdb9-7818153db0c2	Ohran Frostfang
 plst	C19-42	85aac278-aade-4130-89a5-1a59357f62af	Ghired, Conclave Exile
 plst	C19-46	345f0b32-d897-48ae-9a17-a5927301d18b	Marisi, Breaker of the Coil
+plst	C19-52	a9802aee-912f-438c-a91f-cadeae6e9add	Aeon Engine
 plst	C19-54	b21548a7-ef2c-4002-97f3-73266a5ad5f5	Empowered Autogenerator
+plst	C19-9	d1869426-3dad-4ffb-8ddb-e018f02d6d68	Leadership Vacuum
 plst	C19-92	862269d1-5866-4923-92e9-b252cf13df0c	Reality Shift
 plst	C20-14	4e1c84fa-b7a5-4931-911e-ec97d048e137	Shabraz, the Skyshark
 plst	C20-146	bc1d3b9c-6376-48a6-b890-519e978379fe	Chaos Warp
@@ -73784,6 +73933,7 @@ plst	C21-24	64710da7-b3b3-45e5-bce2-ba5cc5aa3e43	Curiosity Crafter
 plst	C21-26	3192dba9-111a-4005-9e33-cb8a2337501b	Deekah, Fractal Theorist
 plst	C21-263	38d347b7-dc17-417a-ab07-29fe99b9a101	Sol Ring
 plst	C21-269	35805e27-fc26-4eb1-943c-f5b6c2185e03	Talisman of Creativity
+plst	C21-273	94eceb0c-8c59-45b7-9caa-6f6027733e73	Venser's Journal
 plst	C21-284	6576ee65-45e4-4291-a10a-8631366f0e8f	Command Tower
 plst	C21-286	db790b02-0a85-4e1b-8837-56aaf57fc25e	Desert of the Fervent
 plst	C21-288	6287b2e4-d2d3-4ba4-abc9-b2525dd726d7	Exotic Orchard
@@ -73938,6 +74088,7 @@ plst	CLU-23	671cfe88-a213-4889-aaae-5be1e00ccff0	Afterlife Insurance
 plst	CLU-27	5a7c5405-a20c-4385-b91c-7bda787533c2	Conclave Evangelist
 plst	CLU-40	ebef5888-2fbc-4e4d-89de-9e3ffa5c875f	Portal Manipulator
 plst	CLU-45	cc6ac6a0-9920-472a-9366-5bb9aaf50496	Sumala Rumblers
+plst	CLU-93	1dd85561-28b9-464c-a1b5-81c3a43a4f38	Rapid Hybridization
 plst	CLU-99	8802b461-95a8-4739-8178-6c50837946b8	Slip Out the Back
 plst	CM2-11	fa39bace-fc76-478d-b8f7-db75a59091fd	Ikra Shidiqi, the Usurper
 plst	CM2-110	7b736af8-d3d4-46e0-b3a1-6951a095d03a	Ingot Chewer
@@ -74080,6 +74231,7 @@ plst	CMR-122	bd1c8d48-a527-4bbe-898a-fc70f6f63cce	Exquisite Huntmaster
 plst	CMR-126	fd2dfe68-9bd9-40de-ba99-3452f755bf6f	Falthis, Shadowcat Familiar
 plst	CMR-13	3a42c6f1-2663-4ab7-9adc-6632cdaa8333	Benevolent Blessing
 plst	CMR-130	58cf44c6-f748-44b6-b123-8571034c1756	Gilt-Leaf Winnower
+plst	CMR-145	67d5197d-031d-4b6b-8aa2-be34d6ca2d9c	Profane Transfusion
 plst	CMR-153	08768cf1-872c-40c5-87cb-e58d4cff8f50	Tevesh Szat, Doom of Fools
 plst	CMR-16	f89995b9-5409-4d3a-9518-7a4354b9d02f	Court of Grace
 plst	CMR-160	312a2a8d-2d84-4c4b-b2c4-cbc4e8300312	Alena, Kessig Trapper
@@ -74544,6 +74696,8 @@ plst	DMU-212	b21f14ea-95b4-4fdf-ab8b-a96eaa5ca4d6	Raff, Weatherlight Stalwart
 plst	DMU-213	517a2fa0-1f95-4509-ad56-bcba463e625d	Ratadrabik of Urborg
 plst	DMU-224	0e7acfb7-cf8b-41f2-9cb0-49d14899312f	Tura Kennerüd, Skyknight
 plst	DMU-236	4f4bfcf3-55c7-4d5b-9e4a-bc7a574126b4	Relic of Legends
+plst	DMU-243	7b06c8a8-6e6d-40a2-b843-e3d6aac3f399	Adarkar Wastes
+plst	DMU-244	04936a6a-d032-411e-a18f-ee9ef2293a29	Caves of Koilos
 plst	DMU-246	2a3c8b7d-0b85-4e5c-acc4-253406deef27	Crystal Grotto
 plst	DMU-257	9fa456c9-d813-4854-8525-fe1fc31b731a	Sunlit Marsh
 plst	DMU-27	18e6aa5e-84df-4fb2-8a52-5065383445d5	Phyrexian Missionary
@@ -74654,7 +74808,15 @@ plst	DRC-66	b490dbbc-8f73-409d-b293-bce8429d8f20	God-Eternal Oketra
 plst	DRK-21	5e253dbc-10b3-4f0e-9bdf-9187b19a7132	Apprentice Wizard
 plst	DSC-106	7430b1e0-b91d-412b-8b0c-d480c3ce4165	Swords to Plowshares
 plst	DSC-170	c7161eee-f99e-4a2d-8848-911ca73c21c5	Ashaya, Soul of the Wild
+plst	DSC-244	9d6fa4ca-8e5c-4f24-8287-88e825ebaceb	Commander's Sphere
+plst	DSC-259	af8c6d4d-8db6-4be6-a496-0743b3530383	Arcane Sanctum
+plst	DSC-289	bafabaa6-7a36-4cb3-81e5-c7bfa87c61e2	Myriad Landscape
+plst	DSC-295	ed0ac581-ec60-42c6-b802-fc4729d50774	Reliquary Tower
 plst	DSC-300	007d53d3-3fb7-4ca5-8195-203fb96fafa7	Spinerock Knoll
+plst	DSC-307	646a980c-9226-412a-ba58-c2b52a721c99	Temple of Deceit
+plst	DSC-308	6fc87136-b602-4b96-830e-3262998959f0	Temple of Enlightenment
+plst	DSC-312	f87aedfe-b5b6-4f97-b58d-da0144443e28	Temple of Silence
+plst	DSC-73	b1951e0a-893c-4c89-93c7-601b579acb1d	Ponder
 plst	DSC-86	f15dcc65-db39-42a5-b643-8b4c4ae93f42	Deathreap Ritual
 plst	DSC-96	e11a301d-27a3-4306-82e8-9e9b0b437415	Command Tower
 plst	DSK-112	41465f25-9c17-4bda-8825-0318c6a46868	Osseous Sticktwister
@@ -75060,6 +75222,7 @@ plst	EXO-99	ebcdc648-b401-4c1c-9f5a-5aea8cfc9bf0	Sabertooth Wyvern
 plst	FDN-106	93b61024-9f0e-4976-bb63-b0eb37595ca5	Loot, Exuberant Explorer
 plst	FDN-135	814bc057-dc2d-4630-86d2-6dfaadeba4c7	Ajani's Pridemate
 plst	FDN-16	43a3e85d-16f8-40bf-ae63-8415188c87e5	Helpful Hunter
+plst	FDN-166	7691542e-c92d-4e2c-b3c7-cb340ce6c2aa	Time Stop
 plst	FDN-33	d13809a1-2f08-45a9-b622-b8ee1f93e146	Clinquant Skymage
 plst	FDN-47	d8ee0690-d44f-4aa6-b815-3ccc99d18c3b	Mischievous Mystic
 plst	FDN-535	ebb84e38-57cd-4539-99e7-c4e319d16314	Dragon Fodder
@@ -75094,6 +75257,7 @@ plst	FRF-26	0fcc772e-da73-4a60-ab9b-8b558ac320ec	Soul Summons
 plst	FRF-27	979cadd4-082e-42a6-b762-26008b7df593	Soulfire Grand Master
 plst	FRF-3	9df457a4-6329-4047-8b0d-391418000cb3	Abzan Runemark
 plst	FRF-34	6b23b3f9-d363-4113-a477-ea8ff86ee6e3	Fascination
+plst	FRF-36	b92419ef-f1a2-42b0-9f77-85c5572f62c8	Jeskai Infiltrator
 plst	FRF-38	59faca44-2a97-4202-8840-314b5ddabece	Jeskai Sage
 plst	FRF-47	429e0b02-94ec-4fab-9a69-a39ccc839c96	Refocus
 plst	FRF-52	c512849e-a336-47a9-a3cf-8b9e7a0558ab	Shu Yun, the Silent Tempest
@@ -75384,6 +75548,7 @@ plst	IKO-59	3cb641de-1804-4e0d-a067-eefca11ad6bf	Neutralize
 plst	IKO-61	067f24df-7018-45c8-bd67-1336b3672bb3	Ominous Seas
 plst	IKO-73	7ad20d37-575d-490e-bf04-91323a35e89d	Bastion of Remembrance
 plst	IKO-75	66f85809-812b-4156-950a-116e347cef09	Blood Curdle
+plst	IKO-88	b11f0049-41c7-4e9a-bd0c-19cae1ed9e78	Extinction Event
 plst	IKO-90	37e0b920-7caf-4ae0-aaa4-6593a25f4634	Grimdancer
 plst	IKO-91	ec166c2f-b70f-4598-afee-c2df1177e452	Heartless Act
 plst	IMA-101	1515b0e0-ef8f-43c7-8097-ca7eba4fd44a	Ob Nixilis, the Fallen
@@ -75468,6 +75633,7 @@ plst	INR-137	563b1d02-5c84-4af5-ab9f-29a04409bbb3	Village Rites
 plst	INR-36	11cd2e1c-c2f0-4790-ad65-409b3d967a85	Odric, Lunarch Marshal
 plst	INR-43	43febad0-208f-4d17-ba91-56123b983faa	Subjugator Angel
 plst	INR-50	53f70ada-935d-4c46-bb37-8093b679dcf2	Voice of the Blessed
+plst	INR-69	9da0e2e3-e7bb-409a-a58b-293361595ccc	Imprisoned in the Moon
 plst	INR-71	192db6da-37cd-4842-87d5-8b90c351a671	Laboratory Maniac
 plst	INR-77	2e0e7d39-85b1-4a7c-b6d9-005af96c0f6d	Mystic Retrieval
 plst	INR-97	45b6d1f8-a470-4471-bd4f-bed31cb4d344	Blood Artist
@@ -75508,6 +75674,7 @@ plst	INV-53	052c771c-20e9-4973-a62b-89dc634d8d9d	Dream Thrush
 plst	INV-54	8babf73f-9a21-4ce2-893a-45f36edd6cf0	Empress Galina
 plst	INV-60	6d557908-b2b5-4993-89bd-1977c9be9195	Manipulate Fate
 plst	INV-66	0a396152-0b6d-4b5e-8dcd-4d77df0b7ae4	Probe
+plst	INV-68	b7188655-508f-4803-9fd8-0dba3d226249	Psychic Battle
 plst	INV-84	312952da-8855-4248-b060-0d025fee1c88	Vodalian Hypnotist
 plst	ISD-122	6ebaca2a-796a-4abe-95c2-d4afeefb3ffe	Unburial Rites
 plst	ISD-129	11ec63a8-6cc7-44f0-9947-c9ff361ca0c8	Balefire Dragon
@@ -75550,6 +75717,7 @@ plst	J25-54	9ed9f270-4da6-439e-b13a-70da6e7f424a	Shroofus Sproutsire
 plst	J25-556	5eacb8b6-996d-4fbe-89d7-bf070ace4f3f	Goblin Dark-Dwellers
 plst	J25-590	ab0a2925-281a-4466-9c96-48438cdc6561	Renegade Tactics
 plst	JMP-10	82f70920-94ca-4cc6-9ad7-bc2f28d6b615	Bruvac the Grandiloquent
+plst	JMP-12	01aa7fc8-f9be-485c-bc9c-dc4019d1d1a5	Inniaz, the Gale Force
 plst	JMP-13	9592b69f-87c0-4bad-a0af-ffdf50e99c09	Ormos, Archive Keeper
 plst	JMP-15	9c5d5ff8-a2ad-4356-a45e-602f253a1ddf	Kels, Fight Fixer
 plst	JMP-154	ca9d37a5-a37f-4d7e-81ed-a33abef0b22a	Kira, Great Glass-Spinner
@@ -75833,6 +76001,7 @@ plst	LCC-235	e903f265-a644-421f-a956-b470831d94fd	Cultivate
 plst	LCC-242	204476df-d5b1-4d0b-b0d3-a4c3fc7efcab	Farseek
 plst	LCC-297	25a4781e-401d-4a1c-b81f-095bb579d63b	Zara, Renegade Recruiter
 plst	LCC-321	79ca8982-826a-4c23-9e3a-04721d2e6466	Canopy Vista
+plst	LCC-328	513a97a3-dfdd-4e32-9c4c-3d174d797963	Evolving Wilds
 plst	LCC-71	a0b21a6d-5f3c-41e3-b994-42a6a7af538f	Elenda's Hierophant
 plst	LCI-132	bc49a9d1-9c5f-4a80-bab8-767f6d3b75e2	Ancestors' Aid
 plst	LCI-142	8976c2bd-ac7a-4e25-be17-1099a104626b	Daring Discovery
@@ -76063,6 +76232,7 @@ plst	M15-54	c706a6b4-32cb-4fe9-97f5-289f8c499ae8	Ensoul Artifact
 plst	M15-57	168d8225-c23f-40b1-9bcd-f321c370afcc	Glacial Crasher
 plst	M15-6	70f88c0d-47d6-4ae4-87bf-b20d33dcc926	Congregate
 plst	M15-61	4ad1dc5c-ed9f-44a9-bd39-1d7498d01cd8	Invisibility
+plst	M15-67	d62ea584-2b80-4a0d-83ba-fb13c34e4924	Master of Predicaments
 plst	M15-69	3800ca73-99ee-49bb-ac8a-ccb55c5c25eb	Military Intelligence
 plst	M15-7	22f28d37-c013-41b3-b7cc-55c10e22f5a8	Constricting Sliver
 plst	M15-70	17665a33-f2f3-4647-8fe7-73a2b6f86c3b	Mind Sculpt
@@ -76109,6 +76279,7 @@ plst	M19-212	89943e56-0fb0-4de3-bb3a-94b1a016d7e3	Arcades, the Strategist
 plst	M19-215	93a225d0-9e03-4a93-8e6d-a7a20b38bb63	Draconic Disciple
 plst	M19-223	4f910c5b-3de9-40e8-a1d5-dfe6b3725404	Satyr Enchanter
 plst	M19-225	85f99ec3-5ab9-43a6-ae92-2501f04d6b6c	Vaevictis Asmadi, the Dire
+plst	M19-228	2a9ae558-e6cd-4cf6-b204-8ff6f6914d0a	Chaos Wand
 plst	M19-231	e2a4cdab-5dd7-4119-bfdc-21980db58058	Diamond Mare
 plst	M19-235	6f730cc5-828a-4015-a33b-a6c86a50e477	Fountain of Renewal
 plst	M19-241	2add2ff0-4412-4710-aff7-ed82b1f684a8	Meteor Golem
@@ -76241,15 +76412,22 @@ plst	M3C-213	9bc97501-93ed-4235-bfe7-745ac57653da	Grenzo, Havoc Raiser
 plst	M3C-238	cac29a5e-7f06-4d9d-9ee8-14dd525e2c54	Poison Dart Frog
 plst	M3C-246	513d6a59-77fd-4a97-82c3-beebc1e7946f	Selvala, Heart of the Wilds
 plst	M3C-272	bf60850a-0390-475e-b23f-171632e09625	Sire of Stagnation
+plst	M3C-286	3d1b788e-c982-42f8-9076-20fccb820228	Coalition Relic
 plst	M3C-297	f8692db5-6f2d-4330-9e23-1c3246898a35	Idol of Oblivion
+plst	M3C-300	fc57bd2a-785c-4025-b713-f07c204c68c0	Mirage Mirror
+plst	M3C-313	45e6f929-be9f-4b24-af3b-fae185693a4d	Talisman of Progress
+plst	M3C-315	a0eac775-5652-406e-9a06-8d20d693098c	Wayfarer's Bauble
 plst	M3C-316	66782316-c1c5-47dc-a693-f4c213ee0834	Adarkar Wastes
 plst	M3C-324	808c2748-65c5-407f-bb09-1e82dd1a4efb	Brushland
 plst	M3C-343	bd75c360-931e-4bce-8e25-dd1d361efcc3	Forgotten Cave
 plst	M3C-351	ca558afb-e5ff-43f9-8726-272d77e2cc50	Karplusan Forest
+plst	M3C-359	aeede3be-9191-4f74-81d8-f487b5658315	Mystic Gate
 plst	M3C-362	35bc5710-4bcb-4194-bde5-c8f6fc032a15	Overflowing Basin
 plst	M3C-363	34353930-c69b-4ef3-a6d5-c2e6673ea132	Path of Ancestry
 plst	M3C-368	064e88cb-b9ae-4b70-a788-7a0c2e215f1c	Reliquary Tower
+plst	M3C-409	ef59fa4b-a116-431c-a946-31007f0f034d	Yavimaya, Cradle of Growth
 plst	M3C-96	8a256374-7a0d-4ae2-9c9b-fb962a6d9fc4	Silverquill Lecturer
+plst	MAT-10	98593ef6-6aff-406d-9d35-d4e4e4fd7dc2	Vesuvan Drifter
 plst	MAT-12	958cf449-5d60-4da9-bfb5-8f38ab11189e	Blot Out
 plst	MAT-14	56c533bf-00d9-4f85-841d-f5c20b003e08	Markov Baron
 plst	MAT-18	edcdb196-2483-452d-844c-96381ba51b93	Plargg and Nassari
@@ -76325,6 +76503,7 @@ plst	MH1-221	1db211da-8abd-4644-b337-338b4c2ff08d	Birthing Boughs
 plst	MH1-222	3588cfcb-ad86-410e-8025-b5668833a754	Farmstead Gleaner
 plst	MH1-23	b1b59747-e168-4ae7-aa3b-f532b9617b94	Reprobation
 plst	MH1-235	5f5edfc7-3281-4240-bc14-fbd4bbe9ae82	Universal Automaton
+plst	MH1-246	ebe3272f-93ad-4042-b782-3d37eac37266	Silent Clearing
 plst	MH1-25	aa1f36b4-53b7-46df-a46b-1376e631e92c	Segovian Angel
 plst	MH1-27	b393e931-ebcb-415c-b182-2b0f389ae45a	Settle Beyond Reality
 plst	MH1-29	2814559a-434b-4316-821d-ad3ec5f5ef8f	Sisay, Weatherlight Captain
@@ -76367,6 +76546,7 @@ plst	MH2-172	91323e4a-4fd3-44c6-b124-277901fb8aae	Scurry Oak
 plst	MH2-180	1163fe84-c5d5-42c8-b7cd-d206a9b0bd3f	Tireless Provisioner
 plst	MH2-186	1514e8f1-3c94-42f0-8f61-7c2856227e57	Asmoranomardicadaistinaculdacar
 plst	MH2-191	3a695520-157e-41fb-a38a-82cce9ba0ad4	Combine Chrysalis
+plst	MH2-195	c05ba178-e1dd-4fed-a8f8-44f52902d57b	Ethersworn Sphinx
 plst	MH2-197	e228dffa-8fa2-4f6a-9b44-493eeb9b1cf1	Garth One-Eye
 plst	MH2-202	9569e624-fec3-41af-a54b-50869730673a	Grist, the Hunger Tide
 plst	MH2-204	0286f92c-f153-4035-b31e-b6d05f53ea06	Lonis, Cryptozoologist
@@ -76415,6 +76595,7 @@ plst	MH3-165	edff0f40-4157-49e0-9370-aad2acf9e1fa	Path of Annihilation
 plst	MH3-169	47e67eae-f4c8-405c-810b-2fb58e7e75a6	Six
 plst	MH3-208	5095db22-3eb2-4c1c-bf22-72096b648cf3	Writhing Chrysalis
 plst	MH3-215	7230f119-b663-483c-aa9b-eb22259fcc2d	Arena of Glory
+plst	MH3-218	5f7f2661-b37e-4588-bb48-89f0fbd0ed69	Contaminated Landscape
 plst	MH3-263	45903917-5a7f-4e91-9722-7d5795d47ebe	Decree of Justice
 plst	MH3-295	77cc4574-acc0-4f03-bd3b-af7a47f19053	Ruby Medallion
 plst	MH3-35	ef11d887-10f5-491d-b6f2-49310cc55a62	Metastatic Evangel
@@ -76494,15 +76675,20 @@ plst	MIR-83	dc3bdc82-937b-4894-9438-253df83aa627	Power Sink
 plst	MIR-89	d53bc07f-4882-4623-922a-5d19fd02abf7	Sapphire Charm
 plst	MIR-90	065e88db-bdba-449b-ab99-b33fff43e0d0	Sea Scryer
 plst	MIR-94	317dc527-bd20-423f-8953-b00d409b501d	Suq'Ata Firewalker
+plst	MKC-112	81690a2f-29a7-4476-a245-e6c8a9d19757	Nadir Kraken
+plst	MKC-128	b2d2d1eb-628f-49ba-bb61-ce94a0d98fad	Doom Whisperer
 plst	MKC-185	489f0453-0a7b-466f-8d90-3137db5c2bc5	Saryth, the Viper's Fang
 plst	MKC-223	49175b73-d09a-43cb-bc89-fba82b5ccc1b	Arcane Signet
 plst	MKC-270	f7f8cbda-be92-4f14-a626-81682544612f	Kher Keep
 plst	MKC-274	9d217acd-3939-473f-82ed-e3ca33d7c08a	Mossfire Valley
+plst	MKC-281	5158b6ab-15c2-4abb-93ce-e07d7ca74d4b	Prairie Stream
 plst	MKC-288	eb5aeb6d-0e02-4441-9c5f-ec0889d77e39	Seaside Citadel
 plst	MKC-297	d373d63c-6de6-4ec6-91bf-4f681fefec65	Sungrass Prairie
 plst	MKC-310	caf2dc02-9989-4e5f-8b9b-76ff416f8070	War Room
 plst	MKC-56	c3eb6c28-cf67-4d27-924d-4e44395662de	Austere Command
+plst	MKC-7	1356512e-6ec1-4d1a-85dc-681e2c776741	Marvo, Deep Operative
 plst	MKC-8	6c22504f-45a4-41b1-9e75-63712162f55b	Sophia, Dogged Detective
+plst	MKC-96	42a87213-2210-418a-9c48-562c80093a96	Brainstorm
 plst	MKM-105	c013c731-18d9-490d-8940-bbf21c6a38bd	Snarling Gorehound
 plst	MKM-122	36945b10-c129-4284-9ee4-5ec4172c9baf	Demand Answers
 plst	MKM-167	35987b9f-3cdc-4ccb-beb7-e87a8f1b4e3d	A Killer Among Us
@@ -76710,6 +76896,7 @@ plst	MOC-306	651b834e-b39c-4833-8b2f-6456ac06062c	Kodama's Reach
 plst	MOC-332	26988a0e-fdaa-48df-8a9c-b37c97f85f64	Knights of the Black Rose
 plst	MOC-372	041cb2b9-4435-426c-a639-f1e81fab5180	Replicating Ring
 plst	MOC-379	cb3d9604-ed75-49b6-be67-bd66cddaa971	Skullclamp
+plst	MOC-380	e3160e30-2e25-4ceb-9224-5ddca7342f0d	Skyclave Relic
 plst	MOC-390	a76c5afb-9572-457a-9242-f9b56a182859	Arcane Sanctum
 plst	MOC-406	fe0dbf31-79b1-4c8a-ba24-8ed3730724bf	Gavony Township
 plst	MOC-412	e29cd7be-b6b3-4f04-9951-b25bb1b94eef	Krosan Verge
@@ -76793,6 +76980,8 @@ plst	MRD-95	be4fff3d-4267-404f-a62f-744fa396af17	Grab the Reins
 plst	MRD-99	54b1faf8-5b77-4ed8-92e3-a95afcf84e96	Mass Hysteria
 plst	MUL-12	04f0f06a-9768-4c32-ac2f-fd54b650b111	Tetsuko Umezawa, Fugitive
 plst	NCC-10	bd2d7f1e-5409-4d1a-ad13-587b0607a9aa	Tivit, Seller of Secrets
+plst	NCC-11	2d270018-fd57-444b-a58d-9bc993ce1005	Aerial Extortionist
+plst	NCC-21	b835e0c3-7d63-402e-8752-7e55e974b777	Smuggler's Share
 plst	NCC-210	3399b285-3d38-43d4-b017-e1752ddd19f7	Sun Titan
 plst	NCC-217	93a78e9a-33ff-44d2-91d7-1f190996ceb9	Daring Saboteur
 plst	NCC-247	e9263fc4-f9f5-447a-a055-eeec80ba387e	Disciple of Bolas
@@ -76810,6 +76999,7 @@ plst	NCC-419	821e64c6-58d1-4601-95a7-bff517465148	Path of Ancestry
 plst	NCC-48	b17e1dd2-b26d-4169-a6c4-fe4f1e5c8a35	Life of the Party
 plst	NCC-73	082193bc-51fc-4140-ace5-04b89049b66a	Jolene, the Plunder Queen
 plst	NCC-9	b04ddd08-b1eb-4100-b0a2-62bee5d89c20	Phabine, Boss's Confidant
+plst	NEC-10	e0dc555a-b8cd-45f8-b6af-4860c0e37e8c	Swift Reconfiguration
 plst	NEC-111	4a76aa6e-e92a-4e31-b062-cc9a1a341a57	Taurean Mauler
 plst	NEC-121	8aec1f69-dae8-47a0-940f-643a4988d30b	Loyal Guardian
 plst	NEC-21	5f21d1d1-9500-48c6-bf26-3bcd0c2c732e	Komainu Battle Armor
@@ -77139,14 +77329,20 @@ plst	OTC-165	5aeda464-e71e-4e89-b355-237680bc1a7b	Faithless Looting
 plst	OTC-171	d9e8f74a-fb7d-4291-b3c0-72c1796f3c70	Impulsive Pilferer
 plst	OTC-181	dd408ccb-3578-4729-82a7-8a61af0fd32e	Storm-Kiln Artist
 plst	OTC-184	3f56133a-d9b1-4fc9-8d4e-8d9941039f07	Volcanic Torrent
+plst	OTC-217	0cde880b-ecd7-4f1c-a851-c52304b68e85	Breena, the Demagogue
+plst	OTC-243	7709fa8a-82cd-4ffe-a033-731c550c694f	Thief of Sanity
 plst	OTC-244	ecf68113-d9ca-4c0a-826f-986459ce0018	Third Path Iconoclast
 plst	OTC-252	a660543c-4d8d-4c4a-8135-3a3edbabcb47	Arcane Signet
+plst	OTC-279	f0ccfbe0-f0bc-4f1e-bab7-a1fc0e6dcf82	Command Beacon
 plst	OTC-280	4e23958a-191a-4108-a3c9-2ec6cadc241d	Command Tower
 plst	OTC-282	01dc71d4-b443-4580-b16f-9e92750f4a72	Darkwater Catacombs
+plst	OTC-290	af99bfed-6e42-41b8-b57c-f15c2e861d57	Drowned Catacomb
 plst	OTC-293	8ab4331e-6284-412f-954e-a87bd2a3c632	Exotic Orchard
+plst	OTC-301	fe5c382c-56a0-4606-9030-3f66e186befd	Isolated Chapel
 plst	OTC-303	1f713905-d709-46ab-ad88-b6a07e257d6d	Jungle Shrine
 plst	OTC-305	4341d853-d0eb-45ef-9d0a-0b44dc805505	Llanowar Wastes
 plst	OTC-307	71bf0f4d-ad10-4a5f-8429-0f48ae593089	Opulent Palace
+plst	OTC-325	0fb7d469-d01a-4633-b06e-70050a5448bc	Sunken Hollow
 plst	OTC-342	feb0c2dc-22be-4128-9bd6-f0e2c50127ad	Yavimaya Coast
 plst	OTC-7	05b26fbe-ea68-4595-99cd-3ea2a0a3d739	Kirri, Talented Sprout
 plst	OTC-78	0e06a6a4-c4e3-46f4-8bba-2457e39a2cfe	Angel of the Ruins
@@ -77154,6 +77350,7 @@ plst	OTC-81	3c3793c3-c9f6-4fb0-9b95-cd4cd07ab40d	Heliod's Intervention
 plst	OTC-83	9d574cf8-2b59-4418-ba15-b802c6937c6b	Mirror Entity
 plst	OTC-89	a7966bd2-b541-44a2-891c-e89e89ed78f2	Arcane Denial
 plst	OTC-9	3dfccb9c-e098-4f5b-817c-08403d0d27ef	Angel of Indemnity
+plst	OTC-93	77629b3c-2bd3-4f42-9bf0-086ec3e9dcce	Dazzling Sphinx
 plst	OTJ-109	f2996206-cfa8-4956-9f45-d04d2a5f0f1a	Tinybones, the Pickpocket
 plst	OTJ-110	d27d79c3-7740-4a46-94c6-06e41956f464	Treasure Dredger
 plst	OTJ-125	7e607ace-e833-4f44-b4ec-fec8a42285da	Great Train Heist
@@ -77165,6 +77362,7 @@ plst	OTJ-198	40196502-3887-4315-bff4-de39f82796fc	Bruse Tarl, Roving Rancher
 plst	OTJ-203	2c12c0db-cb9f-4692-8bbc-8287f57dc0cc	Ertha Jo, Frontier Mentor
 plst	OTJ-26	951a32b0-f4a6-4942-bad3-e4708e976de6	Requisition Raid
 plst	OTJ-44	52fd2cbd-7e62-46c2-b517-355b20b9b602	Double Down
+plst	OTJ-8	7cf06ce6-8bc0-4511-974f-859cedb727ec	Claim Jumper
 plst	OTJ-90	716a251c-2055-47a1-9f21-ded83852f53d	Hollow Marauder
 plst	OTJ-93	a8a98a6b-3425-4532-806f-3ca98745aaa5	Lively Dirge
 plst	P02-110	4aa166b9-74e3-4c03-8cd5-76617f34267b	Ogre Arsonist
@@ -77304,6 +77502,7 @@ plst	PLS-139	b61aae1a-9fdc-4e19-98ba-8a11839ca51c	Forsaken City
 plst	PLS-16	e7c51bb7-72b6-40aa-a67d-70e69ffb349b	Sunscape Battlemage
 plst	PLS-17	24880cb7-561b-4c3b-9c5d-769a09516342	Sunscape Familiar
 plst	PLS-22	50277365-5f1e-4df2-afbe-ad19c41d7cb0	Confound
+plst	PLS-29	7d8cd6d0-deb1-45de-a925-88d4bd53db1e	Planeswalker's Mischief
 plst	PLS-30	0a61a881-f0ac-4dbc-a3e2-8600d6dc54ca	Rushing River
 plst	PLS-34	053d583a-a7da-4a98-a9a7-1d0023dc5146	Sleeping Potion
 plst	PLS-35	fef29995-2508-4181-bbd2-1ef193589b79	Stormscape Battlemage
@@ -77370,6 +77569,7 @@ plst	POR-87	4fc89e7f-f2a4-41a6-a948-17b230545fe9	Cruel Tutor
 plst	POR-93	6c0b47f3-feaf-40b0-9c21-3492d081d459	Feral Shadow
 plst	PRTR-214	14012bf7-1b06-4a6d-8580-7ebc60a74e98	Dryad Militant
 plst	PZ2-38	767d4205-6f5e-464d-8831-0a857d56969b	Ancient Excavation
+plst	Q06-1	245def62-e8f4-4db9-9b0a-c50979c41348	Approach of the Second Sun
 plst	Q06-2	483d144b-c20b-41c2-8e8d-97ac24c24558	Ethereal Armor
 plst	RAV-131	4184638c-bfb8-424d-b106-ed7b3d80b668	Hunted Dragon
 plst	RAV-135	521ed105-d82e-48d9-a159-c6b81c474143	Mindmoil
@@ -78121,7 +78321,9 @@ plst	UMA-77	8b6061bb-afaa-4c36-9594-e6c9c70c1e3d	Temporal Manipulation
 plst	UMA-8	ee79bf77-b6db-44da-b249-aec91c0cb285	Ulamog's Crusher
 plst	UMA-84	fd0c2480-5bdf-4754-88cc-96d3f0c6b2c0	Apprentice Necromancer
 plst	UMA-93	a7094d56-4c8b-4b2f-ad3a-83d81c460626	Demonic Tutor
+plst	UNF-178	4ddaa8d0-e266-4a9f-a649-0ccc03d4a346	Space Beleren
 plst	UNF-186	1b58d87a-e610-4022-8266-f6160a430463	Clown Car
+plst	UNF-45	965976b0-2027-4b31-a295-f414381637f2	Exchange of Words
 plst	UNF-66	0edb62c4-34dd-4225-b68a-9ec11dec4fdf	Attempted Murder
 plst	UNH-139	080ba201-2e5d-4580-8921-397f91dcadc6	Mountain
 plst	USG-100	e6847a5f-1b13-4b23-abbd-ca51dcdc5f53	Stroke of Genius
@@ -78213,6 +78415,7 @@ plst	VOW-103	b69d1f27-ade0-4789-9c49-ede929a9062f	Demonic Bargain
 plst	VOW-112	020a6903-350b-4b12-8fbc-5da40f77cb77	Fell Stinger
 plst	VOW-120	3f6e5fb9-215f-4c12-a5d2-1166c19d60b4	Hero's Downfall
 plst	VOW-13	394651de-0fe7-412d-a2bb-de7982516374	Fierce Retribution
+plst	VOW-132	d8f8567a-7fb3-43f5-88c8-f403cc85fc25	Toxrill, the Corrosive
 plst	VOW-155	c322a163-e094-477d-b897-d32fc915a505	End the Festivities
 plst	VOW-156	3eafd571-9364-44d9-8da5-1d93c07f0300	Falkenrath Celebrants
 plst	VOW-164	16525746-6474-4039-90e5-a671118b421b	Kessig Flamebreather
@@ -79238,6 +79441,10 @@ pmei	2026-22	1b870d02-bb55-4c4d-9c32-2c322f5a4d15	Picard, Steadfast Captain
 pmei	2026-23	55fac713-7136-4ea4-9f21-0f6a821af22c	Spock, Logical Choice
 pmei	2026-24	d99ba62f-bb47-464b-81bb-7b262339bf7b	Benjamin Sisko, Besieged
 pmei	2026-25	2fd034aa-35b3-4122-bd7d-f7a466b5c3fd	Hulk, Gamma Goliath
+pmei	2026-26	91a7f124-79af-45c2-a43d-7004bbda3045	Doctor Doom, King of Latveria
+pmei	2026-27	562d9f6f-1ce1-46d6-8f5a-bfb1b83429ab	Mind Stone
+pmei	2026-28	529d3638-7045-4c66-a606-4cbae2382f8c	Venom, Eddie Brock
+pmei	2026-29	dc904edb-acab-4ad4-9ff3-c44d91fd3d72	Villainous Hideout
 pmei	2026-3	1a27b552-a6ad-47d4-b96e-05a8c782b4ae	Zack Fair
 pmei	2026-4	d7a7b791-47c4-4274-80d6-8d8815cf8e37	Swords to Plowshares
 pmei	2026-5	6ec9fce0-aa23-4c77-a2fb-c74b31d36f92	Gishath, Sun's Avatar
@@ -83337,9 +83544,11 @@ prm	88418b	b2026353-ea3c-4617-93f7-efc3b40c3342	Pillarverge Pathway
 prm	89974	07102abc-1021-4c09-8afd-97745571b224	Leonin Lightscribe
 prm	89976	b06bd104-061c-4dbc-aa1c-03d67c93d569	Nils, Discipline Enforcer
 prm	89978	238cb361-77a0-4e40-8b71-19f9755bbdd5	Strict Proctor
+prm	89980	ea4f85d0-239e-4ab1-b116-a73b828aa047	Scholarship Sponsor
 prm	89982	88759066-47f7-43e8-a39c-7c0e399ce45d	Sparring Regimen
 prm	89984	37b6bf1b-ca7a-4a5d-95a3-eef2029e3331	Combat Calligrapher
 prm	89986	ac4cc54f-6543-4d92-84f5-09761f25444b	Semester's End
+prm	89988	2800190f-bbff-40f2-9ef0-51cf84bb84f3	Guardian Archon
 prm	89990	1b3e09b9-103c-481b-b541-7d06df75c8d3	Devastating Mastery
 prm	89992	c8ca83cd-3496-4e5d-a0b9-6cf97151efa1	Elite Spellbinder
 prm	89994	77cab984-5483-45d6-a7f7-a1432d0c893d	Promise of Loyalty
@@ -85874,6 +86083,7 @@ pspl	10	a5b936c4-0dc1-4da6-bd15-5559f5b62200	Liliana Vess
 pspl	11	02667018-cd8c-4645-ab1d-17a917caa597	Elektra, Daughter of the Hand
 pspl	12	4346f8cb-6c1a-4bd0-8211-78ad1f56d075	Riddles in the Dark
 pspl	13	9204c96e-2dfc-4b9b-91fb-4a053b349a1d	Jace Beleren
+pspl	14	136b07f3-b902-41af-8732-92c6448b6ef9	Jean-Luc Picard, Luminary
 pspm	1s	c8ad9739-1f15-45ba-9d26-7080decb8f5a	Anti-Venom, Horrifying Healer
 pspm	2s	0d9ea1ad-686d-4f62-8cd8-b2f40097d2c5	Arachne, Psionic Weaver
 pspm	8s	82dc9984-ee11-4031-a60b-824f803332fc	Friendly Neighborhood
@@ -91583,7 +91793,11 @@ sch	50	ca7bf790-d48c-4b05-8550-c9d67d6c2060	Abhorrent Oculus
 sch	51	1bb1eb5f-acab-4c2e-ad86-43f5207e6336	Thought Scour
 sch	52	ccd4addb-d43c-4bec-bb2b-822e9cd2ba47	Mastermind's Acquisition
 sch	53	4d0bf49d-3730-4f03-bd94-4095068aa2fc	Jace Reawakened
+sds	3	cac2da3a-b0a3-49c6-a988-4cd964e49bb5	Kenrith, the Returned King
 sds	11	c68629ff-72b3-40a2-b578-cddb6ddb4ccf	Sheoldred, the Apocalypse
+sds	15	9845bd74-326f-4506-87f9-ead7d2fa6cfa	Bristly Bill, Spine Sower
+sds	24	e5fb20b1-2270-463a-b307-e337ceb1fd47	Prosper, Tome-Bound
+sds	27	d291660e-cbbc-4b69-bbc8-2c905f70dd0b	Minamo, School at Water's Edge
 shm	1	9b6ae637-bdb7-4117-8539-e424159bad6f	Apothecary Initiate
 shm	2	f66dc28a-3d52-49cf-b1b3-0a1d335d0f5c	Armored Ascension
 shm	3	c5c54ec5-2917-4acf-b56f-8273781477f6	Ballynock Cohort
@@ -92340,6 +92554,36 @@ slc	50	96ad119e-d609-466b-8c2b-d540c3c11984	Wasteland
 slc	51	1a3dd206-ac71-4e33-a326-5485a3308a4a	Xantcha, Sleeper Agent
 slc	52	af247608-1935-4bb5-be13-20b7974a5245	Yarok, the Desecrated
 slc	53	09d43f17-cec1-4a2e-96d7-34e67f2d5fde	Zo-Zu the Punisher
+slc	54	6f67598f-1a3c-4f24-8a37-2a437247e7af	Molten Duplication
+slc	55	686ef3ed-9056-4d54-985c-56bc6d1a3232	Fierce Guardianship
+slc	56	46986f2d-f9dd-4109-a48b-2c3ce418afca	Unbreakable Formation
+slc	57	fa791e67-05ff-4d54-b1e5-72edc6531e3b	Timber Protector
+slc	58	f29d10ee-4d7c-450f-90f2-4ff1f28271f8	Biorhythm
+slc	59	b9f1a168-cd43-418c-bf49-ab1c252927d7	Tainted Pact
+slc	60	b35cd8f6-de1e-46a9-8909-54ad28e71305	With Great Power . . .
+slc	61	5d1994a0-9323-4108-addf-9ad8aaa80ca6	Vigor
+slc	62	315b5a40-5566-4b08-8f2b-1e171aeb4b2d	Mjölnir, Storm Hammer
+slc	63	dce65d5f-6fd4-469f-97fd-636be341d793	Doctor Strange, Master of Magic
+slc	64	284f705e-01a3-4fc0-a7c0-7f13d8b3f98a	Champion's Helm
+slc	65	7d0f4947-847e-4816-a2ab-3d337b9f7ae8	Force of Virtue
+slc	66	9ae40924-d2cc-4be1-b130-8bb6f4a39d65	Heroic Intervention
+slc	67	d617fd56-b594-4baf-a4c2-318724044a52	Fighter Class
+slc	68	39835a90-ab3a-458a-ad59-e7cd61e893fe	Court of Bounty
+slc	69	7befa177-b610-4711-9219-5c8c53b98012	Devastation
+slc	70	111be579-a9a8-41ed-a558-ffb87ad64b15	Unholy Heat
+slc	71	2a70155f-332e-49cc-808a-686785815c1d	Villainous Wrath
+slc	72	3f8284fa-c436-41b8-8598-4ebd3b6363d1	Damning Verdict
+slc	73	39625009-60e0-4605-8cef-9d06378e9c91	Primal Might
+slc	74	f6eed11d-5f22-45dd-a966-f61813dcc40e	Damn
+slc	75	bc9db0b1-de3b-4a99-b989-19acbc025018	Genesis Wave
+slc	76	a7c9f8b3-9596-46a8-b636-a47312eb9503	Fiery Confluence
+slc	77	abf821ab-0c58-4706-81d4-3afd576af149	Rogue's Gloves
+slc	78	23a18d46-82d9-42b6-a057-6c1c7d2641a3	Beta Ray Bill
+slc	79	c2074fd8-a351-4af0-b8b3-0c31898d9fa0	Snuff Out
+slc	80	d3c8b53d-3a0f-4d94-8a27-8bc99626e403	Titanic Ultimatum
+slc	81	e8960592-350c-4a4e-b897-5fcc4508b5a9	Opposition Agent
+slc	82	1cf94ce8-d945-4566-88b4-77af36dd9f67	Collective Effort
+slc	83	bba5ea18-4e58-42a8-b613-2178706476a6	Lightning Bolt
 slc	1993	c535f7f8-a57e-4ef1-91b4-5e3281bd4407	Shivan Dragon
 slc	1994	c9eb1309-5e60-4b8f-b63c-ebe62030db5c	Mishra's Factory
 slc	1995	7dae100a-ea1d-45f3-b47c-b278cda462ad	Necropotence
@@ -93277,6 +93521,7 @@ sld	916	dd1d87e4-f51a-448f-824f-99dffd73403c	Arcane Signet
 sld	917	4991d066-8f4b-4b27-8ba9-bc4e2e017ed4	Command Tower
 sld	922	70d504b8-1e59-4cea-8e83-06bd4bc9ab68	Swan Song
 sld	923	8c42fa08-b297-4452-a419-aa3622bd6142	Puca's Mischief
+sld	924	c21950b7-6aff-4e48-a109-a4b385930867	Maze of Ith
 sld	1001	25cfc62a-2bd0-4292-968e-64c77f427f78	Elspeth, Knight-Errant
 sld	1002	89c327b8-0b21-425b-87d8-3d04397becfe	Patron Wizard
 sld	1003	86ec6360-d69d-41b8-bfca-2c1a3aea2272	Berserk
@@ -93295,6 +93540,7 @@ sld	1014	bea750e6-cdb8-4119-b26d-86abdbc14fb2	Ebondeath, Dracolich
 sld	1015	830baa09-6098-4530-ae1f-8c94e60e733d	Inferno of the Star Mounts
 sld	1016	2daa0737-e1a5-4112-afde-34a3375e23f7	Old Gnawbone
 sld	1017	d7ed714e-28df-4bf3-9752-112a6e9e3609	Tiamat
+sld	1019	c4e4bcb1-e9c8-4b45-a780-986f7a38d199	Yennett, Cryptic Sovereign
 sld	1020	d0ccb445-53dc-40d7-abea-d6d8dff60ce4	Idyllic Tutor
 sld	1021	a004dc79-3857-4663-930c-59b2240e84bc	Swords to Plowshares
 sld	1022	b9e8c1c1-1917-4858-afd1-ea4412d02375	Solve the Equation
@@ -93746,6 +93992,11 @@ sld	1434	9904ef62-3328-4474-a3b4-21428fb9d911	Mycosynth Lattice
 sld	1434★	ede96b86-55b0-4303-a875-a972b47fd372	Mycosynth Lattice
 sld	1435	5d951e0f-3f20-4c1c-ba5a-8cd17dfe5f0b	Mycosynth Wellspring
 sld	1435★	a23aa711-d88c-4b57-a980-2fc0de7e89c7	Mycosynth Wellspring
+sld	1440	1ca6ea13-b393-4d35-a2c8-3b1c560561b2	Bloodsoaked Champion
+sld	1441a	c08e90df-9268-4cfb-af03-25c249e3d129	Voldaren Pariah
+sld	1441b	c08e90df-9268-4cfb-af03-25c249e3d129	Abolisher of Bloodlines
+sld	1442	f330d566-2503-4dbb-87e2-bdf1a4ee49ab	Ashnod's Altar
+sld	1443	1cb24ee5-cea5-4eba-a049-d9dc817a88a3	Cabal Stronghold
 sld	1444	e54e310c-060c-40a9-a0e3-d35de672ef13	Sisay, Weatherlight Captain
 sld	1445	d88c66de-a153-4317-9589-2db861bb9640	Silence
 sld	1446	6b36c4f5-5eff-4b46-9671-9a038d4d1788	Battle of Wits
@@ -94494,6 +94745,8 @@ sld	2111	69937b20-f145-4be0-aaa5-79ceae0d66fb	Zuran Orb
 sld	2116	20d35e6b-ee5a-47cd-8e65-175a9df607a7	Plains
 sld	2117	7a191d35-1d61-404c-b518-6c4188e8afce	Island
 sld	2118	fdfb7347-04cd-437f-955f-aab99e32b679	Swamp
+sld	2119	935543cb-87f4-4568-8610-d7f776975666	Mountain
+sld	2120	191c278a-cfcf-45e8-a2e6-403f71157f7a	Forest
 sld	2121	0ba9362f-eb35-4e72-8c51-7047c0a3f648	Yennett, Cryptic Sovereign
 sld	2122	b88492e7-ce33-4a7f-9706-61b186e8d04e	Void Winnower
 sld	2123	f8b6c532-b837-42b6-9ed2-0231d0779626	Esper Sentinel
@@ -94883,6 +95136,12 @@ sld	2579	a050f085-dc6a-4715-8cd3-33daf3e27bfc	Lightning Bolt
 sld	2580	4d04be88-39ff-481b-811f-d07b0a251d1d	Searing Blaze
 sld	2581	d5a8b384-af9c-4512-b4ea-244d4cc9d755	Commune with Dinosaurs
 sld	2582	3846e3ed-dfbe-4c7f-b9c8-303fc09796e1	Titanic Ultimatum
+sld	2589	05403596-8833-4f0f-b06e-964c2f586de6	Unstoppable Slasher
+sld	2590	a82a2344-bd86-4ebb-9532-237cc9aa1d84	Zombie Apocalypse
+sld	2591	6f8fca40-1f5c-4f93-8c02-b697fa592c11	Vogar, Necropolis Tyrant
+sld	2592	2b1d2e44-fdf6-456c-93a2-eb3e898380d9	God-Eternal Bontu
+sld	2593	a90a9691-b131-44e9-b39a-c68ef10b18d3	Wilhelt, the Rotcleaver
+sld	2594	9ad062ce-9ab3-4d40-8ec7-ce95e8ce318f	Varina, Lich Queen
 sld	2595	e895f348-b6a0-44dd-a952-d6286b349546	Anger
 sld	2596	f857e116-bea1-4bf2-b362-78e3a911b021	Gratuitous Violence
 sld	2597	1882bf20-7214-4a97-80c5-9d98cf0e0d1f	Rishkar's Expertise
@@ -94962,10 +95221,24 @@ sld	2701	37c94a65-26d4-43d4-9635-91365927da7c	Time Stretch
 sld	2702	fac2f9be-94ca-4657-b2eb-8df9548e6855	Barrowgoyf
 sld	2703	d5623bcd-abc8-40fb-a6cf-d517fcb3dd4f	Throes of Chaos
 sld	2704	65b8f30a-8e2a-478c-acb0-91201a31f016	Mind's Eye
+sld	2705	a1e6beeb-a72a-48fa-9c69-75510773f446	Thoughtseize
+sld	2706	cad9f66c-6e18-470a-890d-9a38e68bc9d8	Desperate Ritual
+sld	2707	df13dd0a-f313-426d-9227-f81aacbed791	Pyroblast
+sld	2708	4f80e176-9106-42ce-be93-a63a9a80faef	Tribute to the World Tree
+sld	2709	4840345d-9fc2-4bcc-ac7f-fc452fc1f334	Attrition
+sld	2710	bb302418-8a43-4a44-ba2c-a7d607b0f51e	Bitter Ordeal
+sld	2711	da04690b-82e2-48e5-bb80-55d6ae28be94	Ophiomancer
+sld	2712	52a4ae24-0c0f-4f74-acec-38c21188bb3f	Sign in Blood
+sld	2713	55292a78-f0d5-4dc9-97b6-16923839725b	Soul Spike
 sld	2759	294ca89d-549a-4302-9284-df5b4e833a69	Shivan Dragon
 sld	2760	521cfb69-806d-4ad7-9c14-963e370d9eff	Animar, Soul of Elements
 sld	2761	ef043a59-31d2-4f01-882d-139fd69c7b56	Korvold, Fae-Cursed King
 sld	2762	c1f2bc4d-e0ff-4415-93a0-58af6e1debe9	Tsabo Tavoc
+sld	2763	b9833648-6cbb-4074-b295-afccc1809a3c	Dauntless Dourbark
+sld	2764	ded711f9-1d2a-4147-81f7-ab827a108e4a	Leaf-Crowned Elder
+sld	2765	c105f743-a369-47a1-87dc-c6f093cdeac3	Timber Protector
+sld	2766	14a91f59-cab6-473b-943c-6a59ad31139a	Treefolk Harbinger
+sld	2767	68c0c7a5-da01-46d9-99f1-6f48cee7b8c1	Doran, the Siege Tower
 sld	2768	d941df2c-3e4a-471b-8a5d-64ba400375c7	Winota, Joiner of Forces
 sld	2769	50032873-9afe-4240-bf9f-e37cb452fd84	Crackle with Power
 sld	2770	bd0b522e-3959-4d84-bb95-40e3dfb63715	Delina, Wild Mage
@@ -95016,11 +95289,47 @@ sld	2822	19cb3e43-1bfe-46a1-bcbb-be653c2f327c	Starfield of Nyx
 sld	2823	e897473b-b687-413c-a951-39bbefb1e451	Careful Study
 sld	2824	df6dab52-0c96-40ee-953d-731bc3006ada	Merchant Scroll
 sld	2825	ccfffc0b-601f-4e21-90d6-72afbebf2579	Paradise Mantle
+sld	2826	0bb38b38-2105-4f00-92c8-8473bd7d345f	Dawn's Truce
+sld	2827	d2d31fdd-d921-4401-a662-279ebe46f84e	Unbreakable Formation
+sld	2828	93fc07f5-b2de-40f4-9103-a2dcde2bbfb0	Freed from the Real
+sld	2829	6c156edc-bc88-431c-901b-fda8d4804d20	Swan Song
+sld	2830	ba773447-11ec-47fc-935d-0efc4225f521	Demonic Counsel
+sld	2831	801cef8b-3024-4a25-8e80-a2307c5dcc86	Tempt with Immortality
+sld	2832	816a7584-c3c3-4f7d-8a93-c3b60063cb7c	Underworld Breach
+sld	2833	9ec3ac97-bacc-479b-a09d-99500e61e9aa	Muxus, Goblin Grandee
+sld	2834	821e2cae-af2e-4d3d-a1a0-69d91cc07c5d	Boggart Shenanigans
+sld	2835	2e7c316c-1b1a-444b-9784-2c542ffa4921	Dance with Calamity
+sld	2836	cba7f673-4dde-4165-80ef-be3ad967a6a6	Goblin Rabblemaster
+sld	2837	40be25fe-0b66-4b1e-ade0-8283f633fa8e	Claim the Firstborn
+sld	2838	c61516fb-22e5-4145-84e0-f06a75fe0cf6	Trinisphere
+sld	2839	b5fd74ce-5811-412f-9599-b8f76586ae19	Jodah, the Unifier
+sld	2840a	7c074d4c-7155-44a0-a4a5-b3825cbc36b6	Lu Xun, Scholar General
+sld	2840b	7c074d4c-7155-44a0-a4a5-b3825cbc36b6	Lu Xun, Scholar General
+sld	2841	f66e444b-e0b6-473f-b378-e63f1f772890	Kami of the Crescent Moon
+sld	2842	6e0d3813-fde6-42ca-9b37-a3e37a1a24dc	Kogla, the Titan Ape
+sld	2843	2282ba49-2220-4a6c-bf11-273ecaf6712b	Shigeki, Jukai Visionary
+sld	2844	7d80cfe5-a0e1-4f9e-a19e-4e9b3dc31794	Wort, Boggart Auntie
+sld	2845	6d374d3c-2919-4d7e-aad3-1f2c54ae7122	Timely Ward
+sld	2846	14191906-b109-47ef-83d2-cb03c26da5f4	Chronomantic Escape
+sld	2847	6374caa7-9c19-495b-9167-6adbf8c16332	Delayed Blast Fireball
+sld	2848	fa511f98-8ecb-464a-9498-a2d4d2f3007d	Tempt with Discovery
+sld	2849	3461dfd9-a905-4635-af31-e692c01195ed	Leveler
+sld	2850	4efb3f89-94db-4d9e-ae16-af56e9f38e8d	Thran Temporal Gateway
+sld	2851	8af1f14f-e2f2-4afa-aa2a-7a14567c3b6f	Rogue's Passage
 sld	2867	40bb0bdb-4292-4617-a9ef-79302d94a075	Orvar, the All-Form
 sld	2868	65dd4a6f-4022-4851-954d-e7e4103031fa	Sage of Hours
 sld	2869	beb3d7db-b64f-473e-94bb-a23aedc2cd33	See Double
 sld	2870	3c85dde4-0b69-4c4a-a558-f4ce49b02e5a	Slip Through Space
 sld	2871	202901db-8d8a-4c90-b6cb-9528a0bee077	Sway of the Stars
+sld	2883	bd07ecf4-c06f-493f-a31e-f4241bf128d2	Ancient Den
+sld	2884	50f0c34d-2106-446e-96fe-a50d124fff5a	Seat of the Synod
+sld	2885	fd36dbf1-cde7-43d8-b554-40b750b016f7	Vault of Whispers
+sld	2886	66019fe0-db0a-45c7-8f1d-34206f708482	Great Furnace
+sld	2887	562af1c7-cdcb-4856-99d1-a17387f30864	Tree of Tales
+sld	2888	2abd0f98-129d-4719-94c5-47648ef77344	Parallax Tide
+sld	2889	ace2d2c9-6af0-4728-9265-36730df50e83	Regrowth
+sld	2890	e9ba4783-a756-4579-ba5c-a6ab3aaacbd3	Viridian Revel
+sld	2891	abd61b58-78d0-4e0c-aedd-d34feeaebe91	Assassin's Trophy
 sld	7001	1fd9c17b-0cbb-49b7-8fb8-6a6f319f6a05	Feed the Swarm
 sld	7002	7ff1d69b-53fe-469c-945b-ecb23c426cce	Forge Anew
 sld	7003	159882aa-b596-4195-9b2e-983eee28d1bc	Silence
@@ -95058,6 +95367,7 @@ sld	7034	16ffb489-3c9c-43e2-b407-aae1ba55035a	Lotus Petal
 sld	7035	22aa7d75-e9c6-4109-9980-419d1f784faa	Lotus Petal
 sld	7036	133dac2f-ef50-460e-89c4-a23870faac06	Lotus Petal
 sld	7037	ae6f42e5-d58e-4d58-84ed-770e6665823d	Lotus Petal
+sld	7039	81cea94d-e8a2-4c88-b121-9806eb7cc210	Perplexing Chimera
 sld	7040	0b3fbc53-75d3-4d60-80de-cdb13e7c957f	Vision Charm
 sld	7041	7babc6e4-c066-40d4-8403-84ae1542f542	Council's Judgment
 sld	7042	0736e2ae-92dd-458b-a42a-d41abe14b27a	Ghostly Prison
@@ -95132,6 +95442,7 @@ sld	7127	47a59a26-e061-4b7c-b682-587c7fec67e1	Deadpool, Trading Card
 sld	7128	3f7b9b8a-77b2-4f83-b0f9-f522c165ac42	Mountain
 sld	7129	ffef4e1a-4ae8-41e7-a47a-9f23c2709e50	Deadpool, Trading Card
 sld	7130	f38fb75a-3880-4ffb-bd71-69ba93b39f88	Arena Rector
+sld	7132	aa54f607-8735-4082-93cd-519509a744c2	Cathar Commando
 sld	7135	79500fc8-de0a-4a7b-a0e4-41e3b21ab576	Darien, King of Kjeldor
 sld	7137	5e15829e-4f18-4c41-8770-23624a1e838d	Fiend Hunter
 sld	7138	7a54ca10-0cb1-4057-9b79-7e5a5294d3c6	Glowrider
@@ -95140,7 +95451,10 @@ sld	7143	12407f48-7c54-41ec-934e-0cd5648994ba	Scholar of New Horizons
 sld	7144	b2025340-4751-46bd-aeeb-abff2e2d5378	Seasoned Dungeoneer
 sld	7145	fb519463-bff8-455b-840e-e1bc606b5391	Serra Ascendant
 sld	7147	561aae2f-c86b-45bd-83c1-f7ce10bd3924	Soul's Attendant
+sld	7148	8832ab43-317f-46a8-b391-2c6c42d342cc	Stalwart Shield-Bearers
 sld	7152	3fa2050a-711f-4c6e-8b01-5353bd2a4234	General's Enforcer
+sld	7154	d7fe9333-bcb4-4897-a537-3fa237ebc06c	Knight of the Reliquary
+sld	7156	a93fe85f-638c-4cfb-a7b7-7e85bf7ca726	Notion Thief
 sld	7161	677534d7-1707-4ae2-a700-7f9140e25d8f	Glorious End
 sld	7162	f85f213d-6e94-47ab-84e1-0abd0fdfebdf	Crucible of Worlds
 sld	7164	48c2e9e2-f679-451d-a700-18104af08988	Clone
@@ -95150,11 +95464,19 @@ sld	7167	ee1a40dc-30dc-4dda-9001-aa7fb0b43bb3	Llanowar Elves
 sld	7171	7698591e-4e70-4261-8b57-d04490b09485	Hellish Rebuke
 sld	7172	cd9db319-e658-4c3e-ab48-6facca62e78b	Warp World
 sld	7180	d6ac5a7f-0e73-45d1-9b20-6ae1a60fa7cf	Shivan Dragon
+sld	7181	a15b1c7b-828a-4d51-a744-c212812b8a0e	Full Throttle
+sld	7182	6f6cdd9d-98ca-4949-bf19-43e770f4658e	Whispersilk Cloak
+sld	7183	49d9b42b-e68d-40f3-9f56-6a1b7677a704	Camaraderie
+sld	7184	26d1b781-774b-4e38-8c14-3b10a3931d4b	Ponder
+sld	7185	a8b41b7b-0fd8-4d19-b07f-a5e4d540dfd8	Ponder
+sld	7186	bfae4942-d110-4ea2-b56e-fc95a439fb49	Ponder
+sld	7187	9b5320b3-999d-4ec5-97a5-60c4670b97d8	Relic of Legends
 sld	7188	545f6d3a-5101-407c-acde-168c5097d866	Academy Manufactor
 sld	7189	59367636-bbc2-44d7-bedf-fe52d2f0720e	Sylvan Caryatid
 sld	7190	f5db8199-22d8-4721-b62b-245ec5e2907a	Big Score
 sld	7191	8cf804e1-5bf3-4a04-bd1c-a99a9561fdc4	Command Tower
 sld	8001	9d20e671-9b41-4591-b1ef-2a297411beb7	Jace, the Mind Sculptor
+sld	8500	667fa97d-325c-4833-865d-d35535a44214	Stubborn Denial
 sld	9990	3da9358b-cfe4-4e95-9a9e-a236d6373dcf	Doom Blade
 sld	9991	c4472b2e-b47a-4bc3-992b-9f8a218594f6	Massacre
 sld	9992	71fc8dff-4d26-4dfd-b279-d06e10cba54f	Torment of Hailfire
@@ -95221,6 +95543,9 @@ slp	51	35a2888a-2b70-4ce5-af22-ead8dd3096d0	Sowing Mycospawn
 slp	52	9e4b508a-9204-4bed-8b80-9ac35c187efe	Kozilek's Command
 slp	53	d7cdca44-d7f7-4eab-839f-6d7f43bcb9dc	Sunpearl Kirin
 slp	54	b81ae822-13a5-44ed-a6be-7b64f5ea90f9	Pinnacle Starcage
+slp	55	08da7f82-cbcc-442c-ac3a-cb1435a62679	Elspeth, Storm Slayer
+slp	56	477cfe49-76ef-425a-b677-587be1b00422	Strategic Betrayal
+slp	57	dc13b59c-4e08-4b58-bd73-67a261db1fa0	Archenemy's Charm
 slu	1	723a163e-97c1-4177-a067-873bebd9a87d	Marsh Flats
 slu	2	9f10f026-eba0-4e33-b465-f3a852402718	Scalding Tarn
 slu	3	397470c4-7f02-44ee-a18f-00bd950844d4	Verdant Catacombs
@@ -103273,8 +103598,26 @@ tpr	266	3f0218be-4a5e-40d2-ad76-b4bf12392fc6	Forest
 tpr	267	8b42bde8-16c1-4804-8353-091aedde486f	Forest
 tpr	268	c983df8f-4945-4587-ab14-79a8e30a924a	Forest
 tpr	269	1ce914d7-6a13-4f00-b8b4-05cdd410f32b	Forest
+trc	1	8ed939ba-bf8d-4a68-ae9f-f8ca4eb301ab	The Borg Queen
+trc	2	cf114392-a38d-4117-aa41-911d6dc1051b	Commander Spock
+trc	3	901eaed9-dbea-4a31-87b0-e17e9bcabfed	Jean-Luc Picard, Luminary
+trc	4	da030114-a4ee-46d7-a6fd-6c0d8e779bcf	Worf, Defiant Commander
+trc	5	e5142756-4148-4205-9122-87cffb0d3341	The Borg Queen
+trc	6	f496fdd1-fb95-4294-88de-336068400861	Commander Spock
+trc	7	3221fc7e-2eed-4517-a785-3e3a1748450f	Jean-Luc Picard, Luminary
+trc	8	63020954-9d2b-4521-8292-bd1a71dad006	Worf, Defiant Commander
+trc	17	06fa6050-0f9d-46a2-9635-8d05899dbc49	Guinan, Ancient Advisor
+trc	20	382e4d2f-7cc9-4229-9147-2d3e4af9063f	Join the Collective
+trc	29	ccdc8c1a-68ba-4498-a336-13676d8de107	Spot, Felis catus
+trc	42	b45ddbca-b89d-4552-b870-839aa281e113	Geordi La Forge, Innovator
+trc	72	33bfbd68-fc0f-41ce-b033-975fe9ba960a	Koloth, Tribble Hunter
 trc	78	f2efcab5-3aad-4edd-87d1-289978e8855e	Christine Chapel, Combat Medic
 trc	85	6b5d9bd2-cc78-4c30-b6ee-65b76c60a588	Captain Kirk, Boldly Going
+trc	97	1b2e5971-d31c-4f6d-9bee-4b13a402e798	Locutus of Borg
+trc	111	e46c4bbc-d4b3-44ae-bf91-cad01a66f302	Command Chair
+trc	121	ac87fcef-019e-45d4-bc8a-0ccb3adaa3b5	Starfleet Communicator
+trc	122	66fa6995-4857-466d-8068-508f2904805b	Starship Enterprise
+trc	123	dcc0ee8a-3400-4cf8-888e-96c847ebc71b	The Sword of Kahless
 trc	132	547e7238-ed01-462a-8135-08114ada7541	Evasive Maneuvers
 trc	133	94f68b16-121a-49e1-abf4-0bd2cd3e74ce	Head of Security
 trc	137	f5174a37-fbc7-4dbd-a5c2-e2f256ea7a6c	Shuttle Crew
@@ -103310,96 +103653,239 @@ trc	198	e1d339e1-3433-4630-965e-1841e46b40a4	Kirk, Enterprising Captain
 trc	199	bc121e37-b01c-4cf3-bd41-19a1cb21caa5	Klingon Strike Force
 trc	200	6cf853b8-4479-424d-998a-4fc53456c38b	Benjamin Sisko, Besieged
 trc	201	4adec7ae-b6aa-4018-bbc8-7ad378cbb1f8	Tenacious Tosk
+trc	209	a0527596-5f1b-45f3-9f8f-dd9ab7c4bb40	Locutus of Borg
+trc	211	f7fad2b9-0a2f-4921-85e2-54da59b4e686	Starship Enterprise
+trc	223	daf1d562-a1e4-47b5-9b63-896e7c1e7856	Guinan, Ancient Advisor
+trc	226	2f601ac1-92e3-46dd-b9d8-dfb4a7f7eb81	Join the Collective
+trc	237	fe5f0fe9-f063-4fb7-81c9-13f4e14d6ed1	Spot, Felis catus
+trc	289	55a3692b-da3e-4e03-8bb3-06013232438d	Koloth, Tribble Hunter
 trc	300	65a688e8-6427-4997-8712-46a4ff43d47b	Christine Chapel, Combat Medic
+trc	340	20a04275-384b-403f-b2a3-a999341259fd	Command Chair
+trc	356	14d54778-344c-43c4-99a9-85a2361f8982	Starfleet Communicator
+trc	357	26cc1c3a-28ea-4f62-8382-2e5aaf9c1d61	The Sword of Kahless
 trc	579	b3ef9271-f16e-4912-9e92-75c3777b4102	Refute
 trc	580	6d9c8d6b-b49f-4777-baa3-6381a624e3c6	Last Gasp
 trc	582	b18e1c55-29bc-434f-85b7-765d7ba71ff3	Run Amok
 trk	1	02080f42-863a-471b-992b-67e35ef1b7b7	70,000 Light-Years from Home
+trk	3	63918e59-0c03-4d98-9216-e58ee157b7ea	Antagonist Incorporator
 trk	5	a6bf1525-2212-46d0-ad4d-1dbaa2e3b3cd	Brad Boimler, Eager Ensign
+trk	6	51338fb2-13a3-41b8-981f-05fa35e87e2e	Captain Benjamin Sisko
+trk	7	b7114271-eb05-41e2-ad96-a34f53492312	Captain Jean-Luc Picard
 trk	8	9f1f789b-5c08-4a4d-b3a3-4d51ad9f1a4d	Command Decision
+trk	9	853bf74d-0b61-43df-9018-0b40b624a9d1	Command Subadjunct
+trk	10	f91755d7-6fb9-4caf-b4b4-f21ed5572d52	Conquest Mission
 trk	12	fca1528c-84cc-42d2-99ae-9f10f0e28743	DOT-7 Repair Squad
 trk	13	ef9c5790-d909-4271-90bd-5fa4816ddd6b	Dr. Beverly Crusher
+trk	14	b300d814-cf74-44ba-b253-ec179ec54a20	Dr. McCoy, Surly Surgeon
 trk	15	dda6f965-cbdf-4dbc-b0b1-00c27e32f5f2	Emergency Medical Hologram
+trk	16	31b5780c-8c5f-4836-8848-1eea1d416a93	Excalbian Gamemaster
 trk	17	b312dacd-b87f-44c1-a804-bee221e70f52	Federation Field Medic
 trk	19	6711e910-e5a8-4602-9559-de5374bffff2	Free Borg Revolutionaries
 trk	22	0faeffee-bb07-4b9d-8cdd-e9731bbd2396	Malfunctioning Holodeck
+trk	24	e4f041b3-e785-45ba-9a7e-33878614d3b0	Miles O'Brien, Transporter Ops
+trk	27	9dd522dd-a894-496e-9d31-68583dba7ecc	Peace in Our Time
+trk	28	477a6a46-7fda-4666-87d9-a35c953dd94d	Pet Sehlat
 trk	29	f9fa20c5-f241-4da2-9c99-c9b650095d74	Picard, Leading by Example
+trk	30	b94a582c-11bb-4463-a826-bd0c79366752	Primary Unimatrix Adjunct
+trk	31	215709a8-044f-4fdb-b3ca-bd5a394b2a0f	Pure Energy
+trk	32	16a4d8ed-a918-4dfe-9976-0b68adb26afa	Rutherford, Upgraded Ensign
 trk	33	3783c530-a2da-4dc1-811a-0a9a412c8e78	Saavik, Stoic Student
 trk	34	54dbf416-973d-46c8-b9be-e863283d328b	Set Phasers to . . .
 trk	35	0b60c9af-8ea9-491d-a4a4-226a2143e7f3	Shields Up!
 trk	36	559f838a-24ac-4f18-8c40-23cfde6f65cc	Shuttle Ace
 trk	38	317704a8-a3c2-400c-bbe0-2cbc6fe10710	Tactical Officer
+trk	39	837d7cec-f3f8-4555-86f2-c5ea1849d7d1	Test of Conviction
+trk	40	8dd7e0c6-84f6-4570-af93-4c64e78c2868	There's Coffee in that Nebula
+trk	41	0af3e535-83e6-422b-85c5-39d830cb072c	Troubling Tribbles
+trk	42	5585c90d-3fe7-41f4-9728-36b9410ecc53	Una Chin-Riley, Number One
+trk	43	99429015-6e5d-4ecf-aaf7-eba181bcffc7	U.S.S. Enterprise-A, Free Spirit
+trk	45	6f4b2476-8f93-4d4e-b664-233e82fcf212	Vexing Drone
+trk	46	93b458aa-a928-48ef-b685-1306cc65ad06	"Coastal Ren Faire"
+trk	48	a8dc7ecd-e6f0-4050-9d5b-8436f60a1395	Cetacean Ops
 trk	50	959318c1-3f7e-4418-91ce-be529af27972	Cloistered Telepath
 trk	51	4e8f75b8-cca7-4ed3-90db-bcac02e74611	Consider the Prime Directive
+trk	52	96b7e757-c64d-48c8-bd9c-caad5f3c78fb	Data, New Life
+trk	53	15ffeda3-28ac-4adf-9844-d7b051aae227	Deep Space Scan
 trk	54	207c4369-220a-4eff-81dc-65872d6fc264	Dominion Saboteur
+trk	56	24e72db3-a8d9-4553-92fe-ba6e40c4f62e	Energize
+trk	57	a441c12e-1a2f-4b04-83dd-407bf6040efe	Ensign Pavel Chekov
 trk	59	f988ba84-fc78-41a2-b2f2-eebf78cee591	Federation Probe
 trk	60	86b790e6-3c99-4a95-8327-eb90ed9380f2	Guidance Failure
 trk	62	11c94c5f-abf4-429e-8703-c5db9abd79bf	Highly Illogical
 trk	64	24589f4d-c530-4f6a-b2d0-450ef70fca71	Hoshi Sato, Exolinguist
 trk	65	605263f0-08b6-4cc7-aba7-eb49850f8832	Humpback Whales
+trk	66	4b7d505f-2a6b-4525-87c7-19e06d49c9df	Interstellar Effigy
+trk	67	6dc34d44-397a-4dda-a8e3-0c2ff7da110f	"Tinkerer (Not the Urza's Saga-er one)"
+trk	68	c7fb72cc-1bc6-4774-9798-44824de46c72	Kobayashi Maru Scenario
+trk	69	c6d5da51-6c74-4dd5-a532-cf4c2a7b601c	Lieutenant Commander Data
+trk	70	3a558d82-7efd-49b3-9f7b-ace639b44a35	Lt. Cmdr. Geordi La Forge
 trk	72	0820a78e-e392-423c-9d62-ddfda5cb3f03	Marooned
+trk	74	d19fc127-669e-4264-935a-e5991e6c0964	Mr. Spock, Science Officer
+trk	75	b04066ef-ad43-4b40-b4ae-5d94f154261f	Nyota Uhura, Communications
 trk	76	8eeec269-13f0-4923-9f13-e995acd73e00	Open Communications
+trk	77	6a461d90-6b7b-4777-958a-8a5d8365ad8c	Romulan Bird-of-Prey
+trk	79	42f77f9e-5e56-45ac-aa93-36353c92bca9	Scotty, Miracle Worker
+trk	80	ddc517bd-27e1-4688-8941-a41c312bd782	Seven of Nine, Unassimilated
+trk	82	7d90016d-c2cb-457b-9d97-c3b9411c46e3	Subcommander T'Pol
+trk	83	7608943e-329e-41f9-b098-a0a94b01e6a1	Suurok-Class Science Vessel
+trk	85	89e3ec23-e4dc-4d58-aeda-9f73ed4504a5	Test of Priorities
+trk	86	44280b43-b07e-43a4-9ae3-2eac0baeb918	Those Old Scientists
 trk	87	b082d454-d331-4960-8120-754f107ffa42	V'Ger, the Intruder
 trk	92	5ca2da7a-afbf-4b32-8ff6-ae899b9f70ad	Assault Drone
 trk	93	3deae89b-b207-487b-9e82-1fa7fcd7854b	Automated Warfare System
 trk	94	888e6e0f-43c3-4516-88ff-8a8d814478d4	Bat'leth
 trk	95	c567253e-a2ee-45de-b3c6-3aeafbf8237b	Battle-Scarred Survivalist
+trk	96	c1855a4c-c7d1-407c-b134-4c43968cbdd3	Blastoneuron
 trk	97	16281200-4660-4871-afd2-d4720e6a3197	Cha'DIch Investigator
 trk	99	65b74daa-4606-4118-9752-b0dcd7a3f486	Collective Drone
+trk	101	5075645d-ef69-4559-953e-c3140153bd75	D'Ghor Bloodletter
+trk	102	408cb5dd-1a79-47a9-98ea-41f3f4502c5e	Death Is Irrelevant
 trk	105	04a479be-8093-4775-a5d9-8b0e1683bf12	Eject the Warp Core
+trk	106	113bd51a-dfbb-4106-adf3-e567057fcd06	Elim Garak, Simple Tailor
 trk	109	c46a0910-215c-4757-8bfe-7eca479157a5	General Chang, Cold Warrior
+trk	110	a68361a3-83fa-44b5-92b5-b7905866fc99	Georgiou, Terran Emperor
 trk	111	e2b350b2-0eda-4c2b-b9d6-b58ab4848545	A Good Day to Die
 trk	114	2c309b0d-94b4-405e-be6c-18b407323e51	He's Dead, Jim
 trk	115	a4734c59-ff41-47ac-bbb4-c8c3bf052fe6	Hive Mind Coprocessor
+trk	116	6c5a87cf-7790-4335-8497-ff793bbdcb05	Impossible Choice
 trk	117	47c8262c-e0c6-4c1a-b1c1-3b5fe5252a9c	In the Pale Moonlight
+trk	119	a6f47b34-02fb-41d2-978a-a6d0a47ee8ba	Khan, Vengeful Heart
+trk	120	17a7b0a8-baaf-4e6a-8536-f511c796a713	Obsidian Order Operative
 trk	121	8cc06121-6ecd-44c3-90f9-34d492b031d4	Organic Avulsion Unit
 trk	124	ce538db8-373d-4554-821e-cd96e795e37a	Relentless Drednok
 trk	125	81d88257-466d-4729-862f-591885b3d875	Resistance Is Futile
 trk	126	edcce061-88c9-40bf-97f8-d0d3018e24dd	Rogue Artificial Intelligence
 trk	127	78faba81-01a3-489f-927e-1adaa8fe4436	Salt Vampire
+trk	129	3b80995c-8e9a-4a9c-8854-59439a58166f	Storied Veteran
+trk	134	722eeb21-be3c-4ae6-abd2-c3281d53c035	Test of Loyalty
+trk	135	a4c6fc55-f585-4529-b549-31d4d838c9af	U.S.S. Reliant, From Hell's Heart
 trk	138	f2001bbd-63ee-4a6e-8e01-3a91aaf1e3b9	Beckett Mariner, Impetuous Ensign
 trk	141	2c053ec5-d1ea-4526-8a0d-e4dfafb8ecdf	Cantankerous Captain
 trk	142	40a0466d-20bb-4ed5-858d-947fb9144580	Captain James T. Kirk
+trk	143	e10d6d71-9360-4ecf-97c8-22afb22aaeb7	Captain Michael Burnham
 trk	144	0c340eba-645d-416a-9ed4-f2303aa8c919	Captain's Tutelage
+trk	145	6c22998d-7bd7-433d-95b8-50f2fd8b7b7f	D-7 Battle Cruiser
+trk	146	1122fe1c-97f7-409d-ad37-0fed46f9f963	Dahar Master
+trk	149	3667eb41-598e-4543-97ed-6da961f8b567	Erica Ortegas, Plucky Pilot
+trk	150	61bb2ec5-5f04-4c34-ba72-7fa226922c5c	Exploratory Mission
 trk	152	abf44662-62ad-47fb-9cfe-6bed47133de5	Horta
+trk	153	33ade614-3593-4055-8ecc-2d9e4858ba19	Infinite Diversity
 trk	154	22c60c17-74ec-460b-bf7a-e56e42239826	Khaaaaaaaaaaaannn!
 trk	156	afe08bef-b184-4b91-8d69-0101e183c3ff	La'An Noonien-Singh, Security
+trk	157	19bf2f2f-4be2-4958-bfab-eb46c9ca1995	Lwaxana Troi, Charming Guest
 trk	158	6d73bb1c-39e3-429c-b6bb-96dae2254708	Munitions Enthusiast
 trk	161	3df10e9a-efb6-4945-9b1b-29200688702a	Perils of the Past
 trk	163	163f5474-138d-4b47-a6f5-b1a0974e56a4	Planetary Patrol
 trk	164	3c786a2f-3de4-4b24-a3a0-15b1f2a07324	Plasma Cascade
+trk	165	dcbe34db-0065-4960-92b8-3ea1d336e803	Q, Stacking the Deck
+trk	166	96104754-57e2-46e9-948d-628aab2aa0ad	Quark, Humble Proprietor
+trk	167	8eeb471b-412d-4ea1-bec0-d7dd0a557d76	Ravenous Cosmozoan
 trk	168	5bca43d8-7c69-47f4-8f82-48dd2b6a7cba	Reckless Impulse
 trk	172	6359ab5d-4151-4a0c-af13-d59c1b381bb0	Silicate Surveyor
+trk	180	7df6c8c1-1f85-4c5d-a4f6-9ffcdad1b12e	Worf, Intelligence Contractor
+trk	181	426d627e-bb88-4879-8d9f-db1babf22b15	The Wrath of Khan
+trk	182	41644f06-d08f-406c-a56a-47e1b5273982	Adversary by Algorithm
 trk	183	d31447b6-484f-4dda-b6af-ab068a84f896	Amok Time
+trk	185	4a2231ff-677d-4041-9413-b8d683846920	Branching Timeline
+trk	186	a4518ea3-5f56-4f1d-9024-2bf06ac98786	Captain Jonathan Archer
 trk	187	d17ea45c-7f9c-411f-b7d3-ca7100ffe53b	Captain Kathryn Janeway
+trk	188	743be4c4-5c91-42bb-9942-115e903041a9	Captain Pike, Fullness of Time
 trk	189	4f2d1830-baea-4735-b029-cb8c0b538d83	Cold-Blooded Crew
 trk	190	4fddc950-fbc5-4cf7-b694-dcd54ffccb31	Common Goal
 trk	192	94e9d400-f2bb-46e7-8d41-6038ebdc6c8b	Dathon and Picard at El-Adrel
 trk	195	5fa76320-24c0-4294-8ae4-fb39e171fbe6	Dominion Supervisor
+trk	196	c27e6865-40ba-406c-9dce-d8a7a9b8035b	Dr. Joseph M'Benga
 trk	199	5407e8f4-0c8e-4e66-9d2f-f22277aa38f4	First Contact
+trk	202	6bd8a87b-ca7a-4a15-b96f-1a673ee44f3e	Hologram Stalker
 trk	203	c07979d4-8a58-4cfb-bffa-74e8bd97c7ff	I'm a Doctor, Not a . . .
+trk	204	bd342f8b-9072-487d-8a33-b1bb149f1502	Jadzia Dax, Living Legacy
+trk	205	9e47c6b6-f99b-46be-98a1-92c98416aefe	Jake Sisko, War Correspondent
 trk	207	dfbaf597-6be2-4aa0-88ae-cc4c94878add	Moopsy
 trk	208	f3c68b20-f202-4d55-bef1-398d96e55c57	Mugato
 trk	213	197abe5e-cde2-4b29-a10f-d6b789776bfa	Saurian Explorer
 trk	216	9e8b404c-6e2a-4966-ac4b-c9981c1c6fee	Support Mission
 trk	218	18bb2edd-8dee-4714-a707-6542b6ebbd53	Syndicate Liquidators
+trk	219	b0bb51a7-1ae2-45d0-8be9-5454a3c8f751	Temporal Conqueror
+trk	220	291b9b6b-54bf-4e71-98f1-cb9301ea0727	Test of Courage
+trk	221	69b1f87f-ff02-4945-9f07-18dab5035e2d	U.S.S. Discovery, at Black Alert
 trk	224	20a97cda-42b2-44f1-8e77-f64dd1c98f6f	Xenobotanist
 trk	225	803608aa-ae69-45d2-ae48-f1688d2a6a0d	Xindi Surveyors
+trk	226	fe5dda31-159c-49c7-962e-a04b771256ea	All Good Things...
+trk	227	e58f7310-3fd5-48d5-b6b7-a5d3e1808bbc	Borg Cube
 trk	228	aac6f64d-d39a-4994-bc70-6b477b2640f8	The City on the Edge of Forever
+trk	229	6b2e52e2-5cb9-4360-92d6-5c0d9e435d09	Cleveland Booker, Empath
+trk	230	3df582e4-3bfb-4413-9b39-898f33a5c1fd	Constable Odo
+trk	231	0da52d3a-dd83-4662-8e6d-3f4d4d389c3d	Dal R'El, Augment Orphan
+trk	232	b64dd792-7dc7-4d22-9776-9b9e25e1173d	Daniels, Temporal Agent
+trk	234	8fbad0dd-5f74-40c0-9e3e-c06be8eabb14	The Doctor, EMH
+trk	235	7eb112eb-2abf-4ba3-b9bd-b45ffa80f7eb	The Duras Sisters
+trk	236	206239ca-341a-4f07-8149-a24ccf20ee45	D'Vana Tendi, Optimistic Ensign
+trk	237	d60613c2-5655-4051-babd-fc0f3a73fc77	Gowron, Eager for Battle
+trk	238	eede6822-c8bc-4344-81a9-bc608245d5b6	Gray and Adira, Forever Joined
+trk	239	f3e730d7-3fd1-4bd2-a35b-6fb85bfd3c65	Hemmer, Fixing What Is Broken
+trk	240	6266506f-fabf-4b53-8f93-6e2115a3e5a4	Hit It!
+trk	241	af92a773-b237-4cd8-b50d-4f7c3b9290ed	The Inner Light
+trk	242	81ad6427-e730-47c9-8310-6d3ca4b10c82	Kira Nerys, Firebrand
+trk	243	245d0430-0967-44f1-8c59-985104a8db30	Kirk, Commanding Officer
+trk	244	0fc50ffc-3b4d-4fb3-898f-c308a63eb6e9	Live Long and Prosper
+trk	245	296f1127-14a0-42c4-9e4a-c0d929720748	Locutus, the One Who Speaks
+trk	246	62afa55d-d4ba-48d5-9991-0f8408f9c92c	Lore, Positronic Provocateur
+trk	247	7b06bbb9-7c6d-4889-b55a-1de77c27fd18	L'Rell, Fierce Visionary
+trk	248	3507f99b-15fb-4f66-9484-8e8115e7f5de	Mirror Universe Intrusion
+trk	250	2695e76e-c27d-49fc-9ef2-d9eaff449f3d	Phlox, Unorthodox Doctor
 trk	252	6204cfdb-6fb4-4030-96b6-9306c8266bcf	Seven of Nine
+trk	253	1be731d5-8b21-4883-91c0-dd9070b1eadd	Spock, Always Your Friend
+trk	254	171932ba-26da-48e9-b8a2-c71aafe5c6a6	The Traveler
+trk	255	d1f51765-f336-4ca2-a0f5-e42dc352c0fa	Vash, Freelance Archaeologist
+trk	256	b2d1955f-e834-4157-a139-9b6ec94bcd2a	Worf, Honor-Bound Warrior
+trk	257	4ab931e9-fb07-4da2-a0d9-acfec2ac9e19	Year of Hell
+trk	258	93f616fe-6906-4e5d-b9fe-b432cccdb0ec	Zero, Incorporeal Sensate
 trk	261	cbc4ac70-0a4c-4973-a366-dd67d8901e21	Crystalline Entity
 trk	262	b147f16e-a2d6-4d43-9213-9a2723b0d3ef	Cybernetic Specialist
+trk	263	76b039c5-e0a1-410a-954b-52f304e31f7f	Deep Space 9
+trk	264	ef2d8db7-3f86-4d87-97ca-368444dc7f16	Engineered Explosives
+trk	265	57e830f5-564d-4899-87c0-74192c561fc8	The Holodeck
+trk	267	ae846f45-d87b-47d4-87f6-2d9aa19c3c40	Replicator
+trk	269	289e8ebe-ab0f-466b-a4e6-d5cf8411e724	Tea, Earl Grey, Hot
+trk	270	3c872f02-80ac-49e3-a777-3526d35ad7cc	Tricorder
+trk	271	c704af22-7c42-45c7-b3a4-b414c4dd8e05	Type-2 Phaser
 trk	273	057a4413-6a17-491e-bfd7-6cd427b1a442	U.S.S. Enterprise-D, Galaxy-Class
+trk	274	de8e2bde-b368-4d10-8409-86f5da6997f6	Warp Core
+trk	275	0e9e72ef-3e34-4d19-aec0-b5e1ba84d244	Andoria
+trk	277	ff5254a6-4961-4604-b65b-2eb0ce9b1c82	Bajor
 trk	278	1b7eb998-3ec0-4cbc-a416-5a1e3e5a7316	Blood Crypt
 trk	279	63e4dc07-c742-41bd-8301-861637908fd1	Breeding Pool
+trk	280	d634424f-9148-46a5-95e3-4965a9226bb4	Cardassia Prime
+trk	281	5278d354-97c4-4c21-a902-2f9252b151eb	Earth, Sector 001
+trk	282	02e368bd-ece8-4201-8d1a-4c5287d5cfee	Federation Outpost
+trk	283	17fab75f-7ff9-4c50-a6f7-03a85cd275bf	Ferenginar
 trk	285	8fbd1ae0-3d4c-492a-a1ea-85a95fa3d7b6	Godless Shrine
 trk	286	b7285986-7e08-4969-86ef-452dc5bfdd9f	Hallowed Fountain
+trk	288	dec37ff4-d6e9-4b87-865b-125b17162465	Orion
 trk	289	ad7e18e2-c033-4b6c-86e8-d0e5cc824cfd	Overgrown Tomb
+trk	291	f1558d93-8a8a-45e0-bcdc-e6cd42f716dc	Qo'noS
+trk	292	8422ee4a-9845-429d-bda8-74852168dcba	Quark's Bar
+trk	293	c89e7680-9868-4fea-9aaf-6af03bfa0692	Risa
+trk	294	1bce111b-b07c-4589-9b6d-f0b5f320808c	Romulus
 trk	295	a7758cc6-4e18-48a5-8720-5f42b5cd9d31	Sacred Foundry
+trk	297	2da8d3bf-4397-4844-90d6-dd888becc804	Starfleet Academy
 trk	298	a83903c7-fd51-4526-aed2-359e946fea36	Steam Vents
 trk	299	1ee8255a-44f6-4faa-9843-15432bf751ea	Stomping Ground
 trk	301	b9b0589d-f327-46a7-8bac-06b7654c547a	Temple Garden
+trk	303	ca1e60f1-11a9-4bb8-9f6e-5b652b49c517	Unexplored Territory
+trk	304	4c881efb-d55b-45fe-9e5a-8a61aec6fbbb	The Unicomplex
+trk	305	fc3fe0da-8d93-4f1c-9aad-c2fdc9fe34fc	Vulcan
 trk	306	5525d6a6-e532-4047-9da4-bfae7927fecc	Watery Grave
+trk	307	6b2fba64-b85f-42bc-991e-4bb6201b78fb	Plains
+trk	308	1c5b534a-128f-4235-8f69-646a55ae4d67	Island
+trk	309	b4e1965a-dbab-4edb-ada9-43898c57c5fe	Swamp
+trk	310	87908c55-4ac4-4b57-a8ee-a28640a18f0f	Mountain
+trk	311	f026379b-f00f-4897-b03f-dd164d69b925	Forest
+trk	312	b741bbf0-40b3-4ee7-9844-cecc64cb0840	Plains
+trk	313	ee2e4482-afad-41ae-9e1a-120e805c4563	Island
+trk	314	e046c0ef-0af3-4f48-8329-7d659e7d1a89	Swamp
+trk	315	81564344-1c9b-4fac-8a7d-682f57331d61	Mountain
+trk	316	c7ca6a54-f4e9-45f0-abb0-db14922cf157	Forest
 trk	317	8ab0f4c0-b331-4c57-b68f-2e24bb5ba06c	Plains
 trk	318	09b3c8bb-10ca-4b9f-8507-db6e8c52a918	Plains
 trk	319	f3cc07cd-cc79-4745-b0b7-eade60175cc3	Island
@@ -103410,10 +103896,48 @@ trk	323	2a844b96-6616-4c39-8f4f-5d14a3b2bd55	Mountain
 trk	324	e5927fd9-dfaf-462e-9128-44b806e45178	Mountain
 trk	325	dce15387-4114-4b3e-91aa-5b42b45c44ac	Forest
 trk	326	4fae200d-5757-4924-8cf4-ab2a5ef2ccc0	Forest
+trk	332	85859d4c-c90c-48f4-bac0-75fcccf1b1f4	Federation Outpost
+trk	335	b846d3f5-7937-4282-9fa3-95b2f134676b	Quark's Bar
+trk	336	eea2dc59-10e9-481b-b2c3-bbf44253ed56	Starfleet Academy
+trk	337	751eedef-1d14-44cf-bb52-99f8ada888b9	The Unicomplex
+trk	338	a092e283-24d5-47ec-a9cf-7d589a3121a4	Resistance Is Futile
+trk	339	6cd8c8e4-a32e-4644-a990-70c649ce8985	Test of Courage
 trk	340	b16da038-5e35-4cd7-a157-624d4ed6bde3	Captain Kathryn Janeway
+trk	341	f5435570-e78b-43cb-9b77-d80b92e07c2b	Command Subadjunct
+trk	342	be8d8f65-211e-47d7-973c-f44537b43826	Conquest Mission
 trk	343	8cbe8fea-9c49-4d11-be37-4bc9eb03a406	Seven of Nine
+trk	344	c1344601-3f86-4910-b5ad-d7e1e58d851d	Captain Benjamin Sisko
+trk	345	aabf7d12-f802-422e-a57c-24f5a2858c83	Dominion Saboteur
+trk	346	19366f88-8411-428b-9903-8c9527686cac	The Holodeck
+trk	347	c06bc240-4dd2-4b77-be94-aecb882ea734	Quark, Humble Proprietor
+trk	348	c0d0b4ee-72f6-45b6-8911-e3ef979e40a0	Constable Odo
+trk	350	ac124e83-bb99-4bf0-ac06-364d77771e81	Quark's Bar
+trk	352	6eff742c-9b8a-4458-976e-577d34e9c1d8	Jadzia Dax, Living Legacy
+trk	353	7dd9dec1-5793-4514-8a15-c3bce21a5115	Mr. Spock, Science Officer
+trk	354	99d6cd44-bf0d-436f-a398-e3bce9532dc9	Mirror Universe Intrusion
+trk	355	84f6d529-33f7-4bdf-8ee0-43f5c4e8de6a	Kirk, Commanding Officer
+trk	358	fa9755ba-831d-47a2-a172-d2bfb13edefe	Nyota Uhura, Communications
+trk	359	f10ee26b-7ea8-4cd0-83f6-b9a8ac94cb0b	Lieutenant Commander Data
+trk	360	ee059c0f-eba9-4504-a92e-af762a510ee4	Locutus, the One Who Speaks
+trk	362	905277a1-ae6b-4876-a724-3d58a84f76cf	Death Is Irrelevant
+trk	363	566c03c3-aedd-4bd0-8932-e1b279e53c68	Captain Jean-Luc Picard
+trk	364	f2b6ca53-11de-4c63-a0ac-c9fa9a65c43e	Command Subadjunct
 trk	366	15d800b3-f5ed-4267-b2e7-5de83a207512	Dr. Beverly Crusher
+trk	367	54da7aa7-3049-4f2a-a92e-62a0a7386de8	Peace in Our Time
+trk	368	59ce5cdb-3e08-4de1-9335-aafeddfd1829	Primary Unimatrix Adjunct
+trk	369	07b3f211-1ff1-47c3-9063-9a1ac0fd814c	There's Coffee in that Nebula
+trk	370	c53011f4-e2fb-480b-9eda-660e878a7b6a	Deep Space Scan
+trk	371	4753a94e-5a5c-4246-bcf4-907eb892507b	Lieutenant Commander Data
+trk	372	df9efa59-ef01-473d-b32a-8328dcf01130	Lt. Cmdr. Geordi La Forge
+trk	373	ea6e116e-4086-42be-baf3-48255002d5d1	Seven of Nine, Unassimilated
+trk	375	835a6118-a234-4db4-95d9-68b7af21ad87	Death Is Irrelevant
+trk	376	74029de7-fb85-440d-b149-4b820c41eaa5	Organic Avulsion Unit
+trk	378	e6707e65-388b-4579-8c8d-77307b8208c1	Resistance Is Futile
+trk	383	881693cb-1492-4347-88a5-e96dc907744b	Q, Stacking the Deck
 trk	386	ac990bba-7b0c-4235-9726-b944d66952ab	Captain Kathryn Janeway
+trk	389	15387ef2-c761-4906-8909-4cf7dddefd9b	Locutus, the One Who Speaks
+trk	390	f237dcef-f193-4484-a616-66cb9423c409	Worf, Honor-Bound Warrior
+trk	391	e762c918-1c94-47a4-b141-ac16c5c9e073	Replicator
 trk	392	bbdbd348-49ab-4830-a5db-0e92b2f01b52	Hallowed Fountain
 trk	393	fa84ef4e-44ee-4b34-a454-8a19548ec3cc	Watery Grave
 trk	394	746e3a9e-b1b3-4d93-95bc-7ff0e4a2a2a7	Blood Crypt
@@ -103424,13 +103948,64 @@ trk	398	e8e9d4cd-f94a-416f-aaa1-0c60bdd58391	Steam Vents
 trk	399	732fe13b-eddc-4e75-88f8-e079e30a7dc4	Overgrown Tomb
 trk	400	7fb2e855-b0ba-43e0-a4a0-15c9c44622c3	Sacred Foundry
 trk	401	e5f775cc-ab3a-4e5d-887f-ef40c45e3560	Breeding Pool
+trk	402	e4349c0f-55f8-40d5-a972-4fb655608b6a	Dr. McCoy, Surly Surgeon
+trk	403	e6227228-330d-4bf5-a5ca-d5b5839e5874	Excalbian Gamemaster
+trk	406	af3c4a7f-c7cb-422f-8eab-730de8f5c599	Saavik, Stoic Student
+trk	408	1337f7ed-da1c-4fdd-9ad7-6f33fa5492bf	Troubling Tribbles
+trk	409	578709ac-771b-410b-bd71-ba4ab8d466a2	Ensign Pavel Chekov
+trk	410	406806fa-213e-40ed-aaee-47ff21f36551	Kobayashi Maru Scenario
+trk	411	e3e54e58-327c-4071-b99a-b78c7cc3fe6f	Mr. Spock, Science Officer
+trk	412	2b71b656-a316-4f29-b2bd-44165ad8cebe	Nyota Uhura, Communications
+trk	413	d97123d6-8420-4400-8d6c-a3ed5c84ad5d	Scotty, Miracle Worker
 trk	415	502673f3-2794-4b4c-8912-674cc4d2bbd2	General Chang, Cold Warrior
+trk	416	80dcc7dd-203f-4a3b-afe7-52987bbd006b	Khan, Vengeful Heart
 trk	417	5ad670fc-85ef-4f9b-9b5b-bac20f080bf5	Salt Vampire
 trk	418	367aa1e6-ce6c-41a0-ba7c-af00487a4302	Captain James T. Kirk
+trk	423	7de29930-ace7-49ce-9b35-acce4bf876cf	Live Long and Prosper
+trk	424	c49b5e07-a512-4d08-8fe1-07caefb28eec	Mirror Universe Intrusion
+trk	426	bf6c66c7-4795-4ab0-be98-65c771a7ef01	Bat'leth
 trk	427	377bc253-f9a2-45b0-bbf8-e027f2d5dc4d	General Chang, Cold Warrior
+trk	428	ce59648a-dc9d-494d-ba5e-97e8d4636017	A Good Day to Die
+trk	429	32c2bfbf-e2ea-46c3-b369-1e203c8af716	Storied Veteran
+trk	431	f177de31-b7f0-46d3-a3a9-a708f8d4a95f	Worf, Intelligence Contractor
+trk	432	fc44d954-dc08-4071-8e2b-e65090de65dc	The Duras Sisters
+trk	433	1a7bda12-b72b-49e6-a086-644d0560ddc9	Gowron, Eager for Battle
+trk	434	51161805-0955-49b7-97f3-20b002c9b86e	L'Rell, Fierce Visionary
+trk	435	f2abd2b6-c60f-4667-925b-423c0a135ebc	Worf, Honor-Bound Warrior
+trk	436	9cece6b4-1257-40c2-adc1-52409cafbf41	Bat'leth
 trk	437	1b1b6249-5c4b-4ccf-a860-22532a0d958b	General Chang, Cold Warrior
+trk	438	3c2a5428-a557-435e-b226-96159e9f16e7	A Good Day to Die
+trk	439	c1b5426e-9ba1-40c0-9954-2fc00da8e04f	Storied Veteran
+trk	441	9af008b2-d11f-4413-85aa-a45c0f6efa8f	Worf, Intelligence Contractor
+trk	442	56c8d25b-9114-4412-af57-db7f8c2e20c4	The Duras Sisters
+trk	443	20cbf82c-c8c1-4bd3-b701-7e8509a7f56d	Gowron, Eager for Battle
+trk	444	4b59e50c-21e2-480d-b5b5-cc6c1eeed57a	L'Rell, Fierce Visionary
+trk	445	7739283d-25e9-4779-9f95-504a03c502d7	Worf, Honor-Bound Warrior
+trk	446	baeaac4a-a004-4a6d-842a-596cb148574b	Antagonist Incorporator
+trk	448	53941fd6-1913-4848-8fa1-7fff7ea3062b	U.S.S. Enterprise-A, Free Spirit
+trk	452	c54b4e4a-72b3-481c-9eda-647fdcb04ff2	Romulan Bird-of-Prey
+trk	453	142b8804-3bfd-4735-998f-3592b10deb80	Subcommander T'Pol
+trk	456	2c881def-1b77-42ed-9fdc-45f0ebbf843d	Elim Garak, Simple Tailor
+trk	457	53401f53-aebe-4538-82be-9d6916c01c76	Georgiou, Terran Emperor
+trk	461	2aad44f7-e3f4-46e9-b633-eb939dfd8e51	U.S.S. Reliant, From Hell's Heart
+trk	463	40c41dc2-f67d-4199-a1bb-eb15c776fe8e	D-7 Battle Cruiser
+trk	466	b65e91bf-565f-4fb1-b8e6-7a7cd57f84d6	Branching Timeline
+trk	467	aaaeeb0f-eb6f-41d6-be1f-7f8f14c4e82a	Captain Jonathan Archer
+trk	468	62c9b897-bc43-47f9-8939-13faaa0b7c6b	Captain Pike, Fullness of Time
+trk	469	71f54ed7-1def-4c3f-9be5-11332fce751f	Dr. Joseph M'Benga
+trk	474	f0a16d25-ab32-4744-8b61-3774dd28a2c1	U.S.S. Discovery, at Black Alert
+trk	475	99f2ef04-7134-446a-b1d1-5e54d76adcb8	Borg Cube
+trk	476	2dad81b5-caf4-4d1c-9a29-8b556984d3f1	Hit It!
+trk	477	f40be112-e41d-456b-919f-14b2dee7e6ee	Kira Nerys, Firebrand
 trk	478	741798a7-67df-4b8b-b0e9-dd8c2797ccc4	Crystalline Entity
+trk	479	473aab2f-cfc2-430b-b785-4b6a491bcd28	Deep Space 9
+trk	480	7e8f0912-a8c5-44ce-b39b-eb0f63da07a4	Engineered Explosives
 trk	481	12a2e90a-6776-4213-b696-fd48a4bcf0a2	U.S.S. Enterprise-D, Galaxy-Class
+trk	482	5b5385bf-54b3-4885-84c9-a383a4b95a5b	Plains
+trk	483	a0a6038e-f812-415d-b54a-0229d338e969	Island
+trk	484	a75fe304-8764-4868-8ee8-d5fb094386c0	Swamp
+trk	485	95409599-e700-4e16-bea2-bc7b607f9cc4	Mountain
+trk	486	17923ce1-56db-4f18-b6a7-fda2eca7edbd	Forest
 trk	487	8868a343-2e57-45a8-9e53-971211fe5cc9	Hallowed Fountain
 trk	488	6ccd8ea5-b8c9-4012-b3a0-dbc2b95538c3	Watery Grave
 trk	489	32b61634-d3be-4d78-8e52-357b6be9ad61	Blood Crypt
@@ -103441,14 +104016,63 @@ trk	493	a3f14044-9835-4d78-8c1a-adf6e2c67d85	Steam Vents
 trk	494	e97cb934-fc79-4010-829f-bc9bb0ba7635	Overgrown Tomb
 trk	495	1ff8510e-bec2-401b-8e6e-cc350f805574	Sacred Foundry
 trk	496	638731af-512e-42bd-813a-d540a36c8ead	Breeding Pool
+trk	497	a6eb4655-ea1d-426d-a75b-a0a341362cd3	Captain Jean-Luc Picard
+trk	498	f0bca1fd-0eef-4563-84c7-05b59ff9e015	Command Subadjunct
 trk	500	179d50b5-cab1-482c-85a6-36f59335b562	Dr. Beverly Crusher
+trk	501	f1c86545-0252-46cc-ac35-58d126f55997	Peace in Our Time
+trk	502	ba15432e-64a4-49fe-9f89-86129d332bcc	Primary Unimatrix Adjunct
+trk	503	1205651a-aa71-4bcb-ade7-0ab101ad95ad	There's Coffee in that Nebula
+trk	504	de52d77a-f5af-4392-b53b-60ce79328d3f	Deep Space Scan
+trk	505	191809e6-87f5-414e-a45e-62988f092832	Lieutenant Commander Data
+trk	506	3c627570-844f-49d6-a788-dda7ef4f399c	Lt. Cmdr. Geordi La Forge
+trk	507	fbe692d2-e8ae-464b-84a9-fe7063e806c0	Seven of Nine, Unassimilated
+trk	509	423ada94-a251-40f4-ae53-99fbb073d550	Death Is Irrelevant
+trk	510	5e51ded6-4b58-4169-a292-26832918dbef	Organic Avulsion Unit
+trk	512	ea664a07-fac6-4703-8fd2-f3f3d7257b60	Resistance Is Futile
+trk	517	b1126734-d3df-42f0-ba4e-39cbf8f3c4d5	Q, Stacking the Deck
 trk	520	2e462516-fddb-4e76-836b-b590d37e783f	Captain Kathryn Janeway
+trk	523	d9d45bf1-9007-4d5d-bc32-fb11a353edc5	Locutus, the One Who Speaks
+trk	524	969a7271-30d5-4e6c-aa6b-1c56dfd69e09	Worf, Honor-Bound Warrior
+trk	525	98308586-5ac3-4130-878b-d235b9e1343c	Replicator
+trk	526	00474b9c-620f-44dc-912f-5d1972a1eb22	Dr. McCoy, Surly Surgeon
+trk	527	91f96c5f-e3ce-4c94-9944-ce9b1b5a097a	Excalbian Gamemaster
+trk	530	766eead5-0f5d-4bd5-a3ad-8795b0960bc6	Saavik, Stoic Student
+trk	532	65d09a80-440a-4686-a0bb-b2be19112f8e	Troubling Tribbles
+trk	533	f483991b-5291-42a8-89c3-f51629530bb1	Ensign Pavel Chekov
+trk	534	d557515e-bf1d-4781-aa44-eb2638cfe1ba	Kobayashi Maru Scenario
+trk	535	e855f782-9221-4b6f-a182-b738da4b7d48	Mr. Spock, Science Officer
+trk	536	971cbb33-7374-4b08-8765-8ccb6f5858d1	Nyota Uhura, Communications
+trk	537	008db37b-1b2e-4554-b927-8a75ce4ff668	Scotty, Miracle Worker
 trk	539	443083e7-dfee-4889-b8ed-82d6876f6402	General Chang, Cold Warrior
+trk	540	9d0dce51-002b-43b6-ac0e-d78c062b99b7	Khan, Vengeful Heart
 trk	541	d633a0bf-bb3a-471f-a286-7686da81bb01	Salt Vampire
 trk	542	a7f991c5-0a55-4d34-8dee-d3f206167be1	Captain James T. Kirk
+trk	547	b2f934db-403b-4f6a-9abc-d48eb9140e49	Live Long and Prosper
+trk	548	ddfae5a3-7f3f-48f4-bcdf-6c7729504289	Mirror Universe Intrusion
+trk	550	b162c8cd-865d-40a8-9bc1-e11702ac27d2	U.S.S. Enterprise-A, Free Spirit
+trk	552	dc9fa6b6-6cb9-4fc9-bda0-2bb9a1fe8313	U.S.S. Reliant, From Hell's Heart
+trk	553	a30e0582-b5de-40f0-a284-3251e4092eda	D-7 Battle Cruiser
+trk	554	7351dc6f-d162-4854-930d-bdeaf87c684b	U.S.S. Discovery, at Black Alert
+trk	555	953e0763-3788-4a97-8e2f-394cc2649e43	Borg Cube
+trk	556	65585609-563d-47e9-92b8-d4b65baa95bd	Deep Space 9
 trk	557	cb823267-b230-40f3-a1eb-140657df2b1e	U.S.S. Enterprise-D, Galaxy-Class
+trk	569	bce0a2eb-20a2-423b-bf17-17029f3bd233	Command Subadjunct
+trk	570	cfb05333-acea-4bf0-973b-293d9e69751a	Conquest Mission
+trk	571	1f564242-e841-4f70-9d48-36ff410a25c4	Malfunctioning Holodeck
+trk	572	8888dc53-c16f-4894-8d0b-f86a33c41cf1	Cha'DIch Investigator
+trk	573	bdfb5e42-1950-4dd8-b1d6-21170ec93159	Hive Mind Coprocessor
+trk	574	934612d6-1809-46cf-a917-5a32718bddd2	Cold-Blooded Crew
+trk	575	d15242ea-4460-4804-ba0e-09cb7f24bc50	Syndicate Liquidators
+trk	576	22af225f-8b59-4e6b-b469-a2272c7d487f	Locutus, the One Who Speaks
+trk	577	c1cf4918-f763-4355-abc6-abb402de8224	Earth, Sector 001
+trk	578	d7454d76-529f-4217-8490-cae65bec8543	Risa
+trk	579	4103795c-dbb8-414f-b580-6b0084b8e212	Vulcan
 trk	1701	b1cfb3f1-f1ad-47aa-a7f0-ff3ebd2ffa5e	Captain James T. Kirk
+trk	1702	bd0c3372-4cc5-489c-b8fb-ea11e700fa16	Mr. Spock, Science Officer
+trk	1703	e5484552-37a3-41ef-b618-ee92fb418c85	Lieutenant Commander Data
 trk	1704	e40fe4b6-81c0-4822-9668-2dac7820dcb9	Captain Kathryn Janeway
+trk	1705	4016a92a-b662-4d22-8072-6c1ccb77c2c3	Seven of Nine, Unassimilated
+trk	1706	f0028b63-3e33-47ab-88ed-bdbe5705ecf7	Lt. Cmdr. Geordi La Forge
 tsb	1	96c9646b-9223-4d4f-a7d0-fc6208cac8b8	Akroma, Angel of Wrath
 tsb	2	8a63fab4-8e9d-4972-9e3d-51ce8575535b	Auratog
 tsb	3	251880e9-a472-4f33-9988-4871d31aa1d9	Celestial Dawn
@@ -105993,18 +106617,21 @@ unk	CW02	35c52c52-7749-48c7-be46-cd3914ee3e97	Unclaimed Cat
 unk	CW03	23c7a16c-bc18-4946-a13f-46f0915266e6	Incisor Steed
 unk	CW05	1e818652-6d6a-4643-b339-427c66cc2adc	Catch-Up Mechanic
 unk	CW11	6e4b2cff-9fa2-40f4-9b8d-94d537b97c80	Drive to Work
+unk	CW11a	471489b5-9b3b-4e96-ae4e-63e3f2caaedb	I'm Going On An Adventure!
 unk	CW12	13353810-8002-4559-afcc-9114c9e16633	Taught by Serra
 unk	CZ02	4d71bb44-1011-471c-9341-39efb2a5aaad	Spare Changeling
 unk	CZ03	b4f0d547-1817-42c4-b44d-9c2519adb156	Blended Twistling
 unk	MA04	a7475e46-2dd9-487e-8cbb-5a259fb5ec99	The Strixhaven-Lorwyn Rover
 unk	MA30	7941db9e-e63c-497b-a35b-2c3dd2dc70d4	Phila, Unsealed
 unk	MG01	d06db963-9574-4e49-83e7-84e931ff7a28	Minnea, Planar Tourist
+unk	MG05	b2be17ee-af9f-4667-a05b-d4e71c959897	The Generational Historian
 unk	ML01	628effd3-d7f9-4c79-bb4c-07cda183ef6d	The Waffle Restaurant
 unk	MR01	7e6e84d8-f40d-4e58-b795-818a69121d01	Polis the Planeshifter
 unk	MU03	6dc209f6-e863-4c66-be0f-8bb01df99ad9	Barce, Friend Finder
 unk	MW02	5e65800a-6dbd-44ec-b630-79fc4ad6ffe1	You, Magic Playtester
 unk	MW02a	88526e64-0b1a-48b4-9f11-8233871f2665	You, Iterative Playtester
 unk	MZ01	a0af46f8-5abf-4436-9bb4-906ad44420d6	The Unknown Wizard
+unk	MZ01a	b18c0fd0-5aa3-4e9d-a363-54602423d59d	The Flavormancer
 unk	MZ02	560960de-7f35-480e-b343-057c903d1651	Delphia, Undecided
 unk	MZ03	a16b3903-a5e6-436d-bdd2-f5e7cb94f71e	Gen, Confider of Ages
 unk	MZ03a	dff4f5f8-dfa1-4674-9469-7f3c035cf9cc	The Faction Dragon
@@ -106056,6 +106683,7 @@ unk	RB04e	c280fe64-1cda-481c-881c-b667bb8dcc19	Rankle, Master of Pranksters
 unk	RB04f	315e87dd-04f4-4bb0-a939-745a617effb5	The Magic Bandit
 unk	RB04g	876cf344-8d2d-4c7f-8faa-394682269931	Yet Another Night in Vegas
 unk	RB04h	805a54a8-da32-410b-9262-c1482eb3d08b	A Chaotic Night in Vegas
+unk	RB04i	550107d4-05ff-49db-90db-e0dd357f7e0b	The Swamp Kitten
 unk	RB05	f3a982d8-20ed-4f53-89ed-8db8194c31e0	The Keeper of Dark Pacts
 unk	RB05a	f880045c-7894-4f7c-8978-e950d835178e	Mister Cheddar, Cheese Sliver
 unk	RB05b	d2ed646d-8511-4592-8410-80734ae256e9	Surprise, Nerd!
@@ -106084,7 +106712,7 @@ unk	RC07a	38f2371f-fc9f-4fe9-b6a0-43c966289066	Call Up Emrakul to Help
 unk	RC07ba	6ad2d87a-1ddb-4803-8995-c4c6027d9c74	The Battle of Dragon Brothers
 unk	RC07bb	6ad2d87a-1ddb-4803-8995-c4c6027d9c74	Fate Reforged
 unk	RC08	1739604c-9fa5-4fea-8add-1516630a46bb	New Magic Game Plus
-unk	RC09	7f1bfaa7-0105-45f7-873d-3b72c3277dab	Everyone's an Imposter
+unk	RC09	7f1bfaa7-0105-45f7-873d-3b72c3277dab	Everyone's an Impostor
 unk	RG01a	e96e493e-7f45-420d-b416-2b48b17a8cfd	Chatterstorm and Awaken the Woods
 unk	RG01b	d5226a9b-14bd-4b34-8abb-67ac59e7a017	The Disciple of Nissa
 unk	RG02	56f28cc7-3cec-4f2e-9a27-d7c349b27f7d	Retto, Family Racer
@@ -106093,6 +106721,7 @@ unk	RG02b	26044bf4-02cf-46be-8b6d-ef8825029205	Locus Cobra
 unk	RG02c	91681696-ab22-4fc6-823b-79629f13e32d	Lona, Tracker of the Known
 unk	RG02d	579dd351-4089-4c0e-a7bb-e2d673d5597e	Questing Cosplayer
 unk	RG02e	a4aa6d57-d516-453e-b8f9-dc42308f4c33	Land Station
+unk	RG03	7a08a1db-ec32-4783-baff-8fb09219f9ee	The Local Guides
 unk	RG03a	afbc9e33-679c-4a6f-8154-739602d59a50	Maître Tree
 unk	RG03b	8cdb7e98-727d-4c64-ab1d-178209dede57	Mr. Wiggles, Helpful Butterfly
 unk	RG03c	23bc659f-33a8-45fd-8c0c-73b7e815c73c	Pulse of the Hunter Maze
@@ -106163,6 +106792,7 @@ unk	RU03c	b4de2229-185c-4f54-a9e3-9947c41606e5	The Covert Blue Mage
 unk	RU03d	98c90956-2564-4e53-9f13-85ae8094481d	Second Stage of Magic Design
 unk	RU03ea	565abdb5-bc7d-43d2-b39f-5b6a5f4b9302	Yeah Nah
 unk	RU03eb	565abdb5-bc7d-43d2-b39f-5b6a5f4b9302	Nah Yeah
+unk	RU03f	d498e579-9d3d-4cc9-bcd0-7d97be5cf9d6	Split into Three Parts
 unk	RU04	2963d356-b963-4cdc-aa8e-b1c103d6afa9	Rinta, Cousin of Sitka
 unk	RU04a	7f7b811a-a49d-4ccd-98a0-9b46b3b988e0	The Clever Magician
 unk	RU04b	1908ff82-9a3d-42fe-820a-4071103065cb	Toothy and Zndrsplt
@@ -106204,6 +106834,8 @@ unk	RW04c	360f9e25-8a5e-4255-bd3f-1d9ea6be9247	Draw Team Lines
 unk	RW04d	2483bde0-6898-4527-bfa5-23b3070594f9	The Miniaturizer
 unk	RW04e	3c05f4ae-13d3-4495-8a4a-b4d65941537d	Theopholos, Order Acolyte
 unk	RW04f	69b51307-179b-4299-847a-6054ede6a6de	Try-My-Deck Elemental
+unk	RW04g	d67bb6e4-ab74-459e-b8cb-193fc0db22f4	Robby, Another Dwarf
+unk	RW04h	0f9e1500-3d0a-4f8d-90ee-5cb9d569d01f	Bobby, Another Dwarf
 unk	RW05a	fedeaa2a-01cb-4302-8ad0-a6f86ad55a7e	Agoraphobic Phyrexian
 unk	RW05b	659d601f-a351-43c3-8662-c1bbe0e3e146	Form of the Stax Player
 unk	RW05c	5bd9ca12-c7e6-4637-aa21-3e1ea4414a90	The Sixth Seraph
@@ -106257,6 +106889,7 @@ unk	RZ03r	7150c1d7-f4f9-4063-bd3d-563f0cdcd21c	The Wizardly Barge
 unk	RZ03s	322dd7a1-848a-43b8-9ab4-0556d3a7c4a5	Evy, Fang Keeper
 unk	RZ03t	7667b334-6184-4ec5-b46c-90a38a36ade7	The Ice Dancer
 unk	RZ03u	f4fc0551-8c69-4f11-8631-2e4b870e4407	The Sad Creaturez
+unk	RZ03v	8d5af209-44ec-4ccd-b863-d77a346bf5b6	Tarelily, Lovestruck Archer
 unk	RZ04	bc993271-189c-4ebb-92c3-f9c8593acd00	The River Warlock
 unk	RZ04a	fa81d58e-2157-46e1-8c22-2ca59ccd230c	Forestfolk
 unk	RZ04b	53eca7e9-7e4e-4c9c-9ef1-f71c9a5a171d	Hadran, Naya Sunseeder
@@ -106298,6 +106931,8 @@ unk	RZ05k	be3dc3f8-33a1-43ce-8f7a-d16982b8a1b6	Tarkiran Towelsbane
 unk	RZ05l	d9943669-dc56-49b2-9a65-35ec7be69a18	The Convention Enthusiast
 unk	RZ05m	c9b93a82-cbd7-440c-87ec-016f24ba4b44	Saga of Krark Losing His Thumb
 unk	RZ05n	023f1b43-e5e1-4312-9e33-b459c40543e8	Drop Bear
+unk	RZ05o	2e587782-af02-4383-bda6-422e0d771704	Wheel of Not Ideal
+unk	RZ05p	9c995cb6-89ed-43f0-8547-741e0afe8c77	Niv-Mizzet's Diary
 unk	RZ06	8aaddcc9-2c6d-4baf-a91e-a68a07709218	The Cobra King
 unk	RZ06a	37a04a94-d5ed-4f30-a750-fe6db7add1d1	Arvad of the Weatherlight
 unk	RZ06b	3091cc09-a088-4836-8423-7971ce6be702	Autumn Willow and Baron Sengir
@@ -106308,6 +106943,8 @@ unk	RZ06f	1159a05d-04ab-4a27-9e8b-374534725a11	Blue Screen of Death
 unk	RZ06g	75a0e0c4-1adf-429c-94cc-7794a8a2b247	Monet, Sensei of the Sewers
 unk	RZ06h	2a1f08aa-05a3-4051-b19f-141b49e422a1	The Snapstone Wielder
 unk	RZ06i	4bfea33c-0aec-456b-aeef-23878667c2d2	The Bird Champion
+unk	RZ06j	80b21646-880a-4793-acb0-d959b8e7ab47	Emerin, Shivan Angel
+unk	RZ06k	ab1a1322-1fe1-45e5-9a9d-b30267962cce	The Meld Hound
 unk	RZ07a	67dea3ca-586a-468c-96ab-761a05076e1c	Colossal Dreadmaw and Storm Crow
 unk	RZ07b	9c2395f6-0bb9-465f-8cd3-fb742a496da1	Groaaaaag, Hungry Monster
 unk	RZ08	de521917-2e17-41e6-b06c-e73ce8d80d12	The Octopus Official
@@ -106389,6 +107026,7 @@ unk	UR04a	0fc4d8db-8bad-48b6-9901-7a9784506e89	Guess Who it Is!
 unk	UR04b	cb02f45f-6b44-4cc1-a42d-40dd51639c32	Jeska and Kamahl
 unk	UR04c	3c28857b-f925-444f-9151-6d0de5ffbe45	Tarkir Charm
 unk	UR05	75e3523c-7cd0-4b7f-b39c-4326ae4641cf	Joven and Chandler (Playtest)
+unk	UR11	84c48d74-6ae4-4955-bd26-3db4884965a6	CGI Fight Sequence
 unk	UR11a	be0f0e31-9d18-4bff-95e8-149a5e11e452	Nevermind
 unk	UR11b	d08abadb-b18c-44b4-b07f-719884608fdb	Tax Bolt
 unk	UR13	3d62ce9f-a680-492b-ade1-52c6813604d4	Furnace Oriflamme
@@ -106402,6 +107040,7 @@ unk	UU03a	24648d5e-88b8-4353-97f4-5c7e50854a8b	Team Mage
 unk	UU03b	299b4f97-c38b-467a-8c82-013d8cc3532c	Ulgrotha Charm
 unk	UU03c	f427528f-2c2f-4061-b101-29de24825989	Xerex Squire
 unk	UU03d	d0cdcdf3-9aa0-4f0b-b332-e16c53151388	Higher Level Zone Monster
+unk	UU03e	9f3ab69c-1923-4dac-825b-83fa31ed54a5	Mysterious Hero
 unk	UU04	9fafc6d4-0df8-4876-bcfc-a1bee01bc461	Farseeing Flockmate
 unk	UU04a	2b547312-55af-4387-8333-6043e7609f2d	Windy City Aven
 unk	UU04b	b6ad5252-4117-4946-8397-9419f853d685	Devoted Jeskai
@@ -112468,6 +113107,39 @@ yeoe	38	ff61b992-38bc-4a8e-aaf8-aa6c4aa6fadd	Sulfur Falls
 yeoe	39	f565f893-a59d-4246-995e-6bf65ab438d8	Sunpetal Grove
 yeoe	40	d69e6465-dadf-4f3f-8427-2028870d801e	Woodland Cemetery
 yeoe	41	89916ced-4852-4547-ae8a-ec9bd8729913	Flametongue Kavu
+yfra	1	c76f89d7-f5b0-407e-aa21-709f3a985062	Oko, Lord of the Fae
+yfra	2	b2d189b0-0669-4507-927e-a0c7ce34e559	Prophet of the Planeswalker
+yfra	3	e1badd54-6e41-4c0d-980a-c7ea0f17c50a	Valgavoth, the Lifeline
+yfra	4	aa00369e-52fc-4e88-97cd-24ab2fc84f81	Asymmetry Sage
+yfra	5	3af0d515-70fe-4e14-a7f9-915f148fafb8	Crux of the Theory
+yfra	6	b563b44a-f717-420d-b401-ff0fdcdbc4f9	Echogoyfs
+yfra	7	342d5ee0-2681-4232-936a-63e080c34c80	Jace's Saga
+yfra	8	b569e5ae-8072-4cad-890f-d03e5389ce95	Paradox Kraken
+yfra	9	48377cda-798e-48c6-b653-7156468faf14	Remnants of Beleren
+yfra	10	0824af60-39fa-4d04-9add-b8cf684df1e4	Avoided Stairwurm
+yfra	11	82576c26-3f07-4906-a051-e02165de4b2f	Bend Mortal Limits
+yfra	12	4474b1fc-5c62-41cf-90cd-e781bd7fa804	Boisterous Clique
+yfra	13	bebc14ff-cb46-431c-9d01-c8c76c80e8d6	Searing Soloist
+yfra	14	f7f073e7-b18e-4040-a028-d62b153b841a	Sparks Ablaze
+yfra	15	f6b0982a-68fd-4ce9-9d71-edb76ef82016	Etali, Primal Garden
+yfra	16	1be3000a-cad9-4173-8802-041f3fe5d38b	Nylea's Oracle
+yfra	17	09ed236e-f4e8-4e75-86be-3900196cfe5b	Selfless Germinator
+yfra	18	150f57ed-ae07-49e1-ab0a-f14c01f0d7f3	Banescale Serpent
+yfra	19	46d22d0d-544f-4ce4-8bc4-bf5f4f1aec0a	The Bloodbile Swarm
+yfra	20	6772d2a4-5a90-44c7-afec-514d5c398c9d	Change the Narrative
+yfra	21	de044570-8a01-4c32-83ca-01735daf894c	Diabolic Formula
+yfra	22	73f247bd-02a7-4a0c-a4f0-3a945bb8b883	Dina, Flesh Sower
+yfra	23	1e09568e-8927-454b-99a5-4776fa51fa31	Enter the Eternities
+yfra	24	817b5f83-14eb-4352-b551-04dbb06c8032	Flourishing Forces
+yfra	25	7b61ec1a-cc52-4007-93f5-d7051974e04c	Killian, Spotlight Chaser
+yfra	26	818c927e-8128-437e-bec7-2f195d58f981	Quintorius, Fate Splitter
+yfra	27a	e6715141-7e4e-4bf4-bd13-0e496d1c2e28	Rootha, Ardent Artisan
+yfra	27b	e6715141-7e4e-4bf4-bd13-0e496d1c2e28	Next Iteration
+yfra	28	c2f7c018-e93e-483b-8e5b-bbd2204c2247	Salvaged Imitations
+yfra	29a	45695988-6b78-468a-b12b-bcb92c405761	Zimone the Calculating
+yfra	29b	45695988-6b78-468a-b12b-bcb92c405761	Simple Subtraction
+yfra	30	32493b0a-8671-4b80-a5af-ea2d17cbc3e1	Willbound Quill
+yfra	31	b9a24075-31e3-42cb-a187-ff108890aa48	Potential Horizon
 ylci	1	d5548e53-4073-40e5-8eac-f753f65fa7c7	Cogwork Progenitor
 ylci	2	aaae9392-e89c-4075-b9bf-af42c54571ab	Legion's Chant
 ylci	3	c6d34e47-706c-4360-ae62-1e68771fb5ba	Radiant Smite

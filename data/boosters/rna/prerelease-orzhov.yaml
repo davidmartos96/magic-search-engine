@@ -1,0 +1,32 @@
+# Ravnica Allegiance -- seeded prerelease Guild Booster (Orzhov).
+# Ravnica Allegiance prerelease kits were seeded by guild: a ~15-card guild-colored pile
+# (11 common + 3 uncommon) plus the folded, guild-colored foil year-stamped promo
+# (2:1 rare:mythic). Seeded via the wedge/guild idiom -- cards in the guild's colors carrying
+# the guild watermark or no watermark, excluding generic colorless. Matches the RTR/GTC model.
+name: "{set_name} Seeded Prerelease Booster Orzhov"
+filter: "e:{set} id<=wb is:baseset (w:orzhov or -w:*) -(c:c -w:*)"
+pack:
+  common: 11
+  uncommon: 3
+  promo: 1
+sheets:
+  common:
+    query: "r:c"
+    count: 32
+  # Wizards specifies eight promos per guild; the stamped inventory has 40 cards.
+  # Guild affiliation plus observed unwatermarked promos constrains the assignments.
+  # Assumes the 40-card inventory is complete and guild pools do not overlap.
+  # https://magic.wizards.com/en/news/feature/ravnica-allegiance-prerelease-primer
+  # Existing 2:1 per-card rare/mythic weights remain estimates.
+  # Unresolved: which of Font of Agonies, Gutterbones and Priest of Forgotten Gods
+  # belongs to Rakdos. Retain all three candidates here; this is a superset, not
+  # a claim that the physical guild pool contains 9 promos.
+  promo:
+    foil: true
+    any:
+    - rawquery: "e:prna promo:prerelease cn:205s"
+      count: 1
+      rate: 1
+    - rawquery: "e:prna promo:prerelease cn:15s,27s,74s,76s,83s,170s,187s,212s"
+      count: 8
+      rate: 2

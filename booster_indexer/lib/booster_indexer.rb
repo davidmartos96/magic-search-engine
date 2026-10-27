@@ -181,10 +181,17 @@ class PreprocessBooster
     end
     if sheet["use"]
       use = sheet["use"]
-      raise "In #{@code} use:#{use} but no such sheet found" unless @sheets[use]
-      # Call it again in case there's an use chain
-      # and then to do any other kind of processing
-      process_sheet(@sheets[use].merge(sheet.except("use")), filter)
+      if @sheets[use]
+        # Call it again in case there's an use chain
+        # and then to do any other kind of processing
+        process_sheet(@sheets[use].merge(sheet.except("use")), filter)
+      elsif use.include?(".")
+        # Other boosters have already expanded their queries in their own
+        # context, so do not apply this booster's filters to the shared sheet.
+        @indexer.booster_sheet(use).merge(sheet.except("use"))
+      else
+        raise "In #{@code} use:#{use} but no such sheet found"
+      end
     elsif sheet["any"]
       sheet.merge(
         "any" => sheet["any"].map{|subsheet| process_sheet(subsheet, filter)}
@@ -320,27 +327,49 @@ class BoosterIndexer
   def initialize
     @common = nil
     @boosters = {}
+    @booster_data = {}
   end
 
   def load_data
-    BOOSTER_DATA_ROOT.glob("*.yaml").each do |path|
-      basename = path.basename(".yaml").to_s.delete("_")
-      if basename == "common"
-        # common.yaml is a bare sheet map, with no top level keys of its own
-        @common = YAML.load_file(path)
-        @common.each do |sheet_name, sheet|
-          validate_sheet_keys(sheet, "common.yaml sheet #{sheet_name}")
-        end
-      else
-        @boosters[basename] = YAML.load_file(path)
-      end
+    common_path = BOOSTER_DATA_ROOT + "common.yaml"
+    # common.yaml is a bare sheet map, with no top level keys of its own
+    @common = YAML.load_file(common_path)
+    @common.each do |sheet_name, sheet|
+      validate_sheet_keys(sheet, "common.yaml sheet #{sheet_name}")
+    end
+
+    booster_paths = BOOSTER_DATA_ROOT.glob("*/*.yaml").sort_by do |path|
+      set_code = path.dirname.basename.to_s
+      type = path.basename(".yaml").to_s
+      type == "default" ? "#{set_code}.yaml" : "#{set_code}-#{type}.yaml"
+    end
+    booster_paths.each do |path|
+      set_code = path.dirname.basename.to_s
+      type = path.basename(".yaml").to_s
+      code = type == "default" ? set_code : "#{set_code}-#{type}"
+      @booster_data[code.delete("_")] = YAML.load_file(path)
     end
   end
 
   def process_data
-    @boosters.each do |code, data|
-      @boosters[code] = PreprocessBooster.new(self, code, data).call
-    end
+    @booster_data.each_key { |code| process_booster(code) }
+  end
+
+  def process_booster(code)
+    raise "Loop detected while processing booster #{code}" if @boosters[code] == :in_progress
+    return @boosters[code] if @boosters[code]
+    data = @booster_data[code]
+    raise "No such booster #{code}" unless data
+
+    @boosters[code] = :in_progress
+    @boosters[code] = PreprocessBooster.new(self, code, data).call
+  end
+
+  def booster_sheet(use)
+    code, sheet_name = use.split(".", 2)
+    sheet = process_booster(code).dig("sheets", sheet_name)
+    raise "No such booster sheet #{use}" unless sheet
+    sheet
   end
 
   def call

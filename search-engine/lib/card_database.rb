@@ -81,7 +81,7 @@ class CardDatabase
   SETS_PATH = INDEX_ROOT + "sets.json"
   CARDS_PATH = INDEX_ROOT + "cards.jsonl"
   BOOSTER_INDEX_PATH = INDEX_ROOT + "booster_index.json"
-  PRODUCTS_PATH = INDEX_ROOT + "products.json"
+  PRODUCTS_PATH = INDEX_ROOT + "products.jsonl"
   LIMITED_FORMATS_PATH = INDEX_ROOT + "limited_formats.json"
 
   # Arena has no code for an individual Alchemy set. It files all of them under
@@ -101,12 +101,14 @@ class CardDatabase
   # out, and set_codes_spec pins what does hold: the year is the calendar year
   # of the last Alchemy set in it, years do not interleave, and every Alchemy
   # set is listed exactly once - so a new one fails the spec until it is added.
+  #
+  # TODO: figure out a way to make this update automatically from Arena data
   ARENA_ALCHEMY_YEARS = {
     "y22" => %W[ymid yneo ysnc],
     "y23" => %W[ydmu ybro yone],
     "y24" => %W[ywoe ylci ymkm yotj],
     "y25" => %W[yblb ydsk ydft ytdm yeoe],
-    "y26" => %W[yecl ysos],
+    "y26" => %W[yecl ysos yfra],
   }.freeze
 
   def initialize
@@ -595,7 +597,7 @@ class CardDatabase
   end
 
   def products_data
-    JSON.parse(PRODUCTS_PATH.read)
+    PRODUCTS_PATH.each_line.map{|line| JSON.parse(line) }
   end
 
   def limited_formats_data
@@ -646,6 +648,7 @@ class CardDatabase
   def load_from_index!(root)
     load_sets!(root + "sets.json")
     load_cards!(root + "cards.jsonl")
+    load_rulings!(root + "rulings.jsonl")
     resolve_references!
     setup_artists!
     setup_sort_indexes!
@@ -695,6 +698,19 @@ class CardDatabase
       end
       card.first_release_date
       card.last_release_date
+    end
+  end
+
+  # Each ruling is one object shared by all the cards it applies to.
+  # The file is sorted by date then text, which is also the order
+  # every card lists its rulings in.
+  def load_rulings!(path)
+    path.each_line do |line|
+      date, text, card_names = JSON.parse(line, freeze: true)
+      ruling = Ruling.new(date, text)
+      card_names.each do |card_name|
+        @cards.fetch(card_name.downcase.normalize_accents).add_ruling(ruling)
+      end
     end
   end
 
