@@ -4553,7 +4553,7 @@ Portal Manipulator  CLU-40  MBCWHITE
 Rally the Monastery  TDM-19  MBCWHITE
 Reprobation  MH1-23  MBCWHITE
 Requisition Raid  OTJ-26  MBCWHITE
-Scars of the Veteran  ALL-16  MBCWHITE
+Scars of the Veteran  CST-16  MBCWHITE
 Secret Rendezvous  STX-26  MBCWHITE
 Sentinel of the Eternal Watch  ORI-30  MBCWHITE
 Sheltered by Ghosts  DSK-30  MBCWHITE
@@ -4571,7 +4571,7 @@ Valor  JUD-32  MBCWHITE
 Vow of Duty  C15-84  MBCWHITE
 Your Temple Is Under Attack  CLB-52  MBCWHITE
 Alirios, Enraptured  THB-42  MBCBLUE
-Apprentice Wizard  DRK-21  MBCBLUE
+Apprentice Wizard  2XM-40  MBCBLUE
 Azure Fleet Admiral  LCC-144  MBCBLUE
 Behold the Multiverse  KHM-46  MBCBLUE
 Blur  CLB-58  MBCBLUE
